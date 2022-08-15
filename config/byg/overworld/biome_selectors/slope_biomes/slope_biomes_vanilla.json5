@@ -1,0 +1,28 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+Appearing on sloped terrain, near mountainous terrain, & BELOW weirdness 0, here is the "slope_biomes" layout:
+
+[ ARID-ICY, DRY-ICY, NEUTRAL-ICY, WET-ICY, HUMID-ICY ],
+[ ARID-COLD, DRY-COLD, NEUTRAL-COLD, WET-COLD, HUMID-COLD ],
+[ ARID-NEUTRAL, DRY-NEUTRAL, NEUTRAL-NEUTRAL, WET-NEUTRAL, HUMID-NEUTRAL ],
+[ ARID-WARM, DRY-WARM, NEUTRAL-WARM, WET-WARM, HUMID-WARM ],
+[ ARID-HOT, DRY-HOT, NEUTRAL-HOT, WET-HOT, HUMID-HOT ]
+
+All keys passed in must be valid in the biome registry!
+"minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
+*/
+{
+	"value": [
+		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
+		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
+		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
+		[ "minecraft:savanna_plateau", "minecraft:savanna_plateau", "minecraft:forest", "minecraft:forest", "minecraft:jungle" ],
+		[ "minecraft:badlands", "minecraft:badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ]
+	]
+}

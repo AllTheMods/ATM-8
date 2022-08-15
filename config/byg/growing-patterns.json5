@@ -1,0 +1,2961 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+{
+	/* Sapling patterns for a given block.
+	   Not all blocks work, only blocks using "FeatureGrowerFromBlockPattern"
+	*/
+	"sapling_patterns": {
+		"byg:araucaria_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:araucaria_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:araucaria_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:aspen_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:aspen_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:aspen_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:aspen_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:baobab_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:baobab_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:baobab_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:blue_enchanted_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:blue_enchanted_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:blue_enchanted_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:blue_spruce_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree_medium1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree_medium2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree_medium3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree_medium4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_blue_tree_large1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:brown_birch_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_birch_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_birch_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_birch_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_birch_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:brown_oak_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_brown_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_brown_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_brown_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_brown_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:brown_oak_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_brown_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_brown_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_brown_oak_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:brown_zelkova_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_brown_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_brown_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_brown_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:bulbis_oddity": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"xxx",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree5"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree6",
+							// Some features don't spawn centered, this lets us offset the feature to center it.
+							"spawnOffset": [
+								-1,
+								0,
+								-1
+							]
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					" xxx ",
+					"xxxxx",
+					" xxx ",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree7"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:cika_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"xxx",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:cika_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:cika_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:cika_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:cypress_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					"  x  ",
+					"xxxxx",
+					"  x  ",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:cypress_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:cypress_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:cypress_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:death_cap": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:death_cap_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:death_cap_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:death_cap_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:ebony_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ebony_bush1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ebony_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ebony_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:embur_wart": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:embur_mushroom1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:embur_mushroom2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:embur_mushroom3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:embur_mushroom4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:ether_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ether_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ether_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ether_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ether_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:ether_tree5"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:fir_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree5"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree6"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree7"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:conifer_tree8"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:fungal_imparius": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius5"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"x x",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:fungal_imparius5"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:green_enchanted_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:green_enchanted_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:green_enchanted_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:green_enchanted_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:green_mushroom": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:huge_green_mushroom"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:holly_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:holly_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:holly_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:holly_tree4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:holly_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:imparius_mushroom": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"x x",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:imparius_mushroom1",
+							// Some features don't spawn centered, this lets us offset the feature to center it.
+							"spawnOffset": [
+								0,
+								0,
+								1
+							]
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					"x   x",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:imparius_mushroom2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:imparius_mushroom3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:imparius_mushroom4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:imparius_mushroom5"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:imparius_mushroom6"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:indigo_jacaranda_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:indigo_jacaranda_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:indigo_jacaranda_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:jacaranda_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:jacaranda_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:jacaranda_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:joshua_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:joshua_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:joshua_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:lament_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:lament_twisty_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:lament_twisty_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:lament_twisty_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:lament_weeping_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:lament_weeping_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:lament_weeping_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:mahogany_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:mahogany_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:mahogany_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:mahogany_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:mahogany_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:maple_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:maple_tree1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:nightshade_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:nightshade_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:nightshade_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:nightshade_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:nightshade_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:orange_birch_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_birch_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_birch_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_birch_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_birch_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:orange_oak_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_orange_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_orange_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_orange_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_orange_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orange_oak_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_orange_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_orange_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_orange_oak_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:orange_spruce_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree_medium1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree_medium2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree_medium3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree_medium4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_orange_tree_large1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:orchard_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orchard_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orchard_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:orchard_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:palm_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:palm_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:palm_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:palm_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:palm_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:palo_verde_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:palo_verde_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:palo_verde_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:pine_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:pine_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:pine_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:pink_cherry_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:pink_cherry_tree2"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:pink_cherry_tree1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:purple_bulbis_oddity": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:purple_bulbis_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:purple_bulbis_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:purple_bulbis_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"xxx",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:purple_bulbis_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:purple_bulbis_tree5"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:purple_bulbis_tree6",
+							// Some features don't spawn centered, this lets us offset the feature to center it.
+							"spawnOffset": [
+								-1,
+								0,
+								-1
+							]
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					" xxx ",
+					"xxxxx",
+					" xxx ",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:bulbis_tree7"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:rainbow_eucalyptus_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:rainbow_eucalyptus_tree1"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"xxx",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_rainbow_eucalyptus_tree1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:red_birch_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_birch_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_birch_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_birch_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_birch_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:red_maple_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_maple_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_maple_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:red_oak_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_red_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_red_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_red_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:deciduous_red_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:red_oak_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_red_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_red_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:large_red_oak_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:red_spruce_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree_medium1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree_medium2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree_medium3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree_medium4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_red_tree_large1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:redwood_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					" x ",
+					"xxx",
+					" x "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:redwood_tree3"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:redwood_tree1"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					" xxx ",
+					"xxxxx",
+					" xxx ",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:redwood_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:shulkren_fungus": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:shulkren_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:shulkren_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:silver_maple_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:silver_maple_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:silver_maple_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:skyris_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:skyris_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:skyris_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:skyris_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:skyris_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:skyris_tree5"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:soul_shroom": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:soul_shroom_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:soul_shroom_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:soul_shroom_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:sythian_fungus": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:sythian_fungus_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:sythian_fungus_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:sythian_fungus_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:sythian_fungus_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:weeping_milkcap": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:huge_weeping_milkcap"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:white_cherry_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_cherry_tree2"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_cherry_tree1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:white_mangrove_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					"x   x",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree5"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:willow_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					"     ",
+					"x   x",
+					"     ",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:willow_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:willow_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:willow_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:willow_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:witch_hazel_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:hazel_tree1"
+						},
+						"weight": 4
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:hazel_tree2"
+						},
+						"weight": 4
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:dead_hazel_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:dead_hazel_tree2"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:withering_oak_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:withering_oak_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:withering_oak_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:withering_oak_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:withering_oak_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:withering_oak_tree5"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:wood_blewit": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:huge_wood_blewit"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:yellow_birch_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:yellow_birch_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:yellow_birch_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:yellow_birch_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:yellow_birch_tree4"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:yellow_spruce_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xx",
+					"xx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree_medium1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree_medium2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree_medium3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree_medium4"
+						},
+						"weight": 1
+					}
+				]
+			},
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"xxx",
+					"xxx",
+					"xxx"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:spruce_yellow_tree_large1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:zelkova_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"x"
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_brown_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_brown_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:zelkova_brown_tree3"
+						},
+						"weight": 1
+					}
+				]
+			}
+		]
+	}
+}

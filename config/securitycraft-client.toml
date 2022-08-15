@@ -1,0 +1,8 @@
+#Display a 'tip' message at spawn?
+sayThanksMessage = false
+#How fast can you rotate when mounted to a camera and holding W-A-S-D?
+#Range: 0.0 ~ 1.7976931348623157E308
+cameraSpeed = 2.0
+#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This setting can be overriden by servers.
+reinforced_block_tint = true
+

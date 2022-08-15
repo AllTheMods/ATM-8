@@ -1,0 +1,28 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+Appearing on terrain BELOW weirdness 0 or in unfilled("NULL(nothing)") spots in "middle_biomes_variants", here is the "middle_biomes" layout:
+
+[ ARID-ICY, DRY-ICY, NEUTRAL-ICY, WET-ICY, HUMID-ICY ],
+[ ARID-COLD, DRY-COLD, NEUTRAL-COLD, WET-COLD, HUMID-COLD ],
+[ ARID-NEUTRAL, DRY-NEUTRAL, NEUTRAL-NEUTRAL, WET-NEUTRAL, HUMID-NEUTRAL ],
+[ ARID-WARM, DRY-WARM, NEUTRAL-WARM, WET-WARM, HUMID-WARM ],
+[ ARID-HOT, DRY-HOT, NEUTRAL-HOT, WET-HOT, HUMID-HOT ]
+
+All keys passed in must be valid in the biome registry!
+"minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
+*/
+{
+	"value": [
+		[ "byg:shattered_glacier", "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:skyris_vale", "byg:skyris_vale" ],
+		[ "byg:rose_fields", "byg:weeping_witch_forest", "byg:twilight_meadow", "byg:autumnal_valley", "byg:cika_woods" ],
+		[ "byg:forgotten_forest", "byg:prairie", "byg:allium_fields", "byg:aspen_forest", "byg:temperate_rainforest" ],
+		[ "byg:araucaria_savanna", "byg:baobab_savanna", "byg:cherry_blossom_forest", "byg:ebony_woods", "byg:jacaranda_forest" ],
+		[ "byg:atacama_desert", "byg:red_rock_valley", "byg:mojave_desert", "byg:sierra_badlands", "byg:windswept_desert" ]
+	]
+}

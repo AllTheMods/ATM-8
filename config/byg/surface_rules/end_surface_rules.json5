@@ -1,0 +1,292 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+
+Surface rules in this file are added after data packs load for this dimension(file name is the dimension).
+A guide for surface rules can be found here: https://github.com/TheForsakenFurby/Surface-Rules-Guide-Minecraft-JE-1.18/blob/main/Guide.md
+*/
+{
+	"sequence": [
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:bulbis_gardens"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"add_stone_depth": false,
+							"offset": -1,
+							"surface_depth_multiplier": 0,
+							"type": "minecraft:water"
+						},
+						"then_run": {
+							"if_true": {
+								"add_surface_depth": false,
+								"offset": 0,
+								"secondary_depth_range": 0,
+								"surface_type": "floor",
+								"type": "minecraft:stone_depth"
+							},
+							"then_run": {
+								"result_state": {
+									"Name": "byg:bulbis_phycelium"
+								},
+								"type": "minecraft:block"
+							},
+							"type": "minecraft:condition"
+						},
+						"type": "minecraft:condition"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		},
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:nightshade_forest"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"add_stone_depth": false,
+							"offset": -1,
+							"surface_depth_multiplier": 0,
+							"type": "minecraft:water"
+						},
+						"then_run": {
+							"if_true": {
+								"add_surface_depth": false,
+								"offset": 0,
+								"secondary_depth_range": 0,
+								"surface_type": "floor",
+								"type": "minecraft:stone_depth"
+							},
+							"then_run": {
+								"result_state": {
+									"Name": "byg:nightshade_phylium"
+								},
+								"type": "minecraft:block"
+							},
+							"type": "minecraft:condition"
+						},
+						"type": "minecraft:condition"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		},
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:imparius_grove"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"add_stone_depth": false,
+							"offset": -1,
+							"surface_depth_multiplier": 0,
+							"type": "minecraft:water"
+						},
+						"then_run": {
+							"if_true": {
+								"add_surface_depth": false,
+								"offset": 0,
+								"secondary_depth_range": 0,
+								"surface_type": "floor",
+								"type": "minecraft:stone_depth"
+							},
+							"then_run": {
+								"result_state": {
+									"Name": "byg:imparius_phylium"
+								},
+								"type": "minecraft:block"
+							},
+							"type": "minecraft:condition"
+						},
+						"type": "minecraft:condition"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		},
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:ivis_fields"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"add_stone_depth": false,
+							"offset": -1,
+							"surface_depth_multiplier": 0,
+							"type": "minecraft:water"
+						},
+						"then_run": {
+							"if_true": {
+								"add_surface_depth": false,
+								"offset": 0,
+								"secondary_depth_range": 0,
+								"surface_type": "floor",
+								"type": "minecraft:stone_depth"
+							},
+							"then_run": {
+								"result_state": {
+									"Name": "byg:ivis_phylium"
+								},
+								"type": "minecraft:block"
+							},
+							"type": "minecraft:condition"
+						},
+						"type": "minecraft:condition"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		},
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:shulkren_forest"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"add_stone_depth": false,
+							"offset": -1,
+							"surface_depth_multiplier": 0,
+							"type": "minecraft:water"
+						},
+						"then_run": {
+							"if_true": {
+								"add_surface_depth": false,
+								"offset": 0,
+								"secondary_depth_range": 0,
+								"surface_type": "floor",
+								"type": "minecraft:stone_depth"
+							},
+							"then_run": {
+								"result_state": {
+									"Name": "byg:shulkren_phylium"
+								},
+								"type": "minecraft:block"
+							},
+							"type": "minecraft:condition"
+						},
+						"type": "minecraft:condition"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		},
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:ethereal_islands"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"add_stone_depth": false,
+							"offset": -1,
+							"surface_depth_multiplier": 0,
+							"type": "minecraft:water"
+						},
+						"then_run": {
+							"if_true": {
+								"add_surface_depth": false,
+								"offset": 0,
+								"secondary_depth_range": 0,
+								"surface_type": "floor",
+								"type": "minecraft:stone_depth"
+							},
+							"then_run": {
+								"result_state": {
+									"Name": "byg:ether_phylium"
+								},
+								"type": "minecraft:block"
+							},
+							"type": "minecraft:condition"
+						},
+						"type": "minecraft:condition"
+					},
+					{
+						"result_state": {
+							"Name": "byg:ether_stone"
+						},
+						"type": "minecraft:block"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		},
+		{
+			"if_true": {
+				"biome_is": [
+					"byg:cryptic_wastes"
+				],
+				"type": "minecraft:biome"
+			},
+			"then_run": {
+				"sequence": [
+					{
+						"if_true": {
+							"max_threshold": 0.0125,
+							"min_threshold": -0.0125,
+							"noise": "minecraft:calcite",
+							"type": "minecraft:noise_threshold"
+						},
+						"then_run": {
+							"result_state": {
+								"Name": "byg:cryptic_magma_block"
+							},
+							"type": "minecraft:block"
+						},
+						"type": "minecraft:condition"
+					},
+					{
+						"result_state": {
+							"Name": "byg:cryptic_stone"
+						},
+						"type": "minecraft:block"
+					}
+				],
+				"type": "minecraft:sequence"
+			},
+			"type": "minecraft:condition"
+		}
+	],
+	"type": "minecraft:sequence"
+}

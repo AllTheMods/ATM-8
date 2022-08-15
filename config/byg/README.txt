@@ -1,0 +1,1 @@
+For information on how BYG configs work, you can find that here: https://github.com/AOCAWOL/BYG/wiki/Configs
