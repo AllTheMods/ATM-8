@@ -1,0 +1,171 @@
+[WorldGen]
+    #
+    # Valid range: [1,)
+    # Default: 5
+    #
+    UraniumOreMaxClustersPerChunk = 5.0
+
+    #
+    # Valid range: [1,)
+    # Default: 6
+    #
+    UraniumMaxOrePerCluster = 6.0
+
+    #
+    # Valid range: [5,)
+    # Default: 50
+    #
+    UraniumOreMaxSpawnY = 50.0
+
+    #
+    # Default: true
+    #
+    EnableUraniumGeneration = false
+
+[Reactor]
+    #
+    # Valid range: [3,)
+    # Default: 128
+    #
+    MaxLength = 128.0
+
+    #
+    # Valid range: [3,)
+    # Default: 128
+    #
+    MaxWidth = 128.0
+
+    #
+    # Valid range: [3,)
+    # Default: 192
+    #
+    MaxHeight = 192.0
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    FuelUsageMultiplier = 1.0
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    OutputMultiplier = 1.0
+
+    [Reactor.GUI]
+        #
+        # Default: 2000
+        #
+        HeatDisplayMax = 2000.0
+   
+
+[Turbine]
+    #
+    # Valid range: [5,)
+    # Default: 32
+    #
+    MaxLength = 32.0
+
+    #
+    # Valid range: [5,)
+    # Default: 32
+    #
+    MaxWidth = 32.0
+
+    #
+    # Valid range: [4,)
+    # Default: 192
+    #
+    MaxHeight = 192.0
+
+    [Turbine.GUI]
+        #
+        # Default: 10
+        #
+        DeltaMB = 10.0
+
+        #
+        # Default: 100
+        #
+        DeltaMBShift = 100.0
+
+        #
+        # Default: 500
+        #
+        DeltaMBCtrl = 500.0
+
+        #
+        # Default: 1000
+        #
+        DeltaMBHCtrlShift = 1000.0
+   
+
+[HeatExchanger]
+    #
+    # Valid range: [3,)
+    # Default: 64
+    #
+    MaxLength = 64.0
+
+    #
+    # Valid range: [3,)
+    # Default: 64
+    #
+    MaxWidth = 64.0
+
+    #
+    # Valid range: [4,)
+    # Default: 96
+    #
+    MaxHeight = 96.0
+
+    [HeatExchanger.gui]
+        #
+        # Default: 2000
+        #
+        HeatDisplayMax = 2000.0
+   
+
+[CyaniteReprocessor]
+    #
+    # Max transfer rate of fluids and energy.
+    # Valid range: (0,)
+    # Default: 500
+    #
+    TransferRate = 500.0
+
+    #
+    # Max energy capacity.
+    # Valid range: (0,)
+    # Default: 5000
+    #
+    EnergyTankCapacity = 5000.0
+
+    #
+    # Max water capacity
+    # Valid range: (0,)
+    # Default: 5000
+    #
+    WaterTankCapacity = 5000.0
+
+    #
+    # Power usage per tick of work.
+    # Valid range: (0,)
+    # Default: 1
+    #
+    EnergyConsumptionPerTick = 1.0
+
+    #
+    # Water usage per tick of work.
+    # Valid range: (0,)
+    # Default: 1
+    #
+    WaterConsumptionPerTick = 1.0
+
+    #
+    # Time (in ticks) it takes to complete a job.
+    # Valid range: (0,)
+    # Default: 200
+    #
+    TotalWorkTime = 200.0
