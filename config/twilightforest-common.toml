@@ -1,0 +1,75 @@
+#The dimension you can always travel to the Twilight Forest from, as well as the dimension you will return to. Defaults to the overworld. (domain:regname).
+originDimension = "minecraft:overworld"
+#Allow portals to the Twilight Forest to be made outside of the 'origin' dimension. May be considered an exploit.
+allowPortalsInOtherDimensions = false
+#Allow portals only for admins (Operators). This severely reduces the range in which the mod usually scans for valid portal conditions, and it scans near ops only.
+adminOnlyPortals = false
+#Disable Twilight Forest portal creation entirely. Provided for server operators looking to restrict action to the dimension.
+disablePortalCreation = false
+#Determines if new portals should be pre-checked for safety. If enabled, portals will fail to form rather than redirect to a safe alternate destination.
+#Note that enabling this also reduces the rate at which portal formation checks are performed.
+checkPortalDestination = false
+#Set this true if you want the lightning that zaps the portal to not set things on fire. For those who don't like fun.
+portalLightning = false
+#If false, the return portal will require the activation item.
+shouldReturnPortalBeUsable = true
+#Use a valid advancement resource location as a string. For example, using the string "minecraft:story/mine_diamond" will lock the portal behind the "Diamonds!" advancement. Invalid/Empty Advancement resource IDs will leave the portal entirely unlocked.
+portalUnlockedByAdvancement = ""
+#The max amount of water spaces the mod will check for when creating a portal. Very high numbers may cause issues.
+#Range: > 4
+maxPortalSize = 64
+#If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
+uuid_locking = false
+#If true, disables the ability to make Skull Candles by right clicking a vanilla skull with a candle. Turn this on if you're having mod conflict issues for some reason.
+skull_candles = false
+
+#Settings that are not reversible without consequences.
+["Dimension Settings"]
+	#If true, players spawning for the first time will spawn in the Twilight Forest.
+	newPlayersSpawnInTF = false
+	#If true, the return portal will spawn for new players that were sent to the TF if `spawn_in_tf` is true.
+	portalForNewPlayer = false
+
+#Defines custom stalactites generated in hollow hills.
+#Format is "modid:block size maxLength minHeight weight", where the properties are:
+#Size - the maximum length of the stalactite relative to the space between hill floor and ceiling,
+#Max length - maximum length of a stalactite in blocks,
+#Min height - minimum space between the hill floor and the stalactite to let it generate,
+#Weight - how often it generates.
+#
+#For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
+["Custom Hollow Hill Stalactites"]
+	#Blocks generating as stalactites in large hills only
+	largeHill = []
+	#Blocks generating as stalactites in medium and large hills
+	mediumHill = []
+	#Blocks generating as stalactites in all hills
+	smallHill = []
+	#If true, default stalactites and stalactites defined by other mods will not be used.
+	useConfigOnly = false
+
+#Settings for all things related to the uncrafting table.
+["Uncrafting Table"]
+	#If you don't want to disable uncrafting altogether, and would rather disable certain recipes, this is for you.
+	#To add a recipe, add the mod id followed by the name of the recipe. You can check this in things like JEI.
+	#Example: "twilightforest:moonworm_queen" will disable uncrafting the moonworm queen into itself and 3 torchberries.
+	#If an item has multiple crafting recipes and you wish to disable them all, add the item to the "twilightforest:banned_uncraftables" item tag.
+	#If you have a problematic ingredient, like infested towerwood for example, add the item to the "twilightforest:banned_uncrafting_ingredients" item tag.
+	disableUncraftingRecipes = []
+	#Here, you can disable all items from certain mods from being uncrafted.
+	#Input a valid mod id to disable all uncrafting recipes from that mod.
+	#Example: "twilightforest" will disable all uncrafting recipes from this mod.
+	blacklistedUncraftingModIds = []
+	#If true, this will invert the above option from a blacklist to a whitelist.
+	flipIdList = false
+	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
+	disableUncrafting = true
+
+#We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
+["Shield Parrying"]
+	#Set to true to parry non-Twilight projectiles.
+	parryNonTwilightAttacks = false
+	#The amount of ticks after raising a shield that makes it OK to parry a projectile.
+	#Range: > 0
+	shieldParryTicksArrow = 40
+
