@@ -1,0 +1,143 @@
+
+[General]
+	#How often a hive should attempt special events like spawning undead bees. Default 500.
+	#Range: > 20
+	hiveTickRate = 1500
+	#How long time a bee should stay in the hive when having delivered honey. Default 4800.
+	#Range: > 20
+	timeInHive = 4800
+	#How many ticks it takes for process a recipe in the centrifuge. Default 300.
+	#Range: > 20
+	centrifugeProcessingTime = 300
+	#How many ticks it takes for process a recipe in the powered centrifuge. Default 100.
+	#Range: > 20
+	centrifugePoweredProcessingTime = 100
+	#How much FE to use per tick for a powered centrifuge when processing an item. Default 10.
+	#Range: > 1
+	centrifugePowerUse = 10
+	#How many ticks it takes for process a recipe in the incubator. Default 3600.
+	#Range: > 20
+	incubatorProcessingTime = 3600
+	#How much FE to use per tick for an incubator when processing an item. Default 10.
+	#Range: > 1
+	incubatorPowerUse = 10
+	#How many treats to use when incubating a bee. Default 20.
+	#Range: 1 ~ 64
+	incubatorTreatUse = 20
+	#How much FE to generate per tick. Default 60.
+	#Range: > 1
+	generatorPowerGen = 60
+	#How much honey to consume per tick. Default 5.
+	#Range: > 1
+	generatorHoneyUse = 2
+	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from.
+	preferredTagSource = [
+		"minecraft",
+		"alltheores",
+		"kubejs",
+		"thermal",
+		"mekanism",
+		"create",
+		"immersiveengineering",
+		"occultism",
+		"ftbic",
+		"chemlib",
+		"biggerreactors"
+	]
+	#How many bees can fit in a bee bomb. Default is 10
+	#Range: 1 ~ 50
+	numberOfBeesPerBomb = 10
+	#The distance a nest locator can search for nests.
+	#Range: 0 ~ 1000
+	nestLocatorDistance = 100
+	#Initial tick cooldown when repopulating a nest.
+	#Range: > 0
+	nestSpawnCooldown = 24000
+	#Centrifuges will pick up items thrown on it
+	centrifugeHopperMode = true
+
+[Bees]
+	#Spawn skeletal and zombie bees as night?
+	spawnUndeadBees = true
+	#Range: 0.0 ~ 1.0
+	spawnUndeadBeesChance = 0.05
+	#Range: 0.0 ~ 1.0
+	sugarbagBeeChance = 0.02
+	#How many animals a CuBee can breed per pollination
+	#Range: > 0
+	cupidBeeAnimalsPerPollination = 5
+	#How densely populated should an areas need to be for the CuBee to stop breeding. The value approximates how many animals can be in a 10x10 area around the bee.
+	#Range: > 0
+	cupidBeeAnimalDensity = 20
+	#How many cuckoo bees can spawn from a nest before it shuts off
+	#Range: > 0
+	cuckooSpawnCount = 2
+	#Chance to spawn a KamikazBee when hit while wearing bee nest armor
+	#Range: 0.0 ~ 1.0
+	kamikazBeeChance = 0.3
+	#Disable the wander goal in bees to increase performance
+	disableWanderGoal = false
+
+["Bee attributes"]
+	#Number of ticks between effects on nearby entities
+	#Range: > 20
+	ticks = 2337
+	#Chance that a bee will take damage while leashed in a hostile environment
+	#Range: 0.0 ~ 1.0
+	damageChance = 0.1
+	#Chance to increase tolerance (rain or thunder tolerance trait) while leashed in a hostile environment.
+	#Range: 0.0 ~ 1.0
+	toleranceChance = 0.1
+	#Chance to increase behavior (nocturnal trait) while leashed in a hostile environment.
+	#Range: 0.0 ~ 1.0
+	behaviorChance = 0.1
+	#Chance to extract genes from a bottle of bee material.
+	#Range: 0.0 ~ 1.0
+	geneExtractChance = 1.0
+	#Average purity of type genes (does not apply to attribute genes)
+	#Range: 1 ~ 100
+	typeGenePurity = 33
+
+[Worldgen]
+	#Which nests should generate in the level. Nest will still be craftable and attract bees when placed in the world.
+	"enable_productivebees:oak_wood_nest" = true
+	"enable_productivebees:spruce_wood_nest" = true
+	"enable_productivebees:dark_oak_wood_nest" = true
+	"enable_productivebees:birch_wood_nest" = true
+	"enable_productivebees:jungle_wood_nest" = true
+	"enable_productivebees:acacia_wood_nest" = true
+	"enable_productivebees:stone_nest" = true
+	"enable_productivebees:coarse_dirt_nest" = true
+	"enable_productivebees:sand_nest" = true
+	"enable_productivebees:snow_nest" = true
+	"enable_productivebees:gravel_nest" = true
+	"enable_productivebees:sugar_cane_nest" = true
+	"enable_productivebees:slimy_nest" = true
+	"enable_productivebees:glowstone_nest" = true
+	"enable_productivebees:soul_sand_nest" = true
+	"enable_productivebees:nether_quartz_nest" = true
+	"enable_productivebees:nether_gold_nest" = true
+	"enable_productivebees:nether_brick_nest" = true
+	"enable_productivebees:end_stone_nest" = true
+	"enable_productivebees:obsidian_nest" = true
+	"enable_productivebees:bumble_bee_nest" = true
+	"enable_productivebees:sugarbag_nest" = true
+	"enable_productivebees:warped_bee_nest" = true
+	"enable_productivebees:crimson_bee_nest" = true
+
+["Hive Upgrades"]
+	#Time bonus gained from time upgrade. 0.2 means 20% reduction of a bee's time inside the hive or centrifuge processing time.
+	#Range: 0.0 ~ 1.0
+	timeBonus = 0.2
+	#Multiplier per productivity upgrade installed in the hive.
+	#Range: 1.0 ~ 2.147483647E9
+	productivityMultiplier = 1.4
+	#Chance for a bee to produce an offspring after a hive visit.
+	#Range: 0.0 ~ 1.0
+	breedingChance = 0.05
+	#How many bees can be around a hive before a babee upgrade stops working.
+	#Range: > 0
+	breedingMaxNearbyEntities = 10
+	#Chance for a gene sample to be taken from a bee after a hive visit.
+	#Range: 0.0 ~ 1.0
+	samplerChance = 0.05

@@ -5,7 +5,8 @@
   "ignoredRecipes": [],
   "defaultDuplicateRules": {
     "ignoredFields": [
-      "conditions"
+      "conditions",
+      "group"
     ],
     "rules": {
       "cookingtime": "HigherRule",
@@ -18,7 +19,8 @@
       "ignoredFields": [
         "pattern",
         "conditions",
-        "key"
+        "key",
+        "group"
       ],
       "rules": {}
     }
