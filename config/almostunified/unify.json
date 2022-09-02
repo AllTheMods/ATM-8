@@ -23,7 +23,8 @@
         "forge:ores/{material}",
         "forge:plates/{material}",
         "forge:rods/{material}",
-        "forge:storage_blocks/{material}"
+        "forge:storage_blocks/{material}",
+        "forge:storage_blocks/raw_{material}"
     ],
     "materials": [
         "aeternium",
