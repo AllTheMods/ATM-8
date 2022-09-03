@@ -33,6 +33,9 @@
         "enable_profiles_announcement": false,
         "enable_inventory_buttons": false
     },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": false
+    },
     "AutoRefillSettings": {
         "refill_armor": false,
         "refill_before_tool_break": false,
