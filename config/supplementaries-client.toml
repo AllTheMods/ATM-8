@@ -1,0 +1,215 @@
+
+#Tweak and change the various block animations.
+#Only cosmetic stuff in here so to leave default if not interested.
+#Remember to delete this and server configs and let it refresh every once in a while since I might have tweaked it
+[blocks]
+
+	[blocks.globe]
+		#Enable a random globe texture for each world
+		random_world = true
+		#Here you can put custom colors that will be assigned to each globe depending on the dimension where its placed:
+		#To do so you'll have to make a list for one entry for every dimension you want to recolor as follows:
+		#[[<id>,<c1>,...,<c12>],[<id>,<c1>,...,<c12>],...]
+		#With the following description:
+		# - <id> being the dimension id (ie: minecraft:the_nether)
+		# - <c1> to <c12> will have to be 12 hex colors (without the #) that will represent each of the 17 globe own 'virtual biome'
+		#Following are the virtual biomes that each index is associated with:
+		# - 1: water light
+		# - 2: water medium
+		# - 3: water dark
+		# - 4: coast/taiga
+		# - 5: forest
+		# - 6: plains
+		# - 7: savanna
+		# - 8: desert
+		# - 9: snow
+		# - 10: ice
+		# - 11: iceberg/island
+		# - 12: mushroom island
+		globe_colors = [["minecraft:overworld", "23658d", "25527d", "1d396d", "2d8a5c", "34a03a", "6ea14b", "89a83d", "b5ba65", "ccd7d5", "83b4c6", "2f83a2", "826e71"], ["minecraft:the_nether", "941818", "7b0000", "6a0400", "16615b", "941818", "ca4e06", "e66410", "f48522", "5a0000", "32333d", "118066", "100c1c"], ["minecraft:the_end", "061914", "000000", "2a0d2a", "000000", "d5da94", "cdc68b", "061914", "2a0d2a", "cdc68b", "000000", "eef6b4", "b286b2"]]
+
+	[blocks.clock_block]
+		#Display 24h time format. False for 12h format
+		24h_format = true
+
+	[blocks.pedestal]
+		#Enable displayed item spin
+		spin = true
+		#Spin speed
+		#Range: 0.0 ~ 100.0
+		speed = 2.0
+		#Enable special display types for items like swords, tridents or end crystals
+		fancy_renderers = true
+
+	[blocks.bubble_block]
+		#Wobbling intensity. set to 0 to disable
+		#Range: 0.0 ~ 1.0
+		wobble = 0.2
+		#How fast it grows when created. 1 to be instant
+		#Range: 0.0 ~ 1.0
+		grow_speed = 0.4
+
+	[blocks.item_shelf]
+		#Translate down displayed 3d blocks so that they are touching the shelf.
+		#Note that they will not be centered vertically this way
+		supported_blocks = true
+
+	[blocks.wind_vane]
+		#Wind vane animation swings according to this equation: 
+		#angle(time) = max_angle_1*sin(2pi*time*pow/period_1) + <max_angle_2>*sin(2pi*time*pow/<period_2>)
+		#where:
+		# - pow = max(1,redstone_power*<power_scaling>)
+		# - time = time in ticks
+		# - redstone_power = block redstone power
+		#<power_scaling> = how much frequency changes depending on power. 2 means it spins twice as fast each power level (2* for rain, 4* for thunder)
+		#increase to have more distinct indication when weather changes
+		#Range: 1.0 ~ 100.0
+		power_scaling = 3.0
+		#Amplitude (maximum angle) of first sine wave
+		#Range: 0.0 ~ 360.0
+		max_angle_1 = 30.0
+		#Range: 0.0 ~ 360.0
+		max_angle_2 = 10.0
+		#Base period in ticks at 0 power of first sine wave
+		#Range: 0.0 ~ 2000.0
+		period_1 = 450.0
+		#This should be kept period_1/3 for a symmetric animation
+		#Range: 0.0 ~ 2000.0
+		period_2 = 150.0
+
+	[blocks.flag]
+		#How slow a flag will oscillate. (Period of oscillation)
+		#Lower value = faster oscillation
+		#Range: 0 ~ 10000
+		slowness = 100
+		#How wavy the animation will be in pixels. (Wavelength)
+		#Range: 0.001 ~ 100.0
+		wavyness = 4.0
+		#How tall the wave lobes will be. (Wave amplitude)
+		#Range: 0.0 ~ 100.0
+		intensity = 1.0
+		#How much the wave amplitude increases each pixel. (Amplitude increment per pixel)
+		#Range: 0.0 ~ 10.0
+		intensity_increment = 0.3
+		#At which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
+		#Allowed Values: FAST, FANCY, FABULOUS
+		fanciness = "FABULOUS"
+		#Makes flags render as sideways banner. Ignores many of the previously defined configs
+		render_as_banner = false
+
+	[blocks.captured_mobs]
+		#A list of mobs that can be ticked on client side when inside jars. Mainly used for stuff that has particles. Can cause issues and side effects so use with care
+		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
+
+	[blocks.wall_lantern]
+		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
+		fast_lanterns = false
+
+	[blocks.hanging_sign]
+		#Makes hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
+		fast_signs = false
+
+	[blocks.bamboo_spikes]
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
+
+	[blocks.turn_table]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
+	[blocks.speaker_block]
+		#Mute speaker block incoming narrator messages and displays them in chat instead
+		mute_narrator = false
+
+	[blocks.rope]
+		#Amplitude of rope wobbling effect
+		#Range: 0.0 ~ 20.0
+		wobbling_amplitude = 1.2
+		#Period of rope wobbling effect
+		#Range: 0.01 ~ 200.0
+		wobbling_period = 12.0
+
+#Particle parameters
+[particles]
+
+	#Rotation particle
+	[particles.turn_particle]
+		#An RGBA color
+		initial_color = "2a77ea"
+		#An RGBA color
+		fade_color = "32befa"
+
+#General settings
+[general]
+	#Enable Quark style config button on main menu. Needs Configured installed to work
+	config_button = false
+	#Show some tooltip hints to guide players through the mod
+	tooltip_hints = true
+	#Show tooltips items that have been made placeable
+	placeable_tooltips = true
+	#Tries to detect when the mod hasn't been downloaded from Curseforge.Set to false if you have manually changed the mod jar name
+	anti_reposting_warning = true
+	#ignore this
+	#Range: -10.0 ~ 10.0
+	test1 = 0.0
+	#ignore this
+	#Range: -10.0 ~ 10.0
+	test2 = 0.0
+	#ignore this
+	#Range: -10.0 ~ 10.0
+	test3 = 0.0
+
+#Game tweaks
+[tweaks]
+	#Colors the brewing stand potion texture depending on the potions it's brewing.
+	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
+	brewing_stand_colors = true
+	#Makes tipped arrows show their colors when loaded with a crossbow
+	crossbows_colors = true
+	#Allow to right click with a clock to display current time in numerical form
+	clock_right_click = true
+	#Renders an enchantment glint on placeable enchanted books
+	placeable_books_glint = false
+
+[items]
+
+	[items.slingshot]
+		#Adds an overlay to slingshots in gui displaying currently selected block
+		overlay = true
+		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
+		stasis_block_outline = true
+		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
+		block_outline_color = "ffffff66"
+		#How big should a slingshot projectile look
+		#Range: 0.0 ~ 1.0
+		projectile_scale = 0.5
+
+	[items.quiver]
+		#Z offset for quiver render when wearing armor. Useful for when you have custom armor bigger than vanilla to void clipping. Leave at -1 for automatic offset
+		#Range: -1.0 ~ 1.0
+		armor_render_offset = -1.0
+		#How quivers should render onto players
+		#Allowed Values: HIDDEN, BACK, HIP, THIGH
+		render_mode = "HIP"
+		#How skeleton with quivers should render it
+		#Allowed Values: HIDDEN, BACK, HIP, THIGH
+		skeleton_render_mode = "THIGH"
+		#Adds an overlay to quivers in gui displaying currently selected arrow
+		overlay = true
+		#Allows using your mouse to select an arrow in the quiver GUI
+		mouse_movement_in_gui = true
+		#Quiver GUI X offset from default position
+		#Range: -1000 ~ 1000
+		gui_x_offset = 0
+		#Quiver GUI Y offset from default position
+		#Range: -1000 ~ 1000
+		gui_y_offset = 0
+
+	[items.wrench]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
+	[items.flute]
+		#Display visual particles when a playing a flute
+		note_particles = true
+
