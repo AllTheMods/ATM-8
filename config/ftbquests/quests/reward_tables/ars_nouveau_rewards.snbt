@@ -1,0 +1,20 @@
+{
+	id: "3903E8F06E812E9F"
+	order_index: 7
+	title: "Ars Nouveau Rewards"
+	loot_size: 1
+	rewards: [
+		{ item: "ars_nouveau:source_gem", count: 2, random_bonus: 2, weight: 50 }
+		{ item: "ars_nouveau:abjuration_essence", count: 2, random_bonus: 2, weight: 5 }
+		{ item: "ars_nouveau:conjuration_essence", count: 2, random_bonus: 2, weight: 5 }
+		{ item: "ars_nouveau:air_essence", count: 2, random_bonus: 2, weight: 5 }
+		{ item: "ars_nouveau:fire_essence", count: 2, random_bonus: 2, weight: 5 }
+		{ item: "ars_nouveau:earth_essence", count: 2, random_bonus: 2, weight: 5 }
+		{ item: "ars_nouveau:water_essence", count: 2, random_bonus: 2, weight: 5 }
+		{ item: "ars_nouveau:wilden_spike", count: 2, random_bonus: 2, weight: 25 }
+		{ item: "ars_nouveau:wilden_wing", count: 2, random_bonus: 2, weight: 25 }
+		{ item: "ars_nouveau:wilden_horn", count: 2, random_bonus: 2, weight: 25 }
+		{ item: "ars_nouveau:source_berry", count: 4, random_bonus: 4, weight: 25 }
+		{ item: "ars_nouveau:starbuncle_shards", count: 2, random_bonus: 2, weight: 10 }
+	]
+}

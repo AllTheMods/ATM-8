@@ -1,0 +1,13 @@
+{
+	id: "0A18991D9745743A"
+	order_index: 6
+	title: "AE2 Basic Rewards"
+	loot_size: 1
+	rewards: [
+		{ item: "ae2:certus_quartz_crystal", count: 2, random_bonus: 2, weight: 10 }
+		{ item: "ae2:certus_quartz_dust", count: 4, random_bonus: 4, weight: 10 }
+		{ item: "ae2:fluix_crystal", random_bonus: 1 }
+		{ item: "ae2:fluix_dust", random_bonus: 1 }
+		{ item: "ae2:charged_certus_quartz_crystal", count: 2, random_bonus: 2, weight: 5 }
+	]
+}

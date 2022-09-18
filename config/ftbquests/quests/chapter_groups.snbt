@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "1CF541D7529DA9CF", title: "Main Questline" }
+		{ id: "1AC60211DE7427FC", title: "Storage" }
+		{ id: "6614EE2378B8AFB9", title: "Resources" }
+		{ id: "2B51AC12041E3F89", title: "Technology" }
+		{ id: "02FE661031A105D8", title: "Magic" }
+		{ id: "752CDE464613A1ED", title: "Exploration" }
+	]
+}

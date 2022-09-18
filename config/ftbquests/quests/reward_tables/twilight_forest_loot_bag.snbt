@@ -1,0 +1,58 @@
+{
+	id: "4A44448EAB2A8165"
+	order_index: 9
+	title: "Twilight Forest Loot Bag"
+	loot_size: 1
+	rewards: [
+		{ item: "twilightforest:steeleaf_ingot", count: 2, random_bonus: 2, weight: 50 }
+		{ item: "twilightforest:knightmetal_ingot", count: 2, random_bonus: 2, weight: 25 }
+		{ item: "twilightforest:raw_ironwood", count: 2, random_bonus: 2, weight: 100 }
+		{ item: "twilightforest:fiery_blood", count: 2, random_bonus: 2, weight: 20 }
+		{ item: "twilightforest:hydra_chop", count: 2, random_bonus: 2, weight: 10 }
+		{ item: "twilightforest:cooked_venison", count: 4, random_bonus: 4, weight: 100 }
+		{ item: "twilightforest:charm_of_life_1", random_bonus: 1, weight: 50 }
+		{ item: "twilightforest:charm_of_keeping_1", random_bonus: 2, weight: 25 }
+		{
+			item: {
+				id: "twilightforest:ore_magnet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{ item: "twilightforest:reappearing_block", count: 3, random_bonus: 6, weight: 10 }
+		{ item: "twilightforest:transformation_powder", random_bonus: 2, weight: 25 }
+		{ item: "twilightforest:cicada", weight: 50 }
+		{
+			item: {
+				id: "twilightforest:ironwood_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+			weight: 20
+		}
+		{
+			item: {
+				id: "twilightforest:steeleaf_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 2s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+			weight: 5
+		}
+		{ item: "twilightforest:cooked_meef", count: 4, random_bonus: 4, weight: 100 }
+	]
+}

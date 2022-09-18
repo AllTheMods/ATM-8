@@ -1,0 +1,13 @@
+{
+	id: "63E11953DD289422"
+	order_index: 4
+	title: "Mekanism: Basic Rewards"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:alloy_infused", count: 2, random_bonus: 2, weight: 4 }
+		{ item: "mekanism:basic_control_circuit", count: 2, random_bonus: 2, weight: 4 }
+		{ item: "mekanism:alloy_reinforced", random_bonus: 1, weight: 2 }
+		{ item: "mekanism:advanced_control_circuit", random_bonus: 1, weight: 2 }
+		{ item: "alltheores:osmium_ingot", count: 4, random_bonus: 2, weight: 4 }
+	]
+}

@@ -1,0 +1,1315 @@
+{
+	id: "05E614FDA677D85E"
+	group: "6614EE2378B8AFB9"
+	order_index: 0
+	filename: "food_and_farming"
+	title: "Food and Farming"
+	icon: "minecraft:cake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.5d
+			y: -3.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cake.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5102040816326507d
+			y: -3.0714285714285765d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: -90.0d
+			image: "minecraft:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.48979591836734215d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat_seeds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/birch_sapling.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: -90.0d
+			image: "farmersdelight:textures/block/cutting_board.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "croptopia:textures/item/cantaloupe_seed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "farmersdelight:textures/item/apple_cider.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cooked_chicken.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cooked_porkchop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "aquaculture:textures/item/catfish.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/food_and_farming.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "minecraft:emerald"
+			x: 0.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Getting Started"
+			description: [
+				"Welcome to the Food and Farming chapter!"
+				""
+				"Here, you'll find different ways for you to grow and make food!"
+			]
+			size: 1.5d
+			id: "1827DEEA2DF1B144"
+			tasks: [{
+				id: "07603A90CCCB3627"
+				type: "checkmark"
+				title: "Food and Farming"
+			}]
+			rewards: [
+				{
+					id: "28C108EC59F6E7D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EFEA345691F570D"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+			]
+		}
+		{
+			title: "Punch the Grass."
+			x: -3.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Block Hand 1, Block Grass 0"
+			description: ["Let's gather some seeds."]
+			dependencies: ["43021923E220CF68"]
+			id: "72717D1135486D7F"
+			tasks: [{
+				id: "73B6ED422F9292D1"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "37CC4C9D02D00F80"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "3EF6CC70CA664541"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Mary had a Little Lamb"
+			icon: "minecraft:white_wool"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Whose fleece was....rainbow?"
+			description: ["Let's gather some pieces of wool!"]
+			dependencies: ["18EADBAFC932F864"]
+			id: "3EA883C0BB7BD38F"
+			tasks: [{
+				id: "7F08D4E77359BF4A"
+				type: "item"
+				title: "Any #minecraft:wool"
+				icon: "minecraft:white_wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "59024F65DCEB9DAA"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "1609AC17930BA465"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "It's Clippin' Time"
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "18EADBAFC932F864"
+			tasks: [{
+				id: "3A9869856B3E9D54"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68AA10BF3AA0408A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "But....Cows can't be sheared..."
+			x: 6.0d
+			y: -1.0d
+			description: ["I don't wanna know how you got these."]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "635620A03E3505BF"
+			tasks: [{
+				id: "5824C93C84312142"
+				type: "item"
+				item: "minecraft:leather"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "7914440DB4E0A801"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B497B4A001CFFC0"
+					type: "item"
+					item: "minecraft:leather"
+				}
+			]
+		}
+		{
+			title: "AllTheFarm7"
+			x: 9.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "The villager has more than one way to spawn"
+			description: [
+				"Markets provide you with a villager than can sell you anything, if you have the right amount of emeralds."
+				""
+				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
+			]
+			dependencies: ["3EA883C0BB7BD38F"]
+			size: 1.5d
+			id: "1F114EB0AAB86DB4"
+			tasks: [{
+				id: "1AFEBED0226CEBC1"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [
+				{
+					id: "2A90BE5DD251767D"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "72142B51809511CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "We're doing this the old fashioned way."
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Get along little doggy."
+			description: [
+				"The classic Lead. Use this to get animals into your farm area."
+				""
+				"This isn't the same thing found in paint."
+			]
+			id: "2E9C035EEE7E5C34"
+			tasks: [{
+				id: "63282E8604721F13"
+				type: "item"
+				item: "minecraft:lead"
+			}]
+			rewards: [{
+				id: "04DF879E17A497AD"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Find a cow. Milk the cow. Profit."
+			x: 7.5d
+			y: -1.0d
+			subtitle: "Why aren't there any bulls in the game?"
+			description: [
+				"Find a cow and Right Click it with a bucket."
+				""
+				"Seriously, why no bulls?"
+			]
+			dependencies: ["635620A03E3505BF"]
+			id: "73B8A70240E6070E"
+			tasks: [{
+				id: "19A9C679111A90BC"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+			rewards: [
+				{
+					id: "6680B692C05EDB9F"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 3
+				}
+				{
+					id: "486994911F40FA8D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "I'm not gonna make an Egg pun."
+			x: 6.0d
+			y: 1.0d
+			subtitle: "or am I?"
+			description: [
+				"Chickens will lay these naturally. I guess it's not really considered naturally..."
+				""
+				"I guess the chickens are just getting... &oEggs-ercise!!!&r."
+				""
+				":)"
+			]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "1D2EF12FD7FDD217"
+			tasks: [{
+				id: "46974912B1E8E78B"
+				type: "item"
+				item: "minecraft:egg"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "75D8B76E11F272AC"
+					type: "item"
+					item: "croptopia:scrambled_eggs"
+					count: 2
+				}
+				{
+					id: "25D2B3D4AE631792"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "The Chickens Must Go"
+			x: 7.5d
+			y: 1.0d
+			subtitle: "How else do you think Fried Chicken is made?"
+			dependencies: ["1D2EF12FD7FDD217"]
+			id: "1697CC05D08B388D"
+			tasks: [
+				{
+					id: "264B00606E5BE374"
+					type: "item"
+					item: "minecraft:feather"
+					count: 10L
+				}
+				{
+					id: "763031D0E9F0850C"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "7A84544510F1D4EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6ABAD303E8397549"
+					type: "item"
+					item: "croptopia:fried_chicken"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5749999999999997d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Just wait until you get machines for this."
+			description: [""]
+			size: 1.25d
+			id: "43021923E220CF68"
+			tasks: [{
+				id: "78772A2785AE9DD2"
+				type: "checkmark"
+				title: "The Planter"
+			}]
+			rewards: [
+				{
+					id: "70556C33AE952F49"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 2
+				}
+				{
+					id: "116FA96039FC2359"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Wheat."
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Speedrunners Love This Stuff"
+			dependencies: ["72717D1135486D7F"]
+			id: "0A1C2A7A8617D3E4"
+			tasks: [{
+				id: "6890EB2819D88073"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "6EE0FD0DCE6CEEDE"
+					type: "item"
+					item: "minecraft:bread"
+					count: 2
+				}
+				{
+					id: "6DB38B87B2BB0B70"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "The Bread of Life"
+			x: -6.5d
+			y: 0.0d
+			subtitle: "Quick and Simple"
+			dependencies: ["0A1C2A7A8617D3E4"]
+			id: "659A903F97F93BE2"
+			tasks: [{
+				id: "03C7F9CB0DDB2D9B"
+				type: "item"
+				item: "minecraft:bread"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "1C449D2589FD1836"
+					type: "item"
+					item: "croptopia:toast"
+					count: 2
+				}
+				{
+					id: "382B2B8DF207F44F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Hemp Seeds"
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Who needs spiders anyway?"
+			description: [
+				"You'll find hemp seeds pretty fast."
+				""
+				"If you plant these, you can use the fiber to make string!"
+			]
+			dependencies: ["72717D1135486D7F"]
+			id: "5A51E26D66D1273B"
+			tasks: [
+				{
+					id: "76B0E810B050B149"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "3CAD3464D21B46B2"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "797D1693F61CB94B"
+					type: "item"
+					item: "immersiveengineering:seed"
+					count: 5
+				}
+				{
+					id: "6A184032CC7F6E17"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Sugar Sugar."
+			x: -5.5d
+			y: 1.0d
+			subtitle: "This grows to the sky now."
+			description: ["Find some sugar cane!"]
+			dependencies: ["72717D1135486D7F"]
+			id: "361DFDB1E1352D6B"
+			tasks: [{
+				id: "6118A776B40507B7"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "2D2FC5CA58E15FD7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "193719E857969260"
+					type: "item"
+					item: "minecraft:sugar"
+				}
+			]
+		}
+		{
+			title: "Making a Kitchen, with a book."
+			x: 0.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Smelt a book. Totally won't catch on fire."
+			description: ["Go ahead. Put a book in a furnace."]
+			size: 1.5d
+			id: "45F83C2750F70F9B"
+			tasks: [{
+				id: "61DBF366AFC8A579"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "54B713BDF265A213"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Cooking with the power of Diamonds"
+			x: 0.5d
+			y: 5.5d
+			subtitle: "This is totally worth it btw"
+			description: [
+				"Craft the next version of the book. I promise you, it's worth it."
+				""
+				"I'll even give you a Diamond back."
+			]
+			dependencies: ["45F83C2750F70F9B"]
+			id: "58D5BD3106BFD94A"
+			tasks: [{
+				id: "20FD5552BE10D679"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [
+				{
+					id: "1DEED7674A6B9079"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "18610A9BCEA465F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "THE BEST THING SINCE SLICED BREAD"
+			x: 0.5d
+			y: 7.0d
+			shape: "rsquare"
+			subtitle: "Betty White was born before Sliced Bread"
+			description: [
+				"This block is part of a multi-block kitchen."
+				""
+				"This will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block."
+				""
+				"You can finally create a nice kitchen in Minecraft."
+			]
+			dependencies: ["58D5BD3106BFD94A"]
+			size: 1.5d
+			id: "28C9EDBF6607E180"
+			tasks: [{
+				id: "552C067A28FB8869"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "145863D45AAB585A"
+					type: "item"
+					item: "minecraft:bread"
+					count: 8
+				}
+				{
+					id: "1AD9A5DFAF726359"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Even More Storage"
+			x: 0.5d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "So much room for activities!"
+			description: [
+				"This works just like the kitchen counter, except in the air."
+				""
+				"And you can't put things on top of it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "58495CFBF4F20CE9"
+			tasks: [{
+				id: "1DAD3C12FDEB5CD4"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "5F08882A75BECB22"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+				{
+					id: "1C499560DF40E2FC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "I need more cooking space."
+			x: 2.0d
+			y: 8.0d
+			shape: "diamond"
+			subtitle: "&oWe&r need more cooking space."
+			description: [
+				"This block stores items for cooking."
+				""
+				"You can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "37CA6F9F0226F10E"
+			tasks: [{
+				id: "766C32B477A216B8"
+				type: "item"
+				item: "cookingforblockheads:counter"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "45C4177C120927FF"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+				{
+					id: "0B13ECD292D7D073"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "The Fridge"
+			x: -0.5d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "You'll open it, close it, then open it again, just because you're bored."
+			description: [
+				"Stores items in the multi-block kitchen. Stack them on top of each other!"
+				""
+				"You can also shift-right click on it to open then door, and you can just right click items right in."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "66815AB6FDACCAB7"
+			tasks: [{
+				id: "1571EF760DE41F63"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "07D944D551258145"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2264EDF3B1BC3075"
+					type: "item"
+					item: "croptopia:vanilla_ice_cream"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Honey, there's a Furnace in the Kitchen"
+			x: 1.5d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "No Timer Needed"
+			description: ["This block enables smelting recipes in your kitchen multi-block!"]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "7CB3FCD789747EF5"
+			tasks: [{
+				id: "37D8D79B6B216212"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "5AB2C941E0E0397E"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "4A5960A4F10AD94F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "A Cow in a Jar"
+			x: 0.5d
+			y: 9.5d
+			shape: "diamond"
+			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
+			description: [
+				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
+				""
+				"To get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it."
+				""
+				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "47764EFC822E462A"
+			tasks: [{
+				id: "193EA9F7C05B6F38"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "0D48FB30B8B254C7"
+					type: "item"
+					item: "minecraft:cow_spawn_egg"
+				}
+				{
+					id: "2390EE9B8E964CCA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Heating Upgrade"
+			x: 1.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["Allows you to attach power to the Stove."]
+			dependencies: ["7CB3FCD789747EF5"]
+			id: "1515B32545F51266"
+			tasks: [{
+				id: "3915BEA724A2F7ED"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+			rewards: [
+				{
+					id: "5EB6705A66BEB997"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "19945E72467070D2"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Ice, Ice, Baby"
+			x: 0.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["Provides Ice and Snow recipes!"]
+			dependencies: ["66815AB6FDACCAB7"]
+			optional: true
+			id: "13AFCD3B6F62B986"
+			tasks: [{
+				id: "6BDB280D22CE0118"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [
+				{
+					id: "03911B94997F0691"
+					type: "item"
+					item: "minecraft:snowball"
+					count: 8
+				}
+				{
+					id: "7F98CDC2EA641EF7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "String from Seeds!"
+			x: -7.0d
+			y: -1.0d
+			description: ["Use the Industrial Hemp to create string."]
+			dependencies: ["5A51E26D66D1273B"]
+			id: "1CBEB3ABB4260CC2"
+			tasks: [{
+				id: "35864460DFF78192"
+				type: "item"
+				item: "minecraft:string"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0F2D2091EF6DF6B9"
+					type: "item"
+					item: "thermal:flax_seeds"
+				}
+				{
+					id: "3AE014AE6CF77A06"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "The Start of a Fisher"
+			x: -1.57d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Willy would be Proud."
+			description: ["But he usually closes by 5, so who cares."]
+			size: 1.25d
+			id: "1DCAA0310AA55F1C"
+			tasks: [{
+				id: "5CB4746CCB2E2363"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BB398F5B3A25045"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["1DCAA0310AA55F1C"]
+			id: "16D0F1E3CEB60ABF"
+			tasks: [{
+				id: "13E86D23DA98D8E9"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03247C933128C015"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["16D0F1E3CEB60ABF"]
+			id: "0A64D0937A5F7513"
+			tasks: [{
+				id: "144B351F77F0B08F"
+				type: "item"
+				item: {
+					id: "aquaculture:gold_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7664E2CF599F9E96"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			dependencies: ["0A64D0937A5F7513"]
+			id: "511562EA5811306B"
+			tasks: [{
+				id: "3FECA1F49F588499"
+				type: "item"
+				item: {
+					id: "aquaculture:diamond_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F6CD2A029F5FC11"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			dependencies: ["511562EA5811306B"]
+			id: "5A1DCD6C7F712A78"
+			tasks: [{
+				id: "31B52EAD7F931F31"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4000D1222D505757"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Auto Fishing!"
+			x: -2.5d
+			y: 5.0d
+			description: [
+				"Let the strainer do the work for you."
+				""
+				"Will need a strainer on top as well as water."
+			]
+			dependencies: ["1DCAA0310AA55F1C"]
+			optional: true
+			id: "209F7EBAF2553694"
+			tasks: [
+				{
+					id: "718F49C264557FA3"
+					type: "item"
+					item: "waterstrainer:strainer_base"
+				}
+				{
+					id: "08E4C5476E141A0A"
+					type: "item"
+					item: {
+						id: "waterstrainer:strainer_fisherman"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0B6E1DC53AE8C688"
+					type: "item"
+					item: {
+						id: "waterstrainer:strainer_fisherman_solid"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "180E1B7467508157"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "You can have your Cake and Eat it too."
+			x: -8.25d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["Time to bake a cake, if you've got some milk and eggs ready."]
+			dependencies: [
+				"659A903F97F93BE2"
+				"1D48298525EEADC9"
+			]
+			size: 1.5d
+			id: "0893EFCAC7031FEA"
+			tasks: [{
+				id: "1AA73DEFAA50FDF6"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [
+				{
+					id: "2C168199050CC470"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "7F528DE479E680AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "You so sweet."
+			x: -7.0d
+			y: 1.0d
+			subtitle: "Pour some sugar on me."
+			description: ["You should have everything you need already."]
+			dependencies: ["361DFDB1E1352D6B"]
+			id: "1D48298525EEADC9"
+			tasks: [{
+				id: "56CAB3D2E3421C7C"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "7EAE8BCBABAA8B89"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 3
+				}
+				{
+					id: "04AB9DC101FCAB74"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Efficiency Upgrade"
+			x: 7.5d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Placing an Axe or a Book with an Efficiency Enchant decreases the total growth time in the Bonsai Pot."]
+			dependencies: ["6A78CF3396654D01"]
+			optional: true
+			id: "0BFBB64E405A0F41"
+			tasks: [{
+				id: "4C7C96FE727113C7"
+				type: "checkmark"
+				title: "Efficiency Upgrade"
+			}]
+			rewards: [{
+				id: "67197E1F4B94A8E4"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Silk Touch Upgrade"
+			x: 7.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["Placing an Axe or a Book with a Silk Touch Enchant produces extra items on certain trees in the Bonsai Pot."]
+			dependencies: ["6A78CF3396654D01"]
+			optional: true
+			id: "698A7F6155FB2701"
+			tasks: [{
+				id: "04D9023F39A3C28C"
+				type: "checkmark"
+				title: "Silk Touch Upgrade"
+			}]
+			rewards: [{
+				id: "2069BCF252C96FB1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Fortune Upgrade"
+			x: 7.0d
+			y: 4.5d
+			shape: "diamond"
+			description: ["Placing an Axe or Book with a Fortune Enchant will increase the drop chance and number of items in the loot pool."]
+			dependencies: ["6A78CF3396654D01"]
+			id: "6B02C78840493D86"
+			tasks: [{
+				id: "648BD06BDD4E9FA0"
+				type: "checkmark"
+				title: "Fortune Upgrade"
+			}]
+			rewards: [{
+				id: "7C5DC33A2DF9BBFF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Auto-Harvesting"
+			x: 5.5d
+			y: 4.0d
+			description: ["Placing an Axe in the upgrade slots will auto-harvest the sapling in the Bonsai Pot."]
+			id: "6A78CF3396654D01"
+			tasks: [{
+				id: "2765968DC1064C12"
+				type: "item"
+				item: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "39C18E89F20AFF2E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Auto-Output Upgrade"
+			x: 4.0d
+			y: 5.0d
+			description: ["Adding a Hopper to the upgrades will auto-output items into an inventory below the Bonsai Pot."]
+			id: "05AEC9254D603D3F"
+			tasks: [{
+				id: "38029100E1D9BF3F"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+			rewards: [{
+				id: "38C4DF87A3110171"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "The Sink = Infinite Water"
+			x: -1.0d
+			y: 8.0d
+			shape: "diamond"
+			subtitle: "Why Use 3 Block when 1 Block Do Trick"
+			description: [
+				"This block provides water the multi-block kitchen."
+				""
+				"It can also provide infinite water, and can pump water out via cables or pipes."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "0EFF1AA37772156B"
+			tasks: [{
+				id: "2872A1297BE6C40D"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "2B2B365E281A6940"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "62FB77230F1D9F9B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Fruit Upgrade"
+			x: 4.0d
+			y: 3.0d
+			description: ["Placing a Beehive in the Bonsai Pot will allow the saplings to produce Fruit."]
+			id: "51D678DB7193FB2E"
+			tasks: [{
+				id: "3B13E9F87DA783F2"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [
+				{
+					id: "45880BD8C223F87B"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 2
+				}
+				{
+					id: "23A80E239D7FC6E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+	]
+}
