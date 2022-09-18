@@ -1,0 +1,20 @@
+
+#General settings
+[general]
+	#Maximum distance from player (horizontally) for entity spawning check [Squared, Default 64^2]
+	maxEntitySpawnDistanceHorizontal = 4096
+	#Maximum distance from player (vertically) for entity spawning check [Raw, Default 32]
+	maxEntitySpawnDistanceVertical = 32
+	#Maximum distance from player (horizontally) to allow entity ticking [Squared, Default 48^2]
+	maxEntityTickDistanceHorizontal = 2304
+	#Maximum distance from player (vertically) to allow entity ticking [Raw, Default 32]
+	maxEntityTickDistanceVertical = 32
+	#List of entities to ignore when checking if they are allowed to tick
+	#Tags can be used by using #minecraft:<tag_name> or #modid:<tag_name>
+	#You can also use a wildcard after modid (modid:*)
+	#Example list for a modpack
+	#entityIgnoreList = ["minecraft:wither","minecraft:phantom","minecraft:ender_dragon", "minecraft:elder_guardian", "minecraft:player", "botania:*", "create:*", "ftbic:*", "immersiveengineering:*", "ae2:*", "littlelogistics:*", "tiab:*"]
+	entityIgnoreList = ["minecraft:wither", "minecraft:phantom", "minecraft:ender_dragon", "minecraft:elder_guardian", "minecraft:player", "minecraft:allay", "productivebees:*", "ars_nouveau:*", "pneumaticcraft:*", "mahoutsukai:*", "ae2:*", "integrateddynamics:entityitemtargetted", "littlelogistics:*", "twilightforest:*", "securitycraft:*", "minecolonies:*"]
+	#Minimum number of players before mod is enabled
+	minPlayers = 3
+
