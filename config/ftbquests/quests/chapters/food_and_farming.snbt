@@ -57,8 +57,8 @@
 			corner: false
 		}
 		{
-			x: 9.0d
-			y: 4.0d
+			x: 5.0d
+			y: 3.5d
 			width: 2.0d
 			height: 2.0d
 			rotation: 0.0d
@@ -105,7 +105,7 @@
 			corner: false
 		}
 		{
-			x: 4.5d
+			x: 3.0d
 			y: 1.0d
 			width: 1.0d
 			height: 1.0d
@@ -129,7 +129,7 @@
 			corner: false
 		}
 		{
-			x: -9.5d
+			x: -4.0d
 			y: 4.0d
 			width: 2.0d
 			height: 2.0d
@@ -146,7 +146,7 @@
 			width: 12.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "atm:textures/food_and_farming.png"
+			image: "atm:textures/questpics/food_and_farming.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -216,7 +216,7 @@
 		{
 			title: "Mary had a Little Lamb"
 			icon: "minecraft:white_wool"
-			x: 7.0d
+			x: 5.5d
 			y: 0.0d
 			subtitle: "Whose fleece was....rainbow?"
 			description: ["Let's gather some pieces of wool!"]
@@ -251,7 +251,7 @@
 		}
 		{
 			title: "It's Clippin' Time"
-			x: 5.5d
+			x: 4.0d
 			y: 0.0d
 			dependencies: ["2E9C035EEE7E5C34"]
 			id: "18EADBAFC932F864"
@@ -274,7 +274,7 @@
 		}
 		{
 			title: "But....Cows can't be sheared..."
-			x: 6.0d
+			x: 4.5d
 			y: -1.0d
 			description: ["I don't wanna know how you got these."]
 			dependencies: ["2E9C035EEE7E5C34"]
@@ -300,7 +300,7 @@
 		}
 		{
 			title: "AllTheFarm7"
-			x: 9.0d
+			x: 7.5d
 			y: 0.0d
 			shape: "rsquare"
 			subtitle: "The villager has more than one way to spawn"
@@ -332,8 +332,9 @@
 		}
 		{
 			title: "We're doing this the old fashioned way."
-			x: 4.0d
+			x: 2.5d
 			y: 0.0d
+			shape: "diamond"
 			subtitle: "Get along little doggy."
 			description: [
 				"The classic Lead. Use this to get animals into your farm area."
@@ -354,7 +355,7 @@
 		}
 		{
 			title: "Find a cow. Milk the cow. Profit."
-			x: 7.5d
+			x: 6.0d
 			y: -1.0d
 			subtitle: "Why aren't there any bulls in the game?"
 			description: [
@@ -385,7 +386,7 @@
 		}
 		{
 			title: "I'm not gonna make an Egg pun."
-			x: 6.0d
+			x: 4.0d
 			y: 1.0d
 			subtitle: "or am I?"
 			description: [
@@ -419,7 +420,7 @@
 		}
 		{
 			title: "The Chickens Must Go"
-			x: 7.5d
+			x: 6.0d
 			y: 1.0d
 			subtitle: "How else do you think Fried Chicken is made?"
 			dependencies: ["1D2EF12FD7FDD217"]
@@ -921,18 +922,11 @@
 				item: "minecraft:string"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0F2D2091EF6DF6B9"
-					type: "item"
-					item: "thermal:flax_seeds"
-				}
-				{
-					id: "3AE014AE6CF77A06"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "3AE014AE6CF77A06"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			title: "The Start of a Fisher"
@@ -961,8 +955,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 4.0d
+			x: -2.5d
+			y: 5.0d
 			dependencies: ["1DCAA0310AA55F1C"]
 			id: "16D0F1E3CEB60ABF"
 			tasks: [{
@@ -983,8 +977,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 4.0d
+			x: -3.5d
+			y: 6.0d
 			dependencies: ["16D0F1E3CEB60ABF"]
 			id: "0A64D0937A5F7513"
 			tasks: [{
@@ -1005,8 +999,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 4.0d
+			x: -5.0d
+			y: 6.0d
 			dependencies: ["0A64D0937A5F7513"]
 			id: "511562EA5811306B"
 			tasks: [{
@@ -1027,8 +1021,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 4.0d
+			x: -6.5d
+			y: 6.0d
 			dependencies: ["511562EA5811306B"]
 			id: "5A1DCD6C7F712A78"
 			tasks: [{
@@ -1047,55 +1041,6 @@
 				type: "xp"
 				xp: 10
 			}]
-		}
-		{
-			title: "Auto Fishing!"
-			x: -2.5d
-			y: 5.0d
-			description: [
-				"Let the strainer do the work for you."
-				""
-				"Will need a strainer on top as well as water."
-			]
-			dependencies: ["1DCAA0310AA55F1C"]
-			optional: true
-			id: "209F7EBAF2553694"
-			tasks: [
-				{
-					id: "718F49C264557FA3"
-					type: "item"
-					item: "waterstrainer:strainer_base"
-				}
-				{
-					id: "08E4C5476E141A0A"
-					type: "item"
-					item: {
-						id: "waterstrainer:strainer_fisherman"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "0B6E1DC53AE8C688"
-					type: "item"
-					item: {
-						id: "waterstrainer:strainer_fisherman_solid"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "180E1B7467508157"
-					type: "xp"
-					xp: 100
-				}
-			]
 		}
 		{
 			title: "You can have your Cake and Eat it too."
@@ -1156,105 +1101,6 @@
 			]
 		}
 		{
-			title: "Efficiency Upgrade"
-			x: 7.5d
-			y: 4.0d
-			shape: "diamond"
-			description: ["Placing an Axe or a Book with an Efficiency Enchant decreases the total growth time in the Bonsai Pot."]
-			dependencies: ["6A78CF3396654D01"]
-			optional: true
-			id: "0BFBB64E405A0F41"
-			tasks: [{
-				id: "4C7C96FE727113C7"
-				type: "checkmark"
-				title: "Efficiency Upgrade"
-			}]
-			rewards: [{
-				id: "67197E1F4B94A8E4"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "Silk Touch Upgrade"
-			x: 7.0d
-			y: 3.5d
-			shape: "diamond"
-			description: ["Placing an Axe or a Book with a Silk Touch Enchant produces extra items on certain trees in the Bonsai Pot."]
-			dependencies: ["6A78CF3396654D01"]
-			optional: true
-			id: "698A7F6155FB2701"
-			tasks: [{
-				id: "04D9023F39A3C28C"
-				type: "checkmark"
-				title: "Silk Touch Upgrade"
-			}]
-			rewards: [{
-				id: "2069BCF252C96FB1"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "Fortune Upgrade"
-			x: 7.0d
-			y: 4.5d
-			shape: "diamond"
-			description: ["Placing an Axe or Book with a Fortune Enchant will increase the drop chance and number of items in the loot pool."]
-			dependencies: ["6A78CF3396654D01"]
-			id: "6B02C78840493D86"
-			tasks: [{
-				id: "648BD06BDD4E9FA0"
-				type: "checkmark"
-				title: "Fortune Upgrade"
-			}]
-			rewards: [{
-				id: "7C5DC33A2DF9BBFF"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "Auto-Harvesting"
-			x: 5.5d
-			y: 4.0d
-			description: ["Placing an Axe in the upgrade slots will auto-harvest the sapling in the Bonsai Pot."]
-			id: "6A78CF3396654D01"
-			tasks: [{
-				id: "2765968DC1064C12"
-				type: "item"
-				item: {
-					id: "minecraft:iron_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "39C18E89F20AFF2E"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "Auto-Output Upgrade"
-			x: 4.0d
-			y: 5.0d
-			description: ["Adding a Hopper to the upgrades will auto-output items into an inventory below the Bonsai Pot."]
-			id: "05AEC9254D603D3F"
-			tasks: [{
-				id: "38029100E1D9BF3F"
-				type: "item"
-				item: "minecraft:hopper"
-			}]
-			rewards: [{
-				id: "38C4DF87A3110171"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
 			title: "The Sink = Infinite Water"
 			x: -1.0d
 			y: 8.0d
@@ -1287,27 +1133,59 @@
 			]
 		}
 		{
-			title: "Fruit Upgrade"
-			x: 4.0d
-			y: 3.0d
-			description: ["Placing a Beehive in the Bonsai Pot will allow the saplings to produce Fruit."]
-			id: "51D678DB7193FB2E"
+			title: "Botany Pots"
+			x: 2.5d
+			y: 4.0d
+			shape: "diamond"
+			description: [
+				"&9Botany Pots&r makes its return to the All The Mods franchise."
+				""
+				"These pots auto-grow almost anything you put into them, and can even be upgraded for automation."
+			]
+			size: 1.25d
+			id: "01B70A4F230ED036"
 			tasks: [{
-				id: "3B13E9F87DA783F2"
+				id: "1958DBFE401157E6"
 				type: "item"
-				item: "minecraft:beehive"
+				item: "botanypots:terracotta_botany_pot"
 			}]
 			rewards: [
 				{
-					id: "45880BD8C223F87B"
+					id: "0AC970B512BC6821"
 					type: "item"
-					item: "minecraft:honeycomb"
+					item: "minecraft:terracotta"
 					count: 2
 				}
 				{
-					id: "23A80E239D7FC6E1"
+					id: "5E4853D67766A132"
 					type: "xp"
-					xp: 10
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Automating the Pots"
+			x: 3.5d
+			y: 5.0d
+			shape: "gear"
+			description: ["Hopper pots will automatically output into the storage beneath it. This can be used to automate all of your crops!"]
+			dependencies: ["01B70A4F230ED036"]
+			id: "2715BECC5E6FFA64"
+			tasks: [{
+				id: "572F01124B2232CD"
+				type: "item"
+				item: "botanypots:terracotta_hopper_botany_pot"
+			}]
+			rewards: [
+				{
+					id: "3CE68937F914479A"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "1AC7BCFCCC100F4C"
+					type: "xp"
+					xp: 100
 				}
 			]
 		}

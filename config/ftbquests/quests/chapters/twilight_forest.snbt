@@ -33,17 +33,6 @@
 			}]
 			rewards: [
 				{
-					id: "79245FFF6FAEB31E"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "twilightforest:guide"
-						}
-					}
-				}
-				{
 					id: "1C0B624437947A5B"
 					type: "xp"
 					xp: 100
@@ -149,18 +138,11 @@
 					count: 12L
 				}
 			]
-			rewards: [
-				{
-					id: "3E889B970E03E480"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "7BA35DB857763D81"
-					type: "item"
-					item: "botania:mana_cookie"
-				}
-			]
+			rewards: [{
+				id: "3E889B970E03E480"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Fancy Noms"

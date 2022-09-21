@@ -997,8 +997,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -2.0d
+			x: 15.0d
+			y: -2.5d
 			shape: "square"
 			dependencies: ["542C6D76B579886C"]
 			id: "7CA63A0B7CC541CE"
@@ -1027,8 +1027,8 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: -1.0d
+			x: 15.0d
+			y: -1.5d
 			shape: "square"
 			dependencies: ["542C6D76B579886C"]
 			id: "565CA72D2268B140"
@@ -1057,8 +1057,8 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: 1.0d
+			x: 16.0d
+			y: -2.5d
 			shape: "square"
 			dependencies: ["542C6D76B579886C"]
 			id: "24F0C4277415CAEF"
@@ -1087,8 +1087,8 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 16.0d
+			y: -1.5d
 			shape: "square"
 			dependencies: ["542C6D76B579886C"]
 			id: "7E4A3016FCA4E7FD"
@@ -1117,10 +1117,10 @@
 			]
 		}
 		{
-			x: 18.5d
-			y: -2.0d
+			x: 15.0d
+			y: 1.5d
 			shape: "square"
-			dependencies: ["5E7587210DB282EC"]
+			dependencies: ["542C6D76B579886C"]
 			id: "4AD49D471BF4AB27"
 			tasks: [{
 				id: "0023CB82CB60DD6E"
@@ -1147,10 +1147,10 @@
 			]
 		}
 		{
-			x: 18.5d
-			y: -1.0d
+			x: 15.0d
+			y: 2.5d
 			shape: "square"
-			dependencies: ["5E7587210DB282EC"]
+			dependencies: ["542C6D76B579886C"]
 			id: "4DFBE829FA797B75"
 			tasks: [{
 				id: "2B19FFFF280DC213"
@@ -1177,10 +1177,10 @@
 			]
 		}
 		{
-			x: 18.5d
-			y: 1.0d
+			x: 16.0d
+			y: 1.5d
 			shape: "square"
-			dependencies: ["5E7587210DB282EC"]
+			dependencies: ["542C6D76B579886C"]
 			id: "418C7D2CB2259A45"
 			tasks: [{
 				id: "27D3AF0221AE3E0B"
@@ -1207,10 +1207,10 @@
 			]
 		}
 		{
-			x: 18.5d
-			y: 2.0d
+			x: 16.0d
+			y: 2.5d
 			shape: "square"
-			dependencies: ["5E7587210DB282EC"]
+			dependencies: ["542C6D76B579886C"]
 			id: "326124128BE6823F"
 			tasks: [{
 				id: "7DE3FFBA77344B7C"
@@ -1237,10 +1237,10 @@
 			]
 		}
 		{
-			x: 20.5d
-			y: -2.0d
+			x: 18.5d
+			y: -0.5d
 			shape: "square"
-			dependencies: ["2A8D21E573A6DE09"]
+			dependencies: ["542C6D76B579886C"]
 			id: "6460384591079D3A"
 			tasks: [{
 				id: "3A36B5DAEBB078E3"
@@ -1267,10 +1267,10 @@
 			]
 		}
 		{
-			x: 20.5d
-			y: -1.0d
+			x: 18.5d
+			y: 0.5d
 			shape: "square"
-			dependencies: ["2A8D21E573A6DE09"]
+			dependencies: ["542C6D76B579886C"]
 			id: "56C035444F3D202F"
 			tasks: [{
 				id: "211C25415C19E8A8"
@@ -1297,10 +1297,10 @@
 			]
 		}
 		{
-			x: 20.5d
-			y: 1.0d
+			x: 17.5d
+			y: -0.5d
 			shape: "square"
-			dependencies: ["2A8D21E573A6DE09"]
+			dependencies: ["542C6D76B579886C"]
 			id: "111ED22A2EFDEEEF"
 			tasks: [{
 				id: "742537CA15856DCD"
@@ -1327,10 +1327,10 @@
 			]
 		}
 		{
-			x: 20.5d
-			y: 2.0d
+			x: 17.5d
+			y: 0.5d
 			shape: "square"
-			dependencies: ["2A8D21E573A6DE09"]
+			dependencies: ["542C6D76B579886C"]
 			id: "7E95499984FFB344"
 			tasks: [{
 				id: "255FB2CA7016863A"
@@ -1409,7 +1409,7 @@
 			description: [
 				"When your Magebloom seeds.... bloom, you can use the Magebloom to create Fibers."
 				""
-				"These are used to craft several items, including your first set of magical armor, the &eNovice Armor&r."
+				"These are used to craft several items, including your first set of magical armor!"
 			]
 			dependencies: ["58EC47584C773B82"]
 			id: "542C6D76B579886C"
@@ -1434,82 +1434,6 @@
 			]
 		}
 		{
-			x: 17.5d
-			y: 0.0d
-			description: [
-				"Infusing Magebloom Fiber with Blaze Powder makes it even stronger!"
-				""
-				"These are used to create the Mage Armor."
-			]
-			dependencies: ["542C6D76B579886C"]
-			id: "5E7587210DB282EC"
-			tasks: [{
-				id: "308AA8ADC1B97DD5"
-				type: "item"
-				item: "ars_nouveau:blaze_fiber"
-			}]
-			rewards: [
-				{
-					id: "7971A13D1DC2CB2E"
-					type: "item"
-					item: "ars_nouveau:blaze_fiber"
-					count: 2
-					random_bonus: 2
-				}
-				{
-					id: "1C67A413997DCDCA"
-					type: "item"
-					item: "minecraft:blaze_powder"
-					count: 2
-					random_bonus: 1
-				}
-				{
-					id: "7D5F9B5998948E1C"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 19.5d
-			y: 0.0d
-			subtitle: "Becoming the Archmage"
-			description: [
-				"Unlike Skyrim, you don't have to cast a single spell to become the Archmage."
-				""
-				"If we infuse our Blaze Fibers with Chorus Fruit, we'll get &5End Fibers&r."
-				""
-				"These are used to craft the &6Archmage Armor&r."
-			]
-			dependencies: ["5E7587210DB282EC"]
-			id: "2A8D21E573A6DE09"
-			tasks: [{
-				id: "25D5E65FCE720D11"
-				type: "item"
-				item: "ars_nouveau:end_fiber"
-			}]
-			rewards: [
-				{
-					id: "1192C9BD70B29817"
-					type: "item"
-					item: "ars_nouveau:end_fiber"
-					count: 2
-				}
-				{
-					id: "05B10E6D7C24EF9E"
-					type: "item"
-					item: "minecraft:popped_chorus_fruit"
-					count: 2
-					random_bonus: 2
-				}
-				{
-					id: "246938CD64637CCF"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			title: "Enchanting Apparatus"
 			x: 10.5d
 			y: 0.0d
@@ -1519,9 +1443,7 @@
 				""
 				"It is also a multiblock structure that utilizes Arcane Pedestals to craft."
 				""
-				"Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals, like shown in the image."
-				""
-				"{image:atm:textures/enchanting_app.png width:200 height:200 align:1}"
+				"Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals."
 			]
 			dependencies: ["18A2FBE2D4133FA2"]
 			size: 1.25d
@@ -2152,7 +2074,7 @@
 			description: [
 				"To gain further knowledge of spells, we'll need a specific type of magical wood!"
 				""
-				"Unlike ATM6, Archwood Trees can be found in the overworld."
+				"Archwood Trees can be found in the overworld."
 			]
 			dependencies: ["64D0E66CB4FBEC82"]
 			id: "33682F4B44950123"
@@ -2400,7 +2322,7 @@
 			]
 		}
 		{
-			x: 14.5d
+			x: 13.0d
 			y: 2.0d
 			subtitle: "Placeable Spells"
 			description: [
@@ -2974,17 +2896,18 @@
 			]
 		}
 		{
-			title: "Arcane Stone"
+			title: "Sourcestones"
 			x: 5.199999999999999d
 			y: 0.0d
-			subtitle: "Magical Rocks"
-			description: ["With Source Gems, you can get started crafting the various machines by creating &5Arcane Stones&r."]
+			subtitle: "Formerly known as \"Arcane Stones\""
+			description: ["With Source Gems, you can get started crafting the various machines by creating &5Sourcestones&r."]
 			dependencies: ["40BC67BDEE15D1DE"]
 			id: "5C3FF43CF16BCF30"
 			tasks: [{
 				id: "03EB390E79866058"
 				type: "item"
-				item: "ars_nouveau:arcane_stone"
+				title: "Sourcestone"
+				item: "ars_nouveau:sourcestone"
 				count: 8L
 			}]
 			rewards: [
@@ -3001,7 +2924,7 @@
 			]
 		}
 		{
-			x: 14.5d
+			x: 13.0d
 			y: 1.0d
 			description: ["Used to inscribe spells on with the Scribe's Table."]
 			dependencies: ["542C6D76B579886C"]

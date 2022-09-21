@@ -26,20 +26,9 @@
 					count: 8L
 				}
 			]
-			rewards: [{
-				id: "026B01C5F2485988"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "mysticalagriculture:guide"
-					}
-				}
-			}]
 		}
 		{
-			title: "Seed for Though"
+			title: "Growing Inferium"
 			x: 0.0d
 			y: -1.5d
 			shape: "diamond"
@@ -222,8 +211,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -4.0d
+			x: -5.0d
+			y: -2.5d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
 			id: "0E25CDB09FE88A63"
@@ -236,18 +225,6 @@
 		{
 			x: -5.5d
 			y: -1.0d
-			shape: "diamond"
-			dependencies: ["576ABF43FCF886B7"]
-			id: "4A6AC3D1ACBC3BFC"
-			tasks: [{
-				id: "6AEC16A4BA18B9AE"
-				type: "item"
-				item: "mysticalagriculture:mystical_flower_seeds"
-			}]
-		}
-		{
-			x: -4.5d
-			y: -2.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
 			id: "573885D6EF32B7BC"
@@ -282,8 +259,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -4.0d
+			x: -4.5d
+			y: -2.0d
 			shape: "diamond"
 			dependencies: ["576ABF43FCF886B7"]
 			id: "594F6ED00D1619EE"
@@ -704,8 +681,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -3.5d
+			x: -10.5d
+			y: -3.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
 			id: "0AF5FB1B5AA5AA11"
@@ -740,8 +717,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -2.0d
+			x: -10.0d
+			y: -3.5d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
 			id: "222739E77C745519"
@@ -752,8 +729,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: -2.0d
+			x: -9.5d
+			y: -3.0d
 			shape: "diamond"
 			dependencies: ["5BC4250E4C9F803C"]
 			id: "248AEF5537E48B1A"
@@ -938,6 +915,17 @@
 				id: "667004CD0469493D"
 				type: "item"
 				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [{
+				id: "3D25E7ADCE8DD795"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
 			}]
 		}
 		{

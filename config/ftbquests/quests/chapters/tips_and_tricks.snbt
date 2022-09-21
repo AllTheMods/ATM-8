@@ -1,7 +1,7 @@
 {
 	id: "1BE666F01EFFC00D"
 	group: ""
-	order_index: 0
+	order_index: 2
 	filename: "tips_and_tricks"
 	title: "Tips \\& Tricks"
 	default_quest_shape: "diamond"
@@ -12,7 +12,7 @@
 		width: 12.0d
 		height: 3.0d
 		rotation: 0.0d
-		image: "atm:textures/tips_and_tricks.png"
+		image: "atm:textures/questpics/tips_and_tricks.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -20,8 +20,8 @@
 	}]
 	quests: [
 		{
-			x: 3.5d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 			subtitle: "Can be used as Reactor Coolant"
 			description: ["Easy item to automate infinite water. Need more water? Make another!"]
 			id: "722978AC0C1B2649"
@@ -44,8 +44,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
+			x: -1.0d
+			y: 6.0d
 			shape: "diamond"
 			subtitle: "Honey I Shrunk Myself"
 			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
@@ -59,65 +59,16 @@
 					tag: { }
 				}
 			}]
-			rewards: [
-				{
-					id: "7CCC4171B93B35F0"
-					type: "item"
-					item: "botania:cosmetic_tiny_potato_mask"
-				}
-				{
-					id: "156D559B0B56BA9A"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "OreSight Potions"
-			icon: {
-				id: "minecraft:potion"
-				Count: 1b
-				tag: {
-					Potion: "potionsmaster:iron_sight"
-				}
-			}
-			x: 3.0d
-			y: 5.0d
-			subtitle: "It's like X-Ray Vision!"
-			description: [
-				"Having trouble finding a specific ore? Make an Oresight potion!"
-				""
-				"Oresight potions give you x-ray vision for ores. Check out the mod &9Potions Master&r by searching up @potionsmaster in the JEI searchbox."
-			]
-			id: "3EE9F242794CD95F"
-			tasks: [{
-				id: "5EB6069EECDB5D95"
-				type: "checkmark"
-				title: "Oresight Potions"
+			rewards: [{
+				id: "156D559B0B56BA9A"
+				type: "xp"
+				xp: 10
 			}]
-			rewards: [
-				{
-					id: "717AB46363706266"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "27C7514C31B446D1"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "potionsmaster:iron_sight"
-						}
-					}
-				}
-			]
 		}
 		{
 			title: "Comforts"
-			x: 4.0d
-			y: 5.0d
+			x: 3.5d
+			y: 5.5d
 			subtitle: "ZZZzzz..."
 			description: [
 				"The sleeping bag lets you sleep during the night."
@@ -154,38 +105,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 5.5d
-			subtitle: "When an infinite world is too small"
-			description: [
-				"It's an entire room in one block!"
-				""
-				"Higher tiers are even bigger on the inside."
-			]
-			dependencies: ["73F91BF3D424B269"]
-			id: "594540768120A627"
-			tasks: [{
-				id: "029DB3044D5E30A0"
-				type: "item"
-				item: "compactmachines:machine_tiny"
-			}]
-			rewards: [
-				{
-					id: "0325FA11C261E21D"
-					type: "item"
-					item: "compactmachines:wall"
-					count: 8
-				}
-				{
-					id: "10CFB937D14BE803"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: 5.5d
+			x: 4.0d
+			y: 5.0d
 			description: [
 				"A quick way to switch between tools."
 				""
@@ -215,23 +136,42 @@
 			title: "Compact Machines"
 			x: -1.0d
 			y: 5.0d
-			description: ["This item serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."]
+			description: [
+				"The Personal Shrinking Device serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."
+				""
+				"The Compact Machine itself is a small world that you can teleport in and out of to store your farms and machines!"
+			]
 			id: "73F91BF3D424B269"
-			tasks: [{
-				id: "3B227EED4B839733"
-				type: "item"
-				item: "compactmachines:personal_shrinking_device"
-			}]
-			rewards: [{
-				id: "43605B432D1C8172"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "3B227EED4B839733"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+				{
+					id: "1B529CAA2620B7CC"
+					type: "item"
+					item: "compactmachines:machine_tiny"
+				}
+			]
+			rewards: [
+				{
+					id: "43605B432D1C8172"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16DBB58D967E5AB0"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Building Gadgets"
 			x: -1.5d
-			y: 4.5d
+			y: 5.5d
 			shape: "diamond"
 			description: [
 				"Some useful gadgets for building."
@@ -313,7 +253,7 @@
 		{
 			title: "Building Wands"
 			x: -2.0d
-			y: 5.0d
+			y: 6.0d
 			description: [
 				"Can be helpful for building."
 				""
@@ -342,15 +282,13 @@
 			title: "Tipped Out"
 			x: 1.0d
 			y: 5.5d
-			shape: "gear"
+			shape: "circle"
 			subtitle: "Complete all of the tips!"
 			hide_dependency_lines: true
 			dependencies: [
 				"722978AC0C1B2649"
 				"7EC8814940C4C3D7"
-				"3EE9F242794CD95F"
 				"14C8FC3F19190054"
-				"594540768120A627"
 				"378C95C18798D413"
 				"73F91BF3D424B269"
 				"0F75D7B9F4FF2459"
@@ -388,16 +326,14 @@
 		}
 		{
 			icon: "minecraft:iron_ore"
-			x: 3.5d
-			y: 4.5d
+			x: 3.0d
+			y: 5.0d
 			shape: "diamond"
-			subtitle: "The 1.18 Changes"
+			subtitle: "Minecraft Update Changes"
 			description: [
-				"If you've played MC in previous versions, it's important to know that Ore Generation has changed as well as max build level."
+				"If you haven't played MC since 1.16, it's important to know that Ore Generation has changed as well as max build level."
 				""
 				"Make sure to check out the \"World Gen\" tab in the ore's recipe to see the Y level the ore generates!"
-				""
-				""
 			]
 			id: "7732A4AE58D1315E"
 			tasks: [{
@@ -419,8 +355,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 5.5d
+			x: -2.0d
+			y: 5.0d
 			subtitle: "A Simple Magnet!"
 			id: "3FC002E5A6C08DCC"
 			tasks: [{
@@ -439,15 +375,13 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 5.5d
+			x: 4.0d
+			y: 6.0d
 			subtitle: "Helps Find Biomes"
 			description: [
 				"Gives you a list of biomes you can search for."
 				""
 				"Select a biome, then hit \"Search.\" You'll see some info in the top left, and the compass will point in the direction of the biome."
-				""
-				"Pro Tip: Search for \"Peaks\" to find the biomes that AllTheModium ore spawns in. They can also spawn in Meadows!"
 			]
 			id: "70B6C9409AE69284"
 			tasks: [{

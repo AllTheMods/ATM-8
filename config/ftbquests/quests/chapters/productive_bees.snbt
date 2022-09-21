@@ -20,7 +20,7 @@
 			width: 20.0d
 			height: 5.0d
 			rotation: 0.0d
-			image: "atm:textures/productive_bees.png"
+			image: "atm:textures/questpics/bees/productive_bees.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -597,7 +597,7 @@
 				}
 			}
 			x: -4.0d
-			y: 12.0d
+			y: 12.5d
 			subtitle: "Spawns from a Dirt Nest"
 			description: ["The Ashy Mining Bee is spawned from a Dirt, Gravel, or Sand Nest."]
 			hide_dependency_lines: true
@@ -745,7 +745,7 @@
 			title: "Aluminum Bees"
 			icon: "alltheores:aluminum_ingot"
 			x: -1.0d
-			y: 12.5d
+			y: 11.5d
 			subtitle: "Crystalline + Ashy Mining Bee"
 			description: [""]
 			hide_dependency_lines: true
@@ -1490,7 +1490,7 @@
 		{
 			icon: "minecraft:blue_dye"
 			x: -4.0d
-			y: 14.0d
+			y: 15.5d
 			subtitle: "Spawned using a Wood Nest"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -2071,7 +2071,7 @@
 			title: "Electrum Bees"
 			icon: "alltheores:electrum_ingot"
 			x: 0.0d
-			y: 15.0d
+			y: 14.0d
 			subtitle: "Gold + Silver"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2272,7 +2272,7 @@
 			title: "Leafcutter Bee"
 			icon: "twilightforest:fallen_leaves"
 			x: -4.0d
-			y: 13.0d
+			y: 14.0d
 			subtitle: "Spawns from a Dirt Nest"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -2363,7 +2363,7 @@
 			title: "Sugarbag Bee"
 			icon: "minecraft:sugar"
 			x: -4.0d
-			y: 16.0d
+			y: 17.0d
 			subtitle: "Random Chance to Spawn when breaking Cocoa Pods in a Jungle"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -2422,8 +2422,8 @@
 		{
 			title: "ZomBee"
 			icon: "minecraft:zombie_head"
-			x: -4.0d
-			y: 17.0d
+			x: -3.0d
+			y: 12.5d
 			subtitle: "Spawns in empty Advanced Beehives in a dark place"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -2584,16 +2584,15 @@
 			title: "CuBee"
 			icon: "minecraft:chicken"
 			x: -1.0d
-			y: 15.5d
+			y: 14.5d
 			subtitle: "Farmer + Rancher"
 			description: ["This is the Breeder bee."]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "2E51F09F6D9E5EF8"
 			tasks: [{
-				id: "135B81EDFB262B95"
-				type: "item"
-				item: "productivebees:spawn_egg_cupid_bee"
+				id: "34C16667CDF3E53A"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "228543A8ADEDCE7E"
@@ -2605,7 +2604,7 @@
 			title: "Dye Bee"
 			icon: "minecraft:red_dye"
 			x: 1.0d
-			y: 16.5d
+			y: 15.5d
 			subtitle: "Lapis + Skeletal"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2625,7 +2624,7 @@
 			title: "Enderium Bee"
 			icon: "alltheores:enderium_ingot"
 			x: -1.0d
-			y: 13.5d
+			y: 12.5d
 			subtitle: "Lead + Diamond/Platinum"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2665,7 +2664,7 @@
 			title: "Experience Bee"
 			icon: "minecraft:experience_bottle"
 			x: -1.0d
-			y: 16.5d
+			y: 15.5d
 			subtitle: "Lapis + Emerald"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2711,7 +2710,7 @@
 				}
 			}
 			x: 2.0d
-			y: 17.0d
+			y: 16.0d
 			subtitle: "Lumber + Rancher"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2731,7 +2730,7 @@
 			title: "Grave's Bee"
 			icon: "tombstone:grave_dust"
 			x: 0.0d
-			y: 17.0d
+			y: 15.0d
 			subtitle: "Ghostly + Skeletal/Zombee"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2771,7 +2770,7 @@
 			title: "Invar Bee"
 			icon: "alltheores:invar_ingot"
 			x: -1.0d
-			y: 14.5d
+			y: 13.5d
 			subtitle: "Iron + Nickel"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2811,7 +2810,7 @@
 			title: "Lumber Bee"
 			icon: "minecraft:oak_log"
 			x: 3.0d
-			y: 16.5d
+			y: 15.5d
 			subtitle: "Yellow + Green Carpenter Bee"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2877,7 +2876,7 @@
 			title: "Menril Bee"
 			icon: "integrateddynamics:crystalized_menril_chunk"
 			x: 3.0d
-			y: 17.5d
+			y: 16.5d
 			subtitle: "Crystalline + Neon Cuckoo"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2917,7 +2916,7 @@
 			title: "Nickel Bee"
 			icon: "alltheores:nickel_ingot"
 			x: 0.0d
-			y: 13.0d
+			y: 12.0d
 			subtitle: "Iron + Sweat"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2957,7 +2956,7 @@
 			title: "Obsidian Bee"
 			icon: "minecraft:obsidian"
 			x: 1.0d
-			y: 17.5d
+			y: 16.5d
 			subtitle: "Magmatic + Sweat"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3034,58 +3033,10 @@
 			}]
 		}
 		{
-			title: "Pepto Beesmol Bee"
-			icon: {
-				id: "productivebees:configurable_comb"
-				Count: 1b
-				tag: {
-					EntityTag: {
-						type: "productivebees:pepto_bismol"
-					}
-				}
-			}
-			x: 0.0d
-			y: 18.0d
-			subtitle: "Sugarbag + Neon Cuckoo"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "2B1985B5774B977B"
-			tasks: [{
-				id: "4C8BCD20A4DF8353"
-				type: "item"
-				title: "Pepto Bismol Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:pepto_bismol"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:pepto_bismol"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "16918EC0704ED7D2"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "Quarry Bee"
 			icon: "minecraft:stone"
-			x: 2.0d
-			y: 18.0d
+			x: 0.0d
+			y: 16.0d
 			subtitle: "Chocolate Mining + Digger"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3158,7 +3109,7 @@
 			title: "Rancher Bee"
 			icon: "minecraft:egg"
 			x: 3.0d
-			y: 15.5d
+			y: 14.5d
 			subtitle: "Lumber + Sweat"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3178,7 +3129,7 @@
 			title: "Refined Glowstone Bee"
 			icon: "mekanism:ingot_refined_glowstone"
 			x: 0.0d
-			y: 14.0d
+			y: 13.0d
 			subtitle: "Osmium + Glowing"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3298,7 +3249,7 @@
 			title: "Silky Bee"
 			icon: "minecraft:string"
 			x: -1.0d
-			y: 17.5d
+			y: 16.5d
 			subtitle: "Resin + Reed"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3417,8 +3368,8 @@
 		{
 			title: "Ghostly Bee"
 			icon: "minecraft:soul_sand"
-			x: -4.0d
-			y: 15.0d
+			x: -3.0d
+			y: 16.5d
 			subtitle: "Spawned using a Soul Sand Nest in the Nether."
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -3615,50 +3566,10 @@
 			}]
 		}
 		{
-			title: "Choco Bee"
-			icon: "croptopia:chocolate"
-			x: 6.0d
-			y: 12.0d
-			subtitle: "Feed a Sugarbag Bee a Cocoa Bean!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "06FA7A81C32C1BB2"
-			tasks: [{
-				id: "7C54A389C84DDB49"
-				type: "item"
-				title: "Choco Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:chocolate"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:chocolate"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "63F3657E313B7BA1"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "Collector Bee"
 			icon: "minecraft:hopper"
-			x: 7.0d
-			y: 16.5d
+			x: 6.0d
+			y: 17.0d
 			subtitle: "Feed a Vanilla Bee a Hopper!"
 			description: [
 				"Will pick up items and bring them back to its hive."
@@ -3683,7 +3594,7 @@
 			title: "CreeBee"
 			icon: "minecraft:creeper_head"
 			x: 5.0d
-			y: 12.5d
+			y: 11.5d
 			subtitle: "Feed a Vanilla Bee TNT!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3744,7 +3655,7 @@
 			title: "Fluix Bee"
 			icon: "ae2:fluix_crystal"
 			x: 5.0d
-			y: 16.5d
+			y: 15.5d
 			subtitle: "Feed a Spatial Bee a Fluix Pearl!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3863,8 +3774,8 @@
 		{
 			title: "Hoarder Bee"
 			icon: "minecraft:shulker_box"
-			x: 6.0d
-			y: 17.0d
+			x: 5.0d
+			y: 16.5d
 			subtitle: "Feed a Collector Bee a Shulker Shell!"
 			description: ["Collects items on the ground and brings it back to its nest."]
 			hide_dependency_lines: true
@@ -3885,7 +3796,7 @@
 			title: "Peridot Bee"
 			icon: "alltheores:peridot"
 			x: 5.0d
-			y: 13.5d
+			y: 12.5d
 			subtitle: "Feed a Diamond Bee Peridot!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3925,7 +3836,7 @@
 			title: "ProsperiBee"
 			icon: "mysticalagriculture:prosperity_shard"
 			x: 6.0d
-			y: 14.0d
+			y: 15.0d
 			subtitle: "Feed a Crystalline Bee a Prosperity Block!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -4005,7 +3916,7 @@
 			title: "RuBee"
 			icon: "alltheores:ruby"
 			x: 5.0d
-			y: 14.5d
+			y: 13.5d
 			subtitle: "Feed a Diamond Bee a Ruby!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -4045,7 +3956,7 @@
 			title: "Sapphire Bee"
 			icon: "alltheores:sapphire"
 			x: 5.0d
-			y: 15.5d
+			y: 14.5d
 			subtitle: "Feed a Diamond Bee a Sapphire!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -4084,8 +3995,8 @@
 		{
 			title: "Soulium Bee"
 			icon: "mysticalagriculture:soulium_ingot"
-			x: 6.0d
-			y: 15.0d
+			x: 7.0d
+			y: 16.5d
 			subtitle: "Feed a Ghostly Bee a Soulium Dagger!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -4122,50 +4033,10 @@
 			}]
 		}
 		{
-			title: "Tea Bee"
-			icon: "croptopia:tea_leaves"
-			x: 7.0d
-			y: 15.5d
-			subtitle: "Feed a Leafcutter Bee a Bucket of Water!"
-			hide_dependency_lines: true
-			dependencies: ["17419401147B5C02"]
-			id: "31D990F0D3EF15D5"
-			tasks: [{
-				id: "13DE0B5305122E24"
-				type: "item"
-				title: "Tea Comb"
-				icon: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:tea"
-						}
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:tea"
-							}
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "208C7CC2B4283F0F"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "Warped Shroombee"
 			icon: "minecraft:warped_fungus"
-			x: 6.0d
-			y: 16.0d
+			x: 7.0d
+			y: 15.5d
 			subtitle: "Feed a Shroombee Warped Fungus!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]

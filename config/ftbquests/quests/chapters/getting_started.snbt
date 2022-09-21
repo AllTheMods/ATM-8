@@ -40,9 +40,9 @@
 			x: -8.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Welcome to All The Mods 7"
+			subtitle: "Welcome to All The Mods 8!"
 			description: [
-				"ATM7 has a ton of utilities to start you out. Veinminer is in the pack with FTB Ultimine. The default key is ~. You can change this in the keybind settings."
+				"ATM8 has a ton of utilities to start you out. Veinminer is in the pack with FTB Ultimine. The default key is `. You can change this in the keybind settings."
 				""
 				"Go out and have some fun!"
 			]
@@ -312,7 +312,7 @@
 			description: [
 				"If you run into a waystone, you can always break it and place it back at your base."
 				""
-				" Collect or make a few of these, and you'll have a teleport system!"
+				"Collect or make a few of these, and you'll have a teleport system!"
 			]
 			dependencies: ["39C364C1D308A36E"]
 			id: "20134C0F2CA354AD"
@@ -434,6 +434,7 @@
 			subtitle: "Upgrading our tools"
 			description: ["It's time to upgrade our tools to iron."]
 			dependencies: ["3118DD682A054C5F"]
+			optional: true
 			id: "147BC89798F3F925"
 			tasks: [
 				{
@@ -501,9 +502,11 @@
 			y: 1.5d
 			subtitle: "Does everything get an upgrade in this pack?"
 			description: [
-				"If you surround a furnace with Iron in a crafting table, you can upgrade your furnace to an Iron Furnace."
+				"If you surround a furnace with Iron in a crafting table, you can upgrade it to an Iron Furnace."
 				""
 				"These smelt faster and can also be configured to be automated with the cogwheel in the top left of the GUI."
+				""
+				"Check out the mod &9Iron Furnaces&r in JEI to learn more!"
 			]
 			dependencies: ["3118DD682A054C5F"]
 			id: "376BAC497511F067"
@@ -712,7 +715,7 @@
 			shape: "gear"
 			subtitle: "Starting with Power and Beyond"
 			description: [
-				"ATM7 has plenty of Tech mods to get you started!"
+				"ATM8 has plenty of Tech mods to get you started!"
 				""
 				"If you're new to tech mods, check out the &aGetting Started: Part 2&r to get started!"
 			]
@@ -740,7 +743,11 @@
 			y: -4.0d
 			shape: "gear"
 			subtitle: "You can grow diamonds."
-			description: ["With Mystical Agriculture, you can grow all of the resources in the game! Check out the Chapter &aMystical Agriculture&r to get started!"]
+			description: [
+				"With Mystical Agriculture, you can grow all of the resources in the game! "
+				""
+				"Check out the Chapter &aMystical Agriculture&r to get started!"
+			]
 			dependencies: ["6838B24EA44AA126"]
 			size: 2.0d
 			id: "318DBF3E4D146EB0"
@@ -884,7 +891,7 @@
 			tasks: [{
 				id: "56CC6703530D3AD8"
 				type: "item"
-				title: "Any #forge:chests"
+				title: "Any Chest"
 				icon: "minecraft:chest"
 				item: {
 					id: "itemfilters:tag"
@@ -911,6 +918,11 @@
 			x: -3.0d
 			y: 3.0d
 			subtitle: "Portable Storage!"
+			description: [
+				"ATM8 has backpacks!"
+				""
+				"&9Sophisticated Backpacks&r adds a ton of fully customizable backpacks for portable storage. Make sure to check them out!"
+			]
 			dependencies: ["13C46BACD0A36080"]
 			id: "0352A34ACD22E10B"
 			tasks: [{
@@ -934,7 +946,7 @@
 		}
 		{
 			x: 2.0d
-			y: -4.0d
+			y: -3.0d
 			description: [
 				"It's time to create a team  so we can claim chunks and even force-load them!"
 				""
