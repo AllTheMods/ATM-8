@@ -117,7 +117,7 @@
 			]
 		}
 		{
-			icon: "ae2:sky_compass"
+			icon: "ae2:meteorite_compass"
 			x: 4.0d
 			y: 0.5d
 			subtitle: "\"COMIC #42: shearching 4 bobby [Fischer]\""
@@ -131,11 +131,6 @@
 			dependencies: ["68B0B3DAF1145191"]
 			id: "51236544BFEF487B"
 			tasks: [
-				{
-					id: "6D55655551690784"
-					type: "item"
-					item: "ae2:sky_compass"
-				}
 				{
 					id: "616E037C2D135DEE"
 					type: "item"
@@ -155,6 +150,11 @@
 					id: "58B223074092B8E4"
 					type: "item"
 					item: "ae2:silicon_press"
+				}
+				{
+					id: "6537336D104CCABE"
+					type: "item"
+					item: "ae2:meteorite_compass"
 				}
 			]
 			rewards: [
@@ -320,7 +320,7 @@
 				""
 				"As a head start, any meteorite you find in the world will contain a core of 6 Fluix Blocks, for a total of 24 crystals per meteorite."
 				""
-				"However, you'll typically want to mass produce these, and the way to do so is to start with making &bFluix Dust&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water. Then you can grow the dust into crystals in the same way as you would with Certus Quartz via seeds."
+				"However, you'll typically want to mass produce these, and the way to do so is to start with making &bFluix Dust&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water."
 			]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "4BF0BB763BFFACF0"
@@ -884,162 +884,6 @@
 			]
 		}
 		{
-			title: "1M Storage Component"
-			x: 16.5d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "The first MEGAbyte."
-			description: [
-				"There comes a point in any playthrough of a large modpack where even the highest standard tier of storage cell doesn't cut it for the amount of items and resources that you may be accumulating."
-				""
-				"This is where the &dMEGA Cells&f add-on comes in, extending the available tiers of storage into the megabyte territory. The first of these new tiers is given by the &b1M MEGA Storage Component&f, providing 1024 &okilo&rbytes, or &e1048576&f bytes, of storage."
-			]
-			dependencies: [
-				"2C4616CD2EBB58C6"
-				"5F56892CD904C40F"
-			]
-			size: 1.5d
-			id: "460A8F17F3ED6CAF"
-			tasks: [{
-				id: "19BF2D67291056DE"
-				type: "item"
-				item: "megacells:cell_component_1m"
-			}]
-			rewards: [
-				{
-					id: "006EED7533375FD2"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "3C8B767128199FB7"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "295E028CA7E21B31"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-			]
-		}
-		{
-			title: "4M Storage Component"
-			x: 19.0d
-			y: 3.9999999999999996d
-			shape: "diamond"
-			description: ["The second MEGA tier of storage component, providing &e4194304&f (4096k) bytes of storage."]
-			dependencies: [
-				"19BF2D67291056DE"
-				"460A8F17F3ED6CAF"
-			]
-			id: "25DBA00422301EDC"
-			tasks: [{
-				id: "32340AD4F677375F"
-				type: "item"
-				item: "megacells:cell_component_4m"
-			}]
-			rewards: [
-				{
-					id: "5696B9C3D424839F"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "71734366561CE3E6"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "16M Storage Component"
-			x: 19.5d
-			y: 4.499999999999998d
-			shape: "diamond"
-			description: ["The third MEGA tier of storage component, providing &e16777216&f (16384k) bytes of storage."]
-			dependencies: [
-				"32340AD4F677375F"
-				"25DBA00422301EDC"
-			]
-			id: "0E809747193ED3A9"
-			tasks: [{
-				id: "76A0C582AECC4702"
-				type: "item"
-				item: "megacells:cell_component_16m"
-			}]
-			rewards: [
-				{
-					id: "2083392434D82627"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "61A6C4D61B2B0E98"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "64M Storage Component"
-			x: 20.0d
-			y: 3.9999999999999996d
-			shape: "diamond"
-			description: ["The fourth MEGA tier of storage component, providing &e67108864&f (65536k) bytes of storage."]
-			dependencies: [
-				"76A0C582AECC4702"
-				"0E809747193ED3A9"
-			]
-			id: "3CE3D9245F8EC005"
-			tasks: [{
-				id: "50CD83AC904EC47E"
-				type: "item"
-				item: "megacells:cell_component_64m"
-			}]
-			rewards: [
-				{
-					id: "4637E22B312275B1"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "591679B6C9CF5681"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "256M Storage Component"
-			x: 19.5d
-			y: 3.5d
-			shape: "diamond"
-			description: ["The fifth and final MEGA tier of storage component, providing &e268435456&f (262144k) bytes of storage."]
-			dependencies: [
-				"50CD83AC904EC47E"
-				"3CE3D9245F8EC005"
-			]
-			id: "51A57E142C686C8F"
-			tasks: [{
-				id: "0D5DA83B0C0665C8"
-				type: "item"
-				item: "megacells:cell_component_256m"
-			}]
-			rewards: [
-				{
-					id: "3F61E69AB87C08FF"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "6871321BB014C03D"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
 			title: "Item Storage"
 			x: 16.5d
 			y: 1.5d
@@ -1545,41 +1389,6 @@
 			]
 		}
 		{
-			title: "Crystal Seeds"
-			x: 1.0d
-			y: -0.5d
-			shape: "circle"
-			subtitle: "Crystalline aquaculture"
-			description: [
-				"Rather than having to constantly mine Certus Quartz ore to obtain more &eCrystals&f, the easiest way to obtain them will be using all of the &eDust&f you've gathered so far to make &eSeeds&f."
-				""
-				"To grow the seeds into full crystals, simply drop them in water and wait for them to grow. They will not despawn as they grow. In the beginning, these will take a &olong&r time to grow, so consider making these in bulk. "
-				""
-				"Alternatively, Mekanism's &bEnrichment Chamber&f can be used for a significant head-start early on."
-				""
-				"You may notice that a fully grown Certus Quartz Crystal can be crushed back into a dust, which then makes another &otwo&r seeds to grow. This makes Certus Quartz effectively renewable, so use this to your advantage!"
-			]
-			dependencies: ["2893F483C10293E6"]
-			id: "23DB492528A25B25"
-			tasks: [{
-				id: "0AFE928466695096"
-				type: "item"
-				item: "ae2:certus_crystal_seed"
-			}]
-			rewards: [
-				{
-					id: "242F6B674493768E"
-					type: "random"
-					table_id: 727499692191347770L
-				}
-				{
-					id: "69F44152600E491B"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
 			title: "Forgot to Mention"
 			x: 24.5d
 			y: 2.5d
@@ -1806,268 +1615,6 @@
 				}
 				{
 					id: "67FE782D7A821701"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 13.0d
-			y: -4.5d
-			shape: "rsquare"
-			subtitle: "Introducing LazierAE2!"
-			description: [
-				"When you're far enough into AE2 and have a large enough network, it can get a bit boring having to continue going through the somewhat time-consuming processes of crystal growth and processor inscription bit-by-bit."
-				""
-				"Enter, the &dLazierAE2&f add-on. LazierAE2 mainly provides some machines aimed at streamlining the late-game experience of expanding your ME network by greatly simplifying the production of certain crafting ingredients."
-				""
-				"The first thing you'll need to get started with LazierAE2 is a &bResonating Crystal&f, which is obtained fairly similarly to fluix, except that it requires a &ediamond&f with some &eender&f and &esky stone&f dust in water to make."
-			]
-			dependencies: ["51DE3157DE3E57B8"]
-			id: "7234D2F9FCB968C4"
-			tasks: [{
-				id: "548DEBE39C8043D8"
-				type: "item"
-				item: "lazierae2:resonating_crystal"
-			}]
-			rewards: [
-				{
-					id: "41AAD44F0915C925"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "722C062B130D48AA"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 12.0d
-			y: -1.5d
-			description: ["The &bAdvanced Inscriber&f from &dAE2Things&f addresses a couple of shortcomings with the standard AE2 inscriber, namely the restriction of inputs to be inserted one-at-a-time and the sided extraction/insertion requirement."]
-			dependencies: ["51DE3157DE3E57B8"]
-			id: "4DEACC65B5FA57FC"
-			tasks: [{
-				id: "552FB43EA62C6AA3"
-				type: "item"
-				item: "ae2things:advanced_inscriber"
-			}]
-			rewards: [
-				{
-					id: "601630EECA58E634"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "56BE72089A3373E1"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 11.0d
-			y: -2.5d
-			description: [
-				"The &bCrystal Growth Chamber&f is a more compact alternative to Crystal Growth Accelerator setups such as the aforementioned, provided by the &dAE2Things&f add-on."
-				""
-				"This single-block device simply contains an inventory not too dissimilar to that of a standard chest, capable of holding up to 27 stacks of crystal seeds to grow inside the chamber. The chamber can also be upgraded with Acceleration Cards to speed it up further."
-			]
-			dependencies: ["5AA3E5DFECB4AC4D"]
-			id: "77EE3FF184FB6417"
-			tasks: [{
-				id: "56A4576AD40FB08D"
-				type: "item"
-				item: "ae2things:crystal_growth"
-			}]
-			rewards: [
-				{
-					id: "21E876498F2098E2"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "0D1F1C3657656C66"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "&oDeep&r Item Storage"
-			x: 17.5d
-			y: 0.5d
-			shape: "rsquare"
-			subtitle: ">muh RS disks"
-			description: [
-				"AE2 and Refined Storage are very similar in terms of storing items, except when it comes to AE2 having &eType Limits&r within the drives. Some people prefer not worring about item types or type limits."
-				""
-				"This is where &dAE2Things&f comes in. Alongside the two bonus machines, AE2Things predominantly features an alternative to the standard cell called the \"ME Deep Item Storage disK\", or the &bME DISK Drive&f for short."
-				""
-				"The DISK Drive, as one can imagine, functions very similarly to, if not the exact same as, the storage disks from &bRefined Storage&f. Primarily, they &odo not have type limits&r."
-				""
-				"However, with the same pros of RS disks also come the same cons. Items stored in a DISK each count as a whole byte regardless of \"type\", meaning they can store significantly fewer items than equivalently-sized standard cells overall."
-				""
-				"To add to that, misusing these DISKs, particularly by storing a lot of items with excessive amounts of NBT data, can have fairly grave consequences for the world being played on, such as \"chunk bans\" or even corrupted player data."
-			]
-			dependencies: ["361CCBD353D6FF34"]
-			id: "17F29706CE9A846E"
-			tasks: [{
-				id: "5A4954089684B71A"
-				type: "item"
-				title: "ME DISK Drive"
-				item: {
-					id: "itemfilters:id_regex"
-					Count: 1b
-					tag: {
-						value: "ae2things:disk_drive_"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "70BE5C50D5B1049F"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "21A01E1077934041"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 15.0d
-			y: -4.5d
-			shape: "rsquare"
-			description: [
-				"The first bit of Resonating Crystal you just made can now be used to make the first machine in the LazierAE2 lineage: the &bMatter Infuser&f."
-				""
-				"Right off the bat, the Matter Infuser provides various recipes for some simple crafting materials within both AE2 and various other mods. These recipes also happen to be cheaper than the usual crafting recipes for their resulting material."
-			]
-			dependencies: ["7234D2F9FCB968C4"]
-			id: "24D70F20329B965B"
-			tasks: [{
-				id: "49D9C2B198BD3F04"
-				type: "item"
-				item: "lazierae2:infuser"
-			}]
-			rewards: [
-				{
-					id: "0867DA835D1316B1"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "239B4469A248350D"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 17.0d
-			y: -4.5d
-			shape: "rsquare"
-			description: [
-				"More importantly, the Matter Infuser provides recipes for two new materials made exclusively with the Matter Infuser. These new recipes together lead to the creation of &bFluix Steel Ingots&f."
-				""
-				"Fluix Steel is used to craft every remaining machine in the add-on following the Matter Infuser."
-			]
-			dependencies: ["24D70F20329B965B"]
-			id: "570C5B9BCBFBA26F"
-			tasks: [{
-				id: "528B64BEADDE2541"
-				type: "item"
-				item: "lazierae2:fluix_steel_ingot"
-			}]
-			rewards: [
-				{
-					id: "2BC77B32EAE1F150"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "1F3F152A41ACCBBA"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 20.5d
-			y: -3.5d
-			shape: "rsquare"
-			subtitle: "Compact stock-keeping"
-			description: [
-				"As an added bonus, LazierAE2 provides the &bME Requester&f as a dedicated ME-networked device."
-				""
-				"The ME Requester is used to keep up to 6 different items in stock in some arbitrary amounts, by automatically sending out crafting requests to the network when an item falls below the desired amount."
-				""
-				"This overcomes the usual limit of 9 stacks for an ME Interface with a Crafting Card, by also allowing for amounts higher than 64 to be requested for an item in the space of a single entry."
-			]
-			dependencies: ["67F41B121639F942"]
-			id: "3EC23876395F1E73"
-			tasks: [{
-				id: "1D646B369E1C8A66"
-				type: "item"
-				item: "lazierae2:requester"
-			}]
-			rewards: [
-				{
-					id: "44C2BE6FF4F7D4E6"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "2EC9F102E1364C5D"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "The Remaining Machines"
-			x: 19.0d
-			y: -4.5d
-			shape: "rsquare"
-			description: [
-				"The &bPulse Grinder&f acts as a standard crusher for the various AE2 dusts. Nothing special in and of itself, but handy enough to delegate frequent dust grinding to."
-				""
-				"The &bFluix Aggregator&f performs in-world crafting jobs such as fluix dust and crystal production, effectively bypassing the process of growing crystal seeds. It also doubles as a charger for certus quartz crystals."
-				""
-				"Finally, the &bCircuit Etcher&f is used to make processors directly from their constituent raw materials, effectively rendering inscribers obsolete."
-			]
-			dependencies: ["570C5B9BCBFBA26F"]
-			id: "67F41B121639F942"
-			tasks: [
-				{
-					id: "5F7E8B833DBD262A"
-					type: "item"
-					item: "lazierae2:grinder"
-				}
-				{
-					id: "4C62A0AC8F33C77A"
-					type: "item"
-					item: "lazierae2:aggregator"
-				}
-				{
-					id: "2694135F101B927A"
-					type: "item"
-					item: "lazierae2:etcher"
-				}
-			]
-			rewards: [
-				{
-					id: "6EB83CF3E7DEA493"
-					type: "random"
-					table_id: 5871764666515020368L
-				}
-				{
-					id: "1D9E802F3D59FABA"
 					type: "xp"
 					xp: 10
 				}

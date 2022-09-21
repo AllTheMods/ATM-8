@@ -442,31 +442,6 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
-			description: ["Can store tons of &eenchantments&f, whilst also being able to give back different leveled enchantments."]
-			hide_dependency_lines: true
-			id: "73F94E2FECDD1DD5"
-			tasks: [{
-				id: "50F183F484E1B30B"
-				type: "item"
-				item: "apotheosis:library"
-			}]
-			rewards: [
-				{
-					id: "1928999588099C26"
-					type: "item"
-					item: "minecraft:book"
-					count: 8
-				}
-				{
-					id: "4AE79FBB117D8EA0"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			title: "Ender Drawers!"
 			x: -6.5d
 			y: -5.5d
@@ -1394,20 +1369,16 @@
 			}]
 			rewards: [
 				{
-					id: "10BF8798AEC3B008"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "potionsmaster:gold_sight"
-						}
-					}
-				}
-				{
 					id: "588A8E368C4561A4"
 					type: "xp"
 					xp: 5
+				}
+				{
+					id: "3895B4A009120165"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+					random_bonus: 2
 				}
 			]
 		}
@@ -1423,20 +1394,16 @@
 			}]
 			rewards: [
 				{
-					id: "17E3F7A56B54895F"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "potionsmaster:diamond_sight"
-						}
-					}
-				}
-				{
 					id: "1CD2A81868C15FC6"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "2E794D147447A3E2"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+					random_bonus: 2
 				}
 			]
 		}
@@ -1453,20 +1420,20 @@
 			}]
 			rewards: [
 				{
-					id: "71F6EF74D03DD6C3"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "potionsmaster:netherite_sight"
-						}
-					}
-				}
-				{
 					id: "06D60CD6970140F7"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0E9C01BFE4BB86F2"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+					count: 4
+				}
+				{
+					id: "7214DB9CCE3BF452"
+					type: "item"
+					item: "minecraft:ancient_debris"
 				}
 			]
 		}

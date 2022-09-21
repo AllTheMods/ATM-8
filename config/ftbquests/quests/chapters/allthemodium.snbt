@@ -1,0 +1,601 @@
+{
+	id: "1B175B2C955D8395"
+	group: ""
+	order_index: 1
+	filename: "allthemodium"
+	title: "Allthemodium"
+	icon: "allthemodium:allthemodium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			title: "Allthemodium Ore"
+			x: -1.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"This lucrative ore starts your journey to become overpowered!"
+				""
+				"It is found in Deep Dark biomes along ceilings and walls."
+			]
+			hide_dependency_lines: false
+			dependencies: ["731686C758AD9A99"]
+			hide: false
+			dependency_requirement: "one_completed"
+			id: "5BDBE666E604FCAC"
+			tasks: [{
+				id: "75498AE05CC06F8F"
+				type: "item"
+				title: "Allthemodium Ore"
+				item: "allthemodium:raw_allthemodium"
+			}]
+			rewards: [
+				{
+					id: "35D9FCB5040C66D9"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+				{
+					id: "0205D27EF9929F30"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"The next step in our adventure to become (nearly) invincible."
+				""
+				"Find this ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
+			]
+			hide_dependency_lines: false
+			dependencies: ["731686C758AD9A99"]
+			dependency_requirement: "one_started"
+			id: "2DF64CB9298E91EA"
+			tasks: [{
+				id: "0F6B68E05B7B43AB"
+				type: "item"
+				title: "Vibranium Ore"
+				item: "allthemodium:raw_vibranium"
+			}]
+			rewards: [
+				{
+					id: "5D2EBAC7AC7945CD"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+				}
+				{
+					id: "459B4DDA26AC0FFC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"An extremely rare ore that can only be found after defeating the Ender Dragon."
+				""
+				"You can find this obtainable ore in the End Highlands biome."
+				""
+				"Note: It is rare."
+			]
+			hide_dependency_lines: false
+			dependencies: ["731686C758AD9A99"]
+			id: "4F6E6AF1D9E74CB7"
+			tasks: [{
+				id: "52CCB85E5967BF9F"
+				type: "item"
+				item: "allthemodium:raw_unobtainium"
+			}]
+			rewards: [
+				{
+					id: "2AA15BC1812E1F77"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+				}
+				{
+					id: "2DC06917102E6563"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: [
+				"Extremely fast furnace."
+				""
+				"Smelts 1/4 of a stack at a time."
+			]
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "2CC97CF32D9C017B"
+			tasks: [{
+				id: "07FF0DC32B705DCC"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: [""]
+			hide_dependency_lines: false
+			dependencies: ["5BDBE666E604FCAC"]
+			dependency_requirement: "one_completed"
+			id: "71A43C89EB13E9A0"
+			tasks: [{
+				id: "6A101A8056AC9A3A"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5020DF4E727436E1"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+					random_bonus: 2
+				}
+				{
+					id: "60BFD3F6B6CAE723"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: [""]
+			hide_dependency_lines: false
+			dependencies: ["2DF64CB9298E91EA"]
+			id: "61FDABF2C7CC1F9D"
+			tasks: [{
+				id: "61761B6C1D1542FD"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+			}]
+			rewards: [
+				{
+					id: "10CF2B304F78BC79"
+					type: "item"
+					item: "allthemodium:raw_vibranium"
+					random_bonus: 2
+				}
+				{
+					id: "2EFC640150403D08"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"How fast can this possibly get!?"
+				""
+				"Smelts 1/2 of a stack at a time."
+			]
+			dependencies: ["61FDABF2C7CC1F9D"]
+			id: "5CA0BA27F9C537B2"
+			tasks: [{
+				id: "0B2932972CD2E73E"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: [
+				"Now you are just showing off."
+				""
+				"Smelts a stack of items per operation."
+			]
+			dependencies: ["44760B819EB3CA68"]
+			id: "1AFDB3AE73E72A33"
+			tasks: [{
+				id: "579B48ABB0CBD18A"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [{
+				id: "3BE998CE25785795"
+				type: "item"
+				item: "ironfurnaces:rainbow_coal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "1BF186347C4683B3"
+			tasks: [{
+				id: "5CCD462442A9CBC9"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A4EE4EFBC58BDB2"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+				}
+				{
+					id: "7CEDAB343096A16E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "26296F815ACC04BE"
+			tasks: [{
+				id: "7CE4D8C55D2A92A8"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13231543FF20CB14"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+				}
+				{
+					id: "7B6B2810FB076635"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "4C7718982E78D7A2"
+			tasks: [{
+				id: "4979179C2D56C137"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7EA6871E90A242E9"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+				}
+				{
+					id: "727160FABA1B8DF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["71A43C89EB13E9A0"]
+			dependency_requirement: "one_completed"
+			id: "29637BD992599915"
+			tasks: [{
+				id: "6F0BA8751E4F963A"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2290371EE7E604DA"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+				}
+				{
+					id: "28AB1CC409C9BADB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["Detailed Guide to Allthemodium."]
+			size: 1.5d
+			id: "731686C758AD9A99"
+			tasks: [{
+				id: "71D1672A82D08E89"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "allthemodium:allthemodium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D04379836E29120"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			hide_dependency_lines: false
+			dependencies: ["4F6E6AF1D9E74CB7"]
+			id: "44760B819EB3CA68"
+			tasks: [{
+				id: "16A8B32CB4B011DA"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+			}]
+			rewards: [
+				{
+					id: "194CC53948B7BAE9"
+					type: "item"
+					item: "allthemodium:raw_unobtainium"
+					random_bonus: 1
+				}
+				{
+					id: "339251D95518BB97"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "7F3B96033AB7A21E"
+			tasks: [{
+				id: "6C79D005D95BAB61"
+				type: "item"
+				item: "allthemodium:allthemodium_apple"
+			}]
+			rewards: [
+				{
+					id: "18230E6F7C7E1270"
+					type: "item"
+					item: "allthemodium:allthemodium_nugget"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "51777CA9A13AAD35"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "15D56588634665FA"
+			tasks: [{
+				id: "32629A7C461C48F7"
+				type: "item"
+				item: "allthemodium:allthemodium_carrot"
+			}]
+			rewards: [
+				{
+					id: "3AFF1B34274BE118"
+					type: "item"
+					item: "allthemodium:allthemodium_nugget"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "40F8666A439FDC16"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Automating ATM Ores!"
+			x: 0.0d
+			y: 5.0d
+			shape: "hexagon"
+			description: [
+				"Wanting infinite ATM metals without mining it? Tired of searching forever?"
+				""
+				"Get started in Productive Bees and make your way to making the ATM Ore Bees!"
+			]
+			dependencies: ["71A43C89EB13E9A0"]
+			dependency_requirement: "one_started"
+			size: 1.25d
+			id: "74C5660C5D230091"
+			tasks: [
+				{
+					id: "427834C8FA4A04F0"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:allthemodium"
+							}
+						}
+					}
+				}
+				{
+					id: "3FC5468B95B70740"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:vibranium"
+							}
+						}
+					}
+				}
+				{
+					id: "6D660D307C1941FB"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:unobtainium"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "31E38A4EC66D8702"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7D3518244FF8A102"
+					type: "item"
+					item: "productivebees:upgrade_productivity"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["5BDBE666E604FCAC"]
+			id: "30E6C6825D78B5F1"
+			tasks: [{
+				id: "448F535D62D9FDC7"
+				type: "item"
+				item: "allthemodium:allthemodium_sword"
+			}]
+			rewards: [
+				{
+					id: "45FE78A21B454ACE"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+					random_bonus: 2
+				}
+				{
+					id: "407C0224BB0CF2C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			dependencies: ["5BDBE666E604FCAC"]
+			id: "061784A9E41AB60B"
+			tasks: [{
+				id: "04FDDE47BDA0BA81"
+				type: "item"
+				item: "allthemodium:allthemodium_pickaxe"
+			}]
+			rewards: [
+				{
+					id: "2A185528D7163E78"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+					random_bonus: 2
+				}
+				{
+					id: "71119D300E20FCA2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["5BDBE666E604FCAC"]
+			id: "17616C60784102A6"
+			tasks: [{
+				id: "153905B8A889931F"
+				type: "item"
+				item: "allthemodium:allthemodium_axe"
+			}]
+			rewards: [
+				{
+					id: "46FAE4663AFB5703"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+					random_bonus: 2
+				}
+				{
+					id: "3CFEB029AFDA2A46"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 8.5d
+			dependencies: ["5BDBE666E604FCAC"]
+			id: "614B212304A85F9C"
+			tasks: [{
+				id: "1227F25DBF12B6E5"
+				type: "item"
+				item: "allthemodium:allthemodium_shovel"
+			}]
+			rewards: [
+				{
+					id: "6643F6E18F5727F4"
+					type: "item"
+					item: "allthemodium:raw_allthemodium"
+					random_bonus: 2
+				}
+				{
+					id: "00F39A0913F8D233"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

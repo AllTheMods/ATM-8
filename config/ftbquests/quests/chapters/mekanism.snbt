@@ -49,7 +49,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -2.0d
 			subtitle: "Breaks Raw Ores into Dusts"
 			description: [
@@ -59,7 +59,7 @@
 				""
 				"This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use."
 			]
-			dependencies: ["488DBE69595F38F8"]
+			dependencies: ["162CE44400A63575"]
 			id: "08DDE018A804BFE7"
 			tasks: [{
 				id: "1AE233B4CCFE99F7"
@@ -86,7 +86,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -8.0d
 			y: -0.5d
 			subtitle: "Really Only Good For 2 Things"
 			description: [
@@ -1230,9 +1230,9 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -0.5d
-			shape: "pentagon"
+			x: -7.5d
+			y: 0.5d
+			shape: "diamond"
 			dependencies: ["195729280394ABFB"]
 			id: "31B73D16C0199785"
 			tasks: [{
@@ -1259,9 +1259,9 @@
 			]
 		}
 		{
-			x: -8.0d
-			y: -0.5d
-			shape: "pentagon"
+			x: -8.5d
+			y: 0.5d
+			shape: "diamond"
 			dependencies: ["195729280394ABFB"]
 			id: "58445E5B3957ACC8"
 			tasks: [{
@@ -1324,8 +1324,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -2.0d
+			x: -6.0d
+			y: -0.5d
 			subtitle: "Mekanism's Powered Furnace"
 			description: [
 				"This machine smelts items."
@@ -1333,6 +1333,7 @@
 				"It can be upgraded into a Smelting Factory, increasing the total number of smelting slots up to a maximum of 9."
 			]
 			dependencies: ["162CE44400A63575"]
+			optional: true
 			id: "488DBE69595F38F8"
 			tasks: [{
 				id: "5A081977DB9407EA"
@@ -2597,8 +2598,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -4.0d
+			y: -3.5d
 			description: [
 				"Combines gases, solid items, and liquids to produce an item and by-product."
 				""
@@ -2767,7 +2768,7 @@
 		}
 		{
 			title: "Enriched Items"
-			x: -3.5d
+			x: -4.0d
 			y: -0.5d
 			subtitle: "Enrich your items first!"
 			description: [

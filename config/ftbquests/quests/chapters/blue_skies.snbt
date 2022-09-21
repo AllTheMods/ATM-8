@@ -1532,7 +1532,7 @@
 		{
 			x: 21.0d
 			y: 1.5d
-			shape: "diamond"
+			shape: "rsquare"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			description: ["Increases damage done when poisoned."]
 			dependencies: ["0DB1A5763EDD6A7F"]
@@ -1555,7 +1555,7 @@
 			}]
 		}
 		{
-			x: 21.5d
+			x: 22.0d
 			y: 2.0d
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
@@ -1580,7 +1580,7 @@
 			}]
 		}
 		{
-			x: 21.5d
+			x: 22.0d
 			y: 1.0d
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"

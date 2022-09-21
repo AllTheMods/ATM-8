@@ -1,0 +1,57 @@
+{
+	id: "5B00676D79306EA2"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "allthetweaks:atm_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -4.0d
+		width: 4.0d
+		height: 4.0d
+		rotation: 8.0d
+		image: "packmenu:textures/gui/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: true
+	}]
+	quests: [{
+		title: "&dWelcome to All The Mods 8!"
+		icon: "allthetweaks:atm_star"
+		x: 0.5d
+		y: -0.5d
+		shape: "diamond"
+		description: [
+			"ATM8 offers a curated modded experience for those who like kitchensink style modpacks!"
+			""
+			"If you're new to modded MC, make sure to check out the chapter &9Getting Started&r to get you on your feet!"
+			""
+			"ATM8 is currently in the early stages of the modpack. New mods will be added over time. If you have any questions or issues, feel free to join the ATM discord!"
+			""
+			"Note: Quests are optional."
+		]
+		size: 3.0d
+		id: "3BC0A50886A3222B"
+		tasks: [{
+			id: "5A1784C5676CDC62"
+			type: "checkmark"
+			title: "Welcome to All The Mods 8!"
+		}]
+		rewards: [
+			{
+				id: "6D5A59BBE47C22D1"
+				type: "item"
+				item: "ftbquests:book"
+			}
+			{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}
+		]
+	}]
+}

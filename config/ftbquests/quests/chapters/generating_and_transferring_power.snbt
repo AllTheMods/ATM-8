@@ -18,6 +18,18 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -3.5d
+		y: -6.0d
+		width: 15.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "atm:textures/questpics/allthepower.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			icon: "minecraft:redstone_torch"
@@ -51,8 +63,6 @@
 			subtitle: "Getting Started with Bigger Reactors"
 			description: [
 				"The Bigger Reactors mod offers multi-block reactors that are completely customizable in size, efficiency, and more."
-				""
-				"To see how to build it, check out the ponder by holding W on the casings."
 				""
 				"The smallest reactor you can make is a 3x3."
 				""
@@ -482,6 +492,25 @@
 				id: "59A5734689019951"
 				type: "xp"
 				xp: 10
+			}]
+		}
+		{
+			title: "&dWireless Everything"
+			x: -1.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "What a throwback"
+			description: [
+				"The &9Tesseract&r allows you to transport items, fluid, and energy between other Tesseracts."
+				""
+				"These work at any distance, and across dimensions."
+			]
+			dependencies: ["1F81EA5E45424308"]
+			id: "5A2A39CC4BB00182"
+			tasks: [{
+				id: "1F388FCC8D844E8E"
+				type: "item"
+				item: "tesseract:tesseract"
 			}]
 		}
 	]
