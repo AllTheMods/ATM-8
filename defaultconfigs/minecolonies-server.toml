@@ -16,7 +16,7 @@
 [gameplay]
 	#Amount of initial citizens. [Default: 4, min: 1, max: 10]
 	#Range: 1 ~ 10
-	initialcitizenamount = 1
+	initialcitizenamount = 4
 	#Should construction tape be placed around in-construction builds? [Default: true]
 	builderplaceconstructiontape = false
 	#Should players be able to place an infinite amount of supply camps/ships? [Default: false]
@@ -33,7 +33,7 @@
 	maxcitizenpercolony = 50
 	#Delay after each block placement (increasing it increases the delay). [Default: 15, min: 1, max: 500]
 	#Range: 1 ~ 500
-	builderbuildblockdelay = 250
+	builderbuildblockdelay = 15
 	#Delay modifier to mine a block (decreasing it decreases the delay). [Default: 500, min: 1, max: 10000]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
@@ -52,7 +52,7 @@
 	holidayfeatures = true
 	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1, min: 1, max: 100]
 	#Range: 1 ~ 100
-	updaterate = 100
+	updaterate = 2
 	#Quantity of dirt per compost filling. [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
@@ -74,7 +74,7 @@
 	forceloadcolony = false
 	#This controls how many chunks are loaded with the "Chunk Load Colony" option. The higher this value, the fewer chunks will be loaded. (The innermost chunks will be loaded first.) 1 = load all claimed chunks. [Default: 3, min: 1, max: 15]
 	#Range: 1 ~ 15
-	colonyloadstrictness = 1
+	colonyloadstrictness = 3
 	#Chance to get an evil Tavern visitor that will run off with the resources you give them. This is a %. [Default: 2, min: 1, max: 100]
 	#Range: 1 ~ 100
 	badvisitorchance = 4
@@ -243,7 +243,7 @@
 	enabledebuglogging = false
 	#The maximal amount of tries that the request system will perform for retryable requests. Higher increases server load. [Default: 3, min: 1, max: 10]
 	#Range: 1 ~ 10
-	maximalretries = 1
+	maximalretries = 2
 	#The amount of ticks between retries of the request system for retryable requests. Lower increases server load. [Default: 1200, min: 30, max: 10000]
 	#Range: 30 ~ 10000
 	delaybetweenretries = 1200
