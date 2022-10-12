@@ -7,7 +7,6 @@ const SecondarySeed = 0.01
 ServerEvents.tags('item', event => {
     let CropRegistryInstance = CropRegistry.getInstance()
     let cropTiers = CropRegistryInstance.getTiers()
-    console.log(cropTiers.length)
     let tiers = Array.apply(null, Array(cropTiers.length))
     for (const CropTier of cropTiers) {
         tiers[CropTier.getValue() - 1] = CropTier.getFarmland()
@@ -111,7 +110,6 @@ ServerEvents.recipes(event => {
         }
 
         // add crux 'soils'
-        console.log(crux)
         for (const block of crux) {
             let category = `${block.getIdLocation().getPath()}`
             event.custom({
