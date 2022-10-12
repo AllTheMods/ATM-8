@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
- event.remove({id: 'structures_compass:structures_compass'})
- event.shaped('structures_compass:structures_compass', [
+ event.remove({id: 'explorerscompass:explorerscompass'})
+ event.shaped('explorerscompass:explorerscompass', [
     'NAN',
     'ACA',
     'NAN'
