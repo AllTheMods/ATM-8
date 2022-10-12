@@ -8,14 +8,6 @@ ServerEvents.recipes(event => {
     N: 'minecraft:netherite_ingot'
   }).id('kubejs:rsinfinitybooster/infinity_card')
 
-  // Creative Wireless Transmitter
-  event.remove({ id: 'creativewirelesstransmitter:creative_wireless_transmitter' })
-  event.shaped('creativewirelesstransmitter:creative_wireless_transmitter', ['ITI', 'ICI', 'IDI'], {
-    I: 'allthemodium:unobtainium_ingot',
-    D: 'rsinfinitybooster:dimension_card',
-    C: 'refinedstorage:machine_casing',
-    T: 'refinedstorage:wireless_transmitter'
-  }).id('kubejs:creativewirelesstransmitter/creative_wireless_transmitter')
 
   // Crafters
   event.remove({ id: 'extrastorage:iron_crafter' })
@@ -45,6 +37,8 @@ ServerEvents.recipes(event => {
     P: 'extrastorage:neural_processor',
     C: 'extrastorage:diamond_crafter'
   }).id('kubejs:extrastorage/netherite_crafter')
+
+  /*
   event.remove({ id: 'creativecrafter:creative_crafter' })
   event.shaped('creativecrafter:creative_crafter', ['BUB', 'PCP', 'BUB'], {
     B: '#forge:storage_blocks/netherite',
@@ -52,6 +46,7 @@ ServerEvents.recipes(event => {
     C: 'extrastorage:netherite_crafter',
     U: '#forge:ingots/unobtainium'
   }).id('kubejs:creativecrafter/creative_crafter')
+  */
 
   // Storage Parts
   event.remove({ id: /^extrastorage:(?:part|disk|storage_block)\/.+/ })
