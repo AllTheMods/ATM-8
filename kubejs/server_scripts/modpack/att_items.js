@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     B: 'minecraft:dragon_breath',
     S: 'minecraft:bedrock',
     E: 'minecraft:bedrock',
-    I: Item.of('blue_skies:nature_arc', { ArcLevel: 2 })
+    I: Item.of('blue_skies:nature_arc', { ArcLevel: 2 }).strongNBT()
   }).id('kubejs:allthetweaks/dragon_soul')
 
   // Dimensional Seed
@@ -44,11 +44,11 @@ ServerEvents.recipes(event => {
   // MISSING INGREDIENTS
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
     A: 'mysticalagradditions:insanium_coal_block',
-    B: Item.of('ftbic:quad_uranium_fuel_rod', { Damage: 0 }),
+    B: Item.of('ftbic:quad_uranium_fuel_rod', { Damage: 0 }).strongNBT(),
     C: 'mekanism:pellet_antimatter',
     D: 'evilcraft:piercing_vengeance_focus',
     E: 'mysticalagriculture:supremium_furnace',
-    F: Item.of('elementalcraft:jewel', '{elementalcraft:{jewel:"elementalcraft:phoenix"}}'),
+    F: Item.of('elementalcraft:jewel', { elementalcraft: { jewel: "elementalcraft:phoenix" } }).strongNBT(),
     G: 'minecraft:bedrock',
     H: 'twilightforest:carminite_block',
     I: 'ftbic:nuclear_reactor'
