@@ -1,6 +1,12 @@
 // priority: 0
 
 ItemEvents.tooltip(event => {
+
+	// Temp! Remove me!
+	event.add('allthetweaks:atm_star', [
+		Text.of('This is not yet meant to be craftable').red()
+	])
+
 	// Re-add Chemlib info to unified materials
 	let chemlibTooltips = JsonIO.read('kubejs/client_scripts/chemlibCompat.json')
 	chemlibTooltips.forEach((item, tooltips) => {
