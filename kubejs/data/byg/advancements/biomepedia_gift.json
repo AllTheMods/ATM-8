@@ -1,0 +1,29 @@
+{
+  "parent": "byg:root",
+  "display": {
+    "icon": {
+      "item": "byg:biomepedia"
+    },
+    "title": {
+      "translate": "byg.advancements.biomepediagift.title"
+    },
+    "description": {
+      "translate": "byg.advancements.biomepediagift.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}
