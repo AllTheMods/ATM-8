@@ -31,4 +31,25 @@ ServerEvents.recipes(event => {
     result: Ingredient.of('allthetweaks:atm_star').toJson(),
     acceptMirrored: false
   }).id('kubejs:allthetweaks/atm_star')
+  
+  event.custom({
+    type: "create:mechanical_crafting",
+    pattern: [
+      '    S    ',
+      '   SSS   ',
+      'SSSSSSSSS',
+      'SSSSSSSSS',
+      ' SSSPSSS ',
+      '  SSSSS  ',
+      ' SSSSSSS ',
+      'SSSS SSSS',
+      'SSS   SSS'
+    ],
+    key: {
+      S: Ingredient.of('allthetweaks:atm_star_shard').toJson(),
+      P: Ingredient.of('allthetweaks:patrick_star').toJson(),
+    },
+    result: Ingredient.of('allthetweaks:atm_star').toJson(),
+    acceptMirrored: false
+  }).id('kubejs:allthetweaks/atm_shard_star')
 })
