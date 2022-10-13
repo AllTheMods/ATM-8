@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+  // silicon unifying
+  event.replaceInput({},'#forge:silicon', '#forge:silicon')
+
   // Infinite Booster
   event.remove({ id: 'rsinfinitybooster:infinity_card' })
   event.shaped('rsinfinitybooster:infinity_card', ['EBE', 'BUB', 'NNN'], {
