@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
     C: 'extrastorage:diamond_crafter'
   }).id('kubejs:extrastorage/netherite_crafter')
 
-  /*
+  /* Possible Future Addition
   event.remove({ id: 'creativecrafter:creative_crafter' })
   event.shaped('creativecrafter:creative_crafter', ['BUB', 'PCP', 'BUB'], {
     B: '#forge:storage_blocks/netherite',
@@ -58,7 +58,10 @@ ServerEvents.recipes(event => {
   */
 
   // Storage Parts
+  // removes overlapping extra storage parts
   event.remove({ id: /^extrastorage:(?:part|disk|storage_block)\/.+/ })
+  // removes overlapping reborn storage parts
+  event.remove({ id: /^rebornstorage:(?:disks|parts)\/(small|medium|large|larger).+/ })
 
   event.remove({ id: 'extradisks:part/4096k_storage_part' })
   event.shaped('extradisks:4096k_storage_part', ['ana', 'fbf', 'afa'], {
