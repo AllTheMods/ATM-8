@@ -4,7 +4,9 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.recipes(event => {
   // silicon unifying
+  /* hold for tag fix
   event.replaceInput({}, '#refinedstorage:silicon', '#forge:silicon')
+  */
 
   // Infinite Booster
   event.remove({ id: 'rsinfinitybooster:infinity_card' })
