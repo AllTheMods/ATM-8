@@ -1,10 +1,12 @@
 ServerEvents.tags('item', event => {
-  event.add('forge:silicon', '#refinedstorage:silicon')
+  event.add('refinedstorage:silicon', '#forge:silicon')
 })
 
 ServerEvents.recipes(event => {
   // silicon unifying
-  event.replaceInput({},'#refinedstorage:silicon', '#forge:silicon')
+  /* hold for tag fix
+  event.replaceInput({}, '#refinedstorage:silicon', '#forge:silicon')
+  */
 
   // Infinite Booster
   event.remove({ id: 'rsinfinitybooster:infinity_card' })
@@ -58,35 +60,35 @@ ServerEvents.recipes(event => {
   // Storage Parts
   event.remove({ id: /^extrastorage:(?:part|disk|storage_block)\/.+/ })
 
-  event.remove({ id: 'extradisks:part/4096k_storage_part'})
+  event.remove({ id: 'extradisks:part/4096k_storage_part' })
   event.shaped('extradisks:4096k_storage_part', ['ana', 'fbf', 'afa'], {
     a: 'refinedstorage:advanced_processor',
     f: '#refinedstorage:parts/items/1024k',
     b: '#forge:dusts/redstone',
     n: '#forge:nuggets/allthemodium'
   }).id('kubejs:extradisks/part/4096k_storage_part')
-  event.remove({ id: 'extradisks:part/16384k_storage_part'})
+  event.remove({ id: 'extradisks:part/16384k_storage_part' })
   event.shaped('extradisks:16384k_storage_part', ['ana', 'fbf', 'afa'], {
     a: 'refinedstorage:advanced_processor',
     f: '#refinedstorage:parts/items/4096k',
     b: '#forge:dusts/redstone',
     n: '#forge:ingots/allthemodium'
   }).id('kubejs:extradisks/part/16384k_storage_part')
-  event.remove({ id: 'extradisks:part/65536k_storage_part'})
+  event.remove({ id: 'extradisks:part/65536k_storage_part' })
   event.shaped('extradisks:65536k_storage_part', ['ana', 'fbf', 'afa'], {
     a: 'refinedstorage:advanced_processor',
     f: '#refinedstorage:parts/items/16384k',
     b: '#forge:dusts/redstone',
     n: '#forge:ingots/allthemodium'
   }).id('kubejs:extradisks/part/65536k_storage_part')
-  event.remove({ id: 'extradisks:part/262144k_storage_part'})
+  event.remove({ id: 'extradisks:part/262144k_storage_part' })
   event.shaped('extradisks:262144k_storage_part', ['ana', 'fbf', 'afa'], {
     a: 'extradisks:withering_processor',
     f: '#refinedstorage:parts/items/65536k',
     b: '#forge:dusts/redstone',
     n: '#forge:ingots/vibranium'
   }).id('kubejs:extradisks/part/262144k_storage_part')
-  event.remove({ id: 'extradisks:part/1048576k_storage_part'})
+  event.remove({ id: 'extradisks:part/1048576k_storage_part' })
   event.shaped('extradisks:1048576k_storage_part', ['ana', 'fbf', 'afa'], {
     a: 'extradisks:withering_processor',
     f: '#refinedstorage:parts/items/262144k',
@@ -137,17 +139,17 @@ ServerEvents.recipes(event => {
     n: '#forge:ingots/unobtainium'
   }).id('kubejs:extradisks/part/infinite_fluid_storage_part')
 
-// Cable Tiers
+  // Cable Tiers
   event.remove({ id: /extrastorage:advanced_(importer|exporter)/ })
   // Modify recipes to take half as many of previous tier
-  event.forEachRecipe({ mod: 'cabletiers'}, recipe => {
+  event.forEachRecipe({ mod: 'cabletiers' }, recipe => {
     let pattern = recipe.json.get('pattern')
     let center = pattern.get(1).getAsString()
-    pattern.set(1, center.replace(center.substring(0,1), ' '))
+    pattern.set(1, center.replace(center.substring(0, 1), ' '))
     recipe.json.add('pattern', pattern)
     if (recipe.getId().contains('creative')) {
       let key = recipe.json.get('key')
-      key.add(center.substring(1,2),Ingredient.of('extradisks:withering_processor').toJson())
+      key.add(center.substring(1, 2), Ingredient.of('extradisks:withering_processor').toJson())
       recipe.json.add('key', key)
     }
   })
