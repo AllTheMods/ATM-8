@@ -8,7 +8,9 @@ WorldgenEvents.remove(event => {
       'ftbic:uranium_ore',
       'ftbic:deepslate_uranium_ore',
       'ftbic:aluminum_ore',
-      'ftbic:deepslate_aluminum_ore'
+      'ftbic:deepslate_aluminum_ore',
+      'ftbic:iridium_ore',
+      'ftbic:deepslate_iridium_ore'
     ]
   })
 })
