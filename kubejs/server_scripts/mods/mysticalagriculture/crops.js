@@ -1,4 +1,4 @@
-const CropRegistry = java('com.blakebr0.mysticalagriculture.registry.CropRegistry')
+const CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
 
 const CropManualDisableList = []
 // sets the chance for a seed to drop
