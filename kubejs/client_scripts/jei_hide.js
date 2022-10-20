@@ -8,4 +8,5 @@ JEIEvents.hideItems(event => {
             event.hide(`refinedstorage:${color}_${machine}`)
         })
     })
+    event.hide(/quark:(beetroot|carrot|potato)_crate/)
 })
