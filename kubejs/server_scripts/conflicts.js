@@ -62,11 +62,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'minecraft:comparator' })
     event.remove({ id: 'minecraft:beehive' })
 
-    // Quark crop crate conflicts
-    event.remove({ id: 'quark:building/crafting/compressed/carrot_crate'})
-    event.remove({ id: 'quark:building/crafting/compressed/carrot_crate_uncompress'})
-    event.remove({ id: 'quark:building/crafting/compressed/beetroot_crate'})
-    event.remove({ id: 'quark:building/crafting/compressed/beetroot_crate_uncompress'})
-    event.remove({ id: 'quark:building/crafting/compressed/potato_crate'})
-    event.remove({ id: 'quark:building/crafting/compressed/potato_crate_uncompress'})
+    // Tiny Coal
+    event.remove({ id: 'additional_lights:fire_for_standing_torch_s'})
+    event.shaped('additional_lights:fire_for_standing_torch_s', ['S','C'], {S: '#forge:rods/wooden', C: '#minecraft:coals'})
 })
