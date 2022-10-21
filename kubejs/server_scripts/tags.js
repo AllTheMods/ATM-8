@@ -20,3 +20,22 @@ ServerEvents.tags('entity_type', event => {
   event.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
 })
+
+//temp fix for bambooeverything breaking boat tags until above 2.2.4
+ServerEvents.highPriorityData(event => {
+  event.addJson(`minecraft:tags/items/boats.json`, {
+    "replace": true,
+    "values": [
+      "minecraft:oak_boat",
+      "minecraft:spruce_boat",
+      "minecraft:birch_boat",
+      "minecraft:jungle_boat",
+      "minecraft:acacia_boat",
+      "minecraft:dark_oak_boat",
+      "minecraft:mangrove_boat",
+      "#minecraft:chest_boats",
+      "bambooeverything:bamboo_raft",
+      "deeperdarker:echo_boat"
+    ]
+  })
+})
