@@ -13,7 +13,14 @@
         "chemlib",
         "biggerreactors"
     ],
-    "stoneStrata": ["stone", "nether", "deepslate", "granite", "diorite", "andesite"],
+    "stoneStrata": [
+        "stone",
+        "nether",
+        "deepslate",
+        "granite",
+        "diorite",
+        "andesite"
+    ],
     "tags": [
         "forge:nuggets/{material}",
         "forge:dusts/{material}",
@@ -24,6 +31,7 @@
         "forge:ores/{material}",
         "forge:plates/{material}",
         "forge:rods/{material}",
+        "forge:wires/{material}",
         "forge:storage_blocks/{material}",
         "forge:storage_blocks/raw_{material}",
         "forge:silicon"
@@ -77,8 +85,11 @@
         "uranium",
         "zinc"
     ],
+    "priorityOverrides": {},
     "ignoredTags": [],
-    "ignoredRecipeTypes": ["cucumber:shaped_tag"],
+    "ignoredRecipeTypes": [
+        "cucumber:shaped_tag"
+    ],
     "ignoredRecipes": [],
     "itemsHidingJeiRei": true
 }
