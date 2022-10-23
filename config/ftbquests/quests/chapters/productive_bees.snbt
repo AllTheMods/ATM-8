@@ -54,24 +54,29 @@
 	quests: [
 		{
 			x: 1.0d
-			y: -7.0d
+			y: -6.0d
 			shape: "hexagon"
 			description: [
 				"Welcome to &9Productive Bees&r!"
 				""
-				"Have you ever wanted Bees to produce more than honey? Maybe Iron? Allthemodium?"
-				""
-				"Well now they can! ....somehow."
+				"To get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!"
 				""
 				"&9Important Note&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!"
 			]
 			size: 1.5d
 			id: "13AA91D39A2CABF2"
-			tasks: [{
-				id: "62D8A2341B8C4C3C"
-				type: "checkmark"
-				title: "Welcome to Productive Bees!"
-			}]
+			tasks: [
+				{
+					id: "54CAFE539297E507"
+					type: "item"
+					item: "minecraft:honeycomb"
+				}
+				{
+					id: "3440EB31A4FA230D"
+					type: "item"
+					item: "minecraft:honey_bottle"
+				}
+			]
 			rewards: [
 				{
 					id: "1FE7DFBA702FBE64"
@@ -83,43 +88,18 @@
 					type: "xp"
 					xp: 10
 				}
-			]
-		}
-		{
-			title: "The First Step"
-			x: 1.0d
-			y: -5.0d
-			subtitle: "Vanilla Mechanics"
-			description: [
-				"You'll need to grab some &eHoneycombs&r and a few bottles of &6Honey&r to get started with Bees."
-				""
-				"Find yourself a nest, but don't break it! Let the Bees do their thing, and harvest some Honeycombs with Shears, and Honey Bottles with a Glass Bottle. We'll need them!"
-			]
-			dependencies: ["13AA91D39A2CABF2"]
-			hide: true
-			id: "1A0130101413F55F"
-			tasks: [{
-				id: "73C0DA2CE5D4110C"
-				type: "item"
-				item: "minecraft:honeycomb"
-				count: 3L
-			}]
-			rewards: [
 				{
-					id: "2BC48660DA496E3A"
+					id: "0E5E0909FA99CEA5"
 					type: "item"
 					item: "minecraft:honeycomb"
 					count: 2
+					random_bonus: 2
 				}
 				{
-					id: "29A08F3977208A4F"
+					id: "718C0C8ABA0F5052"
 					type: "item"
 					item: "minecraft:honey_bottle"
-				}
-				{
-					id: "7D7C7BA0CBA0B12F"
-					type: "xp"
-					xp: 10
+					random_bonus: 2
 				}
 			]
 		}
@@ -159,7 +139,7 @@
 				""
 				"Adventuring can also net you some &6Sturdy Bee Cages&r, so keep an eye out! "
 			]
-			dependencies: ["1A0130101413F55F"]
+			dependencies: ["13AA91D39A2CABF2"]
 			id: "29EE878BC8D3A742"
 			tasks: [{
 				id: "2B86DC6F7E579E0B"

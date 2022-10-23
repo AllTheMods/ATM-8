@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Welcome to &9Blue Skies&r!"
 			icon: "blue_skies:blinding_key"
 			x: -2.0d
 			y: 0.5d
@@ -21,9 +22,9 @@
 			size: 1.5d
 			id: "79B9098FE66A7130"
 			tasks: [{
-				id: "155FCAE59730DA58"
+				id: "03EA78EF53B95F0F"
 				type: "checkmark"
-				title: "Welcome to &9Blue Skies&r!"
+				title: "Welcome to Blue Skies!"
 			}]
 			rewards: [{
 				id: "78B7FEC0A3F1BC0D"

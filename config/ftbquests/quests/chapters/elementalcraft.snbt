@@ -15,62 +15,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Element Shards"
-			x: 1.0d
-			y: -1.0d
-			description: ["These shards are dropped by killing specific mobs. JEI can tell you which mobs to kill for which element."]
-			dependencies: ["55F12D063F9D9430"]
-			id: "43798AC35A5BC880"
-			tasks: [
-				{
-					id: "7CFDFBA97A81252E"
-					type: "item"
-					item: "elementalcraft:fire_shard"
-				}
-				{
-					id: "4D921A5528085A38"
-					type: "item"
-					item: "elementalcraft:water_shard"
-				}
-				{
-					id: "38BBD46A9CF0CF70"
-					type: "item"
-					item: "elementalcraft:earth_shard"
-				}
-				{
-					id: "6744EDF99B4FDBD9"
-					type: "item"
-					item: "elementalcraft:air_shard"
-				}
-			]
-			rewards: [
-				{
-					id: "438712F0C1F86312"
-					type: "item"
-					item: "elementalcraft:fire_shard"
-					count: 5
-				}
-				{
-					id: "3032C69FC61A1719"
-					type: "item"
-					item: "elementalcraft:water_shard"
-					count: 5
-				}
-				{
-					id: "11D090B35399F097"
-					type: "item"
-					item: "elementalcraft:earth_shard"
-					count: 5
-				}
-				{
-					id: "13A07B7EF051A360"
-					type: "item"
-					item: "elementalcraft:air_shard"
-					count: 5
-				}
-			]
-		}
-		{
 			title: "ElementalCraft"
 			icon: {
 				id: "patchouli:guide_book"
@@ -86,12 +30,24 @@
 				"Welcome to &aElementalCraft&f!"
 				""
 				"The &eElementopedia&f is your go-to guide for learning all about this mod!"
+				""
+				"Killing mobs will grant you one of 4 &9Element Shards&r. These are used to create all of the items within the mod."
+				""
+				"Note: You can search up which mobs drop shards in JEI."
 			]
 			size: 1.5d
 			id: "55F12D063F9D9430"
 			tasks: [{
-				id: "66CB4D45D621E404"
-				type: "checkmark"
+				id: "391334D14FE58A70"
+				type: "item"
+				title: "Any #elementalcraft:shards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elementalcraft:shards"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -115,6 +71,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			dependencies: ["55F12D063F9D9430"]
 			id: "04C3CDC36ED3DA81"
 			tasks: [{
 				id: "73DD538F07BAF5B0"
