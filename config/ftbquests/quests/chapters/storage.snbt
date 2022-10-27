@@ -213,7 +213,7 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "Auto-Convert to blocks."
@@ -244,7 +244,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -5.5d
 			y: -5.0d
 			shape: "diamond"
 			subtitle: "The Brain of the Drawers."
@@ -443,7 +443,7 @@
 		}
 		{
 			title: "Ender Drawers!"
-			x: -6.5d
+			x: -6.0d
 			y: -5.5d
 			shape: "diamond"
 			subtitle: "Dimensional Drawer.... if you will."
@@ -1307,7 +1307,7 @@
 			subtitle: "Adds the ability to pump liquids from the tank upgrade."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
-			hide: false
+			hide: true
 			optional: true
 			id: "6E9041744C592573"
 			tasks: [{
@@ -1325,7 +1325,7 @@
 			x: -6.0d
 			y: 4.0d
 			dependencies: ["6E9041744C592573"]
-			hide: false
+			hide: true
 			optional: true
 			id: "56B80A7EBFE21428"
 			tasks: [{
@@ -1343,7 +1343,7 @@
 			x: -4.5d
 			y: 4.0d
 			dependencies: ["56B80A7EBFE21428"]
-			hide: false
+			hide: true
 			optional: true
 			id: "6E3D53D1C4569A89"
 			tasks: [{
@@ -1462,11 +1462,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7524181E415A05BB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7524181E415A05BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3625DED76F225AAE"
+					type: "item"
+					item: "functionalstorage:oak_1"
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -1690,6 +1697,41 @@
 					id: "34E6939A2878A929"
 					type: "xp"
 					xp: 10
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"The Configuration Tool is used to lock drawers for them to remember the item it has inside."
+				""
+				"This is useful whenever you set up a system to pull and push from drawers. The locked drawer will not replace the item that was locked on it!"
+			]
+			dependencies: ["072FBEB0F6F1BC48"]
+			id: "508A8366219175FE"
+			tasks: [{
+				id: "2F275302DA90D4E4"
+				type: "item"
+				item: {
+					id: "functionalstorage:configuration_tool"
+					Count: 1b
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E141DF65F0D3931"
+					type: "item"
+					item: "functionalstorage:gold_upgrade"
+				}
+				{
+					id: "6A90B5A53F3FC368"
+					type: "xp"
+					xp: 100
 				}
 			]
 		}

@@ -1,7 +1,7 @@
 {
 	id: "23983F4DC524B14B"
 	group: "2B51AC12041E3F89"
-	order_index: 1
+	order_index: 2
 	filename: "mekanism"
 	title: "Mekanism"
 	icon: "mekanism:steel_casing"
@@ -2339,9 +2339,9 @@
 			size: 2.0d
 			id: "58B125BD4876054C"
 			tasks: [{
-				id: "2362792C3ABCDBA5"
-				type: "checkmark"
-				title: "Mekanism"
+				id: "10CE7D11B912F418"
+				type: "item"
+				item: "alltheores:raw_osmium"
 			}]
 			rewards: [
 				{

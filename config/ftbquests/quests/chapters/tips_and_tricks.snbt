@@ -375,8 +375,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 6.0d
+			x: -0.5d
+			y: 5.5d
 			subtitle: "Helps Find Biomes"
 			description: [
 				"Gives you a list of biomes you can search for."
@@ -397,6 +397,45 @@
 				id: "554BFA90C78DEDD5"
 				type: "xp"
 				xp: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			description: [
+				"The &9Time in a Bottle&r is probably one of the most useful items in the game."
+				""
+				"It stores time for every second that passes while it is in your inventory, which you can then spend to speed up any block/entity/almost everything in the game."
+			]
+			id: "02BC692836789920"
+			tasks: [{
+				id: "09B5B2E28DD7452C"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5D26E923244EBD6F"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			id: "5D18D7EFC37DB81E"
+			tasks: [{
+				id: "423F9BB8DC7962F6"
+				type: "item"
+				item: "structurecompass:structure_compass"
+			}]
+			rewards: [{
+				id: "7B2018A7B911D23F"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]
