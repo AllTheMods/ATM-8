@@ -2,6 +2,7 @@ ServerEvents.tags('item', event => {
   event.add('minecraft:boats', /byg:\w+?_boat/)
   event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
   event.add('forge:cheese', '#forge:cheeses')
+  event.add('forge:plastic', 'pneumaticcraft:plastic')
 
   //temp byg fix until above 2.0.0.13
   event.add('c:black_sand', '#forge:black_sand')
@@ -19,6 +20,7 @@ ServerEvents.tags('entity_type', event => {
   event.add('mob_grinding_utils:noswab', '#kubejs:mob_blacklist')
   event.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
+  event.add('industrialforegoing:mob_duplicator_blacklist', '#kubejs:mob_blacklist')
 })
 
 //temp fix for bambooeverything breaking boat tags until above 2.2.4
