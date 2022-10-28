@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
       "item": "twilightforest:knightmetal_block"
     },
     {
-      "item": "twilightforest:twilightforest:steeleaf_block"
+      "item": "twilightforest:steeleaf_block"
     },
     {
       "item": "twilightforest:carminite_block"
@@ -28,5 +28,5 @@ ServerEvents.recipes(event => {
   "result": {
     "item": "twilightforest:twilight_portal_miniature_structure"
 	}
-	})
+	}).id(`kubejs:awakening/twilight_portal_miniature_structure`)
 })

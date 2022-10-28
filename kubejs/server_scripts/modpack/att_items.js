@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
     D: 'advgenerators:power_capacitor_tier3',
 	E: 'rftoolsutility:flight_module',
-    F: 'powah:battery_nitro',
+    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
     G: 'ftbic:nuke'
   }).id('kubejs:allthetweaks/improbable_probability_device')
 
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
   // Oblivion Shard
   // Alfred's Proposal
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
-    A: 'allthemodium:unobtainium_block',
+    A: 'spirit:soul_steel_block',
     C: 'naturesaura:end_flower',
     B: 'naturesaura:chunk_loader'
   }).id('kubejs:allthetweaks/oblivion_shard')
