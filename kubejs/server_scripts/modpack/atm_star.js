@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
       '   AJA   ',
       'AAAJFJAAA',
       'AJJCDEJJA',
-      ' ANBIHMA ',
+      ' AMBIHMA ',
       '  AKGLA  ',
       ' AJJAJJA ',
       'AJJA AJJA',
@@ -25,8 +25,7 @@ ServerEvents.recipes(event => {
       J: Ingredient.of('minecraft:bedrock').toJson(),
       K: Ingredient.of('allthetweaks:philosophers_fuel').toJson(),
       L: Ingredient.of('mysticalagradditions:creative_essence').toJson(),
-      M: Ingredient.of('minecraft:bedrock').toJson(),
-      N: Ingredient.of('minecraft:bedrock').toJson()
+      M: Item.of('allthemodium:unobtainium_vibranium_alloy_block', "{HideFlags:1,display:{Name:'[{\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\",\"italic\":false}]'}}").enchant('unbreaking', 1).strongNBT().toJson()
     },
     result: Ingredient.of('allthetweaks:atm_star').toJson(),
     acceptMirrored: false

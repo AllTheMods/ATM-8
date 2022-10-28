@@ -2,22 +2,33 @@
 
 ItemEvents.tooltip(event => {
 
-	// Temp! Remove me!
+	// Warning for Work in Progress
   [
-    'allthetweaks:atm_star',
     'allthetweaks:dragon_soul',
-    'allthetweaks:dimensional_seed',
     'allthetweaks:withers_compass',
     'allthetweaks:philosophers_fuel',
     'allthetweaks:improbable_probability_device',
     'allthetweaks:pulsating_black_hole',
-    'allthetweaks:oblivion_shard'
+    'allthetweaks:oblivion_shard',
+	'allthetweaks:nexium_emitter'
   ].forEach(item => {
     event.add(item, [
-      Text.of('Work in Progress').red(),
-      Text.of('This is not yet meant to be craftable').red()
+      Text.of('Work in Progress').red()
     ])
   })
+  
+	// Warning for Not Yet Craftable
+    event.add(
+	[
+	  'allthetweaks:atm_star',
+	  'allthetweaks:dimensional_seed'
+	], 
+	  [
+	  Text.of('Work in Progress').red(),
+	  Text.of('This is not yet meant to be craftable').red()
+	  ])
+  
+    
 
 	// Re-add Chemlib info to unified materials
 	let chemlibTooltips = JsonIO.read('kubejs/client_scripts/chemlibCompat.json')
