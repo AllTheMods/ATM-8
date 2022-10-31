@@ -1,0 +1,47 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+      "item": "twilightforest:mining_sapling"
+  },
+  "categories": [
+      "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+      "block": "twilightforest:mining_sapling"
+  },
+  "drops": [
+      {
+          "chance": 0.5,
+          "output": {
+              "item": "twilightforest:mining_log"
+          },
+          "minRolls": 1,
+          "maxRolls": 1
+      },
+      {
+          "chance": 0.1,
+          "output": {
+              "item": "minecraft:stick"
+          },
+          "minRolls": 1,
+          "maxRolls": 2
+      },
+      {
+          "chance": 0.05,
+          "output": {
+              "item": "twilightforest:liveroot"
+          },
+          "minRolls": 1,
+          "maxRolls": 1
+      },
+      {
+          "chance": 0.05,
+          "output": {
+              "item": "twilightforest:mining_leaves"
+          },
+          "minRolls": 1,
+          "maxRolls": 2
+      }
+  ]
+}

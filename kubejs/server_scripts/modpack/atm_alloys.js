@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1000000000',
 	result: Item.of('allthemodium:vibranium_allthemodium_alloy_ingot').toJson()
-  }).id(`kubejs:energizing/allthemodium:vibranium_allthemodium_alloy_ingot`)
+  }).id(`kubejs:energizing/allthemodium_vibranium_allthemodium_alloy_ingot`)
   
   
  // ATM-Vibranium Block
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1000000000',
     result: Item.of('allthemodium:vibranium_allthemodium_alloy_block').toJson()
-  }).id(`kubejs:energizing/allthemodium:vibranium_allthemodium_alloy_block`)
+  }).id(`kubejs:energizing/allthemodium_vibranium_allthemodium_alloy_block`)
 */
 
  // ATM-Unobtainium Ingot
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1000000000',
     result: Item.of('allthemodium:unobtainium_allthemodium_alloy_ingot').toJson()
-  }).id(`kubejs:energizing/allthemodium:unobtainium_allthemodium_alloy_ingot`)
+  }).id(`kubejs:energizing/allthemodium_unobtainium_allthemodium_alloy_ingot`)
   
 // ATM-Unobtainium Block
 /*
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '2500000000',
     result: Item.of('allthemodium:unobtainium_allthemodium_alloy_block').toJson()
-  }).id(`kubejs:energizing/allthemodium:unobtainium_allthemodium_alloy_block`)
+  }).id(`kubejs:energizing/allthemodium_unobtainium_allthemodium_alloy_block`)
   */
   
   
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1000000000',
     result: Item.of('allthemodium:unobtainium_vibranium_alloy_ingot').toJson()
-  }).id(`kubejs:energizing/allthemodium:unobtainium_vibranium_alloy_ingot`)
+  }).id(`kubejs:energizing/allthemodium_unobtainium_vibranium_alloy_ingot`)
   
 // Unobtainium-Vibranium Awakened Block
   event.custom({
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1250000000',
     result: Item.of('allthemodium:unobtainium_vibranium_alloy_block').toJson()
-  }).id(`kubejs:energizing/allthemodium:unobtainium_vibranium_alloy_block`)
+  }).id(`kubejs:energizing/allthemodium_unobtainium_vibranium_alloy_block`)
   
 */
   

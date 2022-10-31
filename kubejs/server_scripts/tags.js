@@ -13,6 +13,9 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
+  event.add('buildinggadgets:blacklist/generic', '#forge:relocation_not_supported')
+  event.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
+  event.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, '@waystones'])
 })
 
 ServerEvents.tags('entity_type', event => {
