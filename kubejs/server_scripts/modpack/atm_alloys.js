@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1000000000',
     result: Item.of('allthemodium:vibranium_allthemodium_alloy_block').toJson()
-  }).id(`kubejs:energizing/allthemodium:vibranium_allthemodium_alloy_block`)
+  }).id(`kubejs:energizing/allthemodium_vibranium_allthemodium_alloy_block`)
 */
 
  // ATM-Unobtainium Ingot
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '2500000000',
     result: Item.of('allthemodium:unobtainium_allthemodium_alloy_block').toJson()
-  }).id(`kubejs:energizing/allthemodium:unobtainium_allthemodium_alloy_block`)
+  }).id(`kubejs:energizing/allthemodium_unobtainium_allthemodium_alloy_block`)
   */
   
   
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     ],
     energy: '1250000000',
     result: Item.of('allthemodium:unobtainium_vibranium_alloy_block').toJson()
-  }).id(`kubejs:energizing/allthemodium:unobtainium_vibranium_alloy_block`)
+  }).id(`kubejs:energizing/allthemodium_unobtainium_vibranium_alloy_block`)
   
 */
   
