@@ -1,0 +1,47 @@
+  {
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "myrtrees:rubberwood_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "myrtrees:rubberwood_sapling"
+    },
+    "drops": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "myrtrees:rubberwood_log"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "myrtrees:latex"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "myrtrees:rubberwood_sapling"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "myrtrees:rubberwood_leaves"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

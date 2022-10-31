@@ -1,0 +1,39 @@
+  {
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "twilightforest:rainbow_oak_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "twilightforest:rainbow_oak_sapling"
+    },
+    "drops": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "twilightforest:twilight_oak_log"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "twilightforest:rainbow_oak_leaves"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}

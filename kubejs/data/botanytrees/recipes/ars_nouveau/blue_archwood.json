@@ -1,0 +1,57 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "forge:item_exists",
+            "item": "ars_nouveau:blue_archwood_sapling"
+        }
+    ],
+    "seed": {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "ars_nouveau:blue_archwood_sapling"
+    },
+    "drops": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "ars_nouveau:blue_archwood_log"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "ars_nouveau:blue_archwood_sapling"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "minecraft:apple"
+            },
+            "minRolls": 1,
+            "maxRolls": 4
+        }
+    ]
+}
