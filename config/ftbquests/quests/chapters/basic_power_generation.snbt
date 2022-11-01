@@ -325,7 +325,7 @@
 			y: 2.5d
 			subtitle: "Look Ma! I'm Flying!"
 			description: [
-				"In ATM8, you can get early game flight by creating a Wooden Jetpack!"
+				"You can get early game flight by creating a Wooden Jetpack!"
 				""
 				"This is the starter jetpack, and only stores a very tiny amount of power. Make sure to upgrade it quickly!"
 			]
@@ -809,6 +809,13 @@
 			x: 19.5d
 			y: 0.5d
 			subtitle: "In the Nether...."
+			description: [
+				"We'll need to start gathering some Ender Pearls to make Eyes of Ender."
+				""
+				"You use the Eyes of Ender to find Strongholds, which have the portal to the End!"
+				""
+				"The best place to farm Enderman naturally is in the Nether in the Warped Forests."
+			]
 			dependencies: ["0B8213C1DDCC540F"]
 			id: "2ED764474EAC9315"
 			tasks: [{
@@ -891,7 +898,7 @@
 		}
 		{
 			title: "&5Kill the Ender Dragon!"
-			x: 26.0d
+			x: 26.5d
 			y: -0.5d
 			shape: "square"
 			subtitle: "For the first time....."
@@ -958,7 +965,7 @@
 		}
 		{
 			icon: "minecraft:ender_pearl"
-			x: 28.5d
+			x: 29.0d
 			y: -0.5d
 			subtitle: "It's actually really pretty."
 			description: [
@@ -981,7 +988,7 @@
 		}
 		{
 			title: "Vanilla \"Flight\""
-			x: 30.5d
+			x: 31.0d
 			y: -0.5d
 			subtitle: "But we have a jetpack?"
 			description: [
@@ -1018,7 +1025,7 @@
 		}
 		{
 			title: "&5Unobtainium"
-			x: 28.5d
+			x: 29.0d
 			y: -2.0d
 			subtitle: "More like OBtainium amirite?"
 			description: [
@@ -1051,24 +1058,6 @@
 					xp: 100
 				}
 			]
-		}
-		{
-			x: 21.5d
-			y: -3.5d
-			description: ["Allthemodium Ingots pack a punch in terms of damage. Make sure to upgrade your weapon!"]
-			dependencies: ["6A4211C61120DBE8"]
-			optional: true
-			id: "2E6C92D41DC75327"
-			tasks: [{
-				id: "6493E0B5452F2ABA"
-				type: "checkmark"
-				title: "Don't Forget to Upgrade your Weapon!"
-			}]
-			rewards: [{
-				id: "27BDFF04D9CCFF30"
-				type: "xp"
-				xp: 10
-			}]
 		}
 		{
 			title: "Netherite Upgrade"
@@ -1283,6 +1272,84 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			x: 21.5d
+			y: -3.0d
+			shape: "pentagon"
+			description: [
+				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
+				""
+				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right clicking with an empty hand."
+				""
+				"To go to the Other, do the same thing but in the Nether."
+			]
+			dependencies: ["6A4211C61120DBE8"]
+			id: "1E38F655420EDB2E"
+			tasks: [{
+				id: "448C77127F89A232"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			rewards: [
+				{
+					id: "77F8003AC26194F8"
+					type: "item"
+					item: "allthemodium:teleport_pad"
+				}
+				{
+					id: "636551BBDC41E4CB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: -4.0d
+			shape: "octagon"
+			description: [
+				"You'll find a ton of ore in the Other. It's filled to the brim with amazing ore generation, as well as Ancient Forests."
+				""
+				"The berries you can find growing from the vines are great food sources, and they also give you Night Vision!"
+			]
+			dependencies: ["1E38F655420EDB2E"]
+			id: "2761C04C3AD87F05"
+			tasks: [{
+				id: "097AF842C2DEE1ED"
+				type: "item"
+				item: "allthemodium:ancient_stone"
+			}]
+			rewards: [{
+				id: "58DB7B2A6096917F"
+				type: "item"
+				item: "allthemodium:ancient_soulberries"
+				count: 8
+			}]
+		}
+		{
+			x: 22.0d
+			y: -4.0d
+			shape: "octagon"
+			description: [
+				"The Mining Dimension is the perfect place to mine. Hints the name!"
+				""
+				"It's also a great place to test out mods, as you spawn on completely level land."
+				""
+				"It's also a great place for your Mek reactors, as long as it doesn't get reset often. "
+			]
+			dependencies: ["1E38F655420EDB2E"]
+			id: "2554B207859669F6"
+			tasks: [{
+				id: "60832BEBA3D3161A"
+				type: "checkmark"
+				title: "The Mining Dimension"
+			}]
+			rewards: [{
+				id: "1DA9FE0AB38AB548"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

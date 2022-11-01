@@ -11,8 +11,8 @@
 		{
 			title: "Allthemodium Ore"
 			x: -1.5d
-			y: 1.0d
-			shape: "square"
+			y: 0.5d
+			shape: "rsquare"
 			description: [
 				"This lucrative ore starts your journey to become overpowered!"
 				""
@@ -22,6 +22,7 @@
 			dependencies: ["731686C758AD9A99"]
 			hide: false
 			dependency_requirement: "one_completed"
+			size: 1.5d
 			id: "5BDBE666E604FCAC"
 			tasks: [{
 				id: "75498AE05CC06F8F"
@@ -44,8 +45,8 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
-			shape: "square"
+			y: 1.0d
+			shape: "rsquare"
 			description: [
 				"The next step in our adventure to become (nearly) invincible."
 				""
@@ -54,6 +55,7 @@
 			hide_dependency_lines: false
 			dependencies: ["731686C758AD9A99"]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			id: "2DF64CB9298E91EA"
 			tasks: [{
 				id: "0F6B68E05B7B43AB"
@@ -76,8 +78,8 @@
 		}
 		{
 			x: 1.5d
-			y: 1.0d
-			shape: "square"
+			y: 0.5d
+			shape: "rsquare"
 			description: [
 				"An extremely rare ore that can only be found after defeating the Ender Dragon."
 				""
@@ -87,6 +89,7 @@
 			]
 			hide_dependency_lines: false
 			dependencies: ["731686C758AD9A99"]
+			size: 1.5d
 			id: "4F6E6AF1D9E74CB7"
 			tasks: [{
 				id: "52CCB85E5967BF9F"
@@ -108,12 +111,14 @@
 		}
 		{
 			x: -1.5d
-			y: 3.0d
+			y: 4.0d
+			shape: "square"
 			description: [
 				"Extremely fast furnace."
 				""
 				"Smelts 1/4 of a stack at a time."
 			]
+			hide_dependency_lines: false
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "2CC97CF32D9C017B"
 			tasks: [{
@@ -125,6 +130,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
+			shape: "gear"
 			description: [""]
 			hide_dependency_lines: false
 			dependencies: ["5BDBE666E604FCAC"]
@@ -152,6 +158,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			shape: "gear"
 			description: [""]
 			hide_dependency_lines: false
 			dependencies: ["2DF64CB9298E91EA"]
@@ -177,12 +184,14 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 4.0d
+			shape: "square"
 			description: [
 				"How fast can this possibly get!?"
 				""
 				"Smelts 1/2 of a stack at a time."
 			]
+			hide_dependency_lines: false
 			dependencies: ["61FDABF2C7CC1F9D"]
 			id: "5CA0BA27F9C537B2"
 			tasks: [{
@@ -193,12 +202,14 @@
 		}
 		{
 			x: 1.5d
-			y: 3.0d
+			y: 4.0d
+			shape: "square"
 			description: [
 				"Now you are just showing off."
 				""
 				"Smelts a stack of items per operation."
 			]
+			hide_dependency_lines: false
 			dependencies: ["44760B819EB3CA68"]
 			id: "1AFDB3AE73E72A33"
 			tasks: [{
@@ -213,8 +224,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 9.5d
+			x: -3.5d
+			y: 5.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "1BF186347C4683B3"
@@ -243,8 +255,9 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 8.5d
+			x: -3.5d
+			y: 4.0d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "26296F815ACC04BE"
@@ -273,8 +286,9 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 7.5d
+			x: -3.5d
+			y: 3.0d
+			shape: "square"
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "4C7718982E78D7A2"
 			tasks: [{
@@ -302,8 +316,9 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 6.5d
+			x: -3.5d
+			y: 2.0d
+			shape: "square"
 			dependencies: ["71A43C89EB13E9A0"]
 			dependency_requirement: "one_completed"
 			id: "29637BD992599915"
@@ -333,7 +348,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 			shape: "rsquare"
 			description: ["Detailed Guide to Allthemodium."]
 			size: 1.5d
@@ -358,6 +373,7 @@
 		{
 			x: 1.5d
 			y: 2.0d
+			shape: "gear"
 			hide_dependency_lines: false
 			dependencies: ["4F6E6AF1D9E74CB7"]
 			id: "44760B819EB3CA68"
@@ -381,8 +397,9 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 7.5d
+			x: 3.5d
+			y: 6.0d
+			shape: "heart"
 			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "7F3B96033AB7A21E"
@@ -407,8 +424,9 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 7.5d
+			x: -3.5d
+			y: 6.0d
+			shape: "heart"
 			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			id: "15D56588634665FA"
@@ -433,77 +451,9 @@
 			]
 		}
 		{
-			title: "Automating ATM Ores!"
-			x: 0.0d
-			y: 5.0d
-			shape: "hexagon"
-			description: [
-				"Wanting infinite ATM metals without mining it? Tired of searching forever?"
-				""
-				"Get started in Productive Bees and make your way to making the ATM Ore Bees!"
-			]
-			dependencies: ["71A43C89EB13E9A0"]
-			dependency_requirement: "one_started"
-			size: 1.25d
-			id: "74C5660C5D230091"
-			tasks: [
-				{
-					id: "427834C8FA4A04F0"
-					type: "item"
-					item: {
-						id: "productivebees:configurable_honeycomb"
-						Count: 1b
-						tag: {
-							EntityTag: {
-								type: "productivebees:allthemodium"
-							}
-						}
-					}
-				}
-				{
-					id: "3FC5468B95B70740"
-					type: "item"
-					item: {
-						id: "productivebees:configurable_honeycomb"
-						Count: 1b
-						tag: {
-							EntityTag: {
-								type: "productivebees:vibranium"
-							}
-						}
-					}
-				}
-				{
-					id: "6D660D307C1941FB"
-					type: "item"
-					item: {
-						id: "productivebees:configurable_honeycomb"
-						Count: 1b
-						tag: {
-							EntityTag: {
-								type: "productivebees:unobtainium"
-							}
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "31E38A4EC66D8702"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "7D3518244FF8A102"
-					type: "item"
-					item: "productivebees:upgrade_productivity"
-					count: 3
-				}
-			]
-		}
-		{
-			x: -2.0d
-			y: 7.5d
+			x: 3.5d
+			y: 2.0d
+			shape: "square"
 			dependencies: ["5BDBE666E604FCAC"]
 			id: "30E6C6825D78B5F1"
 			tasks: [{
@@ -526,8 +476,9 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 7.5d
+			x: 3.5d
+			y: 3.0d
+			shape: "square"
 			dependencies: ["5BDBE666E604FCAC"]
 			id: "061784A9E41AB60B"
 			tasks: [{
@@ -550,8 +501,9 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 8.5d
+			x: 3.5d
+			y: 4.0d
+			shape: "square"
 			dependencies: ["5BDBE666E604FCAC"]
 			id: "17616C60784102A6"
 			tasks: [{
@@ -574,8 +526,9 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 8.5d
+			x: 3.5d
+			y: 5.0d
+			shape: "square"
 			dependencies: ["5BDBE666E604FCAC"]
 			id: "614B212304A85F9C"
 			tasks: [{
@@ -596,6 +549,210 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "diamond"
+			description: [
+				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
+				""
+				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right clicking with an empty hand."
+				""
+				"To go to the Other, do the same thing but in the Nether."
+			]
+			dependencies: ["5BDBE666E604FCAC"]
+			size: 2.0d
+			id: "3C322474D2F2BA99"
+			tasks: [{
+				id: "004AE063EA883019"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			rewards: [
+				{
+					id: "2C9F8F16CBD7E6A1"
+					type: "item"
+					item: "allthemodium:allthemodium_ingot"
+				}
+				{
+					id: "0B4E3EEE5A9DB68C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "The Other"
+			x: 1.5d
+			y: 9.0d
+			hide_dependency_lines: false
+			dependencies: ["3C322474D2F2BA99"]
+			size: 1.5d
+			id: "58E3D29E2E034BA2"
+			tasks: [{
+				id: "7B3D9051C7A0EC60"
+				type: "item"
+				item: "allthemodium:ancient_stone"
+			}]
+			rewards: [
+				{
+					id: "26A3F549CA3338F4"
+					type: "item"
+					item: "allthemodium:ancient_soulberries"
+					count: 16
+				}
+				{
+					id: "74B5009A2A31A73B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "The Mining Dimension"
+			x: -1.5d
+			y: 9.0d
+			hide_dependency_lines: false
+			dependencies: ["3C322474D2F2BA99"]
+			size: 1.5d
+			id: "7E8FE99A3C448413"
+			tasks: [{
+				id: "619FA47BA82EFFD2"
+				type: "dimension"
+				dimension: "allthemodium:mining"
+			}]
+			rewards: [{
+				id: "7B03C181BB8EB227"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			shape: "pentagon"
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "1FBE2D8C1C3B21EE"
+			tasks: [{
+				id: "21DC9A0D99003F77"
+				type: "item"
+				item: "mysticalagriculture:allthemodium_seeds"
+			}]
+			rewards: [{
+				id: "63A5B1A4D4CF2B8A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			shape: "pentagon"
+			dependencies: ["61FDABF2C7CC1F9D"]
+			id: "0C0DB81D3781FB33"
+			tasks: [{
+				id: "6CA88AF9DFAEA6B5"
+				type: "item"
+				item: "mysticalagriculture:vibranium_seeds"
+			}]
+			rewards: [{
+				id: "15BB719B9FCE235B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			shape: "pentagon"
+			dependencies: ["44760B819EB3CA68"]
+			id: "3F09317D12C78271"
+			tasks: [{
+				id: "1ACAA7497BB635C0"
+				type: "item"
+				item: "mysticalagriculture:unobtainium_seeds"
+			}]
+			rewards: [{
+				id: "473ADE08455C92A6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: ["71A43C89EB13E9A0"]
+			id: "5D8A3491889F2C4E"
+			tasks: [{
+				id: "757DE5E7C84CDD47"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:allthemodium"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "15475C2EF8192338"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: ["61FDABF2C7CC1F9D"]
+			id: "517A9CAA342E8FA6"
+			tasks: [{
+				id: "1DF8E3A079E13541"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:vibranium"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "15EE8C5DD99F0F0B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: ["44760B819EB3CA68"]
+			id: "3D6FFE360BBED088"
+			tasks: [{
+				id: "60DD22BBD1056077"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:unobtainium"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DE21C164B4D377E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

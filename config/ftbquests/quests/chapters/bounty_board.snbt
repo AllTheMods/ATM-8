@@ -1312,11 +1312,18 @@
 				entity: "minecraft:warden"
 				value: 1L
 			}]
-			rewards: [{
-				id: "1A20BD8574954FE2"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "1A20BD8574954FE2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "190AE302BBF17638"
+					type: "item"
+					item: "allthemodium:allthemodium_ingot"
+				}
+			]
 		}
 	]
 }

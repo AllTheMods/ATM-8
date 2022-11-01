@@ -10,7 +10,11 @@ WorldgenEvents.remove(event => {
       'ftbic:aluminum_ore',
       'ftbic:deepslate_aluminum_ore',
       'ftbic:iridium_ore',
-      'ftbic:deepslate_iridium_ore'
+      'ftbic:deepslate_iridium_ore',
+      'occultism:silver_ore',
+      'occultism:silver_ore_deepslate',
+      'xycraft_world:aluminum_ore_stone',
+      'xycraft_world:aluminum_ore_deepslate'
     ]
   })
 })

@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "1CF541D7529DA9CF", title: "Main Questline" }
+		{ id: "22FB35B0FEF1343D", title: "Tools and Armor" }
 		{ id: "1AC60211DE7427FC", title: "Storage" }
 		{ id: "6614EE2378B8AFB9", title: "Resources" }
 		{ id: "2B51AC12041E3F89", title: "Technology" }

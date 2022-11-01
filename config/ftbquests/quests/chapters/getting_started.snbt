@@ -330,7 +330,7 @@
 		{
 			title: "Easy Base Teleportation"
 			x: 0.5d
-			y: -6.0d
+			y: -5.5d
 			description: [
 				"These work like pressure plates. Right click them to get a shard that you can use on another warp plate to link them."
 				""
@@ -361,7 +361,7 @@
 		{
 			title: "Teleport Scrolls"
 			x: -1.0d
-			y: -6.0d
+			y: -4.0d
 			subtitle: "Teleportation on the Go!"
 			description: [
 				"Craft yourself a few of these to warp back home on the go!"

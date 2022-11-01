@@ -1,15 +1,16 @@
 ServerEvents.recipes(event => {
   // Dragon Soul
-  // MISSING INGREDIENTS
-  event.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BSE'], {
-    A: 'occultism:soul_gem',
-    C: 'minecraft:bedrock',
-    D: 'minecraft:bedrock',
+  // Alfred's Proposal
+  event.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
+    D: 'occultism:soul_gem',
+    C: 'mysticalagradditions:dragon_scale',
+    A: 'quark:dragon_scale',
     N: 'allthemodium:piglich_heart',
     B: 'minecraft:dragon_breath',
-    S: 'minecraft:bedrock',
-    E: 'minecraft:bedrock',
-    I: Item.of('blue_skies:nature_arc', { ArcLevel: 2 }).strongNBT()
+    S: Item.of('blue_skies:poison_arc', { ArcLevel: 1 }).strongNBT(),
+    E: 'ars_nouveau:summon_focus',
+	G: 'productivebees:inactive_dragon_egg',
+    I: Item.of('blue_skies:nature_arc', { ArcLevel: 1 }).strongNBT()
   }).id('kubejs:allthetweaks/dragon_soul')
 
   // Dimensional Seed
@@ -31,66 +32,67 @@ ServerEvents.recipes(event => {
   })*/
 
   // Withers Compass
-  // MISSING INGREDIENTS
+  // Alfred's Proposal
   event.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
     A: 'mekanism:module_gravitational_modulating_unit',
-    B: 'ars_nouveau:glyph_wither',
-    C: 'minecraft:bedrock',
-    D: 'minecraft:bedrock',
+    B: 'industrialforegoing:wither_builder',
+    C: 'deeperdarker:heart_of_the_deep',
+    D: 'ftbic:antimatter_crystal',
     E: 'mekanism:module_gravitational_modulating_unit'
   }).id('kubejs:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
-  // MISSING INGREDIENTS
+  // Alfred's Proposal
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
-    A: 'mysticalagradditions:insanium_coal_block',
-    B: Item.of('ftbic:quad_uranium_fuel_rod', { Damage: 0 }).strongNBT(),
-    C: 'mekanism:pellet_antimatter',
-    D: 'evilcraft:piercing_vengeance_focus',
-    E: 'mysticalagriculture:supremium_furnace',
-    F: Item.of('elementalcraft:jewel', { elementalcraft: { jewel: "elementalcraft:phoenix" } }).strongNBT(),
-    G: 'minecraft:bedrock',
-    H: 'twilightforest:carminite_block',
+    A: 'chemlib:oganesson',
+	B: 'mekanism:pellet_antimatter',
+	C: Item.of('ftbic:quad_uranium_fuel_rod', { Damage: 0 }).strongNBT(),
+	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
+	E: 'mysticalagradditions:insanium_coal_block',
+    F: 'elementalcraft:fireite_ingot',
+	G: 'twilightforest:twilight_portal_miniature_structure',
+	H: 'mysticalagriculture:awakened_supremium_furnace',
     I: 'ftbic:nuclear_reactor'
   }).id('kubejs:allthetweaks/philosophers_fuel')
 
   // Improbable Probaility Device
-  // MISSING INGREDIENT
-  event.shaped('allthetweaks:improbable_probability_device', ['AAB', 'CGE', 'FDF'], {
-    A: 'computercraft:monitor_advanced',
-    B: 'mekanismgenerators:module_solar_recharging_unit',
+  // Alfred's Proposal
+  event.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
+    A: 'mekanismgenerators:module_solar_recharging_unit',
+	B: 'computercraft:pocket_computer_advanced',
     C: ['extradisks:1048576k_storage_part', 'extradisks:1048576k_fluid_storage_part', 'megacells:cell_component_256m'],
-    D: 'minecraft:bedrock',
-    E: 'minecraft:bedrock',
-    F: 'minecraft:bedrock',
+    D: 'advgenerators:power_capacitor_tier3',
+	E: 'rftoolsutility:flight_module',
+    F: Item.of('powah:battery_nitro', '{powah_tile_data:{energy_stored_main_energy:2000000000L}}').strongNBT(),
     G: 'ftbic:nuke'
   }).id('kubejs:allthetweaks/improbable_probability_device')
 
   // Nexium Emitter
+  // Alfred's Proposal
   event.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
     A: 'powah:player_transmitter_nitro',
-    B: ['ae2:wireless_terminal', 'ae2:wireless_crafting_terminal', 'refinedstorageaddons:wireless_crafting_grid', 'refinedstorage:wireless_grid', 'refinedstorage:wireless_fluid_grid'],
+    B: [Item.of('ae2wtlib:wireless_universal_terminal', '{crafting:1b,internalMaxPower:4800000.0d,pattern_access:1b,pattern_encoding:1b}'), Item.of('universalgrid:wireless_universal_grid', '{gridType:0}')],
     C: 'mekanism:supercharged_coil',
     D: 'ftbic:ev_solar_panel',
     E: 'ae2:singularity',
     F: 'mekanismgenerators:module_solar_recharging_unit',
-    G: 'ftbic:overclocked_heat_vent'
+    G: 'immersiveengineering:tesla_coil'
   }).id('kubejs:allthetweaks/nexium_emitter')
 
   // Pulsating Black Hole
-  // MISSING INGREDIENT
+  // Alfred's Proposal
   event.custom({
     type: 'pneumaticcraft:pressure_chamber',
     inputs: [
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'mekanism:pellet_antimatter', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'ftbic:nuke', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
       { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
-      { 'type': 'pneumaticcraft:stacked_item', 'item': 'ftbic:antimatter', 'count': 1 }
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'pneumaticcraft:micromissiles', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'mekanism:pellet_antimatter', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:nether_star', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'ftbic:antimatter', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'industrialforegoing:infinity_nuke', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:vial_of_expulsion', 'count': 1 },
+      { 'type': 'pneumaticcraft:stacked_item', 'item': 'evilcraft:lightning_bomb', 'count': 1 }
     ],
     pressure: 4.9,
     results: [
@@ -101,11 +103,11 @@ ServerEvents.recipes(event => {
   }).id('kubejs:pressure/allthetweaks/pulsating_black_hole')
 
   // Oblivion Shard
-  // MISSING INGREDIENT
+  // Alfred's Proposal
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
-    A: 'allthemodium:unobtainium_block',
+    A: 'spirit:soul_steel_block',
     C: 'naturesaura:end_flower',
-    B: 'minecraft:bedrock'
+    B: 'naturesaura:chunk_loader'
   }).id('kubejs:allthetweaks/oblivion_shard')
 
   // Creative Essence
