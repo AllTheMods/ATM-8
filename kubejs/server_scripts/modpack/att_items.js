@@ -5,9 +5,9 @@ ServerEvents.recipes(event => {
     C: 'mysticalagradditions:dragon_scale',
     D: 'occultism:soul_gem',
     A: 'quark:dragon_scale',
-    S: Item.of('blue_skies:poison_arc', { ArcLevel: 1 }).strongNBT(),
+    S: Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),
     N: 'allthemodium:piglich_heart',
-    I: Item.of('blue_skies:nature_arc', { ArcLevel: 1 }).strongNBT(),
+    I: Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),
     B: 'minecraft:dragon_breath',
 	G: 'productivebees:inactive_dragon_egg',
     E: 'ars_nouveau:summon_focus'
@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
     A: 'chemlib:oganesson',
 	B: 'mekanism:pellet_antimatter',
-	C: Item.of('ftbic:quad_uranium_fuel_rod', { Damage: 0 }).strongNBT(),
+	C: Item.of('ftbic:quad_uranium_fuel_rod', '{Damage:0}').strongNBT(),
 	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
 	E: 'mysticalagradditions:insanium_coal_block',
     F: 'elementalcraft:fireite_ingot',
