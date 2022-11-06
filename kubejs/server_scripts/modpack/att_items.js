@@ -2,34 +2,79 @@ ServerEvents.recipes(event => {
   // Dragon Soul
   // Alfred's Proposal
   event.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
-    D: 'occultism:soul_gem',
     C: 'mysticalagradditions:dragon_scale',
+    D: 'occultism:soul_gem',
     A: 'quark:dragon_scale',
+    S: Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),
     N: 'allthemodium:piglich_heart',
+    I: Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),
     B: 'minecraft:dragon_breath',
-    S: Item.of('blue_skies:poison_arc', { ArcLevel: 1 }).strongNBT(),
-    E: 'ars_nouveau:summon_focus',
 	G: 'productivebees:inactive_dragon_egg',
-    I: Item.of('blue_skies:nature_arc', { ArcLevel: 1 }).strongNBT()
+    E: 'ars_nouveau:summon_focus'
   }).id('kubejs:allthetweaks/dragon_soul')
 
-  // Dimensional Seed
-  /* NO ATC
-  event.custom({
-      type: 'mysticalagriculture:infusion',
-      input: { item: 'allthecompressed:emerald_block_6x' },
-      ingredients: [
-          { item: 'allthecompressed:blackstone_block_7x' },
-          { item: 'allthecompressed:end_stone_block_5x' },
-          { item: 'allthecompressed:netherrack_block_7x' },
-          { item: 'allthecompressed:clay_block_5x' },
-          { item: 'allthecompressed:soul_sand_block_4x' },
-          { item: 'allthecompressed:red_sand_block_4x' },
-          { item: 'allthecompressed:red_sand_block_4x' },
-          { item: 'allthecompressed:obsidian_block_6x' }
+	// Dimensional Seed Recipe
+	event.custom({
+	  "type": "spirit:soul_engulfing",
+      "input": {
+      
+      "ingredient": {
+        "item": "mysticalagriculture:soulium_seed_base"
+    },  
+    "multiblock": {
+      "pattern": [
+        [
+          " F ",
+          "E@ ",
+          " G "
+        ],
+		[
+          "ACI",
+          "BXD",
+          "AHJ"
+        ]
       ],
-      result: { item: 'allthetweaks:dimensional_seed' }
-  })*/
+      "keys": {
+        "A": {
+          "block": "occultism:storage_controller"
+			},
+        "B": {
+          "block": "allthecompressed:netherrack_block_6x"
+			},
+        "C": {
+          "block": "allthecompressed:obsidian_block_5x"
+			},
+		"D": {
+          "block": "allthemodium:teleport_pad"
+			},
+		"E": {
+          "block": "allthetweaks:mini_nether"
+			},
+		"F": {
+          "block": "allthetweaks:mini_exit"
+			},
+		"G": {
+          "block": "allthetweaks:mini_end"
+			},
+		"H": {
+          "block": "allthecompressed:end_stone_block_5x"
+			},
+		"I": {
+          "block": "allthecompressed:emerald_block_5x"
+			},
+		"J": {
+          "block": "allthecompressed:diamond_block_4x"
+			},
+        "X": {
+          "block": "allthecompressed:soul_sand_block_5x"
+			}
+		}
+	}
+	},
+  "duration": 30,
+  "destroysStructure": false,
+  "outputItem": "allthetweaks:dimensional_seed"
+	}).id('kubejs:allthetweaks/dimensional_seed')
 
   // Withers Compass
   // Alfred's Proposal
@@ -46,12 +91,12 @@ ServerEvents.recipes(event => {
   event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
     A: 'chemlib:oganesson',
 	B: 'mekanism:pellet_antimatter',
-	C: Item.of('ftbic:quad_uranium_fuel_rod', { Damage: 0 }).strongNBT(),
+	C: Item.of('ftbic:quad_uranium_fuel_rod', '{Damage:0}').strongNBT(),
 	D: Item.of('evilcraft:flesh_rejuvenated', '{Fluid:{Amount:0,FluidName:"minecraft:empty"},capacity:10000}'),
 	E: 'mysticalagradditions:insanium_coal_block',
     F: 'elementalcraft:fireite_ingot',
-	G: 'twilightforest:twilight_portal_miniature_structure',
-	H: 'mysticalagriculture:awakened_supremium_furnace',
+	G: 'mysticalagriculture:awakened_supremium_furnace',
+	H: 'twilightforest:twilight_portal_miniature_structure',
     I: 'ftbic:nuclear_reactor'
   }).id('kubejs:allthetweaks/philosophers_fuel')
 

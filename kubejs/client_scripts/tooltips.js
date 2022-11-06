@@ -1,7 +1,7 @@
 // priority: 0
 
 ItemEvents.tooltip(event => {
-
+/*
 	// Warning for Work in Progress
   [
     'allthetweaks:dragon_soul',
@@ -10,24 +10,16 @@ ItemEvents.tooltip(event => {
     'allthetweaks:improbable_probability_device',
     'allthetweaks:pulsating_black_hole',
     'allthetweaks:oblivion_shard',
-	'allthetweaks:nexium_emitter'
+	'allthetweaks:nexium_emitter',
+	'allthetweaks:atm_star',
+	'allthetweaks:dimensional_seed'
   ].forEach(item => {
     event.add(item, [
       Text.of('Work in Progress').red()
     ])
   })
-  
-	// Warning for Not Yet Craftable
-    event.add(
-	[
-	  'allthetweaks:atm_star',
-	  'allthetweaks:dimensional_seed'
-	], 
-	  [
-	  Text.of('Work in Progress').red(),
-	  Text.of('This is not yet meant to be craftable').red()
-	  ])
-  
+ 
+ */
     
 
 	// Re-add Chemlib info to unified materials
