@@ -129,7 +129,7 @@
 		}
 		{
 			x: -4.0d
-			y: -13.5d
+			y: -12.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
 			id: "58EBEC3DDE47DAC7"
@@ -504,7 +504,7 @@
 		}
 		{
 			x: -4.0d
-			y: -12.5d
+			y: -11.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
 			id: "38E44223347DA798"
@@ -538,7 +538,7 @@
 		}
 		{
 			x: -4.0d
-			y: -14.5d
+			y: -13.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
 			id: "515001313775DCFC"
@@ -571,7 +571,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: -14.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -792,7 +792,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.5d
 			y: -14.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -941,23 +941,6 @@
 			}]
 			rewards: [{
 				id: "62E2BDCDD8BD192C"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -4.0d
-			y: -11.5d
-			shape: "rsquare"
-			dependencies: ["441C0659ED28D935"]
-			id: "0E34D5156EFE2182"
-			tasks: [{
-				id: "015C2C0D27AC3393"
-				type: "item"
-				item: "ars_nouveau:glyph_aquatic"
-			}]
-			rewards: [{
-				id: "090CD19E49757C21"
 				type: "xp"
 				xp: 100
 			}]
