@@ -1,0 +1,45 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "croptopia:nectarine_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "croptopia:nectarine_sapling"
+    },
+    "drops": [
+      {
+        "chance": 0.75,
+        "output": {
+          "item": "minecraft:oak_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.10,
+        "output": {
+          "item": "minecraft:stick"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.5,
+        "output": {
+          "item": "croptopia:nectarine"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.05,
+        "output": {
+          "item": "croptopia:nectarine_sapling"
+        }
+      }
+    ]
+  }
