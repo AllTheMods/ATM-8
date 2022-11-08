@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "blue_skies"
+        },
+        {
+            "type": "forge:item_exists",
+            "item": "blue_skies:crescent_fruit_sapling"
+        }
+    ],
+    "seed": {
+        "item": "blue_skies:crescent_fruit_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "blue_skies:crescent_fruit_sapling"
+    },
+    "results": [
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "blue_skies:crescent_fruit_sapling"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "blue_skies:crescent_fruit"
+            },
+            "minRolls": 1,
+            "maxRolls": 4
+        }
+    ]
+}
