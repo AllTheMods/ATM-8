@@ -14,7 +14,7 @@
 			y: 0.5d
 			shape: "rsquare"
 			description: [
-				"This lucrative ore starts your journey to become overpowered!"
+				"This lucrative ore starts your journey to becoming overpowered!"
 				""
 				"It is found in Deep Dark biomes along ceilings and walls."
 			]
@@ -53,7 +53,7 @@
 				"Find this ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
 			]
 			hide_dependency_lines: false
-			dependencies: ["731686C758AD9A99"]
+			dependencies: ["5BDBE666E604FCAC"]
 			dependency_requirement: "one_started"
 			size: 1.5d
 			id: "2DF64CB9298E91EA"
@@ -88,7 +88,7 @@
 				"Note: It is rare."
 			]
 			hide_dependency_lines: false
-			dependencies: ["731686C758AD9A99"]
+			dependencies: ["2DF64CB9298E91EA"]
 			size: 1.5d
 			id: "4F6E6AF1D9E74CB7"
 			tasks: [{
@@ -350,25 +350,44 @@
 			x: 0.0d
 			y: -1.0d
 			shape: "rsquare"
-			description: ["Detailed Guide to Allthemodium."]
+			description: [
+				"&dAllthemodium&r is the core mod in all Allthemods modpacks. This mod adds engame ores to the world that amplify your modded experience."
+				""
+				"You can find more info on the mod in the &9Allthemodium&r book."
+			]
 			size: 1.5d
 			id: "731686C758AD9A99"
 			tasks: [{
-				id: "71D1672A82D08E89"
-				type: "item"
-				item: {
+				id: "159872B988A173AA"
+				type: "dimension"
+				title: "Intro to Allthemodium!"
+				icon: {
 					id: "patchouli:guide_book"
 					Count: 1b
 					tag: {
 						"patchouli:book": "allthemodium:allthemodium"
 					}
 				}
+				dimension: "minecraft:overworld"
 			}]
-			rewards: [{
-				id: "4D04379836E29120"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4D04379836E29120"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D061D49519CE0B4"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "allthemodium:allthemodium"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -586,6 +605,13 @@
 			title: "The Other"
 			x: 1.5d
 			y: 9.0d
+			description: [
+				"You'll find a ton of ore in the Other. It's filled to the brim with amazing ore generation, as well as Ancient Forests."
+				""
+				"Within these Forests, you can find Ancient Berries that grant Night Vision."
+				""
+				"This is also the only dimension that has Soul Lava and Pigliches. "
+			]
 			hide_dependency_lines: false
 			dependencies: ["3C322474D2F2BA99"]
 			size: 1.5d
@@ -611,16 +637,22 @@
 		}
 		{
 			title: "The Mining Dimension"
+			icon: "allthemodium:raw_allthemodium"
 			x: -1.5d
 			y: 9.0d
+			description: [
+				"The &9Mining Dimension&r has been reworked for 1.19!"
+				""
+				"There are several new layers added. Allthemodium Ore also spawns better in this dimension, as well as several new ores to the Mining World. Check it out!"
+			]
 			hide_dependency_lines: false
 			dependencies: ["3C322474D2F2BA99"]
 			size: 1.5d
 			id: "7E8FE99A3C448413"
 			tasks: [{
-				id: "619FA47BA82EFFD2"
-				type: "dimension"
-				dimension: "allthemodium:mining"
+				id: "110AA18477C59A28"
+				type: "checkmark"
+				title: "The Mining Dimension"
 			}]
 			rewards: [{
 				id: "7B03C181BB8EB227"
