@@ -81,7 +81,6 @@ ServerEvents.highPriorityData(event => {
       if (recipe.customEntries.length == 0) {
         recipe.group.enabledByDefault = false
       }
-      console.log(recipe.group.name)
       event.addJson(`kubejs:farmingforblockheads_compat/${mod == 'minecraft' ? 'vanilla' : mod}_${key}.json`, recipe)
     })
   })
