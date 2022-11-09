@@ -1,0 +1,7 @@
+[projection]
+  [projection."power consolidation"]
+    #The highest attack Caliburn can go to
+		#Range: 0 ~ 100000000
+		POWER_CONSOLIDATION_ATTACK_CAP = 200
+    #Power Consolidation Damage Cap Tiers
+		POWER_CONSOLIDATION_TIERS = [100.0, 150.0, 200.0]

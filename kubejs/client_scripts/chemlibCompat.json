@@ -9,110 +9,20 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:nickel_plate": [
+	"alltheores:aluminum_block": [
 		{
 			"color": "aqua",
-			"text": "Ni (28)"
+			"text": "Al (13)"
 		},
 		{
 			"color": "gray",
-			"text": "Transition Metals"
+			"text": "Post-Transition Metals"
 		}
 	],
-	"alltheores:nickel_dust": [
+	"alltheores:platinum_ingot": [
 		{
 			"color": "aqua",
-			"text": "Ni (28)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:nickel_ingot": [
-		{
-			"color": "aqua",
-			"text": "Ni (28)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:nickel_block": [
-		{
-			"color": "aqua",
-			"text": "Ni (28)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:copper_nugget": [
-		{
-			"color": "aqua",
-			"text": "Cu (29)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:copper_plate": [
-		{
-			"color": "aqua",
-			"text": "Cu (29)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:copper_dust": [
-		{
-			"color": "aqua",
-			"text": "Cu (29)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"minecraft:copper_ingot": [
-		{
-			"color": "aqua",
-			"text": "Cu (29)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"minecraft:copper_block": [
-		{
-			"color": "aqua",
-			"text": "Cu (29)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"minecraft:iron_nugget": [
-		{
-			"color": "aqua",
-			"text": "Fe (26)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:iron_plate": [
-		{
-			"color": "aqua",
-			"text": "Fe (26)"
+			"text": "Pt (78)"
 		},
 		{
 			"color": "gray",
@@ -129,37 +39,17 @@
 			"text": "Transition Metals"
 		}
 	],
-	"minecraft:iron_ingot": [
+	"alltheores:zinc_block": [
 		{
 			"color": "aqua",
-			"text": "Fe (26)"
+			"text": "Zn (30)"
 		},
 		{
 			"color": "gray",
 			"text": "Transition Metals"
 		}
 	],
-	"minecraft:iron_block": [
-		{
-			"color": "aqua",
-			"text": "Fe (26)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:uranium_nugget": [
-		{
-			"color": "aqua",
-			"text": "U (92)"
-		},
-		{
-			"color": "gray",
-			"text": "Actinides"
-		}
-	],
-	"alltheores:uranium_plate": [
+	"alltheores:uranium_ingot": [
 		{
 			"color": "aqua",
 			"text": "U (92)"
@@ -179,7 +69,67 @@
 			"text": "Actinides"
 		}
 	],
-	"alltheores:uranium_ingot": [
+	"alltheores:osmium_ingot": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:platinum_plate": [
+		{
+			"color": "aqua",
+			"text": "Pt (78)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:copper_nugget": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:iron_nugget": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:silver_ingot": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:zinc_dust": [
+		{
+			"color": "aqua",
+			"text": "Zn (30)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:uranium_nugget": [
 		{
 			"color": "aqua",
 			"text": "U (92)"
@@ -189,37 +139,17 @@
 			"text": "Actinides"
 		}
 	],
-	"alltheores:uranium_block": [
+	"alltheores:silver_plate": [
 		{
 			"color": "aqua",
-			"text": "U (92)"
+			"text": "Ag (47)"
 		},
 		{
 			"color": "gray",
-			"text": "Actinides"
+			"text": "Transition Metals"
 		}
 	],
 	"minecraft:gold_nugget": [
-		{
-			"color": "aqua",
-			"text": "Au (79)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:gold_plate": [
-		{
-			"color": "aqua",
-			"text": "Au (79)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:gold_dust": [
 		{
 			"color": "aqua",
 			"text": "Au (79)"
@@ -239,16 +169,6 @@
 			"text": "Transition Metals"
 		}
 	],
-	"minecraft:gold_block": [
-		{
-			"color": "aqua",
-			"text": "Au (79)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
 	"alltheores:platinum_nugget": [
 		{
 			"color": "aqua",
@@ -259,60 +179,10 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:platinum_plate": [
+	"minecraft:copper_block": [
 		{
 			"color": "aqua",
-			"text": "Pt (78)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:platinum_dust": [
-		{
-			"color": "aqua",
-			"text": "Pt (78)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:platinum_ingot": [
-		{
-			"color": "aqua",
-			"text": "Pt (78)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:platinum_block": [
-		{
-			"color": "aqua",
-			"text": "Pt (78)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:osmium_nugget": [
-		{
-			"color": "aqua",
-			"text": "Os (76)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:osmium_plate": [
-		{
-			"color": "aqua",
-			"text": "Os (76)"
+			"text": "Cu (29)"
 		},
 		{
 			"color": "gray",
@@ -329,7 +199,47 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:osmium_ingot": [
+	"alltheores:lead_block": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"alltheores:nickel_dust": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:lead_dust": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"alltheores:nickel_ingot": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:osmium_nugget": [
 		{
 			"color": "aqua",
 			"text": "Os (76)"
@@ -339,14 +249,14 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:osmium_block": [
+	"mekanism:dust_sulfur": [
 		{
 			"color": "aqua",
-			"text": "Os (76)"
+			"text": "S (16)"
 		},
 		{
 			"color": "gray",
-			"text": "Transition Metals"
+			"text": "Reactive Non-Metals"
 		}
 	],
 	"alltheores:zinc_nugget": [
@@ -359,40 +269,20 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:zinc_plate": [
+	"alltheores:tin_plate": [
 		{
 			"color": "aqua",
-			"text": "Zn (30)"
+			"text": "Sn (50)"
 		},
 		{
 			"color": "gray",
-			"text": "Transition Metals"
+			"text": "Post-Transition Metals"
 		}
 	],
-	"alltheores:zinc_dust": [
+	"alltheores:iridium_plate": [
 		{
 			"color": "aqua",
-			"text": "Zn (30)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:zinc_ingot": [
-		{
-			"color": "aqua",
-			"text": "Zn (30)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:zinc_block": [
-		{
-			"color": "aqua",
-			"text": "Zn (30)"
+			"text": "Ir (77)"
 		},
 		{
 			"color": "gray",
@@ -400,46 +290,6 @@
 		}
 	],
 	"alltheores:aluminum_nugget": [
-		{
-			"color": "aqua",
-			"text": "Al (13)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
-	"alltheores:aluminum_plate": [
-		{
-			"color": "aqua",
-			"text": "Al (13)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
-	"alltheores:aluminum_dust": [
-		{
-			"color": "aqua",
-			"text": "Al (13)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
-	"alltheores:aluminum_ingot": [
-		{
-			"color": "aqua",
-			"text": "Al (13)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
-	"alltheores:aluminum_block": [
 		{
 			"color": "aqua",
 			"text": "Al (13)"
@@ -459,34 +309,134 @@
 			"text": "Post-Transition Metals"
 		}
 	],
-	"alltheores:tin_plate": [
+	"alltheores:platinum_block": [
 		{
 			"color": "aqua",
-			"text": "Sn (50)"
+			"text": "Pt (78)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:iron_block": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:silver_dust": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:osmium_block": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:lead_plate": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
 		},
 		{
 			"color": "gray",
 			"text": "Post-Transition Metals"
 		}
 	],
-	"alltheores:tin_dust": [
+	"alltheores:nickel_block": [
 		{
 			"color": "aqua",
-			"text": "Sn (50)"
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:zinc_plate": [
+		{
+			"color": "aqua",
+			"text": "Zn (30)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:iridium_dust": [
+		{
+			"color": "aqua",
+			"text": "Ir (77)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:zinc_ingot": [
+		{
+			"color": "aqua",
+			"text": "Zn (30)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:aluminum_plate": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
 		},
 		{
 			"color": "gray",
 			"text": "Post-Transition Metals"
 		}
 	],
-	"alltheores:tin_ingot": [
+	"alltheores:uranium_block": [
 		{
 			"color": "aqua",
-			"text": "Sn (50)"
+			"text": "U (92)"
 		},
 		{
 			"color": "gray",
-			"text": "Post-Transition Metals"
+			"text": "Actinides"
+		}
+	],
+	"alltheores:silver_block": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:nickel_plate": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
 		}
 	],
 	"alltheores:tin_block": [
@@ -509,40 +459,30 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:silver_plate": [
+	"alltheores:iron_plate": [
 		{
 			"color": "aqua",
-			"text": "Ag (47)"
+			"text": "Fe (26)"
 		},
 		{
 			"color": "gray",
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:silver_dust": [
+	"minecraft:copper_ingot": [
 		{
 			"color": "aqua",
-			"text": "Ag (47)"
+			"text": "Cu (29)"
 		},
 		{
 			"color": "gray",
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:silver_ingot": [
+	"alltheores:copper_plate": [
 		{
 			"color": "aqua",
-			"text": "Ag (47)"
-		},
-		{
-			"color": "gray",
-			"text": "Transition Metals"
-		}
-	],
-	"alltheores:silver_block": [
-		{
-			"color": "aqua",
-			"text": "Ag (47)"
+			"text": "Cu (29)"
 		},
 		{
 			"color": "gray",
@@ -550,26 +490,6 @@
 		}
 	],
 	"alltheores:lead_nugget": [
-		{
-			"color": "aqua",
-			"text": "Pb (82)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
-	"alltheores:lead_plate": [
-		{
-			"color": "aqua",
-			"text": "Pb (82)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
-	"alltheores:lead_dust": [
 		{
 			"color": "aqua",
 			"text": "Pb (82)"
@@ -589,16 +509,6 @@
 			"text": "Post-Transition Metals"
 		}
 	],
-	"alltheores:lead_block": [
-		{
-			"color": "aqua",
-			"text": "Pb (82)"
-		},
-		{
-			"color": "gray",
-			"text": "Post-Transition Metals"
-		}
-	],
 	"alltheores:iridium_nugget": [
 		{
 			"color": "aqua",
@@ -609,20 +519,40 @@
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:iridium_plate": [
+	"minecraft:gold_block": [
 		{
 			"color": "aqua",
-			"text": "Ir (77)"
+			"text": "Au (79)"
 		},
 		{
 			"color": "gray",
 			"text": "Transition Metals"
 		}
 	],
-	"alltheores:iridium_dust": [
+	"alltheores:aluminum_dust": [
 		{
 			"color": "aqua",
-			"text": "Ir (77)"
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"alltheores:tin_dust": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"alltheores:osmium_plate": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
 		},
 		{
 			"color": "gray",
@@ -647,6 +577,86 @@
 		{
 			"color": "gray",
 			"text": "Transition Metals"
+		}
+	],
+	"alltheores:gold_dust": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:platinum_dust": [
+		{
+			"color": "aqua",
+			"text": "Pt (78)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:copper_dust": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:aluminum_ingot": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"alltheores:gold_plate": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:iron_ingot": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"alltheores:tin_ingot": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"alltheores:uranium_plate": [
+		{
+			"color": "aqua",
+			"text": "U (92)"
+		},
+		{
+			"color": "gray",
+			"text": "Actinides"
 		}
 	]
 }
