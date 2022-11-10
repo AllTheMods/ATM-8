@@ -20,7 +20,7 @@
     "display": {
         "block": "blue_skies:lunar_sapling"
     },
-    "results": [
+    "drops": [
         {
             "chance": 0.5,
             "output": {
