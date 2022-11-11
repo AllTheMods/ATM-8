@@ -1,0 +1,203 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/allthemodium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.allthemodium"
+  },
+  "stats": {
+    "main": {
+      "durability": 5500.0,
+      "armor_durability": 500.0,
+      "enchantability": 85.0,
+      "harvest_level": 5.0,
+      "harvest_speed": 18.0,
+      "melee_damage": 62.0,
+      "attack_speed": 18.2,
+      "armor": 500.0,
+      "armor/helmet": 100.0,
+      "armor/chestplate": 100.0,
+      "armor/leggings": 200.0,
+      "armor/boots": 100.0,
+      "armor_toughness": 500.0,
+      "magic_armor": 200.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.3,
+      "rarity": 90.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 1.5
+      },
+      "enchantability": {
+        "add": 3.0
+      },
+      "rarity": 70.0
+    },
+    "tip": {
+      "durability": {
+        "add": 16.0
+      },
+      "armor_durability": {
+        "add": 10.0
+      },
+      "harvest_level": {
+        "max": 5.0
+      },
+      "harvest_speed": {
+        "add": 6.0
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "ranged_speed": {
+        "add": 0.2
+      },
+      "rarity": {
+        "add": 30.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "silentgear:crushing",
+        "level": 4
+      },
+      {
+        "name": "silentgear:advanced_aquatic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "helmet"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:brilliant",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:advanced_flame_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "chestplate"
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:hard",
+        "level": 5,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 4
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FCC50C"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FCC50C"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#FCC50C"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FCC50C"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#FCC50C"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FCC50C"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "coating/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FCC50C"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_material",
+        "color": "#FCC50C"
+      },
+      {
+        "texture": "silentgear:coating_jar"
+      }
+    ]
+  }
+}

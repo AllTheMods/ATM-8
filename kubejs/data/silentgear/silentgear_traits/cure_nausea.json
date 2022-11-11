@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:cancel_effects",
+  "max_level": 1,
+  "name": {
+    "text": "Cure Nausea"
+  },
+  "description": {
+    "text": "Removes nausea effect when equipped"
+  },
+  "effects": [
+    "minecraft:nausea"
+  ]
+}

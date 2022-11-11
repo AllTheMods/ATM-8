@@ -1,0 +1,23 @@
+{
+  "type": "silentgear:wielder_effect",
+  "max_level": 1,
+  "name": {
+    "text": "Advanced Flame Ward"
+  },
+  "description": {
+    "text": "Gives fire resistance without a full set"
+  },
+  "overrides": [
+    "silentgear:flammable"
+  ],
+  "potion_effects": {
+    "armor": [
+      {
+        "effect": "minecraft:fire_resistance",
+        "level": [
+          1
+        ]
+      }
+    ]
+  }
+}

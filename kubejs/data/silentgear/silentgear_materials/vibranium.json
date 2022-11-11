@@ -1,0 +1,221 @@
+{
+  "availability": {
+    "tier": 6,
+    "visible": true,
+    "categories": [
+      "metal"
+    ],
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/vibranium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.vibranium"
+  },
+  "stats": {
+    "main": {
+      "durability": 7500.0,
+      "armor_durability": 1000.0,
+      "enchantability": 105.0,
+      "harvest_level": 6.0,
+      "harvest_speed": 28.0,
+      "melee_damage": 51.0,      
+      "attack_speed": 48.2,
+      "armor": 1000.0,
+      "armor/helmet": 150.0,
+      "armor/chestplate": 400.0,
+      "armor/leggings": 300.0,
+      "armor/boots": 150.0,
+      "armor_toughness": 1000.0,
+      "magic_armor": 400.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 1.3,
+      "rarity": 90.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 1.5
+      },
+      "enchantability": {
+        "add": 13.0
+      },
+      "rarity": 90.0
+    },
+    "tip": {
+      "durability": {
+        "add": 16.0
+      },
+      "harvest_level": {
+        "max": 6.0
+      },
+      "armor_durability": {
+        "add": 1.0
+      },
+      "harvest_speed": {
+        "add": 6.0
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "ranged_speed": {
+        "add": 0.7
+      },
+      "rarity": {
+        "add": 60.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 6
+      },
+      {
+        "name": "silentgear:crushing",
+        "level": 6
+      },
+      {
+        "name": "silentgear:advanced_aquatic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "helmet"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:brilliant",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:advanced_flame_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "chestplate"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:cure_wither",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "leggings"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:cure_nausea",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "leggings"
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:hard",
+        "level": 6,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 6
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 6
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#1BB188"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#1BB188"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#1BB188"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#1BB188"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_smooth",
+        "color": "#1BB188"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#1BB188"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "coating/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#1BB188"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_material",
+        "color": "#1BB188"
+      },
+      {
+        "texture": "silentgear:coating_jar"
+      }
+    ]
+  }
+}
