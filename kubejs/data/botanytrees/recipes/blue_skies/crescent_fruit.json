@@ -20,7 +20,7 @@
     "display": {
         "block": "blue_skies:crescent_fruit_sapling"
     },
-    "results": [
+    "drops": [
         {
             "chance": 0.1,
             "output": {
