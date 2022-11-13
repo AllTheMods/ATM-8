@@ -30,7 +30,7 @@
       {
         "chance": 0.05,
         "output": {
-          "item": "allthemodium:ancient_soul_berries"
+          "item": "allthemodium:ancient_soulberries"
         },
         "minRolls": 1,
         "maxRolls": 2

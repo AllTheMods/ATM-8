@@ -3,6 +3,7 @@ ServerEvents.tags('item', event => {
   event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
   event.add('forge:cheese', '#forge:cheeses')
   event.add('forge:plastic', 'pneumaticcraft:plastic')
+  event.add('forge:dusts/ender', 'ae2:ender_dust')
 
   //temp byg fix until above 2.0.0.13
   event.add('c:black_sand', '#forge:black_sand')

@@ -10,7 +10,7 @@
     "display": {
         "block": "blue_skies:bluebright_sapling"
     },
-    "results": [
+    "drops": [
         {
             "chance": 0.5,
             "output": {
