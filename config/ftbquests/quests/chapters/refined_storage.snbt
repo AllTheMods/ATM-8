@@ -778,28 +778,6 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
-			dependencies: ["4CD83943865018EA"]
-			id: "383DCC6ADE5364B5"
-			tasks: [{
-				id: "357CC03A3DC5164D"
-				type: "item"
-				item: "extrastorage:advanced_exporter"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -10.5d
-			dependencies: ["532229D285CA4858"]
-			id: "355BFF36994B3916"
-			tasks: [{
-				id: "05352F383961DC1B"
-				type: "item"
-				item: "extrastorage:advanced_importer"
-			}]
-		}
-		{
 			x: 0.0d
 			y: -4.5d
 			subtitle: "Secure your grid!"
