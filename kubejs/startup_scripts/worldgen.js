@@ -1,18 +1,22 @@
 WorldgenEvents.remove(event => {
-  event.removeOres(ore => {
-    ore.blocks = [
-      'ftbic:tin_ore',
-      'ftbic:deepslate_tin_ore',
-      'ftbic:lead_ore',
-      'ftbic:deepslate_lead_ore',
-      'ftbic:uranium_ore',
-      'ftbic:deepslate_uranium_ore',
-      'ftbic:aluminum_ore',
-      'ftbic:deepslate_aluminum_ore',
-      'ftbic:iridium_ore',
-      'ftbic:deepslate_iridium_ore',
-    ]
-  })
+  event.removeFeatureById('underground_ores', [
+    "ftbic:ore_iridium_large",
+    "ftbic:ore_iridium_buried",
+    "ftbic:ore_tin_upper",
+    "ftbic:ore_tin_small",
+    "ftbic:ore_lead_small",
+    "ftbic:ore_uranium_extra",
+    "ftbic:ore_aluminum_upper",
+    "ftbic:ore_iridium",
+    "ftbic:ore_aluminum_small",
+    "ftbic:ore_lead_middle",
+    "ftbic:ore_uranium",
+    "ftbic:ore_aluminum_middle",
+    "ftbic:ore_lead_upper",
+    "ftbic:ore_uranium_lower",
+    "ftbic:ore_tin_middle",
+    "xycraft_world:ore_aluminum"
+  ])
 })
 
 WorldgenEvents.add(event => {
