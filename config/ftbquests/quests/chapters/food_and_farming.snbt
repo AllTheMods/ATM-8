@@ -299,7 +299,7 @@
 			]
 		}
 		{
-			title: "AllTheFarm7"
+			title: "Purchasing Farm Supplies"
 			x: 7.5d
 			y: 0.0d
 			shape: "rsquare"

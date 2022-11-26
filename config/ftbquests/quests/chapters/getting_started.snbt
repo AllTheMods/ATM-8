@@ -809,7 +809,14 @@
 				{
 					id: "6EEA50A2B8817EB4"
 					type: "item"
-					item: "minecraft:sand"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
 					count: 16L
 				}
 				{

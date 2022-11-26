@@ -726,7 +726,7 @@
 			icon: "alltheores:aluminum_ingot"
 			x: -1.0d
 			y: 11.5d
-			subtitle: "Crystalline + Ashy Mining Bee"
+			subtitle: "Crystalline + Ashy Mining"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
