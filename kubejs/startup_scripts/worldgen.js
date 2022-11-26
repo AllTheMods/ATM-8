@@ -15,13 +15,9 @@ WorldgenEvents.remove(event => {
     "ftbic:ore_lead_upper",
     "ftbic:ore_uranium_lower",
     "ftbic:ore_tin_middle",
-    "thermal:apatite_ore",
-    "thermal:cinnabar_ore",
     "thermal:lead_ore",
     "thermal:nickel_ore",
-    "thermal:niter_ore",
     "thermal:silver_ore",
-    "thermal:sulfur_ore",
     "thermal:tin_ore",
     "xycraft_world:ore_aluminum"
   ])
