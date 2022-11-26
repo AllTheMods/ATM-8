@@ -11,7 +11,18 @@ ItemEvents.tooltip(event => {
       }
     })
   })
-
+  
+  //AllTheModium
+  event.add('allthemodium:teleport_pad',[
+    Text.of('Place the pad down in the specified Dimension'),
+    Text.of('Sneak Right Click with both hands empty to teleport'),
+    Text.of('§aOverworld TO Mining Dimension').red(),
+    Text.of('§cThe Nether TO The Other').red()
+  ])
+  
+  //Mekanism
+  event.add('mekanism:creative_energy_cube', [ [Text.of('Needs to be Energized').darkPurple()],])
+  
   // Mob Grinding Utils
   event.addAdvanced('mob_grinding_utils:rotten_egg', (stack, advanced, text) => {
     text.add(3, Text.of("Created from Cursed Chicken Feed").yellow())
@@ -19,6 +30,26 @@ ItemEvents.tooltip(event => {
   event.addAdvanced('mob_grinding_utils:golden_egg', (stack, advanced, text) => {
     text.add(3, Text.of("Created from Nutritious Chicken Feed").yellow())
   })
+  
+  // RS Infinity Booster
+  event.add('rsinfinitybooster:infinity_card', [
+    Text.of('Infinite range for RS wireless'),
+    Text.of('Only works in the same dimension')
+  ])
+  event.add('rsinfinitybooster:dimension_card', [
+    Text.of('Infinite range for RS wireless'),
+    Text.of('Works across dimensions')
+  ])
+
+  // AE2 Infinity Booster
+  event.add('aeinfinitybooster:infinity_card', [
+    Text.of('Infinite range for AE2 wireless'),
+    Text.of('Only works in the same dimension')
+  ])
+  event.add('aeinfinitybooster:dimension_card', [
+    Text.of('Infinite range for AE2 wireless'),
+    Text.of('Works across dimensions')
+  ])
 
   //pipes
   event.add('pipez:item_pipe', [

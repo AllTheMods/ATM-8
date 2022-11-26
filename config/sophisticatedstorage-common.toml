@@ -1,0 +1,393 @@
+
+#Common Settings
+[common]
+	#Threshold of number of item entities dropped from chest / barrel above which break is canceled (unless shift key is pressed) and message is displayed explaining to player many drops and packing tape use
+	#Range: 0 ~ 1000
+	tooManyItemEntityDrops = 200
+
+	#Wood Barrel Settings
+	[common.WoodBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 27
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Iron Barrel Settings
+	[common.IronBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 54
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Gold Barrel Settings
+	[common.GoldBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 81
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Diamond Barrel Settings
+	[common.DiamondBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 108
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Netherite Barrel Settings
+	[common.NetheriteBarrel]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 132
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Wood Chest Settings
+	[common.WoodChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 27
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Iron Chest Settings
+	[common.IronChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 54
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Gold Chest Settings
+	[common.GoldChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 81
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Diamond Chest Settings
+	[common.DiamondChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 108
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Netherite Chest Settings
+	[common.NetheriteChest]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 132
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Shulker Box Settings
+	[common.ShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 27
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Iron Shulker Box Settings
+	[common.IronShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 54
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Gold Shulker Box Settings
+	[common.GoldShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 81
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Diamond Shulker Box Settings
+	[common.DiamondShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 108
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Netherite Shulker Box Settings
+	[common.NetheriteShulkerBox]
+		#Number of inventory slots in the storage
+		#Range: 1 ~ 180
+		inventorySlotCount = 132
+		#Number of upgrade slots in the storage
+		#Range: 0 ~ 10
+		upgradeSlotCount = 4
+
+	#Stack Upgrade Settings
+	[common.stackUpgrade]
+		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
+		nonStackableItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+
+	#Compacting Upgrade Settings
+	[common.compactingUpgrade]
+		#Number of Compacting Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+
+	#Advanced Compacting Upgrade Settings
+	[common.advancedCompactingUpgrade]
+		#Number of Advanced Compacting Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Deposit Upgrade Settings
+	[common.depositUpgrade]
+		#Number of Deposit Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+
+	#Advanced Deposit Upgrade Settings
+	[common.advancedDepositUpgrade]
+		#Number of Advanced Deposit Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Feeding Upgrade Settings
+	[common.feedingUpgrade]
+		#Number of Feeding Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+
+	#Advanced Feeding Upgrade Settings
+	[common.advancedFeedingUpgrade]
+		#Number of Advanced Feeding Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Filter Upgrade Settings
+	[common.filterUpgrade]
+		#Number of Filter Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+
+	#Advanced Filter Upgrade Settings
+	[common.advancedFilterUpgrade]
+		#Number of Advanced Filter Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Magnet Upgrade Settings
+	[common.magnetUpgrade]
+		#Number of Magnet Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+		#Range around storage in blocks at which magnet will pickup items
+		#Range: 1 ~ 20
+		magnetRange = 3
+
+	#Advanced Magnet Upgrade Settings
+	[common.advancedMagnetUpgrade]
+		#Number of Advanced Magnet Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+		#Range around storage in blocks at which magnet will pickup items
+		#Range: 1 ~ 20
+		magnetRange = 5
+
+	#Pickup Upgrade Settings
+	[common.pickupUpgrade]
+		#Number of Pickup Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+
+	#Advanced Pickup Upgrade Settings
+	[common.advancedPickupUpgrade]
+		#Number of Advanced Pickup Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Void Upgrade Settings
+	[common.voidUpgrade]
+		#Number of Void Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 9
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 3
+		#Determines whether void upgrade allows voiding anything or it only has overflow option
+		voidAnythingEnabled = true
+
+	#Advanced Void Upgrade Settings
+	[common.advancedVoidUpgrade]
+		#Number of Advanced Void Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+		#Determines whether void upgrade allows voiding anything or it only has overflow option
+		voidAnythingEnabled = true
+
+	#Smelting Upgrade Settings
+	[common.smeltingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+
+	#Smoking Upgrade Settings
+	[common.smokingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+
+	#Blasting Upgrade Settings
+	[common.blastingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+
+	#Auto-Smelting Upgrade Settings
+	[common.autoSmeltingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+		#Number of input filter slots
+		#Range: 1 ~ 20
+		inputFilterSlots = 8
+		#Number of input filter slots displayed in a row
+		#Range: 1 ~ 6
+		inputFilterSlotsInRow = 4
+		#Number of fuel filter slots
+		#Range: 1 ~ 20
+		fuelFilterSlots = 4
+		#Number of fuel filter slots displayed in a row
+		#Range: 1 ~ 6
+		fuelFilterSlotsInRow = 4
+
+	#Auto-Smoking Upgrade Settings
+	[common.autoSmokingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+		#Number of input filter slots
+		#Range: 1 ~ 20
+		inputFilterSlots = 8
+		#Number of input filter slots displayed in a row
+		#Range: 1 ~ 6
+		inputFilterSlotsInRow = 4
+		#Number of fuel filter slots
+		#Range: 1 ~ 20
+		fuelFilterSlots = 4
+		#Number of fuel filter slots displayed in a row
+		#Range: 1 ~ 6
+		fuelFilterSlotsInRow = 4
+
+	#Auto-Blasting Upgrade Settings
+	[common.autoBlastingUpgrade]
+		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
+		#Range: 0.25 ~ 4.0
+		smeltingSpeedMultiplier = 1.0
+		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
+		#Range: 0.25 ~ 4.0
+		fuelEfficiencyMultiplier = 1.0
+		#Number of input filter slots
+		#Range: 1 ~ 20
+		inputFilterSlots = 8
+		#Number of input filter slots displayed in a row
+		#Range: 1 ~ 6
+		inputFilterSlotsInRow = 4
+		#Number of fuel filter slots
+		#Range: 1 ~ 20
+		fuelFilterSlots = 4
+		#Number of fuel filter slots displayed in a row
+		#Range: 1 ~ 6
+		fuelFilterSlotsInRow = 4
+
+	#Pump Upgrade Settings
+	[common.pumpUpgrade]
+		#Number of fluid filter slots
+		#Range: 1 ~ 20
+		filterSlots = 4
+		#How much mB can be transfered in / out per operation. This is a base transfer rate that gets multiplied by number of rows in storage and stack multiplier.
+		#Range: 1 ~ 1000
+		maxInputOutput = 20
+		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max input/output value. Value lower than 1 makes stack multiplier affect the capacity less, higher makes it affect the capacity more. 0 turns off stack multiplier affecting input/output
+		#Range: 0.0 ~ 5.0
+		stackMultiplierRatio = 1.0
+
+	#Xp Pump Upgrade Settings
+	[common.xpPumpUpgrade]
+		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
+		mendingOn = true
+		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
+		#Range: 1 ~ 20
+		maxXpPointsPerMending = 5
+
