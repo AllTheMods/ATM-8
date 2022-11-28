@@ -56,19 +56,19 @@ ItemEvents.tooltip(event => {
 
   //upgrades
   event.add('pipez:basic_upgrade', [
-    [Text.of('Item:'), ' ', Text.of('8'), ' ', Text.of('items/t')],
+    [Text.of('Item:'), ' ', Text.of('8'), ' ', Text.of('items/15t')],
     [Text.of('Fluid:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
     [Text.of('Gas:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
     [Text.of('Energy:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
   ])
   event.add('pipez:improved_upgrade', [
-    [Text.of('Item:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/t').gold()],
+    [Text.of('Item:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/10t').gold()],
     [Text.of('Fluid:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
     [Text.of('Gas:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
     [Text.of('Energy:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
   ])
   event.add('pipez:advanced_upgrade', [
-    [Text.of('Item:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/t').darkAqua()],
+    [Text.of('Item:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/5t').darkAqua()],
     [Text.of('Fluid:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
     [Text.of('Gas:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
     [Text.of('Energy:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
