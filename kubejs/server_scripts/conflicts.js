@@ -89,4 +89,38 @@ ServerEvents.recipes(event => {
   // Tiny Coal
   event.remove({ id: 'additional_lights:fire_for_standing_torch_s' })
   event.shaped('additional_lights:fire_for_standing_torch_s', ['S', 'C'], { S: '#forge:rods/wooden', C: '#minecraft:coals' })
+
+  // Spirit soul sand 1x
+  event.remove({id: 'spirit:crafting/compressed_soul_sand'})
+  event.remove({id: 'spirit:crafting/decompressed_soul_sand'})
+  event.custom({
+    "type": "spirit:soul_engulfing",
+    "input": {
+      "ingredient": {"item": "minecraft:iron_block"},
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " @ ",
+            "   "
+          ],
+          [
+            " S ",
+            "SXS",
+            " S "
+          ]
+        ],
+        "keys": {
+          "S": {
+            "block": "spirit:compressed_soul_powder_block"
+          },
+          "X": {
+            "block": "allthecompressed:soul_sand_block_1x"
+          }
+        }
+      }
+    },
+    "duration": 60,
+    "outputItem": "spirit:soul_steel_block"
+  }).id('spirit:soul_engulfing/soul_steel_block')
 })
