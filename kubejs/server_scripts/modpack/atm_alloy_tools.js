@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
     ],
     "reagent": [Item.of("allthemodium:allthemodium_sword").toJson()],
-    "sourceCost": 20000
+    "sourceCost": 5000
   }).id('kubejs:allthemodium/alloy_sword')
   
     // Pickaxe
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
     ],
     "reagent": [Item.of("allthemodium:allthemodium_pickaxe").toJson()],
-    "sourceCost": 20000
+    "sourceCost": 5000
   }).id('kubejs:allthemodium/alloy_pick')
   
       // Shovel
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
     ],
     "reagent": [Item.of("allthemodium:allthemodium_shovel").toJson()],
-    "sourceCost": 20000
+    "sourceCost": 5000
   }).id('kubejs:allthemodium/alloy_shovel')
  
      // Axe
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
 	  {"item": Ingredient.of('#forge:ingots/unobtainium_vibranium_alloy').toJson()}
     ],
     "reagent": [Item.of("allthemodium:allthemodium_axe").toJson()],
-    "sourceCost": 20000
+    "sourceCost": 5000
 	}).id('kubejs:allthemodium/alloy_axe')
 
 
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
       {"item": Ingredient.of('allthemodium:alloy_axe').toJson()},
     ],
     "reagent": [Item.of("mysticalagradditions:awakened_supremium_paxel").toJson()],
-    "sourceCost": 30000
+    "sourceCost": 10000
 	}).id('kubejs:allthemodium/alloy_paxel')
  
   
