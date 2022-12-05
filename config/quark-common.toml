@@ -28,6 +28,8 @@
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
+	#Used for terrablender integration
+	"Terrablender Region Weight" = 1
 
 [categories]
 	Automation = true
@@ -208,20 +210,20 @@
 		"Stick Block Fuel Time" = 900
 		#Allowed values: [0,)
 		"Bamboo Bundle Fuel Time" = 500
-		"Enable Charcoal Block" = true
-		"Enable Sugar Cane Block" = true
-		"Enable Bamboo Block" = true
+		"Enable Charcoal Block" = false
+		"Enable Sugar Cane Block" = false
+		"Enable Bamboo Block" = false
 		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
+		"Enable Apple Crate" = false
 		"Enable Golden Apple Crate" = true
 		"Enable Potato Crate" = false
 		"Enable Carrot Crate" = false
 		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
-		"Enable Gunpowder Sack" = true
+		"Enable Gunpowder Sack" = false
 		"Enable Berry Sack" = true
 		"Enable Glow Berry Sack" = true
 		"Enable Blaze Lantern" = true
@@ -431,6 +433,9 @@
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
+	"Zombie Villagers On Normal" = true
+	"Safe Rabbits" = true
+	"Renewable Spore Blossoms" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -568,6 +573,13 @@
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
+
+	[tweaks.safe_rabbits]
+		#How many blocks should be subtracted from the rabbit fall height when calculating fall damage. 5 is the same value as vanilla frogs
+		"Height Reduction" = 5.0
+
+	[tweaks.renewable_spore_blossoms]
+		"Bone Meal Chance" = 0.2
 
 [world]
 	"Spiral Spires" = true
@@ -1386,7 +1398,6 @@
 		"Hud Height" = 10
 
 [experimental]
-	"Zombie Villagers On Normal" = false
 	"Spawner Replacer" = false
 	Saw = false
 	"Overlay Shader" = false
@@ -1469,6 +1480,7 @@
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
 		"Enable Encased Pipes" = true
+		"Render Pipe Items" = true
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept
