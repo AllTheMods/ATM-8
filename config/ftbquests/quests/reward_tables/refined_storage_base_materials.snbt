@@ -4,7 +4,7 @@
 	title: "Refined Storage Base Materials"
 	loot_size: 1
 	rewards: [
-		{ item: "refinedstorage:silicon", count: 5 }
+		{ item: "ae2:silicon", count: 5 }
 		{ item: "refinedstorage:quartz_enriched_iron", count: 5, weight: 2 }
 		{ item: "refinedstorage:machine_casing" }
 	]
