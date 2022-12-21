@@ -10,4 +10,5 @@ ServerEvents.recipes(event => {
     D: 'minecraft:diamond_block',
     O: 'minecraft:obsidian'
   })
+  event.remove({id: 'silentgear:bronze_ingot'})
 })
