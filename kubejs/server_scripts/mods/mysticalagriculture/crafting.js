@@ -40,4 +40,3 @@ ServerEvents.recipes(event => {
         energy: 400
       })
 })
-})
