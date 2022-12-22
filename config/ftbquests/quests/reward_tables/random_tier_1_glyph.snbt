@@ -30,7 +30,6 @@
 		{ item: "ars_nouveau:glyph_launch" }
 		{ item: "ars_nouveau:glyph_dispel" }
 		{ item: "ars_nouveau:glyph_pull" }
-		{ item: "ars_nouveau:glyph_aquatic" }
 		{ item: "ars_nouveau:glyph_gust" }
 	]
 }
