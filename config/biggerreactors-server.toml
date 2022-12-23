@@ -1,21 +1,27 @@
+#
+# Enabled advanced config options
+# Additional options will be shown after next config load
+#
+EnableAdvancedConfig = false
+
 [WorldGen]
     #
     # Valid range: [1,)
     # Default: 5
     #
-    UraniumOreMaxClustersPerChunk = 5.0
+    UraniumOreMaxClustersPerChunk = 5
 
     #
     # Valid range: [1,)
     # Default: 6
     #
-    UraniumMaxOrePerCluster = 6.0
+    UraniumMaxOrePerCluster = 6
 
     #
     # Valid range: [5,)
     # Default: 50
     #
-    UraniumOreMaxSpawnY = 50.0
+    UraniumOreMaxSpawnY = 50
 
     #
     # Default: true
@@ -27,19 +33,19 @@
     # Valid range: [3,)
     # Default: 128
     #
-    MaxLength = 128.0
+    MaxLength = 128
 
     #
     # Valid range: [3,)
     # Default: 128
     #
-    MaxWidth = 128.0
+    MaxWidth = 128
 
     #
     # Valid range: [3,)
     # Default: 192
     #
-    MaxHeight = 192.0
+    MaxHeight = 192
 
     #
     # Valid range: (0,)
@@ -53,79 +59,43 @@
     #
     OutputMultiplier = 1.0
 
-    [Reactor.GUI]
-        #
-        # Default: 2000
-        #
-        HeatDisplayMax = 2000.0
-   
-
 [Turbine]
     #
     # Valid range: [5,)
     # Default: 32
     #
-    MaxLength = 32.0
+    MaxLength = 32
 
     #
     # Valid range: [5,)
     # Default: 32
     #
-    MaxWidth = 32.0
+    MaxWidth = 32
 
     #
     # Valid range: [4,)
     # Default: 192
     #
-    MaxHeight = 192.0
-
-    [Turbine.GUI]
-        #
-        # Default: 10
-        #
-        DeltaMB = 10.0
-
-        #
-        # Default: 100
-        #
-        DeltaMBShift = 100.0
-
-        #
-        # Default: 500
-        #
-        DeltaMBCtrl = 500.0
-
-        #
-        # Default: 1000
-        #
-        DeltaMBHCtrlShift = 1000.0
-   
+    MaxHeight = 192
 
 [HeatExchanger]
     #
     # Valid range: [3,)
     # Default: 64
     #
-    MaxLength = 64.0
+    MaxLength = 64
 
     #
     # Valid range: [3,)
     # Default: 64
     #
-    MaxWidth = 64.0
+    MaxWidth = 64
 
     #
     # Valid range: [4,)
     # Default: 96
     #
-    MaxHeight = 96.0
-
-    [HeatExchanger.gui]
-        #
-        # Default: 2000
-        #
-        HeatDisplayMax = 2000.0
-   
+    MaxHeight = 96
 
 [CyaniteReprocessor]
     #
@@ -133,39 +103,39 @@
     # Valid range: (0,)
     # Default: 500
     #
-    TransferRate = 500.0
+    TransferRate = 500
 
     #
     # Max energy capacity.
     # Valid range: (0,)
     # Default: 5000
     #
-    EnergyTankCapacity = 5000.0
+    EnergyTankCapacity = 5000
 
     #
     # Max water capacity
     # Valid range: (0,)
     # Default: 5000
     #
-    WaterTankCapacity = 5000.0
+    WaterTankCapacity = 5000
 
     #
     # Power usage per tick of work.
     # Valid range: (0,)
     # Default: 1
     #
-    EnergyConsumptionPerTick = 1.0
+    EnergyConsumptionPerTick = 1
 
     #
     # Water usage per tick of work.
     # Valid range: (0,)
     # Default: 1
     #
-    WaterConsumptionPerTick = 1.0
+    WaterConsumptionPerTick = 1
 
     #
     # Time (in ticks) it takes to complete a job.
     # Valid range: (0,)
     # Default: 200
     #
-    TotalWorkTime = 200.0
+    TotalWorkTime = 200

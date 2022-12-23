@@ -24,9 +24,9 @@ ServerEvents.recipes(event => {
     "multiblock": {
       "pattern": [
         [
-          " F ",
-          "E@ ",
-          " G "
+          " F ", //bottom
+          "E@ ", //middle
+          " G " //top
         ],
 		[
           "ACI",
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
 	}
 	},
   "duration": 30,
-  "destroysStructure": false,
+  "destroysStructure": true,
   "outputItem": "allthetweaks:dimensional_seed"
 	}).id('kubejs:allthetweaks/dimensional_seed')
 

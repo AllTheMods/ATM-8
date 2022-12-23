@@ -5,35 +5,48 @@
 	filename: "refined_storage"
 	title: "Refined Storage"
 	icon: "refinedstorage:creative_controller"
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Refined Storage"
-			x: 0.0d
-			y: -7.5d
+			title: "&dRefined Storage"
+			x: -6.0d
+			y: -2.5d
 			shape: "gear"
-			subtitle: "Make your first controller!"
-			description: ["The Controller is the core of the Refined Storage network. You need to connect all the Refined Storage devices to this block."]
-			size: 1.5d
+			subtitle: "Getting Started"
+			description: [
+				"&9Refined Storage&r is a mass storage mod that offers a network-based storage system."
+				""
+				"To get started with the mod, you'll want to make the &6Controller&r."
+				""
+				"The Controller is the \"Core\" of your storage network. When provided with power, it gives life to all RS components connected. Each network can only have one Controller."
+			]
+			size: 2.0d
 			id: "01F18150EC923482"
 			tasks: [{
 				id: "196B8B6D59ABFC74"
 				type: "item"
 				item: "refinedstorage:controller"
 			}]
-			rewards: [{
-				id: "13BC4987B9B25D15"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "13BC4987B9B25D15"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "762245D6E1A1C755"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: -1.0d
-			y: -13.5d
+			x: -0.5d
+			y: -0.5d
+			shape: "diamond"
 			description: ["The 1k Storage Disk can store 1000 items."]
-			hide_dependency_lines: true
-			dependencies: ["01F18150EC923482"]
+			dependencies: ["7604D8B3C9FCCFD9"]
 			id: "4101F8275B41C79B"
 			tasks: [{
 				id: "1121780C6403D660"
@@ -47,8 +60,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -14.5d
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
 			description: ["The 4k Storage Disk can store 4000 items."]
 			dependencies: ["4101F8275B41C79B"]
 			id: "3FD801D7DE9176FB"
@@ -57,15 +71,23 @@
 				type: "item"
 				item: "refinedstorage:4k_storage_part"
 			}]
-			rewards: [{
-				id: "45B99CC9C8BFE5A7"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "45B99CC9C8BFE5A7"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "103ED5D40508531F"
+					type: "random"
+					table_id: 407746579787184593L
+				}
+			]
 		}
 		{
 			x: -0.5d
-			y: -15.5d
+			y: 0.5d
+			shape: "diamond"
 			description: ["The 16k Storage Disk can store 16000 items."]
 			dependencies: ["3FD801D7DE9176FB"]
 			id: "03C78165C5CBD9E1"
@@ -74,15 +96,23 @@
 				type: "item"
 				item: "refinedstorage:16k_storage_part"
 			}]
-			rewards: [{
-				id: "52C389613C90C469"
-				type: "random"
-				table_id: 3567941291661635734L
-			}]
+			rewards: [
+				{
+					id: "52C389613C90C469"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+				{
+					id: "5BC7096137A2F4BB"
+					type: "random"
+					table_id: 407746579787184593L
+				}
+			]
 		}
 		{
 			x: -0.5d
-			y: -16.5d
+			y: 1.5d
+			shape: "hexagon"
 			description: ["The 64k Storage Disk can store 64000 items."]
 			dependencies: ["03C78165C5CBD9E1"]
 			id: "3F8EEE1AD4420702"
@@ -91,15 +121,23 @@
 				type: "item"
 				item: "refinedstorage:64k_storage_part"
 			}]
-			rewards: [{
-				id: "4E028E9A2CD6831A"
-				type: "random"
-				table_id: 3567941291661635734L
-			}]
+			rewards: [
+				{
+					id: "4E028E9A2CD6831A"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+				{
+					id: "12AD2DB65B2AC554"
+					type: "random"
+					table_id: 407746579787184593L
+				}
+			]
 		}
 		{
-			x: -1.0d
-			y: -17.5d
+			x: 0.0d
+			y: 5.5d
+			shape: "diamond"
 			description: ["The 65536k Storage Disk can store 65536000 items."]
 			dependencies: ["123807F4BBE75120"]
 			id: "1D2700821045CCF2"
@@ -122,11 +160,11 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -13.5d
+			x: 0.0d
+			y: 3.5d
+			shape: "diamond"
 			description: ["The 256k Storage Disk can store 256000 items."]
-			hide_dependency_lines: true
-			dependencies: ["3F8EEE1AD4420702"]
+			dependencies: ["7DD638E4111D66E7"]
 			id: "4C1F13F5A0E273EF"
 			tasks: [{
 				id: "04B88AEDB2799159"
@@ -140,8 +178,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -14.5d
+			x: -0.5d
+			y: 4.0d
+			shape: "diamond"
 			description: ["The 1024k Storage Disk can store 1024000 items."]
 			dependencies: ["4C1F13F5A0E273EF"]
 			id: "7C94F6AE2A793858"
@@ -157,8 +196,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -15.5d
+			x: -1.0d
+			y: 4.5d
+			shape: "diamond"
 			description: ["The 4096k Storage Disk can store 4096000 items."]
 			dependencies: ["7C94F6AE2A793858"]
 			id: "52ACADDFCB0E22AB"
@@ -181,8 +221,9 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -16.5d
+			x: -0.5d
+			y: 5.0d
+			shape: "diamond"
 			description: ["The 16384k Storage Disk can store 16384000 items."]
 			dependencies: ["52ACADDFCB0E22AB"]
 			id: "123807F4BBE75120"
@@ -205,9 +246,10 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -18.5d
-			description: ["The 262m Storage Disk can store well 262m items."]
+			x: 0.5d
+			y: 5.0d
+			shape: "diamond"
+			description: ["The 262m Storage Disk can store.... well....  262m items."]
 			dependencies: ["1D2700821045CCF2"]
 			id: "4966162FBA933453"
 			tasks: [{
@@ -226,12 +268,22 @@
 					type: "random"
 					table_id: 4001436279668650237L
 				}
+				{
+					id: "485B34813CB30B7A"
+					type: "random"
+					table_id: 1739527894044761161L
+				}
 			]
 		}
 		{
-			x: 0.5d
-			y: -18.5d
-			description: ["The 1048m Storage Disk can store well 1048m items."]
+			x: 1.0d
+			y: 4.5d
+			shape: "diamond"
+			description: [
+				"You won't believe this."
+				""
+				"The 1048m Storage Disk can store 1048m items."
+			]
 			dependencies: ["4966162FBA933453"]
 			id: "718A2040D868E09F"
 			tasks: [{
@@ -255,18 +307,25 @@
 					type: "random"
 					table_id: 4001436279668650237L
 				}
+				{
+					id: "58C7B778FC651DD0"
+					type: "random"
+					table_id: 1739527894044761161L
+				}
 			]
 		}
 		{
-			x: 0.0d
-			y: -17.5d
-			description: ["It's like the regular one but ADVANCED."]
-			hide_dependency_lines: true
-			dependencies: [
-				"53CA0D6B4D5A17D5"
-				"4C1F13F5A0E273EF"
+			x: -1.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: [
+				"It's like the regular one but ADVANCED."
+				""
+				"These are used to house the larger Disk Drives. "
 			]
+			dependencies: ["3751015CD5C84134"]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			id: "7DD638E4111D66E7"
 			tasks: [{
 				id: "099B55FD3A94FE91"
@@ -280,96 +339,147 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -10.5d
+			x: 2.0d
+			y: -8.5d
 			subtitle: "Automated crafting!"
-			description: ["The Crafter is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."]
-			dependencies: ["59F5ED931FD70C55"]
+			description: [
+				"The &9Crafter&r is how we store patterns for our Network to know how to craft items. Once a recipe is placed into the crafter, you'll be able to \"Request\" an item to be crafted from your Grid. You can do this by hitting CTRL+Shift when clicking on the item you have a recipe for to bring up the crafting GUI."
+				""
+				"This block can also be placed facing a machine to use &6Processing Patterns&r. For example, if you point the Crafter at a Furnace, you can put a recipe inside for a recipe you need a furnace for, like smelting raw processors. As long as the crafter is attached to your system and the Furnace has an importer attached to it, the Crafter will allow you to request the smelted version of the Processor!"
+			]
+			dependencies: ["65C8A43FEDBA3835"]
+			size: 1.25d
+			min_width: 300
 			id: "44881E39AB1D62AA"
 			tasks: [{
 				id: "202A7EA0318662C5"
 				type: "item"
 				item: "refinedstorage:crafter"
 			}]
-			rewards: [{
-				id: "3351B9B6898579ED"
-				type: "item"
-				item: "refinedstorage:pattern"
-			}]
+			rewards: [
+				{
+					id: "3351B9B6898579ED"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "6831B9D1AB4346E0"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
 			x: 1.5d
-			y: -10.5d
+			y: -8.0d
+			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
 			dependencies: ["44881E39AB1D62AA"]
+			hide: true
 			id: "45FF08E4DB6F7F0E"
 			tasks: [{
 				id: "0ED2706B229F3AA7"
 				type: "item"
 				item: "extrastorage:iron_crafter"
 			}]
-			rewards: [{
-				id: "78D26C79FAC05CFF"
-				type: "item"
-				item: "refinedstorage:pattern"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "78D26C79FAC05CFF"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 2
+				}
+				{
+					id: "784DBA5C53E77B0F"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: -10.5d
+			x: 1.5d
+			y: -9.0d
+			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
 			dependencies: ["45FF08E4DB6F7F0E"]
+			hide: true
 			id: "4A198E875A6B0A64"
 			tasks: [{
 				id: "1AA53ECBAE795C70"
 				type: "item"
 				item: "extrastorage:gold_crafter"
 			}]
-			rewards: [{
-				id: "5ACCF4B3C45E2989"
-				type: "item"
-				item: "refinedstorage:pattern"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "5ACCF4B3C45E2989"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 3
+				}
+				{
+					id: "0F53B827EFCD88B3"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 4.5d
-			y: -10.5d
+			x: 2.5d
+			y: -9.0d
+			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
 			dependencies: ["4A198E875A6B0A64"]
+			hide: true
 			id: "189018F641FBB44E"
 			tasks: [{
 				id: "461E78CF8E7FCD04"
 				type: "item"
 				item: "extrastorage:diamond_crafter"
 			}]
-			rewards: [{
-				id: "23E76AEB4BEA3B45"
-				type: "item"
-				item: "refinedstorage:pattern"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "23E76AEB4BEA3B45"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 4
+				}
+				{
+					id: "3659A7F955F0E035"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 6.0d
-			y: -10.5d
+			x: 2.5d
+			y: -8.0d
+			description: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
 			dependencies: ["189018F641FBB44E"]
+			hide: true
 			id: "24BD32102AFA1691"
 			tasks: [{
 				id: "4FEB0889EEBC1BDA"
 				type: "item"
 				item: "extrastorage:netherite_crafter"
 			}]
-			rewards: [{
-				id: "09E39857FC64780B"
-				type: "item"
-				item: "refinedstorage:pattern"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "09E39857FC64780B"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 5
+				}
+				{
+					id: "5706B3CCE55E4250"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 0.0d
-			y: -6.0d
+			x: -5.0d
+			y: -1.5d
 			subtitle: "You spin me right round'"
-			description: ["The Wrench in Refined Storage is a tool that can do two things. Rotate blocks and Break Refined Storage covers. Simply sneak and right click when using the Wrench."]
+			description: ["The &9Wrench&r is used to rotate blocks, instantly break Refined Storage blocks, or break Covers."]
 			dependencies: ["01F18150EC923482"]
 			id: "3FAD086F7D9CCAE9"
 			tasks: [{
@@ -384,11 +494,18 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -7.5d
-			subtitle: "Connections!"
-			description: ["Cable is used to connect devices to the Controller. Cables are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."]
+			title: "Cables"
+			x: -6.0d
+			y: -5.0d
+			shape: "octagon"
+			subtitle: "Connecting The System"
+			description: [
+				"&9Cables&r are used to connect blocks and items to your system."
+				""
+				"In the beginning, you can get by with placing blocks next to each other to connect them to your system, but Cables allow you to extend out! This is a staple for any Refined Storage Network."
+			]
 			dependencies: ["01F18150EC923482"]
+			size: 1.5d
 			id: "6904EC449FBEE387"
 			tasks: [{
 				id: "1A2C2B95FDA9D2DA"
@@ -400,7 +517,8 @@
 					id: "3940AD01E5D76358"
 					type: "item"
 					item: "refinedstorage:cable"
-					count: 10
+					count: 8
+					random_bonus: 8
 				}
 				{
 					id: "1174925025CC0A56"
@@ -410,11 +528,21 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -10.5d
+			x: -6.5d
+			y: -6.5d
+			shape: "hexagon"
 			subtitle: "Importing Items!"
-			hide_dependency_lines: true
+			description: [
+				"The &9Importer&r is used to pull items from a connected block."
+				""
+				"For example, you can use these on Furnaces to pull the finished product out into your system."
+				""
+				"Make sure to grab some &6Speed&r or &6Stack&r upgrades for them!"
+				""
+				"You can also filter what items are pulled. Need more filter slots? Upgrade it!"
+			]
 			dependencies: ["6904EC449FBEE387"]
+			hide: true
 			id: "532229D285CA4858"
 			tasks: [{
 				id: "0E57EE9B975D05C3"
@@ -428,11 +556,17 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -9.0d
+			x: -4.5d
+			y: -6.0d
+			shape: "hexagon"
 			subtitle: "Breaking Blocks!"
-			hide_dependency_lines: true
+			description: [
+				"This interface will automatically break the block it is attached to."
+				""
+				"You can also set it to whitelist blocks, which is useful for automating certain processes, like making casings in Create."
+			]
 			dependencies: ["6904EC449FBEE387"]
+			hide: true
 			id: "6092490EC9008A05"
 			tasks: [{
 				id: "5762E9CE9A7D3FCA"
@@ -446,11 +580,17 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -7.5d
+			x: -5.5d
+			y: -6.5d
+			shape: "hexagon"
 			subtitle: "Placing Blocks!"
-			hide_dependency_lines: true
+			description: [
+				"This interface will place the designated block in the direction it is pointed."
+				""
+				"You can designate the block within the GUI. This is useful for automation!"
+			]
 			dependencies: ["6904EC449FBEE387"]
+			hide: true
 			id: "2CFEE04BA574921E"
 			tasks: [{
 				id: "2BB33FEBA2B071DF"
@@ -464,11 +604,19 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -7.5d
 			y: -6.0d
+			shape: "hexagon"
 			subtitle: "Exporting Items!"
-			hide_dependency_lines: true
+			description: [
+				"The &9Exporter&r is used to push items from your system into a block from your Network storage."
+				""
+				"This can be used to fill Furnaces with ores or fuel, push materials into designated chests, etc."
+				""
+				"You can also filter what items are pushed. Need more filter slots? Upgrade it!"
+			]
 			dependencies: ["6904EC449FBEE387"]
+			hide: true
 			id: "4CD83943865018EA"
 			tasks: [{
 				id: "528F054C15BB7191"
@@ -482,8 +630,9 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -10.5d
+			x: -6.5d
+			y: -7.5d
+			shape: "rsquare"
 			dependencies: ["532229D285CA4858"]
 			id: "616B6046EF5DDF21"
 			tasks: [{
@@ -498,8 +647,9 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -10.5d
+			x: -6.5d
+			y: -8.5d
+			shape: "rsquare"
 			dependencies: ["616B6046EF5DDF21"]
 			id: "13A0714444BA79AB"
 			tasks: [{
@@ -515,7 +665,9 @@
 		}
 		{
 			x: -4.5d
-			y: -9.0d
+			y: -7.0d
+			shape: "rsquare"
+			description: ["Has 18 filter slots and works 2x faster."]
 			dependencies: ["6092490EC9008A05"]
 			id: "6D81DF90E9C2C049"
 			tasks: [{
@@ -530,8 +682,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -9.0d
+			x: -4.5d
+			y: -8.0d
+			shape: "rsquare"
+			description: ["Has 36 filter slots and works 6x faster."]
 			dependencies: ["6D81DF90E9C2C049"]
 			id: "0D4FE97640F2CA60"
 			tasks: [{
@@ -546,8 +700,10 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.5d
 			y: -7.5d
+			shape: "rsquare"
+			description: ["Has 2 slots for Constructing."]
 			dependencies: ["2CFEE04BA574921E"]
 			id: "6DB06E3984D0CF97"
 			tasks: [{
@@ -562,8 +718,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -7.5d
+			x: -5.5d
+			y: -8.5d
+			shape: "rsquare"
+			description: ["Has 4 slots for Constructing."]
 			dependencies: ["6DB06E3984D0CF97"]
 			id: "1F55A483008F74FE"
 			tasks: [{
@@ -578,8 +736,10 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -6.0d
+			x: -7.5d
+			y: -7.0d
+			shape: "rsquare"
+			description: ["Has 9 more filter slots and is 2x faster than the regular Exporter."]
 			dependencies: ["4CD83943865018EA"]
 			id: "6973A5923AF7BF05"
 			tasks: [{
@@ -594,8 +754,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -6.0d
+			x: -7.5d
+			y: -8.0d
+			shape: "rsquare"
+			description: ["Has 27 more filter slots and is 6x faster than the regular Exporter. Also has the Stack Upgrade integrated."]
 			dependencies: ["6973A5923AF7BF05"]
 			id: "5BB7648DC10E1E08"
 			tasks: [{
@@ -610,11 +772,11 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -13.5d
+			x: -2.5d
+			y: -0.5d
+			shape: "diamond"
 			description: ["The 64k Fluid Storage Part is used to craft the 64k Fluid Storage Disk."]
-			hide_dependency_lines: true
-			dependencies: ["01F18150EC923482"]
+			dependencies: ["7604D8B3C9FCCFD9"]
 			id: "4B81E84CAE814BA9"
 			tasks: [{
 				id: "3F9B17A338B2EEFE"
@@ -628,8 +790,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -14.5d
+			x: -3.0d
+			y: 0.0d
+			shape: "diamond"
 			description: ["The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk."]
 			dependencies: ["4B81E84CAE814BA9"]
 			id: "39C8E1705EF1CD31"
@@ -645,8 +808,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -15.5d
+			x: -2.5d
+			y: 0.5d
+			shape: "diamond"
 			description: ["The 1024k Fluid Storage Part is used to craft the 1024k Fluid Storage Disk."]
 			dependencies: ["39C8E1705EF1CD31"]
 			id: "60244F26B9ABED49"
@@ -662,8 +826,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -16.5d
+			x: -2.5d
+			y: 1.5d
+			shape: "hexagon"
 			description: ["The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk."]
 			dependencies: ["60244F26B9ABED49"]
 			id: "3751015CD5C84134"
@@ -679,11 +844,11 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -13.5d
+			x: -3.0d
+			y: 3.5d
+			shape: "diamond"
 			description: ["The 16384k Fluid Storage Part is used to craft the 16384k Fluid Storage Disk."]
-			hide_dependency_lines: true
-			dependencies: ["3751015CD5C84134"]
+			dependencies: ["7DD638E4111D66E7"]
 			id: "53CA0D6B4D5A17D5"
 			tasks: [{
 				id: "62F1F92687582BAF"
@@ -697,8 +862,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -14.5d
+			x: -4.0d
+			y: 4.5d
+			shape: "diamond"
 			description: ["The 65536k Fluid Storage Part is used to craft the 65536k Fluid Storage Disk."]
 			dependencies: ["53CA0D6B4D5A17D5"]
 			id: "64D6C395B6304F40"
@@ -714,8 +880,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -15.5d
+			x: -3.0d
+			y: 5.5d
+			shape: "diamond"
 			description: ["The 262m Fluid Storage Part is used to craft the 262m Fluid Storage Disk."]
 			dependencies: ["64D6C395B6304F40"]
 			id: "17920C436DDBBD07"
@@ -738,8 +905,9 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -16.5d
+			x: -2.0d
+			y: 4.5d
+			shape: "diamond"
 			description: ["The 1048m Fluid Storage Part is used to craft the 1048m Fluid Storage Disk."]
 			dependencies: ["17920C436DDBBD07"]
 			id: "49772923B8AF0F1F"
@@ -762,9 +930,21 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -9.0d
+			x: -7.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: [
+				"This type of cable interface is probably the most important item one can make in their Refined Storage journey."
+				""
+				"This type of cable interface connects an external storage to your Refined Storage Network. It basically lets RS look into the storage container to let you access it within your grid!"
+				""
+				"This works on many things, including but not limited to: Chests, Barrels, Drawers, Drawer Controllers, and more!"
+				""
+				"If you can't make drives and have a bunch of chests everywhere, this is your best bet in creating a storage Network!"
+			]
 			dependencies: ["6904EC449FBEE387"]
+			hide: true
+			min_width: 300
 			id: "253657BE5D9D9162"
 			tasks: [{
 				id: "4D9E7CCF420BDE8C"
@@ -778,33 +958,19 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
-			dependencies: ["4CD83943865018EA"]
-			id: "383DCC6ADE5364B5"
-			tasks: [{
-				id: "357CC03A3DC5164D"
-				type: "item"
-				item: "extrastorage:advanced_exporter"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -10.5d
-			dependencies: ["532229D285CA4858"]
-			id: "355BFF36994B3916"
-			tasks: [{
-				id: "05352F383961DC1B"
-				type: "item"
-				item: "extrastorage:advanced_importer"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -4.5d
+			x: -7.0d
+			y: -1.5d
 			subtitle: "Secure your grid!"
-			description: ["Allows you to limit who can access your grid, and what permissions they have."]
+			description: [
+				"The &9Security Manager&r allows you to grant access and permissions to users within your network."
+				""
+				"When placed in your system, you'll need to create a &9Security Card&r for each player you'd like to configure permissions for. When no cards are present, everyone has access to all permissions."
+				""
+				"To restrict permissions and access to all unconfigured players, configure a card that isn't bound to a player and put it into the manager. The person who placed the Security Manager will always have access to it."
+			]
 			dependencies: ["01F18150EC923482"]
+			optional: true
+			min_width: 300
 			id: "3B84215240D9F2CB"
 			tasks: [{
 				id: "20F3020C07C9D22B"
@@ -830,44 +996,45 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
-			description: ["Will detect contents in your storage and send a redstone signal if it is the right amount."]
-			dependencies: ["01F18150EC923482"]
-			id: "5D31FCC61B02E17A"
-			tasks: [{
-				id: "6C6F92D9A6D8DFD6"
-				type: "item"
-				item: "refinedstorage:detector"
-			}]
-			rewards: [{
-				id: "5A4792CEC25676CC"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
-		}
-		{
-			x: 1.5d
-			y: -7.5d
+			title: "Accessing Our Network Storage"
+			x: 2.0d
+			y: -2.5d
 			shape: "rsquare"
-			description: ["Lets you access your storage."]
-			dependencies: ["01F18150EC923482"]
+			description: [
+				"Great! We can store items virtually, but how do we see what is on the network?"
+				""
+				"To access the system, you'll need to create a &9Grid&r. The Grid is the most basic form of \"Display\" for the items in your inventory."
+			]
+			dependencies: ["12A43F82FC67A289"]
+			size: 1.25d
 			id: "43E8912CB307E421"
 			tasks: [{
 				id: "68A80F00CAFF427D"
 				type: "item"
 				item: "refinedstorage:grid"
 			}]
-			rewards: [{
-				id: "673FBE94CC27445E"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "673FBE94CC27445E"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "0E35D05AA810F2C0"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
 			x: 1.5d
-			y: -6.0d
-			description: ["Lets you access your storage but with a crafting table."]
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"This lets you access your storage, but with a crafting table!"
+				""
+				"Let's be honest, no one just uses regular Grids."
+			]
 			dependencies: ["43E8912CB307E421"]
 			id: "0F00BBDF3618B3BA"
 			tasks: [{
@@ -875,22 +1042,36 @@
 				type: "item"
 				item: "refinedstorage:crafting_grid"
 			}]
-			rewards: [{
-				id: "41A66CDD13A10EFB"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "41A66CDD13A10EFB"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "53189DA11AA43777"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 1.5d
-			y: -9.0d
-			shape: "rsquare"
-			description: ["Allows you to create patterns for autocrafting."]
-			dependencies: [
-				"43E8912CB307E421"
-				"59F5ED931FD70C55"
+			x: 2.0d
+			y: -6.5d
+			shape: "square"
+			description: [
+				"This grid allows you to imprint recipes onto patterns for your network."
+				""
+				"The easiest way to create a recipe for a pattern is to look up the item in JEI, then click the \"+\" button in the bottom right of the recipe. This will then place the recipe into the grid."
+				""
+				"On the right side, the top slot is used for storing blank Patterns. With a blank Pattern inside, you should be able to click the Arrow underneath to imprint the recipe onto the pattern."
+				""
+				"You'll then want to put the Pattern into a crafter!"
 			]
+			dependencies: ["59F5ED931FD70C55"]
+			hide: true
 			dependency_requirement: "one_started"
+			min_width: 300
 			id: "65C8A43FEDBA3835"
 			tasks: [{
 				id: "79E70744DBC24777"
@@ -904,9 +1085,14 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -4.5d
-			description: ["Lets you access your fluid storage."]
+			x: 2.5d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"Plan on storing Liquids? You'll need a &9Fluid Grid&r to be able to see what fluids you have in your Fluid Disks. "
+				""
+				"Pro Tip: If you want to store gases from Mekanism, see if you can turn it into a liquid first using a Rotary Condensentrator. "
+			]
 			dependencies: ["43E8912CB307E421"]
 			id: "51E9D03CD755A607"
 			tasks: [{
@@ -914,71 +1100,104 @@
 				type: "item"
 				item: "refinedstorage:fluid_grid"
 			}]
-			rewards: [{
-				id: "663DB8F9C5006DA9"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "663DB8F9C5006DA9"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "62DB4906D15A4AA4"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: -7.5d
-			description: ["Allows you to access your grid wirelessly."]
-			dependencies: ["43E8912CB307E421"]
+			x: 5.5d
+			y: -3.5d
+			shape: "diamond"
+			description: ["Allows you to access your storage wirelessly."]
+			dependencies: ["6B04FC81351CD1AB"]
 			id: "15ECBC8E174FA39B"
 			tasks: [{
 				id: "1488D961F51ED182"
 				type: "item"
 				item: "refinedstorage:wireless_grid"
 			}]
-			rewards: [{
-				id: "73C96DD0654FF5CE"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "73C96DD0654FF5CE"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "627DFE6503A864D9"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: -4.5d
+			x: 6.5d
+			y: -3.5d
+			shape: "diamond"
 			description: ["Allows you to access your fluid grid wirelessly."]
-			dependencies: ["51E9D03CD755A607"]
+			dependencies: ["6B04FC81351CD1AB"]
 			id: "7FA85713C86166DA"
 			tasks: [{
 				id: "77FE4FDC2F752084"
 				type: "item"
 				item: "refinedstorage:wireless_fluid_grid"
 			}]
-			rewards: [{
-				id: "598120E2B2A936E9"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "598120E2B2A936E9"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "5E65E7082749DB48"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: -6.0d
+			x: 4.5d
+			y: -3.5d
+			shape: "diamond"
 			description: ["Allows you to access your grid wirelessly but with a crafting table built-in."]
-			dependencies: ["0F00BBDF3618B3BA"]
+			dependencies: ["6B04FC81351CD1AB"]
 			id: "744842B2AED28344"
 			tasks: [{
 				id: "5C72FB6EFDAF0813"
 				type: "item"
 				item: "refinedstorageaddons:wireless_crafting_grid"
 			}]
-			rewards: [{
-				id: "6B5DF00E7050694D"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "6B5DF00E7050694D"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "553AC9C05E0564EA"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: -9.0d
+			x: 2.0d
+			y: -1.0d
+			shape: "diamond"
 			subtitle: "On-The-Go Grid"
 			description: ["The Portable Grid is a portable storage that isn’t connected to a network. It allows you to interact with a Storage Disk while not being connected to a network."]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			dependencies: ["43E8912CB307E421"]
 			hide: false
+			optional: true
 			id: "66D85424EC74EDCC"
 			tasks: [{
 				id: "301E0669A3CD84EF"
@@ -996,29 +1215,44 @@
 			}]
 		}
 		{
+			title: "Creating Virtual Storage"
 			x: -1.5d
-			y: -12.0d
+			y: -2.5d
 			shape: "rsquare"
 			subtitle: "Floppy time!"
-			description: ["Put your storage disks in here to add storage to your grid!"]
-			dependencies: ["7604D8B3C9FCCFD9"]
+			description: [
+				"To store your items, you'll need to create disks that are stored in a &aDisk Drive&r. You can attach this to your network by placing it beside your Controller, or by using pipes."
+				""
+				"These have 8 slots for Storage Drives. "
+			]
+			dependencies: ["01F18150EC923482"]
+			size: 1.25d
 			id: "12A43F82FC67A289"
 			tasks: [{
 				id: "3724447C3E0F9942"
 				type: "item"
 				item: "refinedstorage:disk_drive"
 			}]
-			rewards: [{
-				id: "5E67E5BB195B9D4A"
-				type: "item"
-				item: "refinedstorage:storage_housing"
-			}]
+			rewards: [
+				{
+					id: "4657EF2161AC3ADD"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "0B750449B490A597"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: -12.0d
+			x: -1.5d
+			y: -4.0d
+			shape: "hexagon"
 			description: ["Allows you to take items and fluids from one disk into another grid's disks."]
 			dependencies: ["12A43F82FC67A289"]
+			hide: true
 			id: "4844DEF57A2287B4"
 			tasks: [{
 				id: "057EA89AE615DA6D"
@@ -1032,51 +1266,73 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -9.0d
-			description: ["Used to tell crafters how to craft items for auto-crafting."]
-			dependencies: ["01F18150EC923482"]
+			title: "Autocrafting!"
+			x: 2.0d
+			y: -4.449999999999999d
+			shape: "hexagon"
+			description: ["&9Patterns&r are the bread and butter of autocrafting. These store recipes to let your RS network know how to craft items."]
+			dependencies: ["43E8912CB307E421"]
+			size: 1.5d
 			id: "59F5ED931FD70C55"
 			tasks: [{
 				id: "45359CC3EC90B74B"
 				type: "item"
 				item: "refinedstorage:pattern"
 			}]
-			rewards: [{
-				id: "1FA71DB84EE6B7D8"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "1FA71DB84EE6B7D8"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "4348758E87B788AE"
+					type: "item"
+					item: "refinedstorage:pattern"
+					count: 8
+				}
+			]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
-			description: ["Allows you to monitor the number of a certain item in your grid."]
-			dependencies: ["43E8912CB307E421"]
+			x: -5.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: ["When connected to your system, this block will display the current number of an item within your network."]
+			dependencies: ["6904EC449FBEE387"]
+			hide: true
+			optional: true
 			id: "64E85274D24FE394"
 			tasks: [{
 				id: "59E1432B592B686C"
 				type: "item"
 				item: "refinedstorage:storage_monitor"
 			}]
-			rewards: [{
-				id: "6AC46C5C8136A9C3"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "6AC46C5C8136A9C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1491EF64254BB838"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+			]
 		}
 		{
-			x: 6.0d
-			y: -6.0d
-			shape: "rsquare"
+			title: "&5Wireless Access"
+			x: 5.5d
+			y: -2.5d
+			shape: "hexagon"
 			subtitle: "Storage, at a distance"
-			description: ["The Wireless Transmitter is used to send signals to wireless network items in Refined Storage."]
-			hide_dependency_lines: true
-			dependencies: [
-				"15ECBC8E174FA39B"
-				"744842B2AED28344"
-				"7FA85713C86166DA"
+			description: [
+				"If you want to access your Refined Storage network wirelessly, you'll need to start by creating a &9Wireless Transmitter&r."
+				""
+				"You can attach this anywhere on your system. This is needed to use wireless grids."
 			]
+			hide_dependency_lines: false
+			dependencies: ["43E8912CB307E421"]
 			dependency_requirement: "one_started"
 			id: "6B04FC81351CD1AB"
 			tasks: [{
@@ -1084,23 +1340,18 @@
 				type: "item"
 				item: "refinedstorage:wireless_transmitter"
 			}]
-			rewards: [
-				{
-					id: "1B5CDE3E773B797B"
-					type: "item"
-					item: "refinedstorage:range_upgrade"
-				}
-				{
-					id: "5050A99AB9DA31EE"
-					type: "random"
-					table_id: 4001436279668650237L
-				}
-			]
+			rewards: [{
+				id: "5050A99AB9DA31EE"
+				type: "random"
+				table_id: 4001436279668650237L
+			}]
 		}
 		{
-			x: -4.5d
-			y: -12.0d
+			x: -1.5d
+			y: -5.0d
+			shape: "hexagon"
 			dependencies: ["4844DEF57A2287B4"]
+			hide: true
 			id: "7C26D0295ABBF5BD"
 			tasks: [{
 				id: "247C1CD892AA4E07"
@@ -1114,9 +1365,11 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -12.0d
+			x: -1.5d
+			y: -6.0d
+			shape: "hexagon"
 			dependencies: ["7C26D0295ABBF5BD"]
+			hide: true
 			id: "1C8CEA8E12D9F2E3"
 			tasks: [{
 				id: "6CF001677DE268D7"
@@ -1130,9 +1383,11 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -12.0d
+			x: -1.5d
+			y: -7.0d
+			shape: "hexagon"
 			dependencies: ["1C8CEA8E12D9F2E3"]
+			hide: true
 			id: "226683B30A54D760"
 			tasks: [{
 				id: "260633EB3A67887C"
@@ -1146,58 +1401,90 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -7.5d
-			dependencies: ["6B04FC81351CD1AB"]
+			x: 5.5d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"\"I need more RANGE!!!\""
+				""
+				"Well, slap one of these bad boys in your Wireless Transmitter and you'll be able to access your network storage with infinite range."
+				""
+				"This, however, does not extend to other dimensions....."
+			]
+			dependencies: ["2E2811D1A0F2A492"]
 			id: "3E0D29502690E02F"
-			tasks: [
+			tasks: [{
+				id: "4DD51C8F38808EB9"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [
 				{
-					id: "4DD51C8F38808EB9"
-					type: "item"
-					item: "rsinfinitybooster:infinity_card"
+					id: "020CFD2156077264"
+					type: "random"
+					table_id: 3567941291661635734L
 				}
 				{
-					id: "3C3F1953DAA71996"
-					type: "item"
-					item: "rsinfinitybooster:dimension_card"
+					id: "51EB8245F9BF2EBB"
+					type: "random"
+					table_id: 407746579787184593L
 				}
 			]
-			rewards: [{
-				id: "020CFD2156077264"
-				type: "random"
-				table_id: 3567941291661635734L
-			}]
 		}
 		{
-			x: 0.0d
-			y: -12.0d
+			x: -1.5d
+			y: -1.0d
 			shape: "rsquare"
-			description: ["A Storage Disk is an item where items from the storage network are stored on. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."]
-			hide_dependency_lines: true
-			dependencies: ["01F18150EC923482"]
+			description: [
+				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of part, then combine with the housing to create a disk."
+				""
+				"The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
+				""
+				"&l&nIMPORTANT&r: Do not store NBT items on a disk. This increases overall lag in the chunk, and &lcan eventually corrupt your save&r. If you are unsure what NBT items are, the general rule of thumb is \"If it doesn't stack, don't put it in your system.\""
+				""
+				"NBT items are regular items that have tags attached to them, like durability of items, enchantments, flag colors, etc. You know those Apotheosis Gems you keep getting from killing mobs? Those enchanted pickaxes? Yea, don't put that in your Refined Storage system."
+			]
+			dependencies: ["12A43F82FC67A289"]
+			hide: true
 			dependency_requirement: "one_started"
+			min_width: 300
 			id: "7604D8B3C9FCCFD9"
 			tasks: [{
 				id: "546B04909ABE8383"
 				type: "item"
 				item: "refinedstorage:storage_housing"
 			}]
-			rewards: [{
-				id: "2A14130CAC3461EA"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
+			rewards: [
+				{
+					id: "2A14130CAC3461EA"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "6116F11EC66ADB9D"
+					type: "random"
+					table_id: 407746579787184593L
+				}
+			]
 		}
 		{
 			title: "Grid Networks"
-			x: 6.0d
-			y: -9.0d
-			subtitle: "Networking!"
+			x: -6.0d
+			y: -1.0d
+			subtitle: "Wirelessly Connecting Networks!"
 			description: [
-				"Transmits grid information to a Network Receiver, allowing expansion of the system thousands of blocks away."
+				"Because of the Controller limit, you'll probably end up wanting to connect different systems to your main hub without a billion cables connecting them."
 				""
-				"Bind the Network Card via right-click to a Network Receiver, and then place the Network Card in the Network transmitter."
+				"This is done using &6Network Transmitters&r and &6Receivers&r."
+				""
+				"&9Transmitters&r should be connected to your main system, wherever your Controller is."
+				""
+				"The &9Receiver&r should go wherever you want your external network to be. For exmample, this can be a separate part of your base where you have Bees, a mob farm, etc."
+				""
+				"To connect the Receiver to your main network, you'll need to use a &eNetwork Card&r. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system."
 			]
+			dependencies: ["01F18150EC923482"]
+			min_width: 300
 			id: "3E890BABC4C41370"
 			tasks: [
 				{
@@ -1222,11 +1509,18 @@
 					type: "random"
 					table_id: 4001436279668650237L
 				}
+				{
+					id: "7321631CFD0F9E9D"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
 			]
 		}
 		{
 			x: -7.5d
-			y: -6.0d
+			y: -9.0d
+			shape: "hexagon"
+			description: ["Has 54 filter slots and works instantly."]
 			dependencies: ["5BB7648DC10E1E08"]
 			id: "0195C8D984BAC24E"
 			tasks: [{
@@ -1241,8 +1535,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -10.5d
+			x: -6.5d
+			y: -9.5d
+			shape: "hexagon"
+			description: ["Has 54 filter slots and works instantly."]
 			dependencies: ["13A0714444BA79AB"]
 			id: "1A7E741E9C5458F8"
 			tasks: [{
@@ -1257,8 +1553,10 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -4.5d
 			y: -9.0d
+			shape: "hexagon"
+			description: ["Has 54 filter slots and works instantly."]
 			dependencies: ["0D4FE97640F2CA60"]
 			id: "1CC5DD5306B224A0"
 			tasks: [{
@@ -1273,8 +1571,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -7.5d
+			x: -5.5d
+			y: -9.5d
+			shape: "hexagon"
+			description: ["Has 6 filter slots and works instantly."]
 			dependencies: ["1F55A483008F74FE"]
 			id: "14659E5B2C12B574"
 			tasks: [{
@@ -1289,8 +1589,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -19.5d
+			x: 0.5d
+			y: 4.0d
+			shape: "diamond"
 			description: ["Infinite item storage!"]
 			hide_dependency_lines: false
 			dependencies: ["718A2040D868E09F"]
@@ -1302,20 +1603,21 @@
 			}]
 			rewards: [
 				{
-					id: "5D22142FFE9C5004"
-					type: "random"
-					table_id: 3567941291661635734L
-				}
-				{
 					id: "4B33D2CCD34DB34B"
 					type: "random"
 					table_id: 4001436279668650237L
 				}
+				{
+					id: "72250B23E6B0E5F4"
+					type: "random"
+					table_id: 1739527894044761161L
+				}
 			]
 		}
 		{
-			x: 1.0d
-			y: -17.5d
+			x: -3.0d
+			y: 4.5d
+			shape: "diamond"
 			description: ["Infinite fluid storage!"]
 			hide_dependency_lines: false
 			dependencies: ["49772923B8AF0F1F"]
@@ -1339,53 +1641,29 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -14.5d
-			dependencies: [
-				"4B81E84CAE814BA9"
-				"4101F8275B41C79B"
+			x: -1.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"Don't like storing things in drives?"
+				""
+				"You can create storage &9Blocks&r instead and just slap the block down somewhere in your system."
+				""
+				"Whatever items end up in the block will be stored inside whenever you break it as well."
+				""
+				"If you want to uncraft it, you can sneak right click while holding it."
 			]
-			optional: true
-			id: "58AA6CD9D96244D1"
-			tasks: [
-				{
-					id: "15F0A882BE1594B1"
-					type: "item"
-					item: "refinedstorage:1k_storage_disk"
-				}
-				{
-					id: "269EECC6F9A9D984"
-					type: "item"
-					item: "refinedstorage:64k_fluid_storage_disk"
-				}
-			]
-			rewards: [{
-				id: "624504C1FCDB2032"
-				type: "random"
-				table_id: 4001436279668650237L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -13.5d
 			dependencies: [
 				"4B81E84CAE814BA9"
 				"4101F8275B41C79B"
 			]
 			optional: true
 			id: "62625CAF6649AB53"
-			tasks: [
-				{
-					id: "4540AB0231FE3B1A"
-					type: "item"
-					item: "refinedstorage:1k_storage_block"
-				}
-				{
-					id: "71707FDB64DE5E1D"
-					type: "item"
-					item: "refinedstorage:64k_fluid_storage_block"
-				}
-			]
+			tasks: [{
+				id: "4540AB0231FE3B1A"
+				type: "item"
+				item: "refinedstorage:1k_storage_block"
+			}]
 			rewards: [{
 				id: "2757EAF400D978C1"
 				type: "random"
@@ -1394,11 +1672,18 @@
 		}
 		{
 			title: "Destructor Upgrades"
-			x: -1.5d
-			y: -4.5d
-			description: ["These can add different attributes to Deconstructors to effect what happens when they mine a block."]
-			hide_dependency_lines: true
+			x: -3.5d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"These upgrades add enchantments to your Destructor."
+				""
+				"Wondering why you would use this? Imagine having a Builder or Quarry pump Silk-Touched Ores into your system. You can have a Constructor place these ores, then a Destructor with Fortune on it to break it for even more raw ores."
+			]
+			hide_dependency_lines: false
 			dependencies: ["6092490EC9008A05"]
+			optional: true
+			min_width: 300
 			id: "787415570026FFAA"
 			tasks: [
 				{
@@ -1419,15 +1704,16 @@
 			}]
 		}
 		{
-			title: "Other Upgrades"
-			x: -1.5d
-			y: -3.0d
-			description: ["This can make machines work faster, or automatically craft items that are requested to be outputted."]
-			hide_dependency_lines: true
-			dependencies: [
-				"1A7E741E9C5458F8"
-				"0195C8D984BAC24E"
+			title: "Speeding Everything Up!"
+			x: -7.5d
+			y: -5.0d
+			description: [
+				"The &9Speed Upgrade&r does exactly what it says it does. It will increase the speed at which the interface/block works. Need an importer to pull faster? Want your crafters to work faster? This is the upgrade!"
+				""
+				"The &6Stack Upgrade&r increases the speed of transfer by a stack of items rather than just one. Combine with Speed Upgrades!"
 			]
+			dependencies: ["6904EC449FBEE387"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "2B27E4E04A628C60"
 			tasks: [
@@ -1441,28 +1727,28 @@
 					type: "item"
 					item: "refinedstorage:stack_upgrade"
 				}
+			]
+			rewards: [
 				{
-					id: "086F83FEFD57D69B"
+					id: "10EE1EA9372509F0"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+				{
+					id: "4B859F9679182D36"
 					type: "item"
-					item: "refinedstorage:crafting_upgrade"
+					item: "refinedstorage:speed_upgrade"
+					random_bonus: 2
 				}
 			]
-			rewards: [{
-				id: "10EE1EA9372509F0"
-				type: "random"
-				table_id: 3567941291661635734L
-			}]
 		}
 		{
-			x: 1.5d
-			y: -12.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"4CD83943865018EA"
-				"2CFEE04BA574921E"
-				"6092490EC9008A05"
-				"532229D285CA4858"
-			]
+			x: -4.5d
+			y: -5.0d
+			description: ["The &9Filter&r is an item used in a Grid to specify which items or fluids can be visible."]
+			dependencies: ["6904EC449FBEE387"]
+			hide: true
+			optional: true
 			id: "35EC08D610382860"
 			tasks: [{
 				id: "5BFCB4F5C8CCA8C9"
@@ -1474,6 +1760,170 @@
 				type: "random"
 				table_id: 4001436279668650237L
 			}]
+		}
+		{
+			title: "Increasing Wifi Range"
+			x: 5.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "I mean Transmitting Range"
+			description: [
+				"To increase the range of your wireless connection to your system, you'll need to craft &9Range Upgrades&r."
+				""
+				"The Wireless Transmitter can only hold 4 total. Here's one on the house."
+			]
+			dependencies: ["6B04FC81351CD1AB"]
+			hide: true
+			id: "2E2811D1A0F2A492"
+			tasks: [{
+				id: "7AB53C2469B768E0"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [
+				{
+					id: "56D7CD357A4D790B"
+					type: "item"
+					item: "refinedstorage:range_upgrade"
+				}
+				{
+					id: "3A61D12F2542D63D"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "circle"
+			description: [
+				"But this one does!"
+				""
+				"This allows your RS system to be accessed wirelessly from any dimension."
+			]
+			dependencies: ["3E0D29502690E02F"]
+			id: "3EE9958D84A1252C"
+			tasks: [{
+				id: "19BBDF4958C7FD63"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [
+				{
+					id: "6E00F9CDE957D741"
+					type: "random"
+					table_id: 407746579787184593L
+				}
+				{
+					id: "07BCC4BCD1A84D6E"
+					type: "random"
+					table_id: 1739527894044761161L
+				}
+			]
+		}
+		{
+			title: "&5Super Wireless Grid&r"
+			x: 5.5d
+			y: -4.5d
+			shape: "diamond"
+			description: [
+				"Allows you to access every part of your RS system."
+				""
+				"This is the All-In-One Wireless Terminal. It allows you to use the crafting grid, fluid grid, and check on your autocrafting all in one place."
+			]
+			dependencies: ["15ECBC8E174FA39B"]
+			id: "34DB6863E6CF1B70"
+			tasks: [{
+				id: "77A6077D55F9E084"
+				type: "item"
+				item: {
+					id: "rebornstorage:super_wireless_crafting_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "23D346988B211EE1"
+				type: "random"
+				table_id: 407746579787184593L
+			}]
+		}
+		{
+			title: "Regulating Items in Interfaces"
+			x: -8.5d
+			y: -6.0d
+			description: [
+				"The &9Regulator Upgrade&r allows you to maintain a certain amount of items within a block or machine. A great example of this is telling your network that you want to keep 64 Coal within a Furnace. You'd place the upgrade in the exporter attached to the furnace, and set it to 64. Your system will then try to keep the furnace full of fuel!"
+				""
+				"But what if you need an item that is crafted? The &9Crafting Upgrade&r does exactly this. If you have the recipe learned inside of a crafter, adding this upgrade to an interface will let it know to craft it if you run out."
+				""
+				"Using our example from before, let's say we have a Mystical Ag farm going and have Coal Essence. We can then put the Coal recipe in a crafter connected to our system, then place this upgrade in the same exporter that is keeping the Furnace fueled. If you run out of Coal in your system, the crafting upgrade allows your system to craft some more!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6904EC449FBEE387"]
+			hide: true
+			min_width: 300
+			id: "30700E99091B712A"
+			tasks: [
+				{
+					id: "33CE02A9C852D835"
+					type: "item"
+					item: "refinedstorage:regulator_upgrade"
+				}
+				{
+					id: "37BB3E6C1BF5560C"
+					type: "item"
+					item: "refinedstorage:crafting_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "085EEF00946EFDB6"
+					type: "item"
+					item: "refinedstorage:regulator_upgrade"
+				}
+				{
+					id: "684D20A983D190DB"
+					type: "item"
+					item: "refinedstorage:crafting_upgrade"
+				}
+				{
+					id: "3D7CA9D37CFD6B43"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
+		}
+		{
+			title: "Monitoring the Crafting Queue"
+			x: 1.0d
+			y: -6.5d
+			shape: "pentagon"
+			description: [
+				"When attached to your system, the &9Crafting Monitor&r allows you to see what items are currently in your crafting queue."
+				""
+				"You'll need one of these if you want to be able to cancel crafts that aren't working or are bugged. "
+			]
+			dependencies: ["65C8A43FEDBA3835"]
+			id: "7044EAB5EDF32BBC"
+			tasks: [{
+				id: "79FEA8AA18E5ED45"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [
+				{
+					id: "70D5957342CD81E6"
+					type: "random"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "566184EFEA58D66A"
+					type: "random"
+					table_id: 3567941291661635734L
+				}
+			]
 		}
 	]
 }
