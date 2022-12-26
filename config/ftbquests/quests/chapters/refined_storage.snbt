@@ -1439,10 +1439,6 @@
 				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of part, then combine with the housing to create a disk."
 				""
 				"The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
-				""
-				"&l&nIMPORTANT&r: Do not store NBT items on a disk. This increases overall lag in the chunk, and &lcan eventually corrupt your save&r. If you are unsure what NBT items are, the general rule of thumb is \"If it doesn't stack, don't put it in your system.\""
-				""
-				"NBT items are regular items that have tags attached to them, like durability of items, enchantments, flag colors, etc. You know those Apotheosis Gems you keep getting from killing mobs? Those enchanted pickaxes? Yea, don't put that in your Refined Storage system."
 			]
 			dependencies: ["12A43F82FC67A289"]
 			hide: true
@@ -1926,4 +1922,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

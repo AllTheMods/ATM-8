@@ -296,8 +296,8 @@
 						id: "enderchests:ender_chest"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 						}
 					}
 				}
@@ -308,8 +308,8 @@
 						id: "endertanks:ender_tank"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 						}
 					}
 				}
@@ -322,8 +322,8 @@
 						id: "enderchests:ender_bag"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 							open: 0b
 						}
 					}
@@ -335,8 +335,8 @@
 						id: "endertanks:ender_bucket"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 						}
 					}
 				}
@@ -1660,5 +1660,50 @@
 				}
 			]
 		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 4.5d
+			y: 0.5d
+			description: [
+				"Looking to create virtual storage using &9Refined Storage&r or &9Applied Energistics 2&r?"
+				""
+				"These are both great ways to upgrade your storage, but it is important to talk about &eNBT Items&r and the best way to store them."
+				""
+				"NBT items are items with extra tags attached to them. Enchanted items, items with durability, Apotheosis gems... these are all items with NBT tags attached to them. Because of this, they don't usually stack."
+				""
+				"When you store a lot of these into a storage system like RS or AE2, you run the chance of creating issues for your save or server."
+				""
+				"Because of this, it is best to store them in chests or bags!"
+			]
+			min_width: 300
+			id: "7EF57BBEAA4B6B08"
+			tasks: [{
+				id: "21FBC4E0F668347C"
+				type: "checkmark"
+				title: "NBT and YOU!"
+			}]
+			rewards: [
+				{
+					id: "709280A79BC54D7E"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "495C45D51AEDF931"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
 	]
+	quest_links: [ ]
 }
