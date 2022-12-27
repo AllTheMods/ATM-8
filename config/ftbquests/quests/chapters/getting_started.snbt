@@ -142,7 +142,14 @@
 				{
 					id: "1F77F00653C5D948"
 					type: "item"
-					item: "minecraft:crafting_table"
+					title: "Any Crafting Table"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbench"
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -809,7 +816,14 @@
 				{
 					id: "6EEA50A2B8817EB4"
 					type: "item"
-					item: "minecraft:sand"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
 					count: 16L
 				}
 				{

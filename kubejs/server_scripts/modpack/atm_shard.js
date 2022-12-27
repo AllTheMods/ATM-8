@@ -10,7 +10,6 @@ ServerEvents.recipes(e => {
     C: 'pipez:ultimate_upgrade',
     D: shard
   })
-/*
 //#Thermal
   e.shaped('thermal:machine_efficiency_creative_augment', ['ABA', 'CDC', 'AEA'], {
     A: 'thermal:upgrade_augment_3',
@@ -19,7 +18,7 @@ ServerEvents.recipes(e => {
     D: shard,
     E: 'thermal:lightning_charge'
   })
-*/
+
 /*
 //#waterstrainer
   e.shaped('waterstrainer:super_worm', ['DSD', 'DWD', 'DDD'], {

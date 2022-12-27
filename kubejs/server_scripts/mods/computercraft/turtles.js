@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'advancedperipherals:chunk_controller' })
   event.remove({ id: 'computercraft:turtle_normal' })
   event.remove({ id: 'computercraft:turtle_advanced' })
+  event.remove({ id: 'computercraft:turtle_advanced_upgrade' })
   event.shaped('computercraft:turtle_advanced', ['III', 'ICI', 'IAI'], {
     I: '#forge:ingots/gold',
     C: 'computercraft:computer_advanced',
