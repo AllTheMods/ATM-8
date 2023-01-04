@@ -225,7 +225,6 @@
 				"To make these, we'll need some Moonstone to get started. Head to the caverns and find you some ores!"
 			]
 			dependencies: ["3E1A86A6D2155B53"]
-			optional: true
 			id: "6E177CA79B7ABD7C"
 			tasks: [{
 				id: "49A5A92F58DB0859"
@@ -293,7 +292,6 @@
 			subtitle: "Spartan Style"
 			description: ["The &6Spear&r is the favored weapon in Blue Skies. It can be enchanted, and works as a nice ranged weapon for the enemies you'll face."]
 			dependencies: ["6E177CA79B7ABD7C"]
-			optional: true
 			id: "5ED6634F52CAC058"
 			tasks: [{
 				id: "0A3B8E7765432D22"
@@ -751,7 +749,6 @@
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["14B4E6B2FC3F6B36"]
-			optional: true
 			id: "34563DBECAB6E0C1"
 			tasks: [
 				{
@@ -837,7 +834,6 @@
 				"The forge must be empty to recharge."
 			]
 			dependencies: ["14B4E6B2FC3F6B36"]
-			optional: true
 			id: "6783F21811D0F149"
 			tasks: [{
 				id: "14EAC9ED937D3A27"
@@ -871,7 +867,6 @@
 			shape: "rsquare"
 			description: ["This is a lantern that prevents hostile spawns within a large radius. "]
 			dependencies: ["23CC5B8D9AAD4E12"]
-			optional: true
 			id: "3857D8DF87108DAB"
 			tasks: [{
 				id: "6FDADB2CDD542CF7"
@@ -890,7 +885,6 @@
 				"The bucket can pick up the underwater mobs in Blue Skies."
 			]
 			dependencies: ["229455730219F7B1"]
-			optional: true
 			id: "47EFF4429010E26C"
 			tasks: [
 				{
@@ -1511,7 +1505,6 @@
 			shape: "hexagon"
 			subtitle: "Drops from the Starlit Crusher's Loot Bag"
 			dependencies: ["1F944EEA0F397B95"]
-			optional: true
 			id: "42228FEECEAA2241"
 			tasks: [{
 				id: "5977FC8CB2A6A46D"
@@ -1561,7 +1554,6 @@
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			dependencies: ["0DB1A5763EDD6A7F"]
-			optional: true
 			id: "02089D95AA679502"
 			tasks: [{
 				id: "7EF8FD8790E83FD4"
@@ -1586,7 +1578,6 @@
 			shape: "diamond"
 			subtitle: "Drops from the Arachnarch's Loot Bag"
 			dependencies: ["0DB1A5763EDD6A7F"]
-			optional: true
 			id: "68C79649BB060EFA"
 			tasks: [{
 				id: "0E4B7B4DF6E4B7AA"
@@ -1639,7 +1630,6 @@
 			y: -2.5d
 			shape: "hexagon"
 			dependencies: ["7E124E6EFC7E8ADD"]
-			optional: true
 			id: "2F08F444586722F7"
 			tasks: [{
 				id: "3E1D8A917D2C81A4"
@@ -1663,7 +1653,6 @@
 			y: -2.5d
 			shape: "hexagon"
 			dependencies: ["7E124E6EFC7E8ADD"]
-			optional: true
 			id: "582FCFC9A5062978"
 			tasks: [{
 				id: "6351A3DAD00BAE5E"
@@ -1681,7 +1670,6 @@
 			y: 3.5d
 			shape: "hexagon"
 			dependencies: ["0515422E36E4E9A3"]
-			optional: true
 			id: "439EA0E50E369340"
 			tasks: [{
 				id: "53573EE98943693F"
@@ -1701,4 +1689,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

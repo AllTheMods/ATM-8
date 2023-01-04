@@ -296,8 +296,8 @@
 						id: "enderchests:ender_chest"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 						}
 					}
 				}
@@ -308,8 +308,8 @@
 						id: "endertanks:ender_tank"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 						}
 					}
 				}
@@ -322,8 +322,8 @@
 						id: "enderchests:ender_bag"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 							open: 0b
 						}
 					}
@@ -335,8 +335,8 @@
 						id: "endertanks:ender_bucket"
 						Count: 1b
 						tag: {
-							code: "000"
 							owner: "all"
+							code: "000"
 						}
 					}
 				}
@@ -608,7 +608,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "0E0CAA31480EC0A1"
 			tasks: [{
 				id: "0789D160EF625FF5"
@@ -627,7 +626,6 @@
 			subtitle: "More Filtering Options"
 			dependencies: ["0E0CAA31480EC0A1"]
 			hide: true
-			optional: true
 			id: "1985CFD1F0425E88"
 			tasks: [{
 				id: "666C188829301BE0"
@@ -647,7 +645,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "156FF8B7B724DC38"
 			tasks: [{
 				id: "4DFC097C1EF485B3"
@@ -665,7 +662,6 @@
 			y: 7.5d
 			dependencies: ["156FF8B7B724DC38"]
 			hide: true
-			optional: true
 			id: "57CF8C6C867B9BDA"
 			tasks: [{
 				id: "6530A152D9337A4C"
@@ -685,7 +681,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "110D27EA86CDA62B"
 			tasks: [{
 				id: "696764AB781624BD"
@@ -703,7 +698,6 @@
 			y: 7.5d
 			dependencies: ["110D27EA86CDA62B"]
 			hide: true
-			optional: true
 			id: "11D57C768032E3F7"
 			tasks: [{
 				id: "14A8CEB60805E90A"
@@ -723,7 +717,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "5FA9BC0D8476D322"
 			tasks: [{
 				id: "5D185C4E74A8717D"
@@ -741,7 +734,6 @@
 			y: 7.5d
 			dependencies: ["5FA9BC0D8476D322"]
 			hide: true
-			optional: true
 			id: "1A739D36D5E3B1AD"
 			tasks: [{
 				id: "41C87FC409006F13"
@@ -761,7 +753,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "1CD2C6AFD788C35E"
 			tasks: [{
 				id: "0F54AF81A481180B"
@@ -780,7 +771,6 @@
 			subtitle: "Compacts items in the backpack to their 3x3 recipe. "
 			dependencies: ["1CD2C6AFD788C35E"]
 			hide: true
-			optional: true
 			id: "5E4FE420B6D2C97F"
 			tasks: [{
 				id: "7CA41563003856B2"
@@ -800,7 +790,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "7EFBFF5D0DA018E7"
 			tasks: [{
 				id: "04491E89A571B16F"
@@ -818,7 +807,6 @@
 			y: 10.0d
 			dependencies: ["7EFBFF5D0DA018E7"]
 			hide: true
-			optional: true
 			id: "2FC15D3916DBF4E4"
 			tasks: [{
 				id: "3A29FF1C2AD59B06"
@@ -839,7 +827,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "4B62AF0405F68041"
 			tasks: [{
 				id: "2F5D0ABEF5F4EDEF"
@@ -857,7 +844,6 @@
 			y: 10.0d
 			dependencies: ["4B62AF0405F68041"]
 			hide: true
-			optional: true
 			id: "019CA0E35F888222"
 			tasks: [{
 				id: "45492321B5D5A2D6"
@@ -878,7 +864,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "00DB5495C3A44999"
 			tasks: [{
 				id: "68CED4583435FE43"
@@ -896,7 +881,6 @@
 			y: 7.5d
 			dependencies: ["00DB5495C3A44999"]
 			hide: true
-			optional: true
 			id: "4C0EAB9F795686D0"
 			tasks: [{
 				id: "3D7F2E1489EB84AA"
@@ -916,7 +900,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "33882172DA8021F6"
 			tasks: [{
 				id: "5F6536142CDA403C"
@@ -941,7 +924,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "7C07D6A33F7ADB02"
 			tasks: [{
 				id: "4F04DC4226148B47"
@@ -961,7 +943,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "037415D5B965E214"
 			tasks: [{
 				id: "50348CD6A080A1D1"
@@ -981,7 +962,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "668C313FF46B6005"
 			tasks: [{
 				id: "10C7C3214FFC012D"
@@ -1000,7 +980,6 @@
 			subtitle: "Auto-smelt items in the backpack."
 			dependencies: ["668C313FF46B6005"]
 			hide: true
-			optional: true
 			id: "3A1D07AED2A841E4"
 			tasks: [{
 				id: "4F90A434D3719DCB"
@@ -1020,7 +999,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "26A9F402DAE15EA2"
 			tasks: [{
 				id: "1ABC352A4A4313E5"
@@ -1038,7 +1016,6 @@
 			y: 10.0d
 			dependencies: ["26A9F402DAE15EA2"]
 			hide: true
-			optional: true
 			id: "36BCE35215B2B6E9"
 			tasks: [{
 				id: "4D0ACCBF77CC0846"
@@ -1058,7 +1035,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "1E499F94A2A193E1"
 			tasks: [{
 				id: "677DA84F4B304778"
@@ -1076,7 +1052,6 @@
 			y: 10.0d
 			dependencies: ["1E499F94A2A193E1"]
 			hide: true
-			optional: true
 			id: "26988E22BD019628"
 			tasks: [{
 				id: "62BCE2BB281304DC"
@@ -1096,7 +1071,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "4A854CD5EC70733E"
 			tasks: [{
 				id: "47BADC501A4E2AD7"
@@ -1116,7 +1090,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "52672B7FFFD51D16"
 			tasks: [{
 				id: "3BA31C5CD5C35ED5"
@@ -1136,7 +1109,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "7E9E03274A88347D"
 			tasks: [{
 				id: "7E22C7FB2F953E70"
@@ -1154,7 +1126,6 @@
 			y: 4.0d
 			dependencies: ["7E9E03274A88347D"]
 			hide: false
-			optional: true
 			id: "785951190FFDAA21"
 			tasks: [{
 				id: "15A92DA8E1A9106F"
@@ -1172,7 +1143,6 @@
 			y: 4.0d
 			dependencies: ["785951190FFDAA21"]
 			hide: false
-			optional: true
 			id: "0298A17C2AAC5765"
 			tasks: [{
 				id: "161AF6650325FA0A"
@@ -1190,7 +1160,6 @@
 			y: 4.0d
 			dependencies: ["0298A17C2AAC5765"]
 			hide: false
-			optional: true
 			id: "7AE3C8134F5ED726"
 			tasks: [{
 				id: "36BEE5EDBA6FAF76"
@@ -1210,7 +1179,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "53F861876B991C36"
 			tasks: [{
 				id: "18F8BF7CC5B3126D"
@@ -1230,7 +1198,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "615B9062FE8CCD36"
 			tasks: [{
 				id: "24165D460DCC2212"
@@ -1248,7 +1215,6 @@
 			y: 10.0d
 			dependencies: ["615B9062FE8CCD36"]
 			hide: true
-			optional: true
 			id: "15CD4BFDC56E9510"
 			tasks: [{
 				id: "700D630FE0FB8B9D"
@@ -1268,7 +1234,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "0D4C64DD58567758"
 			tasks: [{
 				id: "6CA01A42CC183F87"
@@ -1288,7 +1253,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "4C2A60FC1F1E0328"
 			tasks: [{
 				id: "056ECFB6B80F6A37"
@@ -1308,7 +1272,6 @@
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
-			optional: true
 			id: "6E9041744C592573"
 			tasks: [{
 				id: "0B9FAD684B03985A"
@@ -1326,7 +1289,6 @@
 			y: 4.0d
 			dependencies: ["6E9041744C592573"]
 			hide: true
-			optional: true
 			id: "56B80A7EBFE21428"
 			tasks: [{
 				id: "5B7A8E1F725C2815"
@@ -1344,7 +1306,6 @@
 			y: 4.0d
 			dependencies: ["56B80A7EBFE21428"]
 			hide: true
-			optional: true
 			id: "6E3D53D1C4569A89"
 			tasks: [{
 				id: "3B52B2670A826CE4"
@@ -1411,7 +1372,6 @@
 			x: -3.0d
 			y: 2.0d
 			dependencies: ["45268A619787288F"]
-			optional: true
 			id: "67704F7341EDCC49"
 			tasks: [{
 				id: "62B16ED18AAB714F"
@@ -1661,4 +1621,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

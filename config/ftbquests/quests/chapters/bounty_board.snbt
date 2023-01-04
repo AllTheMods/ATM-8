@@ -288,8 +288,8 @@
 						Count: 1b
 						tag: {
 							StoredEnchantments: [{
-								id: "minecraft:infinity"
 								lvl: 1s
+								id: "minecraft:infinity"
 							}]
 						}
 					}
@@ -539,7 +539,6 @@
 			y: 6.0d
 			subtitle: "\"This is Personal\" - AlfredGG"
 			size: 1.5d
-			optional: true
 			id: "0F55D0B4D5094EDB"
 			tasks: [
 				{
@@ -569,8 +568,8 @@
 						tag: {
 							Damage: 0
 							display: {
-								Name: "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
 								Lore: ["[{\"text\":\"For those brave enough to slaughter the Mighty and Annoying Trader\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
 							}
 						}
 					}
@@ -1326,4 +1325,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

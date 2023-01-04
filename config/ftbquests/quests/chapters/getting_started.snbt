@@ -405,7 +405,6 @@
 			subtitle: "Starter Coal"
 			description: ["Placing Wood Logs in a furnace smelts them into Charcoal. This is great for starting out!"]
 			dependencies: ["3118DD682A054C5F"]
-			optional: true
 			id: "52D18CDB05357525"
 			tasks: [{
 				id: "64DE1F00F0826CBA"
@@ -441,7 +440,6 @@
 			subtitle: "Upgrading our tools"
 			description: ["It's time to upgrade our tools to iron."]
 			dependencies: ["3118DD682A054C5F"]
-			optional: true
 			id: "147BC89798F3F925"
 			tasks: [
 				{
@@ -1013,4 +1011,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

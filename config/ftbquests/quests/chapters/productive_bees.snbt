@@ -865,7 +865,6 @@
 			y: -2.5d
 			description: ["Right-clicking on a Nest of the type you are looking for will point you in the direction of another!"]
 			dependencies: ["29EE878BC8D3A742"]
-			optional: true
 			id: "68CE30097BADE20E"
 			tasks: [{
 				id: "10D83EFF8DF8830B"
@@ -4172,7 +4171,6 @@
 				"This guidebook will help you learn everything about bees."
 			]
 			dependencies: ["29EE878BC8D3A742"]
-			optional: true
 			id: "6C9E88A61ECCF898"
 			tasks: [{
 				id: "7CB163461B2D1723"
@@ -4372,4 +4370,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

@@ -75,7 +75,6 @@
 			x: 1.5d
 			y: -1.5d
 			dependencies: ["6E616DB197387C86"]
-			optional: true
 			id: "33532408B21A5378"
 			tasks: [{
 				id: "3DD12A969161A5B6"
@@ -155,36 +154,36 @@
 					id: "mekanism:basic_fluid_tank"
 					Count: 1b
 					tag: {
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
 						mekData: {
-							securityMode: 0
-							Items: [ ]
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:latex"
+									Amount: 14000
 								}
 							}]
+							securityMode: 0
+							Items: [ ]
 						}
 						BlockEntityTag: {
-							ForgeCaps: { }
-							activeState: 0b
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							Items: [ ]
-							updateDelay: 0
-							editMode: 0
 							currentRedstone: 15
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:latex"
+									Amount: 14000
 								}
 							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							ForgeCaps: { }
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
 						}
 					}
 				}
@@ -304,15 +303,15 @@
 						Count: 1b
 						tag: {
 							mekData: {
-								securityMode: 0
-								Items: [ ]
 								FluidTanks: [{
 									Tank: 0b
 									stored: {
-										Amount: 14000
 										FluidName: "industrialforegoing:pink_slime"
+										Amount: 14000
 									}
 								}]
+								securityMode: 0
+								Items: [ ]
 							}
 						}
 					}
@@ -325,15 +324,15 @@
 						Count: 1b
 						tag: {
 							mekData: {
-								securityMode: 0
-								Items: [ ]
 								FluidTanks: [{
 									Tank: 0b
 									stored: {
-										Amount: 14000
 										FluidName: "industrialforegoing:meat"
+										Amount: 14000
 									}
 								}]
+								securityMode: 0
+								Items: [ ]
 							}
 						}
 					}
@@ -387,7 +386,6 @@
 			x: 8.8d
 			y: 2.3d
 			dependencies: ["616CFD4078D67B51"]
-			optional: true
 			id: "06094615950AC062"
 			tasks: [
 				{
@@ -428,7 +426,6 @@
 			x: 9.0d
 			y: -2.5d
 			dependencies: ["690CFF61CE787D43"]
-			optional: true
 			id: "427C3AFC0FF131CD"
 			tasks: [
 				{
@@ -453,7 +450,6 @@
 			x: 8.5d
 			y: -3.5d
 			dependencies: ["690CFF61CE787D43"]
-			optional: true
 			id: "2CCFEE98FE3B2E97"
 			tasks: [
 				{
@@ -478,7 +474,6 @@
 			x: 6.0d
 			y: -2.5d
 			dependencies: ["690CFF61CE787D43"]
-			optional: true
 			id: "485AFAE5BBEF2FC7"
 			tasks: [
 				{
@@ -508,7 +503,6 @@
 			x: 6.5d
 			y: -3.5d
 			dependencies: ["690CFF61CE787D43"]
-			optional: true
 			id: "6C001E18093FC037"
 			tasks: [
 				{
@@ -533,7 +527,6 @@
 			x: 5.5d
 			y: -1.5d
 			dependencies: ["690CFF61CE787D43"]
-			optional: true
 			id: "540B857F043C24D5"
 			tasks: [
 				{
@@ -558,7 +551,6 @@
 			x: 7.5d
 			y: -4.0d
 			dependencies: ["690CFF61CE787D43"]
-			optional: true
 			id: "3E6706BC4C318A40"
 			tasks: [
 				{
@@ -630,7 +622,6 @@
 			x: 4.5d
 			y: 4.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "22702838FC507A2E"
 			tasks: [{
 				id: "7BC5A77A97F5FEA3"
@@ -642,7 +633,6 @@
 			x: 4.5d
 			y: 2.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "0D2DD9AA960843A3"
 			tasks: [{
 				id: "782FFDDEED06401F"
@@ -654,7 +644,6 @@
 			x: 6.0d
 			y: 3.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "0AD768E4CC10358C"
 			tasks: [{
 				id: "183086ACEB713E82"
@@ -677,7 +666,6 @@
 			x: 5.0d
 			y: 3.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "377F505175DFB790"
 			tasks: [{
 				id: "54E7A3F21AE2CA54"
@@ -689,7 +677,6 @@
 			x: 3.0d
 			y: 3.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "45DA9A3DA47AF2F0"
 			tasks: [{
 				id: "3ECC5C50C2436DB2"
@@ -720,7 +707,6 @@
 			x: 3.5d
 			y: 4.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "224C07AC71C5F40E"
 			tasks: [{
 				id: "353C9F6B5E56C76E"
@@ -732,7 +718,6 @@
 			x: 4.0d
 			y: 3.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "29C9EBD333E59A35"
 			tasks: [{
 				id: "345746E883043F2A"
@@ -744,7 +729,6 @@
 			x: 3.5d
 			y: 2.0d
 			dependencies: ["3514E9C1A8C7400C"]
-			optional: true
 			id: "1684D52FDAAC894B"
 			tasks: [{
 				id: "720D4B73408CD1F0"
@@ -841,36 +825,36 @@
 					id: "mekanism:basic_fluid_tank"
 					Count: 1b
 					tag: {
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
 						mekData: {
-							securityMode: 0
-							Items: [ ]
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:ether_gas"
+									Amount: 14000
 								}
 							}]
+							securityMode: 0
+							Items: [ ]
 						}
 						BlockEntityTag: {
-							ForgeCaps: { }
-							activeState: 0b
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							Items: [ ]
-							updateDelay: 0
-							editMode: 0
 							currentRedstone: 15
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:ether_gas"
+									Amount: 14000
 								}
 							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							ForgeCaps: { }
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
 						}
 					}
 				}
@@ -925,7 +909,6 @@
 			x: 13.0d
 			y: 3.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "65C5D30F48B77D20"
 			tasks: [{
 				id: "285EB289271FF17A"
@@ -942,7 +925,6 @@
 			x: 12.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "7DC044EFFDC208D7"
 			tasks: [{
 				id: "4AF8DF7BC38E419B"
@@ -959,7 +941,6 @@
 			x: 14.0d
 			y: 3.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "014262BDF1BBA54D"
 			tasks: [{
 				id: "56ACF4EA4F91E75C"
@@ -976,7 +957,6 @@
 			x: 13.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "5186CB4CD85B530C"
 			tasks: [{
 				id: "1E468D6A624E64E2"
@@ -993,7 +973,6 @@
 			x: 13.5d
 			y: 4.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "287B47E27EBC2C18"
 			tasks: [{
 				id: "4F813C90DC8DE4F0"
@@ -1005,7 +984,6 @@
 			x: 15.0d
 			y: 3.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "776EE1F5C4565146"
 			tasks: [{
 				id: "6F96A800F8BDA3FD"
@@ -1022,7 +1000,6 @@
 			x: 14.5d
 			y: 4.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "3AFDE3396861A944"
 			tasks: [{
 				id: "74E4102326A71945"
@@ -1034,7 +1011,6 @@
 			x: 15.5d
 			y: 4.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "4A8C60412E59E971"
 			tasks: [{
 				id: "18A5C86DE82D9671"
@@ -1046,7 +1022,6 @@
 			x: 16.5d
 			y: 4.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "2DC012EF21FB359E"
 			tasks: [{
 				id: "45B306381A723562"
@@ -1058,7 +1033,6 @@
 			x: 16.0d
 			y: 3.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "272E27EFE40C913A"
 			tasks: [{
 				id: "0D2B10E4838ACFA2"
@@ -1075,7 +1049,6 @@
 			x: 17.0d
 			y: 3.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "7CB4D47ABC295B92"
 			tasks: [{
 				id: "43C5F3AECB9F88F1"
@@ -1087,7 +1060,6 @@
 			x: 18.0d
 			y: 3.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "15551AC6C68E12E0"
 			tasks: [{
 				id: "532B0FD90F4D6AF6"
@@ -1099,7 +1071,6 @@
 			x: 14.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "393A7BA6768A3F56"
 			tasks: [{
 				id: "185FE487EF5B3069"
@@ -1116,7 +1087,6 @@
 			x: 15.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "1BF511A13DF35C3A"
 			tasks: [{
 				id: "2C993EEE2B11D440"
@@ -1133,7 +1103,6 @@
 			x: 16.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "38FF05B6A26DB2EC"
 			tasks: [{
 				id: "04F5D3F7B29D441B"
@@ -1150,7 +1119,6 @@
 			x: 17.5d
 			y: 4.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "06F84E2C484FAC5B"
 			tasks: [{
 				id: "5949367631EAD828"
@@ -1162,7 +1130,6 @@
 			x: 17.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "4F3EF1574F31A7E2"
 			tasks: [{
 				id: "0D1F3F6898F4E776"
@@ -1174,7 +1141,6 @@
 			x: 18.5d
 			y: 2.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "2782EA80C1C74EBD"
 			tasks: [{
 				id: "3EFA144FCF33A935"
@@ -1186,7 +1152,6 @@
 			x: 18.5d
 			y: 4.0d
 			dependencies: ["0BCCDE24D378F260"]
-			optional: true
 			id: "34AA079FFAFC64BD"
 			tasks: [{
 				id: "363855E6A408A2E5"
@@ -1218,17 +1183,17 @@
 						id: "industrialforegoing:infinity_trident"
 						Count: 1b
 						tag: {
-							Riptide: 0
 							CanCharge: 1b
-							Fluid: {
-								Amount: 0
-								FluidName: "biofuel"
-							}
+							Riptide: 0
 							Channeling: 0b
-							Selected: "POOR"
-							Special: 0b
-							Loyalty: 0
 							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
+							Special: 0b
+							Selected: "POOR"
+							Loyalty: 0
 						}
 					}
 				}
@@ -1239,14 +1204,14 @@
 						id: "industrialforegoing:infinity_drill"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
 							Special: 0b
-							Fluid: {
-								Amount: 0
-								FluidName: "biofuel"
-							}
 							Selected: "POOR"
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
 						}
 					}
 				}
@@ -1257,14 +1222,14 @@
 						id: "industrialforegoing:infinity_saw"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
 							Special: 0b
-							Fluid: {
-								Amount: 0
-								FluidName: "biofuel"
-							}
 							Selected: "POOR"
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
 						}
 					}
 				}
@@ -1275,13 +1240,13 @@
 						id: "industrialforegoing:infinity_hammer"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
-							Special: 0b
+							Energy: 0L
 							Fluid: {
-								Amount: 0
 								FluidName: "biofuel"
+								Amount: 0
 							}
+							Special: 0b
 							Selected: "POOR"
 							Beheading: 0
 						}
@@ -1294,10 +1259,10 @@
 						id: "industrialforegoing:infinity_backpack"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
 							Special: 0b
 							Selected: "POOR"
+							Energy: 0L
 						}
 					}
 				}
@@ -1312,7 +1277,6 @@
 			x: 9.5d
 			y: 10.5d
 			dependencies: ["7B4AF35313D7D779"]
-			optional: true
 			id: "60719C4317D39E5A"
 			tasks: [{
 				id: "42FC1011D077857F"
@@ -1324,7 +1288,6 @@
 			x: 9.0d
 			y: 9.5d
 			dependencies: ["7B4AF35313D7D779"]
-			optional: true
 			id: "3A97E99FEC78E9C2"
 			tasks: [{
 				id: "26CFE6CE592741D6"
@@ -1336,7 +1299,6 @@
 			x: 8.5d
 			y: 8.5d
 			dependencies: ["7B4AF35313D7D779"]
-			optional: true
 			id: "7342B2669D96C509"
 			tasks: [{
 				id: "077D65D9C7397844"
@@ -1385,4 +1347,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

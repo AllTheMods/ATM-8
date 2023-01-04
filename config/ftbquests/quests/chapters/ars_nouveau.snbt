@@ -36,7 +36,6 @@
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
-			optional: true
 			id: "2BE4E3B081CD6EF7"
 			tasks: [{
 				id: "7997FADE76683E8C"
@@ -61,7 +60,6 @@
 			y: -4.0d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
-			optional: true
 			id: "48D5D9D9AD98409F"
 			tasks: [{
 				id: "1624D71379FBBDA6"
@@ -90,7 +88,6 @@
 			y: -3.5d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
-			optional: true
 			id: "34A173721735401B"
 			tasks: [{
 				id: "7CB3845C4BCA9F0E"
@@ -1843,7 +1840,6 @@
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
-			optional: true
 			id: "2C47C9B566A63135"
 			tasks: [{
 				id: "5646241FF2CF806B"
@@ -2144,7 +2140,6 @@
 			y: -3.5d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
-			optional: true
 			id: "04987E54ADC2C057"
 			tasks: [{
 				id: "3BFC384D0B963E6E"
@@ -2169,7 +2164,6 @@
 			y: -3.0d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
-			optional: true
 			id: "6CEAA86EEAAC1203"
 			tasks: [{
 				id: "751B3A47FE592B2F"
@@ -2744,7 +2738,6 @@
 				"This allows you to see nearby magic creatures as well as helping you find amethyst!"
 			]
 			dependencies: ["33682F4B44950123"]
-			optional: true
 			id: "3142A40E1EAEBAA3"
 			tasks: [{
 				id: "07469C1ABB23F686"
@@ -3308,4 +3301,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

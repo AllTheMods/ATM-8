@@ -1,0 +1,538 @@
+{
+	id: "799C3CDB4B74AFB0"
+	group: "2B51AC12041E3F89"
+	order_index: 4
+	filename: "laserio"
+	title: "LaserIO"
+	icon: "laserio:laser_wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Everything needs the logic chips, craft some raw ones and smelt them up"]
+			dependencies: ["0E88A11142EE83ED"]
+			id: "58B745DC045F7759"
+			tasks: [{
+				id: "5A4E44F40850B84A"
+				type: "item"
+				item: "laserio:logic_chip_raw"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "63EE5756BED13F47"
+					type: "item"
+					item: "laserio:logic_chip"
+					count: 4
+				}
+				{
+					id: "69B39B7CBCB42ED8"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["A laser connector is used to connect two nodes together as the default range is 8 blocks between 2 nodes."]
+			dependencies: ["76678CA1A9BA50DB"]
+			id: "2C0B554B17B807BB"
+			tasks: [{
+				id: "683AC371EE67E956"
+				type: "item"
+				item: "laserio:laser_connector"
+			}]
+			rewards: [
+				{
+					id: "2247B1DB87AADB39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "14C65DF38BF67962"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"The nodes are what interacts with blocks in the world. When placed adjacent to a block, you can configure what side of the node to interact with. There are multiple different cards that can go in each face. "
+				""
+				"If you don't know what direction your facing, look at your map!"
+			]
+			dependencies: ["2C0B554B17B807BB"]
+			id: "52D9510B1B406C82"
+			tasks: [{
+				id: "61221578445916C5"
+				type: "item"
+				item: "laserio:laser_node"
+			}]
+			rewards: [
+				{
+					id: "0F626C0302D1F199"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 10
+				}
+				{
+					id: "0592501F73BF9A2A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["The laser wrench is used to link 2 nodes together. By shift right clicking on a node with the wrench it will turn green letting you link it to another node."]
+			dependencies: ["58B745DC045F7759"]
+			id: "76678CA1A9BA50DB"
+			tasks: [{
+				id: "606C9171A1500538"
+				type: "item"
+				item: "laserio:laser_wrench"
+			}]
+			rewards: [{
+				id: "0F283B3734F08326"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"LaserIO is a mod that has similarties to EnderIOs conduits. Items, fluids, energy and redstone can all be interacted through one block face."
+				""
+				"This means a lot of automation can be done very effienctly throw just one block. Time to ge started!"
+			]
+			id: "0E88A11142EE83ED"
+			tasks: [{
+				id: "104728CD9DEA65F6"
+				type: "checkmark"
+				title: "Who does not like lasers?"
+			}]
+			rewards: [
+				{
+					id: "40AC8C771EAC205D"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 8
+				}
+				{
+					id: "48F6382A0692BB0C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "37C564FFC665934D"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "laserio:laseriobook"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: ["Item card will allow you to transfer items between an inventory that has or will accept these items."]
+			dependencies: ["52D9510B1B406C82"]
+			id: "7E1FDB490E4CB83C"
+			tasks: [{
+				id: "133724F8DA596FC8"
+				type: "item"
+				item: "laserio:card_item"
+			}]
+			rewards: [
+				{
+					id: "3894DC19CE09A5D7"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 3
+				}
+				{
+					id: "2690EE914968D759"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			description: ["The fluid card as the name suggests will transfer fluids between inventorys"]
+			dependencies: ["52D9510B1B406C82"]
+			id: "66E8106F629177E2"
+			tasks: [{
+				id: "732B489E24BD7B58"
+				type: "item"
+				item: "laserio:card_fluid"
+			}]
+			rewards: [
+				{
+					id: "7343F3E506962BBB"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "47A5A2F01EB152E8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["The enegry card will allow you to transfer energy via nodes. "]
+			dependencies: ["52D9510B1B406C82"]
+			id: "11D6A0A887E28D9B"
+			tasks: [{
+				id: "397CAA0A9F104823"
+				type: "item"
+				item: "laserio:card_energy"
+			}]
+			rewards: [
+				{
+					id: "2198EBE5308A98F0"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "2AABE60AF79E51C5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			description: ["The redstone card will allow you to transfer redstone signals using the nodes. You will need one for inputting the signal and another for outputting."]
+			dependencies: ["52D9510B1B406C82"]
+			id: "7DDE90DF6C6595E9"
+			tasks: [{
+				id: "2C8535EE40159D2E"
+				type: "item"
+				item: "laserio:card_redstone"
+			}]
+			rewards: [
+				{
+					id: "179271124E44BAA0"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "092EDAC73528E2F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			description: [
+				"This item is very useful when you have a lot of cards. It allows you to store up to 64 cards in one slot if they are the same."
+				""
+				"You can also right click a card in thats in the holder to edit it, just like in a node."
+				""
+				"If you shift click while holding the reader it will suck cards out of your inventory into the reader."
+			]
+			dependencies: ["52D9510B1B406C82"]
+			id: "0B90999291EB6A24"
+			tasks: [{
+				id: "0C1397CDCC995927"
+				type: "item"
+				item: {
+					id: "laserio:card_holder"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24E9A6A087A27D8A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25396389C666828F"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			description: [
+				"This filter will allow you to filter what goes throw nodes."
+				""
+				"You can drag items from JEI straight into the filter!"
+			]
+			dependencies: ["52D9510B1B406C82"]
+			id: "67F63E07200001BD"
+			tasks: [{
+				id: "750EFEE8E0900FB5"
+				type: "item"
+				item: {
+					id: "laserio:filter_basic"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4756AF31CC6461AD"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 3
+				}
+				{
+					id: "6DEFE5C464BE4EF9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			description: ["The counting card has multiple uses, but the main one would be to keep an inventory at a certain stock."]
+			dependencies: ["52D9510B1B406C82"]
+			id: "34E5A066A780D6D1"
+			tasks: [{
+				id: "3B5FD5ADA4112084"
+				type: "item"
+				item: {
+					id: "laserio:filter_count"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+						counts: [
+							{
+								MBAmount: 0
+								Slot: 0
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 1
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 2
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 3
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 4
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 5
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 6
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 7
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 8
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 9
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 10
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 11
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 12
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 13
+								Count: 0
+							}
+							{
+								MBAmount: 0
+								Slot: 14
+								Count: 0
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "39C6755E9522B264"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "690F8B505D439965"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			description: ["The tag filter will allow you to use tags that are on items to filter through resources."]
+			dependencies: ["52D9510B1B406C82"]
+			id: "74334A87DF4C9D50"
+			tasks: [{
+				id: "7C698AB4FA624D19"
+				type: "item"
+				item: {
+					id: "laserio:filter_tag"
+					Count: 1b
+					tag: {
+						tags: [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "239781F1E5EBD813"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			description: ["The mod filter will allow you to filter resources based on what mods they come from."]
+			dependencies: ["52D9510B1B406C82"]
+			id: "6E4DCE02E65DB491"
+			tasks: [{
+				id: "3A790D754B255B52"
+				type: "item"
+				item: {
+					id: "laserio:filter_mod"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B37010DB9331D1E"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "5C204F879C8B9096"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			subtitle: "Faster! Faster! Faster!"
+			description: ["The card overclocker allows a card to operate more faster/frequently"]
+			dependencies: ["52D9510B1B406C82"]
+			id: "68CBE8412B7027D2"
+			tasks: [{
+				id: "6DA77A3BF74AD1D1"
+				type: "item"
+				item: "laserio:overclocker_card"
+			}]
+			rewards: [{
+				id: "1EDEC1AC75B57170"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			subtitle: "More! More! More!"
+			description: ["The node overclocker will allow more than one card to operate at once. So if you had multiple cards this will allow them to run at the same time. "]
+			dependencies: ["52D9510B1B406C82"]
+			id: "0B85AB4CEB0C40B2"
+			tasks: [{
+				id: "5D6E895B8D78DA45"
+				type: "item"
+				item: "laserio:overclocker_node"
+			}]
+			rewards: [
+				{
+					id: "644C6D08D2E6DC9C"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3
+				}
+				{
+					id: "4C80776B930ED083"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

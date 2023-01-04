@@ -969,7 +969,6 @@
 				"To restrict permissions and access to all unconfigured players, configure a card that isn't bound to a player and put it into the manager. The person who placed the Security Manager will always have access to it."
 			]
 			dependencies: ["01F18150EC923482"]
-			optional: true
 			min_width: 300
 			id: "3B84215240D9F2CB"
 			tasks: [{
@@ -1197,7 +1196,6 @@
 			hide_dependency_lines: false
 			dependencies: ["43E8912CB307E421"]
 			hide: false
-			optional: true
 			id: "66D85424EC74EDCC"
 			tasks: [{
 				id: "301E0669A3CD84EF"
@@ -1300,7 +1298,6 @@
 			description: ["When connected to your system, this block will display the current number of an item within your network."]
 			dependencies: ["6904EC449FBEE387"]
 			hide: true
-			optional: true
 			id: "64E85274D24FE394"
 			tasks: [{
 				id: "59E1432B592B686C"
@@ -1657,7 +1654,6 @@
 				"4B81E84CAE814BA9"
 				"4101F8275B41C79B"
 			]
-			optional: true
 			id: "62625CAF6649AB53"
 			tasks: [{
 				id: "4540AB0231FE3B1A"
@@ -1682,7 +1678,6 @@
 			]
 			hide_dependency_lines: false
 			dependencies: ["6092490EC9008A05"]
-			optional: true
 			min_width: 300
 			id: "787415570026FFAA"
 			tasks: [
@@ -1748,7 +1743,6 @@
 			description: ["The &9Filter&r is an item used in a Grid to specify which items or fluids can be visible."]
 			dependencies: ["6904EC449FBEE387"]
 			hide: true
-			optional: true
 			id: "35EC08D610382860"
 			tasks: [{
 				id: "5BFCB4F5C8CCA8C9"
@@ -1926,4 +1920,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

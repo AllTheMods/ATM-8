@@ -888,7 +888,6 @@
 			shape: "diamond"
 			description: ["Provides Ice and Snow recipes!"]
 			dependencies: ["66815AB6FDACCAB7"]
-			optional: true
 			id: "13AFCD3B6F62B986"
 			tasks: [{
 				id: "6BDB280D22CE0118"
@@ -1190,4 +1189,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

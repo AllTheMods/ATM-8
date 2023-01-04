@@ -1333,7 +1333,6 @@
 				"It can be upgraded into a Smelting Factory, increasing the total number of smelting slots up to a maximum of 9."
 			]
 			dependencies: ["162CE44400A63575"]
-			optional: true
 			id: "488DBE69595F38F8"
 			tasks: [{
 				id: "5A081977DB9407EA"
@@ -2916,4 +2915,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

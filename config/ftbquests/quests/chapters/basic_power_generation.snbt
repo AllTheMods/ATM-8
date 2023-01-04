@@ -330,7 +330,6 @@
 				"This is the starter jetpack, and only stores a very tiny amount of power. Make sure to upgrade it quickly!"
 			]
 			dependencies: ["19FBD3C65A96B311"]
-			optional: true
 			id: "201143A8D039A543"
 			tasks: [{
 				id: "5699FA9E0279716C"
@@ -362,7 +361,6 @@
 				"To use, make sure you find the \"settings\" keybind in your keybind settings, under the Building Gadget category."
 			]
 			dependencies: ["19FBD3C65A96B311"]
-			optional: true
 			id: "4FBE6552DAEADDB7"
 			tasks: [{
 				id: "798EE128A6D37669"
@@ -372,11 +370,11 @@
 					Count: 1b
 					tag: {
 						state: {
+							serializer: "buildinggadgets:dummy_serializer"
 							state: {
 								Name: "minecraft:air"
 							}
 							data: { }
-							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
@@ -389,8 +387,8 @@
 						id: "constructionwand:diamond_wand"
 						Count: 1b
 						tag: {
-							Damage: 0
 							wand_options: { }
+							Damage: 0
 						}
 					}
 				}
@@ -437,7 +435,6 @@
 			shape: "diamond"
 			subtitle: "Converts to a Blast Furnace"
 			dependencies: ["7FE88F6B16029995"]
-			optional: true
 			id: "30E59763D0E8684B"
 			tasks: [{
 				id: "5CEA781ACA858233"
@@ -456,7 +453,6 @@
 			shape: "diamond"
 			subtitle: "GO FASTER!"
 			dependencies: ["7FE88F6B16029995"]
-			optional: true
 			id: "7B41010503609641"
 			tasks: [{
 				id: "16A8BEE102ECEFE0"
@@ -475,7 +471,6 @@
 			shape: "diamond"
 			subtitle: "Better Fuel Efficiency"
 			dependencies: ["7FE88F6B16029995"]
-			optional: true
 			id: "483BCD08B820CC30"
 			tasks: [{
 				id: "3DD3BB53E55041A7"
@@ -500,7 +495,6 @@
 				"This will give you wireless power for your furnace!"
 			]
 			dependencies: ["7FE88F6B16029995"]
-			optional: true
 			id: "01188A98FD63631A"
 			tasks: [
 				{
@@ -662,7 +656,6 @@
 				"There is something about lightning, but &o I wouldn't be worried about it."
 			]
 			dependencies: ["12885F27C5152DBB"]
-			optional: true
 			id: "02A068D4CD02D677"
 			tasks: [
 				{
@@ -930,8 +923,8 @@
 						Count: 1b
 						tag: {
 							display: {
-								Name: "\"Winner Cake\""
 								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
+								Name: "\"Winner Cake\""
 							}
 						}
 					}
@@ -949,7 +942,6 @@
 				"Take 4 End Crystals and place 1 on each side of the exit portal."
 			]
 			dependencies: ["1ECF6495A3D77E27"]
-			optional: true
 			id: "6C5EA78B521858CF"
 			tasks: [{
 				id: "792082BC111171A3"
@@ -1252,7 +1244,6 @@
 				"This adds more slots for input and output, as well as converting the furnace to accept power instead of fuel."
 			]
 			dependencies: ["7FE88F6B16029995"]
-			optional: true
 			id: "3DDC4D2ECF77F840"
 			tasks: [{
 				id: "1CE3FC60406FCCCC"
@@ -1352,4 +1343,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

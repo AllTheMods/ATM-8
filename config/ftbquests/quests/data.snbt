@@ -18,4 +18,5 @@
 	grid_scale: 0.5d
 	pause_game: false
 	lock_message: ""
+	progression_mode: "linear"
 }

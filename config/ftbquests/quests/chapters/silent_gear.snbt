@@ -353,7 +353,6 @@
 			subtitle: "It's a Lawn Mower."
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
-			optional: true
 			id: "083ABBA1C45FF960"
 			tasks: [{
 				id: "1BD87FE9B7C97844"
@@ -390,7 +389,6 @@
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
-			optional: true
 			id: "462C1F75A2FB9F02"
 			tasks: [{
 				id: "2BC129A5A112714B"
@@ -427,7 +425,6 @@
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
-			optional: true
 			id: "1E8357755479E259"
 			tasks: [{
 				id: "49B566024C78B433"
@@ -446,7 +443,6 @@
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
-			optional: true
 			id: "1E2F1E036716C031"
 			tasks: [{
 				id: "3F4C79848F8548D5"
@@ -609,7 +605,6 @@
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
-			optional: true
 			id: "21234BB40DB05C78"
 			tasks: [{
 				id: "6F72BC1DF6CBCDED"
@@ -895,7 +890,6 @@
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
-			optional: true
 			id: "2098D8BFADB55D2A"
 			tasks: [{
 				id: "3CB5441C8E4480CC"
@@ -1274,4 +1268,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
