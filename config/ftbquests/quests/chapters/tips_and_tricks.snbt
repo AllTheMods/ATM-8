@@ -188,11 +188,11 @@
 						Count: 1b
 						tag: {
 							state: {
-								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								serializer: "buildinggadgets:dummy_serializer"
+								data: { }
 							}
 						}
 					}
@@ -205,11 +205,11 @@
 						Count: 1b
 						tag: {
 							state: {
-								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								serializer: "buildinggadgets:dummy_serializer"
+								data: { }
 							}
 						}
 					}
@@ -221,13 +221,13 @@
 						id: "buildinggadgets:gadget_copy_paste"
 						Count: 1b
 						tag: {
+							mode: 0b
 							template_id: [I;
 								1687424916
 								-1474150034
 								-1591711937
 								1045183693
 							]
-							mode: 0b
 						}
 					}
 				}
@@ -293,6 +293,13 @@
 				"73F91BF3D424B269"
 				"0F75D7B9F4FF2459"
 				"2A2E3D020B1F5126"
+				"7732A4AE58D1315E"
+				"3FC002E5A6C08DCC"
+				"70B6C9409AE69284"
+				"02BC692836789920"
+				"5D18D7EFC37DB81E"
+				"6E765D09EA7F6462"
+				"59E3C914DBF957D5"
 			]
 			id: "0F8F37D7E12078F5"
 			tasks: [{
@@ -358,6 +365,11 @@
 			x: -2.0d
 			y: 5.0d
 			subtitle: "A Simple Magnet!"
+			description: [
+				"Requires no power."
+				"Do not forget to activate it using right click after you craft it, otherwise it won't work."
+				"You can wear it in a bauble slot."
+			]
 			id: "3FC002E5A6C08DCC"
 			tasks: [{
 				id: "4112D6272EC400DE"
@@ -438,5 +450,66 @@
 				xp: 100
 			}]
 		}
+		{
+			x: -1.5d
+			y: 6.5d
+			subtitle: "Jump higher, run faster!"
+			description: [
+				"This ring will allow you to run faster, jump higher and also gives step assist. It is very handy in early game, where you need to move around a lot."
+				""
+				"It will require the &2Blood Infuser&r, some blood in &2Blood Extractors&r and &2Dark Gems&r which you may find underground."
+				""
+				"The use of it does not require any type of power, mana or energy - it just works!"
+			]
+			id: "6E765D09EA7F6462"
+			tasks: [{
+				id: "7D6452C5E6C01374"
+				type: "item"
+				item: "evilcraft:effortless_ring"
+			}]
+			rewards: [{
+				id: "63655CE3EE6C6E59"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			subtitle: "Tired of always carrying torches?"
+			description: [
+				"You can upgrade your Silent Gear tools to place phantom lights when used."
+				""
+				"Craft a &2Tip Upgrade Blueprint&f, and use it to make a &2Glowstone Tip Upgrade&f."
+				""
+				"Right clicking with the tool will now place lights. Note that this costs a small amount of durability."
+			]
+			id: "59E3C914DBF957D5"
+			tasks: [{
+				id: "24C7CB7D051209E1"
+				type: "item"
+				item: {
+					id: "silentgear:tip"
+					Count: 1b
+					tag: {
+						Materials: [{
+							Item: {
+								id: "minecraft:glowstone_dust"
+								Count: 1b
+							}
+							ID: "silentgear:glowstone"
+						}]
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "11540189BBC70AD7"
+				type: "xp"
+				xp: 10
+			}]
+		}
 	]
+	quest_links: [ ]
 }

@@ -58,6 +58,12 @@
 			x: 1.5d
 			y: 0.0d
 			shape: "rsquare"
+			subtitle: "Doesn't look like much."
+			description: [
+				"This is the base for simple machines in Industrial Foregoing."
+				""
+				"Crafting extras is never a bad idea."
+			]
 			dependencies: ["55820773BDD5319D"]
 			id: "6E616DB197387C86"
 			tasks: [{
@@ -92,6 +98,14 @@
 		{
 			x: 5.0d
 			y: 0.0d
+			subtitle: "Get some material for the ducks."
+			description: [
+				"&2Latex Processing Unit&r turns liquid &2Latex&r into &2Dry Rubber&r pieces. These can then be used to create &2Plastic&r."
+				""
+				"Plastic will be needed for pretty much every machine or item from Industrial Foregoing."
+				""
+				"A single &2Latex Processing Unit&r can usually ingest Latex from several &2Fluid Extractors&r."
+			]
 			dependencies: ["321FA7348E532F4E"]
 			id: "6FF04DD735346BED"
 			tasks: [{
@@ -155,36 +169,36 @@
 					id: "mekanism:basic_fluid_tank"
 					Count: 1b
 					tag: {
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
 						mekData: {
 							securityMode: 0
 							Items: [ ]
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:latex"
+									Amount: 14000
 								}
 							}]
 						}
 						BlockEntityTag: {
-							ForgeCaps: { }
-							activeState: 0b
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							Items: [ ]
-							updateDelay: 0
-							editMode: 0
 							currentRedstone: 15
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:latex"
+									Amount: 14000
 								}
 							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							ForgeCaps: { }
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
 						}
 					}
 				}
@@ -309,8 +323,8 @@
 								FluidTanks: [{
 									Tank: 0b
 									stored: {
-										Amount: 14000
 										FluidName: "industrialforegoing:pink_slime"
+										Amount: 14000
 									}
 								}]
 							}
@@ -330,8 +344,8 @@
 								FluidTanks: [{
 									Tank: 0b
 									stored: {
-										Amount: 14000
 										FluidName: "industrialforegoing:meat"
+										Amount: 14000
 									}
 								}]
 							}
@@ -841,36 +855,36 @@
 					id: "mekanism:basic_fluid_tank"
 					Count: 1b
 					tag: {
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
 						mekData: {
 							securityMode: 0
 							Items: [ ]
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:ether_gas"
+									Amount: 14000
 								}
 							}]
 						}
 						BlockEntityTag: {
-							ForgeCaps: { }
-							activeState: 0b
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							Items: [ ]
-							updateDelay: 0
-							editMode: 0
 							currentRedstone: 15
 							FluidTanks: [{
 								Tank: 0b
 								stored: {
-									Amount: 14000
 									FluidName: "industrialforegoing:ether_gas"
+									Amount: 14000
 								}
 							}]
+							updateDelay: 0
+							activeState: 0b
+							editMode: 0
+							ForgeCaps: { }
+							Items: [ ]
+							id: "mekanism:basic_fluid_tank"
+							redstone: 0b
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
 						}
 					}
 				}
@@ -1218,17 +1232,17 @@
 						id: "industrialforegoing:infinity_trident"
 						Count: 1b
 						tag: {
-							Riptide: 0
 							CanCharge: 1b
-							Fluid: {
-								Amount: 0
-								FluidName: "biofuel"
-							}
+							Riptide: 0
 							Channeling: 0b
-							Selected: "POOR"
-							Special: 0b
-							Loyalty: 0
 							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
+							Special: 0b
+							Selected: "POOR"
+							Loyalty: 0
 						}
 					}
 				}
@@ -1239,14 +1253,14 @@
 						id: "industrialforegoing:infinity_drill"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
 							Special: 0b
-							Fluid: {
-								Amount: 0
-								FluidName: "biofuel"
-							}
 							Selected: "POOR"
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
 						}
 					}
 				}
@@ -1257,14 +1271,14 @@
 						id: "industrialforegoing:infinity_saw"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
 							Special: 0b
-							Fluid: {
-								Amount: 0
-								FluidName: "biofuel"
-							}
 							Selected: "POOR"
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
 						}
 					}
 				}
@@ -1275,13 +1289,13 @@
 						id: "industrialforegoing:infinity_hammer"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
-							Special: 0b
+							Energy: 0L
 							Fluid: {
-								Amount: 0
 								FluidName: "biofuel"
+								Amount: 0
 							}
+							Special: 0b
 							Selected: "POOR"
 							Beheading: 0
 						}
@@ -1294,10 +1308,10 @@
 						id: "industrialforegoing:infinity_backpack"
 						Count: 1b
 						tag: {
-							Energy: 0L
 							CanCharge: 1b
 							Special: 0b
 							Selected: "POOR"
+							Energy: 0L
 						}
 					}
 				}
@@ -1385,4 +1399,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
