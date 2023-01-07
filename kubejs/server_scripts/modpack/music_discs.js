@@ -8,7 +8,6 @@ ServerEvents.recipes(e => {
         D: 'minecraft:blue_dye'
     }).id('kubejs:minecraft/music_disk_otherside')
 
-    /*
     //botania
     e.shaped('botania:record_gaia_1',['MC','SD'],{
         M: 'mysticalagriculture:blank_record',
@@ -22,7 +21,7 @@ ServerEvents.recipes(e => {
         S: 'mysticalagriculture:mystical_flower_essence',
         D: 'botania:black_petal'
     }).id('kubejs:botania/record_gaia_2')
-*/
+
     //Blue skies
     e.shaped('blue_skies:blinding_rage',['MC','SD'],{
         M: 'mysticalagriculture:blank_record',
