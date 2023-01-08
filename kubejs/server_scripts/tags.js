@@ -4,6 +4,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:cheese', '#forge:cheeses')
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('forge:dusts/ender', 'ae2:ender_dust')
+  event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
 
   //temp byg fix until above 2.0.0.13
   event.add('c:black_sand', '#forge:black_sand')
@@ -17,6 +18,14 @@ ServerEvents.tags('block', event => {
   event.add('buildinggadgets:blacklist/generic', '#forge:relocation_not_supported')
   event.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
   event.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, '@waystones'])
+  event.add('ars_nouveau:golem/budding', [
+    'minecraft:budding_amethyst',
+    'ae2:damaged_budding_quartz',
+    'ae2:chipped_budding_quartz',
+    'ae2:flawed_budding_quartz',
+    'ae2:flawless_budding_quartz'
+  ]);
+  event.add('ars_nouveau:golem/cluster', ['minecraft:amethyst_cluster', 'ae2:quartz_cluster']);
 })
 
 ServerEvents.tags('entity_type', event => {
