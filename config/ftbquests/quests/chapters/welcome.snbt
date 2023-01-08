@@ -30,7 +30,7 @@
 			""
 			"If you're new to modded MC, make sure to check out the chapter &9Getting Started&r to get you on your feet!"
 			""
-			"ATM8 is currently in the early stages of the modpack. New mods will be added over time. If you have any questions or issues, feel free to join the ATM discord!"
+			"If you have any questions or issues, feel free to join the ATM discord!"
 			""
 			"Note: Quests are optional."
 		]
@@ -54,4 +54,5 @@
 			}
 		]
 	}]
+	quest_links: [ ]
 }
