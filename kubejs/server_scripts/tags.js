@@ -4,6 +4,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:cheese', '#forge:cheeses')
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('forge:dusts/ender', 'ae2:ender_dust')
+  event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
 
   //temp byg fix until above 2.0.0.13
   event.add('c:black_sand', '#forge:black_sand')
@@ -39,10 +40,6 @@ ServerEvents.tags('fluid', event =>{
   event.add('forge:crude_oil', 'ad_astra:oil')
   event.remove('minecraft:water', 'ad_astra:oil')
 })
-
-ServerEvents.tags('item', (event) =>{
-  event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal']);
-});
 
 //temp fix for bambooeverything breaking boat tags until above 2.2.4
 ServerEvents.highPriorityData(event => {
