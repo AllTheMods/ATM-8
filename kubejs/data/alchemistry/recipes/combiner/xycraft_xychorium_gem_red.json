@@ -1,0 +1,27 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "alchemistry:combiner",
+  "input": [
+    {
+      "ingredient": {
+        "item": "chemlib:technetium"
+      },
+      "count": 3
+    },
+    {
+      "ingredient": {
+        "item": "chemlib:cadmium"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "chemlib:oxygen"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "xycraft_world:xychorium_gem_red"
+  }
+}

@@ -118,7 +118,7 @@
 		}
 		{
 			x: 23.5d
-			y: 3.0d
+			y: 4.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: -30.0d
@@ -215,11 +215,7 @@
 					id: "25B2004192CD0C44"
 					type: "item"
 					item: "mekanism:energy_tablet"
-				}
-				{
-					id: "6186D1DEB76B8C0A"
-					type: "item"
-					item: "mekanism:energy_tablet"
+					count: 2L
 				}
 			]
 			rewards: [
@@ -372,11 +368,11 @@
 					Count: 1b
 					tag: {
 						state: {
+							serializer: "buildinggadgets:dummy_serializer"
 							state: {
 								Name: "minecraft:air"
 							}
 							data: { }
-							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
@@ -498,6 +494,8 @@
 				"Hook the Wireless Heat Transmitter block up to your power system. Place the receiver into the transmitter to link them, then place the receiver into your furnace as fuel."
 				""
 				"This will give you wireless power for your furnace!"
+				""
+				"You can also just make the Factory Upgrade, which is probably better. "
 			]
 			dependencies: ["7FE88F6B16029995"]
 			optional: true
@@ -550,6 +548,11 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "6252636A2D3A7207"
+					type: "item"
+					item: "ironfurnaces:augment_speed"
+				}
 			]
 		}
 		{
@@ -588,9 +591,7 @@
 			x: 14.5d
 			y: -0.5d
 			description: [
-				"Now it's time to find some diamonds. We'll need this to get some obsidian to head to the Nether."
-				""
-				"Note: Other Gems work like Ruby, Peridot, etc. They have a mining level of Obsidian."
+				"Now it's time to find some diamonds. We'll need them to get some obsidian to head to the Nether."
 				""
 				"You probably already have diamonds at this point too."
 			]
@@ -610,7 +611,8 @@
 		}
 		{
 			title: "To the Nether!"
-			x: 17.0d
+			icon: "allthetweaks:mini_nether"
+			x: 19.0d
 			y: -0.5d
 			shape: "square"
 			subtitle: "Speedrunners are already there."
@@ -634,6 +636,13 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "7A01B52A689239A6"
+					type: "advancement"
+					icon: "allthetweaks:mini_nether"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
 				}
 			]
 			rewards: [
@@ -691,15 +700,20 @@
 		}
 		{
 			title: "Time for some REAL Ingots"
-			x: 21.5d
-			y: -1.5d
+			x: 21.0d
+			y: -2.5d
 			subtitle: "The First of Many"
 			description: [
-				"Use the Netherite to upgrade your pickaxe, and then let's find some Allthemodium Ore!"
+				"To mine Allthemodium, you'll need a pickaxe made of Netherite or an equivalent mining level. Crimson Steel from Silent Gear works as well."
 				""
-				"*Note: This is found in Deep Dark biomes inside cave ceilings and walls."
+				"Allthemodium ore is found inside of the Deep Dark biomes along the cave ceilings and walls."
+				""
+				"It is also more abundant in the mining dimension within the Deepslate layer."
 			]
-			dependencies: ["7DF06305EBE094ED"]
+			dependencies: [
+				"7DF06305EBE094ED"
+				"101EF1ECBAD423C1"
+			]
 			dependency_requirement: "one_completed"
 			id: "6A4211C61120DBE8"
 			tasks: [{
@@ -772,11 +786,13 @@
 		{
 			title: "The Search For Vibranium"
 			x: 23.5d
-			y: -1.5d
+			y: -2.5d
 			description: [
-				"For your next mining level upgrade, you'll need Vibranium."
+				"&dVibranium&r is an end-game level ore mined from the Nether or the Other."
 				""
 				"Vibranium can be found in the Nether in Crimson and Warped Forests, between Y100 to Y123."
+				""
+				"It can be found in any biome in the Other between Y0 and Y20."
 			]
 			dependencies: ["6A4211C61120DBE8"]
 			id: "75A0CAF9E85198EF"
@@ -805,50 +821,18 @@
 			]
 		}
 		{
-			title: "Time to Farm Ender Pearls"
-			x: 19.5d
-			y: 0.5d
-			subtitle: "In the Nether...."
-			description: [
-				"We'll need to start gathering some Ender Pearls to make Eyes of Ender."
-				""
-				"You use the Eyes of Ender to find Strongholds, which have the portal to the End!"
-				""
-				"The best place to farm Enderman naturally is in the Nether in the Warped Forests."
-			]
-			dependencies: ["0B8213C1DDCC540F"]
-			id: "2ED764474EAC9315"
-			tasks: [{
-				id: "3918D137B6EDB405"
-				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 12L
-			}]
-			rewards: [
-				{
-					id: "2B77F6160A5E15F5"
-					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 4
-				}
-				{
-					id: "07A91F4E52740FD1"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
 			title: "The Quest to Find the End Portal"
-			x: 21.5d
-			y: 0.5d
+			x: 21.0d
+			y: 1.0d
 			subtitle: "A few on us."
 			description: [
-				"Make you some Eyes of Ender. You'll use these to find the End Portal!"
+				"We'll need to start gathering some Ender Pearls to make Eyes of Ender. You'll use these to find the End Portal!"
 				""
-				"Once you find the Fortress, you'll need Eyes of Ender to active the End Portal."
+				"The best place to farm Ender Pearls is in the End.... but before that, you can head to the Warped Forests of the Nether to farm Enderman."
+				""
+				"Once you've made enough Ender Eyes, right click them in the overworld and they'll lead you to a Stronghold."
 			]
-			dependencies: ["2ED764474EAC9315"]
+			dependencies: ["0B8213C1DDCC540F"]
 			id: "1B47EE1C29C4AD73"
 			tasks: [{
 				id: "4148B074789F0E59"
@@ -873,7 +857,7 @@
 		{
 			title: "To the End!"
 			x: 23.5d
-			y: 0.5d
+			y: 1.0d
 			shape: "square"
 			subtitle: "....and Beyond!"
 			description: [
@@ -886,7 +870,6 @@
 			tasks: [{
 				id: "3362B111DD9FD687"
 				type: "advancement"
-				title: "The End?"
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
 			}]
@@ -897,22 +880,18 @@
 			}]
 		}
 		{
-			title: "&5Kill the Ender Dragon!"
+			title: "Kill the &5Ender Dragon!"
 			x: 26.5d
-			y: -0.5d
+			y: 1.0d
 			shape: "square"
 			subtitle: "For the first time....."
 			description: ["Head to the End and kill the Ender Dragon!"]
-			dependencies: [
-				"75A0CAF9E85198EF"
-				"1ECF6495A3D77E27"
-			]
-			size: 2.0d
+			dependencies: ["1ECF6495A3D77E27"]
+			size: 1.5d
 			id: "5C769E0D5C1F806E"
 			tasks: [{
-				id: "07C4196E1DC6560B"
+				id: "3C71717D4A3ECB22"
 				type: "advancement"
-				title: "Kill the Ender Dragon!"
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 			}]
@@ -930,8 +909,8 @@
 						Count: 1b
 						tag: {
 							display: {
-								Name: "\"Winner Cake\""
 								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
+								Name: "\"Winner Cake\""
 							}
 						}
 					}
@@ -941,7 +920,7 @@
 		{
 			title: "How to Resummon the Dragon"
 			x: 23.5d
-			y: 2.0d
+			y: 3.0d
 			subtitle: "In case someone has already killed it..."
 			description: [
 				"If you're on a server where the Ender Dragon is already killed, you'll need to resummon it."
@@ -965,8 +944,8 @@
 		}
 		{
 			icon: "minecraft:ender_pearl"
-			x: 29.0d
-			y: -0.5d
+			x: 28.5d
+			y: 1.0d
 			subtitle: "It's actually really pretty."
 			description: [
 				"If you didn't know, there is more to the End than just killing the dragon."
@@ -976,9 +955,10 @@
 			dependencies: ["5C769E0D5C1F806E"]
 			id: "1EC4BA2569828891"
 			tasks: [{
-				id: "2675B5F872C3F81C"
-				type: "checkmark"
-				title: "To the REAL End"
+				id: "0AAC62680E169F06"
+				type: "advancement"
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "072FD927242F3038"
@@ -988,7 +968,7 @@
 		}
 		{
 			title: "Vanilla \"Flight\""
-			x: 31.0d
+			x: 30.5d
 			y: -0.5d
 			subtitle: "But we have a jetpack?"
 			description: [
@@ -996,7 +976,10 @@
 				""
 				"Defeat the enemies there and make your way to the loot room, and you'll find yourself your first Elytra."
 			]
-			dependencies: ["1EC4BA2569828891"]
+			dependencies: [
+				"1EC4BA2569828891"
+				"57F1BD179BBCDB6D"
+			]
 			id: "427B251ABCD4B085"
 			tasks: [{
 				id: "3BAF0CA8558749AE"
@@ -1025,15 +1008,19 @@
 		}
 		{
 			title: "&5Unobtainium"
-			x: 29.0d
-			y: -2.0d
+			x: 28.5d
+			y: -2.5d
+			shape: "octagon"
 			subtitle: "More like OBtainium amirite?"
 			description: [
 				"Unobtainium ore is only found in End Highland biomes. "
 				""
 				"*Note: Having a Nature's Compass will help you find the biome!"
 			]
-			dependencies: ["1EC4BA2569828891"]
+			dependencies: [
+				"1EC4BA2569828891"
+				"75A0CAF9E85198EF"
+			]
 			id: "57F1BD179BBCDB6D"
 			tasks: [{
 				id: "4B22F50FBF14B537"
@@ -1061,11 +1048,13 @@
 		}
 		{
 			title: "Netherite Upgrade"
-			x: 19.5d
-			y: -1.5d
+			x: 19.0d
+			y: -2.5d
 			subtitle: "Ancient... or something."
 			description: [
-				"Heading into the Nether, you can find yourself some Ancient Debris to create some Netherite for an upgrade!"
+				"Heading into the Nether, you can find yourself some &5Ancient Debris&r to create some Netherite for an upgrade!"
+				""
+				"The best way to find Ancient Debris is to head to ~y15 and dig around there. You can also find Netherite scraps inside of chests within the Nether."
 				""
 				"Netherite also makes a great coating for Silent Gear items."
 			]
@@ -1165,7 +1154,7 @@
 				""
 				"In the Iron Furnace, you'll set it to Input from the left and Output to the top. Make sure to select the auto-input and output buttons."
 				""
-				"{image:atm:textures/questpics/mekanism_easy_setup.png width:100 height:100 align:1}"
+				"{image:atm:textures/questpics/mekanism_easy_setup.png width:150 height:100 align:1}"
 			]
 			dependencies: ["487F54A97A334E04"]
 			id: "216E75E350303F42"
@@ -1274,8 +1263,8 @@
 			]
 		}
 		{
-			x: 21.5d
-			y: -3.0d
+			x: 21.0d
+			y: -4.0d
 			shape: "pentagon"
 			description: [
 				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
@@ -1305,13 +1294,16 @@
 			]
 		}
 		{
-			x: 21.0d
-			y: -4.0d
+			title: "The Other"
+			x: 20.0d
+			y: -4.5d
 			shape: "octagon"
 			description: [
 				"You'll find a ton of ore in the Other. It's filled to the brim with amazing ore generation, as well as Ancient Forests."
 				""
 				"The berries you can find growing from the vines are great food sources, and they also give you Night Vision!"
+				""
+				"This is also the home of the Pigliches."
 			]
 			dependencies: ["1E38F655420EDB2E"]
 			id: "2761C04C3AD87F05"
@@ -1329,7 +1321,7 @@
 		}
 		{
 			x: 22.0d
-			y: -4.0d
+			y: -4.5d
 			shape: "octagon"
 			description: [
 				"The Mining Dimension is the perfect place to mine. Hence the name!"
@@ -1351,5 +1343,114 @@
 				xp: 100
 			}]
 		}
+		{
+			title: "Kill the &dWarden&r"
+			x: 26.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"The &9Warden&r can be summoned by activating enough Sculk Shriekers."
+				""
+				"You'll find these in the Deep Dark, and can easily set them off by making noise near a Sculk Sensor."
+			]
+			dependencies: ["101EF1ECBAD423C1"]
+			size: 1.5d
+			id: "3350A63CD2DB3912"
+			tasks: [{
+				id: "7077DD57064F9488"
+				type: "advancement"
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "52C50CEC00B8AEC3"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "Finding the Deep Dark"
+			icon: "minecraft:sculk_sensor"
+			x: 21.0d
+			y: -1.5d
+			description: [
+				"Maybe you've already stumbled upon the &dDeep Dark&r in your mining adventures. Maybe you're still looking for it."
+				""
+				"To help you find it, make yourself a &eNature's Compass&r. You can right click with it, type in the biome you are looking for, and it'll search for it for you."
+			]
+			dependencies: ["0B8213C1DDCC540F"]
+			id: "101EF1ECBAD423C1"
+			tasks: [{
+				id: "3EEA3BB61B5E3E8B"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4E5AAD0D32AF57A2"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+				{
+					id: "2F1DF9CA22DD308A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&dCreative Flight&r"
+			x: 33.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "Look Ma, I'm flying! Creatively!"
+			description: ["The &dAngel Ring&r allows the player to have Creative Flight at the cost of experience. Make sure to put it in your ring slot to free up inventory space!"]
+			dependencies: ["427B251ABCD4B085"]
+			size: 2.5d
+			id: "6A1751470C1E7B9A"
+			tasks: [{
+				id: "31376CC991071EAC"
+				type: "item"
+				item: "angelring:angel_ring"
+			}]
+		}
+		{
+			icon: "allthetweaks:atm_star"
+			x: 37.0d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"We've created ourselves creative flight, now we need creative everything else."
+				""
+				"How do we do this? By making the &dATM Star&r. This is a long journey of mastering most of the mods in the pack. Do you think you are up to it?"
+				""
+				"Stay tuned for &aPart 3: To the Star&r!"
+			]
+			dependencies: ["6A1751470C1E7B9A"]
+			hide: true
+			size: 3.0d
+			id: "27084CF8323FEDEF"
+			tasks: [{
+				id: "4A8D1DF37ED76382"
+				type: "checkmark"
+				title: "The &5ATM Star&r"
+			}]
+			rewards: [{
+				id: "34A0FA109AC52ACD"
+				type: "item"
+				item: "croptopia:starfruit"
+			}]
+		}
 	]
+	quest_links: [ ]
 }

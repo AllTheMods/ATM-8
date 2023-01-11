@@ -45,14 +45,14 @@ ServerEvents.recipes(e => {
     S: 'allthetweaks:atm_star',
     M: 'ars_nouveau:source_gem_block'
   })
-  /*  No Botania
+
   ///# Botania
     e.shaped('botania:creative_pool', ['RMR', 'MSM', 'RMR'], {
       S: 'allthetweaks:atm_star',
       M: 'botania:mana_pool',
       R: '#botania:runes'
     }).id('kubejs:botania/creative_pool')
-  */
+  
   ///# Create
   e.custom({
     type: "create:mechanical_crafting",
