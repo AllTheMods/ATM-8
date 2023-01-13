@@ -1,0 +1,33 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "alchemistry:dissolver",
+  "input": {
+    "ingredient": {
+      "item": "xycraft_world:xychorium_gem_light"
+    },
+    "count": 1
+  },
+  "output": {
+    "rolls": 1,
+    "weighted": false,
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "item": "chemlib:technetium",
+            "count": 3
+          },
+          {
+            "item": "chemlib:aluminum",
+            "count": 1
+          },
+          {
+            "item": "chemlib:oxygen",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  }
+}

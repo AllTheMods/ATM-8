@@ -53,13 +53,13 @@
 									-1868942693
 									1690810404
 								]
-								Name: "82000"
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTA1MjI1MjUyMSwKICAicHJvZmlsZUlkIiA6ICI5YmQwZjk3OWY2MTc0ODRlOTA5YTMyOWI2NGM3YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGVjZjI1NzkyZDc3YTc4NzkzZjcxNDY3OGUxMTk4YTY1ZDY3OTA3OTI5YWIyZDRlYmZmZjZlZmQwYTRlZWVhIgogICAgfQogIH0KfQ=="
 										Signature: "afEokwjhQtrEuhPrUCmvW/OHzXnvehI3eVhaYzEFWtMtoeHyv2sEuo98N8+wdJD96s20vNYxzrW+epk27SVhGXzd9wDg0An6Q3OcdlWXeENr2nN4HEtxdWxodBHZU3/vdVKv7WcsGK0Oqu7PXIdUj1pRA9e6YS2MpMapS7b+65S6EmeC4zZTir4rOFbzZaDno1dNuOeyCX5azT8vF6B1ayMbfxo6NyhRz/PhY0Wp6ArZXAjgQXUUoBUSFHRnz25U4GqdlDiDF8ZDeP314lDbws0kjYpuM9Kagj71xvlUC3bFgFFGXzvXP0gYfexxMBU91T37jDrQwaXAywP+lfArCh3G/QwwJ7jwBFPc1B2Pqb0+z9w2r7ntM/VC/R/1w8xyyYmHB/xE+XIicx97bfNl/Yi7M6mkprlFq3H6Be/KD2n/MZ+O/R9bOklryen811LuTfiBPXhR2a5ye3prkcV+WMWNS65q5HCw6/F8ZBydj/Uym++fHWW/mKB7kBbj2gcZf5fukw2KTIuEcZQVHRKyRQNns4JSBlXb90VKg56rNmwcs2CnVs+sNrCTWFqYocJAdQ+F25pdJ0wbQhXUSAV709F2phRuYurCW+2QyvyO8LlRHKjfSQ59VxxihnEQOqYfiBW49E+Dut5aQiFif6c9UDtTATvXucase/7v4ni7yug="
 									}]
 								}
+								Name: "82000"
 							}
 						}
 					}
@@ -122,34 +122,25 @@
 			y: 0.5d
 			subtitle: "\"COMIC #42: shearching 4 bobby [Fischer]\""
 			description: [
-				"Now that you have your first Charged Certus Quartz Crystal, it's time to put it to use on the final important step towards getting up and running with AE2."
+				"It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center."
 				""
-				"It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a core of &bFluix Blocks&f with a &bSky Stone Chest&f in its center."
+				"This cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components."
 				""
-				"This chest usually contains at least one of the four different &ePresses&f used in the Inscriber to make AE2's special crafting components. In this pack, however, instead of needing to find multiple meteorites to complete the set, it is possible to craft the remaining ones using some of the Sky Stone mined from the meteorites."
+				"The easiest way to locate a meteorite is by crafting a &eMeteorite Compass&r by placing a compass inside of a Charger."
 			]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "51236544BFEF487B"
 			tasks: [
 				{
-					id: "616E037C2D135DEE"
+					id: "4D57E005D20BEDB9"
 					type: "item"
-					item: "ae2:calculation_processor_press"
+					item: "ae2:meteorite_compass"
 				}
 				{
-					id: "23C1CFAE250033CD"
-					type: "item"
-					item: "ae2:engineering_processor_press"
-				}
-				{
-					id: "4F4058686BD08FA9"
-					type: "item"
-					item: "ae2:logic_processor_press"
-				}
-				{
-					id: "58B223074092B8E4"
-					type: "item"
-					item: "ae2:silicon_press"
+					id: "4D25BF3C4F05025D"
+					type: "advancement"
+					advancement: "ae2:main/presses"
+					criterion: ""
 				}
 			]
 			rewards: [
@@ -313,9 +304,7 @@
 			description: [
 				"Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network."
 				""
-				"As a head start, any meteorite you find in the world will contain a core of 6 Fluix Blocks, for a total of 24 crystals per meteorite."
-				""
-				"However, you'll typically want to mass produce these, and the way to do so is to start with making &bFluix Dust&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water. Then you can grow the dust into crystals in the same way as you would with Certus Quartz via seeds."
+				"You'll typically want to mass produce these, and the way to do so is to make a &bFluix Crystal&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water. This will give you a &eFluix Crystal&r which you can turn to dust in an Inscriber."
 			]
 			dependencies: ["68B0B3DAF1145191"]
 			id: "4BF0BB763BFFACF0"
@@ -2572,4 +2561,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

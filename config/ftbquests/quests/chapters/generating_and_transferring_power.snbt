@@ -125,11 +125,7 @@
 			y: 1.5d
 			shape: "diamond"
 			subtitle: "Using the Sun"
-			description: [
-				"Aside from the Wind Generator, this is probably one of the best ways to generate passive RF/FE using renewable resources."
-				""
-				"The base version produces about 17.6FE/t"
-			]
+			description: ["Aside from the Wind Generator, this is probably one of the best ways to generate passive RF/FE using renewable resources."]
 			hide_dependency_lines: true
 			dependencies: ["4B57DA2DD8F828B6"]
 			id: "48DC9E8E9D21A2FA"
@@ -153,8 +149,6 @@
 				"Mekanism:Generators adds the Wind Generator as a simple way to generate power using the wind."
 				""
 				"The higher up you place these, the more power they produce! They also look cool."
-				""
-				"(About 160FE/Tick at Y319 if you are wondering)"
 			]
 			dependencies: ["4B57DA2DD8F828B6"]
 			id: "109B61D7D9A0FE32"
@@ -386,7 +380,7 @@
 			y: 2.0d
 			shape: "diamond"
 			subtitle: "Even More Sun"
-			description: ["This upgraded Solar Generator will produce around 105.6FE/t"]
+			description: [""]
 			dependencies: ["48DC9E8E9D21A2FA"]
 			id: "2837827CCD8DE8DE"
 			tasks: [{
@@ -425,7 +419,7 @@
 			shape: "diamond"
 			subtitle: "Mekanism"
 			description: [
-				"I'm trying not to be biased here, but Mekanism has one of the best Energy storage items."
+				"I'm trying not to be biased here, but Mekanism has one of the best energy storage items."
 				""
 				"The Basic Energy Cube is easy to configure, easy to create, and stores a lot of power. It can also be upgraded, and can charge items from within the GUI."
 			]
@@ -514,4 +508,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

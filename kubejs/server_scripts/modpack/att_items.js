@@ -5,9 +5,9 @@ ServerEvents.recipes(event => {
     C: 'mysticalagradditions:dragon_scale',
     D: 'occultism:soul_gem',
     A: 'quark:dragon_scale',
-    S: Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),
+    S: [Item.of('blue_skies:poison_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:poison_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
     N: 'allthemodium:piglich_heart',
-    I: Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),
+    I: [Item.of('blue_skies:nature_arc', '{ArcLevel:1}').strongNBT(),Item.of('blue_skies:nature_arc', '{ArcLevel:2}').strongNBT(),'twilightforest:snow_queen_trophy'],
     B: 'minecraft:dragon_breath',
 	G: 'productivebees:inactive_dragon_egg',
     E: 'ars_nouveau:summon_focus'
