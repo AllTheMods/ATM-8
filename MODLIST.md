@@ -1,18 +1,21 @@
 # All the Mods 8
-Complete mod list for version 1.0.1  
-forge version 43.1.47  
+Complete mod list for version 1.0.8  
+forge version 43.2.3  
 
 | Mod Name | Authors | Enabled |
 | :--- | :---: | :---: |
 | [Absent by Design](https://www.curseforge.com/minecraft/mc-mods/absent-by-design) | [Lothrazar](https://www.curseforge.com/members/9457531-lothrazar?username=lothrazar) | ✔️ |
+| [Ad Astra!](https://www.curseforge.com/minecraft/mc-mods/ad-astra) | [AlexNijjar](https://www.curseforge.com/members/101856088-alexnijjar?username=alexnijjar) | ✔️ |
 | [Additional Enchanted Miner](https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner) | [Kotori316](https://www.curseforge.com/members/43922036-kotori316?username=kotori316) | ✔️ |
 | [Additional Lanterns](https://www.curseforge.com/minecraft/mc-mods/additional-lanterns) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [Additional Lights](https://www.curseforge.com/minecraft/mc-mods/additional-lights) | [mgen256](https://www.curseforge.com/members/100889993-mgen256?username=mgen256) | ✔️ |
 | [Advanced Generators](https://www.curseforge.com/minecraft/mc-mods/advanced-generators) | [bdew](https://www.curseforge.com/members/1274872-bdew?username=bdew) | ✔️ |
 | [Advanced Peripherals](https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals) | [srrendi](https://www.curseforge.com/members/101278074-srrendi?username=srrendi) | ✔️ |
-| [Advancement Plaques](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
+| [Advancement Plaques [Forge]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
 | [AE Additions - ExtraCells2 Fork](https://www.curseforge.com/minecraft/mc-mods/ae-additions-extra-cells-2-fork) | [MasterYodAT9G](https://www.curseforge.com/members/1846606-masteryodat9g?username=masteryodat9g) | ✔️ |
+| [AE2 Things [Forge]](https://www.curseforge.com/minecraft/mc-mods/ae2-things-forge) | [thetechnici4n](https://www.curseforge.com/members/101370726-thetechnici4n?username=thetechnici4n) [ProjectET](https://www.curseforge.com/members/102114925-projectet?username=projectet) | ✔️ |
 | [AEInfinityBooster](https://www.curseforge.com/minecraft/mc-mods/aeinfinitybooster) | [hexeptiondev](https://www.curseforge.com/members/12557677-hexeptiondev?username=hexeptiondev) | ✔️ |
+| [AIOT Botania](https://www.curseforge.com/minecraft/mc-mods/aiot-botania) | [MelanX](https://www.curseforge.com/members/28095189-melanx?username=melanx) | ✔️ |
 | [Alchemistry](https://www.curseforge.com/minecraft/mc-mods/alchemistry) | [Dark_Arcana](https://www.curseforge.com/members/9054675-dark_arcana?username=dark_arcana) [Timbroglio_Bat](https://www.curseforge.com/members/102828896-timbroglio_bat?username=timbroglio_bat) | ✔️ |
 | [AlchemyLib](https://www.curseforge.com/minecraft/mc-mods/alchemylib) | [Dark_Arcana](https://www.curseforge.com/members/9054675-dark_arcana?username=dark_arcana) | ✔️ |
 | [All The Tweaks](https://www.curseforge.com/minecraft/mc-mods/all-the-tweaks) | [thevortexFoxTopia](https://www.curseforge.com/members/100737837-thevortexfoxtopia?username=thevortexfoxtopia) | ✔️ |
@@ -23,6 +26,7 @@ forge version 43.1.47
 | [AntiGhost](https://www.curseforge.com/minecraft/mc-mods/antighost) | [Giselbaer](https://www.curseforge.com/members/6050579-giselbaer?username=giselbaer) | ✔️ |
 | [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis) | [Shadows_of_Fire](https://www.curseforge.com/members/10368195-shadows_of_fire?username=shadows_of_fire) | ✔️ |
 | [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) | [squeek502](https://www.curseforge.com/members/13914149-squeek502?username=squeek502) | ✔️ |
+| [Applied Botanics Addon](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon) | [ramidzkh](https://www.curseforge.com/members/19467688-ramidzkh?username=ramidzkh) | ✔️ |
 | [Applied Cooking](https://www.curseforge.com/minecraft/mc-mods/applied-cooking) | [ItsSebastrn](https://www.curseforge.com/members/102332081-itssebastrn?username=itssebastrn) | ✔️ |
 | [Applied Energistics 2 Wireless Terminals](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) | [Mari_023](https://www.curseforge.com/members/33350113-mari_023?username=mari_023) [DomamaN202](https://www.curseforge.com/members/34049695-domaman202?username=domaman202) | ✔️ |
 | [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) | [AlgorithmX2](https://www.curseforge.com/members/10302014-algorithmx2?username=algorithmx2) [thatsIch](https://www.curseforge.com/members/3167415-thatsich?username=thatsich) [thetechnici4n](https://www.curseforge.com/members/101370726-thetechnici4n?username=thetechnici4n) [TeamAppliedEnergistics](https://www.curseforge.com/members/16673090-teamappliedenergistics?username=teamappliedenergistics) [Gimpanse](https://www.curseforge.com/members/101333983-gimpanse?username=gimpanse) | ✔️ |
@@ -30,6 +34,7 @@ forge version 43.1.47
 | [Aquaculture 2](https://www.curseforge.com/minecraft/mc-mods/aquaculture) | [Shadowclaimer](https://www.curseforge.com/members/458081-shadowclaimer?username=shadowclaimer) [Girafi](https://www.curseforge.com/members/8631507-girafi?username=girafi) | ✔️ |
 | [Architectury API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | [shedaniel](https://www.curseforge.com/members/32851078-shedaniel?username=shedaniel) [Juicebus](https://www.curseforge.com/members/57500433-juicebus?username=juicebus) [MaxNeedsSnacks](https://www.curseforge.com/members/19463137-maxneedssnacks?username=maxneedssnacks) | ✔️ |
 | [Ars Creo](https://www.curseforge.com/minecraft/mc-mods/ars-creo) | [baileyholl2](https://www.curseforge.com/members/24293038-baileyholl2?username=baileyholl2) | ✔️ |
+| [Ars Elemental](https://www.curseforge.com/minecraft/mc-mods/ars-elemental) | [Alexth99](https://www.curseforge.com/members/102693238-alexth99?username=alexth99) | ✔️ |
 | [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) | [baileyholl2](https://www.curseforge.com/members/24293038-baileyholl2?username=baileyholl2) [Gootastic](https://www.curseforge.com/members/101593786-gootastic?username=gootastic) | ✔️ |
 | [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) | [ochotonida](https://www.curseforge.com/members/48102743-ochotonida?username=ochotonida) | ✔️ |
 | [ATO - All the Ores](https://www.curseforge.com/minecraft/mc-mods/ato) | [ATMTeam](https://www.curseforge.com/members/36387323-atmteam?username=atmteam) [thevortexFoxTopia](https://www.curseforge.com/members/100737837-thevortexfoxtopia?username=thevortexfoxtopia) | ✔️ |
@@ -45,14 +50,15 @@ forge version 43.1.47
 | [Bigger Reactors](https://www.curseforge.com/minecraft/mc-mods/biggerreactors) | [RogueLogix](https://www.curseforge.com/members/100941744-roguelogix?username=roguelogix) [gizmocodes](https://www.curseforge.com/members/101479881-gizmocodes?username=gizmocodes) | ✔️ |
 | [BlockUI](https://www.curseforge.com/minecraft/mc-mods/blockui) | [H3lay](https://www.curseforge.com/members/27059243-h3lay?username=h3lay) [someaddon](https://www.curseforge.com/members/100114338-someaddon?username=someaddon) [OrionOnline](https://www.curseforge.com/members/20516580-oriononline?username=oriononline) | ✔️ |
 | [Blue Flame Burning](https://www.curseforge.com/minecraft/mc-mods/blueflame) | [LobsterJonn](https://www.curseforge.com/members/101028709-lobsterjonn?username=lobsterjonn) | ✔️ |
-| [Blue Skies](https://www.curseforge.com/minecraft/mc-mods/blue-skies) | [ModdingLegacy](https://www.curseforge.com/members/100160186-moddinglegacy?username=moddinglegacy) [KingPhygieBoo](https://www.curseforge.com/members/17403580-kingphygieboo?username=kingphygieboo) [Lachney](https://www.curseforge.com/members/10725023-lachney?username=lachney) [silver_david](https://www.curseforge.com/members/16594380-silver_david?username=silver_david) | ✔️ |
+| [Blue Skies](https://www.curseforge.com/minecraft/mc-mods/blue-skies) | [ModdingLegacy](https://www.curseforge.com/members/100160186-moddinglegacy?username=moddinglegacy) [KingPhygieBoo](https://www.curseforge.com/members/17403580-kingphygieboo?username=kingphygieboo) [silver_david](https://www.curseforge.com/members/16594380-silver_david?username=silver_david) [Lachney](https://www.curseforge.com/members/10725023-lachney?username=lachney) | ✔️ |
 | [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
+| [Botania](https://www.curseforge.com/minecraft/mc-mods/botania) | [Vazkii](https://www.curseforge.com/members/3852549-vazkii?username=vazkii) | ✔️ |
 | [Botany Pots](https://www.curseforge.com/minecraft/mc-mods/botany-pots) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
 | [Botany Trees](https://www.curseforge.com/minecraft/mc-mods/botany-trees) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
+| [Botarium](https://www.curseforge.com/minecraft/mc-mods/botarium) | [CodexAdrian](https://www.curseforge.com/members/102202423-codexadrian?username=codexadrian) [terrariumearth](https://www.curseforge.com/members/103112623-terrariumearth?username=terrariumearth) [ThatGravyBoat](https://www.curseforge.com/members/25275754-thatgravyboat?username=thatgravyboat) | ✔️ |
 | [Building Gadgets](https://www.curseforge.com/minecraft/mc-mods/building-gadgets) | [Direwolf20](https://www.curseforge.com/members/22300-direwolf20?username=direwolf20) [Error_MiKeY](https://www.curseforge.com/members/8021848-error_mikey?username=error_mikey) | ✔️ |
 | [Cable Tiers](https://www.curseforge.com/minecraft/mc-mods/cable-tiers) | [Ultramegaaa](https://www.curseforge.com/members/100053423-ultramegaaa?username=ultramegaaa) | ✔️ |
 | [Caelus API (Forge)](https://www.curseforge.com/minecraft/mc-mods/caelus) | [TheIllusiveC4](https://www.curseforge.com/members/34683772-theillusivec4?username=theillusivec4) | ✔️ |
-| [Canary](https://www.curseforge.com/minecraft/mc-mods/canary) | [AbdElAziz333](https://www.curseforge.com/members/101777160-abdelaziz333?username=abdelaziz333) | ✔️ |
 | [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) | [SquidDev](https://www.curseforge.com/members/19749640-squiddev?username=squiddev) | ✔️ |
 | [Charging Gadgets](https://www.curseforge.com/minecraft/mc-mods/charging-gadgets) | [Direwolf20](https://www.curseforge.com/members/22300-direwolf20?username=direwolf20) | ✔️ |
 | [Charm of Undying (Forge)](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying) | [TheIllusiveC4](https://www.curseforge.com/members/34683772-theillusivec4?username=theillusivec4) | ✔️ |
@@ -61,7 +67,8 @@ forge version 43.1.47
 | [Clickable advancements[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements) | [someaddon](https://www.curseforge.com/members/100114338-someaddon?username=someaddon) | ✔️ |
 | [Cloth Config API (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | [shedaniel](https://www.curseforge.com/members/32851078-shedaniel?username=shedaniel) [LinkieIsBetterThanK9](https://www.curseforge.com/members/101070148-linkieisbetterthank9?username=linkieisbetterthank9) | ✔️ |
 | [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | [Jaredlll08](https://www.curseforge.com/members/10618648-jaredlll08?username=jaredlll08) | ✔️ |
-| [Comforts (Forge)](https://www.curseforge.com/minecraft/mc-mods/comforts) | [TheIllusiveC4](https://www.curseforge.com/members/34683772-theillusivec4?username=theillusivec4) | ✔️ |
+| [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Comforts (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/comforts) | [TheIllusiveC4](https://www.curseforge.com/members/34683772-theillusivec4?username=theillusivec4) | ✔️ |
 | [Common Capabilities](https://www.curseforge.com/minecraft/mc-mods/common-capabilities) | [kroeser](https://www.curseforge.com/members/13500867-kroeser?username=kroeser) | ✔️ |
 | [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines) | [davenonymous](https://www.curseforge.com/members/17043272-davenonymous?username=davenonymous) [RobotGryphon](https://www.curseforge.com/members/19527004-robotgryphon?username=robotgryphon) | ✔️ |
 | [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) | [MrCrayfish](https://www.curseforge.com/members/7244595-mrcrayfish?username=mrcrayfish) | ✔️ |
@@ -73,7 +80,7 @@ forge version 43.1.47
 | [Corail Tombstone](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone) | [Corail_31](https://www.curseforge.com/members/23915482-corail_31?username=corail_31) | ✔️ |
 | [Corail Woodcutter](https://www.curseforge.com/minecraft/mc-mods/corail-woodcutter) | [Corail_31](https://www.curseforge.com/members/23915482-corail_31?username=corail_31) | ✔️ |
 | [Cosmetic Armor Reworked](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked) | [LainMI](https://www.curseforge.com/members/10050884-lainmi?username=lainmi) | ✔️ |
-| [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) | [ofek2608](https://www.curseforge.com/members/102154719-ofek2608?username=ofek2608) | ✔️ |
+| [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) | [OfekN_](https://www.curseforge.com/members/102154719-ofekn_?username=ofekn_) | ✔️ |
 | [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) | [BlayTheNinth](https://www.curseforge.com/members/12099681-blaytheninth?username=blaytheninth) | ✔️ |
 | [Crash Utilities](https://www.curseforge.com/minecraft/mc-mods/crash-utilities) | [Darkere](https://www.curseforge.com/members/14735285-darkere?username=darkere) | ✔️ |
 | [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition) | [MRHminer](https://www.curseforge.com/members/42029658-mrhminer?username=mrhminer) | ✔️ |
@@ -88,20 +95,21 @@ forge version 43.1.47
 | [Dark Utilities](https://www.curseforge.com/minecraft/mc-mods/dark-utilities) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
 | [DataPack Anvil](https://www.curseforge.com/minecraft/mc-mods/datapack-anvil) | [Sirttas](https://www.curseforge.com/members/101156593-sirttas?username=sirttas) | ✔️ |
 | [Deep Resonance](https://www.curseforge.com/minecraft/mc-mods/deep-resonance) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
-| [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) | [KyaniteMods](https://www.curseforge.com/members/103560889-kyanitemods?username=kyanitemods) | ✔️ |
+| [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) | [KyaniteMods](https://www.curseforge.com/members/103560889-kyanitemods?username=kyanitemods) [angg_xdd](https://www.curseforge.com/members/103642261-angg_xdd?username=angg_xdd) [nitro_dynamite18](https://www.curseforge.com/members/100661346-nitro_dynamite18?username=nitro_dynamite18) [NewJumperr](https://www.curseforge.com/members/102858646-newjumperr?username=newjumperr) | ✔️ |
 | [DefaultSettings](https://www.curseforge.com/minecraft/mc-mods/defaultsettings) | [PT400C](https://www.curseforge.com/members/23917768-pt400c?username=pt400c) | ✔️ |
 | [Delightful](https://www.curseforge.com/minecraft/mc-mods/delightful) | [brdbrn](https://www.curseforge.com/members/7778398-brdbrn?username=brdbrn) | ✔️ |
 | [DimStorage](https://www.curseforge.com/minecraft/mc-mods/dimstorage) | [3divad99](https://www.curseforge.com/members/40107704-3divad99?username=3divad99) | ✔️ |
 | [Domum Ornamentum](https://www.curseforge.com/minecraft/mc-mods/domum-ornamentum) | [OrionOnline](https://www.curseforge.com/members/20516580-oriononline?username=oriononline) | ✔️ |
 | [Dungeon Crawl](https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl) | [xiroc_](https://www.curseforge.com/members/61172887-xiroc_?username=xiroc_) | ✔️ |
+| [Eccentric Tome](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome) | [EccentricVamp](https://www.curseforge.com/members/103181701-eccentricvamp?username=eccentricvamp) | ✔️ |
 | [EdivadLib](https://www.curseforge.com/minecraft/mc-mods/edivadlib) | [3divad99](https://www.curseforge.com/members/40107704-3divad99?username=3divad99) | ✔️ |
 | [Elemental Craft](https://www.curseforge.com/minecraft/mc-mods/elemental-craft) | [Sirttas](https://www.curseforge.com/members/101156593-sirttas?username=sirttas) | ✔️ |
 | [Elytra Slot (Forge)](https://www.curseforge.com/minecraft/mc-mods/elytra-slot) | [TheIllusiveC4](https://www.curseforge.com/members/34683772-theillusivec4?username=theillusivec4) | ✔️ |
-| [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
 | [EnderChests](https://www.curseforge.com/minecraft/mc-mods/enderchests) | [ShetiPhian](https://www.curseforge.com/members/416971-shetiphian?username=shetiphian) | ✔️ |
 | [EnderTanks](https://www.curseforge.com/minecraft/mc-mods/endertanks) | [ShetiPhian](https://www.curseforge.com/members/416971-shetiphian?username=shetiphian) | ✔️ |
 | [Energy Meter](https://www.curseforge.com/minecraft/mc-mods/energymeter) | [DamnRelentless](https://www.curseforge.com/members/11567308-damnrelentless?username=damnrelentless) | ✔️ |
 | [Engineer's Decor](https://www.curseforge.com/minecraft/mc-mods/engineers-decor) | [wilechaote](https://www.curseforge.com/members/51451694-wilechaote?username=wilechaote) | ✔️ |
+| [Ensorcellation](https://www.curseforge.com/minecraft/mc-mods/ensorcellation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
 | [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [Entity Collision FPS Fix](https://www.curseforge.com/minecraft/mc-mods/entity-collision-fps-fix) | [Corgi_Taco](https://www.curseforge.com/members/101137694-corgi_taco?username=corgi_taco) | ✔️ |
 | [Entity Culling Fabric/Forge](https://www.curseforge.com/minecraft/mc-mods/entityculling) | [tr9zw](https://www.curseforge.com/members/100212189-tr9zw?username=tr9zw) | ✔️ |
@@ -131,16 +139,20 @@ forge version 43.1.47
 | [FTB Ultimine (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) | [FTB](https://www.curseforge.com/members/17809311-ftb?username=ftb) [Error_MiKeY](https://www.curseforge.com/members/8021848-error_mikey?username=error_mikey) | ✔️ |
 | [Fuel Goes Here](https://www.curseforge.com/minecraft/mc-mods/fuelgoeshere) | [LobsterJonn](https://www.curseforge.com/members/101028709-lobsterjonn?username=lobsterjonn) | ✔️ |
 | [Functional Storage](https://www.curseforge.com/minecraft/mc-mods/functional-storage) | [Buuz135](https://www.curseforge.com/members/9564587-buuz135?username=buuz135) [Ridanisaurus](https://www.curseforge.com/members/101194827-ridanisaurus?username=ridanisaurus) | ✔️ |
+| [Game Menu Mod Option [Forge]](https://www.curseforge.com/minecraft/mc-mods/gamemenumodoption) | [morimori0317](https://www.curseforge.com/members/30121492-morimori0317?username=morimori0317) | ✔️ |
 | [Gateways to Eternity](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity) | [Shadows_of_Fire](https://www.curseforge.com/members/10368195-shadows_of_fire?username=shadows_of_fire) | ✔️ |
 | [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) | [ThanosGecko](https://www.curseforge.com/members/100005756-thanosgecko?username=thanosgecko) [AzureDoomC](https://www.curseforge.com/members/27597203-azuredoomc?username=azuredoomc) [KyoSleep](https://www.curseforge.com/members/103605561-kyosleep?username=kyosleep) [dertoaster_98](https://www.curseforge.com/members/100021148-dertoaster_98?username=dertoaster_98) | ✔️ |
 | [Get It Together, Drops!](https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops) | [bl4ckscor3](https://www.curseforge.com/members/7876752-bl4ckscor3?username=bl4ckscor3) | ✔️ |
 | [Glassential](https://www.curseforge.com/minecraft/mc-mods/glassential) | [Lykrast](https://www.curseforge.com/members/8776439-lykrast?username=lykrast) | ✔️ |
 | [Gravitational Modulating Additional Unit](https://www.curseforge.com/minecraft/mc-mods/gravitational-modulating-additional-unit) | [지젤쟝다](https://www.curseforge.com/members/45101644-gisellevonbingen?username=gisellevonbingen) | ✔️ |
 | [Guard Villagers](https://www.curseforge.com/minecraft/mc-mods/guard-villagers) | [almightytallestred](https://www.curseforge.com/members/100066251-almightytallestred?username=almightytallestred) | ✔️ |
+| [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted) | [kekie6](https://www.curseforge.com/members/101827342-kekie6?username=kekie6) [AlexNijjar](https://www.curseforge.com/members/101856088-alexnijjar?username=alexnijjar) | ✔️ |
 | [Harvest with ease](https://www.curseforge.com/minecraft/mc-mods/harvest-with-ease) | [Crystal_Spider_](https://www.curseforge.com/members/103199458-crystal_spider_?username=crystal_spider_) | ✔️ |
 | [Health Overlay (Forge)](https://www.curseforge.com/minecraft/mc-mods/health-overlay) | [Terrails](https://www.curseforge.com/members/16509145-terrails?username=terrails) | ✔️ |
+| [Hex Casting](https://www.curseforge.com/minecraft/mc-mods/hexcasting) | [petrak_at](https://www.curseforge.com/members/100560592-petrak_at?username=petrak_at) | ✔️ |
+| [Hexerei](https://www.curseforge.com/minecraft/mc-mods/hexerei) | [JoeFoxe](https://www.curseforge.com/members/102337401-joefoxe?username=joefoxe) | ✔️ |
 | [Hostile Neural Networks](https://www.curseforge.com/minecraft/mc-mods/hostile-neural-networks) | [Shadows_of_Fire](https://www.curseforge.com/members/10368195-shadows_of_fire?username=shadows_of_fire) | ✔️ |
-| [Iceberg](https://www.curseforge.com/minecraft/mc-mods/iceberg) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
+| [Iceberg [Forge]](https://www.curseforge.com/minecraft/mc-mods/iceberg) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
 | [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) | [BluSunrize](https://www.curseforge.com/members/6842539-blusunrize?username=blusunrize) [Sky_Som](https://www.curseforge.com/members/17454091-sky_som?username=sky_som) [malte0811](https://www.curseforge.com/members/23615989-malte0811?username=malte0811) | ✔️ |
 | [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing) | [Buuz135](https://www.curseforge.com/members/9564587-buuz135?username=buuz135) [hrznstudio](https://www.curseforge.com/members/55810610-hrznstudio?username=hrznstudio) | ✔️ |
 | [Integrated Crafting](https://www.curseforge.com/minecraft/mc-mods/integrated-crafting) | [kroeser](https://www.curseforge.com/members/13500867-kroeser?username=kroeser) | ✔️ |
@@ -152,7 +164,6 @@ forge version 43.1.47
 | [Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next) | [mirinimi](https://www.curseforge.com/members/102407594-mirinimi?username=mirinimi) | ✔️ |
 | [Iron Furnaces [FORGE]](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces) | [XenoMustache](https://www.curseforge.com/members/17968469-xenomustache?username=xenomustache) [pizzaatime](https://www.curseforge.com/members/19665883-pizzaatime?username=pizzaatime) | ✔️ |
 | [Iron Jetpacks](https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks) | [BlakeBr0](https://www.curseforge.com/members/19791228-blakebr0?username=blakebr0) | ✔️ |
-| [It Shall Not Tick (ISNT)](https://www.curseforge.com/minecraft/mc-mods/it-shall-not-tick) | [Gaz_](https://www.curseforge.com/members/6881422-gaz_?username=gaz_) | ✔️ |
 | [Item Collectors](https://www.curseforge.com/minecraft/mc-mods/item-collectors) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters) | [LatvianModder](https://www.curseforge.com/members/11776558-latvianmodder?username=latvianmodder) | ✔️ |
 | [JCPlugin](https://www.curseforge.com/minecraft/mc-mods/jcplugin) | [PT400C](https://www.curseforge.com/members/23917768-pt400c?username=pt400c) | ✔️ |
@@ -165,7 +176,7 @@ forge version 43.1.47
 | [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) | [thedarkcolour](https://www.curseforge.com/members/33749215-thedarkcolour?username=thedarkcolour) | ✔️ |
 | [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) | [LatvianModder](https://www.curseforge.com/members/11776558-latvianmodder?username=latvianmodder) | ✔️ |
 | [LaserIO](https://www.curseforge.com/minecraft/mc-mods/laserio) | [Direwolf20](https://www.curseforge.com/members/22300-direwolf20?username=direwolf20) | ✔️ |
-| [Legendary Tooltips](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
+| [Legendary Tooltips [Forge]](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
 | [Let Me Despawn](https://www.curseforge.com/minecraft/mc-mods/let-me-despawn) | [frikinjay1](https://www.curseforge.com/members/102063023-frikinjay1?username=frikinjay1) | ✔️ |
 | [libIPN](https://www.curseforge.com/minecraft/mc-mods/libipn) | [mirinimi](https://www.curseforge.com/members/102407594-mirinimi?username=mirinimi) | ✔️ |
 | [LibX](https://www.curseforge.com/minecraft/mc-mods/libx) | [noeppinoeppi](https://www.curseforge.com/members/48660169-noeppinoeppi?username=noeppinoeppi) [MelanX](https://www.curseforge.com/members/28095189-melanx?username=melanx) | ✔️ |
@@ -195,6 +206,7 @@ forge version 43.1.47
 | [Moonlight Lib](https://www.curseforge.com/minecraft/mc-mods/selene) | [MehVahdJukaar](https://www.curseforge.com/members/101295357-mehvahdjukaar?username=mehvahdjukaar) | ✔️ |
 | [More Dragon Eggs](https://www.curseforge.com/minecraft/mc-mods/more-dragon-eggs) | [Darkere](https://www.curseforge.com/members/14735285-darkere?username=darkere) | ✔️ |
 | [More Overlays Updated](https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated) | [RiDGo8](https://www.curseforge.com/members/100054904-ridgo8?username=ridgo8) | ✔️ |
+| [Morph-o-Tool](https://www.curseforge.com/minecraft/mc-mods/morph-o-tool) | [Vazkii](https://www.curseforge.com/members/3852549-vazkii?username=vazkii) | ✔️ |
 | [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | [YaLTeR](https://www.curseforge.com/members/7495712-yalter?username=yalter) | ✔️ |
 | [MrCrayfish's Furniture Mod](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod) | [MrCrayfish](https://www.curseforge.com/members/7244595-mrcrayfish?username=mrcrayfish) | ✔️ |
 | [Multi-Piston](https://www.curseforge.com/minecraft/mc-mods/multi-piston) | [H3lay](https://www.curseforge.com/members/27059243-h3lay?username=h3lay) [OrionOnline](https://www.curseforge.com/members/20516580-oriononline?username=oriononline) | ✔️ |
@@ -216,6 +228,7 @@ forge version 43.1.47
 | [OpenBlocks Elevator](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator) | [vsngarcia](https://www.curseforge.com/members/22772289-vsngarcia?username=vsngarcia) | ✔️ |
 | [PackMenu](https://www.curseforge.com/minecraft/mc-mods/packmenu) | [Shadows_of_Fire](https://www.curseforge.com/members/10368195-shadows_of_fire?username=shadows_of_fire) | ✔️ |
 | [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) | [Vazkii](https://www.curseforge.com/members/3852549-vazkii?username=vazkii) | ✔️ |
+| [PAUCAL](https://www.curseforge.com/minecraft/mc-mods/paucal) | [petrak_at](https://www.curseforge.com/members/100560592-petrak_at?username=petrak_at) | ✔️ |
 | [Phosphophyllite](https://www.curseforge.com/minecraft/mc-mods/phosphophyllite) | [RogueLogix](https://www.curseforge.com/members/100941744-roguelogix?username=roguelogix) [gizmocodes](https://www.curseforge.com/members/101479881-gizmocodes?username=gizmocodes) | ✔️ |
 | [Pig Pen Cipher](https://www.curseforge.com/minecraft/mc-mods/pig-pen-cipher) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
 | [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez) | [henkelmax](https://www.curseforge.com/members/20569971-henkelmax?username=henkelmax) | ✔️ |
@@ -226,7 +239,7 @@ forge version 43.1.47
 | [Polymorph (Forge)](https://www.curseforge.com/minecraft/mc-mods/polymorph) | [TheIllusiveC4](https://www.curseforge.com/members/34683772-theillusivec4?username=theillusivec4) | ✔️ |
 | [Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) | [thevortexFoxTopia](https://www.curseforge.com/members/100737837-thevortexfoxtopia?username=thevortexfoxtopia) | ✔️ |
 | [Powah! (Rearchitected)](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected) | [thetechnici4n](https://www.curseforge.com/members/101370726-thetechnici4n?username=thetechnici4n) | ✔️ |
-| [Prism](https://www.curseforge.com/minecraft/mc-mods/prism-lib) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
+| [Prism [Forge]](https://www.curseforge.com/minecraft/mc-mods/prism-lib) | [Grend_G](https://www.curseforge.com/members/100663802-grend_g?username=grend_g) | ✔️ |
 | [Productive Bees](https://www.curseforge.com/minecraft/mc-mods/productivebees) | [LobsterJonn](https://www.curseforge.com/members/101028709-lobsterjonn?username=lobsterjonn) | ✔️ |
 | [Pylons](https://www.curseforge.com/minecraft/mc-mods/pylons) | [MutantGumdrop](https://www.curseforge.com/members/17780582-mutantgumdrop?username=mutantgumdrop) | ✔️ |
 | [Quark](https://www.curseforge.com/minecraft/mc-mods/quark) | [Vazkii](https://www.curseforge.com/members/3852549-vazkii?username=vazkii) | ✔️ |
@@ -235,12 +248,15 @@ forge version 43.1.47
 | [Ranged Pumps](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps) | [raoulvdberge](https://www.curseforge.com/members/24123658-raoulvdberge?username=raoulvdberge) | ✔️ |
 | [Re-chiseled](https://www.curseforge.com/minecraft/mc-mods/rechiseled) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [Reborn Storage](https://www.curseforge.com/minecraft/mc-mods/rebornstorage) | [Gigabit101](https://www.curseforge.com/members/11021109-gigabit101?username=gigabit101) [modmuss50](https://www.curseforge.com/members/9548223-modmuss50?username=modmuss50) | ✔️ |
+| [Redstone Arsenal](https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
 | [Refined Cooking](https://www.curseforge.com/minecraft/mc-mods/refined-cooking) | [ItsSebastrn](https://www.curseforge.com/members/102332081-itssebastrn?username=itssebastrn) | ✔️ |
 | [Refined Storage Addons](https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons) | [raoulvdberge](https://www.curseforge.com/members/24123658-raoulvdberge?username=raoulvdberge) | ✔️ |
 | [Refined Storage: Requestify](https://www.curseforge.com/minecraft/mc-mods/rs-requestify) | [Buuz135](https://www.curseforge.com/members/9564587-buuz135?username=buuz135) | ✔️ |
 | [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage) | [raoulvdberge](https://www.curseforge.com/members/24123658-raoulvdberge?username=raoulvdberge) | ✔️ |
 | [Reliquary Reincarnations](https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3) | [P3pp3rF1y](https://www.curseforge.com/members/13011800-p3pp3rf1y?username=p3pp3rf1y) | ✔️ |
 | [Repurposed Structures (Forge)](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures) | [telepathicgrunt](https://www.curseforge.com/members/51333044-telepathicgrunt?username=telepathicgrunt) | ✔️ |
+| [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config) | [ThatGravyBoat](https://www.curseforge.com/members/25275754-thatgravyboat?username=thatgravyboat) | ✔️ |
+| [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [ThatGravyBoat](https://www.curseforge.com/members/25275754-thatgravyboat?username=thatgravyboat) [epic_oreo](https://www.curseforge.com/members/24882069-epic_oreo?username=epic_oreo) | ✔️ |
 | [RFTools Base](https://www.curseforge.com/minecraft/mc-mods/rftools-base) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
 | [RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
 | [RFTools Control](https://www.curseforge.com/minecraft/mc-mods/rftools-control) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
@@ -254,7 +270,8 @@ forge version 43.1.47
 | [Runelic](https://www.curseforge.com/minecraft/mc-mods/runelic) | [DarkhaxDev](https://www.curseforge.com/members/6968547-darkhaxdev?username=darkhaxdev) | ✔️ |
 | [Saturn](https://www.curseforge.com/minecraft/mc-mods/saturn) | [AbdElAziz333](https://www.curseforge.com/members/101777160-abdelaziz333?username=abdelaziz333) | ✔️ |
 | [Scalable Cat's Force](https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force) | [Kotori316](https://www.curseforge.com/members/43922036-kotori316?username=kotori316) | ✔️ |
-| [Security Craft](https://www.curseforge.com/minecraft/mc-mods/security-craft) | [Geforce132](https://www.curseforge.com/members/11708079-geforce132?username=geforce132) [MasterPerki](https://www.curseforge.com/members/44479097-masterperki?username=masterperki) [bl4ckscor3](https://www.curseforge.com/members/7876752-bl4ckscor3?username=bl4ckscor3) | ✔️ |
+| [SebastrnLib](https://www.curseforge.com/minecraft/mc-mods/sebastrnlib) | [ItsSebastrn](https://www.curseforge.com/members/102332081-itssebastrn?username=itssebastrn) | ✔️ |
+| [Security Craft](https://www.curseforge.com/minecraft/mc-mods/security-craft) | [Geforce132](https://www.curseforge.com/members/11708079-geforce132?username=geforce132) [bl4ckscor3](https://www.curseforge.com/members/7876752-bl4ckscor3?username=bl4ckscor3) [MasterPerki](https://www.curseforge.com/members/44479097-masterperki?username=masterperki) | ✔️ |
 | [ShetiPhianCore](https://www.curseforge.com/minecraft/mc-mods/shetiphiancore) | [ShetiPhian](https://www.curseforge.com/members/416971-shetiphian?username=shetiphian) | ✔️ |
 | [Shrink.](https://www.curseforge.com/minecraft/mc-mods/shrink_) | [Gigabit101](https://www.curseforge.com/members/11021109-gigabit101?username=gigabit101) | ✔️ |
 | [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear) | [SilentChaos512](https://www.curseforge.com/members/14728065-silentchaos512?username=silentchaos512) | ✔️ |
@@ -263,6 +280,7 @@ forge version 43.1.47
 | [Simple Magnets](https://www.curseforge.com/minecraft/mc-mods/simple-magnets) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [Simply Light](https://www.curseforge.com/minecraft/mc-mods/simply-light) | [Flanks255](https://www.curseforge.com/members/19768394-flanks255?username=flanks255) | ✔️ |
 | [Small Ships [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/small-ships) | [talhanation](https://www.curseforge.com/members/29012315-talhanation?username=talhanation) | ✔️ |
+| [SmartBrainLib (Forge/Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/smartbrainlib) | [Scimiguy](https://www.curseforge.com/members/8410933-scimiguy?username=scimiguy) | ✔️ |
 | [Smooth Boot (Reloaded)](https://www.curseforge.com/minecraft/mc-mods/smooth-boot-reloaded) | [AbdElAziz333](https://www.curseforge.com/members/101777160-abdelaziz333?username=abdelaziz333) | ✔️ |
 | [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) | [P3pp3rF1y](https://www.curseforge.com/members/13011800-p3pp3rf1y?username=p3pp3rf1y) | ✔️ |
 | [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) | [P3pp3rF1y](https://www.curseforge.com/members/13011800-p3pp3rf1y?username=p3pp3rf1y) | ✔️ |
@@ -281,7 +299,14 @@ forge version 43.1.47
 | [TerraBlender (Forge)](https://www.curseforge.com/minecraft/mc-mods/terrablender) | [TheAdubbz](https://www.curseforge.com/members/9704465-theadubbz?username=theadubbz) | ✔️ |
 | [Tesseract](https://www.curseforge.com/minecraft/mc-mods/tesseract) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [The One Probe](https://www.curseforge.com/minecraft/mc-mods/the-one-probe) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
-| [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) | [Benimatic](https://www.curseforge.com/members/7381421-benimatic?username=benimatic) [jodlodi](https://www.curseforge.com/members/102755699-jodlodi?username=jodlodi) [Tamaized](https://www.curseforge.com/members/14029635-tamaized?username=tamaized) [Drullkus](https://www.curseforge.com/members/8931161-drullkus?username=drullkus) [Squiggly_Androsa](https://www.curseforge.com/members/43729662-squiggly_androsa?username=squiggly_androsa) [GizmoTheMoonPig](https://www.curseforge.com/members/100913984-gizmothemoonpig?username=gizmothemoonpig) | ✔️ |
+| [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) | [Benimatic](https://www.curseforge.com/members/7381421-benimatic?username=benimatic) [Tamaized](https://www.curseforge.com/members/14029635-tamaized?username=tamaized) [jodlodi](https://www.curseforge.com/members/102755699-jodlodi?username=jodlodi) [Drullkus](https://www.curseforge.com/members/8931161-drullkus?username=drullkus) [Squiggly_Androsa](https://www.curseforge.com/members/43729662-squiggly_androsa?username=squiggly_androsa) [GizmoTheMoonPig](https://www.curseforge.com/members/100913984-gizmothemoonpig?username=gizmothemoonpig) | ✔️ |
+| [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Thermal Integration](https://www.curseforge.com/minecraft/mc-mods/thermal-integration) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) | ✔️ |
+| [Thermal Locomotion](https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Theurgy](https://www.curseforge.com/minecraft/mc-mods/theurgy) | [kli_kli](https://www.curseforge.com/members/11694938-kli_kli?username=kli_kli) | ✔️ |
 | [Time in a bottle standalone](https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-standalone) | [haoict](https://www.curseforge.com/members/101430732-haoict?username=haoict) | ✔️ |
 | [Titanium](https://www.curseforge.com/minecraft/mc-mods/titanium) | [Buuz135](https://www.curseforge.com/members/9564587-buuz135?username=buuz135) | ✔️ |
 | [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) | [Shadows_of_Fire](https://www.curseforge.com/members/10368195-shadows_of_fire?username=shadows_of_fire) | ✔️ |
@@ -293,9 +318,10 @@ forge version 43.1.47
 | [Universal Grid](https://www.curseforge.com/minecraft/mc-mods/universal-grid) | [Ultramegaaa](https://www.curseforge.com/members/100053423-ultramegaaa?username=ultramegaaa) | ✔️ |
 | [UtilitiX](https://www.curseforge.com/minecraft/mc-mods/utilitix) | [MelanX](https://www.curseforge.com/members/28095189-melanx?username=melanx) [noeppinoeppi](https://www.curseforge.com/members/48660169-noeppinoeppi?username=noeppinoeppi) | ✔️ |
 | [Village Artifacts](https://www.curseforge.com/minecraft/mc-mods/villager-tools) | [Lothrazar](https://www.curseforge.com/members/9457531-lothrazar?username=lothrazar) | ✔️ |
+| [Vitalize](https://www.curseforge.com/minecraft/mc-mods/vitalize) | [CodexAdrian](https://www.curseforge.com/members/102202423-codexadrian?username=codexadrian) [terrariumearth](https://www.curseforge.com/members/103112623-terrariumearth?username=terrariumearth) [ThatGravyBoat](https://www.curseforge.com/members/25275754-thatgravyboat?username=thatgravyboat) | ✔️ |
 | [Void Totem (Forge)](https://www.curseforge.com/minecraft/mc-mods/voidtotem) | [Affehund](https://www.curseforge.com/members/33585483-affehund?username=affehund) | ✔️ |
 | [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) | [BlayTheNinth](https://www.curseforge.com/members/12099681-blaytheninth?username=blaytheninth) | ✔️ |
-| [When Dungeons Arise - Forge!](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise) | [Aureljz](https://www.curseforge.com/members/101731217-aureljz?username=aureljz) [diamondtown_](https://www.curseforge.com/members/101897796-diamondtown_?username=diamondtown_) [LunaPixelStudios](https://www.curseforge.com/members/102066281-lunapixelstudios?username=lunapixelstudios) | ✔️ |
+| [When Dungeons Arise - Forge!](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise) | [Aureljz](https://www.curseforge.com/members/101731217-aureljz?username=aureljz) [diamondtown_](https://www.curseforge.com/members/101897796-diamondtown_?username=diamondtown_) | ✔️ |
 | [Wireless Chargers](https://www.curseforge.com/minecraft/mc-mods/wireless-chargers) | [SuperMartijn642](https://www.curseforge.com/members/19533279-supermartijn642?username=supermartijn642) | ✔️ |
 | [Wither Skeleton Tweaks](https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks) | [Shadows_of_Fire](https://www.curseforge.com/members/10368195-shadows_of_fire?username=shadows_of_fire) | ✔️ |
 | [XNet Gases](https://www.curseforge.com/minecraft/mc-mods/xnet-gases) | [Terrails](https://www.curseforge.com/members/16509145-terrails?username=terrails) | ✔️ |
