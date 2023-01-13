@@ -7,7 +7,7 @@ global['loaded'] = {
     Mek_Loaded: Platform.isLoaded('mekanism'),
     Create_Loaded: Platform.isLoaded('create'),
     CreateAdd_Loaded: Platform.isLoaded('createaddition'),
-    Thermal_Loaded: Platform.isLoaded('thermal_expansion'),
+    Thermal_Loaded: false,
     FTBIC_Loaded: Platform.isLoaded('ftbic'),
     Tinkers_Loaded: Platform.isLoaded('tconstruct'),
     Occult_Loaded: Platform.isLoaded('occultism'),

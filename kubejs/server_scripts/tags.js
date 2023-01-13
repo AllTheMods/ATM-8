@@ -27,6 +27,11 @@ ServerEvents.tags('entity_type', event => {
   event.add('industrialforegoing:mob_duplicator_blacklist', '#kubejs:mob_blacklist')
 })
 
+ServerEvents.tags('fluid', event =>{
+  event.add('forge:crude_oil', 'ad_astra:oil')
+  event.remove('minecraft:water', 'ad_astra:oil')
+})
+
 //temp fix for bambooeverything breaking boat tags until above 2.2.4
 ServerEvents.highPriorityData(event => {
   event.addJson(`minecraft:tags/items/boats.json`, {

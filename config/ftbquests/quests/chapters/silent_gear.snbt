@@ -978,11 +978,7 @@
 			x: 12.5d
 			y: -2.0d
 			shape: "circle"
-			description: [
-				"This is a Tier 1 Pillar Cap for the Starlight Charger structure."
-				""
-				""
-			]
+			description: ["This is a Tier 1 Pillar Cap for the Starlight Charger structure."]
 			dependencies: ["7C3D763CF22D167A"]
 			id: "7E13007340A818C5"
 			tasks: [{

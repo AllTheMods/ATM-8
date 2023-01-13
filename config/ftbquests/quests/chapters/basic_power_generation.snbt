@@ -372,10 +372,10 @@
 					Count: 1b
 					tag: {
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -1332,7 +1332,7 @@
 			y: -4.0d
 			shape: "octagon"
 			description: [
-				"The Mining Dimension is the perfect place to mine. Hints the name!"
+				"The Mining Dimension is the perfect place to mine. Hence the name!"
 				""
 				"It's also a great place to test out mods, as you spawn on completely level land."
 				""
