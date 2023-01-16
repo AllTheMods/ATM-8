@@ -162,4 +162,8 @@ ServerEvents.recipes(event => {
     "duration": 60,
     "outputItem": "spirit:soul_steel_block"
   }).id('spirit:soul_engulfing/soul_steel_block')
+
+  // quark's log to stick recipe, but botania safe
+  let logSticks = Ingredient.of('#minecraft:logs').subtract(Ingredient.of(['#botania:livingwood_logs', '#botania:dreamwood_logs']))
+  event.shaped('16x minecraft:stick', ['s', 's'], { s: logSticks }).id('kubejs:easy_sticks')
 })
