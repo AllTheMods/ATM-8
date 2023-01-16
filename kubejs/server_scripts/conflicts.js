@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
 
   // Basic Chest readdition for planks without chests
   let hasChest = Ingredient.of([
-    '#blueskies:planks',
+    '#blue_skies:planks',
     '#hexerei:willow_planks',
     '#hexerei:mahogany_planks',
     'ad_astra:strophar_planks',
