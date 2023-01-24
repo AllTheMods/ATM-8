@@ -351,7 +351,7 @@
 			y: -1.0d
 			shape: "rsquare"
 			description: [
-				"&dAllthemodium&r is the core mod in all Allthemods modpacks. This mod adds engame ores to the world that amplify your modded experience."
+				"&dAllthemodium&r is the core mod in all Allthemods modpacks. This mod adds endgame ores to the world that amplify your modded experience."
 				""
 				"You can find more info on the mod in the &9Allthemodium&r book."
 			]
@@ -787,4 +787,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
