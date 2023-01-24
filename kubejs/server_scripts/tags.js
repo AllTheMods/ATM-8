@@ -25,8 +25,8 @@ ServerEvents.tags('block', event => {
     'ae2:chipped_budding_quartz',
     'ae2:flawed_budding_quartz',
     'ae2:flawless_budding_quartz'
-  ]);
-  event.add('ars_nouveau:golem/cluster', ['minecraft:amethyst_cluster', 'ae2:quartz_cluster']);
+  ])
+  event.add('ars_nouveau:golem/cluster', ['minecraft:amethyst_cluster', 'ae2:quartz_cluster'])
 })
 
 ServerEvents.tags('entity_type', event => {
