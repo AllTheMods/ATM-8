@@ -254,20 +254,36 @@
 			y: 0.5d
 			subtitle: "First Wood, then Stone... then.. what?"
 			description: [
-				"Just like in the Overworld, Wood tools won't get you very far."
+				"Just like in the Overworld, Wooden tools won't get you very far."
 				""
 				"Head underground and grab some stone. You'll want to make yourself a new pickaxe, then we can get started with the new ores."
 			]
 			dependencies: ["4365BCF6B7A91D24"]
 			id: "3E1A86A6D2155B53"
 			tasks: [{
-				id: "7B30D0C5D767EA0C"
+				id: "18DBE4B1BAAA5CC8"
 				type: "item"
+				title: "Blue Skies Stone Pickaxe"
 				item: {
-					id: "blue_skies:turquoise_stone_pickaxe"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						Damage: 0
+						items: [
+							{
+								id: "blue_skies:lunar_stone_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:turquoise_stone_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 			}]
@@ -1701,4 +1717,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
