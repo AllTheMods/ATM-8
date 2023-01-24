@@ -77,6 +77,8 @@
 		#Allowed values: (0,1]
 		"Love Chance" = 0.333333333
 		Range = 10.0
+		#Set to false to make it so animals look for a nearby trough every time they want to eat instead of remembering the last one. Can affect performance if false.
+		"Enable Trough Caching" = true
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
@@ -258,6 +260,7 @@
 		"Enable Armor Interaction" = true
 		"Enable Shulker Box Interaction" = true
 		"Enable Lava Interaction" = true
+		"Allow Opening Shulker Boxes" = true
 
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
@@ -404,6 +407,9 @@
 			G = 0.0
 			B = 0.0
 
+	[tools.beacon_redirection]
+		"Horizontal Move Limit" = 64
+
 [tweaks]
 	"Villagers Follow Emeralds" = true
 	"Vexes Die With Their Masters" = true
@@ -464,6 +470,10 @@
 		"Bone Meal Utility" = false
 		#Can Charcoal be crafted into Black Dye?
 		"Charcoal To Black Dye" = false
+		#Can two Logs be used instead of a Chest to make a Hopper?
+		"Easy Hopper" = true
+		#Can two Logs be used to craft 16 sticks?
+		"Easy Sticks" = false
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
@@ -1324,6 +1334,8 @@
 	"Chest Searching" = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
+	"Long Range Pick Block" = true
+	"Elytra Indicator" = true
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
@@ -1379,11 +1391,17 @@
 		"Affect Leaves" = true
 		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block"]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
+		"Affect Water" = false
 
 		[client.greener_grass.color_matrix]
 			R = [0.89, 0.0, 0.0]
 			G = [0.0, 1.11, 0.0]
 			B = [0.0, 0.0, 0.89]
+
+		[client.greener_grass.water_matrix]
+			R = [0.86, 0.0, 0.0]
+			G = [0.0, 1.0, 0.22]
+			B = [0.0, 0.0, 1.22]
 
 	[client.chest_searching]
 
@@ -1481,6 +1499,7 @@
 		"Do Pipes Whoosh" = true
 		"Enable Encased Pipes" = true
 		"Render Pipe Items" = true
+		"Emit Vibrations" = true
 
 	[oddities.matrix_enchanting]
 		#The maximum enchanting power the matrix enchanter can accept
