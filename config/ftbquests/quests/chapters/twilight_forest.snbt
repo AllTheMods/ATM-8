@@ -51,13 +51,13 @@
 									-1109509241
 									1019046394
 								]
-								Name: "ZephyrWindSpirit"
 								Properties: {
 									textures: [{
 										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk0MjM3Mzc5MiwKICAicHJvZmlsZUlkIiA6ICI0OGU2NjBiZjU0NDk0ZDlkYmRkZTNiODczY2JkNjlmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXBoeXJXaW5kU3Bpcml0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmNzYyNTNjMTVjMTg1ZTg1NzVjY2FiMDgwN2Y3MWNiZmFlMWJhZGZlOWMwOTM2MGUwNDgxODc2MzZkZGNjNGQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
 										Signature: "bszJX3BvT6r4197un7fCTLWwbmYvucp9bjel1xHRqbEgw6BUuXWSjvUi2rSORpzP9fiT1fXL1AbDsu9L1/JkTVsqhBdsOZjlTEQDjTLE4WPy1nUobhYGT+mlNJjcQV9mQtOm8TYVr/lRPIu/uKjJPk1Ot/1W7oY0s9wEUxjDCzdBjDfDybaH9x8VQZR2cSgTPo8NXB/zNV+DG/6ylgh3z6FxvP8m7PwFUveouivcMZZGB8mV0Z3cRms4vymPrD+TLGQNLwQ4C4RYgMka4SKDKT2E2JLC3JXXUY/94zG9vsU92FwQ6kfz1h7p9pPQSJdVbdji0qVnAR8tX0KswksRYdY4vnwIFPzpMXfNEm6SroEFodp9FXHZKvPnlDgyVixQU/oIkp+UALXByvSPnFod7TCqhLMW8nSn+96gOTm/TnV95YvY/d7dRIAuNS/hu0dh/ITasE9M0HJ2/OaPH23vVENs4YVh9vdjl9kM6E0LlxgzvTa3H9uCvzt0zh67I8B/hQqyQrGgrTMIE0+B7tYI+e9ZZIfeRJx/NlB6i11CtNZ3iSaycUQ0uUOmZnqhkyvr6tUf0sDTnXvf9aUfVaV4a8Mz4YruQDGmHbJQIwGZQxpt8yp3qqjHx2u+Uh6JdpwXfi4P+qccovq360nfeMVHa3Omy8f8QJuffSIPzIZrdg0="
 									}]
 								}
+								Name: "ZephyrWindSpirit"
 							}
 						}
 					}
@@ -1442,7 +1442,7 @@
 				{
 					id: "757D67F1402CEA6E"
 					type: "xp_levels"
-					xp_levels: 100
+					xp_levels: 10
 				}
 				{
 					id: "62FB99FCB11C009F"
@@ -2285,4 +2285,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

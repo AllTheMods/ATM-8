@@ -1,6 +1,9 @@
 ServerEvents.tags('item', event => {
   event.add('blue_skies:planks', /blue_skies:.+?_planks/)
   event.add('byg:planks', /byg:.+?_planks/)
+  let chestsMissingTags = ['hexerei:willow_chest', 'hexerei:mahogany_chest', 'ars_nouveau:archwood_chest', 'ad_astra:strophar_chest', 'ad_astra:aeronos_chest']
+  event.add('forge:chests', chestsMissingTags)
+  event.add('forge:chests/wooden', chestsMissingTags)
 })
 
 ServerEvents.recipes(event => {
@@ -70,6 +73,42 @@ ServerEvents.recipes(event => {
     recipe.json = json
   })
 
+  // Basic Chest readdition for planks without chests
+  let hasChest = Ingredient.of([
+    '#blue_skies:planks',
+    '#hexerei:willow_planks',
+    '#hexerei:mahogany_planks',
+    'ad_astra:strophar_planks',
+    'ad_astra:aeronos_planks',
+    'ars_nouveau:archwood_planks',
+    'quark:blossom_planks',
+    'quark:azalea_planks',
+    'minecraft:oak_planks',
+    'minecraft:spruce_planks',
+    'minecraft:birch_planks',
+    'minecraft:jungle_planks',
+    'minecraft:acacia_planks',
+    'minecraft:dark_oak_planks',
+    'minecraft:crimson_planks',
+    'minecraft:warped_planks',
+    'minecraft:mangrove_planks',
+    'twilightforest:twilight_oak_planks',
+    'twilightforest:canopy_planks',
+    'twilightforest:mangrove_planks',
+    'twilightforest:dark_planks',
+    'twilightforest:time_planks',
+    'twilightforest:transformation_planks',
+    'twilightforest:mining_planks',
+    'twilightforest:sorting_planks',
+  ])
+  let chestPlanks = Ingredient.of('#minecraft:planks').subtract(hasChest)
+  event.shaped('minecraft:chest', ['PPP', 'P P', 'PPP'], { P: chestPlanks }).id('kubejs:chest')
+  // add chest to plain chest recipes
+  event.remove({ id: 'quark:building/crafting/chests/chest_revert' })
+  event.remove({ id: 'ars_nouveau:archwood_to_chest' })
+  let convertableChests = Ingredient.of('#forge:chests/wooden').subtract(Ingredient.of('#forge:chests/trapped')).subtract('minecraft:chest')
+  event.shapeless('minecraft:chest', convertableChests).id('kubejs:chest/plain')
+
   // Rechiseled Chisel / Croptopia Knife
   event.remove({ id: 'rechiseled:chisel' })
   event.shaped('rechiseled:chisel', ['C ', ' S'], { C: '#forge:ingots/iron', S: '#forge:rods/wooden' }).noMirror().id(`kubejs:rechiseled/chisel`)
@@ -91,12 +130,12 @@ ServerEvents.recipes(event => {
   event.shaped('additional_lights:fire_for_standing_torch_s', ['S', 'C'], { S: '#forge:rods/wooden', C: '#minecraft:coals' })
 
   // Spirit soul sand 1x
-  event.remove({id: 'spirit:crafting/compressed_soul_sand'})
-  event.remove({id: 'spirit:crafting/decompressed_soul_sand'})
+  event.remove({ id: 'spirit:crafting/compressed_soul_sand' })
+  event.remove({ id: 'spirit:crafting/decompressed_soul_sand' })
   event.custom({
     "type": "spirit:soul_engulfing",
     "input": {
-      "ingredient": {"item": "minecraft:iron_block"},
+      "ingredient": { "item": "minecraft:iron_block" },
       "multiblock": {
         "pattern": [
           [
@@ -123,4 +162,8 @@ ServerEvents.recipes(event => {
     "duration": 60,
     "outputItem": "spirit:soul_steel_block"
   }).id('spirit:soul_engulfing/soul_steel_block')
+
+  // quark's log to stick recipe, but botania safe
+  let logSticks = Ingredient.of('#minecraft:logs').subtract(Ingredient.of(['#botania:livingwood_logs', '#botania:dreamwood_logs']))
+  event.shaped('16x minecraft:stick', ['s', 's'], { s: logSticks }).id('kubejs:easy_sticks')
 })

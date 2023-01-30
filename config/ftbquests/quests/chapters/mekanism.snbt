@@ -1510,9 +1510,10 @@
 				"You'll need at least 1 controller, and at least 2  valves."
 				""
 				"Pump in water, and you'll start collecting brine, which can be pumped into an &aElectrolytic Separator&r to extract &6Chlorine&r from the gas."
-				"{image:atm:textures/thermalplant.png width:200 height:200 align:1}"
+				"{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1}"
 			]
 			dependencies: ["4F1C04C0F6769825"]
+			min_width: 300
 			id: "603877AB96321F1A"
 			tasks: [
 				{
@@ -1537,7 +1538,7 @@
 				{
 					id: "7C0FF0123BCFA127"
 					type: "item"
-					item: "mekanism:ingot_steel"
+					item: "alltheores:steel_ingot"
 					count: 2
 					random_bonus: 2
 				}
@@ -2868,7 +2869,7 @@
 				"A basic layout of your factory should be: "
 				""
 				"Raw ore goes into your Chemical Dissolution Chamber > pumps A GAS to Chemical Washer > pumps A GAS to Chemical Crystallizer >  outputs crystals to Chemical Injection Chamber > outputs shards to Purification Chamber > outputs clumps to Crusher > outputs dirty dusts to Enrichment Chamber > outputs clean dust to Smelter."
-				"{image:atm:textures/mekanism_flowchart.png width:1000 height:600 align:1 fit:true}"
+				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:1000 height:600 align:1 fit:true}"
 			]
 			dependencies: ["3999760881C855FA"]
 			size: 1.5d
@@ -2916,4 +2917,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

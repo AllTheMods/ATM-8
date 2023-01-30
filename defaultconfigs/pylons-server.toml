@@ -1,0 +1,8 @@
+[infusion_pylon]
+	#Effects that may be used in the Infusion Pylon.
+	#List may include either effect IDs (like `minecraft:strength`) or an entire namespace (like `minecraft`).
+	#If the list is empty, then all effects will be allowed except for those specifically denied.
+	infusionAllowedEffects = ["minecraft", "ars_nouveau", "tombstone", "apotheosis"]
+	#Effects that may not be used in the Infusion Pylon.
+	#This list will override the allowed effect list.
+	infusionDeniedEffects = ["minecraft:absorption", "tombstone:ghostly_shape"]
