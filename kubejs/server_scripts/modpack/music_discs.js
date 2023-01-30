@@ -7,6 +7,14 @@ ServerEvents.recipes(e => {
         S: 'mysticalagriculture:skeleton_essence',
         D: 'minecraft:blue_dye'
     }).id('kubejs:minecraft/music_disk_otherside')
+  
+    //Ars Nouveau
+    e.shaped('ars_nouveau:music_disc_aria_biblio',['MC','SD'],{
+        M: 'mysticalagriculture:blank_record',
+        C: 'ars_nouveau:mendosteen_pod',
+        S: 'ars_nouveau:bombegranate_pod',
+        D: 'ars_nouveau:source_gem'
+    }).id('kubejs:ars_nouveau/music_disc_aria_biblio') 
 
     //botania
     e.shaped('botania:record_gaia_1',['MC','SD'],{

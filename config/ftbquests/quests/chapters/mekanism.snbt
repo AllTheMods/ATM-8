@@ -1538,7 +1538,7 @@
 				{
 					id: "7C0FF0123BCFA127"
 					type: "item"
-					item: "mekanism:ingot_steel"
+					item: "alltheores:steel_ingot"
 					count: 2
 					random_bonus: 2
 				}
