@@ -90,7 +90,7 @@
 		HydrogenEnergyDensity = "100"
 		#Burn time for Ethylene (1mB hydrogen + 2*bioFuel/tick*200ticks/100mB * 20x efficiency bonus).
 		#Range: > 1
-		EthyleneBurnTime = 40
+		EthyleneBurnTime = 10
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
 		maxEnergyPerSteam = "10"
 
