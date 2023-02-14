@@ -41,6 +41,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "2139CB369B6057CD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -50,7 +56,9 @@
 			description: [
 				"The next step in our adventure to become (nearly) invincible."
 				""
-				"Find this ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
+				"Find this rare ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
+				""
+				"The best place to find this ore is in any biome in the Other, between Y0 and Y20."
 			]
 			hide_dependency_lines: false
 			dependencies: ["5BDBE666E604FCAC"]
@@ -73,6 +81,12 @@
 					id: "459B4DDA26AC0FFC"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "3E63128D811B9171"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -107,6 +121,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "10C180EFA4159779"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7025454341029952768L
+				}
 			]
 		}
 		{
@@ -125,6 +145,12 @@
 				id: "07FF0DC32B705DCC"
 				type: "item"
 				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [{
+				id: "3C0169930F748A7F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564196992594175882L
 			}]
 		}
 		{
@@ -153,6 +179,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "4F440948C38AE875"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -180,6 +212,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "447A71C76668619D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -199,6 +237,12 @@
 				type: "item"
 				item: "ironfurnaces:vibranium_furnace"
 			}]
+			rewards: [{
+				id: "381A235F202CAB65"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5564196992594175882L
+			}]
 		}
 		{
 			x: 1.5d
@@ -217,11 +261,19 @@
 				type: "item"
 				item: "ironfurnaces:unobtainium_furnace"
 			}]
-			rewards: [{
-				id: "3BE998CE25785795"
-				type: "item"
-				item: "ironfurnaces:rainbow_coal"
-			}]
+			rewards: [
+				{
+					id: "3BE998CE25785795"
+					type: "item"
+					item: "ironfurnaces:rainbow_coal"
+				}
+				{
+					id: "0F49E1534E00C41D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -251,6 +303,12 @@
 					id: "7CEDAB343096A16E"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "653D62F921830FDA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -283,6 +341,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "10BDA8E483B8673F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -312,6 +376,12 @@
 					id: "727160FABA1B8DF6"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "59FCC1529E6451E8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -343,6 +413,12 @@
 					id: "28AB1CC409C9BADB"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "008EBE6E9E5262F3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -412,6 +488,12 @@
 					id: "339251D95518BB97"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "15AD0AE0B1117299"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -492,6 +574,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "3C3FBA11E9666529"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -516,6 +604,12 @@
 					id: "71119D300E20FCA2"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "1824BC765BF8E54F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -542,6 +636,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "3B230BDFB0C25803"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -566,6 +666,12 @@
 					id: "00F39A0913F8D233"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "0F2DCE735032A0DB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}

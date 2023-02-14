@@ -1427,6 +1427,7 @@
 				"It is also a multiblock structure that utilizes Arcane Pedestals to craft."
 				""
 				"Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals."
+				""
 				"{image:atm:textures/questpics/ars/enchanting_app.png width:200 height:175 align:1}"
 			]
 			dependencies: ["18A2FBE2D4133FA2"]

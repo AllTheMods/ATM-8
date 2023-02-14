@@ -1,0 +1,62 @@
+{
+	id: "481E10AEAC95C550"
+	order_index: 17
+	title: "&5Mythic Reward"
+	icon: "minecraft:nether_star"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:pellet_antimatter" }
+		{ item: "allthemodium:raw_vibranium" }
+		{ item: "allthemodium:raw_unobtainium" }
+		{ item: "allthemodium:unobtainium_allthemodium_alloy_ingot" }
+		{ item: "allthemodium:unobtainium_vibranium_alloy_ingot" }
+		{ item: "allthemodium:vibranium_allthemodium_alloy_ingot" }
+		{ item: "allthemodium:piglich_heart" }
+		{ item: "allthemodium:allthemodium_sword" }
+		{ item: "allthemodium:allthemodium_pickaxe" }
+		{ item: "allthemodium:allthemodium_axe" }
+		{ item: "allthemodium:allthemodium_shovel" }
+		{ item: "allthemodium:allthemodium_boots" }
+		{ item: "allthemodium:allthemodium_leggings" }
+		{ item: "allthemodium:allthemodium_chestplate" }
+		{ item: "allthemodium:allthemodium_helmet" }
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "potionsmaster:allthemodium_sight"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "potionsmaster:vibranium_sight"
+				}
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "potionsmaster:unobtainium_sight"
+				}
+			}
+		}
+		{ item: "botania:life_essence" }
+		{ item: "elementalcraft:purecrystal" }
+		{ item: "elementalcraft:fireite_ingot" }
+		{ item: "ars_nouveau:ritual_wilden_summon" }
+		{ item: "mysticalagriculture:master_infusion_crystal" }
+		{ item: "mysticalagradditions:insanium_essence" }
+		{ item: "thermal_extra:upgrade_augment" }
+		{ item: "mekanism:atomic_disassembler" }
+	]
+}

@@ -44,6 +44,8 @@
 			description: [
 				"ATM8 has a ton of utilities to start you out. Veinminer is in the pack with FTB Ultimine. The default key is `. You can change this in the keybind settings."
 				""
+				"This pack also uses the &9Eccentric Tome&r, which stores all of the guide books from mods! Make sure to check out the &dTips and Tricks&r section to learn all about it!"
+				""
 				"Go out and have some fun!"
 			]
 			size: 2.0d
@@ -53,12 +55,297 @@
 				type: "checkmark"
 				title: "Getting Started"
 			}]
-			rewards: [{
-				id: "4B7A57FC6018E1C7"
-				type: "item"
-				item: "minecraft:cooked_beef"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "4B7A57FC6018E1C7"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 8
+				}
+				{
+					id: "25161BAA65BFCE7E"
+					type: "item"
+					item: {
+						id: "eccentrictome:tome"
+						Count: 1b
+						tag: {
+							"eccentrictome:mods": {
+								industrialforegoing: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								rebornstorage: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "rebornstorage:rs_book"
+										}
+									}
+								}
+								sebastrnlib: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+										}
+									}
+								}
+								ftbquests: {
+									0: {
+										Count: 1.0d
+										id: "ftbquests:book"
+									}
+								}
+								advancedperipherals: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "advancedperipherals:manual"
+										}
+									}
+								}
+								immersiveengineering: {
+									0: {
+										Count: 1.0d
+										id: "immersiveengineering:manual"
+									}
+								}
+								allthemodium: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "allthemodium:allthemodium"
+										}
+									}
+								}
+								elementalcraft: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "elementalcraft:element_book"
+										}
+									}
+								}
+								botania: {
+									0: {
+										Count: 1.0d
+										id: "botania:lexicon"
+									}
+								}
+								thermal: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+								rftoolsbase: {
+									0: {
+										Count: 1.0d
+										id: "rftoolsbase:manual"
+									}
+								}
+								integrateddynamics: {
+									0: {
+										Count: 1.0d
+										id: "integrateddynamics:on_the_dynamics_of_integration"
+									}
+								}
+								laserio: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "laserio:laseriobook"
+										}
+									}
+								}
+								croptopia: {
+									0: {
+										Count: 1.0d
+										id: "croptopia:guide"
+									}
+								}
+								securitycraft: {
+									0: {
+										Count: 1.0d
+										id: "securitycraft:sc_manual"
+									}
+								}
+								powah: {
+									0: {
+										Count: 1.0d
+										id: "powah:book"
+									}
+								}
+								modonomicon: {
+									0: {
+										Count: 1.0d
+										id: "modonomicon:modonomicon"
+										tag: {
+											"modonomicon:book_id": "theurgy:the_hermetica"
+										}
+									}
+								}
+								pneumaticcraft: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "pneumaticcraft:book"
+										}
+									}
+								}
+								naturesaura: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "naturesaura:book"
+										}
+									}
+								}
+								apotheosis: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								deeperdarker: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "deeperdarker:wanderers_notebook"
+										}
+									}
+								}
+								littlelogistics: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "littlelogistics:guide"
+										}
+									}
+								}
+								engineersdecor: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "engineersdecor:engineersdecor_manual"
+										}
+									}
+								}
+								occultism: {
+									0: {
+										Count: 1.0d
+										id: "occultism:dictionary_of_spirits"
+										tag: {
+											"modonomicon:book_id": "occultism:dictionary_of_spirits"
+										}
+									}
+								}
+								solcarrot: {
+									0: {
+										Count: 1.0d
+										id: "solcarrot:food_book"
+									}
+								}
+								productivebees: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "productivebees:guide"
+										}
+									}
+								}
+								modularrouters: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "modularrouters:book"
+										}
+									}
+								}
+								byg: {
+									0: {
+										Count: 1.0d
+										id: "byg:biomepedia"
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1.0d
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								hexcasting: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "hexcasting:thehexbook"
+										}
+									}
+								}
+								ftbic: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "ftbic:ftbic_guide"
+										}
+									}
+								}
+								mysticalagriculture: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "mysticalagriculture:guide"
+										}
+									}
+								}
+								alchemistry: {
+									0: {
+										Count: 1.0d
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "alchemistry:alchemistry_book"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1.0d
+						}
+					}
+				}
+				{
+					id: "44B1E265EEC29696"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Getting Wood"
@@ -161,7 +448,8 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Get some stone, then craft yourself the vanilla stone tools."]
+			subtitle: "Time to Mine!"
+			description: ["Get some stone, then craft yourself the vanilla stone tools. Once done, it's time to go mining!"]
 			dependencies: ["34632E58F226ED0B"]
 			id: "48CCBB5C39A4ABE7"
 			tasks: [
@@ -396,6 +684,12 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "35656A62875D6D8B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -629,11 +923,19 @@
 				type: "checkmark"
 				title: "Food and Farming"
 			}]
-			rewards: [{
-				id: "7452FA68B77452AA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7452FA68B77452AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "434A2FDAC40D350A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "Starter Power"
@@ -689,12 +991,6 @@
 					count: 8L
 				}
 				{
-					id: "7CDC7225B59508B5"
-					type: "item"
-					item: "alltheores:tin_ingot"
-					count: 4L
-				}
-				{
 					id: "2AED93C7245AD1C1"
 					type: "item"
 					item: "minecraft:redstone"
@@ -718,7 +1014,7 @@
 			title: "Getting Started: Part 2"
 			icon: "mekanismgenerators:wind_generator"
 			x: 6.0d
-			y: 2.25d
+			y: 2.15d
 			shape: "gear"
 			subtitle: "Starting with Power and Beyond"
 			description: [
@@ -737,11 +1033,19 @@
 				type: "checkmark"
 				title: "Power Generation"
 			}]
-			rewards: [{
-				id: "0AE705952533CFCB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0AE705952533CFCB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C85174B56675EA8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "Mystical Agriculture Chapter"
@@ -763,11 +1067,19 @@
 				type: "checkmark"
 				title: "Growing Resources"
 			}]
-			rewards: [{
-				id: "7707A7BA2F7892B7"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7707A7BA2F7892B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36502CDCE81D0B59"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "Building Materials"
@@ -1012,5 +1324,34 @@
 				}
 			]
 		}
+		{
+			title: "Custom Tools and Armor!"
+			x: 6.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["If you're looking to get into creating custom tools, head to the &9Silent Gear&r chapter to learn more!"]
+			dependencies: ["147BC89798F3F925"]
+			size: 2.0d
+			id: "2B281CD5639235BE"
+			tasks: [{
+				id: "090A27F977787A20"
+				type: "checkmark"
+				title: "Custom Tools and Armor!"
+			}]
+			rewards: [
+				{
+					id: "1CDF101F93480A6A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43AC343C009175A5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
 	]
+	quest_links: [ ]
 }

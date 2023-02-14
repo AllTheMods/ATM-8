@@ -21,14 +21,16 @@
 	}]
 	quests: [
 		{
-			x: -6.75d
+			x: -7.25d
 			y: 0.0d
 			shape: "square"
 			subtitle: "Simple Tool Crafting"
 			description: [
 				"Silent Gear is a tool and armor mod that makes crafting gear easy."
 				""
-				"Each gear piece can be upgraded, has special traits, and is completely repairable on the go!"
+				"Each gear piece is customizable, allowing you to upgrade it with special traits or repair it on the go!"
+				""
+				"You can also convert vanilla tools like an iron pickaxe to a Silent Gear pickaxe by putting it into a crafting table!"
 			]
 			size: 1.5d
 			id: "52EB902E76829EBB"
@@ -37,9 +39,39 @@
 				type: "checkmark"
 				title: "Silent Gear Weapons, Tools and Armor"
 			}]
+			rewards: [{
+				id: "383D184AE6F5236A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Blueprint Paper"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "The Schematic Maker"
+			description: [
+				"You can't use template boards forever!!!"
+				""
+				"Blueprint paper is used to make blueprints, which are reusable, unlike template boards."
+			]
+			dependencies: ["15DE3BF0CBD8E0B4"]
+			size: 1.5d
+			id: "64AB1E133E218173"
+			tasks: [{
+				id: "28223BD9AC4D64EA"
+				type: "item"
+				item: "silentgear:blueprint_paper"
+				count: 8L
+			}]
 			rewards: [
 				{
-					id: "6FBB64122AC8F84B"
+					id: "5079BE02B6810490"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "3B33A6AFBCBD24E2"
 					type: "item"
 					item: {
 						id: "silentgear:blueprint_package"
@@ -52,42 +84,10 @@
 					}
 				}
 				{
-					id: "383D184AE6F5236A"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "Blueprint Paper"
-			x: -0.5d
-			y: 0.0d
-			subtitle: "The Schematic Maker"
-			description: [
-				"You can't use template boards forever!!!"
-				""
-				"Blueprint paper is used to make blueprints, which are reusable, unlike template boards."
-			]
-			dependencies: ["52EB902E76829EBB"]
-			size: 1.5d
-			id: "64AB1E133E218173"
-			tasks: [{
-				id: "28223BD9AC4D64EA"
-				type: "item"
-				item: "silentgear:blueprint_paper"
-				count: 8L
-			}]
-			rewards: [
-				{
-					id: "1CBB5DDFC361C0C6"
-					type: "item"
-					item: "silentgear:blueprint_paper"
-					count: 4
-				}
-				{
-					id: "5079BE02B6810490"
-					type: "xp"
-					xp: 5
+					id: "479CB5F180B816A2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -218,7 +218,7 @@
 		}
 		{
 			x: -5.0d
-			y: 1.5d
+			y: 2.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
@@ -236,7 +236,7 @@
 		}
 		{
 			x: -3.0d
-			y: 1.5d
+			y: 2.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
@@ -254,7 +254,7 @@
 		}
 		{
 			x: -4.0d
-			y: 1.0d
+			y: 1.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
@@ -272,7 +272,7 @@
 		}
 		{
 			x: -3.0d
-			y: 2.5d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "The All In One Tool"
 			hide_dependency_lines: true
@@ -291,7 +291,7 @@
 		}
 		{
 			x: -4.0d
-			y: 3.0d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "3x3 Mining"
 			hide_dependency_lines: true
@@ -310,7 +310,7 @@
 		}
 		{
 			x: -5.0d
-			y: 2.5d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "3x3 Digging!"
 			hide_dependency_lines: true
@@ -329,7 +329,7 @@
 		}
 		{
 			x: -5.0d
-			y: 3.5d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Versatile Hoe"
 			hide_dependency_lines: true
@@ -348,7 +348,7 @@
 		}
 		{
 			x: -4.0d
-			y: 2.0d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "It's a Lawn Mower."
 			hide_dependency_lines: true
@@ -368,7 +368,7 @@
 		}
 		{
 			x: -3.0d
-			y: 3.5d
+			y: 4.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
@@ -386,7 +386,7 @@
 		}
 		{
 			x: -4.0d
-			y: 4.0d
+			y: 4.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["64AB1E133E218173"]
@@ -623,11 +623,13 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 3.9999999999999996d
 			y: 0.0d
+			shape: "square"
 			subtitle: "Breaks down items into their components."
 			description: [""]
-			dependencies: ["15DE3BF0CBD8E0B4"]
+			dependencies: ["64AB1E133E218173"]
+			size: 1.25d
 			id: "2EB96FF06627FD9A"
 			tasks: [{
 				id: "0A289918540442AE"
@@ -646,11 +648,18 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "1876A75C33CE8313"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
 			x: 8.0d
 			y: 0.0d
+			shape: "hexagon"
 			subtitle: "The Material Tester"
 			description: [
 				"Placing an ingot in this with a Grader Catalyst will give the material a grade."
@@ -677,6 +686,12 @@
 					id: "426DA90F446231C4"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "355393E9C515534F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -825,6 +840,12 @@
 					type: "xp"
 					xp: 20
 				}
+				{
+					id: "049404B484FEF767"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
 			]
 		}
 		{
@@ -971,6 +992,12 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "5DAB130AC2130247"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -998,6 +1025,12 @@
 					id: "34EE0AC149807BBB"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "699B2AC65718F5FA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -1027,6 +1060,12 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "66C9FB40FE94B925"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -1054,6 +1093,12 @@
 					id: "78F9F7CA7518C4EB"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "77E1C346FB26B6E5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -1136,19 +1181,66 @@
 			]
 		}
 		{
+			title: "Repairing Items"
 			x: 4.0d
 			y: 3.5d
 			subtitle: "Your First Repair Kit"
+			description: [
+				"Silent Gear items can be repaired using a &9Repair Kit&r."
+				""
+				"To repair an item, place the Repair Kit into a crafting table, then place the materials needed to repair the tool inside the table with it. This will \"fill\" the Repair Kit."
+				""
+				"To repair the tool, combine the filled Repair Kit with the tool you'd like to repair in a crafting grid."
+			]
+			hide_dependency_lines: true
+			dependencies: ["52EB902E76829EBB"]
 			size: 1.5d
 			id: "11B0B93D725ABE43"
 			tasks: [{
-				id: "19B87ABC58489CE3"
+				id: "123B475266C035CC"
 				type: "item"
+				title: "Any Silent Gear Repair Kit"
 				item: {
-					id: "silentgear:very_crude_repair_kit"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						Storage: { }
+						items: [
+							{
+								id: "silentgear:very_crude_repair_kit"
+								Count: 1b
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								id: "silentgear:crude_repair_kit"
+								Count: 1b
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								id: "silentgear:sturdy_repair_kit"
+								Count: 1b
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								id: "silentgear:crimson_repair_kit"
+								Count: 1b
+								tag: {
+									Storage: { }
+								}
+							}
+							{
+								id: "silentgear:azure_repair_kit"
+								Count: 1b
+								tag: {
+									Storage: { }
+								}
+							}
+						]
 					}
 				}
 			}]
@@ -1159,113 +1251,103 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 3.5d
-			dependencies: ["11B0B93D725ABE43"]
-			id: "53DF62BFA493BF8D"
-			tasks: [{
-				id: "5A6F49119666987D"
-				type: "item"
-				item: {
-					id: "silentgear:crude_repair_kit"
-					Count: 1b
-					tag: {
-						Storage: { }
-					}
-				}
-			}]
-			rewards: [{
-				id: "1992C35745EC085A"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			x: 7.0d
-			y: 3.5d
-			dependencies: ["53DF62BFA493BF8D"]
-			id: "1FD76B4889A9B7B6"
-			tasks: [{
-				id: "3C952038985B054B"
-				type: "item"
-				item: {
-					id: "silentgear:sturdy_repair_kit"
-					Count: 1b
-					tag: {
-						Storage: { }
-					}
-				}
-			}]
-			rewards: [{
-				id: "01495C5ACDA104F7"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			x: 8.5d
-			y: 3.5d
-			dependencies: ["1FD76B4889A9B7B6"]
-			id: "47A19A029C9E487D"
-			tasks: [{
-				id: "20D4044F1C5C229D"
-				type: "item"
-				item: {
-					id: "silentgear:crimson_repair_kit"
-					Count: 1b
-					tag: {
-						Storage: { }
-					}
-				}
-			}]
-			rewards: [{
-				id: "603C59BE3AFD69D8"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			x: 10.0d
-			y: 3.5d
-			dependencies: ["47A19A029C9E487D"]
-			id: "4E3023B954FDBBB2"
-			tasks: [{
-				id: "354C6DC6EC529DD2"
-				type: "item"
-				item: {
-					id: "silentgear:azure_repair_kit"
-					Count: 1b
-					tag: {
-						Storage: { }
-					}
-				}
-			}]
-			rewards: [{
-				id: "023C57497B98078E"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
+			title: "Your First Tool!"
 			icon: "silentgear:pickaxe_template"
-			x: 2.5d
+			x: -3.0d
 			y: 0.0d
 			subtitle: "Or At Least How To Make It"
 			description: [
-				"To make your first tool, take your pickaxe blueprint and put it into the crafting table."
+				"To make your first tool, take your Pickaxe Head part and put it into the crafting table."
 				""
-				"Add 3 materials to the crafting table, and this will make a tool part."
+				"To create a full pickaxe, you can either add a stick to the crafting table, or create your own custom handle using a &9Tool Rod Template&r instead of using a stick."
 				""
-				"To create a full pickaxe, make a Tool Rod part and combine it with the pickaxe head!"
-				""
-				"*Note: You can always search up the blueprint and right click on it, then navigate to the \"Gear Crafting\" tab. This will show you how to make the part."
+				"*Note: You can always search up the templates and then pressing U on it, then navigate to the \"Gear Crafting\" tab. This will show you how to make gear parts."
 			]
-			dependencies: ["64AB1E133E218173"]
+			dependencies: ["7B690431CF1B87D0"]
 			id: "15DE3BF0CBD8E0B4"
 			tasks: [{
-				id: "1629807CC32460DF"
-				type: "checkmark"
-				title: "Your First Tool!"
+				id: "2ADE9DBE9448AC7F"
+				type: "item"
+				title: "Any Silent Gear Pickaxe"
+				item: {
+					id: "silentgear:pickaxe"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-560392768
+							258428253
+							-1359164164
+							685076305
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:pickaxe_head"
+											Count: 1b
+											tag: {
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:iron"
+												}]
+											}
+										}
+										ID: "silentgear:pickaxe_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													ID: "silentgear:wood"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+								]
+								Tier: 2
+							}
+							Properties: {
+								ModVersion: "3.1.5"
+								Stats: {
+									"silentgear:charging_value": 0.7f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:durability": 250.0f
+									"silentgear:melee_damage": 3.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:attack_speed": -2.8f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+					}
+				}
 			}]
 			rewards: [{
 				id: "55AD7084DF68E820"
@@ -1273,5 +1355,73 @@
 				xp: 10
 			}]
 		}
+		{
+			title: "Template Boards"
+			icon: {
+				id: "silentgear:pickaxe_head"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Materials: [{
+						ID: "silentgear:example"
+					}]
+				}
+			}
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"To get started with gear crafting in the early game, we'll need to make some &9Template Boards&r to create our first &eTemplate&r."
+				""
+				"Templates are single-use \"blueprints\" for creating tool parts. Using the basic boards, craft yourself a &aPickaxe Template&r."
+				""
+				"If you combine the Pickaxe Template with 3 of most materials*, you can create a Pickaxe Head part."
+				""
+				"*Note: Material must have a Silent Gear Material tooltip with the Main type."
+			]
+			dependencies: ["52EB902E76829EBB"]
+			id: "7B690431CF1B87D0"
+			tasks: [
+				{
+					id: "1ABEFFE6204BD2AD"
+					type: "item"
+					item: "silentgear:template_board"
+					count: 4L
+				}
+				{
+					id: "3599BAFFC6D53F5E"
+					type: "item"
+					item: "silentgear:pickaxe_template"
+				}
+				{
+					id: "46CF8A25D6B2713A"
+					type: "item"
+					title: "Any Pickaxe Head Part"
+					item: {
+						id: "silentgear:pickaxe_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Materials: [{
+								ID: "silentgear:example"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "02F9EAB98F91686F"
+					type: "item"
+					item: "silentgear:template_board"
+					count: 8
+				}
+				{
+					id: "70451634EBBAFA04"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
 	]
+	quest_links: [ ]
 }

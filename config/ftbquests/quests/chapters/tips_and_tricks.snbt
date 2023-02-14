@@ -59,11 +59,19 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "156D559B0B56BA9A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "156D559B0B56BA9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6BCF264E89365C5D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "Comforts"
@@ -166,6 +174,12 @@
 					item: "compactmachines:wall"
 					count: 8
 				}
+				{
+					id: "46D9E69D9AC4E1A9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -244,31 +258,71 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "2087EBA230655A8C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2087EBA230655A8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E0CC06881345FD7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "Building Wands"
 			x: -2.0d
 			y: 6.0d
 			description: [
-				"Can be helpful for building."
+				"The mod &9Construction Wand&r adds helpful wands that are used when building."
 				""
-				"The construction wand has cores that can be added to it in crafting. Sneak left-click the air to switch between cores."
+				"When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory."
 			]
 			id: "2A2E3D020B1F5126"
 			tasks: [{
-				id: "05D9E287D437CDDB"
+				id: "176150A0FE674662"
 				type: "item"
+				title: "Construction Wands"
 				item: {
-					id: "constructionwand:stone_wand"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						Damage: 0
-						wand_options: { }
+						items: [
+							{
+								id: "constructionwand:stone_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:iron_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:diamond_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:infinity_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
 					}
 				}
 			}]
@@ -371,11 +425,19 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "0F5B656ED410D441"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0F5B656ED410D441"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36D0962726704052"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -396,11 +458,19 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "554BFA90C78DEDD5"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "554BFA90C78DEDD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "262AC9191FD415A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -420,11 +490,19 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "5D26E923244EBD6F"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "5D26E923244EBD6F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "252305AEF12B1572"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7025454341029952768L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -440,11 +518,19 @@
 				type: "item"
 				item: "structurecompass:structure_compass"
 			}]
-			rewards: [{
-				id: "7B2018A7B911D23F"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7B2018A7B911D23F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61DF943E33054D96"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
 		}
 		{
 			title: "The Eccentric Tome"
@@ -759,11 +845,19 @@
 				type: "item"
 				item: "torchmaster:megatorch"
 			}]
-			rewards: [{
-				id: "2EA020DC0A263031"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2EA020DC0A263031"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "466A0AFE85E7A5D4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -783,6 +877,39 @@
 				id: "57949E0DF2C7478A"
 				type: "item"
 				item: "minecraft:experience_bottle"
+			}]
+		}
+		{
+			title: "Crafting..... on a Stick!"
+			x: 1.0d
+			y: 8.0d
+			description: [
+				"Need a portable crafting table? How about a portable smithing table?"
+				""
+				"&9Crafting On A Stick&r adds portable versions of some of your favorite crafting tables! This is a must have in the early game."
+			]
+			id: "0790D3BB481162A6"
+			tasks: [
+				{
+					id: "6038387EA35404CD"
+					type: "item"
+					item: "crafting_on_a_stick:crafting_table"
+				}
+				{
+					id: "0BF4F9C40FF717DE"
+					type: "item"
+					item: "crafting_on_a_stick:smithing_table"
+				}
+				{
+					id: "405411318EA7A80C"
+					type: "item"
+					item: "crafting_on_a_stick:anvil"
+				}
+			]
+			rewards: [{
+				id: "2D7265C36210BDDB"
+				type: "xp"
+				xp: 10
 			}]
 		}
 	]

@@ -1,0 +1,403 @@
+{
+	id: "3A3BDBA4E9AD13C4"
+	order_index: 13
+	title: "&aUncommon Reward"
+	icon: "ftbquests:lootcrate"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "reliquary:handgun"
+				Count: 1b
+				tag: {
+					magazineType: "reliquary:magazines/neutral_magazine"
+					bulletCount: 8s
+					coolDownTime: 472179L
+				}
+			}
+			weight: 5
+		}
+		{ item: "mob_grinding_utils:saw", weight: 3 }
+		{
+			item: {
+				id: "modularrouters:distributor_module"
+				Count: 1b
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "modularrouters:energy_distributor_module"
+				Count: 1b
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+						Direction: "NONE"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "modularrouters:puller_module_2"
+				Count: 1b
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+		}
+		{ item: "modularrouters:speed_upgrade", count: 4, random_bonus: 4 }
+		{ item: "pipez:advanced_upgrade", random_bonus: 1, weight: 3 }
+		{ item: "pipez:universal_pipe", count: 8, random_bonus: 16, weight: 10 }
+		{ item: "productivebees:upgrade_breeding" }
+		{ item: "mekanism:advanced_tier_installer" }
+		{
+			item: {
+				id: "mekanism:basic_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "mekanismgenerators:wind_generator", weight: 5 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:netherite_ingot" }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:netherite_sight"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:diamond_sight"
+				}
+			}
+			weight: 5
+		}
+		{ item: "mob_grinding_utils:golden_egg", weight: 2 }
+		{ item: "mob_grinding_utils:rotten_egg", weight: 2 }
+		{
+			item: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ item: "hostilenetworks:sim_chamber" }
+		{ item: "hostilenetworks:loot_fabricator" }
+		{
+			item: {
+				id: "hexerei:willow_broom"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "functionalstorage:gold_upgrade", weight: 2 }
+		{
+			item: {
+				id: "enderchests:ender_chest"
+				Count: 1b
+				tag: {
+					owner: "all"
+					code: "000"
+				}
+			}
+			weight: 2
+		}
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "sophisticatedbackpacks:void_upgrade", weight: 2 }
+		{ item: "dankstorage:dank_3" }
+		{ item: "apotheosis:vial_of_expulsion" }
+		{ item: "ars_nouveau:glyph_accelerate" }
+		{ item: "apotheosis:vial_of_extraction" }
+		{ item: "ars_nouveau:glyph_aoe" }
+		{ item: "reliquary:lantern_of_paranoia", weight: 2 }
+		{
+			item: {
+				id: "sophisticatedbackpacks:iron_backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 54
+					upgradeSlots: 2
+					contentsUuid: [I;
+						874957929
+						1073565288
+						-1300208856
+						-1706533005
+					]
+				}
+			}
+			weight: 3
+		}
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1", weight: 5 }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_1", weight: 5 }
+		{ item: "compactmachines:machine_giant" }
+		{ item: "apotheosis:gem_dust", count: 2, random_bonus: 4, weight: 10 }
+		{ item: "sophisticatedstorage:void_upgrade", weight: 10 }
+		{ item: "thermal:machine_insolator" }
+		{
+			item: {
+				id: "sophisticatedstorage:iron_chest"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+			weight: 10
+		}
+		{ item: "ars_nouveau:glyph_explosion" }
+		{ item: "productivebees:upgrade_simulator" }
+		{ item: "dankstorage:dank_2", weight: 5 }
+		{ item: "productivebees:upgrade_time", weight: 2 }
+		{ item: "minecraft:diamond", count: 3, random_bonus: 3, weight: 10 }
+		{ item: "minecraft:iron_ingot", count: 8, random_bonus: 8, weight: 20 }
+		{ item: "minecraft:gold_ingot", count: 4, random_bonus: 4, weight: 15 }
+		{ item: "minecraft:lapis_lazuli", count: 16, random_bonus: 8, weight: 20 }
+		{ item: "minecraft:iron_block", weight: 15 }
+		{ item: "minecraft:diamond_block", weight: 10 }
+		{ item: "minecraft:gold_block", weight: 12 }
+		{ item: "minecraft:redstone_block", random_bonus: 2, weight: 20 }
+		{ item: "minecraft:emerald_block", weight: 10 }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:diamond_sight"
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:gold_sight"
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:iron_sight"
+				}
+			}
+			weight: 15
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:redstone_sight"
+				}
+			}
+			weight: 15
+		}
+		{ item: "minecraft:netherite_scrap", random_bonus: 1, weight: 5 }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "croptopia:toast", count: 2, random_bonus: 4, weight: 20 }
+		{ item: "croptopia:buttered_toast", count: 2, random_bonus: 4, weight: 7 }
+		{ item: "croptopia:avocado_toast", count: 2, random_bonus: 4, weight: 5 }
+		{ item: "delightful:deluxe_cheeseburger", weight: 5 }
+		{ item: "delightful:cheeseburger", random_bonus: 2, weight: 10 }
+		{ item: "farmersdelight:hamburger", random_bonus: 1, weight: 15 }
+		{ item: "croptopia:fruit_salad", weight: 5 }
+		{ item: "minecraft:redstone", count: 8, random_bonus: 16, weight: 15 }
+		{ item: "minecraft:lava_bucket", weight: 5 }
+		{ item: "mekanismgenerators:wind_generator", weight: 10 }
+		{ item: "powah:solar_panel_basic", weight: 10 }
+		{ item: "powah:thermo_generator_basic", weight: 5 }
+		{ item: "mekanismgenerators:gas_burning_generator", weight: 5 }
+		{ item: "functionalstorage:compacting_drawer", weight: 10 }
+		{ item: "functionalstorage:storage_controller", weight: 3 }
+		{ item: "minecraft:ender_pearl", count: 4, random_bonus: 4, weight: 10 }
+		{ item: "minecraft:ender_eye", random_bonus: 2, weight: 5 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:thorns"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:quartz", count: 4, random_bonus: 4, weight: 10 }
+		{ item: "ae2:silicon", count: 2, random_bonus: 4, weight: 15 }
+		{ item: "botania:mana_pool" }
+		{ item: "botania:manasteel_ingot", count: 2, random_bonus: 2, weight: 10 }
+		{ item: "botania:mana_diamond", random_bonus: 2, weight: 5 }
+		{ item: "botania:mana_pearl", random_bonus: 2, weight: 5 }
+		{
+			item: {
+				id: "twilightforest:giant_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "aquaculture:neptunium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "reliquary:pedestals/passive/white_passive_pedestal" }
+		{ item: "functionalstorage:oak_1", count: 4, random_bonus: 4, weight: 10 }
+		{ item: "mob_grinding_utils:absorption_hopper" }
+		{ item: "botanypots:terracotta_hopper_botany_pot", count: 2, random_bonus: 2, weight: 10 }
+		{ item: "mysticalagriculture:imperium_essence", weight: 8 }
+		{ item: "mysticalagriculture:tertium_essence", random_bonus: 1, weight: 10 }
+		{ item: "mysticalagriculture:prudentium_essence", count: 2, random_bonus: 2, weight: 20 }
+		{ item: "functionalstorage:void_upgrade", random_bonus: 2, weight: 10 }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2" }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_2" }
+		{ item: "minecraft:saddle", weight: 5 }
+		{ item: "minecraft:name_tag", weight: 5 }
+		{ item: "ironfurnaces:gold_furnace", weight: 3 }
+		{ item: "reliquary:fertile_lily_pad", random_bonus: 2, weight: 5 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_exchanging"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "buildinggadgets:gadget_destruction"
+				Count: 1b
+				tag: {
+					overlay: 1b
+					fuzzy: 1b
+				}
+			}
+		}
+		{ item: "minecraft:wither_skeleton_skull", weight: 10 }
+	]
+}

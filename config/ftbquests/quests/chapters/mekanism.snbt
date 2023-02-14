@@ -1,7 +1,7 @@
 {
 	id: "23983F4DC524B14B"
 	group: "2B51AC12041E3F89"
-	order_index: 2
+	order_index: 1
 	filename: "mekanism"
 	title: "Mekanism"
 	icon: "mekanism:steel_casing"
@@ -173,6 +173,12 @@
 					id: "42A4D32A98E77574"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "6901B097A0EE1749"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -1429,6 +1435,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "1BD5BF3301C59FE5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -2472,6 +2484,12 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					id: "0A3CB2A343E959F3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5196609362437981520L
+				}
 			]
 		}
 		{
@@ -2502,6 +2520,12 @@
 					id: "3A6298D80801B58E"
 					type: "xp"
 					xp: 1000
+				}
+				{
+					id: "5C9D2306A9397AA5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -2534,6 +2558,12 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					id: "59FBD3E46D2DC052"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
 			]
 		}
 		{
@@ -2565,6 +2595,12 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					id: "319B03150064C871"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
 			]
 		}
 		{
@@ -2595,6 +2631,12 @@
 					id: "06F08DF4BCA0C969"
 					type: "xp"
 					xp: 1000
+				}
+				{
+					id: "4C180D5C109A31A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -2765,6 +2807,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "6B3298C898E9C59A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -2869,10 +2917,12 @@
 				"A basic layout of your factory should be: "
 				""
 				"Raw ore goes into your Chemical Dissolution Chamber > pumps A GAS to Chemical Washer > pumps A GAS to Chemical Crystallizer >  outputs crystals to Chemical Injection Chamber > outputs shards to Purification Chamber > outputs clumps to Crusher > outputs dirty dusts to Enrichment Chamber > outputs clean dust to Smelter."
-				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:1000 height:600 align:1 fit:true}"
+				""
+				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 			]
 			dependencies: ["3999760881C855FA"]
 			size: 1.5d
+			min_width: 300
 			id: "3C49F2EEDCCAF1DF"
 			tasks: [{
 				id: "3B3B58C438FD4397"
