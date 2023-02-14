@@ -623,7 +623,7 @@
 			}]
 		}
 		{
-			x: 3.9999999999999996d
+			x: 4.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "Breaks down items into their components."
