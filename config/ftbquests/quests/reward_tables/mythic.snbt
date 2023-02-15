@@ -6,16 +6,16 @@
 	loot_size: 1
 	rewards: [
 		{ item: "mekanism:pellet_antimatter" }
-		{ item: "allthemodium:raw_vibranium" }
-		{ item: "allthemodium:raw_unobtainium" }
-		{ item: "allthemodium:unobtainium_allthemodium_alloy_ingot" }
-		{ item: "allthemodium:unobtainium_vibranium_alloy_ingot" }
-		{ item: "allthemodium:vibranium_allthemodium_alloy_ingot" }
-		{ item: "allthemodium:piglich_heart" }
-		{ item: "allthemodium:allthemodium_sword" }
-		{ item: "allthemodium:allthemodium_pickaxe" }
-		{ item: "allthemodium:allthemodium_axe" }
-		{ item: "allthemodium:allthemodium_shovel" }
+		{ item: "allthemodium:raw_vibranium", random_bonus: 3, weight: 3 }
+		{ item: "allthemodium:raw_unobtainium", random_bonus: 3, weight: 3 }
+		{ item: "allthemodium:unobtainium_allthemodium_alloy_ingot", random_bonus: 2, weight: 2 }
+		{ item: "allthemodium:unobtainium_vibranium_alloy_ingot", random_bonus: 2, weight: 2 }
+		{ item: "allthemodium:vibranium_allthemodium_alloy_ingot", random_bonus: 2 }
+		{ item: "allthemodium:piglich_heart", random_bonus: 3, weight: 3 }
+		{ item: "allthemodium:allthemodium_sword", weight: 2 }
+		{ item: "allthemodium:allthemodium_pickaxe", weight: 2 }
+		{ item: "allthemodium:allthemodium_axe", weight: 2 }
+		{ item: "allthemodium:allthemodium_shovel", weight: 2 }
 		{ item: "allthemodium:allthemodium_boots" }
 		{ item: "allthemodium:allthemodium_leggings" }
 		{ item: "allthemodium:allthemodium_chestplate" }
@@ -39,6 +39,7 @@
 					Potion: "potionsmaster:vibranium_sight"
 				}
 			}
+			weight: 2
 		}
 		{
 			item: {
@@ -49,14 +50,15 @@
 					Potion: "potionsmaster:unobtainium_sight"
 				}
 			}
+			weight: 2
 		}
 		{ item: "botania:life_essence" }
-		{ item: "elementalcraft:purecrystal" }
+		{ item: "elementalcraft:purecrystal", random_bonus: 1, weight: 4 }
 		{ item: "elementalcraft:fireite_ingot" }
-		{ item: "ars_nouveau:ritual_wilden_summon" }
-		{ item: "mysticalagriculture:master_infusion_crystal" }
+		{ item: "ars_nouveau:ritual_wilden_summon", weight: 2 }
+		{ item: "mysticalagriculture:master_infusion_crystal", weight: 2 }
 		{ item: "mysticalagradditions:insanium_essence" }
-		{ item: "thermal_extra:upgrade_augment" }
+		{ item: "thermal_extra:upgrade_augment", weight: 3 }
 		{ item: "mekanism:atomic_disassembler" }
 	]
 }
