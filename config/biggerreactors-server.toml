@@ -2,7 +2,13 @@
 # Enabled advanced config options
 # Additional options will be shown after next config load
 #
-EnableAdvancedConfig = false
+EnableAdvancedConfig = true
+
+#
+# Default: MODERN
+# Allowed Values: MODERN, EXPERIMENTAL, 
+#
+mode = "MODERN"
 
 [WorldGen]
     #
@@ -59,6 +65,230 @@ EnableAdvancedConfig = false
     #
     OutputMultiplier = 3.0
 
+    #
+    # Valid range: (0,)
+    # Default: 0.10000000149011612
+    #
+    FissionEventsPerFuelUnit = 0.10000000149011612
+
+    #
+    # Valid range: (0,)
+    # Default: 6.99999975040555E-4
+    #
+    FuelPerRadiationUnit = 6.99999975040555E-4
+
+    #
+    # Default: false
+    #
+    useFullPassSimulation = false
+
+    #
+    # Valid range: (0,)
+    # Default: 2.5
+    #
+    RadPenaltyRateMultiplier = 2.5
+
+    #
+    # Valid range: (0,)
+    # Default: 100000
+    #
+    PassiveBatteryPerExternalBlock = 300000
+
+    #
+    # Valid range: (0,)
+    # Default: 0.5
+    #
+    PassiveOutputMultiplier = 0.5
+
+    #
+    # Valid range: (0,)
+    # Default: 0.6
+    #
+    StackToCoolantRFMKT = 0.6
+
+    #
+    # Valid range: (0,)
+    # Default: 20.0
+    #
+    FuelFertilityDecayDenominator = 20.0
+
+    #
+    # Valid range: (0,)
+    # Default: 200.0
+    #
+    FuelFertilityDecayDenominatorInactiveMultiplier = 200.0
+
+    #
+    # Default: 1.0
+    #
+    fuelRadScalingMultiplier = 1.0
+
+    #
+    # Powers of two recommended
+    # Valid range: [16,)
+    # Default: 64
+    #
+    SimulationRays = 64
+
+    #
+    # Valid range: [1,)
+    # Default: 4000
+    #
+    PerFuelRodCapacity = 4000
+
+    #
+    # Valid range: (0,)
+    # Default: 10.0
+    #
+    CaseFEPerUnitVolumeKelvin = 10.0
+
+    #
+    # Valid range: (0,)
+    # Default: 10000
+    #
+    CoolantTankAmountPerFuelRod = 30000
+
+    #
+    # Valid range: (0,1]
+    # Default: 0.949999988079071
+    #
+    RadIntensityScalingMultiplier = 0.949999988079071
+
+    #
+    # Valid range: (0,)
+    # Default: 10.0
+    #
+    RodFEPerUnitVolumeKelvin = 10.0
+
+    #
+    # Valid range: (0,)
+    # Default: 0.001
+    #
+    StackToAmbientRFMKT = 0.001
+
+    #
+    # Valid range: (0,)
+    # Default: 1.5
+    #
+    FuelModerationFactor = 1.5
+
+    #
+    # Default: true
+    #
+    allowOffThreadSimulation = true
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    FuelHardnessDivisor = 1.0
+
+    #
+    # Valid range: (0,)
+    # Default: 1000
+    #
+    FuelMBPerIngot = 1000
+
+    #
+    # Valid range: (0,1]
+    # Default: 0.949999988079071
+    #
+    FuelAbsorptionScalingMultiplier = 0.949999988079071
+
+    #
+    # Valid range: (0,)
+    # Default: 0.10000000149011612
+    #
+    FuelFertilityMinimumDecay = 0.10000000149011612
+
+    #
+    # Valid range: (0,)
+    # Default: 10.0
+    #
+    FEPerRadiationUnit = 10.0
+
+    #
+    # Valid range: (0,)
+    # Default: 0.20000000298023224
+    #
+    PassiveCoolingTransferEfficiency = 0.20000000298023224
+
+    #
+    # Valid range: (0,)
+    # Default: 4
+    #
+    IrradiationDistance = 4
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    FuelAbsorptionScalingShiftMultiplier = 1.0
+
+    #
+    # Default: true
+    #
+    allowMultiThreadSimulation = true
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    ActiveOutputMultiplier = 1.0
+
+    #
+    # Valid range: (0,)
+    # Default: 0.6
+    #
+    CasingHeatTransferRFMKT = 0.6
+
+    #
+    # Default: true
+    #
+    allowAcceleratedSimulation = true
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    FuelToStackRFKTMultiplier = 1.0
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0
+    #
+    RadIntensityScalingShiftMultiplier = 1.0
+
+    #
+    # Valid range: [0,1]
+    # Default: 0.5
+    #
+    FuelAbsorptionCoefficient = 0.5
+
+    #
+    # Valid range: (0,)
+    # Default: 15.0
+    #
+    RadPenaltyShiftMultiplier = 15.0
+
+    #
+    # Valid range: (0,)
+    # Default: 1.2000000476837158
+    #
+    RadIntensityScalingRateExponentMultiplier = 1.2000000476837158
+
+    #
+    # Valid range: (0,)
+    # Default: 2.200000047683716
+    #
+    FuelAbsorptionScalingRateExponentMultiplier = 2.200000047683716
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0499999523162842
+    #
+    FuelReactivity = 1.0499999523162842
+
 [Turbine]
     #
     # Valid range: [5,)
@@ -78,6 +308,60 @@ EnableAdvancedConfig = false
     #
     MaxHeight = 192
 
+    #
+    # Valid range: (0,)
+    # Default: 10000
+    #
+    TankVolumePerBlock = 10000
+
+    #
+    # Valid range: (0,)
+    # Default: 20.0
+    #
+    FluidPerBladeLinerKilometre = 20.0
+
+    #
+    # Valid range: (0,)
+    # Default: 10.0
+    #
+    CoilDragMultiplier = 10.0
+
+    #
+    # Valid range: (0,)
+    # Default: 100.0
+    #
+    RotorAxialMassPerBlade = 100.0
+
+    #
+    # Valid range: (0,)
+    # Default: 300000
+    #
+    BatterySizePerCoilBlock = 300000
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0E-4
+    #
+    AerodynamicDragMultiplier = 1.0E-4
+
+    #
+    # Valid range: (0,)
+    # Default: 100.0
+    #
+    RotorAxialMassPerShaft = 100.0
+
+    #
+    # Valid range: (0,)
+    # Default: 1.0E-4
+    #
+    FrictionDragMultiplier = 1.0E-4
+
+    #
+    # Valid range: (0,)
+    # Default: 5000
+    #
+    FlowRatePerBlock = 5000
+
 [HeatExchanger]
     #
     # Valid range: [3,)
@@ -96,6 +380,54 @@ EnableAdvancedConfig = false
     # Default: 96
     #
     MaxHeight = 96
+
+    #
+    # Valid range: (0,)
+    # Default: 50.0
+    #
+    ChannelFEPerKelvinMetreSquared = 50.0
+
+    #
+    # Valid range: (0,)
+    # Default: 0.5
+    #
+    ChannelToChannelHeatConductivityMultiplier = 0.5
+
+    #
+    # Valid range: (0,)
+    # Default: 0.5
+    #
+    AirFEPerKelvinMetreSquared = 0.5
+
+    #
+    # Valid range: (0,)
+    # Default: 80.0
+    #
+    ChannelInternalSurfaceArea = 80.0
+
+    #
+    # Valid range: (0,)
+    # Default: 0.20000000298023224
+    #
+    AmbientFEPerKelvinMetreSquared = 0.20000000298023224
+
+    #
+    # Valid range: (0,)
+    # Default: 10.0
+    #
+    AirFEPerKelvinUnitVolume = 10.0
+
+    #
+    # Valid range: (0,)
+    # Default: 10000
+    #
+    ChannelTankVolumePerBlock = 10000
+
+    #
+    # Valid range: (0,)
+    # Default: 1000.0
+    #
+    ChannelFEPerKelvinUnitVolume = 1000.0
 
 [CyaniteReprocessor]
     #

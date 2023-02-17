@@ -34,19 +34,6 @@
 			dependency: "4AD8363D7359A072"
 		}
 		{
-			x: 2.0d
-			y: 6.0d
-			width: 0.25d
-			height: 0.25d
-			rotation: 45.0d
-			image: "biggerreactors:textures/block/graphite_block.png"
-			hover: ["Reactor Simulator"]
-			click: "https://br.sidoh.org/#reactor-prompt"
-			dev: false
-			corner: false
-			dependency: "4AD8363D7359A072"
-		}
-		{
 			x: -3.0d
 			y: 11.5d
 			width: 0.25d
@@ -269,7 +256,7 @@
 				""
 				"The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
 				""
-				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite) from the reactor. Because of this, it's usually a good idea to have 2 per reactor."
+				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite). While it only requires one, it's usually a good idea to have 2 per reactor. If the inventory can push &land&r pull (i.e. hopper), Cyanite will be pushed into the inventory as an input."
 			]
 			dependencies: ["4B9E9497E44D0096"]
 			id: "2A20000FAEC2E16A"
@@ -474,9 +461,9 @@
 			y: 6.0d
 			subtitle: "Waste Not Want Not or something...."
 			description: [
-				"Just as you'll need to pump in Fuel, burning Uranium creates a byproduct of &9Cyanite&r."
+				"Just as you'll need to pump in Fuel, burning Uranium creates a byproduct of &9Cyanite&r as a waste."
 				""
-				"You'll need to right-click on a &9Reactor Access Port&r and switch it to output waste into another storage block, like a chest. "
+				"Note: &eCyanite Dust&r is craftable. "
 			]
 			dependencies: ["4AD8363D7359A072"]
 			hide: true
@@ -507,9 +494,9 @@
 			x: -0.5d
 			y: 8.0d
 			description: [
-				"That waste is actually rather useful! Making a &9Cyanite Reprocessor&r allows you to convert Cyanite into &dBlutonium&r."
+				"That waste is actually rather useful! Making a &9Cyanite Reprocessor&r allows you to convert &e2 Cyanite Ingots&r into &dBlutonium&r. The Reprocessor will also need water to complete the conversion. "
 				""
-				"The Reprocessor will need water to complete the conversion. "
+				"Blutonium is used in several crafting recipes, but can also be used in a reactor for fuel, just like Uranium."
 			]
 			dependencies: ["4745152F6FF242B3"]
 			hide: true
@@ -712,7 +699,7 @@
 				""
 				"The taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &9burn rate&r."
 				""
-				"The wider the reactor, the more efficient it is. This means less consumption overall."
+				"The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
 			]
 			dependencies: ["4AD8363D7359A072"]
 			min_width: 300
@@ -788,9 +775,9 @@
 			description: [
 				"To get a Turbine spinning, we'll need these &crequired&r components:"
 				""
-				"- &9Rotor Bearings&r are placed at the end of the shaft of the turbine, which needs to be placed in the middle of your turbine. You will need exactly 2 per Turbine, one at the top and one at the base."
+				"- &9Rotor Bearings&r are placed at each end of the shaft of the turbine. While the shaft technically does not have to be centered in the turbine, it's generally the optimal place for it. You will need exactly 2 per Turbine, one at the top and one at the base."
 				""
-				"- &eRotor Shafts&r extend from one Rotor Bearing to the other, creating the shaft for the Turbine. The shaft can be vertical or horizontal, but must be in the middle of the turbine."
+				"- &eRotor Shafts&r extend from one Rotor Bearing to the other, creating the shaft for the Turbine. The shaft can be vertical or horizontal."
 				""
 				"- &9Rotor Blades&r make the rotor spin. These are placed onto the Rotor Shafts and can be multiple blocks in length."
 				""
