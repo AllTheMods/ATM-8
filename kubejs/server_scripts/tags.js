@@ -38,11 +38,6 @@ ServerEvents.tags('entity_type', event => {
   event.add('ars_nouveau:drygmy_blacklist', [/productivebees:.+/, 'artifacts:mimic'])
 })
 
-ServerEvents.tags('fluid', event => {
-  event.add('forge:crude_oil', 'ad_astra:oil')
-  event.remove('minecraft:water', 'ad_astra:oil')
-})
-
 ServerEvents.tags('worldgen/biome', event =>{
   event.add('botania:mystical_flower_spawnlist', 'allthemodium:mining')
   event.add('elementalcraft:has_sources/all','allthemodium:mining')
