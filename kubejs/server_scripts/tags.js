@@ -43,6 +43,13 @@ ServerEvents.tags('fluid', event => {
   event.remove('minecraft:water', 'ad_astra:oil')
 })
 
+ServerEvents.tags('worldgen/biome', event =>{
+  event.add('botania:mystical_flower_spawnlist', 'allthemodium:mining')
+  event.add('elementalcraft:has_sources/all','allthemodium:mining')
+  event.add('elementalcraft:has_sources/sky','allthemodium:mining')
+  event.add('elementalcraft:has_sources/plain','allthemodium:mining')
+})
+
 //temp fix for bambooeverything breaking boat tags until above 2.2.4
 ServerEvents.highPriorityData(event => {
   event.addJson(`minecraft:tags/items/boats.json`, {
