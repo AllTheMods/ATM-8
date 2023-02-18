@@ -188,11 +188,11 @@
 						Count: 1b
 						tag: {
 							state: {
-								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								serializer: "buildinggadgets:dummy_serializer"
+								data: { }
 							}
 						}
 					}
@@ -205,11 +205,11 @@
 						Count: 1b
 						tag: {
 							state: {
-								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								serializer: "buildinggadgets:dummy_serializer"
+								data: { }
 							}
 						}
 					}
@@ -221,13 +221,13 @@
 						id: "buildinggadgets:gadget_copy_paste"
 						Count: 1b
 						tag: {
+							mode: 0b
 							template_id: [I;
 								1687424916
 								-1474150034
 								-1591711937
 								1045183693
 							]
-							mode: 0b
 						}
 					}
 				}
@@ -293,6 +293,9 @@
 				"73F91BF3D424B269"
 				"0F75D7B9F4FF2459"
 				"2A2E3D020B1F5126"
+				"05F186C95510BD4B"
+				"5118D4137573AD80"
+				"0060BCEDABC9BE2E"
 			]
 			id: "0F8F37D7E12078F5"
 			tasks: [{
@@ -426,6 +429,11 @@
 		{
 			x: 2.5d
 			y: 5.5d
+			description: [
+				"The &9Structure Compass&r can help you locate structures in the world, just like the &eNature's Compass&r!"
+				""
+				"Shift+Right-clicking with the compass in hand will bring up a menu of structures to search for."
+			]
 			id: "5D18D7EFC37DB81E"
 			tasks: [{
 				id: "423F9BB8DC7962F6"
@@ -438,5 +446,345 @@
 				xp: 100
 			}]
 		}
+		{
+			title: "The Eccentric Tome"
+			x: 1.0d
+			y: 7.0d
+			description: [
+				"This &9Tome&r holds all of the guidebooks in the modpack."
+				""
+				"- Right-clicking will bring up the &eBook Selection Screen&r."
+				"- Shift+Right-clicking with the book in your hand will convert to the guidebook for the mod based on the block you are looking at."
+				"- Left-clicking the air will revert the specific guidebook back to the Eccentric Tome."
+				"- Shift+Q with a specific mod guidebook selected will drop the book from the Tome."
+				""
+				"Note: If you have to use a guidebook in a recipe, make sure to drop the guidebook out first! Do not use the Tome to craft the item! This will cause the Tome to vanish."
+			]
+			min_width: 300
+			id: "5118D4137573AD80"
+			tasks: [{
+				id: "77321233659FEC13"
+				type: "item"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": {
+							industrialforegoing: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							rebornstorage: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "rebornstorage:rs_book"
+									}
+								}
+							}
+							sebastrnlib: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+									}
+								}
+							}
+							ftbquests: {
+								0: {
+									Count: 1.0d
+									id: "ftbquests:book"
+								}
+							}
+							advancedperipherals: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+							}
+							immersiveengineering: {
+								0: {
+									Count: 1.0d
+									id: "immersiveengineering:manual"
+								}
+							}
+							allthemodium: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "allthemodium:allthemodium"
+									}
+								}
+							}
+							elementalcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "elementalcraft:element_book"
+									}
+								}
+							}
+							botania: {
+								0: {
+									Count: 1.0d
+									id: "botania:lexicon"
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1.0d
+									id: "rftoolsbase:manual"
+								}
+							}
+							integrateddynamics: {
+								0: {
+									Count: 1.0d
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+								}
+							}
+							laserio: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "laserio:laseriobook"
+									}
+								}
+							}
+							croptopia: {
+								0: {
+									Count: 1.0d
+									id: "croptopia:guide"
+								}
+							}
+							securitycraft: {
+								0: {
+									Count: 1.0d
+									id: "securitycraft:sc_manual"
+								}
+							}
+							powah: {
+								0: {
+									Count: 1.0d
+									id: "powah:book"
+								}
+							}
+							modonomicon: {
+								0: {
+									Count: 1.0d
+									id: "modonomicon:modonomicon"
+									tag: {
+										"modonomicon:book_id": "theurgy:the_hermetica"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							naturesaura: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							deeperdarker: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							engineersdecor: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
+									}
+								}
+							}
+							occultism: {
+								0: {
+									Count: 1.0d
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1.0d
+									id: "solcarrot:food_book"
+								}
+							}
+							productivebees: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "productivebees:guide"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							byg: {
+								0: {
+									Count: 1.0d
+									id: "byg:biomepedia"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1.0d
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							hexcasting: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+							}
+							ftbic: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "ftbic:ftbic_guide"
+									}
+								}
+							}
+							mysticalagriculture: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+							}
+							alchemistry: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "alchemistry:alchemistry_book"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E8C17C464A35055"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			description: [
+				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 64 block radius."
+				""
+				"Great for stopping hostile spawns in dark parts of your base!"
+			]
+			id: "05F186C95510BD4B"
+			tasks: [{
+				id: "6418A273A57B203C"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "2EA020DC0A263031"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			description: [
+				"The &9Experience Crystal&r allows you to store experience, either by giving it your levels, or pumping in experience from a tank."
+				""
+				"You can also transfer the experience stored to level yourself up with just a click of a button!"
+			]
+			id: "0060BCEDABC9BE2E"
+			tasks: [{
+				id: "189B87AF99321862"
+				type: "item"
+				item: "utilitix:experience_crystal"
+			}]
+			rewards: [{
+				id: "57949E0DF2C7478A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
+		}
 	]
+	quest_links: [ ]
 }

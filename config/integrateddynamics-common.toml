@@ -17,7 +17,7 @@
 		#The slowest possible frequency in ticks at which ingredient network should be observed.
 		ingredientNetworkObserverFrequencyMax = 40
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = true
+		analytics = false
 		#If the ingredient network observer can work on separate thread.
 		ingredientNetworkObserverEnableMultithreading = true
 		#When enabled, networks will stop ticking and values will not be shown and evaluated again. This can be used to fix crashing networks by temporarily enabling this option.
@@ -33,7 +33,7 @@
 		#The frequency in ticks at which ingredient network should be observed after a position's contents are changed.
 		ingredientNetworkObserverFrequencyForced = 0
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 [general]
 
