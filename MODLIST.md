@@ -1,5 +1,5 @@
 # All the Mods 8
-Complete mod list for version 1.0.10  
+Complete mod list for version 1.0.11  
 forge version 43.2.3  
 
 | Mod Name | Authors | Enabled |
@@ -191,6 +191,8 @@ forge version 43.2.3
 | [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps) | [sketch_macaw](https://www.curseforge.com/members/57166001-sketch_macaw?username=sketch_macaw) | ✔️ |
 | [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs) | [sketch_macaw](https://www.curseforge.com/members/57166001-sketch_macaw?username=sketch_macaw) | ✔️ |
 | [Macaw's Trapdoors](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors) | [sketch_macaw](https://www.curseforge.com/members/57166001-sketch_macaw?username=sketch_macaw) | ✔️ |
+| [Magnesium/Rubidium Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged) | [TeamDeusVult](https://www.curseforge.com/members/102782844-teamdeusvult?username=teamdeusvult) | ✔️ |
+| [Magnesium/Rubidium Extras](https://www.curseforge.com/minecraft/mc-mods/magnesium-extras) | [TeamDeusVult](https://www.curseforge.com/members/102782844-teamdeusvult?username=teamdeusvult) | ✔️ |
 | [Mahou Tsukai](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai) | [stepcros](https://www.curseforge.com/members/50178175-stepcros?username=stepcros) | ✔️ |
 | [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
 | [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester) | [DamnRelentless](https://www.curseforge.com/members/11567308-damnrelentless?username=damnrelentless) | ✔️ |
@@ -200,6 +202,7 @@ forge version 43.2.3
 | [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism) | [bradyaidanc](https://www.curseforge.com/members/7470757-bradyaidanc?username=bradyaidanc) [Thiakil](https://www.curseforge.com/members/28798139-thiakil?username=thiakil) [thommy101](https://www.curseforge.com/members/6868754-thommy101?username=thommy101) [pupnewfster](https://www.curseforge.com/members/8445729-pupnewfster?username=pupnewfster) | ✔️ |
 | [MineColonies](https://www.curseforge.com/minecraft/mc-mods/minecolonies) | [H3lay](https://www.curseforge.com/members/27059243-h3lay?username=h3lay) [someaddon](https://www.curseforge.com/members/100114338-someaddon?username=someaddon) | ✔️ |
 | [Mining Gadgets](https://www.curseforge.com/minecraft/mc-mods/mining-gadgets) | [Direwolf20](https://www.curseforge.com/members/22300-direwolf20?username=direwolf20) [Error_MiKeY](https://www.curseforge.com/members/8021848-error_mikey?username=error_mikey) | ✔️ |
+| [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm) | [MehVahdJukaar](https://www.curseforge.com/members/101295357-mehvahdjukaar?username=mehvahdjukaar) | ✔️ |
 | [Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils) | [vadis365](https://www.curseforge.com/members/10940404-vadis365?username=vadis365) [Flanks255](https://www.curseforge.com/members/19768394-flanks255?username=flanks255) | ✔️ |
 | [Mod Name Tooltip](https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip) | [mezz](https://www.curseforge.com/members/17072262-mezz?username=mezz) | ✔️ |
 | [Model Gap Fix](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) | [MehVahdJukaar](https://www.curseforge.com/members/101295357-mehvahdjukaar?username=mehvahdjukaar) | ✔️ |
@@ -302,6 +305,7 @@ forge version 43.2.3
 | [The One Probe](https://www.curseforge.com/minecraft/mc-mods/the-one-probe) | [McJty](https://www.curseforge.com/members/12351286-mcjty?username=mcjty) | ✔️ |
 | [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) | [Benimatic](https://www.curseforge.com/members/7381421-benimatic?username=benimatic) [jodlodi](https://www.curseforge.com/members/102755699-jodlodi?username=jodlodi) [Tamaized](https://www.curseforge.com/members/14029635-tamaized?username=tamaized) [Drullkus](https://www.curseforge.com/members/8931161-drullkus?username=drullkus) [Squiggly_Androsa](https://www.curseforge.com/members/43729662-squiggly_androsa?username=squiggly_androsa) [GizmoTheMoonPig](https://www.curseforge.com/members/100913984-gizmothemoonpig?username=gizmothemoonpig) | ✔️ |
 | [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
+| [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [RWTema](https://www.curseforge.com/members/10976379-rwtema?username=rwtema) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
 | [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
 | [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
 | [Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation) | [TeamCoFH](https://www.curseforge.com/members/12590770-teamcofh?username=teamcofh) [KingLemmingCoFH](https://www.curseforge.com/members/4632299-kinglemmingcofh?username=kinglemmingcofh) | ✔️ |
@@ -332,8 +336,10 @@ forge version 43.2.3
 | [XyCraft: Override](https://www.curseforge.com/minecraft/mc-mods/xycraft-override) | [Soaryn](https://www.curseforge.com/members/8530442-soaryn?username=soaryn) | ✔️ |
 | [XyCraft: World](https://www.curseforge.com/minecraft/mc-mods/xycraft-world) | [Soaryn](https://www.curseforge.com/members/8530442-soaryn?username=soaryn) | ✔️ |
 | [XyCraft](https://www.curseforge.com/minecraft/mc-mods/xycraft) | [Soaryn](https://www.curseforge.com/members/8530442-soaryn?username=soaryn) | ✔️ |
+| [Yeetus Experimentus](https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus) | [Sunekaer](https://www.curseforge.com/members/8306579-sunekaer?username=sunekaer) | ✔️ |
 | [YUNG's API (Forge)](https://www.curseforge.com/minecraft/mc-mods/yungs-api) | [YUNGNICKYOUNG](https://www.curseforge.com/members/40421595-yungnickyoung?username=yungnickyoung) | ✔️ |
 | [YUNG's Better Dungeons (Forge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons) | [YUNGNICKYOUNG](https://www.curseforge.com/members/40421595-yungnickyoung?username=yungnickyoung) [EveCommander](https://www.curseforge.com/members/102094599-evecommander?username=evecommander) | ✔️ |
 | [YUNG's Better Mineshafts (Forge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge) | [YUNGNICKYOUNG](https://www.curseforge.com/members/40421595-yungnickyoung?username=yungnickyoung) | ✔️ |
 | [YUNG's Better Ocean Monuments (Forge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments) | [YUNGNICKYOUNG](https://www.curseforge.com/members/40421595-yungnickyoung?username=yungnickyoung) [teratoutcourt](https://www.curseforge.com/members/103326469-teratoutcourt?username=teratoutcourt) | ✔️ |
 | [YUNG's Better Strongholds (Forge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds) | [YUNGNICKYOUNG](https://www.curseforge.com/members/40421595-yungnickyoung?username=yungnickyoung) [EveCommander](https://www.curseforge.com/members/102094599-evecommander?username=evecommander) | ✔️ |
+| [YUNG's Better Witch Huts (Forge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts) | [YUNGNICKYOUNG](https://www.curseforge.com/members/40421595-yungnickyoung?username=yungnickyoung) [EveCommander](https://www.curseforge.com/members/102094599-evecommander?username=evecommander) | ✔️ |
