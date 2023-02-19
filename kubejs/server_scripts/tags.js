@@ -40,6 +40,9 @@ ServerEvents.tags('entity_type', event => {
 
 ServerEvents.tags('worldgen/biome', event =>{
   event.add('botania:mystical_flower_spawnlist', 'allthemodium:mining')
+  event.add('botania:mystical_mushroom_spawnlist', [
+    'allthemodium:the_other','allthemodium:soul_sand_valley','allthemodium:warped_forest',
+    'allthemodium:desert_hills','allthemodium:desert','allthemodium:crimson_forest','allthemodium:basalt_deltas'])
   event.add('elementalcraft:has_sources/all','allthemodium:mining')
   event.add('elementalcraft:has_sources/sky','allthemodium:mining')
   event.add('elementalcraft:has_sources/plain','allthemodium:mining')
