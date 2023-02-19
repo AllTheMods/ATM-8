@@ -270,6 +270,12 @@
 					type: "item"
 					item: "mekanism:upgrade_muffling"
 				}
+				{
+					id: "5417AB9BEE33B138"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -395,6 +401,12 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "26E6EC93BB1B43D3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
 			]
 		}
 		{
@@ -424,6 +436,12 @@
 					id: "1B818AB1DE891746"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "1BA05CF4F9099575"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -553,6 +571,12 @@
 					type: "item"
 					item: "ironfurnaces:augment_speed"
 				}
+				{
+					id: "14E605CBF824E5D2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -603,11 +627,19 @@
 				item: "minecraft:diamond"
 				count: 3L
 			}]
-			rewards: [{
-				id: "1996E88544A33A31"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1996E88544A33A31"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "295ED9800EF136F3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "To the Nether!"
@@ -656,6 +688,12 @@
 					type: "item"
 					item: "minecraft:quartz"
 					count: 8
+				}
+				{
+					id: "428A09987F13FDD1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -721,11 +759,19 @@
 				type: "item"
 				item: "allthemodium:allthemodium_ingot"
 			}]
-			rewards: [{
-				id: "1950ED0AC6732F18"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1950ED0AC6732F18"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D1D1A8919E5FC37"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
+			]
 		}
 		{
 			title: "Enchanting Time"
@@ -790,9 +836,9 @@
 			description: [
 				"&dVibranium&r is an end-game level ore mined from the Nether or the Other."
 				""
-				"Vibranium can be found in the Nether in Crimson and Warped Forests, between Y100 to Y123."
+				"Vibranium can rarely be found in the Nether in Crimson and Warped Forests, between Y100 to Y123."
 				""
-				"It can be found in any biome in the Other between Y0 and Y20."
+				"It is more commonly found in any biome in the Other between Y0 and Y20."
 			]
 			dependencies: ["6A4211C61120DBE8"]
 			id: "75A0CAF9E85198EF"
@@ -817,6 +863,12 @@
 					id: "7F3D790EAF957994"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "5D498236B68B539F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -852,6 +904,12 @@
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "7467931FE2321F6E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -873,11 +931,19 @@
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "1EC6E0E46142E6D8"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1EC6E0E46142E6D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FEC600EC4F3AC17"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
 		}
 		{
 			title: "Kill the &5Ender Dragon!"
@@ -915,6 +981,12 @@
 						}
 					}
 				}
+				{
+					id: "1C688CD8D3D74DD5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
 			]
 		}
 		{
@@ -936,11 +1008,19 @@
 				item: "minecraft:end_crystal"
 				count: 4L
 			}]
-			rewards: [{
-				id: "1475AA1CF744F9CB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1475AA1CF744F9CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "710202A325DE58D0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
 		}
 		{
 			icon: "minecraft:ender_pearl"
@@ -960,11 +1040,19 @@
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "072FD927242F3038"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "072FD927242F3038"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AE3CA628D4F995D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
 		}
 		{
 			title: "Vanilla \"Flight\""
@@ -1003,6 +1091,12 @@
 					type: "item"
 					item: "minecraft:firework_rocket"
 					count: 8
+				}
+				{
+					id: "1088009042F9ECAF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7025454341029952768L
 				}
 			]
 		}
@@ -1044,6 +1138,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "6C77ED457EF964F0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
 			]
 		}
 		{
@@ -1075,6 +1175,12 @@
 					id: "2E0F6B624E74D5C6"
 					type: "item"
 					item: "minecraft:ancient_debris"
+				}
+				{
+					id: "586576C90B987F29"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -1231,7 +1337,7 @@
 			]
 		}
 		{
-			title: "The best upgrade for a furnace."
+			title: "The Best Upgrade for a Furnace."
 			x: 11.0d
 			y: 1.0d
 			shape: "diamond"
@@ -1290,6 +1396,12 @@
 					id: "636551BBDC41E4CB"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "12C56D2726FF528F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
 				}
 			]
 		}
@@ -1362,11 +1474,19 @@
 				advancement: "deeperdarker:main/kill_warden"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "52C50CEC00B8AEC3"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "52C50CEC00B8AEC3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4CE331B163AC93BE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 7025454341029952768L
+				}
+			]
 		}
 		{
 			title: "Finding the Deep Dark"
@@ -1414,7 +1534,11 @@
 			y: -0.5d
 			shape: "hexagon"
 			subtitle: "Look Ma, I'm flying! Creatively!"
-			description: ["The &dAngel Ring&r allows the player to have Creative Flight at the cost of experience. Make sure to put it in your ring slot to free up inventory space!"]
+			description: [
+				"The &dAngel Ring&r allows the player to have Creative Flight at the cost of experience. Make sure to put it in your ring slot to free up inventory space!"
+				""
+				"You can also upgrade the ring to use power instead of exp!"
+			]
 			dependencies: ["427B251ABCD4B085"]
 			size: 2.5d
 			id: "6A1751470C1E7B9A"
@@ -1422,6 +1546,11 @@
 				id: "31376CC991071EAC"
 				type: "item"
 				item: "angelring:angel_ring"
+			}]
+			rewards: [{
+				id: "4D06F9125E5AA8C3"
+				type: "random"
+				table_id: 7175652334583451871L
 			}]
 		}
 		{

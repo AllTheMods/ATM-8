@@ -25,6 +25,7 @@
 			x: -4.0d
 			y: -0.5d
 			subtitle: "Kill 5 Zombies"
+			hide: false
 			id: "2B05A29C62676EB2"
 			tasks: [{
 				id: "5457CD8C1ABA0B9E"
@@ -52,6 +53,7 @@
 			x: -4.0d
 			y: -2.0d
 			dependencies: ["2B05A29C62676EB2"]
+			hide: true
 			id: "444ACE285311ECB4"
 			tasks: [{
 				id: "3AD10C31CB6BA4C2"
@@ -68,17 +70,10 @@
 					xp: 20
 				}
 				{
-					id: "3DAF248AA3E3250B"
-					type: "item"
-					item: "minecraft:rotten_flesh"
-					count: 10
-				}
-				{
-					id: "73B7A16A92F3303F"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 2
-					random_bonus: 3
+					id: "6A111F9EEADA4BA2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -114,6 +109,12 @@
 					count: 10
 					random_bonus: 10
 				}
+				{
+					id: "3FDDD3EECB6D7A85"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -138,22 +139,10 @@
 					xp: 100
 				}
 				{
-					id: "376D53DE0B3922FF"
-					type: "item"
-					item: "minecraft:rotten_flesh"
-					count: 50
-				}
-				{
-					id: "40DF0B7A90F750A7"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 32
-					random_bonus: 32
-				}
-				{
-					id: "5D8B6F94E4235420"
-					type: "item"
-					item: "minecraft:poisonous_potato"
+					id: "180D2F31E833E6B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -189,6 +178,7 @@
 			x: -2.0d
 			y: -2.0d
 			dependencies: ["42822B1E8A53D051"]
+			hide: true
 			id: "4748831E75A840BE"
 			tasks: [{
 				id: "015CB0D172D0712A"
@@ -205,17 +195,10 @@
 					xp: 20
 				}
 				{
-					id: "779625AB5AE939A5"
-					type: "item"
-					item: "minecraft:bone"
-					count: 10
-				}
-				{
-					id: "3800D6AEFBB55468"
-					type: "item"
-					item: "minecraft:arrow"
-					count: 10
-					random_bonus: 10
+					id: "056975CFED74BF64"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -251,6 +234,12 @@
 					count: 20
 					random_bonus: 20
 				}
+				{
+					id: "649295B3143B081D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -275,24 +264,10 @@
 					xp: 100
 				}
 				{
-					id: "6D127215AB444359"
-					type: "item"
-					item: "minecraft:bone_block"
-					count: 10
-				}
-				{
-					id: "55AA7D52683AFD1C"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:infinity"
-								lvl: 1s
-							}]
-						}
-					}
+					id: "4F90CF0B7D2FED9B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -328,6 +303,7 @@
 			x: 0.0d
 			y: -2.0d
 			dependencies: ["77FC692AC94D2EEF"]
+			hide: true
 			id: "65BBA5C0DAEEC31F"
 			tasks: [{
 				id: "1AB92CF7F0246D21"
@@ -344,15 +320,10 @@
 					xp: 20
 				}
 				{
-					id: "3D526F2ED3DB17BD"
-					type: "item"
-					item: "minecraft:gunpowder"
-					count: 10
-				}
-				{
-					id: "4D365DF18EFB8431"
-					type: "item"
-					item: "ae2:tiny_tnt"
+					id: "01F13A0B354BBBFD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -388,6 +359,12 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "2C419A310D1686C7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -412,16 +389,10 @@
 					xp: 100
 				}
 				{
-					id: "2B9057F9244AA7EF"
-					type: "item"
-					item: "minecraft:gunpowder"
-					count: 50
-				}
-				{
-					id: "72A6F80979D70339"
-					type: "item"
-					item: "supplementaries:bomb_spiky"
-					count: 20
+					id: "7A4B7D60F897D023"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -461,11 +432,19 @@
 				entity: "minecraft:ender_dragon"
 				value: 1L
 			}]
-			rewards: [{
-				id: "73BAA6AD36E525E5"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "73BAA6AD36E525E5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "72DC79DE53E77CAD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
 		}
 		{
 			x: 3.0000000000000004d
@@ -480,11 +459,19 @@
 				entity: "minecraft:wither"
 				value: 1L
 			}]
-			rewards: [{
-				id: "47314637684743A3"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "47314637684743A3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "12C0D9B030D64A4B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -499,11 +486,19 @@
 				entity: "minecraft:elder_guardian"
 				value: 1L
 			}]
-			rewards: [{
-				id: "67970FDC5848EF61"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "67970FDC5848EF61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BB86DB9D806D3E4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
 		}
 		{
 			x: 4.550000000000001d
@@ -531,6 +526,12 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					id: "380E221DF1F736A8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
 			]
 		}
 		{
@@ -538,6 +539,13 @@
 			x: 3.0500000000000003d
 			y: 6.0d
 			subtitle: "\"This is Personal\" - AlfredGG"
+			description: [
+				"\"While making a lot of the questlines for the ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen."
+				""
+				"Take them out. All of them.\""
+				""
+				"- AlfredGG"
+			]
 			size: 1.5d
 			optional: true
 			id: "0F55D0B4D5094EDB"
@@ -569,8 +577,8 @@
 						tag: {
 							Damage: 0
 							display: {
-								Name: "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
 								Lore: ["[{\"text\":\"For those brave enough to slaughter the Mighty and Annoying Trader\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
 							}
 						}
 					}
@@ -589,6 +597,12 @@
 					id: "739F0D5CD8C7BA5E"
 					type: "item"
 					item: "supplementaries:pedestal"
+				}
+				{
+					id: "66C49399D8CCD721"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -625,6 +639,7 @@
 			x: 10.0d
 			y: -2.0d
 			dependencies: ["17F3AC15ADCFB175"]
+			hide: true
 			id: "2916F873A4DA84E8"
 			tasks: [{
 				id: "58BF5D3267CF02F8"
@@ -641,11 +656,10 @@
 					xp: 20
 				}
 				{
-					id: "6A6A677C4554DEEE"
-					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 4
-					random_bonus: 4
+					id: "2666996F798768C7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -676,6 +690,12 @@
 					count: 8
 					random_bonus: 8
 				}
+				{
+					id: "46897BBCAF61CBCB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -700,17 +720,10 @@
 					xp: 100
 				}
 				{
-					id: "2F97D5826A2C7623"
-					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 16
-					random_bonus: 16
-				}
-				{
-					id: "1BCC9027CACB05C4"
-					type: "item"
-					item: "minecraft:ender_eye"
-					count: 16
+					id: "4EEDA3086FA8D846"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -746,6 +759,7 @@
 			x: 2.0d
 			y: -2.0d
 			dependencies: ["1F18B64C84C8809D"]
+			hide: true
 			id: "283CA6DB77D5D2EB"
 			tasks: [{
 				id: "5801AF8000768808"
@@ -762,17 +776,10 @@
 					xp: 20
 				}
 				{
-					id: "08C9EB80F2F5DCE3"
-					type: "item"
-					item: "minecraft:string"
-					count: 5
-					random_bonus: 5
-				}
-				{
-					id: "418BE6DAA0192328"
-					type: "item"
-					item: "minecraft:spider_eye"
-					count: 10
+					id: "4A6C2A97D769418B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -808,6 +815,12 @@
 					item: "minecraft:spider_eye"
 					count: 20
 				}
+				{
+					id: "319B63A612336BE5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -832,16 +845,10 @@
 					xp: 100
 				}
 				{
-					id: "28D494EFCD2A4CF9"
-					type: "item"
-					item: "minecraft:string"
-					count: 32
-				}
-				{
-					id: "520FD3EA23625C62"
-					type: "item"
-					item: "minecraft:fermented_spider_eye"
-					count: 32
+					id: "2B8E13883A6DEF5F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -877,6 +884,7 @@
 			x: 6.0d
 			y: -2.0d
 			dependencies: ["6141DE779232C8AA"]
+			hide: true
 			id: "4F48A4839B549C92"
 			tasks: [{
 				id: "00445193DEB7EAA0"
@@ -893,16 +901,10 @@
 					xp: 20
 				}
 				{
-					id: "2C684B8732130C87"
-					type: "item"
-					item: "minecraft:blaze_rod"
-					count: 10
-				}
-				{
-					id: "7F377EBADF79EC2C"
-					type: "item"
-					item: "minecraft:blaze_powder"
-					count: 5
+					id: "7E7B0138373F4D28"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -939,6 +941,12 @@
 					count: 10
 					random_bonus: 10
 				}
+				{
+					id: "3DD5D5A5D39C411C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -963,18 +971,10 @@
 					xp: 100
 				}
 				{
-					id: "65899DE1528E4F7A"
-					type: "item"
-					item: "minecraft:blaze_rod"
-					count: 32
-					random_bonus: 32
-				}
-				{
-					id: "391F83DFB390F9CF"
-					type: "item"
-					item: "minecraft:blaze_powder"
-					count: 16
-					random_bonus: 16
+					id: "0845C88CA6D644A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -1022,6 +1022,7 @@
 			x: 4.0d
 			y: -2.0d
 			dependencies: ["5AC497F76A086A5C"]
+			hide: true
 			id: "6E4FD0B568BEB3F9"
 			tasks: [{
 				id: "7127A76DEB4D1696"
@@ -1044,22 +1045,10 @@
 					xp: 20
 				}
 				{
-					id: "7A85AFB71A06A6EE"
-					type: "item"
-					item: "minecraft:redstone"
-					count: 5
-				}
-				{
-					id: "20EAF6E241E42501"
-					type: "item"
-					item: "minecraft:sugar"
-					count: 5
-				}
-				{
-					id: "53A60C4E4EE9EDE4"
-					type: "item"
-					item: "minecraft:glowstone_dust"
-					count: 5
+					id: "6CCE54980E8D2003"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -1109,6 +1098,12 @@
 					count: 10
 					random_bonus: 10
 				}
+				{
+					id: "3F4C40818D552881"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -1139,25 +1134,10 @@
 					xp: 100
 				}
 				{
-					id: "4FF417A8E45B9B8A"
-					type: "item"
-					item: "minecraft:redstone_block"
-					count: 5
-					random_bonus: 5
-				}
-				{
-					id: "25D6E28016AD1C95"
-					type: "item"
-					item: "supplementaries:sugar_cube"
-					count: 5
-					random_bonus: 5
-				}
-				{
-					id: "3CE008BA408F38FD"
-					type: "item"
-					item: "minecraft:glowstone"
-					count: 10
-					random_bonus: 10
+					id: "2019E33C08375AA8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -1197,6 +1177,7 @@
 			x: 8.0d
 			y: -2.0d
 			dependencies: ["3371F9248D403664"]
+			hide: true
 			id: "738E94C4CFB05D11"
 			tasks: [{
 				id: "33107949548BC22D"
@@ -1213,15 +1194,10 @@
 					xp: 20
 				}
 				{
-					id: "67C8984DD8746F99"
-					type: "item"
-					item: "minecraft:coal"
-					count: 6
-				}
-				{
-					id: "287B143DCAB5F97A"
-					type: "item"
-					item: "minecraft:wither_skeleton_skull"
+					id: "021EACDBD76A9D2E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
 				}
 			]
 		}
@@ -1256,6 +1232,12 @@
 					item: "minecraft:coal"
 					count: 6
 				}
+				{
+					id: "24573A422CE166A4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 		{
@@ -1281,20 +1263,10 @@
 					count: 9
 				}
 				{
-					id: "3C86689F40D826F8"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "535DE09443E89631"
-					type: "item"
-					item: "minecraft:coal"
-					count: 6
-				}
-				{
-					id: "2D6FDCCCD9BB537D"
-					type: "item"
-					item: "mysticalagradditions:withering_soul"
+					id: "4E3E6BB30F0AF436"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -1323,7 +1295,14 @@
 					type: "item"
 					item: "allthemodium:allthemodium_ingot"
 				}
+				{
+					id: "77D3E366578B4BF0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
 			]
 		}
 	]
+	quest_links: [ ]
 }

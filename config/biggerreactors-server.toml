@@ -57,7 +57,19 @@ EnableAdvancedConfig = false
     # Valid range: (0,)
     # Default: 1.0
     #
-    OutputMultiplier = 1.0
+    OutputMultiplier = 3.0
+
+    #
+    # Valid range: (0,)
+    # Default: 100000
+    #
+    PassiveBatteryPerExternalBlock = 300000
+
+    #
+    # Valid range: (0,)
+    # Default: 10000
+    #
+    CoolantTankAmountPerFuelRod = 30000
 
 [Turbine]
     #

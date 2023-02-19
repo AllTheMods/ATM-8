@@ -32,33 +32,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -3.0d
-			shape: "diamond"
-			dependencies: ["1D86B2E553503E53"]
-			optional: true
-			id: "2BE4E3B081CD6EF7"
-			tasks: [{
-				id: "7997FADE76683E8C"
-				type: "item"
-				item: "ars_nouveau:bookwyrm_charm"
-			}]
-			rewards: [
-				{
-					id: "68F7528035D608FD"
-					type: "random"
-					table_id: 4108383404435779231L
-				}
-				{
-					id: "5A4F77DF194D0405"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 10.5d
-			y: -4.0d
+			x: 11.0d
+			y: -3.5d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
 			optional: true
@@ -1427,6 +1402,7 @@
 				"It is also a multiblock structure that utilizes Arcane Pedestals to craft."
 				""
 				"Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals."
+				""
 				"{image:atm:textures/questpics/ars/enchanting_app.png width:200 height:175 align:1}"
 			]
 			dependencies: ["18A2FBE2D4133FA2"]
@@ -2141,8 +2117,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -3.5d
+			x: 11.5d
+			y: -3.0d
 			shape: "diamond"
 			dependencies: ["1D86B2E553503E53"]
 			optional: true
