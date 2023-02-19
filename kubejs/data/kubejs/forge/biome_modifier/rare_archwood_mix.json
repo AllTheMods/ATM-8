@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "allthemodium:mining",
+    "features": "#ars_nouveau:archwood_trees",
+    "step": "vegetal_decoration"
+  }

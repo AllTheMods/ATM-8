@@ -30,7 +30,7 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.tags('entity_type', event => {
-  event.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic'])
+  event.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic', 'minecraft:iron_golem'])
   event.add('mob_grinding_utils:noswab', '#kubejs:mob_blacklist')
   event.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
@@ -38,9 +38,14 @@ ServerEvents.tags('entity_type', event => {
   event.add('ars_nouveau:drygmy_blacklist', [/productivebees:.+/, 'artifacts:mimic'])
 })
 
-ServerEvents.tags('fluid', event => {
-  event.add('forge:crude_oil', 'ad_astra:oil')
-  event.remove('minecraft:water', 'ad_astra:oil')
+ServerEvents.tags('worldgen/biome', event =>{
+  event.add('botania:mystical_flower_spawnlist', 'allthemodium:mining')
+  event.add('botania:mystical_mushroom_spawnlist', [
+    'allthemodium:the_other','allthemodium:soul_sand_valley','allthemodium:warped_forest',
+    'allthemodium:desert_hills','allthemodium:desert','allthemodium:crimson_forest','allthemodium:basalt_deltas'])
+  event.add('elementalcraft:has_sources/all','allthemodium:mining')
+  event.add('elementalcraft:has_sources/sky','allthemodium:mining')
+  event.add('elementalcraft:has_sources/plain','allthemodium:mining')
 })
 
 //temp fix for bambooeverything breaking boat tags until above 2.2.4
