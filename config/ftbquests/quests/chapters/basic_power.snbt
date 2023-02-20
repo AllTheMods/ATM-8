@@ -1,0 +1,1164 @@
+{
+	id: "5D045EF1AB73DF70"
+	group: "27AA266437DD1B5B"
+	order_index: 0
+	filename: "basic_power"
+	title: "Basic Power"
+	icon: {
+		id: "mekanism:creative_energy_cube"
+		Count: 1b
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "18446744073709551615.9999"
+				}]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.5d
+		y: -3.5d
+		width: 15.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "atm:textures/questpics/allthepower.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "minecraft:redstone_torch"
+			x: -3.5d
+			y: 0.5d
+			shape: "gear"
+			description: [
+				"This Chapter is dedicated to all things power related!"
+				""
+				"In this section, you'll find the basic ways to generate, store, and transfer power."
+			]
+			size: 2.0d
+			id: "4AB0DD227471FDBF"
+			tasks: [{
+				id: "4800DD5A7039B8B7"
+				type: "checkmark"
+				title: "All Things Power!"
+			}]
+			rewards: [{
+				id: "3C8F065AEE4CDB80"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Bigger Reactors"
+			icon: "biggerreactors:reactor_terminal"
+			x: -0.5d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "Customizable Reactors!"
+			description: [
+				"The &9Bigger Reactors&r mod offers multi-block reactors that are completely customizable in size, efficiency, and more."
+				""
+				"To learn more about getting started with Bigger Reactors, it now has its own questline!"
+			]
+			hide_dependency_lines: false
+			dependencies: ["5E41363F9AE243F3"]
+			id: "6D6E07564D8FDD8D"
+			tasks: [{
+				id: "70CC25EA15DBE615"
+				type: "checkmark"
+				title: "Bigger Reactors"
+			}]
+			rewards: [{
+				id: "1C7FBA6844D50ABA"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Mekanism: Renewable Energy"
+			x: -5.0d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "Using the Sun"
+			description: [
+				"Mekanism provides several ways to make power using renewable resources."
+				""
+				"The &9Solar Generators&r harness the power of the sun to provide basic power needs. It does not work during the night, and must have access to the sky. Glass is okay."
+				""
+				"The &9Wind Generator&r provides power via the wind. Unless you've figured out a way for your character to manually spin this, the speed it spins is based off of the Y lvl it is placed at. It also needs direct access to the sky without any blocks above it."
+			]
+			hide_dependency_lines: false
+			dependencies: ["42D173B9FF8D16E4"]
+			id: "48DC9E8E9D21A2FA"
+			tasks: [{
+				id: "59DE118DD6597A4E"
+				type: "item"
+				title: "Renewable Energy Gens"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanismgenerators:solar_generator"
+								Count: 1b
+							}
+							{
+								id: "mekanismgenerators:advanced_solar_generator"
+								Count: 1b
+							}
+							{
+								id: "mekanismgenerators:wind_generator"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E06B6F7B5224A02"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "089AE645B9673F30"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "Mekanism's Starter Power Solution"
+			description: [
+				"&aMekanism's&r Heat Generator is a different take on basic power production. It has two modes of creating power:"
+				""
+				"&9Passive:&r Surrounding the generator with lava source or flowing blocks creates passive power over time through heat. Place one lava source block on top and let it flow over the sides. Make sure to have pipes connected for energy first!"
+				""
+				"&9Active:&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power. This is not very efficient."
+			]
+			dependencies: ["42D173B9FF8D16E4"]
+			id: "11D09E918015355C"
+			tasks: [{
+				id: "44999798D86177A3"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "3E3F4483E3804F21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C4527E368FC896E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"The RFTools Coal Generator is one of the easiest coal-burning generators to make."
+				""
+				"It is very simple to use and creates a decent amount of power based on the combustible material you input. It automatically distributes power to adjacent blocks as well."
+			]
+			dependencies: ["42D173B9FF8D16E4"]
+			id: "0BB367839D28607D"
+			tasks: [{
+				id: "0F7D7AE91E20F778"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+			rewards: [
+				{
+					id: "698CCE0DFA894C3A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D172A6A2CA90F91"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			title: "Early Game Power Options"
+			icon: "minecraft:coal"
+			x: -5.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Starter Power"
+			description: [
+				"Looking for early game power options? These are good ways to get you started with generating power."
+				""
+				"These don't produce a ton of power, but they are typically easy or cheap to get in the early game!"
+			]
+			hide_dependency_lines: true
+			size: 1.5d
+			id: "42D173B9FF8D16E4"
+			tasks: [{
+				id: "55F3497E936C4885"
+				type: "checkmark"
+				title: "Burning Fuel for Power"
+			}]
+			rewards: [{
+				id: "0CE525ECCA99C748"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "&9Using Pipez: &aEnergy Pipe"
+			x: -10.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"These are simple pipes that can be upgraded with Pipe Upgrades."
+				""
+				"To \"extract\" power from a block, place the pipe down next to the block, and on the side that is connected, shift+right-click with the pipe wrench to set the pipe to extract."
+				""
+				"The &9Pipez&r mod also offers ways to transport items, gases, and liquids as well! Or you can make an All-In-One Pipe called the &aUniversal Pipe&r. "
+			]
+			dependencies: ["1F81EA5E45424308"]
+			id: "4EEAB467C722ECE7"
+			tasks: [
+				{
+					id: "467584E3BB06E9CD"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+				{
+					id: "5299A78587A00044"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [
+				{
+					id: "4FE5FAE1AA387086"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08460933939CF881"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "&9Using Mekanism:&a Basic Universal Cable"
+			x: -7.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "Mekanism's Energy Transfer Pipe"
+			description: [
+				"Mekanism offers a nice looking cable to transfer your power."
+				""
+				"If the machine you are connecting to already pulls or pushes power, you will not need to configure the cable. Otherwise, you'll need a &9Configurator&r to configure the pipe. Shift+right-clicking will change the cable to pull or push mode. "
+			]
+			dependencies: ["1F81EA5E45424308"]
+			id: "5C47935A3B2877FF"
+			tasks: [{
+				id: "6C4B8A2662030CB0"
+				type: "item"
+				title: "Universal Cables"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_universal_cable"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_universal_cable"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_universal_cable"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_universal_cable"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C5C0D374EC4391D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46E642A34AD07DB6"
+					type: "item"
+					item: "mekanism:alloy_infused"
+				}
+			]
+		}
+		{
+			title: "Transferring Power"
+			icon: {
+				id: "mekanism:energy_tablet"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+			x: -9.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"If you're looking for different ways to get power out of your machines, this is where you can find it!"
+				""
+				"There are several options, both &awired&r and &9wireless&r, for transferring power."
+			]
+			hide_dependency_lines: true
+			size: 1.5d
+			id: "1F81EA5E45424308"
+			tasks: [{
+				id: "6D3C243268479EE9"
+				type: "checkmark"
+				title: "Transferring Power"
+			}]
+			rewards: [{
+				id: "5C863FCC138617D2"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "&9Wireless Transfer: &6Quantum Entangloporter"
+			x: -10.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Also works for items, gases, liquids, and heat."
+			description: [
+				"With a little work into Mekanism, this machine allows you to transfer anything wirelessly."
+				""
+				"You can set specific channels to transfer individual items, energy, or even gases from Mekanism. It's pretty cool."
+			]
+			dependencies: ["1F81EA5E45424308"]
+			id: "7FE969CB4B419FC6"
+			tasks: [{
+				id: "3E843C44C9CD3ACC"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [
+				{
+					id: "31A1DA2A1735B16F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2960A7A9FFFE9624"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
+		}
+		{
+			title: "Storing Power"
+			icon: {
+				id: "powah:battery_nitro"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["This section shows you different ways to store your power!"]
+			hide_dependency_lines: true
+			size: 1.5d
+			id: "76EA017B12E8F01B"
+			tasks: [{
+				id: "3121BA0C9976AFCD"
+				type: "checkmark"
+				title: "Storing Power"
+			}]
+			rewards: [{
+				id: "477F18566EC6FB2A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Mekanism's Energy Cubes"
+			x: 3.0d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Mekanism"
+			description: [
+				"Mekanism is one of the best mods for energy storage, especially in the early game."
+				""
+				"The Basic Energy Cube is easy to configure, easy to craft, and stores a lot of power. It can also be upgraded, and can charge items inside of the interface!"
+				""
+				"To learn more about upgrading the Energy Cube as well as the mod, head over to the &aMekanism&r questline!"
+			]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "477B411F84342EEA"
+			tasks: [{
+				id: "76378687551A79C3"
+				type: "item"
+				title: "Energy Cubes"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_energy_cube"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_energy_cube"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_energy_cube"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_energy_cube"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "039E00B83AAA154A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E2E1F9ED0EEB289"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+				{
+					id: "6F7ED193F8C1262A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			title: "Powercells from RFTools"
+			x: 4.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "RFTools"
+			description: [
+				"RFToolsPower has &9Powercells&r to store power, which are multi-block storage units that can be customized and upgraded to store power."
+				""
+				"You will need a wrench to determine inputs and outputs for power."
+			]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "05B6DB75AEC01187"
+			tasks: [{
+				id: "7CA8741CA073C1DA"
+				type: "item"
+				title: "Powercells"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolspower:cell1"
+								Count: 1b
+							}
+							{
+								id: "rftoolspower:cell2"
+								Count: 1b
+							}
+							{
+								id: "rftoolspower:cell3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54A1A37A02201DB9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D7BF04203FE0E60"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Integrated Dynamics"
+			description: ["&9IntegratedDynamics&r provides a simple power storage system. The batteries can even be combined in a crafting grid to increase the overall storage!"]
+			dependencies: ["76EA017B12E8F01B"]
+			id: "72EA25D05C46D39A"
+			tasks: [{
+				id: "460A67B09BD45CF4"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "59A5734689019951"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D6EEC3641B95A9E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			title: "&dWireless Everything"
+			x: -8.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "What a throwback"
+			description: [
+				"The &9Tesseract&r allows you to transport items, fluid, and energy between other Tesseracts."
+				""
+				"These work at any distance, and across dimensions."
+			]
+			dependencies: ["1F81EA5E45424308"]
+			id: "5A2A39CC4BB00182"
+			tasks: [{
+				id: "1F388FCC8D844E8E"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+			rewards: [
+				{
+					id: "503B730A6C1C60E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61435729546E13B6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			icon: "powah:dielectric_casing"
+			x: -2.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"You can't power your base off of Coal forever! If you've got a decent amount of resources available, it's time to upgrade your power setup!"
+				""
+				"These options usually require a little setting up, but produce enough power to carry you far into your playthrough."
+			]
+			size: 1.5d
+			id: "5E41363F9AE243F3"
+			tasks: [{
+				id: "5A8F474927CC1E80"
+				type: "checkmark"
+				title: "Mid Game Power Options"
+			}]
+		}
+		{
+			title: "&eMekanism's&r &dGas-Burning Generator&r"
+			x: -2.0d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "The Power of the Melon"
+			description: [
+				"If you've ever heard of someone talking about \"Melon Power\", this is it. Mekanism's &9Gas-Burning Generator&r can produce a good amount power by pumping in &9Ethylene&r made from Melon Slices."
+				""
+				"To produce &dEthylene&r, start by crushing organic materials in a &eCrusher&r to create &6Bio Fuel&r. Melon Slices are typically used for this! This is then pumped into a &dPressurized Reaction Chamber&r (PRC for short)."
+				""
+				"The PRC needs Water, Bio Fuel, and some Hydrogen to create Ethylene. You can get the Hydrogen from separating water in an &9Electrolytic Separator&r. "
+				""
+				"Once you've started producing the Ethylene, pump it into the Gas-Burning Generator to start generating power!"
+			]
+			dependencies: ["5E41363F9AE243F3"]
+			min_width: 300
+			id: "0AEC181F5E21A299"
+			tasks: [
+				{
+					id: "2ADE2B487637FA3F"
+					type: "item"
+					item: "mekanismgenerators:gas_burning_generator"
+				}
+				{
+					id: "5C1F3A52B007EDB9"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+				{
+					id: "41DDBC04B42A604E"
+					type: "item"
+					item: "mekanism:crusher"
+				}
+				{
+					id: "59CC349D61EE0729"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+			]
+			rewards: [
+				{
+					id: "7B9C300DF6442A1D"
+					type: "item"
+					item: "minecraft:melon_slice"
+					count: 8
+				}
+				{
+					id: "742C6774E1F40C96"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "542C81754D93237B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
+		}
+		{
+			title: "Powah"
+			icon: "powah:book"
+			x: -1.0d
+			y: 4.0d
+			shape: "rsquare"
+			description: [
+				"Believe it or not, the Powah mod has some great options for getting... powah."
+				""
+				"The &9Reactors&r are great options for reliable, consistent power, as long as you have the coal and Uraninite to power it. You will need &936 Reactor Blocks&r in total to create a reactor. Just right-click and it will build itself in the world!"
+				""
+				"If you're looking for an easier option, you can always make a &aThermo Generator&r for your power needs! These require a steady supply of water, and need to be placed above something that generates heat. Try a &cBlock of Blazing Crystal&r from the mod!"
+			]
+			dependencies: ["5E41363F9AE243F3"]
+			min_width: 300
+			id: "35ABB0DEE70DF7FD"
+			tasks: [{
+				id: "137492D349500366"
+				type: "item"
+				title: "Powah Generation"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:thermo_generator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_blazing"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2374BE0128AF2ED8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "796F681BD593D95F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
+			]
+		}
+		{
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			x: -3.5d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "More Power Than You'll Need"
+			description: [
+				"If you're looking to generate a ton of power, you can start by scaling up some of the options from the &9Mid Game Power&r section. Make your &eBigger Reactors&r bigger. Upgrade your &9Thermo Gens&r to Nitro, etc. "
+				""
+				"&9Mekanism&r also has an end game power option that is tough be beat."
+				""
+				"The &5Fusion Reactor&r, when coupled with a Turbine, can easily produce 30+ million RF/tick. There will be a questline for building this in the future!"
+			]
+			size: 1.5d
+			id: "3BDB94F17765EE77"
+			tasks: [{
+				id: "03A4FFC4CFCA5DB7"
+				type: "checkmark"
+				title: "End Game Power Options"
+			}]
+			rewards: [{
+				id: "45BE4BD6F9CCB927"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Upgrading our Pipez"
+			x: -11.5d
+			y: 0.5d
+			description: [
+				"To make your pipes extract more power, you'll want to make it an upgrade."
+				""
+				"Once you've shift+right-clicked a pipe to set it to extract, you can insert a pipe upgrade into it by right-clicking the pipe with the upgrade. You can also right-click with an empty hand and add it using the GUI!"
+				""
+				"To be able to set filters, you'll need at least an &9Advanced Pipe Upgrade&r. "
+			]
+			dependencies: ["4EEAB467C722ECE7"]
+			hide: true
+			id: "1409C17773B6A131"
+			tasks: [{
+				id: "098F1B932F851616"
+				type: "item"
+				title: "Pipe Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pipez:basic_upgrade"
+								Count: 1b
+							}
+							{
+								id: "pipez:improved_upgrade"
+								Count: 1b
+							}
+							{
+								id: "pipez:advanced_upgrade"
+								Count: 1b
+							}
+							{
+								id: "pipez:ultimate_upgrade"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B6AEDA1AF0D94C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62CFFE975A4D6072"
+					type: "item"
+					item: "pipez:basic_upgrade"
+					random_bonus: 2
+				}
+				{
+					id: "2C5A013A4D52E1A4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			title: "Need more storage?"
+			x: 3.0d
+			y: 3.5d
+			shape: "gear"
+			description: [
+				"&9Mekanism's&r &aInduction Matrix&r is the ultimate way to store your power."
+				""
+				"The Matrix is a multi-block structure that is built out of &9Induction Casings&r. The frame must be built out of casings, but the interior of the walls can be built out of &eStructural Glass&r, with 2 &9Induction Ports&r to push and pull power in and out of the Matrix."
+				""
+				"Inside of the structure, you can customize how much power is stored by using &9Induction Cells&r and &9Providers&r. Cells provide more power storage, while Providers allow a higher transfer rate of power."
+				""
+				"Below is an image of the smallest Induction Matrix you can make, using 1 Cell and 1 Provider. "
+				""
+				"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:1}"
+			]
+			dependencies: ["477B411F84342EEA"]
+			size: 1.5d
+			min_width: 500
+			id: "682034C680FDEDC2"
+			tasks: [
+				{
+					id: "3B4CD42FD3351B53"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "7A7908C570CAD54F"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+				{
+					id: "6C93353348862894"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 32L
+				}
+				{
+					id: "44F0CD48A0BDB110"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2C2EAC98F5AEB481"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1868C3E6B922044A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5564196992594175882L
+				}
+			]
+		}
+		{
+			title: "Flux Networks"
+			x: -9.0d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "The Ultimate Wireless Power Solution"
+			description: [
+				"&9Flux Networks&r is a mod that aims to be the solution to all of your wireless power needs."
+				""
+				"The mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory."
+				""
+				"You can even charge your jetpack while you are flying with this mod. HOW COOL IS THAT?"
+				""
+				"To get started with the mod, you'll need some Flux Dust. Head to bedrock level, then throw some redstone on top of a block of bedrock. Place a block of obsidian right above the floating redstone, then left click the obsidian."
+			]
+			dependencies: ["1F81EA5E45424308"]
+			size: 1.25d
+			min_width: 300
+			id: "35CC898E0E49FE58"
+			tasks: [{
+				id: "0F0CBAF912DE462F"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "16D31D3D55F77046"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "19CFBA244CF82C53"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5CB51B7DDAE608F1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			title: "The \"Core\" Crafting Materials"
+			x: -9.0d
+			y: 4.0d
+			description: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
+			dependencies: ["35CC898E0E49FE58"]
+			hide: true
+			id: "1BE26A00A420DAE3"
+			tasks: [
+				{
+					id: "5E760075B279BA71"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 4L
+				}
+				{
+					id: "01B3CDAA69D1FA2F"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+			]
+			rewards: [
+				{
+					id: "4FA376B34C2BF04A"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "3C2BBFC2A36E722F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Starting Your Network"
+			x: -9.0d
+			y: 5.0d
+			description: [
+				"The first item you'll need to start your Flux Network is a &9Flux Plug&r. "
+				""
+				"The Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store power itself, so don't worry about it zapping up all of your power."
+				""
+				"It is suggested to place the Plug on a power storage block like an energy cube. It can connect to cables, pipes, or the output of any power producing machine."
+				""
+				"To learn how to set up your first network, check the next quest!"
+			]
+			dependencies: ["1BE26A00A420DAE3"]
+			id: "5F078A574A783B02"
+			tasks: [{
+				id: "00B1C30B3E10D332"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [
+				{
+					id: "46F6946231FB28A0"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+				{
+					id: "615F6356856A3371"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "116BF6D4838A099B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
+		}
+		{
+			icon: "fluxnetworks:flux_configurator"
+			x: -9.0d
+			y: 6.0d
+			subtitle: "You're a Network Admin Now!"
+			description: [
+				"Right-click on your plug and you'll see the Flux Network UI. On the far top-right corner, click on the + button to create your first network. You'll need to set a password to create the network, but you can also set a color!"
+				""
+				"From here, you can go to the Network Selection tab to activate your network on the plug. If the plug is attached to a power source, you can now harness that power anywhere in your system using a Flux Point!"
+				""
+				"Pro Tip: You can create multiple networks if you want to have different power sources powering different parts of your systems!"
+			]
+			dependencies: ["5F078A574A783B02"]
+			min_width: 300
+			id: "36DEA17CBB696CC7"
+			tasks: [{
+				id: "2D0212699F99459F"
+				type: "checkmark"
+				title: "My First Network"
+			}]
+			rewards: [
+				{
+					id: "2AC42E9338722803"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 4
+				}
+				{
+					id: "739E3CA0422DB9F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Accessing Network Power"
+			x: -9.5d
+			y: 7.0d
+			shape: "diamond"
+			description: [
+				"With our plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including pipes or cables, or just directly on machines!"
+				""
+				"Once you've placed your point on the machine or block you want to power, right click on it and select your network in the Network Selection tab. Just like the plug, you can adjust how much power it pulls, priority level, etc."
+			]
+			dependencies: ["36DEA17CBB696CC7"]
+			id: "56B6ABF3D6EA0D84"
+			tasks: [{
+				id: "026DE584C4DF393C"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [
+				{
+					id: "34498E12E8224864"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					random_bonus: 2
+				}
+				{
+					id: "175D04352F2F6D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "36DA068B9758EC94"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 487623848494439020L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 7.0d
+			shape: "diamond"
+			subtitle: "Storing Power"
+			description: [
+				"Flux Networks does provide a way to store the power you generate for your network!"
+				""
+				"These hold massive amounts of power overall, and can be upgraded to store even more!"
+			]
+			dependencies: ["36DEA17CBB696CC7"]
+			id: "79AD74A863EA43CB"
+			tasks: [{
+				id: "3C574DDC057353DF"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "6A142D7F593E9DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69236C65B496550C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+			]
+		}
+		{
+			icon: "fluxnetworks:admin_configurator"
+			x: -10.0d
+			y: 6.0d
+			shape: "diamond"
+			description: [
+				"Right clicking a functional Flux Network block will give you this UI."
+				""
+				"Each Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system."
+				""
+				"&aPower Surge&r sets the specific point or plug to ignore set priorities within the system."
+				"&aBypass Limit&r ignores the limit set."
+				""
+				"There are several other tabs to check out, mostly for statistics on your network!"
+				""
+				"{image:atm:textures/questpics/flux/flux_ui.png width:125 height:150 align:1}"
+			]
+			dependencies: ["36DEA17CBB696CC7"]
+			optional: true
+			min_width: 350
+			id: "2EB7784D5296F410"
+			tasks: [{
+				id: "3D721B55E8D33FE8"
+				type: "checkmark"
+				title: "The Flux Networks UI"
+			}]
+			rewards: [{
+				id: "64751B6E2F284585"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Wireless Charging"
+			x: -9.0d
+			y: 7.5d
+			shape: "diamond"
+			description: [
+				"Flux Networks also provides a way to charge your items wirelessly, even across dimensions!"
+				""
+				"Once you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down."
+				""
+				"Right click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle at the bottom to Enable Wireless charging, then click apply!"
+				""
+				"{image:atm:textures/questpics/flux/wireless_ui.png width:125 height:150 align:1}"
+			]
+			dependencies: ["36DEA17CBB696CC7"]
+			min_width: 300
+			id: "27A4FA38992448A0"
+			tasks: [{
+				id: "013BD44E5E82802A"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "4D553DA55A83294D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 4196188979167302596L
+				}
+				{
+					id: "37E08FCD1F0A3D26"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

@@ -45,7 +45,7 @@
 				""
 				"Acquire the &9Blue Journal&r. You'll also need the Zeal Lighter in the next quest. "
 				""
-				"{image:atm:textures/quests/blueskies_gatekeepershouse.png width:200 height:125 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_gatekeepershouse.png width:200 height:125 align:1}"
 			]
 			dependencies: ["79B9098FE66A7130"]
 			id: "198EB5AE0E18E6C3"
@@ -96,7 +96,7 @@
 				""
 				"Acquire a &6Zeal Lighter&r and use it to light the portal. "
 				""
-				"{image:atm:textures/quests/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_gatekeeper_portal.png width:200 height:150 align:1}"
 			]
 			dependencies: ["198EB5AE0E18E6C3"]
 			id: "13BB7347D271D29C"
@@ -215,7 +215,7 @@
 		}
 		{
 			title: "A New Mining Adventure"
-			x: 7.5d
+			x: 6.5d
 			y: -1.0d
 			shape: "diamond"
 			subtitle: "And it's pretty dark."
@@ -250,7 +250,7 @@
 		}
 		{
 			title: "Getting an Upgrade"
-			x: 7.5d
+			x: 8.5d
 			y: 0.5d
 			subtitle: "First Wood, then Stone... then.. what?"
 			description: [
@@ -303,7 +303,7 @@
 		}
 		{
 			title: "Making a New Weapon"
-			x: 7.5d
+			x: 6.5d
 			y: -2.5d
 			shape: "hexagon"
 			subtitle: "Spartan Style"
@@ -338,7 +338,7 @@
 		{
 			title: "Red Means Fast"
 			icon: "blue_skies:pyrope_gem"
-			x: 9.5d
+			x: 8.5d
 			y: -1.0d
 			shape: "diamond"
 			description: [
@@ -438,7 +438,7 @@
 		}
 		{
 			title: "Pyrope Tools"
-			x: 10.0d
+			x: 8.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["01E1A7BCDAE8EB9F"]
@@ -555,7 +555,7 @@
 		}
 		{
 			title: "Diopside"
-			x: 11.5d
+			x: 12.5d
 			y: -1.0d
 			shape: "diamond"
 			description: ["The green gemstone &eDiopside&r is a very tough metal that packs a punch, but is on the slower side. This is great for weapons!"]
@@ -590,7 +590,7 @@
 		}
 		{
 			title: "&cVentium"
-			x: 7.0d
+			x: 8.0d
 			y: 2.5d
 			shape: "diamond"
 			subtitle: "Red Iron"
@@ -629,7 +629,7 @@
 		}
 		{
 			title: "&9Falsite"
-			x: 7.5d
+			x: 8.5d
 			y: 3.0d
 			shape: "diamond"
 			description: [
@@ -669,7 +669,7 @@
 		}
 		{
 			title: "Charoite"
-			x: 13.5d
+			x: 10.5d
 			y: -1.0d
 			shape: "diamond"
 			description: [
@@ -701,7 +701,7 @@
 		}
 		{
 			title: "&6Horizonite"
-			x: 8.0d
+			x: 9.0d
 			y: 2.5d
 			shape: "diamond"
 			description: [
@@ -733,7 +733,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: 3.5d
 			shape: "rsquare"
 			description: [
@@ -763,7 +763,7 @@
 		}
 		{
 			title: "Horizonite Tools"
-			x: 9.0d
+			x: 10.0d
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["14B4E6B2FC3F6B36"]
@@ -842,7 +842,7 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 9.5d
 			y: 3.5d
 			shape: "rsquare"
 			description: [
@@ -882,7 +882,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: 4.0d
 			shape: "rsquare"
 			description: ["This is a lantern that prevents hostile spawns within a large radius. "]
@@ -897,7 +897,7 @@
 		}
 		{
 			title: "Ventium Tools"
-			x: 6.0d
+			x: 7.0d
 			y: 2.5d
 			shape: "rsquare"
 			description: [
@@ -943,7 +943,7 @@
 		}
 		{
 			title: "Diopside Tools"
-			x: 11.0d
+			x: 12.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["128C5B7A82FF802E"]
@@ -1022,7 +1022,7 @@
 		}
 		{
 			title: "Diopside Armor"
-			x: 12.0d
+			x: 13.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["128C5B7A82FF802E"]
@@ -1090,7 +1090,7 @@
 		}
 		{
 			title: "Charoite Tools"
-			x: 13.0d
+			x: 10.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["27E3C4E4790F8FF3"]
@@ -1169,7 +1169,7 @@
 		}
 		{
 			title: "Charoite Armor"
-			x: 14.0d
+			x: 11.0d
 			y: -1.5d
 			shape: "diamond"
 			dependencies: ["27E3C4E4790F8FF3"]
@@ -1272,15 +1272,15 @@
 		}
 		{
 			title: "Structures and Dungeons"
-			x: 13.5d
-			y: 1.5d
+			x: 11.5d
+			y: 2.0d
 			shape: "octagon"
 			description: [
 				"In Blue Skies, there are 4 bosses to defeat and several dungeons to explore."
 				""
 				"You can find random \"tunnels\" that lead down into dungeon rooms. These will spawn in Armored Frost Spirits to kill. Collect a few of these for Souls!"
 				""
-				"{image:atm:textures/quests/blueskies_everbright_structuredungeon.png width:150 height:125 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_everbright_structuredungeon.png width:150 height:125 align:1}"
 			]
 			dependencies: ["158F48B73171BDE1"]
 			id: "001C4388146BD377"
@@ -1317,7 +1317,7 @@
 				""
 				"Can you best the Summoner?"
 				""
-				"{image:atm:textures/quests/blueskies_everbright_summonersdungeon.png width:175 height:200 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_everbright_summonersdungeon.png width:175 height:200 align:1}"
 			]
 			dependencies: ["1F82DBE75059C139"]
 			id: "3C1212AA4663C39B"
@@ -1355,7 +1355,7 @@
 				"Prepare to be hit with potions, as well as fighting the minions of the Alchemist."
 				""
 				""
-				"{image:atm:textures/quests/blueskies_everdawn_alchemistdungeon.png width:175 height:200 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_everdawn_alchemistdungeon.png width:175 height:200 align:1}"
 			]
 			dependencies: ["1F82DBE75059C139"]
 			id: "6832C9E6D2E2949E"
@@ -1393,7 +1393,7 @@
 				""
 				"Note: You can trade with the Gatekeeper in case you can't find all of the keys, but only after you right click the gate for the boss fight."
 				""
-				"{image:atm:textures/quests/blueskies_everbright_naturedungeon.png width:200 height:150 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_everbright_naturedungeon.png width:200 height:150 align:1}"
 			]
 			dependencies: ["3C1212AA4663C39B"]
 			size: 1.5d
@@ -1431,7 +1431,7 @@
 				""
 				"Gather some Poison Dungeon Keys within to unlock the final boss fight!"
 				""
-				"{image:atm:textures/quests/blueskies_everdawn_poisondungeon.png width:175 height:200 align:1}"
+				"{image:atm:textures/questpics/blueskies/blueskies_everdawn_poisondungeon.png width:175 height:200 align:1}"
 			]
 			dependencies: ["6832C9E6D2E2949E"]
 			size: 1.5d

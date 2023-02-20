@@ -1,0 +1,149 @@
+{
+	id: "617F6D802ED0FD00"
+	order_index: 15
+	title: "&dEpic Reward"
+	icon: "lootr:lootr_chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:diamond"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+		{ item: "powah:thermo_generator_niotic" }
+		{ item: "powah:thermo_generator_spirited" }
+		{ item: "tempad:he_who_remains_tempad" }
+		{
+			item: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 120
+					upgradeSlots: 7
+					contentsUuid: [I;
+						353985662
+						-1402254873
+						-1860933036
+						-1294587123
+					]
+				}
+			}
+		}
+		{ item: "rftoolsbuilder:builder" }
+		{
+			item: {
+				id: "mekanism:elite_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "quarryplus:quarry" }
+		{ item: "pipez:ultimate_upgrade" }
+		{ item: "dankstorage:dank_6" }
+		{ item: "mekanism:ultimate_tier_installer" }
+		{ item: "thermal:upgrade_augment_3" }
+		{ item: "ironfurnaces:netherite_furnace" }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:allthemodium_sight"
+				}
+			}
+		}
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "artifacts:eternal_steak" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "apotheosis:sigil_of_socketing" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{ item: "mekanism:quantum_entangloporter" }
+		{ item: "apotheosis:epic_material", count: 2, random_bonus: 4, weight: 3 }
+	]
+}
