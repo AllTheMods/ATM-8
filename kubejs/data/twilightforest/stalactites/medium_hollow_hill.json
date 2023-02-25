@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "stalactites": [
+      "twilightforest:gold_ore_stalactite",
+      "twilightforest:redstone_ore_stalactite",
+      "twilightforest:zinc_ore_stalactite",
+      "twilightforest:osmium_ore_stalactite",
+      "twilightforest:aluminum_ore_stalactite",
+      "twilightforest:silver_ore_stalactite",
+      "twilightforest:uranium_ore_stalactite"
+    ]
+  }
