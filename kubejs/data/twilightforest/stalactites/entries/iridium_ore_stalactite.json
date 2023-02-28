@@ -1,0 +1,6 @@
+{
+    "max_length": 2,
+    "ore": "alltheores:iridium_ore",
+    "size_variation": 0.5,
+    "weight": 15
+}

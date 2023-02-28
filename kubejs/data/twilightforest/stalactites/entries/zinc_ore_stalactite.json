@@ -1,0 +1,6 @@
+{
+    "max_length": 8,
+    "ore": "alltheores:zinc_ore",
+    "size_variation": 0.7,
+    "weight": 24
+}

@@ -1,0 +1,6 @@
+{
+    "max_length": 4,
+    "ore": "alltheores:platinum_ore",
+    "size_variation": 0.5,
+    "weight": 30
+}
