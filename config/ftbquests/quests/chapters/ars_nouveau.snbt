@@ -2620,7 +2620,7 @@
 				""
 				"Select one Form and one Effect, name your spell, and click create!"
 				""
-				"{image:atm:textures/spellbook.png width:200 height:150 align:1}"
+				"{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1}"
 			]
 			dependencies: ["64D0E66CB4FBEC82"]
 			id: "5CFBA24B3E0CDEDD"
