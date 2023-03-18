@@ -2,6 +2,7 @@ const CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.C
 
 // sets the chance for a seed to drop
 const SecondarySeed = 0.01
+const TierSecondaryCutoff = 5
 
 ServerEvents.tags('item', event => {
   let CropRegistryInstance = CropRegistry.getInstance()
@@ -9,6 +10,12 @@ ServerEvents.tags('item', event => {
   let tiers = Array.apply(null, Array(cropTiers.length))
   for (const CropTier of cropTiers) {
     tiers[CropTier.getValue() - 1] = CropTier.getFarmland()
+    if (CropTier.getValue() >= TierSecondaryCutoff) {
+      CropTier.setSecondarySeedDrop(false)
+      CropTier.setBaseSecondaryChance(0)
+    } else {
+      CropTier.setBaseSecondaryChance(SecondarySeed)
+    }
   }
   for (let i = 0; i < tiers.length; i++) {
     let farmA = tiers[i]
@@ -63,7 +70,7 @@ ServerEvents.recipes(event => {
         }
         for (const drop of recipe.json.get('drops')) {
           if (Ingredient.of(drop.get('output')).test(seed)) {
-            if (SecondarySeed > 0) {
+            if (SecondarySeed > 0 && Crop.getTier().hasSecondarySeedDrop()) {
               drop.add('chance', SecondarySeed)
               newDrops.push(drop)
             }
@@ -81,7 +88,7 @@ ServerEvents.recipes(event => {
       if (!seenSeeds.includes(seed)) {
         let Crop = CropRegistryInstance.getCropByName(seed)
         let drops = [{ chance: 1.0, output: Ingredient.of(Crop.getEssenceItem()).toJson() }]
-        if (SecondarySeed > 0) {
+        if (SecondarySeed > 0 && Crop.getTier().hasSecondarySeedDrop()) {
           drops.push({ chance: SecondarySeed, output: Ingredient.of(Crop.getSeedsItem()).toJson() })
         }
         drops.push({ chance: 0.01, output: Ingredient.of("mysticalagriculture:fertilized_essence").toJson(), minRolls: 1, maxRolls: 1 })
@@ -132,7 +139,8 @@ ServerEvents.recipes(event => {
           },
           {
             item: Crop.getSeedsItem().getId(),
-            chance: 1 + SecondarySeed
+            chance: Crop.getTier().hasSecondarySeedDrop() ? (1 + SecondarySeed) : 1,
+            locked: true
           }
         ]
       }).id(`kubejs:thermal/machines/insolator/mysticalagriculture/${cropName}`)
