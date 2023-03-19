@@ -2,6 +2,7 @@ let EccentricTome = Item.of('eccentrictome:tome',
   {
     "eccentrictome:mods": {
       advancedperipherals: { 0: { Count: 1, id: "patchouli:guide_book", tag: { "patchouli:book": "advancedperipherals:manual" } } },
+      adastra:{ 0: { Count:1, id: "ad_astra:astrodux"} },
       alchemistry: { 0: { Count: 1, id: "patchouli:guide_book", tag: { "patchouli:book": "alchemistry:alchemistry_book" } } },
       allthemodium: { 0: { Count: 1, id: "patchouli:guide_book", tag: { "patchouli:book": "allthemodium:allthemodium" } } },
       apotheosis: { 0: { Count: 1, id: "patchouli:guide_book", tag: { "patchouli:book": "apotheosis:apoth_chronicle" } } },
