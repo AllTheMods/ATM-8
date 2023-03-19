@@ -83,7 +83,7 @@
   "crouchNoWaterlog": true,
   
   // Both doors open at the same time if connected
-  "doubleDoor": true,
+  "doubleDoor": false,
   
   // Size scale for exporting maps
   // 1 = 128x128px
