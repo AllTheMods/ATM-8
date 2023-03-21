@@ -476,7 +476,7 @@
 	"Enhanced Ladders" = true
 	Emotes = true
 	"Dragon Scales" = true
-	"Double Door Opening" = true
+	"Double Door Opening" = false
 	"Compasses Work Everywhere" = false
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
