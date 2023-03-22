@@ -175,4 +175,47 @@ WorldgenEvents.add(event => {
     ore.squared()
     ore.uniformHeight(-64, 254)
   })
+    event.addOre((ore) => {
+    ore.id = "kubejs:mining_rftools_dimshard"
+    ore.biomes = ['allthemodium:mining']
+    ore.addTarget('minecraft:stone', 'rftoolsbase:dimensionalshard_overworld')
+    ore.addTarget('minecraft:netherrack', 'rftoolsbase:dimensionalshard_nether')
+    ore.addTarget('minecraft:end_stone', 'rftoolsbase:dimensionalshard_end')
+    ore.size(5)
+    ore.count(2, 4)
+    ore.squared()
+    ore.uniformHeight(-64, 254)
+  })
+  event.addOre((ore) => {
+    ore.id = "kubejs:mining_mek_fluorite"
+    ore.biomes = ['allthemodium:mining']
+    ore.addTarget('minecraft:stone', 'mekanism:fluorite_ore')
+    ore.addTarget('minecraft:deepslate', 'mekanism:deepslate_fluorite_ore')
+    ore.size(7)
+    ore.count(4, 8)
+    ore.squared()
+    ore.uniformHeight(64, 254)
+  })
+  event.addOre((ore) => {
+    ore.id = "kubejs:mining_ec_crystal"
+    ore.biomes = ['allthemodium:mining']
+    ore.addTarget('minecraft:stone', 'elementalcraft:inert_crystal_ore')
+    ore.addTarget('minecraft:deepslate', 'elementalcraft:deepslate_inert_crystal_ore')
+    ore.size(5)
+    ore.count(1, 3)
+    ore.squared()
+    ore.uniformHeight(64, 254)
+  })
+  event.addOre((ore) => {
+    ore.id = "kubejs:mining_deepres_resonating"
+    ore.biomes = ['allthemodium:mining']
+    ore.addTarget('minecraft:stone', 'deepresonance:resonating_ore_stone')
+    ore.addTarget('minecraft:deepslate', 'deepresonance:resonating_ore_deepslate')
+    ore.addTarget('minecraft:netherrack', 'deepresonance:resonating_ore_nether')
+    ore.addTarget('minecraft:end_stone', 'deepresonance:resonating_ore_end')
+    ore.size(5)
+    ore.count(1, 3)
+    ore.squared()
+    ore.uniformHeight(-64, 254)
+  })
 })

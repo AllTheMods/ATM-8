@@ -57,7 +57,7 @@
 	"Jukebox Automation" = true
 	"Iron Rod" = true
 	Gravisand = true
-	"Feeding Trough" = true
+	"Feeding Trough" = false
 	"Ender Watcher" = true
 	"Dispensers Place Blocks" = true
 	Chute = true
@@ -76,9 +76,9 @@
 	[automation.feeding_trough]
 		#How long, in game ticks, between animals being able to eat from the trough
 		#Allowed values: [1,)
-		Cooldown = 30
+		Cooldown = 180
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
-		"Max Animals" = 32
+		"Max Animals" = 8
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
 		#Allowed values: (0,1]
 		"Love Chance" = 0.333333333

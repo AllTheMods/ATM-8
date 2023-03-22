@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:frosted_coniferous_forest", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:autumnal_forest", "byg:autumnal_taiga" ],
-		[ "byg:rose_fields", "byg:fragment_forest", "byg:zelkova_forest", "byg:coconino_meadow", "byg:redwood_thicket" ],
-		[ "byg:temperate_grove", "byg:orchard", "byg:orchard", "byg:red_oak_forest", "byg:jacaranda_forest" ],
-		[ "byg:firecracker_shrubland", "byg:firecracker_shrubland", "byg:amaranth_fields", "byg:crag_gardens", "byg:tropical_rainforest" ],
-		[ "byg:atacama_desert", "byg:atacama_desert", "byg:sierra_badlands", "byg:atacama_desert", "byg:mojave_desert" ]
+		[ "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:frosted_taiga", "byg:frosted_taiga", "byg:autumnal_taiga" ],
+		[ "byg:coconino_meadow", "byg:coconino_meadow", "byg:maple_taiga", "byg:autumnal_forest", "byg:autumnal_forest" ],
+		[ "byg:prairie", "byg:orchard", "byg:orchard", "byg:aspen_forest", "byg:weeping_witch_forest" ],
+		[ "byg:baobab_savanna", "byg:baobab_savanna", "byg:red_oak_forest", "byg:crag_gardens", "byg:tropical_rainforest" ],
+		[ "byg:mojave_desert", "byg:mojave_desert", "byg:windswept_desert", "byg:atacama_desert", "byg:atacama_desert" ]
 	]
 }

@@ -8,24 +8,35 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	/* Add BYG's placed features to all biomes?
+	// Add custom BYG Structures?
+	"add_custom_structures": true,
+	// Add custom BYG Villagers & Structures to villages?
+	"add_custom_villagers": true,
+	/* 
+	   Add global BYG features to non BYG biomes?
 	   
-	   By disabling this, you remove BYG placed features not designated to specific biomes.
+	   By disabling this, you remove BYG placed features not designated to specific BYG biomes.
 	   
-	   To configure the features that spawn using this, use the "/worldgenexport" command and edit the files found at:
+	   Such features include but are not limited to:
+	   -Ores
+	   -Stones
+	   -Palm Trees
+	   
+	   To configure the features that spawn using this, use the "/corgilib worldRegistryExport" command and edit the files found at:
+	   
 	   "byg/worldgen/placed_feature/global/<decoration_stage>"
 	   "byg/worldgen/placed_feature/global/placed_feature/<feature>"
 	   "byg/worldgen/configured_feature/global/<decoration_stage>"
+	   
 	   in the output folder.
 	*/
-	"add_biome_placed_features": true,
-	// Add custom BYG Structures?
-	"add_custom_structures": true,
-	// Add custom BYG Villagers/Structures to villages?
-	"add_custom_villagers": true,
-	/* Add BYG items automatically to applicable loot tables?
+	"add_global_biome_placed_features": true,
+	/* 
+	   Add BYG items automatically to applicable loot tables?
 	   
-	   For example BYG may add piglin trades to the piglin trade loot table.
+	   For example BYG may add:
+	   -Piglin trades to the piglin trade loot table.
+	   -Loot to vanilla structures such as Abandoned Mineshafts or Jungle temples.
 	   
 	   To configure these loot tables or add your own, create a datapack with loot tables matching the following path:
 	   "data/modid/append_loot_tables/file_path_to_loot_table_you_want_to_append"
@@ -36,6 +47,21 @@ to make editing this file much easier.
 	   BYG's added loot to Repurposed Structure's Jungle Village Jungle House: "data/byg/append_loot_tables/repurposed_structures/chests/villages/jungle_house.json"
 	*/
 	"add_loot_tables": true,
+	// Logger settings.
+	"logger_settings": {
+		/* Exclude BYG loggers that may contain any of the words or phrases in this list.
+		   Example:
+		   "exclude": [
+		              "event",
+		              "load event",
+		              "loaded"
+		              ]
+		*/
+		"exclude": [],
+		"log_debug": false,
+		"log_info": false,
+		"log_warnings": true
+	},
 	// Use BYG world generation?
 	"world_generation": true
 }
