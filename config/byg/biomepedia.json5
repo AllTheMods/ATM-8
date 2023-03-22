@@ -8,6 +8,8 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	// Whether the biomepedia button is enabled or not in the player inventory for all users connected to this host.
+	// Whether to give the biomepedia book ITEM to new players for the first time.
+	"give_item": false,
+	// Whether the biomepedia inventory BUTTON is enabled or not in the player inventory for all users connected to this host.
 	"inventory_enabled": false
 }

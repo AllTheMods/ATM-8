@@ -8,6 +8,22 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
+	/* Global biome swapper that swaps any biome of your choice with another in all Overworld regions.
+	   
+	   You must use biome ids.
+	   
+	   Example:
+	   =====================
+	   
+	   "global_biome_swapper": {
+	       "byg:atacama_desert": "minecraft:desert",
+	       "byg:bayou": "minecraft:swamp",
+	       "minecraft:sunflower_plains": "byg:black_forest"
+	   }
+	   
+	   =====================
+	*/
+	"global_biome_swapper": { },
 	// Global toggle to enable or disable BYG's overworld biomes.
 	"overworld_enabled": true,
 	/* A list of weighted regions containing a unique biome layout.
