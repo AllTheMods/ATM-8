@@ -42,6 +42,11 @@ function Market(source) {
   let taggedFlowers = Ingredient.of('#minecraft:flowers').stacks
   taggedFlowers.forEach(flower => {
     let mod = flower.idLocation.namespace
+    if (mod == 'botania') {
+      if (!flower.id.contains('mystical_flower')) {
+        return
+      }
+    }
     if (flowers[mod] == null) {
       flowers[mod] = []
     }
