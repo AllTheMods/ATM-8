@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:shattered_glacier", "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:skyris_vale", "byg:skyris_vale" ],
-		[ "byg:rose_fields", "byg:weeping_witch_forest", "byg:twilight_meadow", "byg:autumnal_valley", "byg:cika_woods" ],
-		[ "byg:forgotten_forest", "byg:prairie", "byg:allium_fields", "byg:aspen_forest", "byg:temperate_rainforest" ],
-		[ "byg:araucaria_savanna", "byg:baobab_savanna", "byg:cherry_blossom_forest", "byg:ebony_woods", "byg:jacaranda_forest" ],
-		[ "byg:atacama_desert", "byg:red_rock_valley", "byg:mojave_desert", "byg:sierra_badlands", "byg:windswept_desert" ]
+		[ "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:frosted_coniferous_forest", "byg:coniferous_forest" ],
+		[ "byg:autumnal_valley", "byg:autumnal_valley", "byg:skyris_vale", "byg:skyris_vale", "byg:cika_woods" ],
+		[ "byg:prairie", "byg:allium_fields", "byg:allium_fields", "byg:red_oak_forest", "byg:temperate_rainforest" ],
+		[ "byg:araucaria_savanna", "byg:araucaria_savanna", "byg:amaranth_fields", "byg:ebony_woods", "byg:jacaranda_forest" ],
+		[ "byg:mojave_desert", "byg:mojave_desert", "byg:windswept_desert", "byg:atacama_desert", "byg:atacama_desert" ]
 	]
 }

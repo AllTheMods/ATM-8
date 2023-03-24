@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:shattered_glacier", "byg:cardinal_tundra", "byg:borealis_grove", "byg:borealis_grove", "byg:black_forest" ],
-		[ "byg:coconino_meadow", "byg:maple_taiga", "byg:maple_taiga", "byg:coconino_meadow", "byg:coniferous_forest" ],
-		[ "byg:temperate_grove", "byg:prairie", "byg:allium_fields", "byg:aspen_forest", "byg:dacite_ridges" ],
-		[ "byg:baobab_savanna", "byg:araucaria_savanna", "byg:cherry_blossom_forest", "byg:ebony_woods", "byg:tropical_rainforest" ],
-		[ "byg:atacama_desert", "byg:windswept_desert", "byg:windswept_desert", "byg:mojave_desert", "byg:red_rock_valley" ]
+		[ "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:black_forest" ],
+		[ "byg:coconino_meadow", "byg:coconino_meadow", "byg:maple_taiga", "byg:zelkova_forest", "byg:dacite_ridges" ],
+		[ "byg:prairie", "byg:prairie", "byg:allium_fields", "byg:aspen_forest", "byg:temperate_rainforest" ],
+		[ "byg:firecracker_shrubland", "byg:firecracker_shrubland", "byg:amaranth_fields", "byg:forgotten_forest", "byg:fragment_forest" ],
+		[ "byg:mojave_desert", "byg:mojave_desert", "byg:windswept_desert", "byg:atacama_desert", "byg:atacama_desert" ]
 	]
 }

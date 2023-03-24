@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:frosted_coniferous_forest", "byg:cardinal_tundra", "byg:frosted_taiga", "byg:borealis_grove", "byg:black_forest" ],
-		[ "byg:rose_fields", "byg:coconino_meadow", "byg:twilight_meadow", "byg:canadian_shield", "byg:skyris_vale" ],
-		[ "byg:temperate_grove", "byg:orchard", "byg:aspen_forest", "byg:allium_fields", "byg:dacite_ridges" ],
-		[ "byg:baobab_savanna", "byg:araucaria_savanna", "byg:ebony_woods", "byg:amaranth_fields", "byg:guiana_shield" ],
-		[ "byg:firecracker_shrubland", "byg:sierra_badlands", "byg:sierra_badlands", "byg:red_rock_valley", "byg:red_rock_valley" ]
+		[ "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:coniferous_forest" ],
+		[ "byg:coconino_meadow", "byg:coconino_meadow", "byg:cika_woods", "byg:black_forest", "byg:black_forest" ],
+		[ "byg:temperate_grove", "byg:temperate_grove", "byg:temperate_grove", "byg:rose_fields", "byg:weeping_witch_forest" ],
+		[ "byg:araucaria_savanna", "byg:araucaria_savanna", "byg:red_oak_forest", "byg:ebony_woods", "byg:tropical_rainforest" ],
+		[ "byg:red_rock_valley", "byg:red_rock_valley", "byg:red_rock_valley", "byg:sierra_badlands", "byg:sierra_badlands" ]
 	]
 }

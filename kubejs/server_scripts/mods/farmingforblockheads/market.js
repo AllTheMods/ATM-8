@@ -1,21 +1,15 @@
-// list of items to not add to the Market
-let MarketBlackList = [
-  "twilightforest:time_sapling",
-  "twilightforest:mining_sapling",
-  "twilightforest:sorting_sapling",
-  "twilightforest:transformation_sapling",
-  "occultism:otherworld_sapling",
-  "occultism:otherworld_sapling_natural",
-  "ars_nouveau:magebloom_crop"
-]
-
-// List Gen
 /*
+  farming for blockheads custom market additions
+  authored by EnigmaQuip
+  for use in ATM8
+
+  List Gen
     /markethelper
     OP permission required
     only should need to be run on mod changes,
     generates a new marketitems.json file
 */
+
 ServerEvents.commandRegistry(event => {
   const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
   event.register(
@@ -57,31 +51,15 @@ function Market(source) {
   return 1
 }
 
+const FFBAPI = Java.loadClass('net.blay09.mods.farmingforblockheads.api.FarmingForBlockheadsAPI')
+
 // Datapack Gen
 ServerEvents.highPriorityData(event => {
-  let market = JsonIO.read('kubejs/server_scripts/mods/farmingforblockheads/marketitems.json')
-  market.forEach((key, type) => {
-    type.forEach((mod, list) => {
-      let recipe = {
-        modId: mod,
-        silent: true,
-        group: {
-          name: `${mod == 'minecraft' ? 'Vanilla' : Platform.getInfo(mod).name} ${key[0].toUpperCase()}${key.slice(1)}`,
-          enabledByDefault: true,
-          defaultPayment: { item: "minecraft:emerald" },
-          defaultCategory: `farmingforblockheads:${key}`
-        },
-        customEntries: []
+  event.addJson('kubejs:farmingforblockheads_compat/atm.json', {
+    groupOverrides: {
+      "Croptopia Seeds": {
+        enabled: false
       }
-      list.forEach(item => {
-        if (!MarketBlackList.includes(item)) {
-          recipe.customEntries.push({ output: item })
-        }
-      })
-      if (recipe.customEntries.length == 0) {
-        recipe.group.enabledByDefault = false
-      }
-      event.addJson(`kubejs:farmingforblockheads_compat/${mod == 'minecraft' ? 'vanilla' : mod}_${key}.json`, recipe)
-    })
+    }
   })
 })
