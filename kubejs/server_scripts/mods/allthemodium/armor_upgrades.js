@@ -3,7 +3,6 @@ ServerEvents.recipes(event => {
   let tiers = [
     { material: '#forge:ingots/iron', previous: 'minecraft:leather', makes: 'minecraft:iron' },
     { material: '#forge:gems/diamond', previous: 'minecraft:iron', makes: 'minecraft:diamond' },
-    { material: '#forge:ingots/allthemodium', previous: 'minecraft:netherite', makes: 'allthemodium:allthemodium' },
   ]
   for (const tier of tiers) {
     for (const [armorItem, armorPattern] of Object.entries(patterns)) {
