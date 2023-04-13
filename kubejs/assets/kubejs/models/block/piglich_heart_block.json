@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "kubejs:block/piglich_heart_block",
+    "bottom": "kubejs:block/piglich_heart_block",
+    "top": "kubejs:block/piglich_heart_block"
+  }
+}
