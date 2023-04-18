@@ -581,7 +581,7 @@
 			y: 12.0d
 			shape: "hexagon"
 			subtitle: "Enough to make everything in the pack?"
-			description: ["If you make 9 Stars, or enough to make an ATM Star Block, you'll be able to create a &dStarry Bee&r. This bee gives you &6ATM Star Shards&r from their combs."]
+			description: ["If you make 9 Stars, or enough to make an ATM Star Block, you'll be able to create a &dStarry Bee&r. This bee gives you &6ATM Star Shards&r from their combs. They will also need another ATM Star Block for their flower!"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2CF11A70229000AB"
