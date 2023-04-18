@@ -1736,9 +1736,9 @@
 			x: 12.0d
 			y: -3.5d
 			description: [
-				"Naturally, AE2 provides its own way to dramatically speed up crystal growth, assuming you don't happen to have Mekanism's Enrichment Chamber on hand."
+				"Naturally, AE2 provides its own way to dramatically speed up crystal growth."
 				""
-				"Placing a water source block within a full set of 5 &bCrystal Growth Accelerators&f will reduce the growing time of crystal seeds from 20 minutes unaccelerated to as little as 24 seconds."
+				"Place these around your Budding Crystals, give them some power, and watch your crystals grow!"
 			]
 			dependencies: ["51DE3157DE3E57B8"]
 			id: "5AA3E5DFECB4AC4D"

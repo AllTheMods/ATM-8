@@ -3,7 +3,7 @@
 	group: "1CF541D7529DA9CF"
 	order_index: 0
 	filename: "getting_started"
-	title: "Getting Started"
+	title: "&aChapter 1&r: &bGetting Started"
 	icon: "minecraft:furnace"
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false

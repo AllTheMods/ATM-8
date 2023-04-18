@@ -4,32 +4,12 @@
 	title: "&dEpic Reward"
 	icon: "lootr:lootr_chest"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{
-			item: {
-				id: "ironjetpacks:jetpack"
-				Count: 1b
-				tag: {
-					Id: "ironjetpacks:diamond"
-					Throttle: 1.0d
-				}
-			}
-		}
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3", weight: 3.0f }
 		{ item: "powah:thermo_generator_niotic" }
 		{ item: "powah:thermo_generator_spirited" }
 		{ item: "tempad:he_who_remains_tempad" }
-		{
-			item: {
-				id: "sophisticatedbackpacks:netherite_backpack"
-				Count: 1b
-				tag: {
-					inventorySlots: 120
-					upgradeSlots: 7
-				}
-			}
-		}
-		{ item: "rftoolsbuilder:builder" }
 		{
 			item: {
 				id: "mekanism:elite_energy_cube"
@@ -44,10 +24,9 @@
 				}
 			}
 		}
-		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "functionalstorage:netherite_upgrade", weight: 2.0f }
 		{ item: "quarryplus:quarry" }
-		{ item: "pipez:ultimate_upgrade" }
-		{ item: "dankstorage:dank_6" }
+		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
 		{ item: "mekanism:ultimate_tier_installer" }
 		{ item: "thermal:upgrade_augment_3" }
 		{ item: "ironfurnaces:netherite_furnace" }
@@ -138,6 +117,6 @@
 			}
 		}
 		{ item: "mekanism:quantum_entangloporter" }
-		{ item: "apotheosis:epic_material", count: 2, random_bonus: 4, weight: 3 }
+		{ item: "apotheosis:epic_material", count: 2, random_bonus: 4, weight: 3.0f }
 	]
 }
