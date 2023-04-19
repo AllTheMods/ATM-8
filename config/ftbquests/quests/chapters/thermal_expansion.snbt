@@ -1268,7 +1268,7 @@
 			x: 8.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "Increases Generation Rate at Cost of Efficiency"
+			subtitle: "Increases Generation Rate at the Cost of Efficiency"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "7C83735C2D746162"
