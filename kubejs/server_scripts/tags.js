@@ -56,6 +56,10 @@ ServerEvents.tags('block', event => {
   ])
 })
 
+ServerEvents.tags('fluid', event => {
+  event.remove('minecraft:water', 'ad_astra:oil')
+})
+
 ServerEvents.tags('entity_type', event => {
   event.add('kubejs:mob_blacklist', [/productivebees:.+/, 'allthemodium:piglich', 'artifacts:mimic', 'minecraft:iron_golem'])
   event.add('mob_grinding_utils:no_swab', '#kubejs:mob_blacklist')
