@@ -419,14 +419,15 @@
 			}]
 			rewards: [
 				{
-					id: "4C0C0FA818D81804"
-					type: "random"
-					exclude_from_claim_all: true
-				}
-				{
 					id: "65700E61B22FED09"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "04F3E39419EC5B0E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2427872771413920777L
 				}
 			]
 		}
