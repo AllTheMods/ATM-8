@@ -8,6 +8,7 @@ JEIEvents.hideItems(event => {
   event.hide('reliquary:rod_of_lyssa')
   event.hide('mekanism:upgrade_anchor')
   event.hide(['mysticalagradditions:gaia_spirit_crux', 'mysticalagradditions:awakened_draconium_crux'])
+  event.hide('ars_nouveau:glyph_animate_block')
   event.hide([
     'absentbydesign:slab_tuff',
     'absentbydesign:stairs_tuff',
