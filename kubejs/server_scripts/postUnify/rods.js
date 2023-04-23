@@ -96,6 +96,12 @@ ServerEvents.recipes(event => {
       if (global.loaded.Thermal_Loaded) {
           // add blast chiller recipes? cross check with tconstruct
       }*/
+      // remove crafting recipes not using atm hammer
+      event.forEachRecipe({ type: 'minecraft:crafting_shaped', output: rod }, recipe => {
+        if (!recipe.hasInput('#alltheores:ore_hammers')) {
+          event.remove({ id: recipe.getId() })
+        }
+      })
     }
   })
   if (global.devLogging) {

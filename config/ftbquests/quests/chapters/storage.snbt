@@ -167,16 +167,23 @@
 			]
 		}
 		{
-			title: "Vanilla Chest"
+			title: "\"Vanilla\" Chest"
 			x: -9.0d
 			y: -1.5d
 			subtitle: "The Starting Chest"
+			description: ["Just like a vanilla chest, but has a slot for a Storage Upgrade!"]
 			dependencies: ["563CFA1EF74E52E9"]
 			id: "5E4BC0F59C90433A"
 			tasks: [{
-				id: "3C4AC12A7BCA9299"
+				id: "5241AA0EF3C2EA94"
 				type: "item"
-				item: "minecraft:chest"
+				item: {
+					id: "sophisticatedstorage:chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -1706,7 +1713,7 @@
 			y: 0.0d
 			subtitle: "Utility for Chests"
 			description: [
-				"To save you from having this &o entire quest section &r covered with filter upgrades, take a look at the Sophisticated Backpack upgrades."
+				"To save you from having this &oentire quest section&r covered with filter upgrades, take a look at the Sophisticated Backpack upgrades."
 				""
 				"You'll need to make the Sophisticated Storage equivalent, but they function about the same."
 			]

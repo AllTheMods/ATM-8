@@ -3,6 +3,7 @@
 	order_index: 8
 	title: "Random Tier 1 Glyph"
 	loot_size: 1
+	use_title: true
 	rewards: [
 		{ item: "ars_nouveau:glyph_ignite" }
 		{ item: "ars_nouveau:glyph_underfoot" }

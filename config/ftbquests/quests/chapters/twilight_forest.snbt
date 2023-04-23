@@ -197,6 +197,11 @@
 					advancement: "twilightforest:twilight_dinner"
 					criterion: ""
 				}
+				{
+					id: "74B7BA7AA89EEECD"
+					type: "item"
+					item: "twilightforest:torchberries"
+				}
 			]
 			rewards: [
 				{
@@ -1393,7 +1398,7 @@
 			x: -2.0d
 			y: 0.10000000000000003d
 			shape: "diamond"
-			description: ["This item will prevent you from losing the items in your held items and armor when you die."]
+			description: ["This item will prevent you from losing the items in your main and off hand, as well as your armor when you die."]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "610F9E9D0B5131C7"
 			tasks: [{
@@ -1879,7 +1884,7 @@
 			description: [
 				"This item is like a torch launcher. It launches &6Moonworms&r at the targeted block, which light up the block similar to a torch."
 				""
-				"You can find this in Hollow Hill treasure chests."
+				"You can find this in some Hollow Hill and Lich Tower treasure chests."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]

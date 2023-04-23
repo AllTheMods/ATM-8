@@ -259,7 +259,7 @@
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = false
-	"Automatic Took Restock" = true
+	"Automatic Tool Restock" = true
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
@@ -283,7 +283,7 @@
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
 
-	[management.automatic_took_restock]
+	[management.automatic_tool_restock]
 		#This feature disables itself if any of the following mods are loaded:
 		# - inventorytweaks
 		#This is done to prevent content overlap.

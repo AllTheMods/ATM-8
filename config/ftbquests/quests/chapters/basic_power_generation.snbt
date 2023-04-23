@@ -3,7 +3,7 @@
 	group: "1CF541D7529DA9CF"
 	order_index: 1
 	filename: "basic_power_generation"
-	title: "Getting Started: Part 2"
+	title: "&aChapter 2&r: &dTo The End"
 	icon: "mekanismgenerators:wind_generator"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -1093,10 +1093,10 @@
 					count: 8
 				}
 				{
-					id: "1088009042F9ECAF"
+					id: "223EBC5FE91C2210"
 					type: "random"
 					exclude_from_claim_all: true
-					table_id: 7025454341029952768L
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -1481,10 +1481,10 @@
 					xp: 1000
 				}
 				{
-					id: "4CE331B163AC93BE"
+					id: "11A0ACF9474F0B1C"
 					type: "loot"
 					exclude_from_claim_all: true
-					table_id: 7025454341029952768L
+					table_id: 5564196992594175882L
 				}
 			]
 		}

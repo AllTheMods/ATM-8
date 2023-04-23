@@ -1432,6 +1432,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "2B52FE4D4A70E2DA"
@@ -1445,6 +1446,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "3442E09D52543E37"
@@ -1458,6 +1460,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 			]
 			rewards: [{
@@ -1485,6 +1488,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "454565C9174BA435"
@@ -1498,6 +1502,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "74A65C7753C85DF4"
@@ -1511,6 +1516,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 			]
 			rewards: [{
@@ -1538,6 +1544,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "107464BB6EDB6FE5"
@@ -1551,6 +1558,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "30B4C23E8010CB4C"
@@ -1564,6 +1572,7 @@
 							}
 						}
 					}
+					match_nbt: true
 				}
 			]
 			rewards: [{
@@ -1619,4 +1628,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

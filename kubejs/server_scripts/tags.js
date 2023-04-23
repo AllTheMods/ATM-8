@@ -48,6 +48,16 @@ ServerEvents.tags('block', event => {
     'mysticalagriculture:unobtainium_crop',
     'mysticalagriculture:vibranium_crop',
   ])
+    event.add('minecraft:beacon_base_blocks', [
+    'allthemodium:vibranium_allthemodium_alloy_block',
+    'allthemodium:unobtainium_allthemodium_alloy_block',
+    'allthemodium:unobtainium_vibranium_alloy_block',
+    'allthetweaks:atm_star_block'
+  ])
+})
+
+ServerEvents.tags('fluid', event => {
+  event.remove('minecraft:water', 'ad_astra:oil')
 })
 
 ServerEvents.tags('entity_type', event => {
@@ -57,6 +67,7 @@ ServerEvents.tags('entity_type', event => {
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
   event.add('industrialforegoing:mob_duplicator_blacklist', '#kubejs:mob_blacklist')
   event.add('ars_nouveau:drygmy_blacklist', [/productivebees:.+/, 'artifacts:mimic'])
+  event.add('spirit:soul_cage_blacklisted', '#kubejs:mob_blacklist')
 })
 
 ServerEvents.tags('worldgen/biome', event => {
