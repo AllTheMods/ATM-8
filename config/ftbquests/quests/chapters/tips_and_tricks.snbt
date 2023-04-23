@@ -1,9 +1,9 @@
 {
 	id: "1BE666F01EFFC00D"
 	group: ""
-	order_index: 2
+	order_index: 4
 	filename: "tips_and_tricks"
-	title: "Tips \\& Tricks"
+	title: "&bTips \\& Tricks"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	images: [{
@@ -20,6 +20,7 @@
 	}]
 	quests: [
 		{
+			title: "Infinite Water"
 			x: 3.0d
 			y: 6.0d
 			subtitle: "Can be used as Reactor Coolant"
@@ -391,6 +392,8 @@
 				"If you haven't played MC since 1.16, it's important to know that Ore Generation has changed as well as max build level."
 				""
 				"Make sure to check out the \"World Gen\" tab in the ore's recipe to see the Y level the ore generates!"
+				""
+				"Note: This currently only works in Single-player."
 			]
 			id: "7732A4AE58D1315E"
 			tasks: [{
@@ -415,14 +418,33 @@
 			x: -2.0d
 			y: 5.0d
 			subtitle: "A Simple Magnet!"
+			description: [
+				"This is a simple magnet!"
+				""
+				"Pro tip: You can set a keybind to toggle this on and off!"
+			]
 			id: "3FC002E5A6C08DCC"
 			tasks: [{
-				id: "4112D6272EC400DE"
+				id: "27CB2988681DB62C"
 				type: "item"
+				title: "Simple Magnets"
 				item: {
-					id: "simplemagnets:basicmagnet"
+					id: "itemfilters:or"
 					Count: 1b
-					tag: { }
+					tag: {
+						items: [
+							{
+								id: "simplemagnets:basicmagnet"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "simplemagnets:advancedmagnet"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
 				}
 			}]
 			rewards: [
@@ -497,10 +519,10 @@
 					xp: 1000
 				}
 				{
-					id: "252305AEF12B1572"
+					id: "04C2C8FE21BE2CB7"
 					type: "random"
 					exclude_from_claim_all: true
-					table_id: 7025454341029952768L
+					table_id: 5564196992594175882L
 				}
 			]
 		}
@@ -832,6 +854,7 @@
 			}]
 		}
 		{
+			title: "Preventing Mob Spawns"
 			x: 0.5d
 			y: 7.5d
 			description: [
@@ -860,6 +883,7 @@
 			]
 		}
 		{
+			title: "Storing Experience"
 			x: 1.5d
 			y: 7.5d
 			description: [

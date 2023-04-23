@@ -3,9 +3,10 @@
 	order_index: 1
 	title: "Refined Storage Basic Parts"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{ item: "refinedstorage:basic_processor", count: 3, random_bonus: 3, weight: 40 }
-		{ item: "refinedstorage:improved_processor", count: 2, weight: 20 }
-		{ item: "refinedstorage:advanced_processor", weight: 5 }
+		{ item: "refinedstorage:basic_processor", count: 3, random_bonus: 3, weight: 40.0f }
+		{ item: "refinedstorage:improved_processor", count: 2, weight: 20.0f }
+		{ item: "refinedstorage:advanced_processor", weight: 5.0f }
 	]
 }

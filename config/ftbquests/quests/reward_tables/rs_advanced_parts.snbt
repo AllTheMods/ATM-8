@@ -3,8 +3,9 @@
 	order_index: 11
 	title: "RS Advanced Parts"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{ item: "extradisks:withering_processor", random_bonus: 2, weight: 10 }
-		{ item: "extrastorage:neural_processor", random_bonus: 2, weight: 50 }
+		{ item: "extradisks:withering_processor", random_bonus: 2, weight: 10.0f }
+		{ item: "extrastorage:neural_processor", random_bonus: 2, weight: 50.0f }
 	]
 }

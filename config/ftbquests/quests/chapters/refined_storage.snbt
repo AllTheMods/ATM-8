@@ -178,7 +178,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 0.5d
 			y: 4.0d
 			shape: "diamond"
 			description: ["The 1024k Storage Disk can store 1024000 items."]
@@ -196,7 +196,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 1.0d
 			y: 4.5d
 			shape: "diamond"
 			description: ["The 4096k Storage Disk can store 4096000 items."]
@@ -221,7 +221,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: 0.5d
 			y: 5.0d
 			shape: "diamond"
 			description: ["The 16384k Storage Disk can store 16384000 items."]
@@ -246,7 +246,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: 5.0d
 			shape: "diamond"
 			description: ["The 262m Storage Disk can store.... well....  262m items."]
@@ -276,7 +276,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: -1.0d
 			y: 4.5d
 			shape: "diamond"
 			description: [
@@ -323,8 +323,11 @@
 				""
 				"These are used to house the larger Disk Drives. "
 			]
-			dependencies: ["3751015CD5C84134"]
-			dependency_requirement: "one_started"
+			dependencies: [
+				"3751015CD5C84134"
+				"3F8EEE1AD4420702"
+			]
+			dependency_requirement: "one_completed"
 			size: 1.5d
 			id: "7DD638E4111D66E7"
 			tasks: [{
@@ -1070,7 +1073,6 @@
 			]
 			dependencies: ["59F5ED931FD70C55"]
 			hide: true
-			dependency_requirement: "one_started"
 			min_width: 300
 			id: "65C8A43FEDBA3835"
 			tasks: [{
@@ -1585,8 +1587,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.0d
+			x: 0.0d
+			y: 4.5d
 			shape: "diamond"
 			description: ["Infinite item storage!"]
 			hide_dependency_lines: false

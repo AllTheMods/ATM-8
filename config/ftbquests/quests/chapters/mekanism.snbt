@@ -1657,9 +1657,16 @@
 					item: "mekanism:chemical_oxidizer"
 				}
 				{
-					id: "4FFA4CDB37CDFCC8"
+					id: "3B5A283601BEADA0"
 					type: "item"
-					item: "mekanism:dust_sulfur"
+					title: "Any Sulfur Dust"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
 				}
 			]
 			rewards: [
