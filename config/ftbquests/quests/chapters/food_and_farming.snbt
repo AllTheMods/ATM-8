@@ -1199,9 +1199,9 @@
 			shape: "diamond"
 			subtitle: "Why Use 3 Block when 1 Block Do Trick"
 			description: [
-				"This block provides water the multi-block kitchen."
+				"This block provides water to the multi-block kitchen."
 				""
-				"It can also provide infinite water, and can pump water out via cables or pipes."
+				"It can also provide infinite water by pumping water out via cables or pipes."
 			]
 			hide_dependency_lines: true
 			dependencies: ["28C9EDBF6607E180"]
@@ -1236,7 +1236,7 @@
 			y: 4.0d
 			shape: "diamond"
 			description: [
-				"&9Botany Pots&r makes its return to the All The Mods modpacks."
+				"&9Botany Pots&r makes it easy to grow your resources!"
 				""
 				"These pots auto-grow almost anything you put into them, and can even be upgraded for automation!"
 			]

@@ -3,10 +3,11 @@
 	order_index: 10
 	title: "RS Random Storage Parts"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{ item: "refinedstorage:1k_storage_part", weight: 1000 }
-		{ item: "refinedstorage:4k_storage_part", weight: 100 }
-		{ item: "refinedstorage:16k_storage_part", weight: 10 }
+		{ item: "refinedstorage:1k_storage_part", weight: 1000.0f }
+		{ item: "refinedstorage:4k_storage_part", weight: 100.0f }
+		{ item: "refinedstorage:16k_storage_part", weight: 10.0f }
 		{ item: "refinedstorage:64k_storage_part" }
 	]
 }

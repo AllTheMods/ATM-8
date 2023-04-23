@@ -3,15 +3,16 @@
 	order_index: 9
 	title: "Twilight Forest Loot Bag"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{ item: "twilightforest:steeleaf_ingot", count: 2, random_bonus: 2, weight: 50 }
-		{ item: "twilightforest:knightmetal_ingot", count: 2, random_bonus: 2, weight: 25 }
-		{ item: "twilightforest:raw_ironwood", count: 2, random_bonus: 2, weight: 100 }
-		{ item: "twilightforest:fiery_blood", count: 2, random_bonus: 2, weight: 20 }
-		{ item: "twilightforest:hydra_chop", count: 2, random_bonus: 2, weight: 10 }
-		{ item: "twilightforest:cooked_venison", count: 4, random_bonus: 4, weight: 100 }
-		{ item: "twilightforest:charm_of_life_1", random_bonus: 1, weight: 50 }
-		{ item: "twilightforest:charm_of_keeping_1", random_bonus: 2, weight: 25 }
+		{ item: "twilightforest:steeleaf_ingot", count: 2, random_bonus: 2, weight: 50.0f }
+		{ item: "twilightforest:knightmetal_ingot", count: 2, random_bonus: 2, weight: 25.0f }
+		{ item: "twilightforest:raw_ironwood", count: 2, random_bonus: 2, weight: 100.0f }
+		{ item: "twilightforest:fiery_blood", count: 2, random_bonus: 2, weight: 20.0f }
+		{ item: "twilightforest:hydra_chop", count: 2, random_bonus: 2, weight: 10.0f }
+		{ item: "twilightforest:cooked_venison", count: 4, random_bonus: 4, weight: 100.0f }
+		{ item: "twilightforest:charm_of_life_1", random_bonus: 1, weight: 50.0f }
+		{ item: "twilightforest:charm_of_keeping_1", random_bonus: 2, weight: 25.0f }
 		{
 			item: {
 				id: "twilightforest:ore_magnet"
@@ -20,11 +21,11 @@
 					Damage: 0
 				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
-		{ item: "twilightforest:reappearing_block", count: 3, random_bonus: 6, weight: 10 }
-		{ item: "twilightforest:transformation_powder", random_bonus: 2, weight: 25 }
-		{ item: "twilightforest:cicada", weight: 50 }
+		{ item: "twilightforest:reappearing_block", count: 3, random_bonus: 6, weight: 10.0f }
+		{ item: "twilightforest:transformation_powder", random_bonus: 2, weight: 25.0f }
+		{ item: "twilightforest:cicada", weight: 50.0f }
 		{
 			item: {
 				id: "twilightforest:ironwood_sword"
@@ -37,7 +38,7 @@
 					}]
 				}
 			}
-			weight: 20
+			weight: 20.0f
 		}
 		{
 			item: {
@@ -51,8 +52,8 @@
 					}]
 				}
 			}
-			weight: 5
+			weight: 5.0f
 		}
-		{ item: "twilightforest:cooked_meef", count: 4, random_bonus: 4, weight: 100 }
+		{ item: "twilightforest:cooked_meef", count: 4, random_bonus: 4, weight: 100.0f }
 	]
 }

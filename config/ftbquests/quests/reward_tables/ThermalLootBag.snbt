@@ -1,0 +1,50 @@
+{
+	id: "38AF020A4EEE5665"
+	order_index: 25
+	title: "&9Thermal Loot Bag"
+	icon: "thermal:upgrade_augment_3"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "thermal:machine_frame", weight: 100.0f }
+		{
+			item: {
+				id: "thermal:energy_cell"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						EnergyMax: 1000000
+						EnergySend: 1000
+						Energy: 0
+						EnergyRecv: 1000
+					}
+				}
+			}
+			weight: 25.0f
+		}
+		{ item: "thermal:energy_duct", count: 4, random_bonus: 4, weight: 250.0f }
+		{ item: "thermal:fluid_duct", count: 4, random_bonus: 4, weight: 150.0f }
+		{ item: "thermal:redstone_servo", count: 2, random_bonus: 2, weight: 100.0f }
+		{ item: "thermal:rf_coil", random_bonus: 3, weight: 250.0f }
+		{ item: "thermal:upgrade_augment_1", weight: 50.0f }
+		{ item: "thermal:upgrade_augment_2", weight: 25.0f }
+		{ item: "thermal:upgrade_augment_3", weight: 5.0f }
+		{ item: "thermal:rf_coil_augment", weight: 50.0f }
+		{ item: "thermal:machine_speed_augment", weight: 100.0f }
+		{ item: "thermal:machine_output_augment", weight: 50.0f }
+		{ item: "thermal:servo_attachment", weight: 50.0f }
+		{ item: "thermal:turbo_servo_attachment", weight: 25.0f }
+		{ item: "thermal:explosive_grenade", weight: 25.0f }
+		{ item: "thermal:earth_grenade", weight: 10.0f }
+		{ item: "minecraft:gold_ingot", random_bonus: 7, weight: 100.0f }
+		{ item: "alltheores:lead_ingot", random_bonus: 7, weight: 100.0f }
+		{ item: "alltheores:tin_ingot", random_bonus: 7, weight: 100.0f }
+		{ item: "alltheores:invar_ingot", random_bonus: 3, weight: 50.0f }
+		{ item: "alltheores:electrum_ingot", random_bonus: 3, weight: 50.0f }
+		{ item: "alltheores:bronze_ingot", random_bonus: 3, weight: 50.0f }
+		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
+		{ item: "alltheores:lumium_ingot", random_bonus: 3, weight: 50.0f }
+		{ item: "alltheores:signalum_ingot", random_bonus: 3, weight: 50.0f }
+		{ item: "alltheores:constantan_ingot", random_bonus: 3, weight: 50.0f }
+	]
+}

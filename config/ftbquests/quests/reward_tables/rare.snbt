@@ -10,9 +10,10 @@
 		}
 	}
 	loot_size: 1
+	use_title: true
 	rewards: [
 		{ item: "sophisticatedbackpacks:everlasting_upgrade" }
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 5 }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 5.0f }
 		{
 			item: {
 				id: "sophisticatedstorage:diamond_chest"
@@ -21,24 +22,13 @@
 					woodType: "oak"
 				}
 			}
-			weight: 5
+			weight: 5.0f
 		}
-		{ item: "sophisticatedstorage:stack_upgrade_tier_2", weight: 7 }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_2", weight: 7.0f }
 		{ item: "thermal:upgrade_augment_2" }
-		{
-			item: {
-				id: "sophisticatedbackpacks:diamond_backpack"
-				Count: 1b
-				tag: {
-					inventorySlots: 108
-					upgradeSlots: 5
-				}
-			}
-			weight: 2
-		}
-		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade", weight: 3 }
+		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade", weight: 3.0f }
 		{ item: "industrialforegoing:laser_drill" }
-		{ item: "functionalstorage:diamond_upgrade", weight: 3 }
+		{ item: "functionalstorage:diamond_upgrade", weight: 3.0f }
 		{
 			item: {
 				id: "minecraft:enchanted_book"
@@ -63,8 +53,8 @@
 				}
 			}
 		}
-		{ item: "pipez:advanced_upgrade", random_bonus: 2, weight: 5 }
-		{ item: "productivebees:upgrade_productivity", weight: 2 }
+		{ item: "pipez:advanced_upgrade", random_bonus: 2, weight: 5.0f }
+		{ item: "productivebees:upgrade_productivity", weight: 2.0f }
 		{
 			item: {
 				id: "quark:ancient_tome"
@@ -103,16 +93,6 @@
 		}
 		{
 			item: {
-				id: "ironjetpacks:jetpack"
-				Count: 1b
-				tag: {
-					Id: "ironjetpacks:gold"
-					Throttle: 1.0d
-				}
-			}
-		}
-		{
-			item: {
 				id: "mekanism:advanced_energy_cube"
 				Count: 1b
 				tag: {
@@ -124,36 +104,34 @@
 					}
 				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
-		{ item: "mekanism:elite_tier_installer", weight: 3 }
-		{ item: "dankstorage:dank_4" }
-		{ item: "minecraft:dragon_egg", weight: 2 }
+		{ item: "mekanism:elite_tier_installer", weight: 3.0f }
+		{ item: "minecraft:dragon_egg", weight: 2.0f }
 		{ item: "minecraft:dragon_head" }
-		{ item: "dankstorage:dank_3", weight: 3 }
 		{ item: "artifacts:charm_of_sinking" }
-		{ item: "artifacts:vampiric_glove", weight: 2 }
+		{ item: "artifacts:vampiric_glove", weight: 2.0f }
 		{ item: "artifacts:umbrella" }
 		{ item: "artifacts:night_vision_goggles" }
-		{ item: "artifacts:golden_hook", weight: 2 }
+		{ item: "artifacts:golden_hook", weight: 2.0f }
 		{ item: "artifacts:crystal_heart" }
-		{ item: "ironfurnaces:diamond_furnace", weight: 3 }
+		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 		{ item: "ironfurnaces:emerald_furnace" }
-		{ item: "thermal:machine_speed_augment", weight: 5 }
-		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5 }
-		{ item: "alltheores:invar_ingot", random_bonus: 3, weight: 5 }
-		{ item: "minecraft:obsidian", count: 8, random_bonus: 8, weight: 10 }
-		{ item: "fluxnetworks:flux_dust", count: 2, random_bonus: 2, weight: 10 }
-		{ item: "fluxnetworks:flux_block", random_bonus: 1, weight: 3 }
-		{ item: "fluxnetworks:flux_point", weight: 5 }
-		{ item: "fluxnetworks:flux_plug", weight: 3 }
-		{ item: "fluxnetworks:basic_flux_storage", weight: 3 }
+		{ item: "thermal:machine_speed_augment", weight: 5.0f }
+		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
+		{ item: "alltheores:invar_ingot", random_bonus: 3, weight: 5.0f }
+		{ item: "minecraft:obsidian", count: 8, random_bonus: 8, weight: 10.0f }
+		{ item: "fluxnetworks:flux_dust", count: 2, random_bonus: 2, weight: 10.0f }
+		{ item: "fluxnetworks:flux_block", random_bonus: 1, weight: 3.0f }
+		{ item: "fluxnetworks:flux_point", weight: 5.0f }
+		{ item: "fluxnetworks:flux_plug", weight: 3.0f }
+		{ item: "fluxnetworks:basic_flux_storage", weight: 3.0f }
 		{ item: "fluxnetworks:herculean_flux_storage" }
-		{ item: "mekanism:ultimate_universal_cable", count: 4, random_bonus: 4, weight: 5 }
+		{ item: "mekanism:ultimate_universal_cable", count: 4, random_bonus: 4, weight: 5.0f }
 		{ item: "pipez:ultimate_upgrade", random_bonus: 1 }
-		{ item: "mekanism:ingot_refined_obsidian", random_bonus: 3, weight: 5 }
-		{ item: "minecraft:diamond_block", random_bonus: 2, weight: 7 }
-		{ item: "minecraft:emerald_block", random_bonus: 1, weight: 5 }
+		{ item: "mekanism:ingot_refined_obsidian", random_bonus: 3, weight: 5.0f }
+		{ item: "minecraft:diamond_block", random_bonus: 2, weight: 7.0f }
+		{ item: "minecraft:emerald_block", random_bonus: 1, weight: 5.0f }
 		{
 			item: {
 				id: "apotheosis:potion_charm"
@@ -163,7 +141,7 @@
 					Potion: "potionsmaster:diamond_sight"
 				}
 			}
-			weight: 3
+			weight: 3.0f
 		}
 		{
 			item: {
@@ -174,7 +152,7 @@
 					Potion: "potionsmaster:emerald_sight"
 				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
 		{
 			item: {
@@ -186,8 +164,8 @@
 				}
 			}
 		}
-		{ item: "minecraft:beacon", weight: 2 }
-		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2 }
+		{ item: "minecraft:beacon", weight: 2.0f }
+		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
 		{
 			item: {
 				id: "ars_nouveau:enchanters_sword"
@@ -198,7 +176,7 @@
 			}
 		}
 		{ item: "ars_nouveau:basic_spell_turret" }
-		{ item: "ars_nouveau:apprentice_spell_book", weight: 2 }
+		{ item: "ars_nouveau:apprentice_spell_book", weight: 2.0f }
 		{
 			item: {
 				id: "ars_nouveau:wand"
@@ -219,18 +197,18 @@
 		{ item: "sophisticatedstorage:stack_upgrade_tier_3" }
 		{ item: "functionalstorage:netherite_upgrade" }
 		{ item: "tempad:tempad" }
-		{ item: "functionalstorage:gold_upgrade", random_bonus: 1, weight: 5 }
+		{ item: "functionalstorage:gold_upgrade", random_bonus: 1, weight: 5.0f }
 		{ item: "botania:endoflame" }
-		{ item: "minecraft:ghast_tear", random_bonus: 3, weight: 5 }
-		{ item: "ars_nouveau:source_gem_block", weight: 3 }
-		{ item: "minecraft:budding_amethyst", random_bonus: 2, weight: 5 }
+		{ item: "minecraft:ghast_tear", random_bonus: 3, weight: 5.0f }
+		{ item: "ars_nouveau:source_gem_block", weight: 3.0f }
+		{ item: "minecraft:budding_amethyst", random_bonus: 2, weight: 5.0f }
 		{
 			item: {
 				id: "mininggadgets:mininggadget_simple"
 				Count: 1b
 				tag: { }
 			}
-			weight: 2
+			weight: 2.0f
 		}
 		{
 			item: {
@@ -239,6 +217,6 @@
 				tag: { }
 			}
 		}
-		{ item: "apotheosis:rare_material", count: 2, random_bonus: 4, weight: 5 }
+		{ item: "apotheosis:rare_material", count: 2, random_bonus: 4, weight: 5.0f }
 	]
 }

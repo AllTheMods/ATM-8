@@ -4,143 +4,24 @@
 	title: "&6Legendary Reward"
 	icon: "lootr:trophy"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{
-			item: {
-				id: "minecraft:potion"
-				Count: 1b
-				tag: {
-					Potion: "potionsmaster:allthemodium_sight"
-				}
-			}
-		}
 		{ item: "apotheosis:library" }
-		{ item: "apotheosis:mythic_material" }
-		{ item: "apotheosis:superior_sigil_of_socketing" }
+		{ item: "apotheosis:mythic_material", random_bonus: 5, weight: 2.0f }
+		{ item: "apotheosis:superior_sigil_of_socketing", random_bonus: 2, weight: 2.0f }
 		{ item: "mekanism:atomic_disassembler" }
 		{ item: "mekanism:mekasuit_helmet" }
 		{ item: "mekanism:mekasuit_bodyarmor" }
 		{ item: "mekanism:mekasuit_pants" }
 		{ item: "mekanism:mekasuit_boots" }
-		{ item: "allthemodium:raw_allthemodium" }
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4", weight: 3.0f }
 		{ item: "sophisticatedstorage:stack_upgrade_tier_4" }
-		{ item: "mysticalagriculture:supremium_essence" }
-		{ item: "powah:thermo_generator_spirited" }
-		{ item: "powah:solar_panel_spirited" }
+		{ item: "mysticalagriculture:supremium_essence", random_bonus: 2, weight: 2.0f }
+		{ item: "powah:thermo_generator_spirited", weight: 2.0f }
+		{ item: "powah:solar_panel_spirited", weight: 2.0f }
 		{ item: "powah:solar_panel_nitro" }
 		{ item: "powah:reactor_spirited", count: 36 }
-		{ item: "allthetweaks:nether_star_block" }
-		{
-			item: {
-				id: "apotheosis:gem"
-				Count: 1b
-				tag: {
-					variant: 4
-					purity: 0.71428573f
-					modifier: {
-						Operation: 0
-						attribute: "minecraft:generic.max_health"
-						UUID: [I;
-							-674418209
-							1676625129
-							-1495307635
-							617608105
-						]
-						Amount: 10.0d
-						Name: "GemBonus_apotheosis:max_health"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				id: "apotheosis:gem"
-				Count: 1b
-				tag: {
-					variant: 4
-					purity: 1.0f
-					modifier: {
-						Operation: 0
-						attribute: "minecraft:generic.max_health"
-						UUID: [I;
-							-159938437
-							182471178
-							-1511767853
-							439964346
-						]
-						Amount: 14.0d
-						Name: "GemBonus_apotheosis:max_health"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				id: "apotheosis:gem"
-				Count: 1b
-				tag: {
-					variant: 2
-					purity: 0.47058824f
-					modifier: {
-						Operation: 0
-						attribute: "minecraft:generic.luck"
-						UUID: [I;
-							-1326343963
-							176439867
-							-1699904368
-							-1615260257
-						]
-						Amount: 4.0d
-						Name: "GemBonus_apotheosis:luck"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				id: "apotheosis:gem"
-				Count: 1b
-				tag: {
-					variant: 2
-					purity: 0.7058824f
-					modifier: {
-						Operation: 0
-						attribute: "minecraft:generic.luck"
-						UUID: [I;
-							-1876790363
-							-362593241
-							-1755550234
-							-1215113379
-						]
-						Amount: 6.0d
-						Name: "GemBonus_apotheosis:luck"
-					}
-				}
-			}
-		}
-		{
-			item: {
-				id: "apotheosis:gem"
-				Count: 1b
-				tag: {
-					variant: 2
-					purity: 0.9411765f
-					modifier: {
-						Operation: 0
-						attribute: "minecraft:generic.luck"
-						UUID: [I;
-							-336425622
-							1175601606
-							-1482833734
-							986668186
-						]
-						Amount: 8.0d
-						Name: "GemBonus_apotheosis:luck"
-					}
-				}
-			}
-		}
+		{ item: "allthetweaks:nether_star_block", random_bonus: 1 }
 		{
 			item: {
 				id: "quark:ancient_tome"
@@ -177,6 +58,6 @@
 				}
 			}
 		}
-		{ item: "compactmachines:machine_maximum" }
+		{ item: "thermal_extra:upgrade_augment" }
 	]
 }

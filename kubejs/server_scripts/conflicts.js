@@ -4,6 +4,11 @@ ServerEvents.tags('item', event => {
   let chestsMissingTags = ['hexerei:willow_chest', 'hexerei:mahogany_chest', 'ars_nouveau:archwood_chest', 'ad_astra:strophar_chest', 'ad_astra:aeronos_chest']
   event.add('forge:chests', chestsMissingTags)
   event.add('forge:chests/wooden', chestsMissingTags)
+
+  // remove dye tag from flowers with double dye tag
+  event.remove('byg:purple_dye', 'byg:tall_allium')
+  event.remove('byg:pink_dye', ['byg:japanese_orchid', 'byg:tall_pink_allium'])
+
 })
 
 ServerEvents.recipes(event => {
@@ -83,6 +88,7 @@ ServerEvents.recipes(event => {
     'ars_nouveau:archwood_planks',
     'quark:blossom_planks',
     'quark:azalea_planks',
+    'quark:ancient_planks',
     'minecraft:oak_planks',
     'minecraft:spruce_planks',
     'minecraft:birch_planks',
@@ -166,4 +172,73 @@ ServerEvents.recipes(event => {
   // quark's log to stick recipe, but botania safe
   let logSticks = Ingredient.of('#minecraft:logs').subtract(Ingredient.of(['#botania:livingwood_logs', '#botania:dreamwood_logs']))
   event.shaped('16x minecraft:stick', ['s', 's'], { s: logSticks }).id('kubejs:easy_sticks')
+
+  // duplicate and misspelled recipes?
+  let bygRemovals = [
+    'byg:rainbow_eucalpytus_door',
+    'byg:rainbow_eucalpytus_trapdoor',
+    'byg:jacaranda_boookshelf',
+  ]
+  bygRemovals.forEach(removeId => {
+    event.remove({ id: removeId })
+  })
+
+  // thermium lamp same recipe as lantern
+  event.remove({ id: 'byg:therium_lamp' })
+  event.shaped('byg:therium_lamp',
+    ['NRN', 'RTR', 'NRN'],
+    { N: '#forge:nuggets/iron', R: '#forge:dusts/redstone', T: 'byg:therium_crystal_shard' }
+  ).id('kubejs:byg/therium_lamp')
+
+  // duplicate abd and quark
+  let abdRemovals = [
+    'absentbydesign:slab_tuff',
+    'absentbydesign:stairs_tuff',
+    'absentbydesign:wall_tuff',
+    'absentbydesign:wall_calcite',
+    'absentbydesign:stairs_calcite',
+    'absentbydesign:slab_calcite'
+  ]
+  abdRemovals.forEach(removeId => {
+    event.remove({ id: removeId })
+  })
+
+  // ad astra
+  event.remove({id: 'ad_astra:recipes/moon_stone_brick_slab'})
+  event.shaped('6x ad_astra:moon_stone_brick_slab', ['BBB'], {B:'ad_astra:moon_stone_bricks'}).id('kubejs:ad_astra/recipes/moon_stone_brick_slab');
+  // stone -> polished -> bricks
+  ['mercury_stone', 'glacio_stone','moon_stone', 'venus_stone', 'mars_stone', 'permafrost'].forEach(stone => {
+    event.remove({id:`ad_astra:recipes/${stone}_bricks`})
+    event.shaped(`4x ad_astra:${stone}_bricks`, ['BB','BB'], {B:`ad_astra:polished_${stone}`}).id(`kubejs:ad_astra/recipes/${stone}_bricks`)
+  })
+})
+
+// convert abd blocks to quark on break
+ServerEvents.blockLootTables(event => {
+  ['calcite', 'tuff'].forEach(material => {
+    ['stairs', 'wall'].forEach(type => {
+      event.modifyBlock(`absentbydesign:${type}_${material}`, loot => {
+        loot.clearPools()
+        loot.addPool(pool => {
+          pool.addItem(`quark:${material}_${type}`)
+          pool.survivesExplosion()
+        })
+      })
+    })
+    event.modifyBlock(`absentbydesign:slab_${material}`, loot => {
+      loot.clearPools()
+      loot.addPool(pool => {
+        let entry = pool.addItem(`quark:${material}_slab`)
+        entry.addFunction({ function: "minecraft:explosion_decay" })
+        entry.addConditionalFunction(func => {
+          func.addFunction({ function: 'minecraft:set_count', count: 2 })
+          func.addCondition({
+            "condition": "minecraft:block_state_property",
+            "block": `absentbydesign:slab_${material}`,
+            "properties": { "type": "double"}
+          })
+        })
+      })
+    })
+  })
 })
