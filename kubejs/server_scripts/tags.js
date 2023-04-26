@@ -5,6 +5,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('forge:dusts/ender', 'ae2:ender_dust')
   event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
+  event.add('forge:raw_materials', ['silentgear:raw_azure_silver', 'silentgear:raw_crimson_iron'])
 
   //temp byg fix until above 2.0.0.13
   event.add('c:black_sand', '#forge:black_sand')
@@ -16,7 +17,7 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.tags('block', event => {
   event.add('buildinggadgets:blacklist/generic', '#forge:relocation_not_supported')
-  event.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
+  event.add('ae2:blacklisted/spatial', '#forge:relocation_not_supported')
   event.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, '@waystones'])
   event.add('ars_nouveau:golem/budding', [
     'minecraft:budding_amethyst',
@@ -24,8 +25,8 @@ ServerEvents.tags('block', event => {
     'ae2:chipped_budding_quartz',
     'ae2:flawed_budding_quartz',
     'ae2:flawless_budding_quartz'
-  ]);
-  event.add('ars_nouveau:golem/cluster', ['minecraft:amethyst_cluster', 'ae2:quartz_cluster']);
+  ])
+  event.add('ars_nouveau:golem/cluster', ['minecraft:amethyst_cluster', 'ae2:quartz_cluster'])
 })
 
 ServerEvents.tags('entity_type', event => {
@@ -34,9 +35,10 @@ ServerEvents.tags('entity_type', event => {
   event.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
   event.add('industrialforegoing:mob_duplicator_blacklist', '#kubejs:mob_blacklist')
+  event.add('ars_nouveau:drygmy_blacklist', [/productivebees:.+/, 'artifacts:mimic'])
 })
 
-ServerEvents.tags('fluid', event =>{
+ServerEvents.tags('fluid', event => {
   event.add('forge:crude_oil', 'ad_astra:oil')
   event.remove('minecraft:water', 'ad_astra:oil')
 })

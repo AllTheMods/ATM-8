@@ -1,5 +1,4 @@
 WorldgenEvents.remove(event => {
-  event.printFeatures()
   event.removeFeatureById('underground_ores', [
     "ftbic:ore_iridium_large",
     "ftbic:ore_iridium_buried",
@@ -99,7 +98,7 @@ WorldgenEvents.add(event => {
     ore.squared()
     ore.uniformHeight(64, 254)
   })
-    event.addOre((ore) => {
+  event.addOre((ore) => {
     ore.id = "kubejs:mining_mysticalagriculture_inferium"
     ore.biomes = ['allthemodium:mining']
     ore.addTarget('minecraft:stone', 'mysticalagriculture:inferium_ore')
@@ -107,7 +106,7 @@ WorldgenEvents.add(event => {
     ore.addTarget('minecraft:netherrack', 'mysticalagradditions:nether_inferium_ore')
     ore.addTarget('minecraft:end_stone', 'mysticalagradditions:end_inferium_ore')
     ore.size(7)
-    ore.count(4,8)
+    ore.count(4, 8)
     ore.squared()
     ore.uniformHeight(-64, 254)
   })
@@ -119,7 +118,7 @@ WorldgenEvents.add(event => {
     ore.addTarget('minecraft:netherrack', 'mysticalagradditions:nether_prosperity_ore')
     ore.addTarget('minecraft:end_stone', 'mysticalagradditions:end_prosperity_ore')
     ore.size(7)
-    ore.count(2,6)
+    ore.count(2, 6)
     ore.squared()
     ore.uniformHeight(-64, 254)
   })
@@ -151,7 +150,7 @@ WorldgenEvents.add(event => {
     ore.squared()
     ore.uniformHeight(64, 254)
   })
-  let Color = ['blue','red','green','light','dark']
+  let Color = ['blue', 'red', 'green', 'light', 'dark']
   Color.forEach(Color =>
     event.addOre((ore) => {
       ore.id = `kubejs:mining_xycraft_${Color}_ore`

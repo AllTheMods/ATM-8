@@ -4230,7 +4230,7 @@
 				"Place the bee on top of the Bottler, and activate the piston to squish the bee into genes. The resulting squished bottle can be then placed in a Centrifuge."
 				""
 				"Note: Make sure to have bottles in the Bottler."
-				"{image:atm:textures/bottler.png width:100 height:150 align:1}"
+				"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7C169A4A39F37FAC"]
@@ -4372,4 +4372,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

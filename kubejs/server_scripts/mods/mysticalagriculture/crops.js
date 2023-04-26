@@ -1,6 +1,5 @@
 const CropRegistry = Java.loadClass('com.blakebr0.mysticalagriculture.registry.CropRegistry')
 
-const CropManualDisableList = ["gaia_spirit"]
 // sets the chance for a seed to drop
 const SecondarySeed = 0.01
 
@@ -31,22 +30,16 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.recipes(event => {
-  let JsonExport = { enabled: [], disabled: [], manual: [] }
+  let JsonExport = { enabled: [], disabled: [] }
   let CropRegistryInstance = CropRegistry.getInstance()
   let CropList = CropRegistryInstance.getCrops()
   for (const Crop of CropList) {
     let CropName = Crop.getName()
     if (Crop.isEnabled()) {
-      if (CropManualDisableList.includes(CropName)) {
-        Crop.setEnabled(false)
-        // remove seed infusion crafting
-        event.remove({ id: `mysticalagriculture:seed/infusion/${CropName}` })
-        JsonExport.manual.push(CropName)
-        continue
-      }
       JsonExport.enabled.push(CropName)
     } else {
       JsonExport.disabled.push(CropName)
+      event.remove({ id: `mysticalagriculture:seed/infusion/${CropName}` })
     }
   }
   JsonIO.write('kubejs/server_scripts/mods/mysticalagriculture/cropInfo.json', JsonExport)
