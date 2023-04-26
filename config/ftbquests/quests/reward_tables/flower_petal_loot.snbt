@@ -1,0 +1,60 @@
+{
+	id: "51D81405A1552C58"
+	order_index: 26
+	title: "Flower Petal Loot Bag"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: { id: "botania:white_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:orange_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:magenta_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:light_blue_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:yellow_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:lime_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:pink_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:gray_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:light_gray_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:cyan_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:purple_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:blue_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:brown_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:green_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:red_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:black_petal", Count: 3b }
+		}
+		{
+			item: { id: "botania:fertilizer", Count: 2b }
+		}
+	]
+}

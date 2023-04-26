@@ -1,0 +1,18 @@
+{
+	id: "72D242FB70CF9896"
+	order_index: 29
+	title: "&9Rare Mana Materials Loot Bag&r"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:manasteel_ingot" }
+		{ item: "botania:manasteel_block" }
+		{ item: "botania:mana_diamond" }
+		{ item: "botania:mana_diamond_block" }
+		{ item: "botania:mana_pearl" }
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "botania:mana_quartz" }
+		{ item: "botania:black_lotus" }
+		{ item: "botania:blacker_lotus" }
+	]
+}

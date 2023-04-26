@@ -1,0 +1,19 @@
+{
+	id: "0595EDDADDEA1407"
+	order_index: 31
+	title: "&6Legendary Mana Loot Bag&r"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:elementium_ingot" }
+		{ item: "botania:pixie_dust" }
+		{ item: "botania:quartz_elven" }
+		{ item: "botania:elf_glass" }
+		{ item: "botania:dreamwood_log" }
+		{ item: "botania:dreamwood" }
+		{ item: "botania:dragonstone" }
+		{ item: "botania:life_essence" }
+		{ item: "botania:gaia_ingot" }
+		{ item: "botania:terrasteel_ingot" }
+	]
+}
