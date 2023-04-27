@@ -2,8 +2,8 @@
 	id: "1883B79BDB2AAE5D"
 	group: "02FE661031A105D8"
 	order_index: 2
-	filename: "botainia"
-	title: "Botainia"
+	filename: "botania"
+	title: "Botania"
 	icon: "botania:lexicon"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
