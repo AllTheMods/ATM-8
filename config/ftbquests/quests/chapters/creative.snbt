@@ -543,25 +543,11 @@
 			hide: true
 			size: 1.5d
 			id: "5C7B81756CA58056"
-			tasks: [
-				{
-					id: "775BD503F830BB6C"
-					type: "item"
-					item: "botania:creative_pool"
-				}
-				{
-					id: "7FDBB3698C087D8B"
-					type: "item"
-					item: {
-						id: "botania:mana_tablet"
-						Count: 1b
-						tag: {
-							mana: 500000
-							creative: 1b
-						}
-					}
-				}
-			]
+			tasks: [{
+				id: "775BD503F830BB6C"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
 			rewards: [
 				{
 					id: "753A05B6079F4FBA"
