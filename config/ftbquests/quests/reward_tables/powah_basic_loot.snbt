@@ -1,0 +1,19 @@
+{
+	id: "4B19C9059B3AA9AC"
+	order_index: 34
+	title: "Powah: Basic Loot Reward"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "powah:capacitor_basic_tiny", count: 2, random_bonus: 2, weight: 25.0f }
+		{ item: "powah:capacitor_basic", random_bonus: 2, weight: 25.0f }
+		{ item: "powah:capacitor_basic_large", weight: 25.0f }
+		{ item: "powah:dielectric_casing", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:energy_cable_starter", count: 4, random_bonus: 4, weight: 10.0f }
+		{ item: "powah:energy_cable_basic", count: 4, random_bonus: 4, weight: 10.0f }
+		{ item: "powah:energizing_rod_starter", random_bonus: 1, weight: 5.0f }
+		{ item: "powah:energizing_rod_basic", random_bonus: 1, weight: 5.0f }
+		{ item: "powah:solar_panel_starter" }
+		{ item: "powah:solar_panel_basic" }
+	]
+}
