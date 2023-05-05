@@ -139,14 +139,14 @@
 			description: ["You should have a Coal Generator ready to go!"]
 			dependencies: ["162AB6F9257EB71E"]
 			size: 2.0d
-			id: "3887321344B8BCBF"
+			id: "65F6E7412B71DFB2"
 			tasks: [{
-				id: "667C34FD37D6D136"
+				id: "2E3E8BDA6EFBD0C5"
 				type: "checkmark"
 				title: "Getting Started: Part 2 - Basic Power"
 			}]
 			rewards: [{
-				id: "5F354003EE0735E5"
+				id: "2A6FF8DEB3D7A9B5"
 				type: "xp"
 				xp: 10
 			}]
@@ -164,20 +164,20 @@
 				"Place the Infuser beside the Coal Generator to give it power."
 			]
 			dependencies: ["65F6E7412B71DFB2"]
-			id: "4958F9903D3DFD67"
+			id: "59B3C2AF620547E0"
 			tasks: [{
-				id: "18CC9A52642F02A2"
+				id: "512F3539FAE93680"
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
 			}]
 			rewards: [
 				{
-					id: "6317237E70897416"
+					id: "6D387B4F6D53CDA9"
 					type: "item"
 					item: "mekanism:alloy_infused"
 				}
 				{
-					id: "421F030B600AA879"
+					id: "5CF217505CA38186"
 					type: "xp"
 					xp: 10
 				}
@@ -198,21 +198,21 @@
 				"Use these pieces to make 2 Energy Tablets."
 			]
 			dependencies: ["59B3C2AF620547E0"]
-			id: "5E3021EAAD4801D7"
+			id: "531DFFDE9EA7838E"
 			tasks: [
 				{
-					id: "075850A75AD4199A"
+					id: "568260644F99CE83"
 					type: "item"
 					item: "mekanism:alloy_infused"
 					count: 5L
 				}
 				{
-					id: "3E122CEF257D9BDD"
+					id: "03118FCD2EFD5A30"
 					type: "item"
 					item: "mekanism:basic_control_circuit"
 				}
 				{
-					id: "2635920521179F0F"
+					id: "25B2004192CD0C44"
 					type: "item"
 					item: "mekanism:energy_tablet"
 					count: 2L
@@ -220,13 +220,13 @@
 			]
 			rewards: [
 				{
-					id: "6583FA1EF8999F97"
+					id: "069E9C41474ACF42"
 					type: "item"
 					item: "alltheores:osmium_ingot"
 					count: 3
 				}
 				{
-					id: "34A807C6B501FA15"
+					id: "30277E05FF6E67D4"
 					type: "xp"
 					xp: 10
 				}
@@ -247,31 +247,31 @@
 			]
 			dependencies: ["531DFFDE9EA7838E"]
 			size: 1.5d
-			id: "1122C0D61A6A575D"
+			id: "2C117FA875719288"
 			tasks: [{
-				id: "48B3C948C05DF3EA"
+				id: "78FF3E1907C2B507"
 				type: "item"
 				item: "mekanismgenerators:wind_generator"
 			}]
 			rewards: [
 				{
-					id: "26E5C91BB75950A6"
+					id: "62BB113A7FC46CE2"
 					type: "item"
 					item: "mekanism:alloy_infused"
 					count: 3
 				}
 				{
-					id: "1DA7DCF2605001C9"
+					id: "47BB20E97AF70BAE"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "00B714FFB6B35AE7"
+					id: "671BF1D485FD3478"
 					type: "item"
 					item: "mekanism:upgrade_muffling"
 				}
 				{
-					id: "69AECAECD1772F37"
+					id: "5417AB9BEE33B138"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 487623848494439020L
@@ -293,29 +293,29 @@
 				""
 			]
 			dependencies: ["2C117FA875719288"]
-			id: "4B1579C9C6118B7A"
+			id: "343AEA9974EBCAD8"
 			tasks: [
 				{
-					id: "265F26727F58A924"
+					id: "4F8D11BEBDCE5181"
 					type: "item"
 					item: "pipez:energy_pipe"
 					count: 16L
 				}
 				{
-					id: "4ED4AE5FF1FA151A"
+					id: "11071F99C25B4FD1"
 					type: "item"
 					item: "pipez:wrench"
 				}
 			]
 			rewards: [
 				{
-					id: "0812BD1B999F73A2"
+					id: "6E0D969851049D68"
 					type: "item"
 					item: "pipez:energy_pipe"
 					count: 8
 				}
 				{
-					id: "087B90BEF2E11981"
+					id: "2B24EAB2BCF948BC"
 					type: "xp"
 					xp: 10
 				}
@@ -333,21 +333,21 @@
 			]
 			dependencies: ["19FBD3C65A96B311"]
 			optional: true
-			id: "65115A6B5D74972B"
+			id: "201143A8D039A543"
 			tasks: [{
-				id: "2369821FC1D9FEF2"
+				id: "5699FA9E0279716C"
 				type: "checkmark"
 				title: "Jetpacks are your friends"
 			}]
 			rewards: [
 				{
-					id: "4B7ED7B02625731C"
+					id: "680F0B1A3672EFA0"
 					type: "item"
 					item: "ironjetpacks:basic_coil"
 					count: 3
 				}
 				{
-					id: "1B74258DBADE83A3"
+					id: "357CACC23334834D"
 					type: "xp"
 					xp: 10
 				}
@@ -365,9 +365,9 @@
 			]
 			dependencies: ["19FBD3C65A96B311"]
 			optional: true
-			id: "308F1F15FDCB63E8"
+			id: "4FBE6552DAEADDB7"
 			tasks: [{
-				id: "4CFAF5F6C989D9F0"
+				id: "798EE128A6D37669"
 				type: "item"
 				item: {
 					id: "buildinggadgets:gadget_building"
@@ -385,7 +385,7 @@
 			}]
 			rewards: [
 				{
-					id: "45A42D2A69FBB423"
+					id: "0873D0D22302DFB2"
 					type: "item"
 					item: {
 						id: "constructionwand:diamond_wand"
@@ -397,12 +397,12 @@
 					}
 				}
 				{
-					id: "61DDDD5D1560A240"
+					id: "66C949FFA898948E"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "065F0FB95D0AC634"
+					id: "26E6EC93BB1B43D3"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 487623848494439020L
@@ -420,25 +420,25 @@
 			]
 			dependencies: ["216E75E350303F42"]
 			dependency_requirement: "one_completed"
-			id: "352B278160D4D9DA"
+			id: "7FE88F6B16029995"
 			tasks: [{
-				id: "21B302A08CBD9DBC"
+				id: "17450880C4EAB5B5"
 				type: "item"
 				item: "ironfurnaces:gold_furnace"
 			}]
 			rewards: [
 				{
-					id: "2297E82BF68B1565"
+					id: "48AC4A7E931847EE"
 					type: "item"
 					item: "minecraft:gold_block"
 				}
 				{
-					id: "5B57F586F20F07FD"
+					id: "1B818AB1DE891746"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "6B1B4B8149C7B9C1"
+					id: "1BA05CF4F9099575"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -452,14 +452,14 @@
 			subtitle: "Converts to a Blast Furnace"
 			dependencies: ["7FE88F6B16029995"]
 			optional: true
-			id: "07BD73A8E2566857"
+			id: "30E59763D0E8684B"
 			tasks: [{
-				id: "399E0059C8C70E49"
+				id: "5CEA781ACA858233"
 				type: "item"
 				item: "ironfurnaces:augment_blasting"
 			}]
 			rewards: [{
-				id: "3D69526B65093AAF"
+				id: "34E92E7C8A211B76"
 				type: "xp"
 				xp: 10
 			}]
@@ -471,14 +471,14 @@
 			subtitle: "GO FASTER!"
 			dependencies: ["7FE88F6B16029995"]
 			optional: true
-			id: "1B04E693E5236EBE"
+			id: "7B41010503609641"
 			tasks: [{
-				id: "69EC1D51B019E596"
+				id: "16A8BEE102ECEFE0"
 				type: "item"
 				item: "ironfurnaces:augment_speed"
 			}]
 			rewards: [{
-				id: "672B25DE4604372D"
+				id: "7F5F18D0FD64DC01"
 				type: "xp"
 				xp: 10
 			}]
@@ -490,14 +490,14 @@
 			subtitle: "Better Fuel Efficiency"
 			dependencies: ["7FE88F6B16029995"]
 			optional: true
-			id: "56D8999FC2EB8563"
+			id: "483BCD08B820CC30"
 			tasks: [{
-				id: "5767CBC97E21198E"
+				id: "3DD3BB53E55041A7"
 				type: "item"
 				item: "ironfurnaces:augment_fuel"
 			}]
 			rewards: [{
-				id: "395C3D1E18274FB6"
+				id: "1BA2F8F9C867C8C5"
 				type: "xp"
 				xp: 10
 			}]
@@ -517,27 +517,27 @@
 			]
 			dependencies: ["7FE88F6B16029995"]
 			optional: true
-			id: "79250317D2CCB510"
+			id: "01188A98FD63631A"
 			tasks: [
 				{
-					id: "0A57F2DFB08A3DA8"
+					id: "231DFEB6B91F16FA"
 					type: "item"
 					item: "ironfurnaces:heater"
 				}
 				{
-					id: "6AD120F6B7AFBE07"
+					id: "57755FB8698B6FF9"
 					type: "item"
 					item: "ironfurnaces:item_heater"
 				}
 			]
 			rewards: [
 				{
-					id: "4CFE2121A687E936"
+					id: "7DF48E2657A34158"
 					type: "item"
 					item: "minecraft:redstone_block"
 				}
 				{
-					id: "2D4231AE10E350BF"
+					id: "4F6159B4C39C586F"
 					type: "xp"
 					xp: 10
 				}
@@ -548,31 +548,31 @@
 			y: -1.5d
 			subtitle: "&oEven Faster"
 			dependencies: ["12885F27C5152DBB"]
-			id: "1522E94B15AC8A85"
+			id: "74B3D5F086959482"
 			tasks: [{
-				id: "44FBBF59C739D923"
+				id: "6A2FDFEC4543B1B4"
 				type: "item"
 				item: "ironfurnaces:diamond_furnace"
 			}]
 			rewards: [
 				{
-					id: "4D6E65D25210FE7E"
+					id: "30B2FD71F727ED5D"
 					type: "item"
 					item: "minecraft:diamond"
 					count: 4
 				}
 				{
-					id: "153D04B3980AB0C7"
+					id: "092255BDAEAA20E9"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "6351281167797A33"
+					id: "6252636A2D3A7207"
 					type: "item"
 					item: "ironfurnaces:augment_speed"
 				}
 				{
-					id: "61A3812E2A4C56D6"
+					id: "14E605CBF824E5D2"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -591,20 +591,20 @@
 				"To add the pipe upgrade, shift right click on the pipe that is currently set to extract."
 			]
 			dependencies: ["343AEA9974EBCAD8"]
-			id: "0BC68AA82FFFAC89"
+			id: "496A2D0AD494A942"
 			tasks: [{
-				id: "4842CD2F7F5D4542"
+				id: "0FCE12572DC4E75D"
 				type: "item"
 				item: "pipez:basic_upgrade"
 			}]
 			rewards: [
 				{
-					id: "66ACA81F91B27902"
+					id: "364C4DE2323BF866"
 					type: "item"
 					item: "pipez:basic_upgrade"
 				}
 				{
-					id: "14F8EE275C67FA66"
+					id: "0453434346F9BE4F"
 					type: "xp"
 					xp: 10
 				}
@@ -620,21 +620,21 @@
 				"You probably already have diamonds at this point too."
 			]
 			dependencies: ["7FE88F6B16029995"]
-			id: "41C29634F0C07258"
+			id: "12885F27C5152DBB"
 			tasks: [{
-				id: "7C7DD5F32B4EF19E"
+				id: "194036F5C54901C6"
 				type: "item"
 				item: "minecraft:diamond"
 				count: 3L
 			}]
 			rewards: [
 				{
-					id: "01ADD3DEAA58BA8D"
+					id: "1996E88544A33A31"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "762C92200A8A9B2C"
+					id: "295ED9800EF136F3"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 487623848494439020L
@@ -650,16 +650,16 @@
 			subtitle: "Speedrunners are already there."
 			description: ["It's time to grab some obsidian and get to the Nether!"]
 			dependencies: ["12885F27C5152DBB"]
-			id: "073EFC01FCF8EDCD"
+			id: "0B8213C1DDCC540F"
 			tasks: [
 				{
-					id: "31881F48EF959F21"
+					id: "754E3C12FF8F71D0"
 					type: "item"
 					item: "minecraft:obsidian"
 					count: 10L
 				}
 				{
-					id: "03E8E08B2E63D7EC"
+					id: "2DBBEC756EAB5C26"
 					type: "item"
 					item: {
 						id: "minecraft:flint_and_steel"
@@ -670,7 +670,7 @@
 					}
 				}
 				{
-					id: "2BA5959CDC26A9A8"
+					id: "7A01B52A689239A6"
 					type: "advancement"
 					icon: "allthetweaks:mini_nether"
 					advancement: "minecraft:story/enter_the_nether"
@@ -679,18 +679,18 @@
 			]
 			rewards: [
 				{
-					id: "016A2B2F9C2CB511"
+					id: "1CF3324C0CF23184"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "2DEF8DC3AF28FD93"
+					id: "619DB758399CD700"
 					type: "item"
 					item: "minecraft:quartz"
 					count: 8
 				}
 				{
-					id: "2099CE3F4BCAEE2E"
+					id: "428A09987F13FDD1"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -710,15 +710,15 @@
 			]
 			dependencies: ["12885F27C5152DBB"]
 			optional: true
-			id: "67BD5362E961801D"
+			id: "02A068D4CD02D677"
 			tasks: [
 				{
-					id: "6FFBEF7C1625F01B"
+					id: "5ED34AD2FF7B1CE5"
 					type: "item"
 					item: "minecraft:diamond"
 				}
 				{
-					id: "2C7AD96A4835AF04"
+					id: "741F4225529F0094"
 					type: "item"
 					title: "Any Flower"
 					item: {
@@ -731,7 +731,7 @@
 				}
 			]
 			rewards: [{
-				id: "7C514EDEBE28C16E"
+				id: "7CA766D7B8F2C7ED"
 				type: "xp"
 				xp: 100
 			}]
@@ -753,20 +753,20 @@
 				"101EF1ECBAD423C1"
 			]
 			dependency_requirement: "one_completed"
-			id: "1590EE9A4FF6A35F"
+			id: "6A4211C61120DBE8"
 			tasks: [{
-				id: "3C554D96FAA89731"
+				id: "2245E4A5B046F08B"
 				type: "item"
 				item: "allthemodium:allthemodium_ingot"
 			}]
 			rewards: [
 				{
-					id: "5C77CFCA885CFF33"
+					id: "1950ED0AC6732F18"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "4DA6E151EAD380D4"
+					id: "2D1D1A8919E5FC37"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 5564196992594175882L
@@ -779,27 +779,27 @@
 			y: -1.5d
 			description: ["You can now make yourself an Enchanting Table!"]
 			dependencies: ["12885F27C5152DBB"]
-			id: "629B84B2C22CFEA7"
+			id: "27F71B7B8FC5F783"
 			tasks: [{
-				id: "21C9084522B6A09B"
+				id: "5D788C0AFF6B0E84"
 				type: "item"
 				item: "minecraft:enchanting_table"
 			}]
 			rewards: [
 				{
-					id: "06F2AA0B67D9F1DD"
+					id: "57985C0353CC3E30"
 					type: "item"
 					item: "minecraft:bookshelf"
 					count: 3
 				}
 				{
-					id: "65C4F1BB8A8F6403"
+					id: "13ABCA8B2CE6419C"
 					type: "item"
 					item: "minecraft:book"
 					count: 3
 				}
 				{
-					id: "2612B6ED43697F89"
+					id: "51456633AEB6D283"
 					type: "xp"
 					xp: 100
 				}
@@ -810,20 +810,20 @@
 			y: -4.0d
 			shape: "circle"
 			dependencies: ["496A2D0AD494A942"]
-			id: "4EB4FDDB2244AE83"
+			id: "614DA56CB666937A"
 			tasks: [{
-				id: "051BE78227911D44"
+				id: "0734C1439698A3BE"
 				type: "item"
 				item: "pipez:improved_upgrade"
 			}]
 			rewards: [
 				{
-					id: "25C2A35D60572286"
+					id: "147A989DF9583238"
 					type: "item"
 					item: "pipez:improved_upgrade"
 				}
 				{
-					id: "6D74AF3172652681"
+					id: "71F75C4EDA446036"
 					type: "xp"
 					xp: 20
 				}
@@ -841,15 +841,15 @@
 				"It is more commonly found in any biome in the Other between Y0 and Y20."
 			]
 			dependencies: ["6A4211C61120DBE8"]
-			id: "0CC59F94E69B0C75"
+			id: "75A0CAF9E85198EF"
 			tasks: [{
-				id: "26638865F6F52F27"
+				id: "60D5B5F0BF42EEA5"
 				type: "item"
 				item: "allthemodium:vibranium_ingot"
 			}]
 			rewards: [
 				{
-					id: "160C5622D055554F"
+					id: "2A6810B9D1CBEC7F"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
@@ -860,12 +860,12 @@
 					}
 				}
 				{
-					id: "675E3D56F7B5309E"
+					id: "7F3D790EAF957994"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "1D4F122EDF902805"
+					id: "5D498236B68B539F"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 5564196992594175882L
@@ -885,27 +885,27 @@
 				"Once you've made enough Ender Eyes, right click them in the overworld and they'll lead you to a Stronghold."
 			]
 			dependencies: ["0B8213C1DDCC540F"]
-			id: "12D7B0778BF2F515"
+			id: "1B47EE1C29C4AD73"
 			tasks: [{
-				id: "41219BBB4A6F1375"
+				id: "4148B074789F0E59"
 				type: "item"
 				item: "minecraft:ender_eye"
 				count: 12L
 			}]
 			rewards: [
 				{
-					id: "0B5146E74C035B96"
+					id: "1A1298BEB80BF75B"
 					type: "item"
 					item: "minecraft:ender_eye"
 					count: 2
 				}
 				{
-					id: "6B35D2219BCC86F2"
+					id: "3D7203D5EDA20402"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "51C356A8A8E7575C"
+					id: "7467931FE2321F6E"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -924,21 +924,21 @@
 				"Or you already found it. Congrats!"
 			]
 			dependencies: ["1B47EE1C29C4AD73"]
-			id: "09BC0A261B4BB258"
+			id: "1ECF6495A3D77E27"
 			tasks: [{
-				id: "1439F3E255EF1299"
+				id: "3362B111DD9FD687"
 				type: "advancement"
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "278C1A2B1745D611"
+					id: "1EC6E0E46142E6D8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "2E2A4619F9D59B8D"
+					id: "4FEC600EC4F3AC17"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -954,21 +954,21 @@
 			description: ["Head to the End and kill the Ender Dragon!"]
 			dependencies: ["1ECF6495A3D77E27"]
 			size: 1.5d
-			id: "10F9EE62EEF0B159"
+			id: "5C769E0D5C1F806E"
 			tasks: [{
-				id: "0483479D647EAF39"
+				id: "3C71717D4A3ECB22"
 				type: "advancement"
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "4FBA72BB2CD691BF"
+					id: "60AA4D92FA090F0C"
 					type: "xp"
 					xp: 500
 				}
 				{
-					id: "4E0C073B2F77A4D5"
+					id: "4A9A889428332713"
 					type: "item"
 					item: {
 						id: "minecraft:cake"
@@ -982,7 +982,7 @@
 					}
 				}
 				{
-					id: "7CAAB5CA377860B3"
+					id: "1C688CD8D3D74DD5"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 5564196992594175882L
@@ -1001,21 +1001,21 @@
 			]
 			dependencies: ["1ECF6495A3D77E27"]
 			optional: true
-			id: "1CAEC3DCDF21CD55"
+			id: "6C5EA78B521858CF"
 			tasks: [{
-				id: "6D347FA94CD0A1DF"
+				id: "792082BC111171A3"
 				type: "item"
 				item: "minecraft:end_crystal"
 				count: 4L
 			}]
 			rewards: [
 				{
-					id: "5FEFE202D3CB28AF"
+					id: "1475AA1CF744F9CB"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "55B428A4943D14FC"
+					id: "710202A325DE58D0"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -1033,21 +1033,21 @@
 				"Once the dragon has been slain, you will find a weird \"structure\" with a portal between 3 blocks. Take an Ender Pearl and throw it into the portal."
 			]
 			dependencies: ["5C769E0D5C1F806E"]
-			id: "37C2B1F4EE0737B9"
+			id: "1EC4BA2569828891"
 			tasks: [{
-				id: "6759ECF8E92C7302"
+				id: "0AAC62680E169F06"
 				type: "advancement"
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "09F881A2DE3F1F9B"
+					id: "072FD927242F3038"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "0080FD84D8EB805D"
+					id: "7AE3CA628D4F995D"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 487623848494439020L
@@ -1068,9 +1068,9 @@
 				"1EC4BA2569828891"
 				"57F1BD179BBCDB6D"
 			]
-			id: "346C60B714EBCC2A"
+			id: "427B251ABCD4B085"
 			tasks: [{
-				id: "7FB7A1074179458F"
+				id: "3BAF0CA8558749AE"
 				type: "item"
 				item: {
 					id: "minecraft:elytra"
@@ -1082,18 +1082,18 @@
 			}]
 			rewards: [
 				{
-					id: "0EBC08EA16DA53B8"
+					id: "31B5682E925986BC"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "666F32C7887ABB72"
+					id: "24B87A9E2C3FEFCA"
 					type: "item"
 					item: "minecraft:firework_rocket"
 					count: 8
 				}
 				{
-					id: "600313AB0908F0CE"
+					id: "223EBC5FE91C2210"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 5564196992594175882L
@@ -1115,15 +1115,15 @@
 				"1EC4BA2569828891"
 				"75A0CAF9E85198EF"
 			]
-			id: "311F3B4A739CBBDF"
+			id: "57F1BD179BBCDB6D"
 			tasks: [{
-				id: "774D2E0D32BDAD9F"
+				id: "4B22F50FBF14B537"
 				type: "item"
 				item: "allthemodium:unobtainium_ingot"
 			}]
 			rewards: [
 				{
-					id: "2AF884A1AF5E81F1"
+					id: "281050F9C9644D4C"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
@@ -1134,12 +1134,12 @@
 					}
 				}
 				{
-					id: "283150420C2D7FDE"
+					id: "77C2F8CF0327E90E"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "5E64F01709B4E9FB"
+					id: "6C77ED457EF964F0"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 5564196992594175882L
@@ -1159,25 +1159,25 @@
 				"Netherite also makes a great coating for Silent Gear items."
 			]
 			dependencies: ["0B8213C1DDCC540F"]
-			id: "16F872738ABEC366"
+			id: "7DF06305EBE094ED"
 			tasks: [{
-				id: "40E899567DED9112"
+				id: "7CC6167CF3372FEF"
 				type: "item"
 				item: "minecraft:netherite_ingot"
 			}]
 			rewards: [
 				{
-					id: "0D5E20AC3C70C4D6"
+					id: "60F0013E800D183C"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "7267D9F6BCB2BE41"
+					id: "2E0F6B624E74D5C6"
 					type: "item"
 					item: "minecraft:ancient_debris"
 				}
 				{
-					id: "243EF9F5F80B452A"
+					id: "586576C90B987F29"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -1189,20 +1189,20 @@
 			y: -5.0d
 			shape: "circle"
 			dependencies: ["614DA56CB666937A"]
-			id: "258C16759CFE2379"
+			id: "0C6454F388EDE751"
 			tasks: [{
-				id: "35191BBF08107745"
+				id: "31B291FD7AF49DC0"
 				type: "item"
 				item: "pipez:advanced_upgrade"
 			}]
 			rewards: [
 				{
-					id: "1C4E028504E35F85"
+					id: "6F0E92596AA721FB"
 					type: "item"
 					item: "pipez:advanced_upgrade"
 				}
 				{
-					id: "4ED73483030A97AA"
+					id: "5A142620FE9D1286"
 					type: "xp"
 					xp: 100
 				}
@@ -1219,27 +1219,27 @@
 				"Mekanism also has a progression system that helps you create a factory that can give you even MORE from your raw ore."
 			]
 			dependencies: ["2C117FA875719288"]
-			id: "2491E2E7C9CEBE91"
+			id: "487F54A97A334E04"
 			tasks: [{
-				id: "40D3287E842CE4AE"
+				id: "491A3E6D650215D6"
 				type: "item"
 				item: "mekanism:enrichment_chamber"
 			}]
 			rewards: [
 				{
-					id: "6AC0754E6E891BC2"
+					id: "19B9A062D9DBE6FB"
 					type: "item"
 					item: "minecraft:raw_iron"
 					count: 4
 				}
 				{
-					id: "4F519C2D2C6F0EE4"
+					id: "0D4B4778A88FE069"
 					type: "item"
 					item: "minecraft:raw_gold"
 					count: 2
 				}
 				{
-					id: "316C021AA59EBBC2"
+					id: "08C93B627FDA5691"
 					type: "xp"
 					xp: 10
 				}
@@ -1263,21 +1263,21 @@
 				"{image:atm:textures/questpics/mekanism_easy_setup.png width:150 height:100 align:1}"
 			]
 			dependencies: ["487F54A97A334E04"]
-			id: "66D2582D0458A14F"
+			id: "216E75E350303F42"
 			tasks: [{
-				id: "654DAF57180F0995"
+				id: "78A9C7EC099DC0E9"
 				type: "checkmark"
 				title: "Automated Ore Smelting with Mekanism"
 			}]
 			rewards: [
 				{
-					id: "55B113D1A4BFC2A4"
+					id: "19CA300588AC0B60"
 					type: "item"
 					item: "minecraft:iron_ore"
 					count: 4
 				}
 				{
-					id: "16534316B0A7875E"
+					id: "22E60BD668BCFA22"
 					type: "xp"
 					xp: 10
 				}
@@ -1291,14 +1291,14 @@
 			description: ["To get started with Mekanism, check out the &aMekanism&r Chapter in the &6Technology&r Group."]
 			dependencies: ["216E75E350303F42"]
 			size: 1.5d
-			id: "323CFB8419600601"
+			id: "4D21D9AAFACD40C3"
 			tasks: [{
-				id: "56CFDF1B6785454F"
+				id: "4118C349344299FF"
 				type: "checkmark"
 				title: "Getting Started with Mekanism"
 			}]
 			rewards: [{
-				id: "6A7F02A764E5A446"
+				id: "084FE78CF9C48D2E"
 				type: "xp"
 				xp: 10
 			}]
@@ -1316,21 +1316,21 @@
 				"That means it's time for flight!"
 			]
 			dependencies: ["2C117FA875719288"]
-			id: "4D19759A212C15AB"
+			id: "19FBD3C65A96B311"
 			tasks: [{
-				id: "2CB2D5BD2EEDDBFF"
+				id: "6C47709DB58176FE"
 				type: "item"
 				item: "mekanism:basic_energy_cube"
 			}]
 			rewards: [
 				{
-					id: "5AA5DD15EFE7E6F9"
+					id: "00A1CA9DFDA349DC"
 					type: "item"
 					item: "mekanism:ingot_steel"
 					count: 2
 				}
 				{
-					id: "26890754DCD0F71E"
+					id: "6EB217394E27FA69"
 					type: "xp"
 					xp: 10
 				}
@@ -1348,21 +1348,21 @@
 			]
 			dependencies: ["7FE88F6B16029995"]
 			optional: true
-			id: "35EAE49D111A7CF6"
+			id: "3DDC4D2ECF77F840"
 			tasks: [{
-				id: "786685A633E10981"
+				id: "1CE3FC60406FCCCC"
 				type: "item"
 				item: "ironfurnaces:augment_factory"
 			}]
 			rewards: [
 				{
-					id: "1E8B17B53308BB34"
+					id: "04E253135F1E008D"
 					type: "item"
 					item: "minecraft:cooked_beef"
 					count: 2
 				}
 				{
-					id: "1BF2147ADDA13D1A"
+					id: "1E3677314F6DD3F1"
 					type: "xp"
 					xp: 100
 				}
@@ -1380,25 +1380,25 @@
 				"To go to the Other, do the same thing but in the Nether."
 			]
 			dependencies: ["6A4211C61120DBE8"]
-			id: "5833AA11AAABB882"
+			id: "1E38F655420EDB2E"
 			tasks: [{
-				id: "6C70CE5BB8C78C18"
+				id: "448C77127F89A232"
 				type: "item"
 				item: "allthemodium:teleport_pad"
 			}]
 			rewards: [
 				{
-					id: "1F4A8D431819FA4A"
+					id: "77F8003AC26194F8"
 					type: "item"
 					item: "allthemodium:teleport_pad"
 				}
 				{
-					id: "35031C259FD2F7D0"
+					id: "636551BBDC41E4CB"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "0E04BF30B392EB8A"
+					id: "12C56D2726FF528F"
 					type: "random"
 					exclude_from_claim_all: true
 					table_id: 4196188979167302596L
@@ -1418,14 +1418,14 @@
 				"This is also the home of the Pigliches."
 			]
 			dependencies: ["1E38F655420EDB2E"]
-			id: "095A72E5D951F451"
+			id: "2761C04C3AD87F05"
 			tasks: [{
-				id: "755CFDF61BC703DC"
+				id: "097AF842C2DEE1ED"
 				type: "item"
 				item: "allthemodium:ancient_stone"
 			}]
 			rewards: [{
-				id: "1896652C1FDD064E"
+				id: "58DB7B2A6096917F"
 				type: "item"
 				item: "allthemodium:ancient_soulberries"
 				count: 8
@@ -1443,14 +1443,14 @@
 				"It's also a great place for your Mek reactors, as long as it doesn't get reset often. "
 			]
 			dependencies: ["1E38F655420EDB2E"]
-			id: "3FD0DF0AD2A91447"
+			id: "2554B207859669F6"
 			tasks: [{
-				id: "39EF2A46382432E4"
+				id: "60832BEBA3D3161A"
 				type: "checkmark"
 				title: "The Mining Dimension"
 			}]
 			rewards: [{
-				id: "45C8F87C9C1B00EE"
+				id: "1DA9FE0AB38AB548"
 				type: "xp"
 				xp: 100
 			}]
@@ -1467,21 +1467,21 @@
 			]
 			dependencies: ["101EF1ECBAD423C1"]
 			size: 1.5d
-			id: "72EF92A674B45408"
+			id: "3350A63CD2DB3912"
 			tasks: [{
-				id: "47EF049D22629BB0"
+				id: "7077DD57064F9488"
 				type: "advancement"
 				advancement: "deeperdarker:main/kill_warden"
 				criterion: ""
 			}]
 			rewards: [
 				{
-					id: "2B5E574EDB0823A8"
+					id: "52C50CEC00B8AEC3"
 					type: "xp"
 					xp: 1000
 				}
 				{
-					id: "52BF0574996E1F65"
+					id: "11A0ACF9474F0B1C"
 					type: "loot"
 					exclude_from_claim_all: true
 					table_id: 5564196992594175882L
@@ -1499,9 +1499,9 @@
 				"To help you find it, make yourself a &eNature's Compass&r. You can right click with it, type in the biome you are looking for, and it'll search for it for you."
 			]
 			dependencies: ["0B8213C1DDCC540F"]
-			id: "08C11BE3BB81DD6D"
+			id: "101EF1ECBAD423C1"
 			tasks: [{
-				id: "0DE6E3D32E29EA7D"
+				id: "3EEA3BB61B5E3E8B"
 				type: "item"
 				item: {
 					id: "naturescompass:naturescompass"
@@ -1511,7 +1511,7 @@
 			}]
 			rewards: [
 				{
-					id: "6F2FC944833AA14F"
+					id: "4E5AAD0D32AF57A2"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
@@ -1522,7 +1522,7 @@
 					}
 				}
 				{
-					id: "4C728D1F36E2B86E"
+					id: "2F1DF9CA22DD308A"
 					type: "xp"
 					xp: 100
 				}
@@ -1541,14 +1541,14 @@
 			]
 			dependencies: ["427B251ABCD4B085"]
 			size: 2.5d
-			id: "72A385774A0A0852"
+			id: "6A1751470C1E7B9A"
 			tasks: [{
-				id: "6BFBEAEAE362A53C"
+				id: "31376CC991071EAC"
 				type: "item"
 				item: "angelring:angel_ring"
 			}]
 			rewards: [{
-				id: "323A98099A379637"
+				id: "4D06F9125E5AA8C3"
 				type: "random"
 				table_id: 7175652334583451871L
 			}]
@@ -1568,14 +1568,14 @@
 			dependencies: ["6A1751470C1E7B9A"]
 			hide: true
 			size: 3.0d
-			id: "7E56139F2B34C874"
+			id: "27084CF8323FEDEF"
 			tasks: [{
-				id: "10C0056DCD2F097A"
+				id: "4A8D1DF37ED76382"
 				type: "checkmark"
 				title: "The &5ATM Star&r"
 			}]
 			rewards: [{
-				id: "0998D61D94446CA9"
+				id: "34A0FA109AC52ACD"
 				type: "item"
 				item: "croptopia:starfruit"
 			}]
