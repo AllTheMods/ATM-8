@@ -1,3 +1,7 @@
+/*
+    Authored by Mitchell52, EnigmaQuip
+    for AllTheMods 8
+*/
 ServerEvents.recipes(e => {
   function pressure(inputs, result, rCount, pressure) {
     e.custom({
@@ -79,18 +83,77 @@ ServerEvents.recipes(e => {
     heatRequirement: 'superheated'
   })
 
-  /* No Create additions
-    e.custom({
-      type: 'powah:energizing',
-      ingredients: [
-        Ingredient.of('create:flywheel',).toJson(),
-        Ingredient.of('allthetweaks:atm_star').toJson(),
-        Ingredient.of('createaddition:alternator',).toJson()
-      ],
-      energy: '2147483647',
-      result: Item.of('createaddition:creative_energy').toJson()
-    }).id(`kubejs:energizing/createaddition:creative_energy`)
-  */
+  e.custom({
+    type: 'powah:energizing',
+    ingredients: [
+      Ingredient.of('create:flywheel',).toJson(),
+      Ingredient.of('allthetweaks:atm_star').toJson(),
+      Ingredient.of('createaddition:alternator',).toJson()
+    ],
+    energy: '2147483647',
+    result: Item.of('createaddition:creative_energy').toJson()
+  }).id(`kubejs:energizing/createaddition:creative_energy`)
+  
+  ///# Elementalcraft
+  e.custom({
+    "type": "elementalcraft:binding",
+    "element_amount": 60000,
+    "element_type": "fire",
+    "ingredients": [
+      {"item": "allthetweaks:atm_star"},
+      {"item": "elementalcraft:firecrystal"},
+      {"item": "elementalcraft:reservoir_fire"},
+      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"fire"}}}').strongNBT().toJson(),
+      {"item": "elementalcraft:reservoir_fire"},
+      {"item": "elementalcraft:firecrystal"}
+    ],
+    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"fire"}}}').toJson()
+  }).id('kubejs:elementalcraft/creative_fire_container')
+
+  e.custom({
+    "type": "elementalcraft:binding",
+    "element_amount": 60000,
+    "element_type": "water",
+    "ingredients": [
+      {"item": "allthetweaks:atm_star"},
+      {"item": "elementalcraft:watercrystal"},
+      {"item": "elementalcraft:reservoir_water"},
+      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"water"}}}').strongNBT().toJson(),
+      {"item": "elementalcraft:reservoir_water"},
+      {"item": "elementalcraft:watercrystal"}
+    ],
+    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"water"}}}').toJson()
+  }).id('kubejs:elementalcraft/creative_water_container')
+
+  e.custom({
+    "type": "elementalcraft:binding",
+    "element_amount": 60000,
+    "element_type": "earth",
+    "ingredients": [
+      {"item": "allthetweaks:atm_star"},
+      {"item": "elementalcraft:earthcrystal"},
+      {"item": "elementalcraft:reservoir_earth"},
+      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"earth"}}}').strongNBT().toJson(),
+      {"item": "elementalcraft:reservoir_earth"},
+      {"item": "elementalcraft:earthcrystal"}
+    ],
+    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"earth"}}}').toJson()
+  }).id('kubejs:elementalcraft/creative_earth_container')
+
+  e.custom({
+    "type": "elementalcraft:binding",
+    "element_amount": 60000,
+    "element_type": "air",
+    "ingredients": [
+      {"item": "allthetweaks:atm_star"},
+      {"item": "elementalcraft:aircrystal"},
+      {"item": "elementalcraft:reservoir_air"},
+      Item.of('elementalcraft:container', '{BlockEntityTag:{element_storage:{element_amount:100000,element_capacity:100000,element_type:"air"}}}').strongNBT().toJson(),
+      {"item": "elementalcraft:reservoir_air"},
+      {"item": "elementalcraft:aircrystal"}
+    ],
+    "output": Item.of('elementalcraft:creative_container', '{BlockEntityTag:{element_storage:{element_amount:1000000,element_capacity:1000000,element_type:"air"}}}').toJson()
+  }).id('kubejs:elementalcraft/creative_air_container')
 
   ///# Integrated Dynamics
   e.custom({
