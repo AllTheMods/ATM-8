@@ -1,0 +1,19 @@
+{
+	id: "4E550B6FE754E446"
+	order_index: 37
+	title: "Powah: Niotic Loot Reward"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "powah:capacitor_blazing", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:capacitor_niotic", random_bonus: 1, weight: 10.0f }
+		{ item: "powah:crystal_blazing", weight: 25.0f }
+		{ item: "powah:crystal_niotic", weight: 25.0f }
+		{ item: "powah:energy_cell_niotic" }
+		{ item: "powah:energy_cable_niotic", count: 2, random_bonus: 2, weight: 10.0f }
+		{ item: "powah:energizing_rod_niotic", weight: 5.0f }
+		{ item: "powah:solar_panel_niotic" }
+		{ item: "powah:blazing_crystal_block", weight: 2.0f }
+		{ item: "powah:niotic_crystal_block" }
+	]
+}

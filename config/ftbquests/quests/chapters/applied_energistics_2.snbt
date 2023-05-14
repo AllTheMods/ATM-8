@@ -1384,7 +1384,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"The &bMemory Card&f is a tool with to different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind."
+				"The &bMemory Card&f is a tool with two different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind."
 				""
 				"The second function of a memory card is to link &eP2P tunnels&f together. When doing so, the P2P tunnel being linked will be assigned a unique ID, which is stored on the memory card for further linking."
 			]

@@ -1,0 +1,11 @@
+{
+	id: "28A9C4EA22B6DBD7"
+	order_index: 28
+	title: "&9Living Loot Chest&r"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "botania:livingrock", count: 4 }
+		{ item: "botania:livingwood_log", count: 4 }
+	]
+}
