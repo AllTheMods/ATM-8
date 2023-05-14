@@ -98,7 +98,7 @@ ServerEvents.recipes(e => {
     ],
     energy: '2147483647',
     result: Item.of('createaddition:creative_energy').toJson()
-  }).id(`kubejs:energizing/createaddition:creative_energy`)
+  }).id(`kubejs:energizing/createaddition_creative_energy`)
   
   ///# Elementalcraft
   e.custom({
