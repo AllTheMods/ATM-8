@@ -308,7 +308,7 @@
 	"Color Runes" = true
 	"Bundle Recipe" = true
 	"Bottled Cloud" = true
-	"Beacon Redirection" = true
+	"Beacon Redirection" = false
 	"Ancient Tomes" = true
 	"Ambient Discs" = true
 	Abacus = true

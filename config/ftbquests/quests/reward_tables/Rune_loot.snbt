@@ -1,0 +1,14 @@
+{
+	id: "2A7CC6916B99544B"
+	order_index: 27
+	title: "&9Rune Loot Chest&r"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_air" }
+		{ item: "botania:rune_mana" }
+	]
+}

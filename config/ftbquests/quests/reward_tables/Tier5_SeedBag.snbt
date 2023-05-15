@@ -2,7 +2,7 @@
 	id: "3256FDEE1B753EE1"
 	order_index: 22
 	title: "&4Tier 5 Seed Bag"
-	icon: "minecraft:chest"
+	icon: "mysticalagriculture:supremium_gemstone"
 	loot_size: 1
 	rewards: [
 		{ item: "mysticalagriculture:diamond_seeds" }
