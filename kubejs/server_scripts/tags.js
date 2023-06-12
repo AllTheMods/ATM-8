@@ -57,7 +57,13 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.tags('fluid', event => {
-  event.remove('minecraft:water', 'ad_astra:oil')
+  event.remove('minecraft:water',[
+    'ad_astra:oil','ad_astra:flowing_oil',
+    'ad_astra:cryo_fuel','ad_astra:flowing_cryo_fuel',
+    'ad_astra:fuel','ad_astra:flowing_fuel',
+    'hexerei:blood_flowing','hexerei:blood_fluid',
+    'hexerei:tallow_flowing','hexerei:tallow_fluid',
+    'createaddition:flowing_seed_oil','createaddition:seed_oil'])
 })
 
 ServerEvents.tags('entity_type', event => {
