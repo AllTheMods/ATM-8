@@ -39,7 +39,8 @@
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
-    "forge:silicon"
+    "forge:silicon",
+    "forge:rubber"
   ],
   "materials": [
     "aeternium",
