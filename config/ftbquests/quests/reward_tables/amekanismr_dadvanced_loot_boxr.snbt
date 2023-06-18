@@ -1,0 +1,105 @@
+{
+	loot_crate: {
+		string_id: "mekanism_advanced_loot_box"
+		color: 16777215
+		glow: 1b
+		drops: {
+			passive: 0
+			monster: 0
+			boss: 0
+		}
+	}
+	id: "74164DBBE7919A3B"
+	icon: "lootr:lootr_inventory"
+	use_title: true
+	title: "&aMekanism:&r &dAdvanced Loot Box&r"
+	rewards: [
+		{ item: "alltheores:steel_ingot", count: 4, random_bonus: 4, weight: 100.0f }
+		{ item: "alltheores:steel_block", random_bonus: 1, weight: 75.0f }
+		{ item: "mekanism:steel_casing", random_bonus: 3, weight: 50.0f }
+		{ item: "mekanism:thermal_evaporation_block", count: 16, random_bonus: 16, weight: 50.0f }
+		{ item: "mekanism:basic_induction_cell", weight: 50.0f }
+		{ item: "mekanism:basic_induction_provider", weight: 50.0f }
+		{ item: "mekanism:pellet_polonium" }
+		{ item: "mekanism:pellet_plutonium", random_bonus: 2, weight: 5.0f }
+		{ item: "alltheores:uranium_ingot", count: 4, random_bonus: 12, weight: 100.0f }
+		{ item: "mekanismgenerators:turbine_casing", count: 4, random_bonus: 12, weight: 50.0f }
+		{ item: "mekanismgenerators:fission_reactor_casing", count: 4, random_bonus: 12, weight: 25.0f }
+		{ item: "alltheores:uranium_block", random_bonus: 2, weight: 50.0f }
+		{ item: "mekanism:upgrade_speed", count: 4, random_bonus: 4, weight: 75.0f }
+		{ item: "mekanism:upgrade_energy", count: 4, random_bonus: 4, weight: 75.0f }
+		{ item: "mekanism:advanced_tier_installer", random_bonus: 1, weight: 50.0f }
+		{ item: "mekanism:elite_tier_installer", weight: 50.0f }
+		{ item: "mekanism:ultimate_tier_installer", weight: 25.0f }
+		{ item: "mekanism:alloy_reinforced", count: 2, random_bonus: 2, weight: 75.0f }
+		{ item: "mekanism:alloy_atomic", random_bonus: 2, weight: 50.0f }
+		{ item: "mekanism:reprocessed_fissile_fragment", count: 2, random_bonus: 3, weight: 10.0f }
+		{ item: "mekanism:dust_lithium", count: 4, random_bonus: 12, weight: 50.0f }
+		{ item: "mekanism:quantum_entangloporter", weight: 25.0f }
+		{
+			item: {
+				id: "mekanism:elite_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				id: "mekanism:ultimate_energy_cube"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "256000000"
+						}]
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "mekanism:ultimate_universal_cable", count: 4, random_bonus: 4, weight: 50.0f }
+		{ item: "mekanism:ultimate_mechanical_pipe", count: 4, random_bonus: 4, weight: 50.0f }
+		{ item: "mekanism:ultimate_pressurized_tube", count: 4, random_bonus: 4, weight: 50.0f }
+		{
+			item: {
+				id: "mekanismgenerators:advanced_solar_generator"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "200000"
+						}]
+					}
+				}
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{ item: "mysticalagriculture:uranium_seeds", random_bonus: 1, weight: 25.0f }
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:radioactive"
+					}
+				}
+			}
+			random_bonus: 1
+			weight: 25.0f
+		}
+	]
+	order_index: 40
+	loot_size: 1
+}
