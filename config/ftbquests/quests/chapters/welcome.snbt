@@ -1,314 +1,312 @@
 {
-	quest_links: [ ]
 	default_hide_dependency_lines: false
-	group: ""
-	id: "5B00676D79306EA2"
-	filename: "welcome"
 	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
 	icon: "allthetweaks:atm_star"
-	title: "Welcome"
+	id: "5B00676D79306EA2"
 	images: [
 		{
-			rotation: 8.0d
-			image: "packmenu:textures/gui/logo.png"
-			width: 5.0d
 			click: ""
-			hover: [ ]
-			x: 0.0d
-			y: -4.5d
 			corner: true
 			dev: false
 			height: 5.0d
+			hover: [ ]
+			image: "packmenu:textures/gui/logo.png"
+			rotation: 8.0d
+			width: 5.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/whatthedrunk.png"
-			width: 3.75d
 			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
 			hover: ["whatthedrunk"]
+			image: "atm:textures/questpics/welcome/whatthedrunk.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: 0.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 5.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/EnigmaQuip.png"
-			width: 3.75d
-			click: ""
 			hover: ["EnigmaQuip"]
+			image: "atm:textures/questpics/welcome/enigmaquip.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: 5.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 5.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/thevortex.png"
-			width: 3.75d
-			click: ""
 			hover: ["theVortex"]
+			image: "atm:textures/questpics/welcome/thevortex.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			click: "https://www.youtube.com/c/alfredggmc"
 			corner: false
 			dev: false
 			height: 5.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/Alfred.png"
-			width: 3.75d
-			click: "https://www.youtube.com/c/alfredggmc"
 			hover: ["AlfredGG"]
+			image: "atm:textures/questpics/welcome/alfred.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: 15.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 5.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/Mitchell52.png"
-			width: 3.75d
-			click: ""
 			hover: ["mitchell52"]
+			image: "atm:textures/questpics/welcome/mitchell52.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: -5.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 5.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/oly206.png"
-			width: 3.75d
-			click: ""
 			hover: ["oly2o6"]
+			image: "atm:textures/questpics/welcome/oly206.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: -15.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 5.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/MutantaGumdrop.png"
-			width: 3.75d
-			click: ""
 			hover: ["MutantGumdrop"]
+			image: "atm:textures/questpics/welcome/mutantgumdrop.png"
+			rotation: 0.0d
+			width: 3.75d
 			x: -10.0d
 			y: 5.0d
-			corner: false
-			dev: false
-			height: 5.0d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/AlfredGG.png"
-			width: 3.396039603960396d
 			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
 			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/alfredgg_name.png"
+			rotation: 0.0d
+			width: 3.396039603960396d
 			x: 15.0d
 			y: 8.13d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/theVortex.png"
-			width: 4.048543689320389d
-			click: ""
 			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/thevortex_name.png"
+			rotation: 0.0d
+			width: 4.048543689320389d
 			x: 10.0d
 			y: 8.15d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/mutant_fix.png"
-			width: 5.515873015873016d
-			click: ""
 			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/mutant_name.png"
+			rotation: 0.0d
+			width: 5.515873015873016d
 			x: -10.0d
 			y: 8.26d
-			corner: false
-			dev: false
-			height: 1.0d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/EnigmaQuip.png"
-			width: 3.8412698412698414d
 			click: ""
-			hover: [ ]
-			x: 5.0d
-			y: 8.29d
 			corner: false
 			dev: false
 			height: 1.1d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/enigma_name.png"
+			rotation: 0.0d
+			width: 3.8412698412698414d
+			x: 5.0d
+			y: 8.29d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/mitchell52.png"
-			width: 4.048543689320389d
 			click: ""
-			hover: [ ]
-			x: -5.0d
-			y: 8.15d
 			corner: false
 			dev: false
 			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/mitchell52_name.png"
+			rotation: 0.0d
+			width: 4.048543689320389d
+			x: -5.0d
+			y: 8.15d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/oly2o6.png"
-			width: 2.457142857142857d
 			click: ""
-			hover: [ ]
-			x: -15.0d
-			y: 8.27d
 			corner: false
 			dev: false
 			height: 1.2d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/oly2o6.png"
+			rotation: 0.0d
+			width: 2.457142857142857d
+			x: -15.0d
+			y: 8.27d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/whatthedrunk.png"
-			width: 5.601941747572815d
 			click: ""
-			hover: [ ]
-			x: 0.0d
-			y: 8.15d
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/welcome/signs/name_bar.png"
-			width: 42.0d
-			click: ""
 			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/whatthedrunk.png"
+			rotation: 0.0d
+			width: 5.601941747572815d
 			x: 0.0d
 			y: 8.15d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 2.9083503054989817d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/name_bar.png"
 			order: -1
+			rotation: 0.0d
+			width: 42.0d
+			x: 0.0d
+			y: 8.15d
 		}
 		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
 			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: -5.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 6.0d
-			order: -3
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: -10.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 6.0d
-			order: -3
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: -15.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 6.0d
-			order: -3
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: 0.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 6.0d
-			order: -3
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: 5.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 6.0d
-			order: -3
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 6.0d
-			order: -3
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:textures/block/base_input.png"
-			width: 4.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
 			x: 15.0d
 			y: 5.0d
-			corner: false
-			dev: false
-			height: 6.0d
-			order: -3
 		}
 		{
-			rotation: 0.0d
-			image: "ftbchunks:textures/waypoint_default.png"
-			width: 1.0d
 			click: "https://discord.gg/3paFjuRfz9"
-			hover: ["Join the Discord!"]
-			x: 0.0d
-			y: 1.5d
 			corner: false
 			dev: false
 			height: 1.0d
+			hover: ["Join the Discord!"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			size: 3.0d
 			description: [
 				"ATM8 offers a curated modded experience for those who like kitchensink-style modpacks!"
 				""
@@ -316,25 +314,25 @@
 				""
 				"If you have any questions or issues, feel free to join the ATM discord!"
 			]
-			id: "3BC0A50886A3222B"
 			icon: "allthetweaks:atm_star"
-			x: 0.0d
-			y: -0.5d
-			shape: "diamond"
-			title: "&dWelcome to All The Mods 8!"
+			id: "3BC0A50886A3222B"
 			rewards: [{
 				id: "4956CB79E44FB523"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "diamond"
+			size: 3.0d
 			tasks: [{
 				id: "5A1784C5676CDC62"
-				type: "checkmark"
 				title: "Welcome to All The Mods 8!"
+				type: "checkmark"
 			}]
+			title: "&dWelcome to All The Mods 8!"
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			size: 1.5d
 			description: [
 				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
 				""
@@ -342,26 +340,26 @@
 				""
 				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
 			]
-			id: "3708A4780ACEB34E"
 			icon: "ftbquests:book"
-			x: 2.5d
-			y: -0.5d
-			shape: "rsquare"
-			title: "Quests"
+			id: "3708A4780ACEB34E"
 			min_width: 250
 			rewards: [{
 				id: "4A56DF6E0204666C"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "52BB142F044075B4"
-				type: "checkmark"
 				title: "Quests"
+				type: "checkmark"
 			}]
+			title: "Quests"
+			x: 2.5d
+			y: -0.5d
 		}
 		{
-			size: 1.5d
 			description: [
 				"There are plenty of helpful commands within ATM. Here are a few:"
 				""
@@ -371,31 +369,31 @@
 				""
 				"&e/spawn&r | This will teleport you to the spawn of your overworld."
 			]
-			id: "7658C1C663394E85"
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/settings.png"
 				}
 			}
-			x: -2.5d
-			y: -0.5d
-			shape: "rsquare"
+			id: "7658C1C663394E85"
+			min_width: 350
 			rewards: [{
 				id: "5007C73E170C4FF6"
 				type: "xp"
 				xp: 10
 			}]
-			min_width: 350
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "10A16F89D4AD238D"
-				type: "checkmark"
 				title: "Useful Commands"
+				type: "checkmark"
 			}]
+			x: -2.5d
+			y: -0.5d
 		}
 		{
-			size: 1.5d
 			description: [
 				"To claim chunks, the default key to open the Claim Map is &6M&r."
 				""
@@ -404,49 +402,51 @@
 				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
 			]
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbchunks:textures/waypoint_home.png"
 				}
 			}
 			id: "0C93D7A607AB8B83"
-			x: 4.5d
-			y: -0.5d
 			rewards: [{
 				id: "1B044C35466AFAEF"
 				type: "xp"
 				xp: 10
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "103C42C743E2A2DB"
-				type: "checkmark"
 				title: "Claiming Chunks"
+				type: "checkmark"
 			}]
+			x: 4.5d
+			y: -0.5d
 		}
 		{
-			size: 1.5d
 			description: ["If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!"]
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
 				}
 			}
 			id: "5AC1BE754210429E"
-			x: -4.5d
-			y: -0.5d
 			rewards: [{
 				id: "101D2FD24AB845AC"
 				type: "xp"
 				xp: 10
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4F13A02FB0055A62"
-				type: "checkmark"
 				title: "Creating a Team"
+				type: "checkmark"
 			}]
+			x: -4.5d
+			y: -0.5d
 		}
 	]
+	title: "Welcome"
 }
