@@ -1,294 +1,272 @@
 {
-	quest_links: [ ]
 	default_hide_dependency_lines: false
-	group: "2B51AC12041E3F89"
-	id: "0A093D8C4429B627"
-	filename: "mekanism_reactors"
-	default_quest_shape: ""
-	icon: "mekanism:supercharged_coil"
-	title: "Mekanism: &dAdvanced&r"
 	default_min_width: 200
+	default_quest_shape: ""
+	filename: "mekanism_reactors"
+	group: "2B51AC12041E3F89"
+	icon: "mekanism:supercharged_coil"
+	id: "0A093D8C4429B627"
 	images: [
 		{
-			rotation: 45.0d
-			image: "ftbquests:tasks/input_only"
-			width: 3.0d
 			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
 			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 3.0d
 			x: 17.0d
 			y: -7.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 3.0d
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:tasks/input_only"
-			width: 3.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 3.0d
 			x: 17.0d
 			y: -7.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 3.0d
-		}
-		{
-			rotation: 0.0d
-			image: "ftbquests:block/barrier_open"
-			width: 3.0d
-			click: ""
 			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 3.0d
 			x: 2.0d
 			y: -7.0d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 3.0d
-		}
-		{
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
-			image: "ftbquests:block/barrier_open"
 			width: 3.0d
-			click: ""
-			hover: [ ]
 			x: 2.0d
 			y: -7.0d
-			corner: false
-			dev: false
-			height: 3.0d
 		}
 		{
-			rotation: 0.0d
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
 			image: "mekanism:item/hazmat_mask"
+			rotation: 0.0d
 			width: 1.0d
-			click: ""
-			hover: [ ]
 			x: -1.0d
 			y: 0.75d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "mekanism:item/hazmat_gown"
-			width: 1.0d
-			click: ""
 			hover: [ ]
+			image: "mekanism:item/hazmat_gown"
+			rotation: 0.0d
+			width: 1.0d
 			x: -1.0d
 			y: 1.25d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "mekanism:item/hazmat_pants"
-			width: 1.0d
-			click: ""
 			hover: [ ]
+			image: "mekanism:item/hazmat_pants"
+			rotation: 0.0d
+			width: 1.0d
 			x: -1.0d
 			y: 1.75d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "mekanism:item/hazmat_boots"
-			width: 1.0d
-			click: ""
 			hover: [ ]
+			image: "mekanism:item/hazmat_boots"
+			rotation: 0.0d
+			width: 1.0d
 			x: -1.0d
 			y: 2.25d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "mekanism:item/fluorite_gem"
-			width: 1.0d
-			click: ""
 			hover: [ ]
+			image: "mekanism:item/fluorite_gem"
+			rotation: 0.0d
+			width: 1.0d
 			x: 8.0d
 			y: 1.5d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "mekanism:item/yellow_cake_uranium"
-			width: 1.0d
-			click: ""
 			hover: [ ]
+			image: "mekanism:item/yellow_cake_uranium"
+			rotation: 0.0d
+			width: 1.0d
 			x: 8.0d
 			y: 3.5d
-			corner: false
-			dev: false
-			height: 1.0d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/mek/fusion_cutout.png"
-			width: 10.627118644067796d
 			click: ""
-			hover: ["Fusion Reactor"]
-			x: 17.0d
-			y: -13.0d
 			corner: false
 			dev: false
 			height: 11.0d
+			hover: ["Fusion Reactor"]
+			image: "atm:textures/questpics/mek/fusion_cutout.png"
+			rotation: 0.0d
+			width: 10.627118644067796d
+			x: 17.0d
+			y: -13.0d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/mek/turbine_cutout.png"
-			width: 10.536144578313253d
 			click: ""
-			hover: ["Industrial Turbine"]
-			x: 20.0d
-			y: 0.0d
 			corner: false
 			dev: false
 			height: 12.0d
+			hover: ["Industrial Turbine"]
+			image: "atm:textures/questpics/mek/turbine_cutout.png"
+			rotation: 0.0d
+			width: 10.536144578313253d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/mek/fission_cutout.png"
-			width: 9.661016949152541d
 			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
 			hover: ["Fission Reactor"]
+			image: "atm:textures/questpics/mek/fission_cutout.png"
+			rotation: 0.0d
+			width: 9.661016949152541d
 			x: 2.0d
 			y: 9.5d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 10.0d
-		}
-		{
-			rotation: 0.0d
-			image: "atm:textures/questpics/mek/sps_cutout.png"
-			width: 12.687687687687689d
-			click: ""
 			hover: ["Supercritical Phase Shifter"]
+			image: "atm:textures/questpics/mek/sps_cutout.png"
+			rotation: 0.0d
+			width: 12.687687687687689d
 			x: -4.5d
 			y: -7.0d
-			corner: false
-			dev: false
-			height: 10.0d
 		}
 		{
-			rotation: 90.0d
-			image: "ae2:block/controller_column_lights"
-			width: 1.5d
-			click: ""
-			hover: [ ]
-			x: 4.0d
-			y: -1.0d
 			alpha: 150
+			click: ""
 			corner: false
 			dev: false
 			height: 1.5d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
-			rotation: -45.0d
-			image: "mob_grinding_utils:blocks/fan_front_on"
-			width: 1.0d
 			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
 			hover: [ ]
+			image: "mob_grinding_utils:blocks/fan_front_on"
+			rotation: -45.0d
+			width: 1.0d
 			x: 11.0d
 			y: -0.5d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: -45.0d
-			image: "mob_grinding_utils:blocks/fan_front_on"
-			width: 1.0d
-			click: ""
 			hover: [ ]
+			image: "mob_grinding_utils:blocks/fan_front_on"
+			rotation: -45.0d
+			width: 1.0d
 			x: 11.0d
 			y: 1.5d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
+			hover: [ ]
 			image: "ftbquests:block/screen_side"
+			order: -1
+			rotation: 0.0d
 			width: 5.0d
-			click: ""
-			hover: [ ]
 			x: 12.5d
 			y: -6.0d
-			corner: false
-			dev: false
-			height: 1.0d
-			order: -1
 		}
 		{
-			rotation: 90.0d
-			image: "ars_nouveau:textures/particle/laser.png"
-			width: 0.5d
 			click: ""
-			hover: [ ]
-			x: 12.5d
-			y: -6.0d
 			corner: false
 			dev: false
 			height: 5.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/particle/laser.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: 12.5d
+			y: -6.0d
 		}
 		{
-			rotation: 0.0d
-			image: "securitycraft:block/ani_laser"
-			width: 0.021739130434782608d
 			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
 			hover: [ ]
+			image: "securitycraft:block/ani_laser"
+			rotation: 0.0d
+			width: 0.021739130434782608d
 			x: 12.0d
 			y: -4.5d
+		}
+		{
+			click: ""
 			corner: false
 			dev: false
 			height: 1.0d
-		}
-		{
-			rotation: 0.0d
-			image: "securitycraft:block/ani_laser"
-			width: 0.021739130434782608d
-			click: ""
 			hover: [ ]
+			image: "securitycraft:block/ani_laser"
+			rotation: 0.0d
+			width: 0.021739130434782608d
 			x: 13.0d
 			y: -4.0d
-			corner: false
-			dev: false
-			height: 1.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			tasks: [
-				{
-					id: "14BF9ADCB8F43ADC"
-					type: "item"
-					item: "mekanism:hazmat_mask"
-				}
-				{
-					id: "0B06DCC5BA15895E"
-					type: "item"
-					item: "mekanism:hazmat_gown"
-				}
-				{
-					id: "1F43C3AE8239B716"
-					type: "item"
-					item: "mekanism:hazmat_pants"
-				}
-				{
-					id: "68B050A8CDCDCD10"
-					type: "item"
-					item: "mekanism:hazmat_boots"
-				}
-			]
+			dependencies: ["24174700F7FB771C"]
 			description: [
 				"To start our journey into the world of Mekanism Reactors, we'll start by making a &aFission Reactor&r. These are multiblock structures that generate massive amounts of heat by burning &3Fissile Fuel&r. This reactor does not produce power on its own, but the heat generated can be used to heat &bCoolant&r to be used to generate power in an &aIndustrial Turbine&r."
 				""
@@ -296,12 +274,14 @@
 				""
 				"But we're going to be prepared for that. Let's make a Hazmat Suit, just in case... right?"
 			]
+			id: "36B1995B495AA674"
+			min_width: 350
 			rewards: [
 				{
-					id: "1A6ABA2C6D742CE0"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1A6ABA2C6D742CE0"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "6D8B557D90A02403"
@@ -309,30 +289,36 @@
 					xp: 10
 				}
 			]
-			id: "36B1995B495AA674"
-			x: 0.0d
-			y: 0.5d
 			shape: "gear"
-			title: "Suiting Up for Reactors"
-			min_width: 350
 			subtitle: "Orange = Radiation Protection"
-			dependencies: ["24174700F7FB771C"]
-		}
-		{
 			tasks: [
 				{
-					id: "19447D5D621A8D89"
+					id: "14BF9ADCB8F43ADC"
+					item: "mekanism:hazmat_mask"
 					type: "item"
-					item: "mekanismgenerators:fission_reactor_casing"
-					count: 53L
 				}
 				{
-					id: "0765AB709CC3C6E2"
+					id: "0B06DCC5BA15895E"
+					item: "mekanism:hazmat_gown"
 					type: "item"
-					item: "mekanismgenerators:reactor_glass"
-					count: 41L
+				}
+				{
+					id: "1F43C3AE8239B716"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "68B050A8CDCDCD10"
+					item: "mekanism:hazmat_boots"
+					type: "item"
 				}
 			]
+			title: "Suiting Up for Reactors"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36B1995B495AA674"]
 			description: [
 				"It's time to gather the materials we'll need to build the reactor."
 				""
@@ -344,20 +330,23 @@
 				""
 				"Need more help building it? Holding &dw&r while hovering over the Fission Reactor Casing will show you the Ponder that can help you build it."
 			]
+			hide: false
+			id: "1482F2D45E8F761D"
+			min_width: 300
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanismgenerators:fission_reactor_casing"
-					player_command: false
-					id: "747F4E333BDC5563"
 					icon: "ftbquests:barrier"
+					id: "747F4E333BDC5563"
+					player_command: false
 					title: "Click Me To See How To Build!"
+					type: "command"
 				}
 				{
-					id: "42378432B647A5A8"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "42378432B647A5A8"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "0792BEFF2D7C604C"
@@ -365,23 +354,28 @@
 					xp: 100
 				}
 			]
-			id: "1482F2D45E8F761D"
+			shape: "square"
+			subtitle: "Casings and Glass"
+			tasks: [
+				{
+					count: 53L
+					id: "19447D5D621A8D89"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "0765AB709CC3C6E2"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor Building Basics"
 			x: 0.0d
 			y: 2.5d
-			shape: "square"
-			title: "Fission Reactor Building Basics"
-			min_width: 300
-			subtitle: "Casings and Glass"
-			dependencies: ["36B1995B495AA674"]
-			hide: false
 		}
 		{
-			tasks: [{
-				id: "057CDA5BC0C5F774"
-				type: "item"
-				item: "mekanismgenerators:fission_reactor_port"
-				count: 4L
-			}]
+			dependencies: ["1482F2D45E8F761D"]
 			description: [
 				"For us to take anything in or out of the Fission Reactor, we'll need &aFission Reactor Ports&r. These can be configured to input or output by using the &9Configurator&r. "
 				""
@@ -396,20 +390,22 @@
 				""
 				"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
 			]
+			id: "0696B725E840B996"
+			min_width: 400
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanismgenerators:fission_reactor_port"
-					player_command: false
-					id: "5B0B515B95ACDB8C"
 					icon: "mekanismgenerators:fission_reactor_port"
+					id: "5B0B515B95ACDB8C"
+					player_command: false
 					title: "Click Me To Learn More!"
+					type: "command"
 				}
 				{
-					id: "6AC80E7D1E9239A7"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "6AC80E7D1E9239A7"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "11FABC06766669F5"
@@ -417,20 +413,19 @@
 					xp: 50
 				}
 			]
-			id: "0696B725E840B996"
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "057CDA5BC0C5F774"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			title: "Interacting with the Fission Reactor"
 			x: 1.5d
 			y: 2.5d
-			shape: "rsquare"
-			title: "Interacting with the Fission Reactor"
-			min_width: 400
-			dependencies: ["1482F2D45E8F761D"]
 		}
 		{
-			tasks: [{
-				id: "16B10EA105CCC1D3"
-				type: "item"
-				item: "mekanismgenerators:fission_reactor_logic_adapter"
-			}]
+			dependencies: ["1482F2D45E8F761D"]
 			description: [
 				"Afraid of blowing up your Fission Reactor and causing a massive Radiation leak? Don't worry, we all are. &o*insert terrible flashback here*&r"
 				""
@@ -442,35 +437,27 @@
 				""
 				"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
 			]
+			id: "5FDB48511EC1C580"
+			min_width: 300
+			optional: true
 			rewards: [{
 				id: "2E5FE4E46429A82D"
 				type: "xp"
 				xp: 50
 			}]
-			id: "5FDB48511EC1C580"
+			shape: "hexagon"
+			subtitle: "Because We've All Blown Up A Reactor Before"
+			tasks: [{
+				id: "16B10EA105CCC1D3"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			title: "Reactor Fail Safe"
 			x: 1.5d
 			y: 3.5d
-			shape: "hexagon"
-			title: "Reactor Fail Safe"
-			min_width: 300
-			subtitle: "Because We've All Blown Up A Reactor Before"
-			dependencies: ["1482F2D45E8F761D"]
-			optional: true
 		}
 		{
-			tasks: [
-				{
-					id: "032045BB026F44B3"
-					type: "item"
-					item: "mekanismgenerators:fission_fuel_assembly"
-					count: 2L
-				}
-				{
-					id: "0875D821930A348A"
-					type: "item"
-					item: "mekanismgenerators:control_rod_assembly"
-				}
-			]
+			dependencies: ["1482F2D45E8F761D"]
 			description: [
 				"The inside of the reactor is built up of pillars using several &aFission Fuel Assembly&r blocks, with a single &aControl Rod Assembly&r placed at the top of each pillar. These can be anywhere from 1 to 15 blocks in height, depending on the size of the reactor."
 				""
@@ -478,12 +465,14 @@
 				""
 				"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
 			]
+			id: "3F5010269469EBE0"
+			min_width: 250
 			rewards: [
 				{
-					id: "27BB1242A6E08E5D"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "27BB1242A6E08E5D"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "6819DA9F73BA383C"
@@ -491,64 +480,26 @@
 					xp: 50
 				}
 			]
-			id: "3F5010269469EBE0"
-			x: 1.5d
-			y: 1.5d
 			shape: "rsquare"
-			title: "Inside the Reactor: Fuel Control"
-			min_width: 250
-			dependencies: ["1482F2D45E8F761D"]
-		}
-		{
-			x: 1.5d
-			icon: "minecraft:observer"
-			min_width: 500
-			subtitle: "Need a visual? Watch the Ponder!"
-			optional: true
 			tasks: [
 				{
-					id: "25FB07BDEC8EE4EF"
-					type: "item"
-					item: "mekanismgenerators:fission_reactor_logic_adapter"
 					count: 2L
+					id: "032045BB026F44B3"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
 				}
 				{
-					id: "6F57410F914C4D07"
+					id: "0875D821930A348A"
+					item: "mekanismgenerators:control_rod_assembly"
 					type: "item"
-					item: "minecraft:redstone"
-				}
-				{
-					id: "5BC88AE46F95774D"
-					type: "item"
-					title: "Gravel or Sand"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "minecraft:gravel"
-									Count: 1b
-								}
-								{
-									id: "minecraft:sand"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "584B8A392FBCD199"
-					type: "item"
-					item: "minecraft:piston"
-				}
-				{
-					id: "139EDEDEA3DAD312"
-					type: "item"
-					item: "minecraft:observer"
 				}
 			]
+			title: "Inside the Reactor: Fuel Control"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FDB48511EC1C580"]
 			description: [
 				"Using some vanilla mechanics and 2 &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn off the reactor &o&ein case things get a little crazy&r."
 				""
@@ -564,18 +515,18 @@
 				""
 				"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
 			]
+			icon: "minecraft:observer"
 			id: "7B0764DDE94E73D0"
-			shape: "hexagon"
-			y: 4.5d
-			title: "Example Circuit Breaker"
+			min_width: 500
+			optional: true
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
-					player_command: false
-					id: "4CE5F77418DBFFFB"
 					icon: "mekanismgenerators:fission_reactor_logic_adapter"
+					id: "4CE5F77418DBFFFB"
+					player_command: false
 					title: "Click Me To Learn More!"
+					type: "command"
 				}
 				{
 					id: "102A352650624E7C"
@@ -583,14 +534,58 @@
 					xp: 100
 				}
 			]
-			dependencies: ["5FDB48511EC1C580"]
+			shape: "hexagon"
+			subtitle: "Need a visual? Watch the Ponder!"
+			tasks: [
+				{
+					count: 2L
+					id: "25FB07BDEC8EE4EF"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "6F57410F914C4D07"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "5BC88AE46F95774D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:gravel"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sand"
+								}
+							]
+						}
+					}
+					title: "Gravel or Sand"
+					type: "item"
+				}
+				{
+					id: "584B8A392FBCD199"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "139EDEDEA3DAD312"
+					item: "minecraft:observer"
+					type: "item"
+				}
+			]
+			title: "Example Circuit Breaker"
+			x: 1.5d
+			y: 4.5d
 		}
 		{
-			tasks: [{
-				id: "7E8281C007094843"
-				type: "item"
-				item: "cookingforblockheads:sink"
-			}]
+			dependencies: ["1DE8B0C9A7195720"]
 			description: [
 				"When burning fuel, the Fission Reactor creates a massive amount of heat. To prevent the Reactor from converting into TNT, we need to make sure it is properly cooled."
 				""
@@ -601,32 +596,29 @@
 				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
 			]
 			id: "2B76B2F18C2C47D2"
-			progression_mode: "linear"
-			x: 3.0d
-			y: 4.0d
-			shape: "rsquare"
-			title: "Cooling Our Reactor"
 			min_width: 300
-			subtitle: "High Quality H2O"
-			dependencies: ["1DE8B0C9A7195720"]
+			progression_mode: "linear"
 			rewards: [{
 				id: "1E2809FAFCF0A292"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "rsquare"
+			subtitle: "High Quality H2O"
+			tasks: [{
+				id: "7E8281C007094843"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Cooling Our Reactor"
+			x: 3.0d
+			y: 4.0d
 		}
 		{
-			size: 1.5d
-			x: 3.0d
-			icon: "mekanism:geiger_counter"
-			min_width: 500
-			subtitle: "Those are definitely numbers"
-			tasks: [{
-				id: "34D8628732B36EDF"
-				type: "custom"
-				title: "Observe a Completed Reactor"
-				icon: "mekanism:geiger_counter"
-			}]
+			dependencies: [
+				"0696B725E840B996"
+				"3F5010269469EBE0"
+			]
 			description: [
 				"Once you've finish placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
 				""
@@ -641,12 +633,16 @@
 				"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
 				"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
 			]
+			icon: "mekanism:geiger_counter"
+			id: "1DE8B0C9A7195720"
+			min_width: 500
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "4A0CA5788E093C63"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "4A0CA5788E093C63"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "08BFEE4DB82A488D"
@@ -654,47 +650,34 @@
 					xp: 250
 				}
 			]
-			id: "1DE8B0C9A7195720"
 			shape: "square"
-			y: 2.5d
+			size: 1.5d
+			subtitle: "Those are definitely numbers"
+			tasks: [{
+				icon: "mekanism:geiger_counter"
+				id: "34D8628732B36EDF"
+				title: "Observe a Completed Reactor"
+				type: "custom"
+			}]
 			title: "The Fission Reactor Interface"
-			progression_mode: "linear"
-			dependencies: [
-				"0696B725E840B996"
-				"3F5010269469EBE0"
-			]
+			x: 3.0d
+			y: 2.5d
 		}
 		{
-			tasks: [
-				{
-					id: "5641530385DCA6A7"
-					type: "item"
-					item: "alltheores:uranium_ingot"
-				}
-				{
-					id: "1C72C0C59D65B1D0"
-					type: "item"
-					item: "mekanism:yellow_cake_uranium"
-					count: 2L
-				}
-			]
+			dependencies: ["3B81800EE6E77EF2"]
 			description: [
 				"Every Reactor uses Uranium somewhere for fuel, right?"
 				""
 				"For starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."
 			]
-			id: "7E17AB5A4492929E"
 			icon: "mekanism:yellow_cake_uranium"
-			x: 5.5d
-			y: 3.5d
-			shape: "rsquare"
-			title: "&aUranium"
+			id: "7E17AB5A4492929E"
 			rewards: [
 				{
-					id: "42A731D3881A8723"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "42A731D3881A8723"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "48CC9D36035B2625"
@@ -702,30 +685,36 @@
 					xp: 25
 				}
 			]
-			dependencies: ["3B81800EE6E77EF2"]
+			shape: "rsquare"
 			subtitle: "Of Course It Uses Uranium"
-		}
-		{
 			tasks: [
 				{
-					id: "772EA844FE7C1B74"
+					id: "5641530385DCA6A7"
+					item: "alltheores:uranium_ingot"
 					type: "item"
-					item: "mekanism:chemical_oxidizer"
 				}
 				{
-					id: "29D6CA9A77ACACC6"
-					type: "custom"
-					title: "Observe Uranium Oxide in a Machine"
-					icon: "mekanism:basic_chemical_tank"
+					count: 2L
+					id: "1C72C0C59D65B1D0"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
 				}
 			]
+			title: "&aUranium"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E17AB5A4492929E"]
 			description: ["Once we have our hands on &eYellow Cake Uranium&r, we can send it through a &aChemical Oxidizer&r to create the gas, &2Uranium Oxide&r. "]
+			id: "3AF4E5D4839CEF8B"
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "4B0908AEDBA24DDF"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "4B0908AEDBA24DDF"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "147637FB74512198"
@@ -733,45 +722,51 @@
 					xp: 25
 				}
 			]
-			id: "3AF4E5D4839CEF8B"
+			tasks: [
+				{
+					id: "772EA844FE7C1B74"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					icon: "mekanism:basic_chemical_tank"
+					id: "29D6CA9A77ACACC6"
+					title: "Observe Uranium Oxide in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&eUranium Oxide"
 			x: 7.0d
 			y: 3.5d
-			title: "&eUranium Oxide"
-			progression_mode: "linear"
-			dependencies: ["7E17AB5A4492929E"]
 		}
 		{
-			size: 2.0d
+			dependencies: ["7E4A95B6443F23BC"]
 			description: [
 				"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
 				""
 				"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, which are used to make the &6ATM Star&r, as well as some of the strongest tools and weapons in the pack."
 			]
-			id: "24174700F7FB771C"
 			icon: "mekanism:antiprotonic_nucleosynthesizer"
-			x: 1.5d
-			y: -1.0d
-			shape: "hexagon"
+			id: "24174700F7FB771C"
+			min_width: 300
 			rewards: [{
 				id: "73F5CE911AC4474C"
 				type: "xp"
 				xp: 10
 			}]
-			min_width: 300
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "&cRequires Quest \"Advanced Mekanism\" Completion from the Mekanism Chapter&r"
-			dependencies: ["7E4A95B6443F23BC"]
 			tasks: [{
 				id: "3153288DCE1C4FEF"
-				type: "checkmark"
 				title: "&aMekanism&r: &dAdvanced&r"
+				type: "checkmark"
 			}]
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			tasks: [{
-				id: "382818E289EC83A6"
-				type: "checkmark"
-				title: "&3Fissile Fuel Production&r"
-			}]
+			dependencies: ["1DE8B0C9A7195720"]
 			description: [
 				"The Fission Reactor needs &3Fissile Fuel&r to run. If you look up Fissile Fuel right now in JEI, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time."
 				""
@@ -779,36 +774,21 @@
 			]
 			icon: "mekanism:reprocessed_fissile_fragment"
 			id: "3B81800EE6E77EF2"
-			x: 4.5d
-			y: 2.5d
 			rewards: [{
 				id: "21A507B60A7721B0"
 				type: "xp"
 				xp: 100
 			}]
-			dependencies: ["1DE8B0C9A7195720"]
+			tasks: [{
+				id: "382818E289EC83A6"
+				title: "&3Fissile Fuel Production&r"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 2.5d
 		}
 		{
-			tasks: [
-				{
-					id: "14A09EAF150777A3"
-					type: "item"
-					title: "Sulfur Dust"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
-					}
-				}
-				{
-					id: "66C97246C3EEFB7C"
-					type: "custom"
-					title: "Observe Sulfuric Acid in a Machine"
-					icon: "ftbquests:barrier"
-				}
-			]
+			dependencies: ["3B81800EE6E77EF2"]
 			description: [
 				"You should have already made &2Sulfuric Acid&r for your Tier 4 Ore Processing facility, but here is a reminder on how to get it."
 				""
@@ -818,50 +798,54 @@
 				""
 				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
 			]
+			icon: "thermal:sulfur_dust"
+			id: "31EEE2875595F315"
+			progression_mode: "linear"
 			rewards: [{
 				id: "414A6E5BDC1A3B1E"
 				type: "xp"
 				xp: 25
 			}]
-			id: "31EEE2875595F315"
-			icon: "thermal:sulfur_dust"
-			x: 5.5d
-			y: 1.5d
-			title: "&2Sulfuric Acid"
-			progression_mode: "linear"
 			subtitle: "A Quick Recap"
-			dependencies: ["3B81800EE6E77EF2"]
-		}
-		{
 			tasks: [
 				{
-					id: "452FBF76102210BD"
+					id: "14A09EAF150777A3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
+					title: "Sulfur Dust"
 					type: "item"
-					item: "mekanism:fluorite_gem"
 				}
 				{
-					id: "4F5A28143EFF4944"
-					type: "item"
-					item: "mekanism:chemical_dissolution_chamber"
-				}
-				{
-					id: "510CE57C709D5A44"
-					type: "custom"
-					title: "Observe Hydrofluoric Acid in a Machine"
 					icon: "ftbquests:barrier"
+					id: "66C97246C3EEFB7C"
+					title: "Observe Sulfuric Acid in a Machine"
+					type: "custom"
 				}
 			]
+			title: "&2Sulfuric Acid"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31EEE2875595F315"]
 			description: [
 				"Let's take our &2Sulfuric Acid&r and combine it with &bFluorite&r in a &9Chemical Dissolution Chamber&r to make &bHydrofluoric Acid&r."
 				""
 				"We're almost there!"
 			]
+			id: "187A3F5B41D1C923"
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "15D4F213191722DE"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "15D4F213191722DE"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "5AEF7913046DC6FB"
@@ -869,34 +853,42 @@
 					xp: 25
 				}
 			]
-			id: "187A3F5B41D1C923"
-			x: 7.0d
-			y: 1.5d
-			title: "&bHydrofluoric Acid"
-			progression_mode: "linear"
-			dependencies: ["31EEE2875595F315"]
-		}
-		{
 			tasks: [
 				{
-					id: "73C5F4AC41EE5123"
+					id: "452FBF76102210BD"
+					item: "mekanism:fluorite_gem"
 					type: "item"
-					item: "mekanism:chemical_infuser"
 				}
 				{
-					id: "05A215BE7EE2F35D"
-					type: "custom"
-					title: "Observe Uranium Hexafluoride in a Machine"
+					id: "4F5A28143EFF4944"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
 					icon: "ftbquests:barrier"
+					id: "510CE57C709D5A44"
+					title: "Observe Hydrofluoric Acid in a Machine"
+					type: "custom"
 				}
 			]
+			title: "&bHydrofluoric Acid"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"187A3F5B41D1C923"
+				"3AF4E5D4839CEF8B"
+			]
 			description: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
+			id: "3663E93E169EF8E3"
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "0BF80354A244B222"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "0BF80354A244B222"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "1AA24CF536807D83"
@@ -904,37 +896,39 @@
 					xp: 50
 				}
 			]
-			id: "3663E93E169EF8E3"
+			tasks: [
+				{
+					id: "73C5F4AC41EE5123"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					icon: "ftbquests:barrier"
+					id: "05A215BE7EE2F35D"
+					title: "Observe Uranium Hexafluoride in a Machine"
+					type: "custom"
+				}
+			]
+			title: "&2Uranium Hexafluoride"
 			x: 8.0d
 			y: 2.5d
-			title: "&2Uranium Hexafluoride"
-			progression_mode: "linear"
-			dependencies: [
-				"187A3F5B41D1C923"
-				"3AF4E5D4839CEF8B"
-			]
 		}
 		{
-			size: 1.5d
+			dependencies: ["3663E93E169EF8E3"]
 			description: [
 				"Once we have an &9Isotopic Centrifuge&r, we can run our &2Uranium Hexafluoride&r in and create &3Fissile Fuel&r!"
 				""
 				"See, that wasn't so bad was it?"
 			]
-			id: "16A6C47E35F3B9D0"
 			icon: "mekanism:isotopic_centrifuge"
-			x: 9.5d
-			y: 2.5d
-			shape: "hexagon"
-			title: "&3Fissile Fuel&r"
+			id: "16A6C47E35F3B9D0"
 			progression_mode: "linear"
-			dependencies: ["3663E93E169EF8E3"]
 			rewards: [
 				{
-					id: "7380540E354FD0C5"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "7380540E354FD0C5"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "04AA88C4D9B33E34"
@@ -942,22 +936,27 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3F2371FD486D4F0E"
-					type: "item"
 					item: "mekanism:isotopic_centrifuge"
+					type: "item"
 				}
 				{
-					id: "4E04F8F091D18EA4"
-					type: "custom"
-					title: "Observe Fissile Fuel in a Machine"
 					icon: "ftbquests:barrier"
+					id: "4E04F8F091D18EA4"
+					title: "Observe Fissile Fuel in a Machine"
+					type: "custom"
 				}
 			]
+			title: "&3Fissile Fuel&r"
+			x: 9.5d
+			y: 2.5d
 		}
 		{
-			size: 1.5d
+			dependencies: ["3FFF9018DA2A2763"]
 			description: [
 				"Let's go through the checklist &oone more time&r to ensure we have everything ready to go before we boot it up:"
 				""
@@ -969,32 +968,27 @@
 				""
 				"If you're ready to go, hit that &eActivate&r button! You can also adjust the &3Burn Rate&r to produce more Nuclear Waste, but start slow."
 			]
-			id: "3591EAA8E397F992"
 			icon: "engineersdecor:sign_radioactive"
-			x: 9.5d
-			y: -1.5d
-			shape: "square"
-			title: "Booting Up The Reactor"
+			id: "3591EAA8E397F992"
 			min_width: 300
-			dependencies: ["3FFF9018DA2A2763"]
 			rewards: [{
 				id: "5AC458A8C3D99B74"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
+			size: 1.5d
 			tasks: [{
 				id: "27709080B4B77B09"
-				type: "checkmark"
 				title: "Ready To Go!"
+				type: "checkmark"
 			}]
+			title: "Booting Up The Reactor"
+			x: 9.5d
+			y: -1.5d
 		}
 		{
-			tasks: [{
-				id: "45EC7D8BA0CCFB07"
-				type: "item"
-				item: "mekanism:radioactive_waste_barrel"
-				count: 3L
-			}]
+			dependencies: ["16A6C47E35F3B9D0"]
 			description: [
 				"Once we start burning up Fissile Fuel in the reactor, we'll get heated &bCoolant&r and &8Nuclear Waste&r."
 				""
@@ -1004,12 +998,14 @@
 				""
 				"&9Important Note&r: Breaking &nany&r machine, barrel, pipe, or &oanything&r that has a Radioactive gas inside of it &cwill cause a Radiation leak&r. That includes the products of Nuclear Waste, like Polonium or Plutonium."
 			]
+			id: "3FFF9018DA2A2763"
+			min_width: 300
 			rewards: [
 				{
-					id: "408EC838E6C92754"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "408EC838E6C92754"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "1EEAAB174D95E4B6"
@@ -1017,19 +1013,18 @@
 					xp: 25
 				}
 			]
-			id: "3FFF9018DA2A2763"
+			tasks: [{
+				count: 3L
+				id: "45EC7D8BA0CCFB07"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "Dealing with &8Nuclear Waste&r"
 			x: 9.5d
 			y: 0.5d
-			title: "Dealing with &8Nuclear Waste&r"
-			min_width: 300
-			dependencies: ["16A6C47E35F3B9D0"]
 		}
 		{
-			tasks: [{
-				id: "6B40312EE7C8875D"
-				type: "item"
-				item: "mekanism:pellet_plutonium"
-			}]
+			dependencies: ["3591EAA8E397F992"]
 			description: [
 				"&8Nuclear Waste&r can be sent into an Isotopic Centrifuge to create &9Plutonium&r."
 				""
@@ -1038,14 +1033,12 @@
 				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
 			]
 			id: "2E9FC7DC2AC6FD8E"
-			x: 7.5d
-			y: -1.5d
 			rewards: [
 				{
-					id: "291CFA4139F71658"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "291CFA4139F71658"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "353657D187263DAA"
@@ -1053,14 +1046,16 @@
 					xp: 100
 				}
 			]
-			dependencies: ["3591EAA8E397F992"]
+			tasks: [{
+				id: "6B40312EE7C8875D"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
 		}
 		{
-			tasks: [{
-				id: "38A344B697C93B3B"
-				type: "item"
-				item: "mekanism:pellet_polonium"
-			}]
+			dependencies: ["3591EAA8E397F992"]
 			description: [
 				"Pumping Nuclear Waste into a &9Solar Neutron Activator&r will give you &dPolonium&r. "
 				""
@@ -1069,14 +1064,12 @@
 				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
 			]
 			id: "1FAAF8216CDC3AC6"
-			x: 8.5d
-			y: -3.5d
 			rewards: [
 				{
-					id: "1CEED939AAFB06F3"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "1CEED939AAFB06F3"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "316FC7C98CC22E11"
@@ -1084,34 +1077,45 @@
 					xp: 100
 				}
 			]
-			dependencies: ["3591EAA8E397F992"]
+			tasks: [{
+				id: "38A344B697C93B3B"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
 		}
 		{
-			size: 1.5d
+			dependencies: [
+				"2E9FC7DC2AC6FD8E"
+				"1FAAF8216CDC3AC6"
+			]
 			description: [
 				"The &dSupercritical Phase Shifter&r (SPS for short) is another multiblock structure used to infuse Polonium with large amounts of power to create &dAntimatter&r gas, which can be crystallized into pellets."
 				""
 				"To build the SPS, you'll need to make a total of 72 &9SPS Casings&r (60 for the build, 12 to make the ports), 3 &9SPS Ports&r, 122 Reactor Glass, and one other item we'll talk about in the next quest. Let's get the materials first!"
 			]
+			id: "068728DE3B9B13C3"
+			progression_mode: "linear"
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanism:sps_casing"
-					player_command: false
-					id: "5B0D10312C328B83"
 					icon: "ftbquests:barrier"
+					id: "5B0D10312C328B83"
+					player_command: false
 					title: "Click Me to Learn How To Build!"
+					type: "command"
 				}
 				{
 					id: "34DCA3CB7F03E0E4"
-					type: "item"
 					item: "mekanism:sps_port"
+					type: "item"
 				}
 				{
-					id: "1E091230BBDA9D73"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "1E091230BBDA9D73"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "7805E5E238BB92F1"
@@ -1119,67 +1123,34 @@
 					xp: 100
 				}
 			]
-			id: "068728DE3B9B13C3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 60L
+					id: "63C9D54A0F55BA9B"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 122L
+					id: "6236D6215419A2EF"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "769C396EE20CD89D"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			title: "&dSupercritical Phase Shifter"
 			x: 6.0d
 			y: -3.5d
-			shape: "hexagon"
-			title: "&dSupercritical Phase Shifter"
-			progression_mode: "linear"
-			dependencies: [
-				"2E9FC7DC2AC6FD8E"
-				"1FAAF8216CDC3AC6"
-			]
-			tasks: [
-				{
-					id: "63C9D54A0F55BA9B"
-					type: "item"
-					item: "mekanism:sps_casing"
-					count: 60L
-				}
-				{
-					id: "6236D6215419A2EF"
-					type: "item"
-					item: "mekanismgenerators:reactor_glass"
-					count: 122L
-				}
-				{
-					id: "769C396EE20CD89D"
-					type: "item"
-					item: "mekanism:sps_port"
-					count: 3L
-				}
-			]
 		}
 		{
-			size: 2.0d
-			x: 8.5d
-			min_width: 500
-			subtitle: "The Best Power Source In The Pack"
-			tasks: [
-				{
-					id: "4005EDF7A97FD97D"
-					type: "item"
-					item: "mekanismgenerators:fusion_reactor_controller"
-				}
-				{
-					id: "6E680D259F45AF80"
-					type: "item"
-					item: "mekanismgenerators:fusion_reactor_frame"
-					count: 36L
-				}
-				{
-					id: "2369D4585A3BDCCC"
-					type: "item"
-					item: "mekanismgenerators:fusion_reactor_port"
-					count: 3L
-				}
-				{
-					id: "554C67BA24832AB4"
-					type: "item"
-					item: "mekanismgenerators:reactor_glass"
-					count: 25L
-				}
-			]
+			dependencies: ["1FAAF8216CDC3AC6"]
 			description: [
 				"You've probably heard people talk about how the &cFusion Reactor&r is the best power source in the pack. They are right."
 				""
@@ -1194,20 +1165,23 @@
 				""
 				"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
 			]
+			id: "0152C49AB74B9D32"
+			min_width: 500
+			progression_mode: "linear"
 			rewards: [
 				{
-					type: "command"
 					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
-					player_command: false
-					id: "7A58D77A4EDACC40"
 					icon: "ftbquests:barrier"
+					id: "7A58D77A4EDACC40"
+					player_command: false
 					title: "Click Me To See How To Build!"
+					type: "command"
 				}
 				{
-					id: "102EAA274E939BB1"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "102EAA274E939BB1"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "73F01F26D46493C6"
@@ -1215,19 +1189,40 @@
 					xp: 100
 				}
 			]
-			id: "0152C49AB74B9D32"
 			shape: "rsquare"
-			y: -7.0d
+			size: 2.0d
+			subtitle: "The Best Power Source In The Pack"
+			tasks: [
+				{
+					id: "4005EDF7A97FD97D"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "6E680D259F45AF80"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2369D4585A3BDCCC"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "554C67BA24832AB4"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
 			title: "The &cFusion Reactor&r"
-			progression_mode: "linear"
-			dependencies: ["1FAAF8216CDC3AC6"]
+			x: 8.5d
+			y: -7.0d
 		}
 		{
-			tasks: [{
-				id: "48A70F1D73DE5E37"
-				type: "item"
-				item: "mekanism:supercharged_coil"
-			}]
+			dependencies: ["068728DE3B9B13C3"]
 			description: [
 				"The &9Supercharged Coil&r is placed on an SPS Port in the center of two faces, like the image below. When given power, these will supercharge Polonium into Antimatter. Only 1 is required, but you can use 2 if you want."
 				""
@@ -1235,17 +1230,19 @@
 				""
 				"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
 			]
+			id: "2331FCDD2F2B709A"
+			min_width: 300
 			rewards: [
 				{
 					id: "7BC5630B6210C074"
-					type: "item"
 					item: "mekanism:supercharged_coil"
+					type: "item"
 				}
 				{
-					id: "448388A7D1EF49D7"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "448388A7D1EF49D7"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "3C4D31DF8C934DC9"
@@ -1253,20 +1250,17 @@
 					xp: 100
 				}
 			]
-			id: "2331FCDD2F2B709A"
+			tasks: [{
+				id: "48A70F1D73DE5E37"
+				item: "mekanism:supercharged_coil"
+				type: "item"
+			}]
+			title: "The Supercharged Coils"
 			x: 6.0d
 			y: -5.5d
-			title: "The Supercharged Coils"
-			min_width: 300
-			dependencies: ["068728DE3B9B13C3"]
 		}
 		{
-			tasks: [{
-				id: "2A13A1B1A85C2981"
-				type: "custom"
-				title: "Observe a completed SPS"
-				icon: "mekanism:sps_casing"
-			}]
+			dependencies: ["2331FCDD2F2B709A"]
 			description: [
 				"With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!"
 				""
@@ -1281,19 +1275,14 @@
 				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
 			]
 			id: "2B3F2F470E06BC40"
-			progression_mode: "linear"
-			x: 6.0d
-			y: -7.0d
-			shape: "square"
-			title: "Build the SPS!"
 			min_width: 350
-			dependencies: ["2331FCDD2F2B709A"]
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "08B5E0576E25FAAD"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "08B5E0576E25FAAD"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "7D3868B320D82382"
@@ -1301,24 +1290,31 @@
 					xp: 250
 				}
 			]
+			shape: "square"
+			tasks: [{
+				icon: "mekanism:sps_casing"
+				id: "2A13A1B1A85C2981"
+				title: "Observe a completed SPS"
+				type: "custom"
+			}]
+			title: "Build the SPS!"
+			x: 6.0d
+			y: -7.0d
 		}
 		{
-			size: 3.0d
+			dependencies: ["2B3F2F470E06BC40"]
 			description: [
 				"After zapping away trillions of power in the SPS, we can finally create &dAntimatter Pellets&r."
 				""
 				"Run the Antimatter Gas you get from the SPS into a Chemical Crystallizer and you'll get 1 Antimatter Pellet for every 1,000mb you make."
 			]
-			x: 2.0d
 			id: "00EFC7B327E79076"
-			y: -7.0d
-			shape: "gear"
 			rewards: [
 				{
-					id: "18DC85F7E60E6427"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "18DC85F7E60E6427"
 					table_id: 5196609362437981520L
+					type: "loot"
 				}
 				{
 					id: "377C6F58639E8469"
@@ -1326,27 +1322,18 @@
 					xp: 1000
 				}
 			]
-			dependencies: ["2B3F2F470E06BC40"]
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
 				id: "3B83170BC4E75158"
-				type: "item"
 				item: "mekanism:pellet_antimatter"
+				type: "item"
 			}]
+			x: 2.0d
+			y: -7.0d
 		}
 		{
-			tasks: [
-				{
-					id: "1F82E1E037CBDC34"
-					type: "item"
-					item: "mekanism:laser_amplifier"
-				}
-				{
-					id: "64C66199BBFDF908"
-					type: "item"
-					item: "mekanism:laser"
-					count: 3L
-				}
-			]
+			dependencies: ["79757F66DF263FA0"]
 			description: [
 				"To see a visual, check out the Ponder by holding &aW&r while hovering over the Laser Focus Matrix."
 				""
@@ -1360,20 +1347,22 @@
 				""
 				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} "
 			]
+			id: "320CC038A64A3195"
+			min_width: 400
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanismgenerators:laser_focus_matrix"
-					player_command: false
-					id: "7C62F20073317501"
 					icon: "mekanism:laser"
+					id: "7C62F20073317501"
+					player_command: false
 					title: "Click Me To See It In Action!"
+					type: "command"
 				}
 				{
-					id: "1EDDDFB8DA186ABC"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "1EDDDFB8DA186ABC"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "1D08E38CECF7C7E8"
@@ -1381,30 +1370,33 @@
 					xp: 100
 				}
 			]
-			id: "320CC038A64A3195"
+			tasks: [
+				{
+					id: "1F82E1E037CBDC34"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "64C66199BBFDF908"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			title: "Jumpstarting Method: &dLaser Focus Array&r"
 			x: 14.5d
 			y: -6.0d
-			title: "Jumpstarting Method: &dLaser Focus Array&r"
-			min_width: 400
-			dependencies: ["79757F66DF263FA0"]
 		}
 		{
-			tasks: [{
-				id: "6C40D1088C211675"
-				type: "item"
-				item: "mekanism:solar_neutron_activator"
-			}]
+			dependencies: ["12D271359D48210E"]
 			description: ["By now, you're already making &aLithium&r. Pump that into a Solar Neutron Activator to create &eTritium&r."]
 			id: "57534FA0E09C4975"
-			x: 12.5d
-			y: -7.5d
-			title: "Fueling the Fusion Reactor: &eTritium&r"
 			rewards: [
 				{
-					id: "50ECD100B9BCD26C"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "50ECD100B9BCD26C"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "464CDFABB1935067"
@@ -1412,21 +1404,17 @@
 					xp: 50
 				}
 			]
-			dependencies: ["12D271359D48210E"]
+			tasks: [{
+				id: "6C40D1088C211675"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "Fueling the Fusion Reactor: &eTritium&r"
+			x: 12.5d
+			y: -7.5d
 		}
 		{
-			tasks: [
-				{
-					id: "34228001011C4524"
-					type: "item"
-					item: "mekanism:electric_pump"
-				}
-				{
-					id: "1C627F3894C50E4E"
-					type: "item"
-					item: "mekanism:upgrade_filter"
-				}
-			]
+			dependencies: ["12D271359D48210E"]
 			description: [
 				"To fuel our Fusion Reactor, we'll need to create two different gases, this one being &cDeuterium&r."
 				""
@@ -1436,15 +1424,12 @@
 			]
 			icon: "mekanism:electric_pump"
 			id: "4ABF0727AA569DD9"
-			x: 12.5d
-			y: -8.5d
-			title: "Fueling the Reactor: &cDeuterium&r"
 			rewards: [
 				{
-					id: "6C772F5609C6BFFD"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "6C772F5609C6BFFD"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "5A40C3DB56EDA0E3"
@@ -1452,29 +1437,39 @@
 					xp: 50
 				}
 			]
-			dependencies: ["12D271359D48210E"]
+			tasks: [
+				{
+					id: "34228001011C4524"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+				{
+					id: "1C627F3894C50E4E"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+			]
+			title: "Fueling the Reactor: &cDeuterium&r"
+			x: 12.5d
+			y: -8.5d
 		}
 		{
-			tasks: [{
-				id: "789B4C8031BCDBDA"
-				type: "item"
-				item: "mekanismgenerators:hohlraum"
-			}]
+			dependencies: [
+				"57534FA0E09C4975"
+				"4ABF0727AA569DD9"
+			]
 			description: [
 				"To kick start the Fusion Reactor, we'll need a quick-shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
 				""
 				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!"
 			]
 			id: "3593D955361B0C6D"
-			x: 14.5d
-			y: -8.0d
-			title: "The Fuel Injector"
 			rewards: [
 				{
-					id: "7118999FC75270C1"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "7118999FC75270C1"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "2FBAF9E2B19C1A6F"
@@ -1482,17 +1477,17 @@
 					xp: 100
 				}
 			]
-			dependencies: [
-				"57534FA0E09C4975"
-				"4ABF0727AA569DD9"
-			]
+			tasks: [{
+				id: "789B4C8031BCDBDA"
+				item: "mekanismgenerators:hohlraum"
+				type: "item"
+			}]
+			title: "The Fuel Injector"
+			x: 14.5d
+			y: -8.0d
 		}
 		{
-			tasks: [{
-				id: "5799CEC4031D454E"
-				type: "item"
-				item: "mekanismgenerators:laser_focus_matrix"
-			}]
+			dependencies: ["0152C49AB74B9D32"]
 			description: [
 				"To create a reaction for the Reactor to turn on, we're going to need to inject it with a ton of power. &oAnd I mean a ton of power&r."
 				""
@@ -1500,12 +1495,15 @@
 				""
 				"The Laser Focus Matrix is placed in the center of one face of the Fusion Reactor. We'll build the Lasers next."
 			]
+			icon: "mekanism:laser"
+			id: "79757F66DF263FA0"
+			min_width: 300
 			rewards: [
 				{
-					id: "3DD4ABE973CF2F79"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "3DD4ABE973CF2F79"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "27476AD1A921D6BC"
@@ -1513,20 +1511,17 @@
 					xp: 100
 				}
 			]
-			id: "79757F66DF263FA0"
-			icon: "mekanism:laser"
+			tasks: [{
+				id: "5799CEC4031D454E"
+				item: "mekanismgenerators:laser_focus_matrix"
+				type: "item"
+			}]
+			title: "Frickin' Laser Beams"
 			x: 10.5d
 			y: -6.0d
-			title: "Frickin' Laser Beams"
-			min_width: 300
-			dependencies: ["0152C49AB74B9D32"]
 		}
 		{
-			tasks: [{
-				id: "2A6E713A062510B6"
-				type: "checkmark"
-				title: "Fueling the Reactor"
-			}]
+			dependencies: ["0152C49AB74B9D32"]
 			description: [
 				"Fusion Reactors require a very special fuel: &dD-T Fuel&r to be exact."
 				""
@@ -1536,47 +1531,24 @@
 			]
 			icon: "mekanismgenerators:fusion_fuel_bucket"
 			id: "12D271359D48210E"
-			x: 10.5d
-			y: -8.0d
-			title: "Fueling the &dFusion Reactor&r"
 			rewards: [{
 				id: "771198694F018CFC"
 				type: "xp"
 				xp: 10
 			}]
-			dependencies: ["0152C49AB74B9D32"]
+			tasks: [{
+				id: "2A6E713A062510B6"
+				title: "Fueling the Reactor"
+				type: "checkmark"
+			}]
+			title: "Fueling the &dFusion Reactor&r"
+			x: 10.5d
+			y: -8.0d
 		}
 		{
-			size: 3.0d
-			x: 17.0d
-			icon: "mekanismgenerators:fusion_reactor_controller"
-			min_width: 300
-			tasks: [
-				{
-					id: "4B63979C49A34565"
-					type: "item"
-					item: {
-						id: "mekanismgenerators:hohlraum"
-						Count: 1b
-						tag: {
-							mekData: {
-								GasTanks: [{
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
-									}
-									Tank: 0b
-								}]
-							}
-						}
-					}
-				}
-				{
-					id: "0B31B1E6089BB33E"
-					type: "custom"
-					title: "Observe a completed Fusion Reactor"
-					icon: "mekanismgenerators:fusion_reactor_frame"
-				}
+			dependencies: [
+				"320CC038A64A3195"
+				"3593D955361B0C6D"
 			]
 			description: [
 				"Hohlraum filled with D-T Fuel? &oCheck!&r"
@@ -1592,13 +1564,16 @@
 				""
 				"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
 			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "54D8B9CB3F98040F"
+			min_width: 300
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "5E8B928DA02C26C9"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "5E8B928DA02C26C9"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "66CC79AB269C93AC"
@@ -1607,21 +1582,40 @@
 				}
 			]
 			shape: "hexagon"
-			y: -7.0d
-			title: "&dI Think We're Ready&r"
-			progression_mode: "linear"
-			dependencies: [
-				"320CC038A64A3195"
-				"3593D955361B0C6D"
+			size: 3.0d
+			tasks: [
+				{
+					id: "4B63979C49A34565"
+					item: {
+						Count: 1b
+						id: "mekanismgenerators:hohlraum"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 10L
+										gasName: "mekanismgenerators:fusion_fuel"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "mekanismgenerators:fusion_reactor_frame"
+					id: "0B31B1E6089BB33E"
+					title: "Observe a completed Fusion Reactor"
+					type: "custom"
+				}
 			]
+			title: "&dI Think We're Ready&r"
+			x: 17.0d
+			y: -7.0d
 		}
 		{
-			tasks: [{
-				id: "1EEEE30BA51757D6"
-				type: "forge_energy"
-				value: 50000000L
-				max_input: 1000L
-			}]
+			dependencies: ["54D8B9CB3F98040F"]
 			description: [
 				"The &dFusion Reactor&r can produce up to 200MRF/t on its own, but first we need to understand some mechanics."
 				""
@@ -1633,17 +1627,19 @@
 				""
 				"{image:atm:textures/questpics/mek/fusion_fuelUI.png width:175 height:150 align:1}"
 			]
+			id: "26D306418545A2D6"
+			min_width: 300
 			rewards: [
 				{
 					id: "3D24F967DBB74D71"
-					type: "item"
 					item: "mekanism:ultimate_induction_cell"
+					type: "item"
 				}
 				{
-					id: "717D37340F864405"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "717D37340F864405"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "5FAD66DBACDEA6ED"
@@ -1651,28 +1647,18 @@
 					xp: 1000
 				}
 			]
-			id: "26D306418545A2D6"
+			tasks: [{
+				id: "1EEEE30BA51757D6"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 50000000L
+			}]
+			title: "&dThe End Game Power Source&r"
 			x: 20.0d
 			y: -7.0d
-			title: "&dThe End Game Power Source&r"
-			min_width: 300
-			dependencies: ["54D8B9CB3F98040F"]
 		}
 		{
-			tasks: [
-				{
-					id: "0C8EF4390F02EBC4"
-					type: "item"
-					item: "mekanismgenerators:turbine_casing"
-					count: 52L
-				}
-				{
-					id: "3CD4768A3FCA49FF"
-					type: "item"
-					item: "mekanism:structural_glass"
-					count: 52L
-				}
-			]
+			dependencies: ["3FFF9018DA2A2763"]
 			description: [
 				"The &9Industrial Turbine&r is a massive multiblock structure used to convert &cHeated Coolant&r into power. The minimum size is 5x5x5, with the maximum size being 17x17x18."
 				""
@@ -1684,20 +1670,22 @@
 				""
 				"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
 			]
+			id: "6313B18820445882"
+			min_width: 300
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanismgenerators:turbine_casing"
-					player_command: false
-					id: "268F36DC559527FD"
 					icon: "ftbquests:barrier"
+					id: "268F36DC559527FD"
+					player_command: false
 					title: "Click Me To Learn How To Build!"
+					type: "command"
 				}
 				{
-					id: "3178D34B3E9ED19C"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "3178D34B3E9ED19C"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "0963F21E8369E149"
@@ -1705,36 +1693,28 @@
 					xp: 100
 				}
 			]
-			id: "6313B18820445882"
-			x: 12.5d
-			y: 0.5d
 			shape: "gear"
-			title: "The &9Industrial Turbine&r"
-			min_width: 300
 			subtitle: "Building the Frame"
-			dependencies: ["3FFF9018DA2A2763"]
-		}
-		{
 			tasks: [
 				{
-					id: "3E72FC25B884DFFC"
+					count: 52L
+					id: "0C8EF4390F02EBC4"
+					item: "mekanismgenerators:turbine_casing"
 					type: "item"
-					item: "mekanismgenerators:turbine_valve"
-					count: 2L
 				}
 				{
-					id: "4D32BE4920464ED0"
+					count: 52L
+					id: "3CD4768A3FCA49FF"
+					item: "mekanism:structural_glass"
 					type: "item"
-					item: "mekanismgenerators:turbine_vent"
-					count: 24L
-				}
-				{
-					id: "2C56599158C13CDF"
-					type: "item"
-					item: "mekanismgenerators:saturating_condenser"
-					count: 8L
 				}
 			]
+			title: "The &9Industrial Turbine&r"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6313B18820445882"]
 			description: [
 				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
 				""
@@ -1742,12 +1722,14 @@
 				""
 				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the Electromagnetic Coils."
 			]
+			id: "233E438357CD89F6"
+			min_width: 300
 			rewards: [
 				{
-					id: "079119F5F2925E2E"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "079119F5F2925E2E"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "0A4A1734D68DC205"
@@ -1755,40 +1737,33 @@
 					xp: 100
 				}
 			]
-			id: "233E438357CD89F6"
-			x: 14.0d
-			y: -0.5d
 			shape: "diamond"
-			title: "The &aPorts&r"
-			min_width: 300
-			dependencies: ["6313B18820445882"]
-		}
-		{
 			tasks: [
 				{
-					id: "69CE83F6561383E5"
+					count: 2L
+					id: "3E72FC25B884DFFC"
+					item: "mekanismgenerators:turbine_valve"
 					type: "item"
-					item: "mekanismgenerators:turbine_rotor"
-					count: 3L
 				}
 				{
-					id: "2902E36FD3AC8E68"
+					count: 24L
+					id: "4D32BE4920464ED0"
+					item: "mekanismgenerators:turbine_vent"
 					type: "item"
-					item: "mekanismgenerators:rotational_complex"
 				}
 				{
-					id: "1E9FDE2560C1AB7C"
-					type: "item"
-					item: "mekanism:pressure_disperser"
 					count: 8L
-				}
-				{
-					id: "526F17523CE9BDF5"
+					id: "2C56599158C13CDF"
+					item: "mekanismgenerators:saturating_condenser"
 					type: "item"
-					item: "mekanismgenerators:turbine_blade"
-					count: 6L
 				}
 			]
+			title: "The &aPorts&r"
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6313B18820445882"]
 			description: [
 				"The &9Turbine Rotor&r is placed in the middle of the Turbine. For every Turbine Rotor, you will need 2 &aTurbine Blades&r. For this Turbine, we'll be using 3 Rotors."
 				""
@@ -1798,12 +1773,14 @@
 				""
 				"The Dispersers must fill out the entire layer where the Rotational Complex sits."
 			]
+			id: "05D20B506213A449"
+			min_width: 300
 			rewards: [
 				{
-					id: "5FCF42CDCA222B28"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "5FCF42CDCA222B28"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "5FDADDDF8428A238"
@@ -1811,35 +1788,50 @@
 					xp: 50
 				}
 			]
-			id: "05D20B506213A449"
+			shape: "diamond"
+			tasks: [
+				{
+					count: 3L
+					id: "69CE83F6561383E5"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "2902E36FD3AC8E68"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E9FDE2560C1AB7C"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "526F17523CE9BDF5"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+			]
+			title: "The &aRotor&r"
 			x: 14.0d
 			y: 0.5d
-			shape: "diamond"
-			title: "The &aRotor&r"
-			min_width: 300
-			dependencies: ["6313B18820445882"]
 		}
 		{
-			tasks: [{
-				id: "4C0CC372A8597375"
-				type: "item"
-				item: "mekanismgenerators:electromagnetic_coil"
-			}]
+			dependencies: ["6313B18820445882"]
 			description: [
 				"The &9Electromagnetic Coil&r is placed directly on top of the &aRotational Complex&r to convert the kinetic energy into power."
 				""
 				"You can use multiple, with 5 being the max. These must either touch another Coil, or the Rotational Complex."
 			]
-			x: 14.0d
 			id: "7C61906C6C87C97D"
-			y: 1.5d
-			shape: "diamond"
 			rewards: [
 				{
-					id: "29C9FF0DAC44A134"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "29C9FF0DAC44A134"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "18AE58687D78BB0F"
@@ -1847,10 +1839,21 @@
 					xp: 25
 				}
 			]
-			dependencies: ["6313B18820445882"]
+			shape: "diamond"
+			tasks: [{
+				id: "4C0CC372A8597375"
+				item: "mekanismgenerators:electromagnetic_coil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
 		}
 		{
-			size: 2.0d
+			dependencies: [
+				"233E438357CD89F6"
+				"7C61906C6C87C97D"
+				"05D20B506213A449"
+			]
 			description: [
 				"If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface."
 				""
@@ -1863,23 +1866,14 @@
 				"Once you have a fully functioning Fission Reactor, pump out the &bSteam&r directly into a Turbine Valve on your Turbine. Since we're using Saturating Condensers in this build, you can pump out water from a Turbine Vent back into your Reactor if you want. "
 			]
 			id: "4189BC3DFB551F4C"
-			progression_mode: "linear"
-			x: 15.5d
-			y: 0.5d
-			shape: "hexagon"
-			title: "Creating Power with the Turbine!"
 			min_width: 300
-			dependencies: [
-				"233E438357CD89F6"
-				"7C61906C6C87C97D"
-				"05D20B506213A449"
-			]
+			progression_mode: "linear"
 			rewards: [
 				{
-					id: "4C5DD65195702E52"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "4C5DD65195702E52"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "3B59F78B29ABD642"
@@ -1887,20 +1881,20 @@
 					xp: 250
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
-				id: "71DB5E5857993B3F"
-				type: "custom"
-				title: "Observe a Completed Turbine"
 				icon: "mekanismgenerators:turbine_casing"
+				id: "71DB5E5857993B3F"
+				title: "Observe a Completed Turbine"
+				type: "custom"
 			}]
+			title: "Creating Power with the Turbine!"
+			x: 15.5d
+			y: 0.5d
 		}
 		{
-			tasks: [{
-				id: "31A1425AA09C33F8"
-				type: "item"
-				item: "mekanism:dust_lithium"
-				count: 4L
-			}]
+			dependencies: ["24174700F7FB771C"]
 			description: [
 				"If we want to create massive amounts of power, we'll need a way to store all of it, and those Energy Cubes just won't cut it."
 				""
@@ -1908,20 +1902,15 @@
 				""
 				"You should have some Brine being made from a previous quest using the &aThermal Evaporation Plants&r. Run the &eBrine&r through another &aThermal Evaporation Plant&r to get Lithium, then through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
 			]
-			id: "0FF852DE33E41C90"
 			icon: "mekanism:upgrade_energy"
-			x: 3.0d
-			y: -1.0d
-			shape: "hexagon"
-			title: "Advanced Power Storage"
+			id: "0FF852DE33E41C90"
 			min_width: 250
-			dependencies: ["24174700F7FB771C"]
 			rewards: [
 				{
-					id: "4DA0A0C799C02F80"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "4DA0A0C799C02F80"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "6FBC38ABC17E2BFF"
@@ -1929,28 +1918,19 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "31A1425AA09C33F8"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			title: "Advanced Power Storage"
+			x: 3.0d
+			y: -1.0d
 		}
 		{
-			tasks: [
-				{
-					id: "6D0EB8C587E34699"
-					type: "item"
-					item: "mekanism:induction_casing"
-					count: 44L
-				}
-				{
-					id: "6468D6A69F683E6D"
-					type: "item"
-					item: "mekanism:induction_port"
-					count: 2L
-				}
-				{
-					id: "5586FBB0561715AD"
-					type: "item"
-					item: "mekanism:structural_glass"
-					count: 55L
-				}
-			]
+			dependencies: ["0FF852DE33E41C90"]
 			description: [
 				"Almost every Mekanism multiblock is built the same way."
 				""
@@ -1960,20 +1940,23 @@
 				""
 				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 			]
+			hide: false
+			id: "673FCBF8685D0EEE"
+			min_width: 300
 			rewards: [
 				{
-					type: "command"
 					command: "/create ponder mekanism:induction_casing"
-					player_command: false
-					id: "1B37826ECEC743AB"
 					icon: "ftbquests:barrier"
+					id: "1B37826ECEC743AB"
+					player_command: false
 					title: "Click Me To See How To Build!"
+					type: "command"
 				}
 				{
-					id: "613F17C233D08DE6"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "613F17C233D08DE6"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "47EF9E0FC6A57445"
@@ -1981,77 +1964,34 @@
 					xp: 100
 				}
 			]
-			id: "673FCBF8685D0EEE"
-			x: 4.0d
-			y: -1.5d
 			shape: "diamond"
-			title: "Building the &9Induction Matrix&r"
-			min_width: 300
 			subtitle: "The Energy Cube's Papa"
-			dependencies: ["0FF852DE33E41C90"]
-			hide: false
-		}
-		{
 			tasks: [
 				{
-					id: "4063C1B5F935A026"
+					count: 44L
+					id: "6D0EB8C587E34699"
+					item: "mekanism:induction_casing"
 					type: "item"
-					title: "Induction Cells"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mekanism:basic_induction_cell"
-									Count: 1b
-								}
-								{
-									id: "mekanism:advanced_induction_cell"
-									Count: 1b
-								}
-								{
-									id: "mekanism:elite_induction_cell"
-									Count: 1b
-								}
-								{
-									id: "mekanism:ultimate_induction_cell"
-									Count: 1b
-								}
-							]
-						}
-					}
 				}
 				{
-					id: "2E3FF129C3668DD8"
+					count: 2L
+					id: "6468D6A69F683E6D"
+					item: "mekanism:induction_port"
 					type: "item"
-					title: "Induction Providers"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mekanism:basic_induction_provider"
-									Count: 1b
-								}
-								{
-									id: "mekanism:advanced_induction_provider"
-									Count: 1b
-								}
-								{
-									id: "mekanism:elite_induction_provider"
-									Count: 1b
-								}
-								{
-									id: "mekanism:ultimate_induction_provider"
-									Count: 1b
-								}
-							]
-						}
-					}
+				}
+				{
+					count: 55L
+					id: "5586FBB0561715AD"
+					item: "mekanism:structural_glass"
+					type: "item"
 				}
 			]
+			title: "Building the &9Induction Matrix&r"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FF852DE33E41C90"]
 			description: [
 				"The Induction Matrix allows you to customize how much power you can store and transfer by adding Cells and Providers inside of the multiblock structure."
 				""
@@ -2063,12 +2003,15 @@
 				""
 				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
 			]
+			hide: false
+			id: "14D772808D1BEAE2"
+			min_width: 350
 			rewards: [
 				{
-					id: "250D8106ACD732CF"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "250D8106ACD732CF"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "3CC428CF1A7974C7"
@@ -2076,39 +2019,90 @@
 					xp: 100
 				}
 			]
-			id: "14D772808D1BEAE2"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4063C1B5F935A026"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_induction_cell"
+								}
+							]
+						}
+					}
+					title: "Induction Cells"
+					type: "item"
+				}
+				{
+					id: "2E3FF129C3668DD8"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_induction_provider"
+								}
+							]
+						}
+					}
+					title: "Induction Providers"
+					type: "item"
+				}
+			]
+			title: "&aCustomizing Our&r &9Power Limits&r"
 			x: 4.0d
 			y: -0.5d
-			shape: "diamond"
-			title: "&aCustomizing Our&r &9Power Limits&r"
-			min_width: 350
-			dependencies: ["0FF852DE33E41C90"]
-			hide: false
 		}
 		{
-			size: 1.5d
+			dependencies: [
+				"673FCBF8685D0EEE"
+				"14D772808D1BEAE2"
+			]
 			description: [
 				"Once you've finished building your first &9Energized Induction Matrix&r, you'll see red particles all around the structure to show that it is complete."
 				""
 				"Don't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18. "
 			]
-			id: "07ECC87DFF2D3991"
 			icon: "mekanism:ultimate_induction_cell"
-			x: 5.0d
-			y: -1.0d
-			shape: "diamond"
-			title: "&aCompleting the&r &9Matrix&r"
+			id: "07ECC87DFF2D3991"
 			progression_mode: "linear"
-			dependencies: [
-				"673FCBF8685D0EEE"
-				"14D772808D1BEAE2"
-			]
 			rewards: [
 				{
-					id: "2871E7A5B590DB95"
-					type: "loot"
 					exclude_from_claim_all: true
+					id: "2871E7A5B590DB95"
 					table_id: 8364958827326577211L
+					type: "loot"
 				}
 				{
 					id: "19F7348CFE7A14C9"
@@ -2116,12 +2110,18 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
-				id: "621A4E28BD50F96C"
-				type: "custom"
-				title: "Observe a Completed Induction Matrix"
 				icon: "mekanism:induction_casing"
+				id: "621A4E28BD50F96C"
+				title: "Observe a Completed Induction Matrix"
+				type: "custom"
 			}]
+			title: "&aCompleting the&r &9Matrix&r"
+			x: 5.0d
+			y: -1.0d
 		}
 	]
+	title: "Mekanism: &dAdvanced&r"
 }
