@@ -46,7 +46,7 @@
 			description: [
 				"&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot!"
 				""
-				"To do this, you will be collect \"data\" on mobs, then running simulations from the data to create their drops!"
+				"To do this, you will be collecting \"data\" on mobs, then running simulations from the data to create their drops!"
 			]
 			icon: {
 				Count: 1b
