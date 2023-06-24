@@ -1,41 +1,32 @@
 {
-	id: "1BE666F01EFFC00D"
-	group: ""
-	order_index: 4
-	filename: "tips_and_tricks"
-	title: "&bTips \\& Tricks"
-	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tips_and_tricks"
+	group: ""
+	id: "1BE666F01EFFC00D"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "atm:textures/questpics/tips_and_tricks.png"
+		rotation: 0.0d
+		width: 12.0d
 		x: 1.0d
 		y: 1.0d
-		width: 12.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "atm:textures/questpics/tips_and_tricks.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Infinite Water"
-			x: 3.0d
-			y: 6.0d
-			subtitle: "Can be used as Reactor Coolant"
 			description: ["Easy item to automate infinite water. Need more water? Make another!"]
 			id: "722978AC0C1B2649"
-			tasks: [{
-				id: "6855AE257D62AA37"
-				type: "item"
-				item: "cookingforblockheads:sink"
-			}]
 			rewards: [
 				{
 					id: "145F9B3A17676EAA"
-					type: "item"
 					item: "pipez:fluid_pipe"
+					type: "item"
 				}
 				{
 					id: "1159FE6CDF262C46"
@@ -43,23 +34,19 @@
 					xp: 10
 				}
 			]
+			subtitle: "Can be used as Reactor Coolant"
+			tasks: [{
+				id: "6855AE257D62AA37"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Infinite Water"
+			x: 3.0d
+			y: 6.0d
 		}
 		{
-			x: -1.0d
-			y: 6.0d
-			shape: "diamond"
-			subtitle: "Honey I Shrunk Myself"
 			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
 			id: "7EC8814940C4C3D7"
-			tasks: [{
-				id: "30C938C85BED7956"
-				type: "item"
-				item: {
-					id: "shrink:shrinking_device"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "156D559B0B56BA9A"
@@ -67,18 +54,27 @@
 					xp: 10
 				}
 				{
-					id: "6BCF264E89365C5D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6BCF264E89365C5D"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			subtitle: "Honey I Shrunk Myself"
+			tasks: [{
+				id: "30C938C85BED7956"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
 		}
 		{
-			title: "Comforts"
-			x: 3.5d
-			y: 5.5d
-			subtitle: "ZZZzzz..."
 			description: [
 				"The sleeping bag lets you sleep during the night."
 				""
@@ -87,24 +83,12 @@
 				"Neither will reset your spawn-point."
 			]
 			id: "14C8FC3F19190054"
-			tasks: [
-				{
-					id: "450D00C38F5DB42B"
-					type: "item"
-					item: "comforts:hammock_white"
-				}
-				{
-					id: "76BF5183FA92EF4B"
-					type: "item"
-					item: "comforts:sleeping_bag_white"
-				}
-			]
 			rewards: [
 				{
-					id: "34037270BA530831"
-					type: "item"
-					item: "comforts:rope_and_nail"
 					count: 2
+					id: "34037270BA530831"
+					item: "comforts:rope_and_nail"
+					type: "item"
 				}
 				{
 					id: "0CA8B7411485A9D0"
@@ -112,27 +96,180 @@
 					xp: 10
 				}
 			]
+			subtitle: "ZZZzzz..."
+			tasks: [
+				{
+					id: "51AA3A27028426C5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "comforts:hammock_white"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_orange"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_magenta"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_light_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_yellow"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_lime"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_pink"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_light_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_cyan"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_purple"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_brown"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_green"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_red"
+								}
+								{
+									Count: 1b
+									id: "comforts:hammock_black"
+								}
+							]
+						}
+					}
+					title: "Hammock"
+					type: "item"
+				}
+				{
+					id: "04903282E935F3D3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_white"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_orange"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_magenta"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_light_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_yellow"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_lime"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_pink"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_cyan"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_light_gray"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_purple"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_blue"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_brown"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_green"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_red"
+								}
+								{
+									Count: 1b
+									id: "comforts:sleeping_bag_black"
+								}
+							]
+						}
+					}
+					title: "Sleeping Bags"
+					type: "item"
+				}
+			]
+			title: "Comforts"
+			x: 3.5d
+			y: 5.5d
 		}
 		{
-			x: 4.0d
-			y: 5.0d
 			description: [
 				"A quick way to switch between tools."
 				""
 				"Upgrade with belt pouches in an anvil to increase capacity."
 			]
 			id: "378C95C18798D413"
-			tasks: [{
-				id: "7FD9A02EA29669F6"
-				type: "item"
-				item: "toolbelt:belt"
-			}]
 			rewards: [
 				{
-					id: "40BCE4D56FE98018"
-					type: "item"
-					item: "toolbelt:pouch"
 					count: 2
+					id: "40BCE4D56FE98018"
+					item: "toolbelt:pouch"
+					type: "item"
 				}
 				{
 					id: "4E495FC797AED7A4"
@@ -140,29 +277,21 @@
 					xp: 10
 				}
 			]
+			tasks: [{
+				id: "7FD9A02EA29669F6"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
 		}
 		{
-			title: "Compact Machines"
-			x: -1.0d
-			y: 5.0d
 			description: [
 				"The Personal Shrinking Device serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."
 				""
 				"The Compact Machine itself is a small world that you can teleport in and out of to store your farms and machines!"
 			]
 			id: "73F91BF3D424B269"
-			tasks: [
-				{
-					id: "3B227EED4B839733"
-					type: "item"
-					item: "compactmachines:personal_shrinking_device"
-				}
-				{
-					id: "1B529CAA2620B7CC"
-					type: "item"
-					item: "compactmachines:machine_tiny"
-				}
-			]
 			rewards: [
 				{
 					id: "43605B432D1C8172"
@@ -170,71 +299,95 @@
 					xp: 10
 				}
 				{
-					id: "16DBB58D967E5AB0"
-					type: "item"
-					item: "compactmachines:wall"
 					count: 8
+					id: "16DBB58D967E5AB0"
+					item: "compactmachines:wall"
+					type: "item"
 				}
 				{
-					id: "46D9E69D9AC4E1A9"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "46D9E69D9AC4E1A9"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			tasks: [
+				{
+					id: "3B227EED4B839733"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					id: "1B529CAA2620B7CC"
+					item: "compactmachines:machine_tiny"
+					type: "item"
+				}
+			]
+			title: "Compact Machines"
+			x: -1.0d
+			y: 5.0d
 		}
 		{
-			title: "Building Gadgets"
-			x: -1.5d
-			y: 5.5d
-			shape: "diamond"
 			description: [
 				"Some useful gadgets for building."
 				""
 				"&cDestruction Gadget voids blocks!"
 			]
 			id: "0F75D7B9F4FF2459"
+			rewards: [
+				{
+					id: "2087EBA230655A8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E0CC06881345FD7"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "358F3A8EA9E5E7E3"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_building"
 						Count: 1b
+						id: "buildinggadgets:gadget_building"
 						tag: {
 							state: {
+								data: { }
 								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								data: { }
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "008AD88A1CDCEE5E"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_exchanging"
 						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
 						tag: {
 							state: {
+								data: { }
 								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								data: { }
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4738B22DF26DB2D8"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_copy_paste"
 						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
 						tag: {
 							mode: 0b
 							template_id: [I;
@@ -245,80 +398,71 @@
 							]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "283D88FA9196A4AC"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_destruction"
 						Count: 1b
+						id: "buildinggadgets:gadget_destruction"
 						tag: {
-							overlay: 1b
 							fuzzy: 1b
+							overlay: 1b
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "2087EBA230655A8C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "2E0CC06881345FD7"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 487623848494439020L
-				}
-			]
+			title: "Building Gadgets"
+			x: -1.5d
+			y: 5.5d
 		}
 		{
-			title: "Building Wands"
-			x: -2.0d
-			y: 6.0d
 			description: [
 				"The mod &9Construction Wand&r adds helpful wands that are used when building."
 				""
 				"When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory."
 			]
 			id: "2A2E3D020B1F5126"
+			rewards: [{
+				id: "03F64743F4F59499"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "176150A0FE674662"
-				type: "item"
-				title: "Construction Wands"
 				item: {
-					id: "itemfilters:or"
 					Count: 1b
+					id: "itemfilters:or"
 					tag: {
 						items: [
 							{
+								Count: 1b
 								id: "constructionwand:stone_wand"
-								Count: 1b
 								tag: {
-									wand_options: { }
 									Damage: 0
+									wand_options: { }
 								}
 							}
 							{
+								Count: 1b
 								id: "constructionwand:iron_wand"
-								Count: 1b
 								tag: {
-									wand_options: { }
 									Damage: 0
+									wand_options: { }
 								}
 							}
 							{
+								Count: 1b
 								id: "constructionwand:diamond_wand"
-								Count: 1b
 								tag: {
-									wand_options: { }
 									Damage: 0
+									wand_options: { }
 								}
 							}
 							{
-								id: "constructionwand:infinity_wand"
 								Count: 1b
+								id: "constructionwand:infinity_wand"
 								tag: {
 									wand_options: { }
 								}
@@ -326,20 +470,14 @@
 						]
 					}
 				}
+				title: "Construction Wands"
+				type: "item"
 			}]
-			rewards: [{
-				id: "03F64743F4F59499"
-				type: "xp"
-				xp: 10
-			}]
+			title: "Building Wands"
+			x: -2.0d
+			y: 6.0d
 		}
 		{
-			title: "Tipped Out"
-			x: 1.0d
-			y: 5.5d
-			shape: "circle"
-			subtitle: "Complete all of the tips!"
-			hide_dependency_lines: true
 			dependencies: [
 				"722978AC0C1B2649"
 				"7EC8814940C4C3D7"
@@ -352,42 +490,43 @@
 				"5118D4137573AD80"
 				"0060BCEDABC9BE2E"
 			]
+			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
-			tasks: [{
-				id: "42DA8E971B27ACED"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "032158E75A1291D8"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "circle"
+			subtitle: "Complete all of the tips!"
+			tasks: [{
+				id: "42DA8E971B27ACED"
+				type: "checkmark"
+			}]
+			title: "Tipped Out"
+			x: 1.0d
+			y: 5.5d
 		}
 		{
-			x: 1.0d
-			y: 3.0d
-			shape: "hexagon"
-			subtitle: "And Other Useful Items!"
 			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
-			size: 2.0d
 			id: "0C856BBB1679A7DD"
-			tasks: [{
-				id: "3DC008A578A93CCF"
-				type: "checkmark"
-				title: "Tips and Tricks!"
-			}]
 			rewards: [{
 				id: "5FA6EA3609ABF6BE"
 				type: "xp"
 				xp: 10
 			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "And Other Useful Items!"
+			tasks: [{
+				id: "3DC008A578A93CCF"
+				title: "Tips and Tricks!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			icon: "minecraft:iron_ore"
-			x: 3.0d
-			y: 5.0d
-			shape: "diamond"
-			subtitle: "Minecraft Update Changes"
 			description: [
 				"If you haven't played MC since 1.16, it's important to know that Ore Generation has changed as well as max build level."
 				""
@@ -395,17 +534,13 @@
 				""
 				"Note: This currently only works in Single-player."
 			]
+			icon: "minecraft:iron_ore"
 			id: "7732A4AE58D1315E"
-			tasks: [{
-				id: "599B3277CC40D052"
-				type: "checkmark"
-				title: "Ore Generation"
-			}]
 			rewards: [
 				{
 					id: "259A40A2BD1763AA"
-					type: "item"
 					item: "minecraft:raw_copper"
+					type: "item"
 				}
 				{
 					id: "4ACA4C826FB02CE1"
@@ -413,40 +548,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			subtitle: "Minecraft Update Changes"
+			tasks: [{
+				id: "599B3277CC40D052"
+				title: "Ore Generation"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 5.0d
 		}
 		{
-			x: -2.0d
-			y: 5.0d
-			subtitle: "A Simple Magnet!"
 			description: [
 				"This is a simple magnet!"
 				""
 				"Pro tip: You can set a keybind to toggle this on and off!"
 			]
 			id: "3FC002E5A6C08DCC"
-			tasks: [{
-				id: "27CB2988681DB62C"
-				type: "item"
-				title: "Simple Magnets"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "simplemagnets:basicmagnet"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "simplemagnets:advancedmagnet"
-								Count: 1b
-								tag: { }
-							}
-						]
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "0F5B656ED410D441"
@@ -454,32 +572,46 @@
 					xp: 10
 				}
 				{
-					id: "36D0962726704052"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "36D0962726704052"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			subtitle: "A Simple Magnet!"
+			tasks: [{
+				id: "27CB2988681DB62C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplemagnets:basicmagnet"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "simplemagnets:advancedmagnet"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Simple Magnets"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			x: -0.5d
-			y: 5.5d
-			subtitle: "Helps Find Biomes"
 			description: [
 				"Gives you a list of biomes you can search for."
 				""
 				"Select a biome, then hit \"Search.\" You'll see some info in the top left, and the compass will point in the direction of the biome."
 			]
 			id: "70B6C9409AE69284"
-			tasks: [{
-				id: "595B3FA9F32B712D"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "554BFA90C78DEDD5"
@@ -487,31 +619,32 @@
 					xp: 10
 				}
 				{
-					id: "262AC9191FD415A3"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "262AC9191FD415A3"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			subtitle: "Helps Find Biomes"
+			tasks: [{
+				id: "595B3FA9F32B712D"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
 		}
 		{
-			x: 4.0d
-			y: 6.0d
 			description: [
 				"The &9Time in a Bottle&r is probably one of the most useful items in the game."
 				""
 				"It stores time for every second that passes while it is in your inventory, which you can then spend to speed up any block/entity/almost everything in the game."
 			]
 			id: "02BC692836789920"
-			tasks: [{
-				id: "09B5B2E28DD7452C"
-				type: "item"
-				item: {
-					id: "tiab:time_in_a_bottle"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "5D26E923244EBD6F"
@@ -519,27 +652,31 @@
 					xp: 1000
 				}
 				{
-					id: "04C2C8FE21BE2CB7"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "04C2C8FE21BE2CB7"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "09B5B2E28DD7452C"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 		{
-			x: 2.5d
-			y: 5.5d
 			description: [
 				"The &9Structure Compass&r can help you locate structures in the world, just like the &eNature's Compass&r!"
 				""
 				"Shift+Right-clicking with the compass in hand will bring up a menu of structures to search for."
 			]
 			id: "5D18D7EFC37DB81E"
-			tasks: [{
-				id: "423F9BB8DC7962F6"
-				type: "item"
-				item: "structurecompass:structure_compass"
-			}]
 			rewards: [
 				{
 					id: "7B2018A7B911D23F"
@@ -547,17 +684,21 @@
 					xp: 100
 				}
 				{
-					id: "61DF943E33054D96"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "61DF943E33054D96"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "423F9BB8DC7962F6"
+				item: "structurecompass:structure_compass"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
 		}
 		{
-			title: "The Eccentric Tome"
-			x: 1.0d
-			y: 7.0d
 			description: [
 				"This &9Tome&r holds all of the guidebooks in the modpack."
 				""
@@ -568,49 +709,20 @@
 				""
 				"Note: If you have to use a guidebook in a recipe, make sure to drop the guidebook out first! Do not use the Tome to craft the item! This will cause the Tome to vanish."
 			]
-			min_width: 300
 			id: "5118D4137573AD80"
+			min_width: 300
+			rewards: [{
+				id: "2E8C17C464A35055"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "77321233659FEC13"
-				type: "item"
 				item: {
-					id: "eccentrictome:tome"
 					Count: 1b
+					id: "eccentrictome:tome"
 					tag: {
 						"eccentrictome:mods": {
-							industrialforegoing: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "industrialforegoing:industrial_foregoing"
-									}
-								}
-							}
-							rebornstorage: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "rebornstorage:rs_book"
-									}
-								}
-							}
-							sebastrnlib: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
-									}
-								}
-							}
-							ftbquests: {
-								0: {
-									Count: 1.0d
-									id: "ftbquests:book"
-								}
-							}
 							advancedperipherals: {
 								0: {
 									Count: 1.0d
@@ -620,10 +732,13 @@
 									}
 								}
 							}
-							immersiveengineering: {
+							alchemistry: {
 								0: {
 									Count: 1.0d
-									id: "immersiveengineering:manual"
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "alchemistry:alchemistry_book"
+									}
 								}
 							}
 							allthemodium: {
@@ -632,6 +747,48 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "allthemodium:allthemodium"
+									}
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1.0d
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							botania: {
+								0: {
+									Count: 1.0d
+									id: "botania:lexicon"
+								}
+							}
+							byg: {
+								0: {
+									Count: 1.0d
+									id: "byg:biomepedia"
+								}
+							}
+							croptopia: {
+								0: {
+									Count: 1.0d
+									id: "croptopia:guide"
+								}
+							}
+							deeperdarker: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
 									}
 								}
 							}
@@ -644,25 +801,52 @@
 									}
 								}
 							}
-							botania: {
-								0: {
-									Count: 1.0d
-									id: "botania:lexicon"
-								}
-							}
-							thermal: {
+							engineersdecor: {
 								0: {
 									Count: 1.0d
 									id: "patchouli:guide_book"
 									tag: {
-										"patchouli:book": "thermal:guidebook"
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
 									}
 								}
 							}
-							rftoolsbase: {
+							ftbic: {
 								0: {
 									Count: 1.0d
-									id: "rftoolsbase:manual"
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "ftbic:ftbic_guide"
+									}
+								}
+							}
+							ftbquests: {
+								0: {
+									Count: 1.0d
+									id: "ftbquests:book"
+								}
+							}
+							hexcasting: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+							}
+							immersiveengineering: {
+								0: {
+									Count: 1.0d
+									id: "immersiveengineering:manual"
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
 								}
 							}
 							integrateddynamics: {
@@ -680,69 +864,6 @@
 									}
 								}
 							}
-							croptopia: {
-								0: {
-									Count: 1.0d
-									id: "croptopia:guide"
-								}
-							}
-							securitycraft: {
-								0: {
-									Count: 1.0d
-									id: "securitycraft:sc_manual"
-								}
-							}
-							powah: {
-								0: {
-									Count: 1.0d
-									id: "powah:book"
-								}
-							}
-							modonomicon: {
-								0: {
-									Count: 1.0d
-									id: "modonomicon:modonomicon"
-									tag: {
-										"modonomicon:book_id": "theurgy:the_hermetica"
-									}
-								}
-							}
-							pneumaticcraft: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "pneumaticcraft:book"
-									}
-								}
-							}
-							naturesaura: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "naturesaura:book"
-									}
-								}
-							}
-							apotheosis: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "apotheosis:apoth_chronicle"
-									}
-								}
-							}
-							deeperdarker: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "deeperdarker:wanderers_notebook"
-									}
-								}
-							}
 							littlelogistics: {
 								0: {
 									Count: 1.0d
@@ -752,36 +873,12 @@
 									}
 								}
 							}
-							engineersdecor: {
+							modonomicon: {
 								0: {
 									Count: 1.0d
-									id: "patchouli:guide_book"
+									id: "modonomicon:modonomicon"
 									tag: {
-										"patchouli:book": "engineersdecor:engineersdecor_manual"
-									}
-								}
-							}
-							occultism: {
-								0: {
-									Count: 1.0d
-									id: "occultism:dictionary_of_spirits"
-									tag: {
-										"modonomicon:book_id": "occultism:dictionary_of_spirits"
-									}
-								}
-							}
-							solcarrot: {
-								0: {
-									Count: 1.0d
-									id: "solcarrot:food_book"
-								}
-							}
-							productivebees: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "productivebees:guide"
+										"modonomicon:book_id": "theurgy:the_hermetica"
 									}
 								}
 							}
@@ -794,36 +891,6 @@
 									}
 								}
 							}
-							byg: {
-								0: {
-									Count: 1.0d
-									id: "byg:biomepedia"
-								}
-							}
-							ars_nouveau: {
-								0: {
-									Count: 1.0d
-									id: "ars_nouveau:worn_notebook"
-								}
-							}
-							hexcasting: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "hexcasting:thehexbook"
-									}
-								}
-							}
-							ftbic: {
-								0: {
-									Count: 1.0d
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "ftbic:ftbic_guide"
-									}
-								}
-							}
 							mysticalagriculture: {
 								0: {
 									Count: 1.0d
@@ -833,12 +900,90 @@
 									}
 								}
 							}
-							alchemistry: {
+							naturesaura: {
 								0: {
 									Count: 1.0d
 									id: "patchouli:guide_book"
 									tag: {
-										"patchouli:book": "alchemistry:alchemistry_book"
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							occultism: {
+								0: {
+									Count: 1.0d
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							powah: {
+								0: {
+									Count: 1.0d
+									id: "powah:book"
+								}
+							}
+							productivebees: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "productivebees:guide"
+									}
+								}
+							}
+							rebornstorage: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "rebornstorage:rs_book"
+									}
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1.0d
+									id: "rftoolsbase:manual"
+								}
+							}
+							sebastrnlib: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+									}
+								}
+							}
+							securitycraft: {
+								0: {
+									Count: 1.0d
+									id: "securitycraft:sc_manual"
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1.0d
+									id: "solcarrot:food_book"
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
 									}
 								}
 							}
@@ -846,28 +991,19 @@
 						"eccentrictome:version": 1.0d
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "2E8C17C464A35055"
-				type: "xp"
-				xp: 10
-			}]
+			title: "The Eccentric Tome"
+			x: 1.0d
+			y: 7.0d
 		}
 		{
-			title: "Preventing Mob Spawns"
-			x: 0.5d
-			y: 7.5d
 			description: [
 				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a 64 block radius."
 				""
 				"Great for stopping hostile spawns in dark parts of your base!"
 			]
 			id: "05F186C95510BD4B"
-			tasks: [{
-				id: "6418A273A57B203C"
-				type: "item"
-				item: "torchmaster:megatorch"
-			}]
 			rewards: [
 				{
 					id: "2EA020DC0A263031"
@@ -875,67 +1011,75 @@
 					xp: 10
 				}
 				{
-					id: "466A0AFE85E7A5D4"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "466A0AFE85E7A5D4"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "6418A273A57B203C"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Preventing Mob Spawns"
+			x: 0.5d
+			y: 7.5d
 		}
 		{
-			title: "Storing Experience"
-			x: 1.5d
-			y: 7.5d
 			description: [
 				"The &9Experience Crystal&r allows you to store experience, either by giving it your levels, or pumping in experience from a tank."
 				""
 				"You can also transfer the experience stored to level yourself up with just a click of a button!"
 			]
 			id: "0060BCEDABC9BE2E"
-			tasks: [{
-				id: "189B87AF99321862"
-				type: "item"
-				item: "utilitix:experience_crystal"
-			}]
 			rewards: [{
 				id: "57949E0DF2C7478A"
-				type: "item"
 				item: "minecraft:experience_bottle"
+				type: "item"
 			}]
+			tasks: [{
+				id: "189B87AF99321862"
+				item: "utilitix:experience_crystal"
+				type: "item"
+			}]
+			title: "Storing Experience"
+			x: 1.5d
+			y: 7.5d
 		}
 		{
-			title: "Crafting..... on a Stick!"
-			x: 1.0d
-			y: 8.0d
 			description: [
 				"Need a portable crafting table? How about a portable smithing table?"
 				""
 				"&9Crafting On A Stick&r adds portable versions of some of your favorite crafting tables! This is a must have in the early game."
 			]
 			id: "0790D3BB481162A6"
-			tasks: [
-				{
-					id: "6038387EA35404CD"
-					type: "item"
-					item: "crafting_on_a_stick:crafting_table"
-				}
-				{
-					id: "0BF4F9C40FF717DE"
-					type: "item"
-					item: "crafting_on_a_stick:smithing_table"
-				}
-				{
-					id: "405411318EA7A80C"
-					type: "item"
-					item: "crafting_on_a_stick:anvil"
-				}
-			]
 			rewards: [{
 				id: "2D7265C36210BDDB"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [
+				{
+					id: "6038387EA35404CD"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "0BF4F9C40FF717DE"
+					item: "crafting_on_a_stick:smithing_table"
+					type: "item"
+				}
+				{
+					id: "405411318EA7A80C"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+			]
+			title: "Crafting..... on a Stick!"
+			x: 1.0d
+			y: 8.0d
 		}
 	]
-	quest_links: [ ]
+	title: "&bTips \\& Tricks"
 }
