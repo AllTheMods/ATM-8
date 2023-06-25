@@ -3,7 +3,7 @@
   "disable": false,
   "tier": 6,
   "color": "ffef0e",
-  "armorPoints": 150,
+  "armorPoints": 9,
   "enchantability": 87,
   "craftingMaterial": "tag:forge:ingots/allthemodium",
   "rarity": 0,
