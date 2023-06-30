@@ -20,7 +20,6 @@ ServerEvents.recipes(e => {
   // remove combiner recipes for ores
   e.remove({ type: 'mekanism:combining', id: /ore/ })
   // Nerf ethylene
-  e.remove({ id: 'mekanism:reaction/substrate/water_hydrogen'})
   e.custom({
     "type": "mekanism:reaction",
     "duration": 100,
@@ -45,5 +44,5 @@ ServerEvents.recipes(e => {
     "itemOutput": {
       "item": "mekanism:substrate"
     }
-  }).id('kubejs:mek/ethene')
+  }).id('mekanism:reaction/substrate/water_hydrogen')
 })
