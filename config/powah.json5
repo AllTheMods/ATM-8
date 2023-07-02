@@ -28,7 +28,8 @@
 		"heat_blocks": {
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
-			"minecraft:lava": 1000
+			"minecraft:lava": 1000,
+			"allthemodium:soul_lava": 9000
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 30,
@@ -149,11 +150,11 @@
 			"generation_rates": {
 				"starter": 20,
 				"basic": 60,
-				"hardened": 100,
-				"blazing": 200,
-				"niotic": 400,
-				"spirited": 800,
-				"nitro": 2000
+				"hardened": 180,
+				"blazing": 540,
+				"niotic": 1620,
+				"spirited": 5000,
+				"nitro": 20000
 			}
 		},
 		"thermo_generators": {
