@@ -28,6 +28,12 @@ ServerEvents.tags('item', event => {
   event.add('c:blue_sand', '#forge:blue_sand')
   event.add('c:purple_sand', '#forge:purple_sand')
   event.add('c:pink_sand', '#forge:pink_sand')
+
+  //xycraft RGB glass
+  Color.DYE.keySet().forEach(color => {
+    event.remove(`forge:glass/${color}`, '@xycraft_world')
+    event.remove(`forge:glass/brown`, '@xycraft_world')
+  })
 })
 
 ServerEvents.tags('block', event => {
