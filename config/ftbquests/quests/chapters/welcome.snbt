@@ -24,7 +24,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["whatthedrunk"]
-			image: "atm:textures/questpics/welcome/whatthedrunk.png"
+			image: "atm:textures/questpics/welcome/whatthedrunk_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: 0.0d
@@ -36,7 +36,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["EnigmaQuip"]
-			image: "atm:textures/questpics/welcome/enigmaquip.png"
+			image: "atm:textures/questpics/welcome/enigma_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: 5.0d
@@ -48,7 +48,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["theVortex"]
-			image: "atm:textures/questpics/welcome/thevortex.png"
+			image: "atm:textures/questpics/welcome/thevortex_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: 10.0d
@@ -60,7 +60,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["AlfredGG"]
-			image: "atm:textures/questpics/welcome/alfred.png"
+			image: "atm:textures/questpics/welcome/alfred_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: 15.0d
@@ -72,7 +72,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["mitchell52"]
-			image: "atm:textures/questpics/welcome/mitchell52.png"
+			image: "atm:textures/questpics/welcome/mitchell52_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: -5.0d
@@ -84,7 +84,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["oly2o6"]
-			image: "atm:textures/questpics/welcome/oly206.png"
+			image: "atm:textures/questpics/welcome/oly206_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: -15.0d
@@ -96,7 +96,7 @@
 			dev: false
 			height: 5.0d
 			hover: ["MutantGumdrop"]
-			image: "atm:textures/questpics/welcome/mutantgumdrop.png"
+			image: "atm:textures/questpics/welcome/mutantgumdrop_character.png"
 			rotation: 0.0d
 			width: 3.75d
 			x: -10.0d
