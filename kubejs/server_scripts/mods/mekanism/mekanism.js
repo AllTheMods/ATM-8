@@ -19,4 +19,31 @@ ServerEvents.recipes(e => {
 
   // remove combiner recipes for ores
   e.remove({ type: 'mekanism:combining', id: /ore/ })
+  // Nerf ethylene
+  e.remove({ id: 'mekanism:reaction/substrate/water_hydrogen'})
+  e.custom({
+    "type": "mekanism:reaction",
+    "duration": 100,
+    "fluidInput": {
+      "amount": 10,
+      "tag": "minecraft:water"
+    },
+    "gasInput": {
+      "amount": 100,
+      "gas": "mekanism:hydrogen"
+    },
+    "gasOutput": {
+      "amount": 50,
+      "gas": "mekanism:ethene"
+    },
+    "itemInput": {
+      "amount": 2,
+      "ingredient": {
+        "tag": "forge:fuels/bio"
+      }
+    },
+    "itemOutput": {
+      "item": "mekanism:substrate"
+    }
+  }).id('kubejs:mek/ethene')
 })

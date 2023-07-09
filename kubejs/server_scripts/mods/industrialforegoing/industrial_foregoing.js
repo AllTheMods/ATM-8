@@ -8,4 +8,8 @@ ServerEvents.recipes(e=> {
         G: '#forge:gears/vibranium',
         R: 'minecraft:redstone'
     }).id('kubejs:industrialforegoings/ore_laser_drill')
+    //uneeded gears
+    e.remove({id: 'industrialforegoing:iron_gear'})
+    e.remove({id: 'industrialforegoing:gold_gear'})
+    e.remove({id: 'industrialforegoing:diamond_gear'})
 })
