@@ -6,6 +6,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts/ender', 'ae2:ender_dust')
   event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
   event.add('forge:raw_materials', ['silentgear:raw_azure_silver', 'silentgear:raw_crimson_iron'])
+  event.add('forge:rubber', ['ftbic:rubber','industrialforegoing:dryrubber','thermal:cured_rubber'])
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:allthemodium_essence',
     'mysticalagriculture:azure_silver_essence',
@@ -27,6 +28,12 @@ ServerEvents.tags('item', event => {
   event.add('c:blue_sand', '#forge:blue_sand')
   event.add('c:purple_sand', '#forge:purple_sand')
   event.add('c:pink_sand', '#forge:pink_sand')
+
+  //xycraft RGB glass
+  Color.DYE.keySet().forEach(color => {
+    event.remove(`forge:glass/${color}`, '@xycraft_world')
+    event.remove(`forge:glass/brown`, '@xycraft_world')
+  })
 })
 
 ServerEvents.tags('block', event => {
@@ -57,7 +64,13 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.tags('fluid', event => {
-  event.remove('minecraft:water', 'ad_astra:oil')
+  event.remove('minecraft:water',[
+    'ad_astra:oil','ad_astra:flowing_oil',
+    'ad_astra:cryo_fuel','ad_astra:flowing_cryo_fuel',
+    'ad_astra:fuel','ad_astra:flowing_fuel',
+    'hexerei:blood_flowing','hexerei:blood_fluid',
+    'hexerei:tallow_flowing','hexerei:tallow_fluid',
+    'createaddition:flowing_seed_oil','createaddition:seed_oil'])
 })
 
 ServerEvents.tags('entity_type', event => {

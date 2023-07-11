@@ -1,18 +1,27 @@
 {
-	id: "23983F4DC524B14B"
-	group: "2B51AC12041E3F89"
-	order_index: 1
-	filename: "mekanism"
-	title: "Mekanism"
-	icon: "mekanism:steel_casing"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "2B51AC12041E3F89"
+	icon: "mekanism:steel_casing"
+	id: "23983F4DC524B14B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "ftbquests:block/barrier_open"
+		rotation: 45.0d
+		width: 2.0d
+		x: 9.0d
+		y: -5.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			x: -7.0d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "The Starting Machine"
+			dependencies: ["0650996C7818ADB5"]
 			description: [
 				"The Metallurgic Infuser is used to craft core crafting components throughout Mekanism."
 				""
@@ -20,26 +29,19 @@
 				""
 				"This is also how you get Steel Ingots."
 			]
-			dependencies: ["0650996C7818ADB5"]
-			size: 1.5d
 			id: "162CE44400A63575"
-			tasks: [{
-				id: "28277BA9F319240D"
-				type: "item"
-				item: "mekanism:metallurgic_infuser"
-			}]
 			rewards: [
 				{
-					id: "52FEA6D9C1258DA8"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 2
+					id: "52FEA6D9C1258DA8"
+					item: "minecraft:redstone"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "59927C95618B2AB5"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "52912755CBA30A4D"
@@ -47,11 +49,19 @@
 					xp: 10
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "The Starting Machine"
+			tasks: [{
+				id: "28277BA9F319240D"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
 		}
 		{
-			x: -4.0d
-			y: -2.0d
-			subtitle: "Breaks Raw Ores into Dusts"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"This machine works like a Macerator or Pulverizer, and will break ores down into dusts."
 				""
@@ -59,24 +69,18 @@
 				""
 				"This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use."
 			]
-			dependencies: ["162CE44400A63575"]
 			id: "08DDE018A804BFE7"
-			tasks: [{
-				id: "1AE233B4CCFE99F7"
-				type: "item"
-				item: "mekanism:enrichment_chamber"
-			}]
 			rewards: [
 				{
-					id: "4DF8BB733E3987AA"
-					type: "item"
-					item: "minecraft:raw_iron"
 					count: 3
+					id: "4DF8BB733E3987AA"
+					item: "minecraft:raw_iron"
+					type: "item"
 				}
 				{
 					id: "58769DAE976C11FA"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0C4A930404601471"
@@ -84,28 +88,28 @@
 					xp: 10
 				}
 			]
+			subtitle: "Breaks Raw Ores into Dusts"
+			tasks: [{
+				id: "1AE233B4CCFE99F7"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
 		}
 		{
-			x: -8.0d
-			y: -0.5d
-			subtitle: "Really Only Good For 2 Things"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"The machine creates two really strong ingots: Refined Glowstone and Refined Obsidian."
 				""
 				"It infuses an item with Osmium to create a more powerful ingot."
 			]
-			dependencies: ["162CE44400A63575"]
 			id: "195729280394ABFB"
-			tasks: [{
-				id: "6934C61AFEB0443D"
-				type: "item"
-				item: "mekanism:osmium_compressor"
-			}]
 			rewards: [
 				{
 					id: "7ECD36EFDEC929A1"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "268A8495184348CE"
@@ -113,30 +117,30 @@
 					xp: 10
 				}
 			]
+			subtitle: "Really Only Good For 2 Things"
+			tasks: [{
+				id: "6934C61AFEB0443D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			x: 1.0d
-			y: -2.0d
-			subtitle: "It Crushes Things."
-			description: ["This machine crushes ores into their \"dirty\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot."]
 			dependencies: ["6C25D42C36175BF4"]
+			description: ["This machine crushes ores into their \"dirty\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot."]
 			id: "7AE502EDB73BD57A"
-			tasks: [{
-				id: "431D7329CFCAF880"
-				type: "item"
-				item: "mekanism:crusher"
-			}]
 			rewards: [
 				{
-					id: "62B555EE0C1159EA"
-					type: "item"
-					item: "mekanism:dirty_dust_iron"
 					count: 4
+					id: "62B555EE0C1159EA"
+					item: "mekanism:dirty_dust_iron"
+					type: "item"
 				}
 				{
 					id: "282F549823B95E69"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0E0B58D60884D6AD"
@@ -144,30 +148,28 @@
 					xp: 10
 				}
 			]
+			subtitle: "It Crushes Things."
+			tasks: [{
+				id: "431D7329CFCAF880"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 		{
-			x: -8.125d
-			y: 3.125d
-			shape: "hexagon"
-			subtitle: "A bigger robot friend."
+			dependencies: ["4BDE773C3359D584"]
 			description: [
 				"This machine can mine for you!"
 				""
 				"It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!"
 			]
-			dependencies: ["4BDE773C3359D584"]
-			size: 1.25d
 			id: "7EA6B942D1294ED6"
-			tasks: [{
-				id: "36FE95268A543F7C"
-				type: "item"
-				item: "mekanism:digital_miner"
-			}]
 			rewards: [
 				{
 					id: "24EF84E5344DB715"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "42A4D32A98E77574"
@@ -175,37 +177,37 @@
 					xp: 100
 				}
 				{
-					id: "6901B097A0EE1749"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6901B097A0EE1749"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "A bigger robot friend."
+			tasks: [{
+				id: "36FE95268A543F7C"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 3.75d
 		}
 		{
-			x: 3.5d
-			y: 7.0d
-			shape: "diamond"
-			subtitle: "It has a BUCKET MODE!"
+			dependencies: ["58B125BD4876054C"]
 			description: [
 				"This item stores liquids."
 				""
 				"It has a bucket mode which can be toggled to scoop up liquids with it. Very useful for lava in the beginning!"
 			]
 			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
 			id: "6DB1AAAD926486BC"
-			tasks: [{
-				id: "54BEF9EA9F1D4374"
-				type: "item"
-				item: "mekanism:basic_fluid_tank"
-			}]
 			rewards: [
 				{
 					id: "2DF1E2F8B6BF2589"
-					type: "item"
 					item: "minecraft:bucket"
+					type: "item"
 				}
 				{
 					id: "13F85F8598002FFE"
@@ -213,29 +215,30 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "It has a BUCKET MODE!"
+			tasks: [{
+				id: "54BEF9EA9F1D4374"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
 		}
 		{
-			x: -8.125d
-			y: 1.875d
-			shape: "hexagon"
-			subtitle: "A Mini-Robot To Accompany You On Your Travels"
-			hide_dependency_lines: false
 			dependencies: [
 				"1FC7E9DBF92BE6AA"
 				"4204702AA6FBF40B"
 			]
-			size: 1.25d
+			hide_dependency_lines: false
 			id: "4BDE773C3359D584"
-			tasks: [{
-				id: "171E6682D1578C63"
-				type: "item"
-				item: "mekanism:robit"
-			}]
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "3405FDFD99DF7D9E"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "733BA4015C409DBE"
@@ -243,26 +246,27 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "A Mini-Robot To Accompany You On Your Travels"
+			tasks: [{
+				id: "171E6682D1578C63"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 2.5d
 		}
 		{
-			x: -6.875d
-			y: 3.125d
-			shape: "hexagon"
-			subtitle: "Requires Hydrogen to Work!"
-			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
-			size: 1.25d
+			hide_dependency_lines: true
 			id: "37D4E5ACB35D8BF1"
-			tasks: [{
-				id: "71E922FC5BBF154C"
-				type: "item"
-				item: "mekanism:jetpack"
-			}]
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "2556E1661DDDC8CA"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "1D7E982934705158"
@@ -270,27 +274,27 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Requires Hydrogen to Work!"
+			tasks: [{
+				id: "71E922FC5BBF154C"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.75d
 		}
 		{
-			x: -0.5d
-			y: 7.0d
-			shape: "diamond"
-			subtitle: "Upgrading to Factories"
+			dependencies: ["162CE44400A63575"]
 			description: ["This item upgrades a base machine to a Basic Factory machine."]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.5d
 			id: "07AD45DCF9EE3C2E"
-			tasks: [{
-				id: "28A769E7676E358F"
-				type: "item"
-				item: "mekanism:basic_tier_installer"
-			}]
 			rewards: [
 				{
 					id: "7E9D506DF3FE5B8C"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "7A154DCDEA611E27"
@@ -298,24 +302,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Upgrading to Factories"
+			tasks: [{
+				id: "28A769E7676E358F"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
 		}
 		{
-			x: 0.0d
-			y: 7.75d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["07AD45DCF9EE3C2E"]
+			hide_dependency_lines: true
 			id: "493FAE3A6088518E"
-			tasks: [{
-				id: "646785A06E01D173"
-				type: "item"
-				item: "mekanism:advanced_tier_installer"
-			}]
 			rewards: [
 				{
 					id: "0EF4D25B2F271C43"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "49D731775D72A88D"
@@ -323,23 +329,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "646785A06E01D173"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.75d
 		}
 		{
-			x: -0.5d
-			y: 8.25d
-			shape: "diamond"
 			dependencies: ["493FAE3A6088518E"]
 			id: "3E30EC9CA875A1F9"
-			tasks: [{
-				id: "3AA211725EA97D18"
-				type: "item"
-				item: "mekanism:elite_tier_installer"
-			}]
 			rewards: [
 				{
 					id: "654AEFEEC17DCABC"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "34A7A08FE327ABAD"
@@ -347,23 +353,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "3AA211725EA97D18"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.25d
 		}
 		{
-			x: -1.0d
-			y: 7.75d
-			shape: "diamond"
 			dependencies: ["3E30EC9CA875A1F9"]
 			id: "220C38510116BF36"
-			tasks: [{
-				id: "56A8A51990C7F0A1"
-				type: "item"
-				item: "mekanism:ultimate_tier_installer"
-			}]
 			rewards: [
 				{
 					id: "2BAB3B39820EF572"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "7191632FDBC16F4D"
@@ -371,36 +377,35 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "56A8A51990C7F0A1"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.75d
 		}
 		{
-			x: -8.125d
-			y: 4.375d
-			shape: "hexagon"
-			subtitle: "Wireless Power, Gases, Fluids, Everything."
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"This item is how you make Wireless Transfers possible."
 				""
 				"You can set specific channels, named by you, to transfer whatever you want from it."
 			]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.25d
 			id: "7CC49360D07086B8"
-			tasks: [{
-				id: "0526878F9506FB48"
-				type: "item"
-				item: "mekanism:quantum_entangloporter"
-			}]
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "18DB85CED00A8626"
-					type: "item"
 					item: "mekanism:teleportation_core"
+					type: "item"
 				}
 				{
 					id: "623AC526E793CF87"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "5EA61C4244976347"
@@ -408,27 +413,27 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Wireless Power, Gases, Fluids, Everything."
+			tasks: [{
+				id: "0526878F9506FB48"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 5.0d
 		}
 		{
-			x: -2.5000000000000004d
-			y: 7.0d
-			shape: "diamond"
-			subtitle: "Storing Power"
+			dependencies: ["162CE44400A63575"]
 			description: ["This block stores power, and can also be used to charge items."]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.5d
 			id: "09408C6DCAC90318"
-			tasks: [{
-				id: "19C3A9D5E656FAA5"
-				type: "item"
-				item: "mekanism:basic_energy_cube"
-			}]
 			rewards: [
 				{
 					id: "002E07C16DFB3445"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0CD8FBAF40FDD1E5"
@@ -436,24 +441,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Storing Power"
+			tasks: [{
+				id: "19C3A9D5E656FAA5"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -2.5000000000000004d
+			y: 7.0d
 		}
 		{
-			x: -2.0d
-			y: 7.800000000000001d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["09408C6DCAC90318"]
+			hide_dependency_lines: true
 			id: "10909A87C1953F7C"
-			tasks: [{
-				id: "3939A98E3276095B"
-				type: "item"
-				item: "mekanism:advanced_energy_cube"
-			}]
 			rewards: [
 				{
 					id: "4FA5186D1822B6A4"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "24AB492929A83BB7"
@@ -461,23 +468,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "3939A98E3276095B"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.800000000000001d
 		}
 		{
-			x: -2.5000000000000004d
-			y: 8.3d
-			shape: "diamond"
 			dependencies: ["10909A87C1953F7C"]
 			id: "1DA058C68CF437DC"
-			tasks: [{
-				id: "0485F28A3916A974"
-				type: "item"
-				item: "mekanism:elite_energy_cube"
-			}]
 			rewards: [
 				{
 					id: "75FE23DFE2FA6B3B"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "7C97CFC3809180E9"
@@ -485,23 +492,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "0485F28A3916A974"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: -2.5000000000000004d
+			y: 8.3d
 		}
 		{
-			x: -3.0000000000000004d
-			y: 7.800000000000001d
-			shape: "diamond"
 			dependencies: ["1DA058C68CF437DC"]
 			id: "7AF982B6D8FD6C03"
-			tasks: [{
-				id: "50A250703B09FA5A"
-				type: "item"
-				item: "mekanism:ultimate_energy_cube"
-			}]
 			rewards: [
 				{
 					id: "032D64DAE54703D1"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "375F0416298634FC"
@@ -509,26 +516,25 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "50A250703B09FA5A"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -3.0000000000000004d
+			y: 7.800000000000001d
 		}
 		{
-			x: -7.5d
-			y: -3.5d
-			shape: "hexagon"
-			subtitle: "The Basic Alloy for Crafting Items"
+			dependencies: ["162CE44400A63575"]
 			description: ["Infusing Iron with Redstone in a Metallurgic Infuser will get you one of these."]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
 			id: "166971866A9234C7"
-			tasks: [{
-				id: "72CE838EFDDE6479"
-				type: "item"
-				item: "mekanism:alloy_infused"
-			}]
 			rewards: [
 				{
 					id: "553CF82B4CDE5085"
-					type: "item"
 					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
 					id: "7A2076948F93E6D6"
@@ -536,23 +542,24 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			subtitle: "The Basic Alloy for Crafting Items"
+			tasks: [{
+				id: "72CE838EFDDE6479"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
 		}
 		{
-			x: -7.5d
-			y: -4.5d
-			shape: "hexagon"
 			dependencies: ["166971866A9234C7"]
 			id: "7940E814260C556F"
-			tasks: [{
-				id: "2FE06FDA0A3A66C7"
-				type: "item"
-				item: "mekanism:alloy_reinforced"
-			}]
 			rewards: [
 				{
 					id: "5FA097D4BF2A2654"
-					type: "item"
 					item: "mekanism:enriched_diamond"
+					type: "item"
 				}
 				{
 					id: "73EF7D1E94F0925B"
@@ -560,23 +567,23 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FE06FDA0A3A66C7"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
 		}
 		{
-			x: -7.5d
-			y: -5.5d
-			shape: "hexagon"
 			dependencies: ["7940E814260C556F"]
 			id: "019D5A05A2134C7E"
-			tasks: [{
-				id: "0DD9B2119BB50C80"
-				type: "item"
-				item: "mekanism:alloy_atomic"
-			}]
 			rewards: [
 				{
 					id: "6C480517028750E3"
-					type: "item"
 					item: "mekanism:dust_refined_obsidian"
+					type: "item"
 				}
 				{
 					id: "1E437DC12A456C83"
@@ -584,26 +591,25 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DD9B2119BB50C80"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
 		}
 		{
-			x: -6.5d
-			y: -3.5d
-			shape: "hexagon"
-			subtitle: "The Basic Control Circuit"
+			dependencies: ["162CE44400A63575"]
 			description: ["Infusing Osmium with Redstone in a Metallurgic Infuser will create you one of these."]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
 			id: "0498A578D0EC3254"
-			tasks: [{
-				id: "5E51F5B17F77573E"
-				type: "item"
-				item: "mekanism:basic_control_circuit"
-			}]
 			rewards: [
 				{
 					id: "44A42C932205CED3"
-					type: "item"
 					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
 					id: "36DA06D55E5BB49C"
@@ -611,26 +617,27 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			subtitle: "The Basic Control Circuit"
+			tasks: [{
+				id: "5E51F5B17F77573E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
 		}
 		{
-			x: -6.5d
-			y: -4.5d
-			shape: "hexagon"
 			dependencies: [
 				"0498A578D0EC3254"
 				"166971866A9234C7"
 			]
 			id: "6D7CABCFB50D8B0D"
-			tasks: [{
-				id: "05F2EEE4DE21E2ED"
-				type: "item"
-				item: "mekanism:advanced_control_circuit"
-			}]
 			rewards: [
 				{
 					id: "29E77041082DD2E9"
-					type: "item"
 					item: "mekanism:enriched_redstone"
+					type: "item"
 				}
 				{
 					id: "4C4A490E290BB38C"
@@ -638,26 +645,26 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "05F2EEE4DE21E2ED"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
 		}
 		{
-			x: -6.5d
-			y: -5.5d
-			shape: "hexagon"
 			dependencies: [
 				"6D7CABCFB50D8B0D"
 				"7940E814260C556F"
 			]
 			id: "347C16F0F7CFAACF"
-			tasks: [{
-				id: "48AC2274973C4509"
-				type: "item"
-				item: "mekanism:elite_control_circuit"
-			}]
 			rewards: [
 				{
 					id: "5A285211E7D37512"
-					type: "item"
 					item: "mekanism:alloy_reinforced"
+					type: "item"
 				}
 				{
 					id: "117AA7D11A587024"
@@ -665,26 +672,26 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "48AC2274973C4509"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
 		}
 		{
-			x: -7.0d
-			y: -6.5d
-			shape: "hexagon"
 			dependencies: [
 				"347C16F0F7CFAACF"
 				"019D5A05A2134C7E"
 			]
 			id: "4AA150A009E904DA"
-			tasks: [{
-				id: "7E9FCA38BA758B41"
-				type: "item"
-				item: "mekanism:ultimate_control_circuit"
-			}]
 			rewards: [
 				{
 					id: "2EAE017B367B43AF"
-					type: "item"
 					item: "mekanism:alloy_atomic"
+					type: "item"
 				}
 				{
 					id: "3C70B4A824D438D9"
@@ -692,11 +699,17 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E9FCA38BA758B41"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
 		}
 		{
-			x: 0.5d
-			y: 2.0d
-			shape: "pentagon"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"Infusing Iron with Coal or Charcoal in a Metallurgic Infuser will give you Enriched Iron."
 				""
@@ -705,27 +718,12 @@
 				"This is a major crafting component in a lot of recipes in Mekanism."
 			]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.5d
 			id: "1B6DDF50D00CBB31"
-			tasks: [{
-				id: "6B88F1F9DF50C1E4"
-				type: "item"
-				title: "Any #forge:ingots/steel"
-				icon: "alltheores:steel_ingot"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ingots/steel"
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "2B4CF26B63BD01A1"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "62B5B4DCE3CD982F"
@@ -733,27 +731,35 @@
 					xp: 10
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				icon: "alltheores:steel_ingot"
+				id: "6B88F1F9DF50C1E4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "Steel"
+			x: 0.5d
+			y: 2.0d
 		}
 		{
-			x: -3.5d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "For Transferring Power"
-			description: [""]
 			dependencies: ["1B6DDF50D00CBB31"]
-			size: 1.5d
+			description: [""]
 			id: "23F165DEAD225B10"
-			tasks: [{
-				id: "56F8A49135418FD8"
-				type: "item"
-				item: "mekanism:basic_universal_cable"
-			}]
 			rewards: [
 				{
-					id: "33E6BC2DA88E92EE"
-					type: "item"
-					item: "mekanism:basic_universal_cable"
 					count: 4
+					id: "33E6BC2DA88E92EE"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
 				}
 				{
 					id: "65D3C338D866F6C0"
@@ -761,24 +767,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "For Transferring Power"
+			tasks: [{
+				id: "56F8A49135418FD8"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
 		}
 		{
-			x: -3.0d
-			y: 5.0d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["23F165DEAD225B10"]
+			hide_dependency_lines: true
 			id: "618ECDB3FB534A8A"
-			tasks: [{
-				id: "445F3D8AA18A518A"
-				type: "item"
-				item: "mekanism:advanced_universal_cable"
-			}]
 			rewards: [
 				{
 					id: "29B9E7D9B73A99F0"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0FEFDBFB0971C811"
@@ -786,23 +794,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "445F3D8AA18A518A"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
 		}
 		{
-			x: -3.5d
-			y: 5.5d
-			shape: "diamond"
 			dependencies: ["618ECDB3FB534A8A"]
 			id: "7553689BC9202E14"
-			tasks: [{
-				id: "6EC6D1463C65EBF2"
-				type: "item"
-				item: "mekanism:elite_universal_cable"
-			}]
 			rewards: [
 				{
 					id: "42EDDE2A027669CF"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "71DC1FAB9D749E6D"
@@ -810,23 +818,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "6EC6D1463C65EBF2"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
 		}
 		{
-			x: -4.0d
-			y: 5.0d
-			shape: "diamond"
 			dependencies: ["7553689BC9202E14"]
 			id: "32E093F004E8CAC6"
-			tasks: [{
-				id: "1ECDAF49CF1BC952"
-				type: "item"
-				item: "mekanism:ultimate_universal_cable"
-			}]
 			rewards: [
 				{
 					id: "1DA3EC185CA8BE9F"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4992789167D656CD"
@@ -834,26 +842,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "1ECDAF49CF1BC952"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			x: -1.5d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "For Transferring Fluids"
 			dependencies: ["1B6DDF50D00CBB31"]
-			size: 1.5d
 			id: "2EF4DD5CC254CC80"
-			tasks: [{
-				id: "45B151086147D98D"
-				type: "item"
-				item: "mekanism:basic_mechanical_pipe"
-			}]
 			rewards: [
 				{
-					id: "011785CCEDC7688E"
-					type: "item"
-					item: "mekanism:basic_mechanical_pipe"
 					count: 4
+					id: "011785CCEDC7688E"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
 				}
 				{
 					id: "6FA14D9A12111586"
@@ -861,24 +867,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "For Transferring Fluids"
+			tasks: [{
+				id: "45B151086147D98D"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			x: -1.0d
-			y: 5.0d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["2EF4DD5CC254CC80"]
+			hide_dependency_lines: true
 			id: "1A72F7DA24E1BB09"
-			tasks: [{
-				id: "131392325AEB228E"
-				type: "item"
-				item: "mekanism:advanced_mechanical_pipe"
-			}]
 			rewards: [
 				{
 					id: "28A0F6D1DD5ABC8C"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "43AF0D7C4057994C"
@@ -886,23 +894,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "131392325AEB228E"
+				item: "mekanism:advanced_mechanical_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
 		}
 		{
-			x: -1.5d
-			y: 5.5d
-			shape: "diamond"
 			dependencies: ["1A72F7DA24E1BB09"]
 			id: "5B3FDF651D845DF1"
-			tasks: [{
-				id: "78C482BF65B20673"
-				type: "item"
-				item: "mekanism:elite_mechanical_pipe"
-			}]
 			rewards: [
 				{
 					id: "62E318265FA22D19"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "290BF7F4A217F813"
@@ -910,23 +918,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "78C482BF65B20673"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
 		}
 		{
-			x: -2.0d
-			y: 5.0d
-			shape: "diamond"
 			dependencies: ["5B3FDF651D845DF1"]
 			id: "01C3B23461807007"
-			tasks: [{
-				id: "25D5626BBA7615F0"
-				type: "item"
-				item: "mekanism:ultimate_mechanical_pipe"
-			}]
 			rewards: [
 				{
 					id: "174F4154411CE222"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "45500FB3AC79CFE4"
@@ -934,26 +942,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "25D5626BBA7615F0"
+				item: "mekanism:ultimate_mechanical_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			x: 0.5d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "For Transferring Gasses"
 			dependencies: ["1B6DDF50D00CBB31"]
-			size: 1.5d
 			id: "4434D7B66521D69A"
-			tasks: [{
-				id: "685BFFC7BDA40FC3"
-				type: "item"
-				item: "mekanism:basic_pressurized_tube"
-			}]
 			rewards: [
 				{
-					id: "43C7CBD7952BAF44"
-					type: "item"
-					item: "mekanism:basic_pressurized_tube"
 					count: 4
+					id: "43C7CBD7952BAF44"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
 				}
 				{
 					id: "0C073BA4ADC6439C"
@@ -961,26 +967,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "For Transferring Gasses"
+			tasks: [{
+				id: "685BFFC7BDA40FC3"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
 		}
 		{
-			x: 2.5d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "For Transferring Items"
 			dependencies: ["1B6DDF50D00CBB31"]
-			size: 1.5d
 			id: "5B681BC43371CC5C"
-			tasks: [{
-				id: "3F972BE9DFCA1EB5"
-				type: "item"
-				item: "mekanism:basic_logistical_transporter"
-			}]
 			rewards: [
 				{
-					id: "75E2FFA83AB6A12A"
-					type: "item"
-					item: "mekanism:basic_logistical_transporter"
 					count: 4
+					id: "75E2FFA83AB6A12A"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
 				}
 				{
 					id: "0E81EDFBC2D49452"
@@ -988,26 +994,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "For Transferring Items"
+			tasks: [{
+				id: "3F972BE9DFCA1EB5"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 		{
-			x: 4.5d
-			y: 4.0d
-			shape: "diamond"
-			subtitle: "For Transferring Heat"
 			dependencies: ["1B6DDF50D00CBB31"]
-			size: 1.5d
 			id: "531E3FF1F2865C67"
-			tasks: [{
-				id: "5F4FEC0FD7C5CC33"
-				type: "item"
-				item: "mekanism:basic_thermodynamic_conductor"
-			}]
 			rewards: [
 				{
-					id: "434BA009CC22D188"
-					type: "item"
-					item: "mekanism:basic_thermodynamic_conductor"
 					count: 4
+					id: "434BA009CC22D188"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
 				}
 				{
 					id: "02D46DE414B9402B"
@@ -1015,24 +1021,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "For Transferring Heat"
+			tasks: [{
+				id: "5F4FEC0FD7C5CC33"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
 		}
 		{
-			x: 1.0d
-			y: 5.0d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["4434D7B66521D69A"]
+			hide_dependency_lines: true
 			id: "768F9EBD3E115CA6"
-			tasks: [{
-				id: "2E82ABE762A77F41"
-				type: "item"
-				item: "mekanism:advanced_pressurized_tube"
-			}]
 			rewards: [
 				{
 					id: "2BC755C4DEF323CD"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "3CA544203F49B1DD"
@@ -1040,23 +1048,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "2E82ABE762A77F41"
+				item: "mekanism:advanced_pressurized_tube"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 		{
-			x: 0.5d
-			y: 5.5d
-			shape: "diamond"
 			dependencies: ["768F9EBD3E115CA6"]
 			id: "6424D99CBA76895B"
-			tasks: [{
-				id: "460D2FF854258953"
-				type: "item"
-				item: "mekanism:elite_pressurized_tube"
-			}]
 			rewards: [
 				{
 					id: "622A2FCCC3BFDD77"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4B2C848A94AB89DF"
@@ -1064,23 +1072,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "460D2FF854258953"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
 		}
 		{
-			x: 0.0d
-			y: 5.0d
-			shape: "diamond"
 			dependencies: ["6424D99CBA76895B"]
 			id: "546F7FF099D2696E"
-			tasks: [{
-				id: "1E066CC63A95B288"
-				type: "item"
-				item: "mekanism:ultimate_pressurized_tube"
-			}]
 			rewards: [
 				{
 					id: "69161884ABE804F2"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "189D64FDDDFC6AA3"
@@ -1088,24 +1096,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E066CC63A95B288"
+				item: "mekanism:ultimate_pressurized_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			x: 3.0d
-			y: 5.0d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["5B681BC43371CC5C"]
+			hide_dependency_lines: true
 			id: "30B3469DAA8D5A0A"
-			tasks: [{
-				id: "631FDADA57127F2E"
-				type: "item"
-				item: "mekanism:advanced_logistical_transporter"
-			}]
 			rewards: [
 				{
 					id: "7AEB19AB9872A9F0"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "6BBCBD12ECF90A70"
@@ -1113,23 +1121,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "631FDADA57127F2E"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
 		}
 		{
-			x: 2.5d
-			y: 5.5d
-			shape: "diamond"
 			dependencies: ["30B3469DAA8D5A0A"]
 			id: "46AB23E922C51517"
-			tasks: [{
-				id: "1F7689D1D5DB5E8C"
-				type: "item"
-				item: "mekanism:elite_logistical_transporter"
-			}]
 			rewards: [
 				{
 					id: "55B3DD4C6EF41873"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "77ACF6D58FB6571F"
@@ -1137,23 +1145,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F7689D1D5DB5E8C"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
 		}
 		{
-			x: 2.0d
-			y: 5.0d
-			shape: "diamond"
 			dependencies: ["46AB23E922C51517"]
 			id: "6C8431C216A66C1F"
-			tasks: [{
-				id: "62A00D9DD3A8CA8E"
-				type: "item"
-				item: "mekanism:ultimate_logistical_transporter"
-			}]
 			rewards: [
 				{
 					id: "6BEC988B43431E0E"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "32495EA2EB9D601C"
@@ -1161,24 +1169,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "62A00D9DD3A8CA8E"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
 		}
 		{
-			x: 5.0d
-			y: 5.0d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["531E3FF1F2865C67"]
+			hide_dependency_lines: true
 			id: "7522F2DC9038ED92"
-			tasks: [{
-				id: "7B1C318ACC88ED60"
-				type: "item"
-				item: "mekanism:advanced_thermodynamic_conductor"
-			}]
 			rewards: [
 				{
 					id: "7CE8542B0820BF47"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "1DAAB1C491A45FA6"
@@ -1186,23 +1194,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B1C318ACC88ED60"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
 		}
 		{
-			x: 4.5d
-			y: 5.5d
-			shape: "diamond"
 			dependencies: ["7522F2DC9038ED92"]
 			id: "55E2F8C6A71E7328"
-			tasks: [{
-				id: "72F178B9B6C32B15"
-				type: "item"
-				item: "mekanism:elite_thermodynamic_conductor"
-			}]
 			rewards: [
 				{
 					id: "25196B84EC5AF157"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4662DD54B15AF7FF"
@@ -1210,23 +1218,23 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "72F178B9B6C32B15"
+				item: "mekanism:elite_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
 		}
 		{
-			x: 4.0d
-			y: 5.0d
-			shape: "diamond"
 			dependencies: ["55E2F8C6A71E7328"]
 			id: "5E2F9E27E6B4DF74"
-			tasks: [{
-				id: "744EA1745278F562"
-				type: "item"
-				item: "mekanism:ultimate_thermodynamic_conductor"
-			}]
 			rewards: [
 				{
 					id: "1498DEB1CFBCFF1C"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "3589979E95DB7C1B"
@@ -1234,28 +1242,28 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "744EA1745278F562"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
 		}
 		{
-			x: -7.5d
-			y: 0.5d
-			shape: "diamond"
 			dependencies: ["195729280394ABFB"]
 			id: "31B73D16C0199785"
-			tasks: [{
-				id: "69CEEFADCFA28675"
-				type: "item"
-				item: "mekanism:ingot_refined_obsidian"
-			}]
 			rewards: [
 				{
 					id: "66D918CA2A6FE21B"
-					type: "item"
 					item: "mekanism:enriched_refined_obsidian"
+					type: "item"
 				}
 				{
 					id: "4003D6DCC41BFE6C"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0E6DCEACCB6074DF"
@@ -1263,24 +1271,24 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "69CEEFADCFA28675"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
 		}
 		{
-			x: -8.5d
-			y: 0.5d
-			shape: "diamond"
 			dependencies: ["195729280394ABFB"]
 			id: "58445E5B3957ACC8"
-			tasks: [{
-				id: "532EE85D4748D50D"
-				type: "item"
-				item: "mekanism:ingot_refined_glowstone"
-			}]
 			rewards: [
 				{
-					id: "356543506AA2B6B0"
-					type: "item"
-					item: "minecraft:glowstone_dust"
 					count: 2
+					id: "356543506AA2B6B0"
+					item: "minecraft:glowstone_dust"
+					type: "item"
 				}
 				{
 					id: "7B3AD733695E004D"
@@ -1288,11 +1296,20 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "532EE85D4748D50D"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
 		}
 		{
-			x: -0.5d
-			y: -2.0d
-			subtitle: "It makes Clumps."
+			dependencies: [
+				"18D88932916C7A98"
+				"407EFAF528871014"
+			]
 			description: [
 				"This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, then through a smelter to be turned to an ingot."
 				""
@@ -1300,27 +1317,18 @@
 				""
 				"This machine requires &aOxygen&r to run, which is created by pumping water into an &6Electrolytic Separator&r."
 			]
-			dependencies: [
-				"18D88932916C7A98"
-				"407EFAF528871014"
-			]
 			id: "6C25D42C36175BF4"
-			tasks: [{
-				id: "4983AE3B954BF2FE"
-				type: "item"
-				item: "mekanism:purification_chamber"
-			}]
 			rewards: [
 				{
-					id: "258304336DF472BB"
-					type: "item"
-					item: "mekanism:clump_iron"
 					count: 4
+					id: "258304336DF472BB"
+					item: "mekanism:clump_iron"
+					type: "item"
 				}
 				{
 					id: "20D0EFFC09ECB28D"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "2AF72C7C24D94674"
@@ -1328,35 +1336,35 @@
 					xp: 10
 				}
 			]
+			subtitle: "It makes Clumps."
+			tasks: [{
+				id: "4983AE3B954BF2FE"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
 		}
 		{
-			x: -6.0d
-			y: -0.5d
-			subtitle: "Mekanism's Powered Furnace"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"This machine smelts items."
 				""
 				"It can be upgraded into a Smelting Factory, increasing the total number of smelting slots up to a maximum of 9."
 			]
-			dependencies: ["162CE44400A63575"]
-			optional: true
 			id: "488DBE69595F38F8"
-			tasks: [{
-				id: "5A081977DB9407EA"
-				type: "item"
-				item: "mekanism:energized_smelter"
-			}]
+			optional: true
 			rewards: [
 				{
-					id: "43FE96E4A4A00D5C"
-					type: "item"
-					item: "minecraft:raw_iron"
 					count: 2
+					id: "43FE96E4A4A00D5C"
+					item: "minecraft:raw_iron"
+					type: "item"
 				}
 				{
 					id: "699241EB28E47F5E"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "40AB668F74703AC6"
@@ -1364,11 +1372,17 @@
 					xp: 10
 				}
 			]
+			subtitle: "Mekanism's Powered Furnace"
+			tasks: [{
+				id: "5A081977DB9407EA"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
 		}
 		{
-			x: -2.0d
-			y: -2.0d
-			subtitle: "Time to Break It Down"
+			dependencies: ["08DDE018A804BFE7"]
 			description: [
 				"The Electrolytic Separator (big fancy name) is used to separate chemicals from certain liquids and gases."
 				""
@@ -1376,24 +1390,18 @@
 				""
 				"To start, make one of these and we'll break down the most basic fluid: Water."
 			]
-			dependencies: ["08DDE018A804BFE7"]
 			id: "18D88932916C7A98"
-			tasks: [{
-				id: "054CC6FB5173F8A3"
-				type: "item"
-				item: "mekanism:electrolytic_separator"
-			}]
 			rewards: [
 				{
 					id: "58B361AC94AEB36D"
-					type: "item"
 					item: "mekanism:alloy_infused"
 					random_bonus: 1
+					type: "item"
 				}
 				{
 					id: "7863B65A90948AAA"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0C296148AF479F71"
@@ -1401,34 +1409,34 @@
 					xp: 10
 				}
 			]
+			subtitle: "Time to Break It Down"
+			tasks: [{
+				id: "054CC6FB5173F8A3"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 		{
-			x: -2.0d
-			y: -4.0d
-			subtitle: "Burn Gases into Power!"
+			dependencies: ["407EFAF528871014"]
 			description: [
 				"This generator can burn both Hydrogen and Ethylene to produce power."
 				""
 				"Note: Burning Hydrogen will not produce more power than it costs to run an Electrolytic Separator. Use for Ethylene instead."
 			]
-			dependencies: ["407EFAF528871014"]
 			id: "3EC9D0DA61B45328"
-			tasks: [{
-				id: "2C13E8B67BC61E34"
-				type: "item"
-				item: "mekanismgenerators:gas_burning_generator"
-			}]
 			rewards: [
 				{
-					id: "5E48D3BDD3BDAF4C"
-					type: "item"
-					item: "mekanism:alloy_infused"
 					count: 2
+					id: "5E48D3BDD3BDAF4C"
+					item: "mekanism:alloy_infused"
+					type: "item"
 				}
 				{
 					id: "58BEEEC6C7661895"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "56B7014FCB396F47"
@@ -1436,40 +1444,40 @@
 					xp: 100
 				}
 				{
-					id: "1BD5BF3301C59FE5"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1BD5BF3301C59FE5"
 					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
+			subtitle: "Burn Gases into Power!"
+			tasks: [{
+				id: "2C13E8B67BC61E34"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
 		}
 		{
-			x: 5.0d
-			y: -2.0d
-			subtitle: "Turns 3 Raw Ore into 8 Ore Shards"
+			dependencies: ["263220DCCDB90E29"]
 			description: [
 				"This machine is the next step to your Ore Processing Factory. Add this to the left of your Purification Chamber to build on to your current ore factory!"
 				""
 				"This machine requires &aHydrogen Chloride&r to operate. To find out how to create Hydrogen Chloride, follow the quest above!"
 			]
-			dependencies: ["263220DCCDB90E29"]
 			id: "4F1C04C0F6769825"
-			tasks: [{
-				id: "443DCB7E2E45F3DD"
-				type: "item"
-				item: "mekanism:chemical_injection_chamber"
-			}]
 			rewards: [
 				{
-					id: "241F3906AE9BC520"
-					type: "item"
-					item: "mekanism:alloy_infused"
 					count: 2
+					id: "241F3906AE9BC520"
+					item: "mekanism:alloy_infused"
+					type: "item"
 				}
 				{
 					id: "566771B41B345645"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "2216852A9C647509"
@@ -1477,28 +1485,28 @@
 					xp: 100
 				}
 			]
+			subtitle: "Turns 3 Raw Ore into 8 Ore Shards"
+			tasks: [{
+				id: "443DCB7E2E45F3DD"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
 		}
 		{
-			x: 5.5d
-			y: -4.0d
-			subtitle: "The Chemical Combiner"
+			dependencies: ["603877AB96321F1A"]
 			description: [
 				"This machine combines two gases to create a new gas."
 				""
 				"You'll need this to combine Chlorine with Hydrogen to create Hyrdogen Chloride, which is then used in our Chemical Injection Chamber."
 			]
-			dependencies: ["603877AB96321F1A"]
 			id: "04E2D539E33B7B0F"
-			tasks: [{
-				id: "31D203EC92BEA66F"
-				type: "item"
-				item: "mekanism:chemical_infuser"
-			}]
 			rewards: [
 				{
 					id: "3C71942DE8376D3A"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "576766449D68D6D4"
@@ -1506,12 +1514,17 @@
 					xp: 100
 				}
 			]
+			subtitle: "The Chemical Combiner"
+			tasks: [{
+				id: "31D203EC92BEA66F"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
 		}
 		{
-			title: "Thermal Evaporation Plant"
-			x: 5.0d
-			y: -3.0d
-			subtitle: "Water turns into Brine!"
+			dependencies: ["4F1C04C0F6769825"]
 			description: [
 				"To get Hydrogen Chloride for our machines, we'll need to first create &aBrine&r."
 				""
@@ -1524,40 +1537,20 @@
 				"Pump in water, and you'll start collecting brine, which can be pumped into an &aElectrolytic Separator&r to extract &6Chlorine&r from the gas."
 				"{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1}"
 			]
-			dependencies: ["4F1C04C0F6769825"]
-			min_width: 300
 			id: "603877AB96321F1A"
-			tasks: [
-				{
-					id: "716D483EFC35F6F3"
-					type: "item"
-					item: "mekanism:thermal_evaporation_controller"
-				}
-				{
-					id: "33D7942176AD257D"
-					type: "item"
-					item: "mekanism:thermal_evaporation_block"
-					count: 37L
-				}
-				{
-					id: "4BAD2AADFE32215A"
-					type: "item"
-					item: "mekanism:thermal_evaporation_valve"
-					count: 2L
-				}
-			]
+			min_width: 300
 			rewards: [
 				{
-					id: "7C0FF0123BCFA127"
-					type: "item"
-					item: "alltheores:steel_ingot"
 					count: 2
+					id: "7C0FF0123BCFA127"
+					item: "alltheores:steel_ingot"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "3BC1C8A0556253D3"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "2A58C351E36E9DD3"
@@ -1565,11 +1558,32 @@
 					xp: 100
 				}
 			]
+			subtitle: "Water turns into Brine!"
+			tasks: [
+				{
+					id: "716D483EFC35F6F3"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "33D7942176AD257D"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BAD2AADFE32215A"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Plant"
+			x: 5.0d
+			y: -3.5d
 		}
 		{
-			title: "The Start of a Tier 4 Ore Factory"
-			x: 8.0d
-			y: -2.0d
+			dependencies: ["1112E4E2CCEB2467"]
 			description: [
 				"We will need to add 3 more machines to our current setup."
 				""
@@ -1579,25 +1593,19 @@
 				""
 				"To get Sulfuric Acid, we'll need a new setup, which is explained further in the above quests."
 			]
-			dependencies: ["1112E4E2CCEB2467"]
 			id: "4F436770D30D8520"
-			tasks: [{
-				id: "1FE5AA0FF1F9BB51"
-				type: "item"
-				item: "mekanism:chemical_dissolution_chamber"
-			}]
 			rewards: [
 				{
-					id: "168E7AFB6769C922"
-					type: "item"
-					item: "mekanism:ingot_refined_obsidian"
 					count: 2
+					id: "168E7AFB6769C922"
+					item: "mekanism:ingot_refined_obsidian"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "455096107C4695CC"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0A42ABE6D34462D5"
@@ -1605,27 +1613,28 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "1FE5AA0FF1F9BB51"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			title: "The Start of a Tier 4 Ore Factory"
+			x: 9.0d
+			y: -2.0d
 		}
 		{
-			x: 7.5d
-			y: -3.5d
+			dependencies: ["4F436770D30D8520"]
 			description: [
 				"To make Sulfuric Acid, you'll need to create &aWater Vapor&r."
 				""
 				"Pump some water into this machine and it'll convert it into vapor. "
 			]
-			dependencies: ["4F436770D30D8520"]
 			id: "4236B9F071BE18F3"
-			tasks: [{
-				id: "50D9504BFFB97A27"
-				type: "item"
-				item: "mekanism:rotary_condensentrator"
-			}]
 			rewards: [
 				{
 					id: "2AAB70B739306C6C"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "31A8BB8FAFD364E7"
@@ -1633,14 +1642,20 @@
 					xp: 10
 				}
 			]
-		}
-		{
+			tasks: [{
+				id: "50D9504BFFB97A27"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
 			x: 8.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
 			description: [
 				"Okay, let's start with making Sulfur Dioxide first."
 				""
-				"Start by placing Gunpowder in a separate &aChemical Injection Chamber&r with Hydrogen Chloride to create Sulfur Dust. OR you can just pulverize Sulfur from Thermal Series into sulfur dust from THAT mod, it's up to you."
+				"Start by placing Gunpowder in a separate &aChemical Injection Chamber&r with Hydrogen Chloride to create Sulfur Dust. OR you can just pulverize Sulfur from Thermal Series into Sulfur Dust, it's up to you."
 				""
 				"Feeding the Sulfur Dust into this machine, the &aChemical Oxidizer&r, will create Sulfur Dioxide. Now we need to create Sulfur Trioxide."
 				""
@@ -1648,32 +1663,12 @@
 				""
 				"It's a lot."
 			]
-			dependencies: ["4F436770D30D8520"]
 			id: "2E274BEEF2B0B8C7"
-			tasks: [
-				{
-					id: "21BFDF262D2A9DB3"
-					type: "item"
-					item: "mekanism:chemical_oxidizer"
-				}
-				{
-					id: "3B5A283601BEADA0"
-					type: "item"
-					title: "Any Sulfur Dust"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "352AE8CE9CFD6D38"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "2F7DD21804D3F74C"
@@ -1681,12 +1676,30 @@
 					xp: 100
 				}
 			]
+			tasks: [
+				{
+					id: "21BFDF262D2A9DB3"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "3B5A283601BEADA0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
+					title: "Any Sulfur Dust"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -3.5d
 		}
 		{
-			title: "Heating Up our Brine Production"
-			x: 4.5d
-			y: -4.0d
-			subtitle: "Hot Brine here. Get Your Hot Brine here."
+			dependencies: ["603877AB96321F1A"]
 			description: [
 				"The Thermal Evaporation Plant multi-block produces Brine based on the internal temperature."
 				""
@@ -1696,18 +1709,13 @@
 				""
 				"The &aResistive Heater&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use."
 			]
-			dependencies: ["603877AB96321F1A"]
 			id: "027084AE2DF5EBA6"
-			tasks: [{
-				id: "3E483D602640BB7D"
-				type: "checkmark"
-				title: "Increasing Our Brine Production"
-			}]
+			optional: true
 			rewards: [
 				{
 					id: "3EF65B888EC38888"
-					type: "item"
 					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
 				}
 				{
 					id: "12B2CD9579419F81"
@@ -1715,13 +1723,34 @@
 					xp: 10
 				}
 			]
+			subtitle: "Hot Brine here. Get Your Hot Brine here."
+			tasks: [{
+				id: "6E75525A5D88EF23"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:fuelwood_heater"
+							}
+							{
+								Count: 1b
+								id: "mekanism:resistive_heater"
+							}
+						]
+					}
+				}
+				title: "Heaters"
+				type: "item"
+			}]
+			title: "Heating Up our Brine Production"
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			title: "Custom Portals!"
-			x: -9.375d
-			y: 3.125d
-			shape: "hexagon"
-			subtitle: "Teleportation at its finest."
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"To create a custom Portal, place down a single Teleporter block. Connect power to the block."
 				""
@@ -1730,32 +1759,17 @@
 				"The final product will be a 4x3 portal structure, with the two blocks in the middle creating the portal."
 			]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.25d
 			id: "7B0DFA55B4D8B16D"
-			tasks: [
-				{
-					id: "2C1730C4F7CB8377"
-					type: "item"
-					item: "mekanism:teleporter_frame"
-					count: 9L
-				}
-				{
-					id: "68FE61A81A5C1390"
-					type: "item"
-					item: "mekanism:teleporter"
-				}
-			]
 			rewards: [
 				{
 					id: "1BF6EFE93A37AF5C"
-					type: "item"
 					item: "mekanism:teleportation_core"
+					type: "item"
 				}
 				{
 					id: "4893EC372720D401"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "7638B4BA27EA012E"
@@ -1763,31 +1777,40 @@
 					xp: 100
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Teleportation at its finest."
+			tasks: [
+				{
+					count: 9L
+					id: "2C1730C4F7CB8377"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+				{
+					id: "68FE61A81A5C1390"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+			]
+			title: "Custom Portals!"
+			x: -9.0d
+			y: 3.75d
 		}
 		{
-			x: -9.375d
-			y: 1.875d
-			shape: "hexagon"
-			subtitle: "Portable Battery Pack"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"This item is used to store power, and functions like a portable battery pack."
 				""
 				"It is also an important crafting item in Mekanism."
 			]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.25d
 			id: "1FC7E9DBF92BE6AA"
-			tasks: [{
-				id: "79EF9001D76FD91D"
-				type: "item"
-				item: "mekanism:energy_tablet"
-			}]
 			rewards: [
 				{
 					id: "71757B9EB777A90A"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "118BA15EE6BE785F"
@@ -1795,24 +1818,26 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Portable Battery Pack"
+			tasks: [{
+				id: "79EF9001D76FD91D"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
 		}
 		{
-			x: 0.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
 			id: "3C8D9278B81BB37A"
-			tasks: [{
-				id: "46C5C0922839BDCA"
-				type: "item"
-				item: "mekanism:upgrade_speed"
-			}]
 			rewards: [
 				{
 					id: "7EB456E52AAA2685"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "05078555F0B50C46"
@@ -1820,24 +1845,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "46C5C0922839BDCA"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
 		}
 		{
-			x: 1.0d
-			y: 10.0d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
 			id: "0ACE573560A19309"
-			tasks: [{
-				id: "1B5CF4B0B6D3F6F9"
-				type: "item"
-				item: "mekanism:upgrade_energy"
-			}]
 			rewards: [
 				{
 					id: "1CD0AB579EAB2073"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0B54660C3D8B7D52"
@@ -1845,24 +1870,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B5CF4B0B6D3F6F9"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
 		}
 		{
-			x: -0.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
 			id: "763FB27929E053BE"
-			tasks: [{
-				id: "43E4874F23459DB1"
-				type: "item"
-				item: "mekanism:upgrade_filter"
-			}]
 			rewards: [
 				{
 					id: "103C389B08EA61DA"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "063BFCFDD1528E5F"
@@ -1870,25 +1895,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "43E4874F23459DB1"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
 		}
 		{
-			x: 0.0d
-			y: 10.0d
-			shape: "diamond"
-			subtitle: "shhhhh... too loud...."
-			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
 			id: "001DE8028CAF0A08"
-			tasks: [{
-				id: "126FB3CA8F2CCF11"
-				type: "item"
-				item: "mekanism:upgrade_muffling"
-			}]
 			rewards: [
 				{
 					id: "0A099579F90657E4"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4D74CDF6AE6E40C3"
@@ -1896,24 +1920,25 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			subtitle: "shhhhh... too loud...."
+			tasks: [{
+				id: "126FB3CA8F2CCF11"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 		{
-			x: 0.5d
-			y: 10.5d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
 			id: "09830BB2A23E94B4"
-			tasks: [{
-				id: "70A4BDDF6392DC9D"
-				type: "item"
-				item: "mekanism:upgrade_gas"
-			}]
 			rewards: [
 				{
 					id: "37BB7B57D72C0E8C"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4D45C6C905944505"
@@ -1921,24 +1946,24 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "70A4BDDF6392DC9D"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
 		}
 		{
-			x: 1.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
 			id: "515A60B89ED5440D"
-			tasks: [{
-				id: "0872B5A950703C8A"
-				type: "item"
-				item: "mekanism:upgrade_stone_generator"
-			}]
 			rewards: [
 				{
 					id: "38FD0131ED5FEF8B"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4D2F9BA2D7981111"
@@ -1946,27 +1971,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "0872B5A950703C8A"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
 		}
 		{
-			x: -9.375d
-			y: 4.375d
-			shape: "hexagon"
-			subtitle: "Mekanism's Wrench"
+			dependencies: ["1FC7E9DBF92BE6AA"]
 			description: ["This item is used to configure many of the items in Mekanism, from changing pipes to \"Pull or Push\" or rotating machines."]
 			hide_dependency_lines: true
-			dependencies: ["1FC7E9DBF92BE6AA"]
-			size: 1.25d
 			id: "5E116409DC7D30BB"
-			tasks: [{
-				id: "2612CACBDDF9AD1A"
-				type: "item"
-				item: "mekanism:configurator"
-			}]
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "38057234ABE98B7A"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "7B99F69BA1AB0098"
@@ -1974,12 +1998,19 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Mekanism's Wrench"
+			tasks: [{
+				id: "2612CACBDDF9AD1A"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
 		}
 		{
-			title: "Water Source"
-			x: -2.0d
-			y: -3.0d
-			subtitle: "The All-Mighty Infinite Water Source"
+			dependencies: ["18D88932916C7A98"]
 			description: [
 				"To start breaking down water, we'll need a water source. The Kitchen Sink provides infinite water, and can easily be set up to pump out water."
 				""
@@ -1987,18 +2018,12 @@
 				""
 				"Pump the water into your Electrolytic Separator to split the water into Hydrogen and Oxygen."
 			]
-			dependencies: ["18D88932916C7A98"]
 			id: "407EFAF528871014"
-			tasks: [{
-				id: "16DAFC5C5846015A"
-				type: "item"
-				item: "cookingforblockheads:sink"
-			}]
 			rewards: [
 				{
 					id: "5F4E37BD22336518"
-					type: "item"
 					item: "minecraft:water_bucket"
+					type: "item"
 				}
 				{
 					id: "661BF73705DAFB31"
@@ -2006,24 +2031,25 @@
 					xp: 100
 				}
 			]
+			subtitle: "The All-Mighty Infinite Water Source"
+			tasks: [{
+				id: "16DAFC5C5846015A"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Water Source"
+			x: -2.0d
+			y: -3.0d
 		}
 		{
-			x: 4.0d
-			y: 7.800000000000004d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["6DB1AAAD926486BC"]
+			hide_dependency_lines: true
 			id: "30F8BA43B1BB9035"
-			tasks: [{
-				id: "5FFEF5D6055A67B1"
-				type: "item"
-				item: "mekanism:advanced_fluid_tank"
-			}]
 			rewards: [
 				{
 					id: "68FCEAF6FC113984"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "4E84D5C93A175BAE"
@@ -2031,23 +2057,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FFEF5D6055A67B1"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.800000000000004d
 		}
 		{
-			x: 3.5d
-			y: 8.300000000000004d
-			shape: "diamond"
 			dependencies: ["30F8BA43B1BB9035"]
 			id: "5F94483E05D2F528"
-			tasks: [{
-				id: "05059B48A8F56BC5"
-				type: "item"
-				item: "mekanism:elite_fluid_tank"
-			}]
 			rewards: [
 				{
 					id: "34D281AF21304592"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "310591995AE450E0"
@@ -2055,23 +2081,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "05059B48A8F56BC5"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.300000000000004d
 		}
 		{
-			x: 3.0d
-			y: 7.800000000000004d
-			shape: "diamond"
 			dependencies: ["5F94483E05D2F528"]
 			id: "712CB147B5873121"
-			tasks: [{
-				id: "33F9C615B944909A"
-				type: "item"
-				item: "mekanism:ultimate_fluid_tank"
-			}]
 			rewards: [
 				{
 					id: "11A26AE87671CC86"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "00B48685B5FE781C"
@@ -2079,27 +2105,25 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "33F9C615B944909A"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.800000000000004d
 		}
 		{
-			x: 1.5000000000000053d
-			y: 7.0d
-			shape: "diamond"
-			subtitle: "Storing All That Gas"
+			dependencies: ["58B125BD4876054C"]
 			description: ["This block stores gases."]
 			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
 			id: "41EB0C570FC54F43"
-			tasks: [{
-				id: "665B9818855C0028"
-				type: "item"
-				item: "mekanism:basic_chemical_tank"
-			}]
 			rewards: [
 				{
 					id: "2BA7618ACAED912E"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "6A2363D77EC727F8"
@@ -2107,24 +2131,26 @@
 					xp: 10
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Storing All That Gas"
+			tasks: [{
+				id: "665B9818855C0028"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: 1.5000000000000053d
+			y: 7.0d
 		}
 		{
-			x: 2.0d
-			y: 7.800000000000004d
-			shape: "diamond"
-			hide_dependency_lines: true
 			dependencies: ["41EB0C570FC54F43"]
+			hide_dependency_lines: true
 			id: "1162544BA1B2B0F3"
-			tasks: [{
-				id: "78CFB8D559DA92AE"
-				type: "item"
-				item: "mekanism:advanced_chemical_tank"
-			}]
 			rewards: [
 				{
 					id: "11600E65D29E4987"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "05ED665CB2C849D2"
@@ -2132,23 +2158,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "78CFB8D559DA92AE"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.800000000000004d
 		}
 		{
-			x: 1.5d
-			y: 8.300000000000004d
-			shape: "diamond"
 			dependencies: ["1162544BA1B2B0F3"]
 			id: "4C4B1602E2AFC314"
-			tasks: [{
-				id: "1D2AE44FA5391B71"
-				type: "item"
-				item: "mekanism:elite_chemical_tank"
-			}]
 			rewards: [
 				{
 					id: "1866147DD8145A9F"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "2CF135C8D597A4A4"
@@ -2156,23 +2182,23 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "1D2AE44FA5391B71"
+				item: "mekanism:elite_chemical_tank"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.300000000000004d
 		}
 		{
-			x: 1.0d
-			y: 7.800000000000004d
-			shape: "diamond"
 			dependencies: ["4C4B1602E2AFC314"]
 			id: "0C0D0B80B3FA26F2"
-			tasks: [{
-				id: "5FD0078940E64A4C"
-				type: "item"
-				item: "mekanism:ultimate_chemical_tank"
-			}]
 			rewards: [
 				{
 					id: "35D89D94AE8BCBD3"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "77A4A2D6E72F8CE5"
@@ -2180,27 +2206,25 @@
 					xp: 100
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FD0078940E64A4C"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.800000000000004d
 		}
 		{
-			x: 9.0d
-			y: 2.5d
-			shape: "octagon"
-			subtitle: "Produces about 17.6FE/t"
+			dependencies: ["162CE44400A63575"]
 			description: ["Generates power from the sun!"]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.5d
 			id: "74200A48498DD7F8"
-			tasks: [{
-				id: "22ACFEB806D68385"
-				type: "item"
-				item: "mekanismgenerators:solar_generator"
-			}]
 			rewards: [
 				{
 					id: "1E2B1E4B956092D9"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "74FCF5135C24D033"
@@ -2208,12 +2232,19 @@
 					xp: 100
 				}
 			]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Produces about 17.6FE/t"
+			tasks: [{
+				id: "22ACFEB806D68385"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 		{
-			x: -8.875d
-			y: -1.975d
-			shape: "octagon"
-			subtitle: "Basic Power Gen"
+			dependencies: ["6F62B5510FA881CD"]
 			description: [
 				"The Heat Generator has 2 modes to generate power:"
 				""
@@ -2221,19 +2252,12 @@
 				""
 				"&9Active:&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power."
 			]
-			dependencies: ["6F62B5510FA881CD"]
-			size: 1.25d
 			id: "0650996C7818ADB5"
-			tasks: [{
-				id: "7BA12BAB8271E170"
-				type: "item"
-				item: "mekanismgenerators:heat_generator"
-			}]
 			rewards: [
 				{
 					id: "7072D079156C2A44"
-					type: "item"
 					item: "alltheores:osmium_ingot"
+					type: "item"
 				}
 				{
 					id: "6D2DD795F34A4177"
@@ -2241,26 +2265,27 @@
 					xp: 10
 				}
 			]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Basic Power Gen"
+			tasks: [{
+				id: "7BA12BAB8271E170"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -8.875d
+			y: -1.975d
 		}
 		{
-			x: 10.5d
-			y: 4.0d
-			shape: "octagon"
+			dependencies: ["162CE44400A63575"]
 			description: ["This generator will burn Bio Fuel into energy. It produces around 140FE/t."]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.5d
 			id: "6CD1720B76F47806"
-			tasks: [{
-				id: "36B12984060A90FD"
-				type: "item"
-				item: "mekanismgenerators:bio_generator"
-			}]
 			rewards: [
 				{
 					id: "1301C1670E4241EF"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "45C7E780DC5681CF"
@@ -2268,29 +2293,29 @@
 					xp: 100
 				}
 			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "36B12984060A90FD"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			x: 9.0d
-			y: 4.0d
-			shape: "octagon"
+			dependencies: ["74200A48498DD7F8"]
 			description: [
 				"If you're wondering if it is worth making this upgrade, the answer is yes."
 				""
 				"This version produces 105.6FE/t. It also can be used to add extra heat to Thermal Evaporation Plants."
 			]
-			dependencies: ["74200A48498DD7F8"]
-			size: 1.5d
 			id: "4EDD96EB60EF5814"
-			tasks: [{
-				id: "4F0B3CA66BE1AEE1"
-				type: "item"
-				item: "mekanismgenerators:advanced_solar_generator"
-			}]
 			rewards: [
 				{
 					id: "7C9221EEC576875E"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "0736D51EE3F58FA4"
@@ -2298,31 +2323,30 @@
 					xp: 100
 				}
 			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "4F0B3CA66BE1AEE1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 		{
-			x: 10.5d
-			y: 2.5d
-			shape: "octagon"
-			subtitle: "Generates Power from the Wind"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"This is a great option for generating power."
 				""
 				"This generates around 40FE/t, and increases based on how high you are. The higher the Y level, the more power it produces!"
 			]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.5d
 			id: "7778937DF377C1B4"
-			tasks: [{
-				id: "50624A39AD15A8A6"
-				type: "item"
-				item: "mekanismgenerators:wind_generator"
-			}]
 			rewards: [
 				{
 					id: "31ABFC11245A8E49"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "32DF83533E5D7416"
@@ -2330,12 +2354,28 @@
 					xp: 100
 				}
 			]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Generates Power from the Wind"
+			tasks: [{
+				id: "50624A39AD15A8A6"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 		{
-			title: "&dMekanism&r"
+			description: [
+				"Mekanism is a tech mod that will change the way you play Minecraft."
+				""
+				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
+				""
+				"This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more."
+			]
 			icon: {
-				id: "mekanism:creative_energy_cube"
 				Count: 1b
+				id: "mekanism:creative_energy_cube"
 				tag: {
 					mekData: {
 						EnergyContainers: [{
@@ -2345,29 +2385,12 @@
 					}
 				}
 			}
-			x: -13.0d
-			y: -2.0d
-			shape: "square"
-			subtitle: "The Start of Your Own Factory"
-			description: [
-				"Mekanism is a tech mod that will change the way you play Minecraft."
-				""
-				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
-				""
-				"This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more."
-			]
-			size: 2.0d
 			id: "58B125BD4876054C"
-			tasks: [{
-				id: "10CE7D11B912F418"
-				type: "item"
-				item: "alltheores:raw_osmium"
-			}]
 			rewards: [
 				{
 					id: "7D519C36EA3CF356"
-					type: "item"
 					item: "alltheores:raw_osmium"
+					type: "item"
 				}
 				{
 					id: "1C5A7C0402C237DD"
@@ -2375,25 +2398,27 @@
 					xp: 10
 				}
 			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "The Start of Your Own Factory"
+			tasks: [{
+				id: "10CE7D11B912F418"
+				item: "alltheores:raw_osmium"
+				type: "item"
+			}]
+			title: "&dMekanism&r"
+			x: -13.0d
+			y: -2.0d
 		}
 		{
-			title: "Osmium"
-			x: -10.5d
-			y: -2.0d
-			subtitle: "The Base Crafting Ingot"
 			dependencies: ["58B125BD4876054C"]
 			id: "6F62B5510FA881CD"
-			tasks: [{
-				id: "52967F83338A3AC3"
-				type: "item"
-				item: "alltheores:osmium_ingot"
-			}]
 			rewards: [
 				{
 					id: "52CF295425D3C2B9"
-					type: "item"
 					item: "alltheores:raw_osmium"
 					random_bonus: 1
+					type: "item"
 				}
 				{
 					id: "75AA096A6B99BFA3"
@@ -2401,12 +2426,18 @@
 					xp: 10
 				}
 			]
+			subtitle: "The Base Crafting Ingot"
+			tasks: [{
+				id: "52967F83338A3AC3"
+				item: "alltheores:osmium_ingot"
+				type: "item"
+			}]
+			title: "Osmium"
+			x: -10.5d
+			y: -2.0d
 		}
 		{
-			x: 3.0d
-			y: -2.0d
-			shape: "hexagon"
-			subtitle: "Tier 2 Ore Factory"
+			dependencies: ["7AE502EDB73BD57A"]
 			description: [
 				"So far, to \"double\" our ingot output, your setup should look something like this:"
 				""
@@ -2416,20 +2447,13 @@
 				""
 				"The &aEnrichment Chamber&r then feeds into your preferred smelter of choice. You follow?"
 			]
-			dependencies: ["7AE502EDB73BD57A"]
-			size: 1.5d
 			id: "263220DCCDB90E29"
-			tasks: [{
-				id: "46C4C1AD9FA5BEE2"
-				type: "checkmark"
-				title: "Our Setup So Far"
-			}]
 			rewards: [
 				{
-					id: "07F4FEA9CD91FB7B"
-					type: "item"
-					item: "mekanism:alloy_infused"
 					count: 2
+					id: "07F4FEA9CD91FB7B"
+					item: "mekanism:alloy_infused"
+					type: "item"
 				}
 				{
 					id: "12132365C99DF4EB"
@@ -2437,11 +2461,22 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Tier 2 Ore Factory"
+			tasks: [{
+				id: "46C4C1AD9FA5BEE2"
+				title: "Our Setup So Far"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
 		}
 		{
-			x: 6.5d
-			y: -2.0d
-			subtitle: "Tier 3 Ore Factory"
+			dependencies: [
+				"4F1C04C0F6769825"
+				"04E2D539E33B7B0F"
+			]
 			description: [
 				"So now, you should have 5 machines ready to go to process your ores. Are you ready to make it even more complicated?"
 				""
@@ -2451,228 +2486,40 @@
 				""
 				"Well buckle up. It's about to get wild."
 			]
-			dependencies: [
-				"4F1C04C0F6769825"
-				"04E2D539E33B7B0F"
-			]
 			id: "1112E4E2CCEB2467"
-			tasks: [{
-				id: "57F40CFA03BD36EF"
-				type: "checkmark"
-				title: "The Hard Part"
-			}]
 			rewards: [{
 				id: "0B129E30AA37E379"
 				type: "xp"
 				xp: 10
 			}]
-		}
-		{
-			x: 16.0d
-			y: -1.9500000000000002d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
-			id: "1C86908F5A1FABC0"
+			subtitle: "Tier 3 Ore Factory"
 			tasks: [{
-				id: "300ABE43848D019B"
-				type: "item"
-				item: "mekanism:meka_tool"
+				id: "57F40CFA03BD36EF"
+				title: "The Hard Part"
+				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "66D94C23A4C3A6AC"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "233C0CFF6DA6F3EC"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "0A3CB2A343E959F3"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5196609362437981520L
-				}
-			]
+			x: 6.5d
+			y: -2.0d
 		}
 		{
-			x: 14.5d
-			y: -4.199999999999999d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
-			id: "03CAD4948ECF0B0F"
-			tasks: [{
-				id: "1CB052C01659D6FD"
-				type: "item"
-				item: "mekanism:mekasuit_helmet"
-			}]
-			rewards: [
-				{
-					id: "13707E303FFAB18D"
-					type: "item"
-					item: "mekanism:pellet_polonium"
-				}
-				{
-					id: "31AFE6B757175202"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "3A6298D80801B58E"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "5C9D2306A9397AA5"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564196992594175882L
-				}
-			]
-		}
-		{
-			x: 14.5d
-			y: -2.7d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
-			id: "5EC325720523801E"
-			tasks: [{
-				id: "50E98618A0D7C873"
-				type: "item"
-				item: "mekanism:mekasuit_bodyarmor"
-			}]
-			rewards: [
-				{
-					id: "5E8F1330F126A12E"
-					type: "item"
-					item: "mekanism:pellet_polonium"
-				}
-				{
-					id: "52A2632789560E3B"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "29782FF8E879516A"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "59FBD3E46D2DC052"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564196992594175882L
-				}
-			]
-		}
-		{
-			x: 14.5d
-			y: -1.2000000000000002d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
-			id: "544B230E7DC944CA"
-			tasks: [{
-				id: "0638BD9EFEE20F97"
-				type: "item"
-				item: "mekanism:mekasuit_pants"
-			}]
-			rewards: [
-				{
-					id: "27480E70BA3B5C96"
-					type: "item"
-					item: "mekanism:pellet_polonium"
-				}
-				{
-					id: "15BF5C450B139FE3"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "1E60842267FDC593"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "319B03150064C871"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564196992594175882L
-				}
-			]
-		}
-		{
-			x: 14.5d
-			y: 0.30000000000000004d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["58B125BD4876054C"]
-			size: 1.5d
-			id: "77235CDC61136465"
-			tasks: [{
-				id: "36FFFB742E28B797"
-				type: "item"
-				item: "mekanism:mekasuit_boots"
-			}]
-			rewards: [
-				{
-					id: "16383CD9381D3C28"
-					type: "item"
-					item: "mekanism:pellet_polonium"
-				}
-				{
-					id: "523A6C357802EC0A"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "06F08DF4BCA0C969"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					id: "4C180D5C109A31A3"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 5564196992594175882L
-				}
-			]
-		}
-		{
-			x: -4.0d
-			y: -3.5d
+			dependencies: ["08DDE018A804BFE7"]
 			description: [
 				"Combines gases, solid items, and liquids to produce an item and by-product."
 				""
 				"This machine is needed to create end-game materials and armor."
 			]
-			dependencies: ["08DDE018A804BFE7"]
 			id: "587A19FC348387C5"
-			tasks: [{
-				id: "1C162E39F2ACA72F"
-				type: "item"
-				item: "mekanism:pressurized_reaction_chamber"
-			}]
 			rewards: [
 				{
-					id: "7F4F10CD3B125E3A"
-					type: "item"
-					item: "mekanism:basic_control_circuit"
 					count: 2
+					id: "7F4F10CD3B125E3A"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
 				}
 				{
 					id: "583CAD36267241C2"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "6153A09A9D197270"
@@ -2680,25 +2527,23 @@
 					xp: 10
 				}
 			]
+			tasks: [{
+				id: "1C162E39F2ACA72F"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
 		}
 		{
-			title: "Bio Fuel"
-			x: 1.0d
-			y: -3.0d
-			description: ["The Crusher can also break down natural substances into Bio Fuel!"]
 			dependencies: ["7AE502EDB73BD57A"]
+			description: ["The Crusher can also break down natural substances into Bio Fuel!"]
 			id: "3B43DB1A6B0A7B44"
-			tasks: [{
-				id: "05138E2E906020F3"
-				type: "item"
-				item: "mekanism:bio_fuel"
-				count: 2L
-			}]
 			rewards: [
 				{
 					id: "174A1D24134BB9DC"
-					type: "item"
 					item: "mekanism:bio_fuel"
+					type: "item"
 				}
 				{
 					id: "72D588EA49839008"
@@ -2706,29 +2551,29 @@
 					xp: 10
 				}
 			]
+			tasks: [{
+				count: 2L
+				id: "05138E2E906020F3"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			title: "Bio Fuel"
+			x: 1.0d
+			y: -3.0d
 		}
 		{
-			title: "Substrates"
-			x: 1.0d
-			y: -4.0d
+			dependencies: ["3B43DB1A6B0A7B44"]
 			description: [
 				"When Bio Fuel is combined with Water and Hydrogen in a &aPressurized Reaction Chamber&r it creates Substrates. It also creates Ethylene as a by-product."
 				""
 				"These are needed to create HDPE pellets, which is used for end-game crafts like the Meka-suit."
 			]
-			dependencies: ["3B43DB1A6B0A7B44"]
 			id: "5047792C6EF6D2AD"
-			tasks: [{
-				id: "1F6A5B58DF94730B"
-				type: "item"
-				item: "mekanism:substrate"
-				count: 3L
-			}]
 			rewards: [
 				{
 					id: "4501F6A232456167"
-					type: "item"
 					item: "mekanism:substrate"
+					type: "item"
 				}
 				{
 					id: "1979E89900B74A27"
@@ -2736,26 +2581,26 @@
 					xp: 10
 				}
 			]
+			tasks: [{
+				count: 3L
+				id: "1F6A5B58DF94730B"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			title: "Substrates"
+			x: 1.0d
+			y: -4.0d
 		}
 		{
-			title: "HDPE Pellets"
-			x: 1.0d
-			y: -5.0d
-			description: ["Combining Oxygen, Ethylene, and a Substrate in a &aPressurized Reaction Chamber&r will create an HDPE Pellet."]
 			dependencies: ["5047792C6EF6D2AD"]
+			description: ["Combining Oxygen, Ethylene, and a Substrate in a &aPressurized Reaction Chamber&r will create an HDPE Pellet."]
 			id: "76A38CCA5816CDAD"
-			tasks: [{
-				id: "62E8F3CC847BBD3D"
-				type: "item"
-				item: "mekanism:hdpe_pellet"
-				count: 3L
-			}]
 			rewards: [
 				{
-					id: "16F49D5355A06C1B"
-					type: "item"
-					item: "mekanism:substrate"
 					count: 2
+					id: "16F49D5355A06C1B"
+					item: "mekanism:substrate"
+					type: "item"
 				}
 				{
 					id: "1138396810238D01"
@@ -2763,24 +2608,26 @@
 					xp: 10
 				}
 			]
+			tasks: [{
+				count: 3L
+				id: "62E8F3CC847BBD3D"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			title: "HDPE Pellets"
+			x: 1.0d
+			y: -5.0d
 		}
 		{
-			x: 1.0d
-			y: -6.0d
-			description: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
 			dependencies: ["76A38CCA5816CDAD"]
+			description: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
 			id: "47106CE1937C4340"
-			tasks: [{
-				id: "6EE6F07986BAFC3B"
-				type: "item"
-				item: "mekanism:hdpe_sheet"
-			}]
 			rewards: [
 				{
-					id: "78A06CC539C1B6AE"
-					type: "item"
-					item: "mekanism:hdpe_pellet"
 					count: 3
+					id: "78A06CC539C1B6AE"
+					item: "mekanism:hdpe_pellet"
+					type: "item"
 				}
 				{
 					id: "6222BDC7235A0FBC"
@@ -2788,26 +2635,24 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "6EE6F07986BAFC3B"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
 		}
 		{
-			x: -6.875d
-			y: 4.375d
-			shape: "hexagon"
-			subtitle: "Mekanism's All In One Tool"
-			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
-			size: 1.25d
+			hide_dependency_lines: true
 			id: "49675EA8CBCA1388"
-			tasks: [{
-				id: "79F38A9428A0A23D"
-				type: "item"
-				item: "mekanism:atomic_disassembler"
-			}]
+			progression_mode: "linear"
 			rewards: [
 				{
 					id: "1E9683F66A5FE752"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "76A57DE86B17E93A"
@@ -2815,18 +2660,25 @@
 					xp: 100
 				}
 				{
-					id: "6B3298C898E9C59A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6B3298C898E9C59A"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Mekanism's All In One Tool"
+			tasks: [{
+				id: "79F38A9428A0A23D"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
 		}
 		{
-			title: "Enriched Items"
-			x: -4.0d
-			y: -0.5d
-			subtitle: "Enrich your items first!"
+			dependencies: ["08DDE018A804BFE7"]
 			description: [
 				"Using the Enrichment Chamber, you can enrich items to convert them into Enriched variants."
 				""
@@ -2834,19 +2686,13 @@
 				""
 				"If you plan on making a bunch of steel, Enrich your Charcoal first!"
 			]
-			dependencies: ["08DDE018A804BFE7"]
 			id: "0F326EEEC2EBE4E5"
-			tasks: [{
-				id: "4B60ACBCC3B46D1D"
-				type: "item"
-				item: "mekanism:enriched_carbon"
-			}]
 			rewards: [
 				{
-					id: "1B7E6CC9019F43AB"
-					type: "item"
-					item: "mekanism:enriched_carbon"
 					count: 2
+					id: "1B7E6CC9019F43AB"
+					item: "mekanism:enriched_carbon"
+					type: "item"
 				}
 				{
 					id: "04127BD3A4706FE4"
@@ -2854,28 +2700,29 @@
 					xp: 10
 				}
 			]
+			subtitle: "Enrich your items first!"
+			tasks: [{
+				id: "4B60ACBCC3B46D1D"
+				item: "mekanism:enriched_carbon"
+				type: "item"
+			}]
+			title: "Enriched Items"
+			x: -4.0d
+			y: -0.5d
 		}
 		{
-			x: 9.5d
-			y: -2.0d
-			subtitle: "Giving Ores a Bath"
+			dependencies: ["4F436770D30D8520"]
 			description: [
 				"This machine needs water to operate, and uses the water to clean \"Ore Slurry\" into \"Clean Ore Slurry.\""
 				""
 				"It will be part 2 of your Tier 4 Ore Processing Factory."
 			]
-			dependencies: ["4F436770D30D8520"]
 			id: "4AFF81D3D0E78255"
-			tasks: [{
-				id: "1DA159AA61B37545"
-				type: "item"
-				item: "mekanism:chemical_washer"
-			}]
 			rewards: [
 				{
 					id: "3CE007719AA0DDD8"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "18B6402C4049FD4C"
@@ -2883,28 +2730,28 @@
 					xp: 100
 				}
 			]
+			subtitle: "Giving Ores a Bath"
+			tasks: [{
+				id: "1DA159AA61B37545"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
 		}
 		{
-			x: 11.0d
-			y: -2.0d
-			subtitle: "Turns Ore Slurry into Crystals"
+			dependencies: ["4F436770D30D8520"]
 			description: [
 				"This machine will be #3 in your Tier 4 Ore Processing Factory."
 				""
 				"It takes the Clean Ore Slurry from the Chemical Washer and turns it into Crystals, which the Chemical Injection Chamber can process after."
 			]
-			dependencies: ["4AFF81D3D0E78255"]
 			id: "3999760881C855FA"
-			tasks: [{
-				id: "6F2B3A4206C129B0"
-				type: "item"
-				item: "mekanism:chemical_crystallizer"
-			}]
 			rewards: [
 				{
 					id: "2B37585059AAE0D6"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "75C11279E936ADAA"
@@ -2912,12 +2759,20 @@
 					xp: 100
 				}
 			]
+			subtitle: "Turns Ore Slurry into Crystals"
+			tasks: [{
+				id: "6F2B3A4206C129B0"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
 		}
 		{
-			x: 12.5d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "This is a lot, I know."
+			dependencies: [
+				"3999760881C855FA"
+				"4AFF81D3D0E78255"
+			]
 			description: [
 				"If you're like me, you probably got lost 55 times during these last few steps. This is a complicated system."
 				""
@@ -2927,44 +2782,38 @@
 				""
 				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 			]
-			dependencies: ["3999760881C855FA"]
-			size: 1.5d
-			min_width: 300
 			id: "3C49F2EEDCCAF1DF"
-			tasks: [{
-				id: "3B3B58C438FD4397"
-				type: "checkmark"
-				title: "Tier 4 Ore Processing Factory"
-			}]
+			min_width: 300
 			rewards: [{
 				id: "3417F669ABC16584"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "This is a lot, I know."
+			tasks: [{
+				id: "3B3B58C438FD4397"
+				title: "Tier 4 Ore Processing Factory Summary"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.0d
 		}
 		{
-			x: -6.875d
-			y: 1.875d
-			shape: "hexagon"
+			dependencies: ["162CE44400A63575"]
 			description: [
 				"Standing on this item will charge up any powered item from any mod."
 				""
 				"This is also needed for the Robit."
 			]
 			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.25d
 			id: "4204702AA6FBF40B"
-			tasks: [{
-				id: "6190BE8B67130AB5"
-				type: "item"
-				item: "mekanism:chargepad"
-			}]
 			rewards: [
 				{
 					id: "72909BB3BAF1758D"
-					type: "random"
 					table_id: 7197061527498167330L
+					type: "random"
 				}
 				{
 					id: "18F7E9FF427F660D"
@@ -2972,7 +2821,44 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6190BE8B67130AB5"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4236B9F071BE18F3"
+				"2E274BEEF2B0B8C7"
+			]
+			description: [
+				"Now that we have some experience working with more advanced machinery, it's time to move towards making &dAntimatter Pellets&r."
+				""
+				"These create several &5End Game&r items, including the &6ATM Star&r. To learn all about Reactors and more, head over to the &aMekanism&r: &dReactors&r questline!"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "7E4A95B6443F23BC"
+			rewards: [{
+				id: "1E16D1CE01AD7052"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "The Path to Reactors"
+			tasks: [{
+				id: "60BF6E0420C91050"
+				title: "&dAdvanced Mekanism&r"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -5.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Mekanism"
 }
