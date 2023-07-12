@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
   // Botany Pots
   if (Platform.isLoaded('botanypots')) {
     let seenSeeds = []
-    let crux = []
+    let crux = {}
 
     // Fix drops, fix cruxes, check for missing
     event.forEachRecipe({ type: 'botanypots:crop' }, recipe => {
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
         let cruxBlock = Crop.getCruxBlock()
         if (cruxBlock) {
           recipe.json.add('categories', [`${cruxBlock.getIdLocation().getPath()}`])
-          crux.push(cruxBlock)
+          crux[cruxBlock.getId()] = cruxBlock.getIdLocation().getPath()
         }
         for (const drop of recipe.json.get('drops')) {
           if (Ingredient.of(drop.get('output')).test(seed)) {
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
         let cruxBlock = Crop.getCruxBlock()
         if (cruxBlock) {
           category = `${cruxBlock.getIdLocation().getPath()}`
-          crux.push(cruxBlock)
+          crux[cruxBlock.getId()] = cruxBlock.getIdLocation().getPath()
         }
         event.custom({
           type: 'botanypots:crop',
@@ -111,14 +111,13 @@ ServerEvents.recipes(event => {
         }).id(`kubejs:botanypots/mysticalagriculture/${seed}`)
       }
     }
-
     // add crux 'soils'
-    for (const block of crux) {
-      let category = `${block.getIdLocation().getPath()}`
+    for (const block in crux) {
+      let category = crux[block]
       event.custom({
         type: 'botanypots:soil',
-        input: { item: block.getId() },
-        display: { block: block.getId() },
+        input: { item: block },
+        display: { block: block },
         categories: [category],
         growthModifier: 1.0
       }).id(`kubejs:botanypots/mysticalagriculture/crux/${category}`)

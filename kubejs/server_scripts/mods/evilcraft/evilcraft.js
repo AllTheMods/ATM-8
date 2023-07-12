@@ -72,7 +72,7 @@ ServerEvents.recipes(e=> {
           }
         ],
     "experience": 0.1
-}).id('kubejs:ftbic/evilcraft_dark_gem_crushed')
+}).id('kubejs:thermal/evilcraft_dark_gem_crushed')
     
   
     e.custom({  //crushing spirit

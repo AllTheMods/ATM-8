@@ -10,13 +10,11 @@ ServerEvents.recipes(event => {
   global.mekStackAdditions.forEach(entry => {
     let material = entry.material
 
-    //let dust = Ingredient.of(`#forge:dusts/${material}`).getFirst()
-    // replace this eventually
-    let dust = Item.empty
+    let dust = AlmostUnified.getPreferredItemForTag(`forge:dusts/${material}`)
     if (entry.makeDust) {
       dust = Item.of(`kubejs:dust_${material}`)
-    } else {
-      dust = Item.of(entry.dust)
+    } else if (dust.isEmpty() && !Ingredient.of(`#forge:dusts/${material}`).isEmpty()) {
+      dust = Ingredient.of(`#forge:dusts/${material}`).getFirst()
     }
     let hasDust = !dust.isEmpty()
 
