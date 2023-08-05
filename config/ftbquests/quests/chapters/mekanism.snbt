@@ -65,7 +65,7 @@
 			description: [
 				"This machine works like a Macerator or Pulverizer, and will break ores down into dusts."
 				""
-				"In ATM7, it breaks 3 raw ores down into 4 dusts."
+				"This breaks 3 raw ores down into 4 dusts."
 				""
 				"This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use."
 			]
