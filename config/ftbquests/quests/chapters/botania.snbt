@@ -3949,7 +3949,7 @@
 		{
 			x: 14.0d
 			y: 12.0d
-			description: ["Greatly descreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance."]
+			description: ["Greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance."]
 			hide_dependency_lines: true
 			dependencies: ["6FBE0BF8A7ADBB26"]
 			optional: true
