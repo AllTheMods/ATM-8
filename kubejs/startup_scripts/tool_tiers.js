@@ -14,7 +14,7 @@ const $MAItemTier = Java.loadClass('com.blakebr0.mysticalagriculture.lib.ModItem
 // nature's aura
 const $NaturesItemTier = Java.loadClass('de.ellpeck.naturesaura.reg.ModItemTier')
 // occultism
-const $OccultismItemTier = Java.loadClass('com.github.klikli_dev.occultism.api.common.misc.OccultismItemTier')
+const $OccultismItemTier = Java.loadClass('com.klikli_dev.occultism.api.common.misc.OccultismItemTier')
 // spirit
 const $SpiritItemTier = Java.loadClass('me.codexadrian.spirit.items.SoulMetalMaterial')
 // ie
