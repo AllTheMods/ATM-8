@@ -413,7 +413,7 @@
 							weather: "EMPTY"
 						}
 					}
-					match_nbt: true
+					match_nbt: false
 					type: "item"
 				}
 			]
