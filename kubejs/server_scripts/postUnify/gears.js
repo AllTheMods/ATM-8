@@ -4,41 +4,35 @@ ServerEvents.recipes(event => {
   if (global.devLogging) {
     console.log('Finishing Unifying on Gears')
   }
-  let gearTags = global.auTags.filter(function (val) {
-    return /forge:gears/.test(val)
-  })
   let gearCount = {
     ftbic: 0,
     ie: 0,
     thermal: 0
   }
-  gearTags.forEach(gearTagString => {
-    let material = gearTagString.replace('forge:gears/', '')
-    let gear = AlmostUnified.getPreferredItemForTag(gearTagString)
+  global.auTags.gears.forEach(material => {
+    let gear = global.itemFromTag('gears', material)
     if (gear.isEmpty()) {
       console.log(`${material} does not have a gear tag entry`)
       return
     }
-    let ingotTagString = `forge:ingots/${material}`
-    if (AlmostUnified.getPreferredItemForTag(ingotTagString).isEmpty()) {
-      ingotTagString = `forge:gems/${material}`
+
+    let ingotTag = Ingredient.of(`#forge:ingots/${material}`)
+    if (ingotTag.getFirst().isEmpty()) {
+      // check for gem
+      ingotTag = Ingredient.of(`#forge:gems/${material}`)
     }
-    if (!AlmostUnified.getPreferredItemForTag(ingotTagString).isEmpty()) {
-      let ingotTag = Ingredient.of(`#${ingotTagString}`)
+    if (!ingotTag.getFirst().isEmpty()) {
+
       if (global.loaded.IE_Loaded) {
         // Check if ie metal press recipe exists and add it if not
-        let count = 0
-        event.forEachRecipe({ type: 'immersiveengineering:metal_press' }, recipe => {
-          let recipeJson = recipe.json
-          let result = recipeJson.get('result')
+        let count = event.recipeStream({ type: 'immersiveengineering:metal_press' }).mapToInt(recipe => {
+          let result = recipe.json.get('result')
           if (result.has('base_ingredient')) {
-            if (global.ingredientCheck(gear, result.get('base_ingredient'))) {
-              count++
-            }
-          } else if (global.ingredientCheck(gear, result)) {
-            count++
-          }
-        })
+            if (gear.equalsIgnoringCount(Item.of(result.get('base_ingredient')))) { return 1 }
+          } else if (gear.equalsIgnoringCount(Item.of(result))) { return 1 }
+          return 0
+        }).sum()
+
         if (count == 0) {
           event.custom({
             type: 'immersiveengineering:metal_press',
@@ -53,17 +47,20 @@ ServerEvents.recipes(event => {
           gearCount.ie++
         }
       }
+
       if (global.loaded.Thermal_Loaded) {
         // Check if thermal multiservo press recipe exists and add it if not
-        let count = 0
-        event.forEachRecipe({ type: 'thermal:press' }, recipe => {
-          let recipeJson = recipe.json
-          recipeJson.get('result').forEach(item => {
-            if (gear.equalsIgnoringCount(Item.of(item))) {
-              count++
+        let count = event.recipeStream({ type: 'thermal:press' }).mapToInt(recipe => {
+          let hasMatch = false
+          recipe.json.get('result').forEach(item => {
+            if (gear.specialEquals(Item.of(item), true)) {
+              hasMatch = true
             }
           })
-        })
+          if (hasMatch) { return 1 }
+          return 0
+        }).sum()
+
         if (count == 0) {
           event.custom({
             type: 'thermal:press',
@@ -77,19 +74,23 @@ ServerEvents.recipes(event => {
         }
       }
     }
-    if (global.loaded.FTBIC_Loaded) {
-      let plateTag = Ingredient.of(`#forge:plates/${material}`)
-      if (!AlmostUnified.getPreferredItemForTag(`forge:plates/${material}`).isEmpty()) {
+
+    let plateTag = Ingredient.of(`#forge:plates/${material}`)
+    if (!plateTag.getFirst().isEmpty()) {
+
+      if (global.loaded.FTBIC_Loaded) {
         // Check if ftbic extruding recipe exists and add it if not
-        let count = 0
-        event.forEachRecipe({ type: 'ftbic:extruding' }, recipe => {
-          let recipeJson = recipe.json
-          recipeJson.get('outputItems').forEach(item => {
-            if (gear.equalsIgnoringCount(Item.of(item))) {
-              count++
+        let count = event.recipeStream({ type: 'ftbic:extruding' }).mapToInt(recipe => {
+          let hasMatch = false
+          recipe.json.get('outputItems').forEach(item => {
+            if (gear.specialEquals(Item.of(item), true)) {
+              hasMatch = true
             }
           })
-        })
+          if (hasMatch) { return 1 }
+          return 0
+        }).sum()
+
         if (count == 0) {
           event.custom({
             type: 'ftbic:extruding',
@@ -99,10 +100,12 @@ ServerEvents.recipes(event => {
           gearCount.ftbic++
         }
       }
+
     }
   })
+
   if (global.devLogging) {
     console.log(`Added Gear Recipes - FTBIC: ${gearCount.ftbic}, IE: ${gearCount.ie}, Thermal: ${gearCount.thermal}`)
-    // Added Gear Recipes - FTBIC: 16, IE: 8, Thermal: 0
+    // Added Gear Recipes - FTBIC: 22, IE: 17, Thermal: 15
   }
 })

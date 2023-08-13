@@ -4,8 +4,8 @@
 */
 
 ServerEvents.recipes(e=>{
-  let ATM_metal = ['allthemodium','unobtainium','vibranium',]
-  ATM_metal.forEach(ATM_metal =>
+  let ATM_metals = ['allthemodium','unobtainium','vibranium',]
+  ATM_metals.forEach(ATM_metal =>
   e.custom({
     "type": "thermal:crucible",
     "ingredient": {
@@ -20,7 +20,7 @@ ServerEvents.recipes(e=>{
     "energy": 232000
   }).id(`kubejs:molten_${ATM_metal}`)
   )
-  ATM_metal.forEach(ATM_metal =>
+  ATM_metals.forEach(ATM_metal =>
   e.custom({
     "type": "thermal:chiller",
     "ingredients": [

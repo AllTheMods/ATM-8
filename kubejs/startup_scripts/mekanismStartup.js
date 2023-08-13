@@ -7,13 +7,12 @@
 */
 
 global.mekStackAdditions = [
-  {material:'crimson_iron', color:'#fc9aad', makeDust: false, dust:'silentgear:crimson_iron_dust'},
-  {material:'azure_silver', color:'#e89ffc', makeDust: false, dust:'silentgear:azure_silver_dust'}
+  {material:'crimson_iron', color:'#fc9aad', makeDust: false},
+  {material:'azure_silver', color:'#e89ffc', makeDust: false}
 ]
 
 // DO NOT EDIT BELOW THIS LINE
 
-const $MekanismAPI = Java.loadClass('mekanism.api.MekanismAPI')
 const $Slurry = Java.loadClass('mekanism.api.chemical.slurry.Slurry')
 const $SlurryBuilder = Java.loadClass('mekanism.api.chemical.slurry.SlurryBuilder')
 
@@ -29,9 +28,6 @@ StartupEvents.registry('item', event => {
         .tag(`mekanism:${type}s`)
         .tag(`mekanism:${type}s/${name}`)
     })
-    const SlurryRegistry = $MekanismAPI.slurryRegistry()
-    SlurryRegistry['register(java.lang.String,java.lang.Object)'](`clean_${name}`, $Slurry($SlurryBuilder.clean().ore(`forge:ores/${name}`).color(Color.of(color).getRgbJS())))
-    SlurryRegistry['register(java.lang.String,java.lang.Object)'](`dirty_${name}`, $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${name}`).color(Color.of(color).getRgbJS())))
   }
   global.mekStackAdditions.forEach(entry => {
     mekStack(entry.material, entry.color)
@@ -43,5 +39,12 @@ StartupEvents.registry('item', event => {
         .tag(`forge:dusts`)
         .tag(`forge:dusts/${entry.material}`)
     }
+  })
+})
+
+StartupEvents.registry('mekanism:slurry', event => {
+  global.mekStackAdditions.forEach(entry => {
+    event.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).color(Color.of(entry.color).getRgbJS())))
+    event.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).color(Color.of(entry.color).getRgbJS())))
   })
 })

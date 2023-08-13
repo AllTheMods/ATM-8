@@ -22,15 +22,15 @@ ServerEvents.recipes(event => {
     let out = recipe.json.get('result')
     let input = recipe.json.get('key').get('a')
     event.shaped(Item.of(out), ['   ', '   ', 'aaa'], { a: Ingredient.of(input) }).noMirror().noShrink().id(`kubejs:${recipe.getId().replace(':', '/')}`)
-    event.remove({ id: recipe.getId() })
   })
+  event.remove({ id: /comforts:sleeping_bag_.+/ })
   // wool slabs
   event.forEachRecipe({ type: 'minecraft:crafting_shaped', id: /absentbydesign:slab_wool_.+/ }, recipe => {
     let out = recipe.json.get('result')
     let input = recipe.json.get('key').get('#')
     event.shaped(Item.of(out), ['   ', '###', '   '], { '#': Ingredient.of(input) }).noMirror().noShrink().id(`kubejs:${recipe.getId().replace(':', '/')}`)
-    event.remove({ id: recipe.getId() })
   })
+  event.remove({ id: /absentbydesign:slab_wool_.+/ })
 
   // Structurize / Construction Wand
   event.remove({ id: 'structurize:sceptergold' })
