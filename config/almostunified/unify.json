@@ -18,7 +18,8 @@
     "blue_skies",
     "botania",
     "ad_astra",
-    "thermal_extra"
+    "thermal_extra",
+    "undergarden"
   ],
   "stoneStrata": [
     "stone",
@@ -60,6 +61,7 @@
     "charoite",
     "chrome",
     "cinnabar",
+    "cloggrum",
     "coal",
     "coal_coke",
     "cobalt",
@@ -76,6 +78,7 @@
     "enderium",
     "falsite",
     "fluorite",
+    "froststeel",
     "gold",
     "graphite",
     "horizonite",
@@ -115,6 +118,10 @@
   ],
   "priorityOverrides": {},
   "tagOwnerships": {},
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
   "ignoredTags": [],
   "ignoredItems": [],
   "ignoredRecipeTypes": [
