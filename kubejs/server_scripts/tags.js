@@ -21,6 +21,10 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:unobtainium_seeds',
     'mysticalagriculture:vibranium_seeds',
   ])
+  
+  //Fix Mythicbotany tags
+  event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
+  event.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
 
   //temp byg fix until above 2.0.0.13
   event.add('c:black_sand', '#forge:black_sand')
