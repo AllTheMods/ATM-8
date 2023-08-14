@@ -122,7 +122,7 @@ waystones-forge-1.19.2-11.4.1
 Forge Version is 43.2.14
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.22**
 Forge 43.2.14
@@ -215,7 +215,7 @@ WitherSkeletonTweaks-1.19.2-8.0.4
 Forge Version is 43.2.14
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.21**
 Forge 43.2.14
@@ -239,7 +239,7 @@ SuperFactoryManager-1.19.2-4.10.2
 Forge Version is 43.2.14
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.20**
 Dev note, the client and server pack has been checked by our own AV, virus total, and the CF malware checker, and have been cleared
@@ -363,7 +363,7 @@ WitherSkeletonTweaks-1.19.2-8.0.3
 Forge Version is 43.2.11
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.19**
 Forge 43.2.11
@@ -392,7 +392,7 @@ xnetgases-1.19.2-4.0.1
 Forge Version is 43.2.11
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.18**
 Updated forge to 43.2.11
@@ -498,7 +498,7 @@ waystones-forge-1.19.2-11.4.0
 Forge Version is 43.2.11
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.17**
 Small hotfix to fix a dupe issue, FluxNetworks rendering issue, and BiggerReactors fuel voiding.
@@ -514,7 +514,7 @@ sophisticatedstorage-1.19.2-0.6.29.335
 Forge Version is 43.2.8
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.16**
 Forge 43.2.8
@@ -638,7 +638,7 @@ xnet-1.19-5.1.4
 Forge Version is 43.2.8
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.15**
 Small update featuring some important fixes from a few mods.
@@ -674,7 +674,7 @@ tombstone-8.2.7-1.19.2
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.14**
 This is the start of the first round of server related changes and optimizations as suggested by staff from Akliz and BisectHosting.
@@ -802,7 +802,7 @@ YungsApi-1.19.2-Forge-3.8.9
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.13**
 Forge 43.2.6
@@ -821,7 +821,7 @@ xnet-1.19-5.1.3
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.12**
 Updated Forge to 43.2.6
@@ -893,7 +893,7 @@ YungsApi-1.19.2-Forge-3.8.7
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-====
+##
 
 **1.0.11**
 Changes/Additions
@@ -1025,7 +1025,7 @@ wirelesschargers-1.0.8-forge-mc1.19.jar
 xnet-1.19-5.1.2.jar
 YungsApi-1.19.2-Forge-3.8.6.jar
 
-====
+##
 
 **1.0.10**
 Changes
@@ -1066,7 +1066,7 @@ systeams-1.1.1.jar
 tesseract-1.0.28a-forge-mc1.19.jar
 theurgy-1.19.2-1.2.0.jar
 
-====
+##
 
 **1.0.9**
 Notice
@@ -1154,7 +1154,7 @@ tombstone-8.2.4-1.19.2.jar
 twilightforest-1.19.2-4.2.1493-universal.jar
 xnet-1.19-5.1.0.jar
 
-====
+##
 
 **1.0.8**
 Forge has been updated to 43.2.3
@@ -1265,7 +1265,7 @@ trashcans-1.0.16-forge-mc1.19.jar
 UtilitiX-1.19.2-0.7.6.jar
 wirelesschargers-1.0.7-forge-mc1.19.jar
 
-====
+##
 
 **1.0.7**
 Changes/Fixes
@@ -1345,7 +1345,7 @@ structurize-1.19.2-1.0.472-BETA.jar
 supplementaries-1.19.2-2.2.29.jar
 TerraBlender-forge-1.19.2-2.0.1.136.jar
 
-====
+##
 
 **1.0.6**
 Mods updated
@@ -1390,7 +1390,7 @@ spark-1.10.17-forge.jar
 StructureCompass-1.19.2-1.3.5.jar
 UtilitiX-1.19.2-0.7.5.jar
 
-====
+##
 
 **1.0.5**
 Changes/Additions
@@ -1447,7 +1447,7 @@ tombstone-8.2.2-1.19.2.jar
 ToolBelt-1.19.2-1.19.7.jar
 UtilitiX-1.19.2-0.7.4.jar
 
-====
+##
 
 **1.0.4**
 Changes/Additions
@@ -1489,6 +1489,6 @@ repurposed_structures_forge-6.3.8+1.19.2.jar
 resourcefullib-forge-1.19.2-1.1.17.jar
 rhino-forge-1902.2.2-build.264.jar
 
-===
+##
 **1.0.3 and below**
 *not available at this time*
