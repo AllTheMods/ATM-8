@@ -22,14 +22,10 @@ Quests
 
 Mods Added
 > Ding-1.19.2-Forge-1.4.1
-
-Exchangers-1.19.2-3.4
-
-matc-1.3.1 (Mystical Agriculture Tiered Crystals)
-
-serverconfigupdater-3.2
-
-The_Undergarden-1.19.2-0.8.3
+> Exchangers-1.19.2-3.4
+> matc-1.3.1 (Mystical Agriculture Tiered Crystals)
+> serverconfigupdater-3.2
+> The_Undergarden-1.19.2-0.8.3
 
 
 Mods Rolled back
