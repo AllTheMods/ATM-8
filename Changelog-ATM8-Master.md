@@ -20,11 +20,11 @@ Quests
 - Fixed Evilcraft weather bottle quest
 
 Mods Added
-> Ding-1.19.2-Forge-1.4.1
-    Exchangers-1.19.2-3.4
-    matc-1.3.1 (Mystical Agriculture Tiered Crystals)
-    serverconfigupdater-3.2
-    The_Undergarden-1.19.2-0.8.3
+> Ding-1.19.2-Forge-1.4.1,
+Exchangers-1.19.2-3.4,
+matc-1.3.1 (Mystical Agriculture Tiered Crystals),
+serverconfigupdater-3.2,
+The_Undergarden-1.19.2-0.8.3,
 
 Mods Rolled back
 create-1.19.2-0.5.1.b (to fix Steam and Rails crashing)
