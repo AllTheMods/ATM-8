@@ -1,8 +1,7 @@
 
+#
+## **1.0.23**
 
-##
-
-**1.0.23**
 Forge 43.2.14
 Changes, Additions, and fixes
 - Misc KubeJS script changes for v6.1
@@ -21,11 +20,11 @@ Quests
 - Fixed Evilcraft weather bottle quest
 
 Mods Added
-Ding-1.19.2-Forge-1.4.1
-Exchangers-1.19.2-3.4
-matc-1.3.1 (Mystical Agriculture Tiered Crystals)
-serverconfigupdater-3.2
-The_Undergarden-1.19.2-0.8.3
+> Ding-1.19.2-Forge-1.4.1
+    Exchangers-1.19.2-3.4
+    matc-1.3.1 (Mystical Agriculture Tiered Crystals)
+    serverconfigupdater-3.2
+    The_Undergarden-1.19.2-0.8.3
 
 Mods Rolled back
 create-1.19.2-0.5.1.b (to fix Steam and Rails crashing)
@@ -122,9 +121,9 @@ waystones-forge-1.19.2-11.4.1
 Forge Version is 43.2.14
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.22**
 
-**1.0.22**
 Forge 43.2.14
 Changes, Additions, and fixes
 - Changed SOL:Carrot edition food milestones and added more milestones, now able to gain 20 additional hearts from foods
@@ -215,9 +214,9 @@ WitherSkeletonTweaks-1.19.2-8.0.4
 Forge Version is 43.2.14
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.21**
 
-**1.0.21**
 Forge 43.2.14
 Small update to fix ars break spells, and End generation crashes
 Removed bugged Ars Argonomic sourcelink feature for Botany pots
@@ -239,9 +238,9 @@ SuperFactoryManager-1.19.2-4.10.2
 Forge Version is 43.2.14
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.20**
 
-**1.0.20**
 Dev note, the client and server pack has been checked by our own AV, virus total, and the CF malware checker, and have been cleared
 Forge 43.2.14
 Removed Radon and replaced it with Starlight, should clear out any and all dark chunk issues.
@@ -363,9 +362,9 @@ WitherSkeletonTweaks-1.19.2-8.0.3
 Forge Version is 43.2.11
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.19**
 
-**1.0.19**
 Forge 43.2.11
 Smaller update with just some mod updates this time
 
@@ -392,9 +391,9 @@ xnetgases-1.19.2-4.0.1
 Forge Version is 43.2.11
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.18**
 
-**1.0.18**
 Updated forge to 43.2.11
 Added Tetra and Mythic botany
 
@@ -498,9 +497,9 @@ waystones-forge-1.19.2-11.4.0
 Forge Version is 43.2.11
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.17**
 
-**1.0.17**
 Small hotfix to fix a dupe issue, FluxNetworks rendering issue, and BiggerReactors fuel voiding.
 
 Mods Rolled back
@@ -514,9 +513,9 @@ sophisticatedstorage-1.19.2-0.6.29.335
 Forge Version is 43.2.8
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.16**
 
-**1.0.16**
 Forge 43.2.8
 Changes and Fixes
 Added Piglich Heart block
@@ -638,9 +637,9 @@ xnet-1.19-5.1.4
 Forge Version is 43.2.8
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
 
-**1.0.15**
+## **1.0.15**
 Small update featuring some important fixes from a few mods.
 A potential cause of the particle Render crash has been identified and fixed by the mod dev, hopefully that's the end of that issue.
 We have also re-added FastWorkbench after consultation with the mod dev.
@@ -674,9 +673,9 @@ tombstone-8.2.7-1.19.2
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.14**
 
-**1.0.14**
 This is the start of the first round of server related changes and optimizations as suggested by staff from Akliz and BisectHosting.
 We're also removing Rubidium extras and dynamic lights, as both of those mods are not working as well as we'd like, we might revisit dynamic lighting in a future update.
 Forge 43.2.6
@@ -802,9 +801,9 @@ YungsApi-1.19.2-Forge-3.8.9
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.13**
 
-**1.0.13**
 Forge 43.2.6
 Mods Rolled back
 supplementaries-1.19.2-2.2.51 - to fix a server Registry issue
@@ -821,9 +820,9 @@ xnet-1.19-5.1.3
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.12**
 
-**1.0.12**
 Updated Forge to 43.2.6
 Changes/Additions
 Add Farmer's Delight cutting recipes to create
@@ -893,9 +892,9 @@ YungsApi-1.19.2-Forge-3.8.7
 Forge Version is 43.2.6
 ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
-##
+#
+## **1.0.11**
 
-**1.0.11**
 Changes/Additions
 Added Botania flowers, Ars Archwood Trees, and Elementalcraft source nodes to the Mining Dim
 Added Botania mushrooms to the Other
@@ -1025,9 +1024,9 @@ wirelesschargers-1.0.8-forge-mc1.19.jar
 xnet-1.19-5.1.2.jar
 YungsApi-1.19.2-Forge-3.8.6.jar
 
-##
+#
+## **1.0.10**
 
-**1.0.10**
 Changes
 Fixed shunker shells also dropping with Affixes, fix #789
 Stopped some more mods from calling home/sending analytics
@@ -1066,9 +1065,9 @@ systeams-1.1.1.jar
 tesseract-1.0.28a-forge-mc1.19.jar
 theurgy-1.19.2-1.2.0.jar
 
-##
+#
+## **1.0.9**
 
-**1.0.9**
 Notice
 Open to LAN now works, Huge thanks again to XFactHD for debugging some mods and identifying the responsible code, for the mod devs to then update.
 
@@ -1154,9 +1153,9 @@ tombstone-8.2.4-1.19.2.jar
 twilightforest-1.19.2-4.2.1493-universal.jar
 xnet-1.19-5.1.0.jar
 
-##
+#
+## **1.0.8**
 
-**1.0.8**
 Forge has been updated to 43.2.3
 
 Additions/changes
@@ -1265,9 +1264,9 @@ trashcans-1.0.16-forge-mc1.19.jar
 UtilitiX-1.19.2-0.7.6.jar
 wirelesschargers-1.0.7-forge-mc1.19.jar
 
-##
+#
+## **1.0.7**
 
-**1.0.7**
 Changes/Fixes
 Added recipes to get some Reliquary drops via Hostile Neural Networks
 Add MA Exp droplets to Fluid Xp recipe
@@ -1345,9 +1344,9 @@ structurize-1.19.2-1.0.472-BETA.jar
 supplementaries-1.19.2-2.2.29.jar
 TerraBlender-forge-1.19.2-2.0.1.136.jar
 
-##
+#
+## **1.0.6**
 
-**1.0.6**
 Mods updated
 ad_astra-forge-1.19.2-1.11.9.jar
 AdditionalEnchantedMiner-1.19.2-19.10.jar
@@ -1390,9 +1389,9 @@ spark-1.10.17-forge.jar
 StructureCompass-1.19.2-1.3.5.jar
 UtilitiX-1.19.2-0.7.5.jar
 
-##
+#
+## **1.0.5**
 
-**1.0.5**
 Changes/Additions
 Alloy tools have had their source costs changed and are now craftable
 "Oil is Oil", The three currently available Oils should now be interchangeable
@@ -1447,9 +1446,9 @@ tombstone-8.2.2-1.19.2.jar
 ToolBelt-1.19.2-1.19.7.jar
 UtilitiX-1.19.2-0.7.4.jar
 
-##
+#
+## **1.0.4**
 
-**1.0.4**
 Changes/Additions
 Changed Forge back to 43.1.55 to fix drawer render issues
 Quests updated
@@ -1489,6 +1488,7 @@ repurposed_structures_forge-6.3.8+1.19.2.jar
 resourcefullib-forge-1.19.2-1.1.17.jar
 rhino-forge-1902.2.2-build.264.jar
 
-##
-**1.0.3 and below**
-*not available at this time*
+#
+## **1.0.3 and Below**
+
+***not available at this time***
