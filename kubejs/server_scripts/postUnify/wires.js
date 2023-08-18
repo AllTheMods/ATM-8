@@ -13,33 +13,28 @@ ServerEvents.recipes(event => {
   if (global.devLogging) {
     console.log('Finishing Unifying on Wires')
   }
-  let wireTags = global.auTags.filter(function (val) {
-    return /forge:wires/.test(val)
-  })
   let wireCount = {
     create: 0,
     ftbic: 0,
     ie: 0,
     thermal: 0
   }
-  wireTags.forEach(wireTagString => {
-    let material = wireTagString.replace('forge:wires/', '')
-    let wire = AlmostUnified.getPreferredItemForTag(wireTagString)
+  global.auTags.wires.forEach(material => {
+    let wire = global.itemFromTag('wires', material)
     if (wire.isEmpty()) {
       console.log(`${material} does not have a wire tag entry`)
       return
     }
+
     if (global.loaded.CreateAdd_Loaded) {
-      let plate = AlmostUnified.getPreferredItemForTag(`forge:plates/${material}`)
+      let plate = global.itemFromTag('plates', material)
       if (!plate.isEmpty()) {
         // Check if create additions rolling recipe exists and add it if not
-        let count = 0
-        event.forEachRecipe({ type: 'createaddition:rolling' }, recipe => {
-          let recipeJson = recipe.json
-          if (wire.equalsIgnoringCount(Item.of(recipeJson.get('result')))) {
-            count++
-          }
-        })
+        let count = event.recipeStream({ type: 'createaddition:rolling' }).mapToInt(recipe => {
+          if (wire.equalsIgnoringCount(Item.of(recipe.json.get('result')))) { return 1 }
+          return 0
+        }).sum()
+
         if (count == 0) {
           event.custom({
             type: 'createaddition:rolling',
@@ -50,19 +45,22 @@ ServerEvents.recipes(event => {
         }
       }
     }
+
     if (global.loaded.FTBIC_Loaded) {
-      let rod = AlmostUnified.getPreferredItemForTag(`forge:rods/${material}`)
+      let rod = global.itemFromTag('rods', material)
       if (!rod.isEmpty()) {
         // Check if ftbic extruding recipe exists and add it if not
-        let count = 0
-        event.forEachRecipe({ type: 'ftbic:extruding' }, recipe => {
-          let recipeJson = recipe.json
-          recipeJson.get('outputItems').forEach(item => {
-            if (wire.equalsIgnoringCount(Item.of(item))) {
-              count++
+        let count = event.recipeStream({ type: 'ftbic:extruding' }).mapToInt(recipe => {
+          let hasMatch = false
+          recipe.json.get('outputItems').forEach(item => {
+            if (wire.specialEquals(Item.of(item), true)) {
+              hasMatch = true
             }
           })
-        })
+          if (hasMatch) { return 1 }
+          return 0
+        }).sum()
+
         if (count == 0) {
           event.custom({
             type: 'ftbic:extruding',
@@ -73,22 +71,19 @@ ServerEvents.recipes(event => {
         }
       }
     }
+
     if (global.loaded.IE_Loaded) {
-      let ingot = AlmostUnified.getPreferredItemForTag(`forge:ingots/${material}`)
+      let ingot = global.itemFromTag('ingots', material)
       if (!ingot.isEmpty()) {
         // Check if ie metal press recipe exists and add it if not
-        let count = 0
-        event.forEachRecipe({ type: 'immersiveengineering:metal_press' }, recipe => {
-          let recipeJson = recipe.json
-          let result = recipeJson.get('result')
+        let count = event.recipeStream({ type: 'immersiveengineering:metal_press' }).mapToInt(recipe => {
+          let result = recipe.json.get('result')
           if (result.has('base_ingredient')) {
-            if (global.ingredientCheck(wire, result.get('base_ingredient'))) {
-              count++
-            }
-          } else if (global.ingredientCheck(wire, result)) {
-            count++
-          }
-        })
+            if (wire.equalsIgnoringCount(Item.of(result.get('base_ingredient')))) { return 1 }
+          } else if (wire.equalsIgnoringCount(Item.of(result))) { return 1 }
+          return 0
+        }).sum()
+
         if (count == 0) {
           event.custom({
             type: 'immersiveengineering:metal_press',
@@ -108,6 +103,6 @@ ServerEvents.recipes(event => {
   })
   if (global.devLogging) {
     console.log(`Added Wire Recipes - CreateAdditions: ${wireCount.create}, FTBIC: ${wireCount.ftbic}, IE: ${wireCount.ie}`)
-    // Added Wire Recipes - CreateAdditions: 2, FTBIC: 4, IE: 1
+    // Added Wire Recipes - CreateAdditions: 1, FTBIC: 4, IE: 1
   }
 })
