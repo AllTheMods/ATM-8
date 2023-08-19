@@ -1,6 +1,34 @@
 
 
 #
+## **1.0.24**
+
+Forge 43.2.14
+
+**Changes, Additions, and fixes**
+- Added FTB Xmod compat, this should fix our more custom quests
+- Fixed some of the HNN models that got broken last update
+
+**Mods Added**
+- ftb-xmod-compat-forge-1.2.2
+
+**Mods Updated**
+- Apotheosis-1.19.2-6.3.5
+- cupboard-1.19.2-1.7
+- extremesoundmuffler-3.38-forge-1.19.2
+- ftb-quests-forge-1902.5.4-build.275
+- kubejs-forge-1902.6.1-build.364
+- minecolonies-1.19.2-1.1.96-BETA
+- modernfix-forge-5.6.1+mc1.19.2
+- occultism-1.19.2-1.84.1
+- Quark-3.4-409
+- structurize-1.19.2-1.0.629-RELEASE
+- supplementaries-1.19.2-2.3.22
+
+Forge Version is 43.2.14
+> ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
+#
 ## **1.0.23**
 
 Forge 43.2.14
@@ -120,7 +148,7 @@ Changes Additions and fixes
 - UtilitiX-1.19.2-0.7.13
 - waystones-forge-1.19.2-11.4.1
 
-> Forge Version is 43.2.14
+Forge Version is 43.2.14
 > ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
 #
