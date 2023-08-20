@@ -1,4 +1,22 @@
 
+#
+## **1.0.25**
+
+Forge 43.2.14
+
+Mini update just to fix the HNN issue users are having on servers, and update a couple more mods
+
+Mods Updated
+- Ad-Astra-Giselle-Addon-forge-1.19.2-1.17
+- ars_nouveau-1.19.2-3.17.11
+- jei-1.19.2-forge-11.6.0.1018
+- minecolonies-1.19.2-1.1.107-BETA
+- modernfix-forge-5.7.0+mc1.19.2
+- supplementaries-1.19.2-2.3.23
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
 
 #
 ## **1.0.24**
