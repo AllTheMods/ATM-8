@@ -57,9 +57,10 @@ ServerEvents.tags('block', event => {
     'mysticalagriculture:azure_silver_crop',
     'mysticalagriculture:crimson_iron_crop',
     'mysticalagriculture:unobtainium_crop',
-    'mysticalagriculture:vibranium_crop',
+    'mysticalagriculture:vibranium_crop'
   ])
-    event.add('minecraft:beacon_base_blocks', [
+  
+  event.add('minecraft:beacon_base_blocks', [
     'allthemodium:vibranium_allthemodium_alloy_block',
     'allthemodium:unobtainium_allthemodium_alloy_block',
     'allthemodium:unobtainium_vibranium_alloy_block',
