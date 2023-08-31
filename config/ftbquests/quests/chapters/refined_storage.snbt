@@ -1438,7 +1438,7 @@
 			y: -1.0d
 			shape: "rsquare"
 			description: [
-				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of part, then combine with the housing to create a disk."
+				"It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of the part, then combine it with the housing to create a disk."
 				""
 				"The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
 			]
@@ -1477,7 +1477,7 @@
 				""
 				"&9Transmitters&r should be connected to your main system, wherever your Controller is."
 				""
-				"The &9Receiver&r should go wherever you want your external network to be. For exmample, this can be a separate part of your base where you have Bees, a mob farm, etc."
+				"The &9Receiver&r should go wherever you want your external network to be. For example, this can be a separate part of your base where you have Bees, a mob farm, etc."
 				""
 				"To connect the Receiver to your main network, you'll need to use a &eNetwork Card&r. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system."
 			]
@@ -1649,7 +1649,7 @@
 				""
 				"Whatever items end up in the block will be stored inside whenever you break it as well."
 				""
-				"If you want to uncraft it, you can sneak right click while holding it."
+				"If you want to un-craft it, you can sneak right-click while holding it."
 			]
 			dependencies: [
 				"4B81E84CAE814BA9"
@@ -1828,7 +1828,7 @@
 			description: [
 				"Allows you to access every part of your RS system."
 				""
-				"This is the All-In-One Wireless Terminal. It allows you to use the crafting grid, fluid grid, and check on your autocrafting all in one place."
+				"This is the All-In-One Wireless Terminal. It allows you to use the crafting grid, the fluid grid, and check on your auto-crafting all in one place."
 			]
 			dependencies: ["15ECBC8E174FA39B"]
 			id: "34DB6863E6CF1B70"
@@ -1852,7 +1852,7 @@
 			x: -8.5d
 			y: -6.0d
 			description: [
-				"The &9Regulator Upgrade&r allows you to maintain a certain amount of items within a block or machine. A great example of this is telling your network that you want to keep 64 Coal within a Furnace. You'd place the upgrade in the exporter attached to the furnace, and set it to 64. Your system will then try to keep the furnace full of fuel!"
+				"The &9Regulator Upgrade&r allows you to maintain a certain amount of items within a block or machine. A great example of this is telling your network that you want to keep 64 Coal within a Furnace. You'd place the upgrade in the exporter attached to the furnace and set it to 64. Your system will then try to keep the furnace full of fuel!"
 				""
 				"But what if you need an item that is crafted? The &9Crafting Upgrade&r does exactly this. If you have the recipe learned inside of a crafter, adding this upgrade to an interface will let it know to craft it if you run out."
 				""

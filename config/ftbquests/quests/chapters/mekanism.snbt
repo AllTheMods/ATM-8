@@ -1311,7 +1311,7 @@
 				"407EFAF528871014"
 			]
 			description: [
-				"This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, then through a smelter to be turned to an ingot."
+				"This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, and then through a smelter to be turned to an ingot."
 				""
 				"This will double your ingot output."
 				""
@@ -1705,7 +1705,7 @@
 				""
 				"There are several methods to increase the temperature of the plant, including building them in a desert!"
 				""
-				"The &aFuelwood Heater&r burns buckets of Lava, which can them be piped in using a pipe that transfers heat."
+				"The &aFuelwood Heater&r burns buckets of Lava, which can then be piped in using a pipe that transfers heat."
 				""
 				"The &aResistive Heater&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use."
 			]
@@ -2369,7 +2369,7 @@
 			description: [
 				"Mekanism is a tech mod that will change the way you play Minecraft."
 				""
-				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
+				"The mod focuses on breaking down materials to their chemical makeup and getting the best out of every material you come across. "
 				""
 				"This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more."
 			]
@@ -2566,7 +2566,7 @@
 			description: [
 				"When Bio Fuel is combined with Water and Hydrogen in a &aPressurized Reaction Chamber&r it creates Substrates. It also creates Ethylene as a by-product."
 				""
-				"These are needed to create HDPE pellets, which is used for end-game crafts like the Meka-suit."
+				"These are needed to create HDPE pellets, which are used for end-game crafts like the Meka-suit."
 			]
 			id: "5047792C6EF6D2AD"
 			rewards: [

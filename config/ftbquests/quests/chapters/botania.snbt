@@ -564,7 +564,7 @@
 				""
 				"To create items, just throw the appropriate items for the recipe into the Apothecary. Right clicking with an empty hand will remove items from it as well."
 				""
-				"Once a recipe has been completed, you will have about 20 seconds where &aright clicking with an empty hand&r will refill the last recipe, making it easier to create multiple of the same items!"
+				"Once a recipe has been completed, you will have about 20 seconds where &aright-clicking with an empty hand&r will refill the last recipe, making it easier to create multiple of the same items!"
 			]
 			id: "79BE48D56622542F"
 			min_width: 250
@@ -2262,7 +2262,7 @@
 				""
 				"The higher the amount of Mana stored in the tool, the higher the rank that it has, with D being the lowest and SS being the highest."
 				""
-				"Increasing the tool's rank does not increase the speed of it, but instead increases the AoE of its &bActive Ability&r, which can be toggled on and off by sneak-right clicking. When active, it increases the Shatterer's mining width and height based on the rank. Being at a rank of D will not have an ability."
+				"Increasing the tool's rank does not increase its speed, but instead increases the AoE of its &bActive Ability&r, which can be toggled on and off by sneak-right clicking. When active, it increases the Shatterer's mining width and height based on the rank. Being at a rank of D will not have an ability."
 				""
 				"Note: As long as the tool is active, it will consume its stored mana."
 			]
@@ -2364,7 +2364,7 @@
 			description: [
 				"&9Runes&r are vital crafting components in many of the more advanced recipes in Botania, and these are created on a &aRunic Altar&r."
 				""
-				"To use the Altar, start by placing the components of the rune you want on it. This can be done either by right clicking or dropping the item. It will also need Mana, so make sure to point a Mana Spreader that is getting Mana towards it as well."
+				"To use the Altar, start by placing the components of the rune you want on it. This can be done either by right-clicking or dropping the item. It will also need Mana, so make sure to point a Mana Spreader that is getting Mana towards it as well."
 				""
 				"Once you've finished placing the items, you can hover over the Altar with your wand and it will show you the progress of the recipe. When it completes, drop a piece of Livingrock on the Altar, then use your wand to collect your rune."
 				""
@@ -2716,7 +2716,7 @@
 				""
 				"Once the frame is created, we'll need to open it by using at least &d2 Mana Pools&r, a huge amount of mana, and a &aNatura Pylon&r over the 2 pools. These mana pools can be within an 11x11x11 area around the core."
 				""
-				"With everything set up, right click the Elven Core with your wand to activate the portal."
+				"With everything set up, right-click the Elven Core with your wand to activate the portal."
 				""
 				"Note: Even though the Mana Pools need a large amount of Mana to activate the portal, activating the portal does not cost Mana itself. However, converting materials over will use a little each time. If there is not enough mana, the portal will close."
 				""
@@ -2886,7 +2886,7 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"Has an ability to clear away Cobblestone, Dirt, Netherrack, and other common materials, leaving behind only ores and fine resources."
+				"Has the ability to clear away Cobblestone, Dirt, Netherrack, and other common materials, leaving behind only ores and fine resources."
 				""
 				"Can combine with the Terra Shatterer in a crafting grid, which will allow the latter to take on the former's power. This cannot be undone."
 			]
@@ -3223,7 +3223,7 @@
 			description: [
 				"With Botania, you can create a &dCorporea Network&r by using &9Corporea Sparks&r over inventories."
 				""
-				"While the network will need at least one &bMaster&r &9Corporea Spark&r to work, you can expand the network with as many Corporea Sparks as you want. When these Sparks are placed, it will connect to all of the same colored Corporea Sparks and form an item network. Each Spark only has a range of 8 blocks."
+				"While the network will need at least one &bMaster&r &9Corporea Spark&r to work, you can expand the network with as many Corporea Sparks as you want. When these Sparks are placed, they will connect to all of the same colored Corporea Sparks and form an item network. Each Spark only has a range of 8 blocks."
 				""
 				"These Sparks can only see the inventory directly beneath it, but can only access items from its top side. Each Spark can also see every item in the Corporea network, and can be accessed by other Corporea blocks, like the Funnel or Index."
 			]
@@ -3286,7 +3286,7 @@
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
-			description: ["The &9Corporea Crystal Cube&r is used to show the total count of an item in the Corporea Network of the Spark placed above it by right clicking it with that item."]
+			description: ["The &9Corporea Crystal Cube&r is used to show the total count of an item in the Corporea Network of the Spark placed above it by right-clicking it with that item."]
 			id: "7440E522FC31C341"
 			optional: true
 			rewards: [{
@@ -3920,7 +3920,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["Using this on a Spreader will cause it to only fire a Mana Burst only if it can hit a mob or player."]
+			description: ["Using this on a Spreader will cause it to fire a Mana Burst only if it can hit a mob or player."]
 			hide_dependency_lines: true
 			id: "0E7E559F2750F7D3"
 			optional: true

@@ -313,7 +313,7 @@
 			description: [
 				"Chests that work across dimensions."
 				""
-				"Can be color coded for security! (Right click on the block with the desired dye)."
+				"Can be color-coded for security! (Right-click on the block with the desired dye)."
 				""
 				"*Note: If someone else uses your color combination, they can get the contents!"
 			]
@@ -495,7 +495,7 @@
 				""
 				"This works just like an Ender Chest, but for Drawers."
 				""
-				"To link, Right click the first Ender Drawer with the &aLinking Tool&r, then left click the second Ender Drawer to sync."
+				"To link, Right-click the first Ender Drawer with the &aLinking Tool&r, then left-click the second Ender Drawer to sync."
 			]
 			dependencies: ["072FBEB0F6F1BC48"]
 			id: "1A4B1CA7EC15348E"
@@ -659,7 +659,7 @@
 			x: -9.0d
 			y: 6.5d
 			shape: "circle"
-			subtitle: "Allows the backpack to pickup items."
+			subtitle: "Allows the backpack to pick up items."
 			hide_dependency_lines: true
 			dependencies: ["1FE052F643401232"]
 			hide: true
@@ -1549,7 +1549,7 @@
 			description: [
 				"Used to link Drawers to a controller and to link up Ender Drawers."
 				""
-				"To link Drawers to the Controller, right click the Controller block to start configuration. Right clicking Drawers will add them to the network."
+				"To link Drawers to the Controller, righ--click the Controller block to start configuration. Right-clicking Drawers will add them to the network."
 				""
 				"Holding the tool will show you what Drawers are connected to the Controller."
 			]

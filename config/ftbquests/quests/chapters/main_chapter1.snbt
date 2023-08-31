@@ -644,7 +644,7 @@
 				count: 2L
 			}]
 			description: [
-				"These work like pressure plates. Right click them to get a shard that you can use on another warp plate to link them."
+				"These work like pressure plates. Right-click them to get a shard that you can use on another warp plate to link them."
 				""
 				"If you need to create another Attuned Shard, place flint in the center and surround with 4 warp dust."
 			]
@@ -1295,7 +1295,7 @@
 				""
 				"Use the command &a/ftbteams party create&r to create your team."
 				""
-				"To claim chunks, the default key to open the Claim Map is \"M\". To claim a chunk, left click and drag to claim. To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+				"To claim chunks, the default key to open the Claim Map is \"M\". To claim a chunk, left-click and drag to claim. To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
 			]
 			id: "5E7C6705CE996BDF"
 			x: 2.0d
@@ -1315,9 +1315,9 @@
 				count: 8L
 			}]
 			description: [
-				"You can break down Charcoal AND Coal into tiny pieces, which smelt 1 item a piece."
+				"You can break down Charcoal AND Coal into tiny pieces, which smelt 1 item apiece."
 				""
-				"No more left over fuel burning!"
+				"No more leftover fuel burning!"
 			]
 			id: "008BA27244838C81"
 			x: 0.0d

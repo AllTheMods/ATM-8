@@ -591,7 +591,7 @@
 				""
 				"The easiest way to do this is by giving the Reactor &9Water&r from a Sink. The Sink is an infinite water source, which is &oreally nice for a situation like this&r."
 				""
-				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power with in an &9Industrial Turbine&r."
+				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power within an &9Industrial Turbine&r."
 				""
 				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
 			]
@@ -620,9 +620,9 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"Once you've finish placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
+				"Once you've finished placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
 				""
-				"Right clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
+				"Right-clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
 				""
 				"On the left, you have 2 tanks: One for &bCoolant&r and one for &3Fissile Fuel&r. On the right, you have one for &8Nuclear Waste&r, and one for &bHeated Coolant&r, which will most likely be &bSteam&r."
 				""
@@ -1028,7 +1028,7 @@
 			description: [
 				"&8Nuclear Waste&r can be sent into an Isotopic Centrifuge to create &9Plutonium&r."
 				""
-				"Sending the Plutonium into a Pressurized Reaction Chamber with some water and &7Fluorite Dust&r will give you &9Plutonium Pellets&r. These are used to make end game materials!"
+				"Sending the Plutonium into a Pressurized Reaction Chamber with some water and &7Fluorite Dust&r will give you &9Plutonium Pellets&r. These are used to make end-game materials!"
 				""
 				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
 			]
@@ -1159,7 +1159,7 @@
 				"To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:"
 				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 				""
-				"For the top, we want replace the middle block with the Fusion Reactor Controller."
+				"For the top, we want to replace the middle block with the Fusion Reactor Controller."
 				""
 				"For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
 				""
@@ -1339,7 +1339,7 @@
 				""
 				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
 				""
-				"In the image below, you can see an example of how this is setup. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
+				"In the image below, you can see an example of how this is set up. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
 				""
 				"The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix."
 				""
@@ -1459,7 +1459,7 @@
 				"4ABF0727AA569DD9"
 			]
 			description: [
-				"To kick start the Fusion Reactor, we'll need a quick-shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
+				"To kick start the Fusion Reactor, we'll need a quick shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
 				""
 				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!"
 			]
@@ -1718,7 +1718,7 @@
 			description: [
 				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
 				""
-				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limit the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
+				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limits the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
 				""
 				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the Electromagnetic Coils."
 			]
@@ -1767,7 +1767,7 @@
 			description: [
 				"The &9Turbine Rotor&r is placed in the middle of the Turbine. For every Turbine Rotor, you will need 2 &aTurbine Blades&r. For this Turbine, we'll be using 3 Rotors."
 				""
-				"While looking at the Rotor, right clicking with &aTurbine Blades&r will place them directly onto the Rotor. The taller the Rotor, the longer the Blades will become. For this build, we are using 6 total Blades. If you plan on building a bigger Turbine, you will need to increase the width of the Turbine depending on how many Blades you plan on using."
+				"While looking at the Rotor, right-clicking with &aTurbine Blades&r will place them directly onto the Rotor. The taller the Rotor, the longer the Blades will become. For this build, we are using 6 total Blades. If you plan on building a bigger Turbine, you will need to increase the width of the Turbine depending on how many Blades you plan on using."
 				""
 				"The &9Rotational Complex&r must be placed at the top of the Turbine Rotor. This is then surrounded by &ePressure Dispersers&r."
 				""
@@ -1855,7 +1855,7 @@
 				"05D20B506213A449"
 			]
 			description: [
-				"If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface."
+				"If you've built the Turbine properly, you will see red particles around the structure. Right-clicking on the Turbine will open up the interface."
 				""
 				"This will tell you all of the information that you need to know, including the total Steam Flow Rate, as well as the total Steam inside of the Turbine."
 				""

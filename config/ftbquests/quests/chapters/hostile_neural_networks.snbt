@@ -153,7 +153,7 @@
 			description: [
 				"The &dSimulation Chamber&r is the main machine within HNN."
 				""
-				"When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip. "
+				"When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside and can be seen within the Model's tooltip. "
 				""
 				"The machine also requires at least one &9Prediction Matrix&r to run a simulation."
 				""

@@ -1601,7 +1601,7 @@
 		}
 		{
 			dependencies: ["35FA55BE8DF49EE8"]
-			description: ["To insert the desired potion, just right click with the &2Primed Pendant&r in hand to open its inventory."]
+			description: ["To insert the desired potion, just right-click with the &2Primed Pendant&r in hand to open its inventory."]
 			hide_dependency_lines: true
 			id: "4DF7E2149F4BD8CC"
 			rewards: [

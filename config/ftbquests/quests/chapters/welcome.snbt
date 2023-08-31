@@ -397,7 +397,7 @@
 			description: [
 				"To claim chunks, the default key to open the Claim Map is &6M&r."
 				""
-				"To claim a chunk, left click and drag to claim. "
+				"To claim a chunk, left-click and drag to claim. "
 				""
 				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
 			]

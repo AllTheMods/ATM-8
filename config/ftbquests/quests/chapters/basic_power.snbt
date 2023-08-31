@@ -267,7 +267,7 @@
 		{
 			dependencies: ["1F81EA5E45424308"]
 			description: [
-				"Mekanism offers a nice looking cable to transfer your power."
+				"Mekanism offers a nice-looking cable to transfer your power."
 				""
 				"If the machine you are connecting to already pulls or pushes power, you will not need to configure the cable. Otherwise, you'll need a &9Configurator&r to configure the pipe. Shift+right-clicking will change the cable to pull or push mode. "
 			]
@@ -821,7 +821,7 @@
 				""
 				"You can even charge your jetpack while you are flying with this mod. HOW COOL IS THAT?"
 				""
-				"To get started with the mod, you'll need some Flux Dust. Head to bedrock level, then throw some redstone on top of a block of bedrock. Place a block of obsidian right above the floating redstone, then left click the obsidian."
+				"To get started with the mod, you'll need some Flux Dust. Head to bedrock level, then throw some redstone on top of a block of bedrock. Place a block of obsidian right above the floating redstone, then left-click the obsidian."
 			]
 			id: "35CC898E0E49FE58"
 			min_width: 300
@@ -901,7 +901,7 @@
 				""
 				"The Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store power itself, so don't worry about it zapping up all of your power."
 				""
-				"It is suggested to place the Plug on a power storage block like an energy cube. It can connect to cables, pipes, or the output of any power producing machine."
+				"It is suggested to place the Plug on a power storage block like an energy cube. It can connect to cables, pipes, or the output of any power-producing machine."
 				""
 				"To learn how to set up your first network, check the next quest!"
 			]
@@ -972,7 +972,7 @@
 			description: [
 				"With our plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including pipes or cables, or just directly on machines!"
 				""
-				"Once you've placed your point on the machine or block you want to power, right click on it and select your network in the Network Selection tab. Just like the plug, you can adjust how much power it pulls, priority level, etc."
+				"Once you've placed your point on the machine or block you want to power, right-click on it and select your network in the Network Selection tab. Just like the plug, you can adjust how much power it pulls, priority level, etc."
 			]
 			id: "56B6ABF3D6EA0D84"
 			rewards: [
@@ -1038,7 +1038,7 @@
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"Right clicking a functional Flux Network block will give you this UI."
+				"Right-clicking a functional Flux Network block will give you this UI."
 				""
 				"Each Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system."
 				""
@@ -1074,7 +1074,7 @@
 				""
 				"Once you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down."
 				""
-				"Right click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle at the bottom to Enable Wireless charging, then click apply!"
+				"Right-click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle at the bottom to Enable Wireless charging, then click apply!"
 				""
 				"{image:atm:textures/questpics/flux/wireless_ui.png width:125 height:150 align:1}"
 			]

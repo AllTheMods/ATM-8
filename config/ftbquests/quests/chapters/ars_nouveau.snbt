@@ -1885,7 +1885,7 @@
 			description: [
 				"This is the next upgrade to your Spellbook!"
 				""
-				"This will increase your overall mana and mana regen, as well as unlocking the ability to create and use Tier 2 Glyphs."
+				"This will increase your overall mana and mana regen, as well as unlock the ability to create and use Tier 2 Glyphs."
 			]
 			dependencies: ["64D0E66CB4FBEC82"]
 			id: "0D330FAD6C993DBC"
@@ -3095,7 +3095,7 @@
 				""
 				"The &6Jar of Voiding&r destroys items you pick up in exchange for mana. This can be filtered."
 				""
-				"To add or remove an item to be detroyed by the jar, use the jar with the item in your off hand, or use an item on the Scribe's Table with the jar placed on it."
+				"To add or remove an item to be destroyed by the jar, use the jar with the item in your off-hand, or use an item on the Scribe's Table with the jar placed on it."
 				""
 				"The jar must be on your hotbar to function."
 			]

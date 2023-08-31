@@ -256,7 +256,7 @@
 				""
 				"The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
 				""
-				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite). While it only requires one, it's usually a good idea to have 2 per reactor. If the inventory can push &land&r pull (i.e. hopper), Cyanite will be pushed into the inventory as an input."
+				"The &aAccess Ports&r are required for every reactor, and allow you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite). While it only requires one, it's usually a good idea to have 2 per reactor. If the inventory can push &land&r pull (i.e. hopper), Cyanite will be pushed into the inventory as an input."
 			]
 			dependencies: ["4B9E9497E44D0096"]
 			id: "2A20000FAEC2E16A"
@@ -941,7 +941,7 @@
 			description: [
 				"Instead of building the smallest Turbine at this point, it's better to build a Turbine based off of the design of your &9Active Reactor&r."
 				""
-				"For starters, you want to build a Turbine that can handle the &9Exhaust Flow Rate&r of your reactor. To get the most power out of it, it'll need to maintain 1800RPM as well. This takes a lot of experimenting with different coils, # of blades, and overall size of the Turbine!"
+				"For starters, you want to build a Turbine that can handle the &9Exhaust Flow Rate&r of your reactor. To get the most power out of it, it'll need to maintain 1800RPM as well. This takes a lot of experimenting with different coils, # of blades, and the overall size of the Turbine!"
 				""
 				"Note: To complete this quest, you'll need to create a &dTask Screen&r of any size. Once placed, you can right-click the screen and select this quest as the requirement, then output power into the task screen block to fill it up and complete the quest."
 				""

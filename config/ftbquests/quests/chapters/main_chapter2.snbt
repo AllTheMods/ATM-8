@@ -238,7 +238,7 @@
 			description: [
 				"Use the parts from the previous quest to create your first Wind Generator!"
 				""
-				"Wind Generators need to be placed in view of the sky, and the higher they are placed, the more power it generates!"
+				"Wind Generators need to be placed in view of the sky, and the higher they are placed, the more power they generate!"
 				""
 				"*Note: If the noise is too much, you can install the muffling upgrade into the Generator."
 			]
@@ -298,7 +298,7 @@
 				""
 				"Go ahead and make yourself some Energy Pipez and a Pipe Wrench. You'll need the pipe wrench to get the pipe to extract power."
 				""
-				"*Note: To tell the pipe to \"extract\" the power, shift right click on the pipe connected to the Wind Generator."
+				"*Note: To tell the pipe to \"extract\" the power, shift right-click on the pipe connected to the Wind Generator."
 				""
 			]
 			id: "343AEA9974EBCAD8"
@@ -339,7 +339,7 @@
 			description: [
 				"You can get early game flight by creating a Wooden Jetpack!"
 				""
-				"This is the starter jetpack, and only stores a very tiny amount of power. Make sure to upgrade it quickly!"
+				"This is the starter jetpack and only stores a very tiny amount of power. Make sure to upgrade it quickly!"
 			]
 			id: "201143A8D039A543"
 			x: 4.0d
@@ -597,7 +597,7 @@
 			description: [
 				"All Pipez can be upgraded with pipe upgrades."
 				""
-				"To add the pipe upgrade, shift right click on the pipe that is currently set to extract."
+				"To add the pipe upgrade, shift right-click on the pipe that is currently set to extract."
 			]
 			id: "496A2D0AD494A942"
 			x: 4.5d
@@ -893,7 +893,7 @@
 				""
 				"The best place to farm Ender Pearls is in the End.... but before that, you can head to the Warped Forests of the Nether to farm Enderman."
 				""
-				"Once you've made enough Ender Eyes, right click them in the overworld and they'll lead you to a Stronghold."
+				"Once you've made enough Ender Eyes, right-click them in the overworld and they'll lead you to a Stronghold."
 			]
 			id: "1B47EE1C29C4AD73"
 			x: 21.0d
@@ -929,7 +929,7 @@
 				criterion: ""
 			}]
 			description: [
-				"If you're reading this, you are probably either looking for the End Portal in the End Fortress, and can't find it...."
+				"If you're reading this, you are probably either looking for the End Portal in the End Fortress and can't find it...."
 				""
 				"Or you already found it. Congrats!"
 			]
@@ -1386,7 +1386,7 @@
 			description: [
 				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
 				""
-				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right clicking with an empty hand."
+				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right-clicking with an empty hand."
 				""
 				"To go to the Other, do the same thing but in the Nether."
 			]
@@ -1510,7 +1510,7 @@
 			description: [
 				"Maybe you've already stumbled upon the &dDeep Dark&r in your mining adventures. Maybe you're still looking for it."
 				""
-				"To help you find it, make yourself a &eNature's Compass&r. You can right click with it, type in the biome you are looking for, and it'll search for it for you."
+				"To help you find it, make yourself a &eNature's Compass&r. You can right-click with it, type in the biome you are looking for, and it'll search for it for you."
 			]
 			icon: "minecraft:sculk_sensor"
 			id: "101EF1ECBAD423C1"

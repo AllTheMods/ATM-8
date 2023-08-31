@@ -54,11 +54,11 @@
 			y: 1.0d
 			shape: "rsquare"
 			description: [
-				"The next step in our adventure to become (nearly) invincible."
+				"The next step in our adventure is to become (nearly) invincible."
 				""
 				"Find this rare ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
 				""
-				"You can also find this ore is in any biome in the Other, between Y0 and Y20."
+				"You can also find this ore in any biome in the Other, between Y0 and Y20."
 			]
 			hide_dependency_lines: false
 			dependencies: ["5BDBE666E604FCAC"]
@@ -607,7 +607,7 @@
 			description: [
 				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
 				""
-				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right clicking with an empty hand."
+				"You can use it to get to the Mining Dimension by placing it in the overworld, then shift right-clicking with an empty hand."
 				""
 				"To go to the Other, do the same thing but in the Nether."
 			]

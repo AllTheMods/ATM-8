@@ -1983,7 +1983,8 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"The &aWatering Can&r is used to increase the speed that crops grow. Higher tiers have a larger area of effect. To use this, fill it up with some water by right clicking some water, then hold right click near your crops to water them!"
+				"The &aWatering Can&r is used to increase the speed that crops grow. Higher tiers have a larger area of effect.
+				To use this, fill it up with some water by right-clicking some water, then hold right-click near your crops to water them!"
 				""
 				"Tip: You can shift-right click while looking in the air with the watering can to enable auto-watering."
 			]

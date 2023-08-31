@@ -90,9 +90,9 @@
 			x: 4.5d
 			y: -1.0d
 			description: [
-				"The &eelement extractor&f will extract element out of the element sources that are generated throughout the world. The extractor must be placed directly below the source while also on top of an &eelement container&f."
+				"The &eelement extractor&f will extract elements out of the element sources that are generated throughout the world. The extractor must be placed directly below the source while also on top of an &eelement container&f."
 				""
-				"The &eelement evaporator&f turns elemental shards into element. Must be placed ontop of a container"
+				"The &eelement evaporator&f turns elemental shards into elements. Must be placed on top of a container"
 			]
 			dependencies: ["5E029A2BA469F42D"]
 			id: "023C2C0632BC0934"

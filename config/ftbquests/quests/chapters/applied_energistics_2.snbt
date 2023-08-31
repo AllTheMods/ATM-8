@@ -1073,7 +1073,7 @@
 			y: 1.5d
 			shape: "rsquare"
 			description: [
-				"Items are not the only things that can be stored in ME cells. &bME Fluid Storage Cells&f can store liquids such as water, lava and any variety of modded oils and fuels, just to give a few examples."
+				"Items are not the only things that can be stored in ME cells. &bME Fluid Storage Cells&f can store liquids such as water, lava, and any variety of modded oils and fuels, just to give a few examples."
 				""
 				"Note that all storage cells, regardless of what they're designed to store, only differ in terms of their housing; both item and fluid cells use the same kind of storage component to make."
 				""
@@ -1323,7 +1323,7 @@
 			shape: "rsquare"
 			subtitle: "Cut out the middleman"
 			description: [
-				"&bP2P&f (peer-to-peer) is a powerful system within AE2, allowing for the transfer of items, fluids and even more without the need for any intermediary ME storage."
+				"&bP2P&f (peer-to-peer) is a powerful system within AE2, allowing for the transfer of items, fluids, and even more without the need for any intermediary ME storage."
 				""
 				"Right-clicking on a P2P tunnel with certain items will &eattune&f the tunnel into one capable of transferring something else, such as items through pipes, energy through cables, redstone signals and (by default) even ME connections themselves."
 				""
@@ -1357,7 +1357,7 @@
 			description: [
 				"The &bME Storage Bus&f, when facing some external storage container, will allow the container to be used as though it were part of the ME network, allowing items to be taken out from the container or inserted into it purely via ME."
 				""
-				"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
+				"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however, it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
 			]
 			dependencies: ["74FC0DDDB91DB172"]
 			id: "7EFBAF3E281D2EBE"
@@ -1447,7 +1447,7 @@
 			x: 13.0d
 			y: 2.5d
 			shape: "circle"
-			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
+			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them when trying to move into the cell and the cell is already full."]
 			dependencies: ["2F556E7919582D2D"]
 			id: "33ADE41526C39AFD"
 			tasks: [{
@@ -1472,7 +1472,7 @@
 			x: 17.5d
 			y: 2.5d
 			description: [
-				"&bPortable Cells&f function identically to regular cells in that they can they be inserted into a chest or drive and filled accordingly."
+				"&bPortable Cells&f function identically to regular cells in that they can be inserted into a chest or drive and filled accordingly."
 				""
 				"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
 			]
@@ -1535,7 +1535,7 @@
 			shape: "rsquare"
 			subtitle: "This has a use outside of crafting cables."
 			description: [
-				"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjuction with the main network to perform some specialised function or process."
+				"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjunction with the main network to perform some specialised function or process."
 				""
 				"What separates a subnetwork from a completely detached separate network is usually the use of the &bQuartz Fiber&f as a cable part. When placed between two otherwise unconnected lengths of cable, the Quartz Fiber transfers no data or channels between the two whatsoever, instead only transmitting power."
 				""
@@ -1673,7 +1673,7 @@
 			description: [
 				"Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed."
 				""
-				"This behavour can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
+				"This behaviour can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
 			]
 			dependencies: ["3DDB0DDA7571B2C1"]
 			id: "1AAF0B31B47AF23D"
@@ -2040,7 +2040,7 @@
 				""
 				"Cable Anchors can also be used to craft &bCable Facades&f, allowing you to disguise cables within walls by covering them with the face of an arbitrary block. While facade recipes are hidden in JEI, you can still craft them by taking any regular block and surrounding it with 4 cable anchors in the crafting grid."
 				""
-				"Aside from crafting anchors, the cutting knife also has another use: right-clicking with the knife will open a small GUI that allows you craft &bInscriber Name Presses&f. When given a name, these presses can be used inside of an Inscriber to rename any input item with the name of the press. Two of these presses can be concatenated in the inscriber to rename the item to the name of the top press, followed by the bottom one."
+				"Aside from crafting anchors, the cutting knife also has another use: right-clicking with the knife will open a small GUI that allows you to craft &bInscriber Name Presses&f. When given a name, these presses can be used inside of an Inscriber to rename any input item with the name of the press. Two of these presses can be concatenated in the inscriber to rename the item to the name of the top press, followed by the bottom one."
 			]
 			dependencies: ["5C22E3103544B120"]
 			id: "6144202A97C6CD1C"
@@ -2496,7 +2496,7 @@
 			description: [
 				"In Applied Energistics 2, every ME network has a certain number of &echannels&f available, which simply means how many networked devices can fit on the whole network."
 				""
-				"As a rule of thumb, any device that more or less handles ME data directly (items stored within the network) and carries out some form of I/O will take up a channel. Usually components that are only concerned with the internal power storage of the network, like &eEnergy Cells&f and &eInscribers&f, do &onot&r take up channels."
+				"As a rule of thumb, any device that more or less handles ME data directly (items stored within the network) and carries out some form of I/O will take up a channel. Usually, components that are only concerned with the internal power storage of the network, like &eEnergy Cells&f and &eInscribers&f, do &onot&r take up channels."
 				""
 				"Networks without an &bME Controller&f are known as \"ad-hoc\" networks and only support a maximum of 8 channels."
 			]
