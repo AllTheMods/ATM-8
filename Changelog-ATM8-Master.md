@@ -1,3 +1,66 @@
+#
+## **1.0.26**
+
+Forge 43.2.14
+
+Changes, Additions, and fixes
+- Added missing thermal pulverising recipes for some ATM/ATO/Sgear ores
+- Fixed the Alloy paxel tagging for Apotheosis Affixes
+
+Quests
+- Added Occultism Questline
+- Fixed Mystical Ag questline for the new mod, fixes #1666
+
+Mods Updated 
+- Ad-Astra-Giselle-Addon-forge-1.19.2-1.18
+- AdditionalEnchantedMiner-1.19.2-1192.3.16
+- Apotheosis-1.19.2-6.4.0
+- Applied-Botanics-1.4.4
+- Applied-Mekanistics-1.3.5
+- appliedenergistics2-forge-12.9.8
+- ars_elemental-1.19.2-0.5.9.1.3
+- BotanyTrees-Forge-1.19.2-5.0.10
+- clickadv-1.19.2-3.4
+- create-1.19.2-0.5.1.c
+- Cucumber-1.19.2-6.0.8
+- cupboard-1.19.2-1.9
+- CyclopsCore-1.19.2-1.18.8
+- entangled-1.3.16-forge-mc1.19.2
+- EvilCraft-1.19.2-1.2.27
+- Exchangers-1.19.2-3.4.1
+- ftb-chunks-forge-1902.4.2-build.302
+- IntegratedDynamics-1.19.2-1.18.0
+- IntegratedTerminals-1.19.2-1.4.10
+- IntegratedTunnels-1.19.2-1.8.21
+- InventoryProfilesNext-forge-1.19-1.10.7
+- IronJetpacks-1.19.2-6.0.5
+- kubejs-forge-1902.6.2-build.3
+- libIPN-forge-1.19-4.0.0
+- megacells-forge-2.0.3-1.19.2
+- merequester-forge-1.19.2-1.1.4
+- minecolonies-1.19.2-1.1.151-BETA
+- mininggadgets-1.13.1
+- modernfix-forge-5.7.2+mc1.19.2
+- MysticalAgriculture-1.19.2-6.0.12
+- occultism-1.19.2-1.87.1
+- pipez-1.19.2-1.1.5
+- Powah-4.0.11
+- repurposed_structures_forge-6.3.26+1.19.2
+- rftoolsutility-1.19-5.1.8
+- rhino-forge-1902.2.2-build.272
+- SimpleBackups-1.19.1-2.1.10
+- sophisticatedbackpacks-1.19.2-3.18.58.907
+- sophisticatedcore-1.19.2-0.5.87.417
+- sophisticatedstorage-1.19.2-0.8.43.598
+- Steam_Rails-1.5.0+forge-mc1.19.2-build.13
+- structurize-1.19.2-1.0.630-RELEASE
+- supermartijn642configlib-1.1.8-forge-mc1.19
+- supplementaries-1.19.2-2.3.24
+- systeams-1.19.2-1.4.2
+- tetra-1.19.2-5.5.0
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
 #
 ## **1.0.25**

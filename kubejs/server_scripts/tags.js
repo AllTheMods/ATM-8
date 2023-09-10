@@ -21,6 +21,8 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:unobtainium_seeds',
     'mysticalagriculture:vibranium_seeds',
   ])
+  event.add('forge:dusts', 'alltheores:netherite_dust')
+  event.add('forge:dusts/netherite', 'alltheores:netherite_dust')
   
   //Fix Mythicbotany tags
   event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
