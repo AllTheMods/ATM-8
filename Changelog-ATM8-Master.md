@@ -1,4 +1,114 @@
 #
+## **1.0.28**
+Forge 43.2.14
+
+Changes, Additions, and fixes
+- Swapped from Rubidium to Embeddium
+- Updated Complementary Shaders
+
+Shaders
+- Complementary v4.7.2 --> Complementary Unbound r5.0.1 (name changed, plus new features)
+- Complementary Reimagined_r2.2.1 --> r5.0.1
+
+Mods Added
+- Embeddium-0.1.15+mc1.19.2
+
+Mods Removed
+- Rubidium-mc1.19.2-0.6.2c.jar
+
+Mods Updated
+- AdditionalEnchantedMiner-1.19.2-1192.3.18
+- alchemistry-1.19.2-2.3.2
+- almostunified-forge-1.19.2-0.7.0
+- AngelRing2-1.19.2-2.1.8
+- Applied-Botanics-forge-1.4.5
+- ars_elemental-1.19.2-0.5.9.2.1
+- ars_nouveau-1.19.2-3.19.0
+- arseng-1.0.0
+- balm-forge-1.19.2-4.6.0
+- BotanyTrees-Forge-1.19.2-5.0.12
+- chemlib-1.19.2-2.0.18
+- clickadv-1.19.2-3.5
+- cofh_core-1.19.2-10.3.0.46
+- connectedglass-1.1.8-forge-mc1.19
+- connectivity-1.19.2-4.6
+- cookingforblockheads-forge-1.19.2-13.3.3
+- create-1.19.2-0.5.1.e
+- createaddition-1.19.2-1.1.1
+- ctov-3.2.6b
+- Cucumber-1.19.2-6.0.10
+- cupboard-1.19.2-2.0
+- enderchests-forge-1.19-1.10.7
+- endertanks-forge-1.19-1.12.8
+- ensorcellation-1.19.2-4.3.1.20
+- EvilCraft-1.19.2-1.2.28
+- farmingforblockheads-forge-1.19.2-11.3.5
+- farsight-1.19.2-3.5
+- FramedBlocks-6.8.6
+- ftb-quests-forge-1902.5.6-build.304
+- ftb-ranks-forge-1902.1.16-build.98
+- functionalstorage-1.19.2-1.1.7
+- fusion-1.0.6-forge-mc1.19.2
+- ImmersiveEngineering-1.19.2-9.2.3-167
+- IntegratedCrafting-1.19.2-1.1.4
+- IntegratedDynamics-1.19.2-1.19.1
+- IntegratedTunnels-1.19.2-1.8.23
+- inventoryessentials-forge-1.19.2-5.4.0
+- IronJetpacks-1.19.2-6.0.6
+- megacells-forge-2.0.4-1.19.2
+- minecolonies-1.19.2-1.1.194-BETA
+- modernfix-forge-5.7.4+mc1.19.2
+- moonlight-1.19.2-2.2.46-forge
+- MysticalAgriculture-1.19.2-6.0.12
+- occultism-1.19.2-1.88.0
+- oculus-mc1.19.2-1.6.9
+- Placebo-1.19.2-7.3.3
+- pneumaticcraft-repressurized-1.19.2-4.3.8-35
+- Quark-3.4-414
+- rechiseled-1.1.4a-forge-mc1.19.2
+- redstone_arsenal-1.19.2-7.3.0.20
+- shetiphiancore-forge-1.19-3.11.10
+- structure_gel-1.19.2-2.7.3
+- structurize-1.19.2-1.0.650-RELEASE
+- supermartijn642corelib-1.1.14-forge-mc1.19.2
+- systeams-1.19.2-1.5.0
+- tesseract-1.0.35a-forge-mc1.19
+- thermal_cultivation-1.19.2-10.3.0.19
+- thermal_dynamics-1.19.2-10.3.0.20
+- thermal_expansion-1.19.2-10.3.1.25
+- thermal_foundation-1.19.2-10.3.1.57
+- thermal_innovation-1.19.2-10.3.0.20
+- thermal_integration-1.19.2-10.3.0.19
+- thermal_locomotion-1.19.2-10.3.0.16
+- ThermalExtra-3.0.4-1.19.2
+- titanium-1.19.2-3.7.4-28
+- tombstone-8.2.12-1.19.2
+- trashslot-forge-1.19.2-12.1.0
+- YungsBetterOceanMonuments-1.19.2-Forge-2.1.1
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
+#
+## **1.0.27**
+
+Forge 43.2.14
+Hotfix to fix Iron Jetpacks and Mystical Customization seeds
+also updated three more mods, just because
+
+Mods Rolled Back
+- IronJetpacks-1.19.2-6.0.5---> 6.0.4
+- MysticalAgriculture-1.19.2-6.0.12---> 6.0.12
+
+Mods Updated
+- BotanyPots-Forge-1.19.2-9.0.38
+- functionalstorage-1.19.2-1.1.6
+- rechiseled-1.1.3-forge-mc1.19.2
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
+#
 ## **1.0.26**
 
 Forge 43.2.14
