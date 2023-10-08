@@ -28,12 +28,12 @@ ServerEvents.tags('item', event => {
   event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
   event.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
 
-  //temp byg fix until above 2.0.0.13
-  event.add('c:black_sand', '#forge:black_sand')
-  event.add('c:white_sand', '#forge:white_sand')
-  event.add('c:blue_sand', '#forge:blue_sand')
-  event.add('c:purple_sand', '#forge:purple_sand')
-  event.add('c:pink_sand', '#forge:pink_sand')
+  //Fix BYG recipe tags
+  event.add('c:sand/black', '#forge:black_sand')
+  event.add('c:sand/white', '#forge:white_sand')
+  event.add('c:sand/blue', '#forge:blue_sand')
+  event.add('c:sand/purple', '#forge:purple_sand')
+  event.add('c:sand/pink', '#forge:pink_sand')
 
   //xycraft RGB glass
   Color.DYE.keySet().forEach(color => {
