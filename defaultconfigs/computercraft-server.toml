@@ -33,7 +33,7 @@ command_require_creative = true
 #Controls the HTTP API
 [http]
 	#Enable the "http" API on Computers (see "rules" for more fine grained control than this).
-	enabled = false
+	enabled = true
 	#Enable use of http websockets. This requires the "http_enable" option to also be true.
 	websocket_enabled = false
 	#The number of http requests a computer can make at one time. Additional requests will be queued, and sent when the running requests have finished. Set to 0 for unlimited.
