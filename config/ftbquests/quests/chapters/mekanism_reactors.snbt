@@ -261,6 +261,30 @@
 			x: 13.0d
 			y: -4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["&dNeeded for the ATM Star&r"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["&dNeeded for the ATM Star&r"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 6.6d
+			y: -5.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -338,7 +362,6 @@
 					command: "/create ponder mekanismgenerators:fission_reactor_casing"
 					icon: "ftbquests:barrier"
 					id: "747F4E333BDC5563"
-					player_command: false
 					title: "Click Me To See How To Build!"
 					type: "command"
 				}
@@ -397,7 +420,6 @@
 					command: "/create ponder mekanismgenerators:fission_reactor_port"
 					icon: "mekanismgenerators:fission_reactor_port"
 					id: "5B0B515B95ACDB8C"
-					player_command: false
 					title: "Click Me To Learn More!"
 					type: "command"
 				}
@@ -524,7 +546,6 @@
 					command: "/create ponder mekanismgenerators:fission_reactor_logic_adapter"
 					icon: "mekanismgenerators:fission_reactor_logic_adapter"
 					id: "4CE5F77418DBFFFB"
-					player_command: false
 					title: "Click Me To Learn More!"
 					type: "command"
 				}
@@ -1102,7 +1123,6 @@
 					command: "/create ponder mekanism:sps_casing"
 					icon: "ftbquests:barrier"
 					id: "5B0D10312C328B83"
-					player_command: false
 					title: "Click Me to Learn How To Build!"
 					type: "command"
 				}
@@ -1173,7 +1193,6 @@
 					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
 					icon: "ftbquests:barrier"
 					id: "7A58D77A4EDACC40"
-					player_command: false
 					title: "Click Me To See How To Build!"
 					type: "command"
 				}
@@ -1354,7 +1373,6 @@
 					command: "/create ponder mekanismgenerators:laser_focus_matrix"
 					icon: "mekanism:laser"
 					id: "7C62F20073317501"
-					player_command: false
 					title: "Click Me To See It In Action!"
 					type: "command"
 				}
@@ -1647,6 +1665,7 @@
 					xp: 1000
 				}
 			]
+			subtitle: "Use Task Screen To Complete"
 			tasks: [{
 				id: "1EEEE30BA51757D6"
 				max_input: 1000L
@@ -1677,7 +1696,6 @@
 					command: "/create ponder mekanismgenerators:turbine_casing"
 					icon: "ftbquests:barrier"
 					id: "268F36DC559527FD"
-					player_command: false
 					title: "Click Me To Learn How To Build!"
 					type: "command"
 				}
@@ -1948,7 +1966,6 @@
 					command: "/create ponder mekanism:induction_casing"
 					icon: "ftbquests:barrier"
 					id: "1B37826ECEC743AB"
-					player_command: false
 					title: "Click Me To See How To Build!"
 					type: "command"
 				}
