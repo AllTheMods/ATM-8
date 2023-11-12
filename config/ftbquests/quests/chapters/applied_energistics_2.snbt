@@ -40,12 +40,15 @@
 				""
 				"Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame."
 				""
-				"To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f. Just like Amethyst, you will find Certus Quartz Crystals that you can mine for Certus Quartz &eDust&f and &eCrystals&f."
+				"To get started with AE2, you will need to find an important resource for the mod known as &bCertus Quartz&f. Just like Amethyst, you will find Certus Quartz Crystals that you can mine for Certus Quartz &eDust&f and &eCrystals&f. However, these can only be found inside of &aMeteorites&r found around the Overworld."
+				""
+				"To find a Meteor, you'll need to start out by making a &aCharger&r!"
 				""
 				"For more information on AE2 beyond this chapter, consult the wiki over at &o&bappliedenergistics.github.io&f&r."
 			]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"
+			min_width: 350
 			rewards: [
 				{
 					id: "705C55E801A67B8C"
@@ -73,12 +76,6 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "3B8F9C922DCD426E"
-					item: "ae2:certus_quartz_dust"
-					type: "item"
-				}
-				{
 					id: "04731B877AA067A3"
 					type: "xp"
 					xp: 10
@@ -87,30 +84,21 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Virtual Storage System"
-			tasks: [
-				{
-					id: "43FD619EF9A41E76"
-					item: "ae2:certus_quartz_dust"
-					type: "item"
-				}
-				{
-					id: "7B9519E1AF53A9A3"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3767252804D9BCBE"
+				item: "ae2:charger"
+				type: "item"
+			}]
 			title: "Applied Energistics 2"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["2893F483C10293E6"]
+			dependencies: ["51236544BFEF487B"]
 			description: [
-				"Two of the very first things you will need to get started in AE2 are the &bCharger&f and the &bInscriber&f."
+				"Now that we have a &bCharger&r and some Presses from the &dMysterious Cube&r, we can make one of the most important machines: the &bInscriber&f."
 				""
-				"The &bCharger&f, when supplied with power, will take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power."
-				""
-				"The &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest."
+				"The &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f."
 			]
 			id: "68B0B3DAF1145191"
 			rewards: [
@@ -125,34 +113,30 @@
 					xp: 10
 				}
 			]
-			subtitle: "Some basic machines"
-			tasks: [
-				{
-					id: "29C4195E8366DBDD"
-					item: "ae2:charger"
-					type: "item"
-				}
-				{
-					id: "1F40760C2108BA36"
-					item: "ae2:inscriber"
-					type: "item"
-				}
-			]
-			title: "First Things First"
-			x: 2.0d
+			subtitle: "Time To Get Pressed"
+			tasks: [{
+				id: "1F40760C2108BA36"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "The &aInscriber&r"
+			x: 4.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["68B0B3DAF1145191"]
+			dependencies: ["2893F483C10293E6"]
 			description: [
-				"It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center."
+				"The &bCharger&f has several uses! For starters, we'll use this to make a &aMeteorite Compass&r."
 				""
-				"This cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components."
+				"When supplied with power, the Charger will also take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power."
 				""
-				"The easiest way to locate a meteorite is by crafting a &eMeteorite Compass&r by placing a compass inside of a Charger."
+				"Once you make the Meteorite Compass, it's time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center."
+				""
+				"This cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components, which we'll talk about in the next quest."
 			]
 			icon: "ae2:calculation_processor_press"
 			id: "51236544BFEF487B"
+			min_width: 350
 			rewards: [
 				{
 					count: 4
@@ -185,7 +169,7 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -286,7 +270,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["51236544BFEF487B"]
+			dependencies: ["68B0B3DAF1145191"]
 			description: ["Once you have obtained a full set of the required &eInscriber Presses&r, it's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
 			id: "15564C11744D6AA0"
 			rewards: [
