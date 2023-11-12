@@ -612,7 +612,7 @@
 				""
 				"The easiest way to do this is by giving the Reactor &9Water&r from a Sink. The Sink is an infinite water source, which is &oreally nice for a situation like this&r."
 				""
-				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power with in an &9Industrial Turbine&r."
+				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power in an &9Industrial Turbine&r."
 				""
 				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
 			]
@@ -641,7 +641,7 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"Once you've finish placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
+				"Once you've finished placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
 				""
 				"Right clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
 				""
@@ -1179,7 +1179,7 @@
 				"To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:"
 				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 				""
-				"For the top, we want replace the middle block with the Fusion Reactor Controller."
+				"For the top, we want to replace the middle block with the Fusion Reactor Controller."
 				""
 				"For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
 				""
@@ -1358,7 +1358,7 @@
 				""
 				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
 				""
-				"In the image below, you can see an example of how this is setup. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
+				"In the image below, you can see an example of how this is set up. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
 				""
 				"The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix."
 				""

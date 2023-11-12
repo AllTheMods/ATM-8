@@ -456,10 +456,9 @@
 			description: [
 				"Inside the Dark Forest, you'll find a structure that leads underground."
 				""
-				"To enter, you'll need to place one of the trophies you've acquired on the nearby pedastal."
+				"To enter, you'll need to place one of the trophies you've acquired on the nearby pedestal."
 				""
 				"On the 3rd layer, you'll find the Knight Phantoms. Defeat these to unlock the next boss."
-				""
 			]
 			id: "3DCF26B53AE1EBF6"
 			rewards: [
@@ -571,7 +570,7 @@
 				""
 				"At the top of the Aurora Palace, the Snow Queen will summon ice crystals to protect herself."
 				""
-				"She'll also slam ice blocks down that destroys the floor and deals massive damage."
+				"She'll also slam ice blocks down that destroy the floor and deal massive damage."
 				""
 				"You'll only be able to hit her top half, as she's protected by ice blocks."
 				""
@@ -934,7 +933,7 @@
 			dependencies: ["4F66DF6B494BEFF3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This map is a must have for the Twlight Forest."
+				"This map is a must have for the Twilight Forest."
 				""
 				"Using a Blank Magic Map will give you a map that shows icons for nearby bosses and structures."
 			]

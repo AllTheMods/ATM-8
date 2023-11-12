@@ -1272,9 +1272,9 @@
 		{
 			dependencies: ["52D18CDB05357525"]
 			description: [
-				"You can break down Charcoal AND Coal into tiny pieces, which smelt 1 item a piece."
+				"You can break down Charcoal AND Coal into tiny pieces, which smelt 1 item apiece."
 				""
-				"No more left over fuel burning!"
+				"No more leftover fuel burning!"
 			]
 			id: "008BA27244838C81"
 			rewards: [
