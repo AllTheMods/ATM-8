@@ -23,6 +23,8 @@ ServerEvents.tags('item', event => {
   ])
   event.add('forge:dusts', 'alltheores:netherite_dust')
   event.add('forge:dusts/netherite', 'alltheores:netherite_dust')
+
+  event.remove('forge:shears', 'allthemodium:alloy_paxel')
   
   //Fix Mythicbotany tags
   event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
@@ -77,7 +79,8 @@ ServerEvents.tags('fluid', event => {
     'ad_astra:fuel','ad_astra:flowing_fuel',
     'hexerei:blood_flowing','hexerei:blood_fluid',
     'hexerei:tallow_flowing','hexerei:tallow_fluid',
-    'createaddition:flowing_seed_oil','createaddition:seed_oil'])
+    'createaddition:flowing_seed_oil','createaddition:seed_oil',
+    'createaddition:bioethanol','createaddition:Flowing_bioethanol'])
 })
 
 ServerEvents.tags('entity_type', event => {
