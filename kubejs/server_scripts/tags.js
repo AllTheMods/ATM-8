@@ -70,6 +70,8 @@ ServerEvents.tags('block', event => {
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
+
+  event.add('hexerei:crow_harvestable',['#mysticalagriculture:crops'])
 })
 
 ServerEvents.tags('fluid', event => {
