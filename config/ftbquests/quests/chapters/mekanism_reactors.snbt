@@ -1918,7 +1918,7 @@
 				""
 				"We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some Lithium Dust!"
 				""
-				"You should have some Brine being made from a previous quest using the &aThermal Evaporation Plants&r. Run the &eBrine&r through another &aThermal Evaporation Plant&r to get Lithium, then through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
+				"You should have some Brine being made from a previous quest using the &aThermal Evaporation Plants&r. Run the &eBrine&r through another &aThermal Evaporation Plant&r to get Lithium, then through a &aRotary Condensentrator&r to convert the liquid into a gas, then finally run the gas through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
 			]
 			icon: "mekanism:upgrade_energy"
 			id: "0FF852DE33E41C90"
