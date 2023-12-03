@@ -7,7 +7,9 @@
 //  Thermal Induction smelter for platinum
 //  Thermal Pulverizer and induction smelter for Sgear ores
 //  Thermal Pulverizer for missing Raw ato chunks, moved from /mods/thermal/thermal.js
-//  fixes other Redstone and Quartz Create crushing
+//  Fixes other Redstone and Quartz Create crushing
+//  Thermal extra dusts, Apatite, soulsand, cinnabar, amethyst, niter, in Mek, Create, and IE Crushers
+
 
 ServerEvents.recipes(event =>{
 // ATM trio
@@ -302,29 +304,89 @@ event.custom({
 }).id(`kubejs:pulverizing_ato_osmium`)
 
 // Other redstone and quartz
-    event.custom({
-        type: 'create:crushing',
-        ingredients: [{item: 'alltheores:other_redstone_ore'}],
-        processingTime: 400,
-        results: [
-          {count: 8, item: 'minecraft:redstone'},
-          {chance: 0.75, item: 'minecraft:redstone'},
-          {chance: 0.75, item: 'create:experience_nugget'},
-          {chance: 0.12, item: 'allthemodium:ancient_stone'}
-        ]
-    }).id(`kubejs:create/crushing/atm8_ore_redstone_dust`)
+event.custom({
+    type: 'create:crushing',
+    ingredients: [{item: 'alltheores:other_redstone_ore'}],
+    processingTime: 400,
+    results: [
+      {count: 8, item: 'minecraft:redstone'},
+      {chance: 0.75, item: 'minecraft:redstone'},
+      {chance: 0.75, item: 'create:experience_nugget'},
+      {chance: 0.12, item: 'allthemodium:ancient_stone'}
+    ]
+}).id(`kubejs:create/crushing/atm8_ore_redstone_dust`)
 
+event.custom({
+    type: 'create:crushing',
+    ingredients: [{item: 'alltheores:other_quartz_ore'}],
+    processingTime: 400,
+    results: [
+      {count: 3, item: 'minecraft:quartz'},
+      {chance: 0.75, item: 'minecraft:quartz'},
+      {chance: 0.75, item: 'create:experience_nugget'},
+      {chance: 0.12, item: 'allthemodium:ancient_stone'}
+    ]
+}).id(`kubejs:create/crushing/atm8_ore_quartz_dust`)
+    
+//Thermal extra dusts, apatite, soulsand, cinnabar, amethyst, niter
+let thermdust =['apatite','cinnabar', 'niter']
+thermdust.forEach(thermal =>{
     event.custom({
         type: 'create:crushing',
-        ingredients: [{item: 'alltheores:other_quartz_ore'}],
+        ingredients: [{item: `thermal:${thermal}`}],
         processingTime: 400,
         results: [
-          {count: 3, item: 'minecraft:quartz'},
-          {chance: 0.75, item: 'minecraft:quartz'},
-          {chance: 0.75, item: 'create:experience_nugget'},
-          {chance: 0.12, item: 'allthemodium:ancient_stone'}
+          {count: 1, item: `thermal:${thermal}_dust`},
+          {chance: 0.5, item: `thermal:${thermal}_dust`}
         ]
-    }).id(`kubejs:create/crushing/atm8_ore_quartz_dust`)
-    
+    }).id(`kubejs:create/crushing/atm8_thermal_${thermal}_dust`)
+    event.custom({
+        type: 'immersiveengineering:crusher',
+        energy: 1600,
+        input: {item: `thermal:${thermal}`},
+        result: {item: `thermal:${thermal}_dust`},
+        secondaries: [{chance: 0.1, output: {item: `thermal:${thermal}_dust`}}]
+    }).id(`kubejs:immersive/crushing/atm8_thermal_${thermal}_dust`)
+    event.custom({
+        type: 'mekanism:crushing',
+        input: {ingredient:{item: `thermal:${thermal}`}},
+        output:{item: `thermal:${thermal}_dust`}
+    }).id(`kubejs:mekanism/crushing/atm8_thermal_${thermal}_dust`)
+    })
+    // Thermal Extra Soulsand dust
+    event.custom({
+        type: 'create:crushing',
+        ingredients: [{item: 'minecraft:soul_sand'}],
+        processingTime: 400,
+        results: [
+          {count: 1, item: `thermal_extra:soul_sand_dust`},
+          {chance: 0.5, item: `thermal_extra:soul_sand_dust`}
+        ]
+    }).id(`kubejs:create/crushing/atm8_te_soul_sand_dust`)
+    event.custom({
+        type: 'immersiveengineering:crusher',
+        energy: 1600,
+        input: {item: 'minecraft:soul_sand'},
+        result: {item: `thermal_extra:soul_sand_dust`},
+        secondaries: [{chance: 0.1, output: {item: `thermal_extra:soul_sand_dust`}}]
+    }).id(`kubejs:immersive/crushing/atm8_te_soul_sand_dust`)
+    event.custom({
+        type: 'mekanism:crushing',
+        input: {ingredient:{item: 'minecraft:soul_sand'}},
+        output:{item: `thermal_extra:soul_sand_dust`}
+    }).id(`kubejs:mekanism/crushing/atm8_te_soul_sand_dust`)
+    //hexcasting Amethyst
+    event.custom({
+        type: 'immersiveengineering:crusher',
+        energy: 1600,
+        input: {item: 'minecraft:amethyst_shard'},
+        result: {count: 4, item: 'hexcasting:amethyst_dust'},
+        secondaries: [{chance: 0.1, output: {tag: 'forge:dusts/amethyst'}}]
+    }).id(`kubejs:immersive/crushing/atm8_hex_amethyst_dust`)
+    event.custom({
+        type: 'mekanism:crushing',
+        input: {ingredient:{item: 'minecraft:amethyst_shard'}},
+        output:{item: 'hexcasting:amethyst_dust', count: 4}
+    }).id(`kubejs:mekanism/crushing/atm8_hex_amethyst_dust`)
 
 })
