@@ -1,0 +1,8 @@
+{
+    "type": "thermal:compression_fuel",
+    "ingredient": {
+      "fluid": "pneumaticcraft:gasoline",
+      "amount": 1000
+    },
+    "energy": 1300000
+  }
