@@ -21,6 +21,7 @@
     "hexcasting",
     "thermal_extra",
     "undergarden",
+    "productivebees",
     "immersivepetroleum"
   ],
   "stoneStrata": [
@@ -46,7 +47,8 @@
     "forge:storage_blocks/raw_{material}",
     "forge:silicon",
     "forge:rubber",
-    "forge:bitumen"
+    "forge:bitumen",
+    "forge:wax"
   ],
   "materials": [
     "aeternium",
