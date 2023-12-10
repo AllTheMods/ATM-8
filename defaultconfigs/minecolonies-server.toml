@@ -30,7 +30,7 @@
 	citizenrespawninterval = 10
 	#Max citizens in one colony. [Default: 250, min: 4, max: 500]
 	#Range: 4 ~ 500
-	maxcitizenpercolony = 50
+	maxcitizenpercolony = 150
 	#Delay after each block placement (increasing it increases the delay). [Default: 15, min: 1, max: 500]
 	#Range: 1 ~ 500
 	builderbuildblockdelay = 15
