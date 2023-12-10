@@ -82,7 +82,7 @@ ServerEvents.tags('fluid', event => {
     'hexerei:blood_flowing','hexerei:blood_fluid',
     'hexerei:tallow_flowing','hexerei:tallow_fluid',
     'createaddition:flowing_seed_oil','createaddition:seed_oil',
-    'createaddition:bioethanol','createaddition:Flowing_bioethanol'])
+    'createaddition:bioethanol','createaddition:flowing_bioethanol'])
 })
 
 ServerEvents.tags('entity_type', event => {
