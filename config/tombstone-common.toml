@@ -91,7 +91,7 @@
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
+	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze","occultism:third_eye"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
 

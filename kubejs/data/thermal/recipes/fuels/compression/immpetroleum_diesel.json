@@ -1,0 +1,8 @@
+{
+  "type": "thermal:compression_fuel",
+  "ingredient": {
+    "fluid": "immersivepetroleum:diesel",
+    "amount": 1000
+  },
+  "energy": 1180000
+}

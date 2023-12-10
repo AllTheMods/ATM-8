@@ -211,6 +211,11 @@ ServerEvents.recipes(event => {
     event.remove({id:`ad_astra:recipes/${stone}_bricks`})
     event.shaped(`4x ad_astra:${stone}_bricks`, ['BB','BB'], {B:`ad_astra:polished_${stone}`}).id(`kubejs:ad_astra/recipes/${stone}_bricks`)
   })
+
+  // Functional storage cheap drawers (1x technically conflicts with quark chest to vanilla chest)
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x1'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x2'})
+  event.remove({id: 'functionalstorage:oak_drawer_alternate_x4'})
 })
 
 // convert abd blocks to quark on break

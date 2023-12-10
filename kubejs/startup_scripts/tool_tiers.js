@@ -22,7 +22,7 @@ const $IEItemTier = Java.loadClass('blusunrize.immersiveengineering.api.Lib')
 // aquaculture
 const $AquacultureAPI = Java.loadClass('com.teammetallurgy.aquaculture.api.AquacultureAPI')
 // deeper and darker
-const $DDItemTier = Java.loadClass('com.kyanite.deeperdarker.miscellaneous.DDTiers')
+//const $DDItemTier = Java.loadClass('com.kyanite.deeperdarker.util.DDTiers')  *currently off, needs fixing
 // byg
 const $BYGItemTier = Java.loadClass('potionstudios.byg.common.item.BYGTier')
 // redstone arsenal
@@ -138,12 +138,12 @@ StartupEvents.postInit(event => {
   if (!$TierSortingRegistry.isTierSorted(Neptunium)) {
     $TierSortingRegistry.registerTier(Neptunium, "aquaculture:neptunium", [$Tiers.DIAMOND], [$Tiers.NETHERITE])
   }
-
+/*
   let Warden = $DDItemTier.WARDEN
   if (!$TierSortingRegistry.isTierSorted(Warden)) {
     $TierSortingRegistry.registerTier(Warden, "deeperdarker:warden", [$Tiers.DIAMOND], [$Tiers.NETHERITE])
   }
-
+*/
   let Pendorite = $BYGItemTier.PENDORITE
   if (!$TierSortingRegistry.isTierSorted(Pendorite)) {
     $TierSortingRegistry.registerTier(Pendorite, "byg:pendorite", [$Tiers.NETHERITE], [])
