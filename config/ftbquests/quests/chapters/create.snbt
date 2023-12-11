@@ -5,6 +5,18 @@
 	group: "2B51AC12041E3F89"
 	icon: "create:large_cogwheel"
 	id: "100C477F4E63F20A"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 0.3d
+		hover: ["&dNeeded for the ATM Star&r"]
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 12.0d
+		y: 2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

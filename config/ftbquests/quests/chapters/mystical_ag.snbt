@@ -31,6 +31,18 @@
 			x: 1.5d
 			y: 2.85d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: ["&dNeeded for the ATM Star&r"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: -1.0d
+			y: 1.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -42,7 +54,6 @@
 				""
 				"Placing the Altar down first will show you where to put the Pedestals. To craft a seed, place the required mats in each pedestal, then give a redstone signal to the Altar."
 			]
-			hide: true
 			id: "6D750A38944E9B68"
 			rewards: [
 				{
@@ -107,7 +118,6 @@
 				""
 				"While not required for growing Inferium seeds, you can also create &eEssence Farmland&r that will increase the growth speed of the seeds. However, certain seeds will require certain farmlands to be planted on."
 			]
-			hide: true
 			id: "7DFF18CFEB0B8DBE"
 			rewards: [
 				{
@@ -323,7 +333,6 @@
 				""
 				"Alternatively, you can fill Soul Jars inside of the &3Soul Extractor&r by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul."
 			]
-			hide: true
 			id: "75560045ED084900"
 			rewards: [
 				{
@@ -1770,7 +1779,6 @@
 				""
 				"Augments can be made using the Infusion Altar. Just like the Essences, Augments have tiers!"
 			]
-			hide: true
 			id: "6A4C49AE72E98727"
 			rewards: [
 				{
@@ -1854,7 +1862,6 @@
 				""
 				"Eventually, you'll be able to make an Infusion Crystal that works for all tiers and doesn't break!"
 			]
-			hide: true
 			id: "05618FE80F2E0372"
 			rewards: [
 				{
@@ -1892,7 +1899,6 @@
 				""
 				"Note: Growth Accelerators of all tiers provide the same rate of growth ticks. Higher tiers however have a larger range, so you can stack more of them below a single plant. It doesn't matter which tier you use as long as the Growth Accelerator is placed within its max range."
 			]
-			hide: true
 			id: "4821419D44F8083F"
 			rewards: [
 				{
@@ -1987,7 +1993,6 @@
 				""
 				"Tip: You can shift-right click while looking in the air with the watering can to enable auto-watering."
 			]
-			hide: true
 			id: "62D04566426DD979"
 			rewards: [
 				{
@@ -2150,7 +2155,6 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["Have too many extra seeds? These will convert the extra seeds to the respective Essence, at the cost of fuel. These can also be upgraded!"]
-			hide: true
 			id: "722B66145690D56B"
 			rewards: [
 				{
@@ -2276,7 +2280,6 @@
 				""
 				"Higher tiers give more hunger and saturation, as well as more buffs."
 			]
-			hide: true
 			id: "1F88C697817A7680"
 			rewards: [
 				{
@@ -2386,7 +2389,6 @@
 				""
 				"This gear can be upgraded to higher tiers, just like the Essences. You can also &9Augment&r them with the &bTinkering Table&r!"
 			]
-			hide: true
 			hide_dependency_lines: false
 			id: "2A7E3F2CD335EAD0"
 			rewards: [
@@ -2789,7 +2791,6 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: ["This is the Tier 2 Essence, made by combining 4 Inferium together with an Inferium Infusion Crystal."]
-			hide: true
 			hide_dependency_lines: true
 			id: "73350AD668200E99"
 			rewards: [
@@ -2819,7 +2820,6 @@
 		}
 		{
 			dependencies: ["73350AD668200E99"]
-			hide: true
 			hide_dependency_lines: true
 			id: "2C9C9CB71941DC01"
 			rewards: [
@@ -2849,7 +2849,6 @@
 		}
 		{
 			dependencies: ["2C9C9CB71941DC01"]
-			hide: true
 			hide_dependency_lines: true
 			id: "66C52B137A4FF869"
 			rewards: [
@@ -2879,7 +2878,6 @@
 		}
 		{
 			dependencies: ["66C52B137A4FF869"]
-			hide: true
 			hide_dependency_lines: true
 			id: "67DBE6C59C0D9D1B"
 			rewards: [
@@ -2909,7 +2907,6 @@
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			hide: true
 			hide_dependency_lines: true
 			id: "202B1F54D3F06DAB"
 			rewards: [
@@ -3047,7 +3044,6 @@
 				""
 				"Essence tools can be upgraded to higher tiers, and just like the Armor, they can be &5Augmented&r in the &3Tinkering Table&r."
 			]
-			hide: true
 			id: "4EF5DE3FBA2A7AE3"
 			rewards: [
 				{
@@ -3688,7 +3684,6 @@
 				"33D23C65E7274A8F"
 				"1CF8263756EE8F2A"
 			]
-			hide: true
 			hide_dependency_lines: false
 			icon: "mysticalagriculture:awakened_supremium_essence"
 			id: "7A103577EAE7B3F1"
@@ -3829,7 +3824,6 @@
 				""
 				"You'll find these from mining!"
 			]
-			hide: true
 			id: "54D6F7F8FE859729"
 			rewards: [{
 				id: "6C00F85D73FBE858"

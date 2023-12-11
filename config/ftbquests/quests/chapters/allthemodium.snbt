@@ -1,40 +1,29 @@
 {
-	id: "1B175B2C955D8395"
-	group: ""
-	order_index: 1
-	filename: "allthemodium"
-	title: "&eAllthemodium"
-	icon: "allthemodium:allthemodium_ingot"
-	default_quest_shape: ""
 	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "allthemodium"
+	group: ""
+	icon: "allthemodium:allthemodium_ingot"
+	id: "1B175B2C955D8395"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Allthemodium Ore"
-			x: -1.5d
-			y: 0.5d
-			shape: "rsquare"
+			dependencies: ["731686C758AD9A99"]
+			dependency_requirement: "one_completed"
 			description: [
 				"This lucrative ore starts your journey to becoming overpowered!"
 				""
 				"It is found in Deep Dark biomes along ceilings and walls."
 			]
-			hide_dependency_lines: false
-			dependencies: ["731686C758AD9A99"]
 			hide: false
-			dependency_requirement: "one_completed"
-			size: 1.5d
+			hide_dependency_lines: false
 			id: "5BDBE666E604FCAC"
-			tasks: [{
-				id: "75498AE05CC06F8F"
-				type: "item"
-				title: "Allthemodium Ore"
-				item: "allthemodium:raw_allthemodium"
-			}]
 			rewards: [
 				{
 					id: "35D9FCB5040C66D9"
-					type: "item"
 					item: "allthemodium:allthemodium_ore"
+					type: "item"
 				}
 				{
 					id: "0205D27EF9929F30"
@@ -42,40 +31,41 @@
 					xp: 100
 				}
 				{
-					id: "2139CB369B6057CD"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2139CB369B6057CD"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "75498AE05CC06F8F"
+				item: "allthemodium:raw_allthemodium"
+				title: "Allthemodium Ore"
+				type: "item"
+			}]
+			title: "Allthemodium Ore"
+			x: -1.5d
+			y: 0.5d
 		}
 		{
-			x: 0.0d
-			y: 1.0d
-			shape: "rsquare"
+			dependencies: ["5BDBE666E604FCAC"]
+			dependency_requirement: "one_started"
 			description: [
 				"The next step in our adventure to become (nearly) invincible."
 				""
-				"Find this rare ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
+				"Find this rare ore in the Nether above Y64 in any biome, exposed to air. Keep an eye on the ceiling!"
 				""
-				"You can also find this ore is in any biome in the Other, between Y0 and Y20."
+				"You can also find this ore in any biome in the Other, between Y0 and Y40 along cave walls and ceilings."
 			]
 			hide_dependency_lines: false
-			dependencies: ["5BDBE666E604FCAC"]
-			dependency_requirement: "one_started"
-			size: 1.5d
 			id: "2DF64CB9298E91EA"
-			tasks: [{
-				id: "0F6B68E05B7B43AB"
-				type: "item"
-				title: "Vibranium Ore"
-				item: "allthemodium:raw_vibranium"
-			}]
 			rewards: [
 				{
 					id: "5D2EBAC7AC7945CD"
-					type: "item"
 					item: "allthemodium:vibranium_ore"
+					type: "item"
 				}
 				{
 					id: "459B4DDA26AC0FFC"
@@ -83,36 +73,37 @@
 					xp: 100
 				}
 				{
-					id: "3E63128D811B9171"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3E63128D811B9171"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0F6B68E05B7B43AB"
+				item: "allthemodium:raw_vibranium"
+				title: "Vibranium Ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			x: 1.5d
-			y: 0.5d
-			shape: "rsquare"
+			dependencies: ["2DF64CB9298E91EA"]
 			description: [
 				"An extremely rare ore that can only be found after defeating the Ender Dragon."
 				""
 				"You can find this obtainable ore in the End Highlands biome."
 			]
 			hide_dependency_lines: false
-			dependencies: ["2DF64CB9298E91EA"]
-			size: 1.5d
 			id: "4F6E6AF1D9E74CB7"
-			tasks: [{
-				id: "52CCB85E5967BF9F"
-				type: "item"
-				item: "allthemodium:raw_unobtainium"
-			}]
 			rewards: [
 				{
 					id: "2AA15BC1812E1F77"
-					type: "item"
 					item: "allthemodium:unobtainium_ore"
+					type: "item"
 				}
 				{
 					id: "2DC06917102E6563"
@@ -120,153 +111,148 @@
 					xp: 100
 				}
 				{
-					id: "0E328B594DAC6713"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0E328B594DAC6713"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52CCB85E5967BF9F"
+				item: "allthemodium:raw_unobtainium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
 		}
 		{
-			x: -2.0d
-			y: 3.5d
-			shape: "diamond"
+			dependencies: ["71A43C89EB13E9A0"]
 			description: [
 				"Extremely fast furnace."
 				""
 				"Smelts 1/4 of a stack at a time."
 			]
-			hide_dependency_lines: false
-			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: false
 			id: "2CC97CF32D9C017B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C0169930F748A7F"
+				table_id: 5564196992594175882L
+				type: "random"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "07FF0DC32B705DCC"
-				type: "item"
 				item: "ironfurnaces:allthemodium_furnace"
+				type: "item"
 			}]
-			rewards: [{
-				id: "3C0169930F748A7F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564196992594175882L
-			}]
+			x: -2.0d
+			y: 3.5d
 		}
 		{
-			x: -1.5d
-			y: 2.5d
-			shape: "gear"
-			description: [""]
-			hide_dependency_lines: false
 			dependencies: ["5BDBE666E604FCAC"]
 			dependency_requirement: "one_completed"
+			description: [""]
+			hide_dependency_lines: false
 			id: "71A43C89EB13E9A0"
-			tasks: [{
-				id: "6A101A8056AC9A3A"
-				type: "item"
-				item: "allthemodium:allthemodium_ingot"
-			}]
 			rewards: [{
 				id: "60BFD3F6B6CAE723"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "6A101A8056AC9A3A"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			x: 0.0d
-			y: 3.0d
-			shape: "gear"
+			dependencies: ["2DF64CB9298E91EA"]
 			description: [""]
 			hide_dependency_lines: false
-			dependencies: ["2DF64CB9298E91EA"]
 			id: "61FDABF2C7CC1F9D"
-			tasks: [{
-				id: "61761B6C1D1542FD"
-				type: "item"
-				item: "allthemodium:vibranium_ingot"
-			}]
 			rewards: [{
 				id: "2EFC640150403D08"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "61761B6C1D1542FD"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			x: -0.5d
-			y: 4.0d
-			shape: "diamond"
+			dependencies: ["61FDABF2C7CC1F9D"]
 			description: [
 				"How fast can this possibly get!?"
 				""
 				"Smelts 1/2 of a stack at a time."
 			]
-			hide_dependency_lines: false
-			dependencies: ["61FDABF2C7CC1F9D"]
 			hide: true
+			hide_dependency_lines: false
 			id: "5CA0BA27F9C537B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "381A235F202CAB65"
+				table_id: 5564196992594175882L
+				type: "random"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0B2932972CD2E73E"
-				type: "item"
 				item: "ironfurnaces:vibranium_furnace"
+				type: "item"
 			}]
-			rewards: [{
-				id: "381A235F202CAB65"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564196992594175882L
-			}]
+			x: -0.5d
+			y: 4.0d
 		}
 		{
-			x: 1.0d
-			y: 3.5d
-			shape: "diamond"
+			dependencies: ["44760B819EB3CA68"]
 			description: [
 				"Now you are just showing off."
 				""
 				"Smelts a stack of items per operation."
 			]
-			hide_dependency_lines: false
-			dependencies: ["44760B819EB3CA68"]
 			hide: true
+			hide_dependency_lines: false
 			id: "1AFDB3AE73E72A33"
-			tasks: [{
-				id: "579B48ABB0CBD18A"
-				type: "item"
-				item: "ironfurnaces:unobtainium_furnace"
-			}]
 			rewards: [
 				{
 					id: "3BE998CE25785795"
-					type: "item"
 					item: "ironfurnaces:rainbow_coal"
+					type: "item"
 				}
 				{
-					id: "0F49E1534E00C41D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0F49E1534E00C41D"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "579B48ABB0CBD18A"
+				item: "ironfurnaces:unobtainium_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
 		}
 		{
-			x: -3.5d
-			y: 6.0d
-			shape: "square"
-			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: true
 			id: "1BF186347C4683B3"
-			tasks: [{
-				id: "5CCD462442A9CBC9"
-				type: "item"
-				item: {
-					id: "allthemodium:allthemodium_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "7CEDAB343096A16E"
@@ -274,32 +260,32 @@
 					xp: 100
 				}
 				{
-					id: "653D62F921830FDA"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "653D62F921830FDA"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
-		}
-		{
-			x: -3.5d
-			y: 5.0d
 			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			id: "26296F815ACC04BE"
 			tasks: [{
-				id: "7CE4D8C55D2A92A8"
-				type: "item"
+				id: "5CCD462442A9CBC9"
 				item: {
-					id: "allthemodium:allthemodium_leggings"
 					Count: 1b
+					id: "allthemodium:allthemodium_boots"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71A43C89EB13E9A0"]
+			hide: true
+			hide_dependency_lines: true
+			id: "26296F815ACC04BE"
 			rewards: [
 				{
 					id: "7B6B2810FB076635"
@@ -307,31 +293,31 @@
 					xp: 100
 				}
 				{
-					id: "10BDA8E483B8673F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "10BDA8E483B8673F"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
-		}
-		{
-			x: -3.5d
-			y: 4.0d
 			shape: "square"
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			id: "4C7718982E78D7A2"
 			tasks: [{
-				id: "4979179C2D56C137"
-				type: "item"
+				id: "7CE4D8C55D2A92A8"
 				item: {
-					id: "allthemodium:allthemodium_chestplate"
 					Count: 1b
+					id: "allthemodium:allthemodium_leggings"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71A43C89EB13E9A0"]
+			hide: true
+			id: "4C7718982E78D7A2"
 			rewards: [
 				{
 					id: "727160FABA1B8DF6"
@@ -339,32 +325,32 @@
 					xp: 100
 				}
 				{
-					id: "59FCC1529E6451E8"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "59FCC1529E6451E8"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
-		}
-		{
-			x: -3.5d
-			y: 3.0d
 			shape: "square"
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			dependency_requirement: "one_completed"
-			id: "29637BD992599915"
 			tasks: [{
-				id: "6F0BA8751E4F963A"
-				type: "item"
+				id: "4979179C2D56C137"
 				item: {
-					id: "allthemodium:allthemodium_helmet"
 					Count: 1b
+					id: "allthemodium:allthemodium_chestplate"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["71A43C89EB13E9A0"]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "29637BD992599915"
 			rewards: [
 				{
 					id: "28AB1CC409C9BADB"
@@ -372,38 +358,41 @@
 					xp: 100
 				}
 				{
-					id: "008EBE6E9E5262F3"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "008EBE6E9E5262F3"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "square"
+			tasks: [{
+				id: "6F0BA8751E4F963A"
+				item: {
+					Count: 1b
+					id: "allthemodium:allthemodium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
 		}
 		{
-			title: "Intro to Allthemodium!"
-			icon: {
-				id: "patchouli:guide_book"
-				Count: 1b
-				tag: {
-					"patchouli:book": "allthemodium:allthemodium"
-				}
-			}
-			x: 0.0d
-			y: -1.0d
-			shape: "rsquare"
 			description: [
 				"&dAllthemodium&r is the core mod in all Allthemods modpacks. This mod adds endgame ores to the world that amplify your modded experience."
 				""
 				"You can find more info on the mod in the &9Allthemodium&r book."
 			]
-			size: 1.5d
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "allthemodium:allthemodium"
+				}
+			}
 			id: "731686C758AD9A99"
-			tasks: [{
-				id: "159872B988A173AA"
-				type: "dimension"
-				title: "Exist!"
-				dimension: "minecraft:overworld"
-			}]
 			rewards: [
 				{
 					id: "4D04379836E29120"
@@ -412,48 +401,51 @@
 				}
 				{
 					id: "0D061D49519CE0B4"
-					type: "item"
 					item: {
-						id: "patchouli:guide_book"
 						Count: 1b
+						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "allthemodium:allthemodium"
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "159872B988A173AA"
+				title: "Exist!"
+				type: "dimension"
+			}]
+			title: "Intro to Allthemodium!"
+			x: 0.0d
+			y: -1.0d
 		}
 		{
-			x: 1.5d
-			y: 2.5d
-			shape: "gear"
-			hide_dependency_lines: false
 			dependencies: ["4F6E6AF1D9E74CB7"]
+			hide_dependency_lines: false
 			id: "44760B819EB3CA68"
-			tasks: [{
-				id: "16A8B32CB4B011DA"
-				type: "item"
-				item: "allthemodium:unobtainium_ingot"
-			}]
 			rewards: [{
 				id: "339251D95518BB97"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "16A8B32CB4B011DA"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			x: 3.5d
-			y: 7.0d
-			shape: "heart"
-			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: true
 			id: "7F3B96033AB7A21E"
-			tasks: [{
-				id: "6C79D005D95BAB61"
-				type: "item"
-				item: "allthemodium:allthemodium_apple"
-			}]
 			rewards: [
 				{
 					id: "51777CA9A13AAD35"
@@ -461,26 +453,26 @@
 					xp: 100
 				}
 				{
-					id: "2FD4422A73C37850"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "2FD4422A73C37850"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "heart"
+			tasks: [{
+				id: "6C79D005D95BAB61"
+				item: "allthemodium:allthemodium_apple"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
 		}
 		{
-			x: -3.5d
-			y: 7.0d
-			shape: "heart"
-			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: true
 			id: "15D56588634665FA"
-			tasks: [{
-				id: "32629A7C461C48F7"
-				type: "item"
-				item: "allthemodium:allthemodium_carrot"
-			}]
 			rewards: [
 				{
 					id: "40F8666A439FDC16"
@@ -488,26 +480,26 @@
 					xp: 100
 				}
 				{
-					id: "0186D353D38596DC"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0186D353D38596DC"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "heart"
+			tasks: [{
+				id: "32629A7C461C48F7"
+				item: "allthemodium:allthemodium_carrot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
 		}
 		{
-			x: 3.5d
-			y: 3.0d
-			shape: "square"
-			hide_dependency_lines: true
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: true
 			id: "30E6C6825D78B5F1"
-			tasks: [{
-				id: "448F535D62D9FDC7"
-				type: "item"
-				item: "allthemodium:allthemodium_sword"
-			}]
 			rewards: [
 				{
 					id: "407C0224BB0CF2C7"
@@ -515,25 +507,25 @@
 					xp: 100
 				}
 				{
-					id: "3C3FBA11E9666529"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3C3FBA11E9666529"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "square"
+			tasks: [{
+				id: "448F535D62D9FDC7"
+				item: "allthemodium:allthemodium_sword"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 		{
-			x: 3.5d
-			y: 4.0d
-			shape: "square"
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
 			id: "061784A9E41AB60B"
-			tasks: [{
-				id: "04FDDE47BDA0BA81"
-				type: "item"
-				item: "allthemodium:allthemodium_pickaxe"
-			}]
 			rewards: [
 				{
 					id: "71119D300E20FCA2"
@@ -541,25 +533,25 @@
 					xp: 100
 				}
 				{
-					id: "1824BC765BF8E54F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1824BC765BF8E54F"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "square"
+			tasks: [{
+				id: "04FDDE47BDA0BA81"
+				item: "allthemodium:allthemodium_pickaxe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
 		}
 		{
-			x: 3.5d
-			y: 5.0d
-			shape: "square"
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
 			id: "17616C60784102A6"
-			tasks: [{
-				id: "153905B8A889931F"
-				type: "item"
-				item: "allthemodium:allthemodium_axe"
-			}]
 			rewards: [
 				{
 					id: "3CFEB029AFDA2A46"
@@ -567,25 +559,25 @@
 					xp: 100
 				}
 				{
-					id: "3B230BDFB0C25803"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3B230BDFB0C25803"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "square"
+			tasks: [{
+				id: "153905B8A889931F"
+				item: "allthemodium:allthemodium_axe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
 		}
 		{
-			x: 3.5d
-			y: 6.0d
-			shape: "square"
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
 			id: "614B212304A85F9C"
-			tasks: [{
-				id: "1227F25DBF12B6E5"
-				type: "item"
-				item: "allthemodium:allthemodium_shovel"
-			}]
 			rewards: [
 				{
 					id: "00F39A0913F8D233"
@@ -593,17 +585,23 @@
 					xp: 100
 				}
 				{
-					id: "0F2DCE735032A0DB"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0F2DCE735032A0DB"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "square"
+			tasks: [{
+				id: "1227F25DBF12B6E5"
+				item: "allthemodium:allthemodium_shovel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
 		}
 		{
-			x: 0.0d
-			y: 6.5d
-			shape: "diamond"
+			dependencies: ["71A43C89EB13E9A0"]
 			description: [
 				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
 				""
@@ -611,16 +609,9 @@
 				""
 				"To go to the Other, do the same thing but in the Nether."
 			]
-			hide_dependency_lines: true
-			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
-			size: 2.0d
+			hide_dependency_lines: true
 			id: "3C322474D2F2BA99"
-			tasks: [{
-				id: "004AE063EA883019"
-				type: "item"
-				item: "allthemodium:teleport_pad"
-			}]
 			rewards: [
 				{
 					id: "0B4E3EEE5A9DB68C"
@@ -628,17 +619,24 @@
 					xp: 100
 				}
 				{
-					id: "57F29BA9DE0EB0FB"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "57F29BA9DE0EB0FB"
 					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "004AE063EA883019"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
 		}
 		{
-			title: "The Other"
-			x: 1.0d
-			y: 5.5d
+			dependencies: ["3C322474D2F2BA99"]
 			description: [
 				"You'll find a ton of ore in the Other. It's filled to the brim with amazing ore generation, as well as Ancient Forests."
 				""
@@ -646,21 +644,15 @@
 				""
 				"This is also the only dimension that has Soul Lava and Pigliches. "
 			]
-			hide_dependency_lines: false
-			dependencies: ["3C322474D2F2BA99"]
 			hide: true
+			hide_dependency_lines: false
 			id: "58E3D29E2E034BA2"
-			tasks: [{
-				id: "7B3D9051C7A0EC60"
-				type: "item"
-				item: "allthemodium:ancient_stone"
-			}]
 			rewards: [
 				{
-					id: "26A3F549CA3338F4"
-					type: "item"
-					item: "allthemodium:ancient_soulberries"
 					count: 16
+					id: "26A3F549CA3338F4"
+					item: "allthemodium:ancient_soulberries"
+					type: "item"
 				}
 				{
 					id: "74B5009A2A31A73B"
@@ -668,45 +660,45 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "7B3D9051C7A0EC60"
+				item: "allthemodium:ancient_stone"
+				type: "item"
+			}]
+			title: "The Other"
+			x: 1.0d
+			y: 5.5d
 		}
 		{
-			title: "The Mining Dimension"
-			icon: "allthemodium:raw_allthemodium"
-			x: -1.0d
-			y: 5.5d
+			dependencies: ["3C322474D2F2BA99"]
 			description: [
 				"The &9Mining Dimension&r has been reworked for 1.19!"
 				""
 				"There are several new layers added. Allthemodium Ore also spawns better in this dimension, as well as several new ores to the Mining World. Check it out!"
 			]
-			hide_dependency_lines: false
-			dependencies: ["3C322474D2F2BA99"]
 			hide: true
+			hide_dependency_lines: false
+			icon: "allthemodium:raw_allthemodium"
 			id: "7E8FE99A3C448413"
-			tasks: [{
-				id: "110AA18477C59A28"
-				type: "checkmark"
-				title: "The Mining Dimension"
-			}]
 			rewards: [{
 				id: "7B03C181BB8EB227"
 				type: "xp"
 				xp: 100
 			}]
+			tasks: [{
+				id: "110AA18477C59A28"
+				title: "The Mining Dimension"
+				type: "checkmark"
+			}]
+			title: "The Mining Dimension"
+			x: -1.0d
+			y: 5.5d
 		}
 		{
-			x: -1.5d
-			y: 4.0d
-			shape: "diamond"
-			hide_dependency_lines: false
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: false
 			id: "1FBE2D8C1C3B21EE"
-			tasks: [{
-				id: "21DC9A0D99003F77"
-				type: "item"
-				item: "mysticalagriculture:allthemodium_seeds"
-			}]
 			rewards: [
 				{
 					id: "63A5B1A4D4CF2B8A"
@@ -714,26 +706,26 @@
 					xp: 100
 				}
 				{
-					id: "146D2B7781B40CCD"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "146D2B7781B40CCD"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "21DC9A0D99003F77"
+				item: "mysticalagriculture:allthemodium_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
-			shape: "diamond"
-			hide_dependency_lines: false
 			dependencies: ["61FDABF2C7CC1F9D"]
 			hide: true
+			hide_dependency_lines: false
 			id: "0C0DB81D3781FB33"
-			tasks: [{
-				id: "6CA88AF9DFAEA6B5"
-				type: "item"
-				item: "mysticalagriculture:vibranium_seeds"
-			}]
 			rewards: [
 				{
 					id: "15BB719B9FCE235B"
@@ -741,26 +733,26 @@
 					xp: 100
 				}
 				{
-					id: "3F6FD81FD000334D"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3F6FD81FD000334D"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "6CA88AF9DFAEA6B5"
+				item: "mysticalagriculture:vibranium_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			x: 1.5d
-			y: 4.0d
-			shape: "diamond"
-			hide_dependency_lines: false
 			dependencies: ["44760B819EB3CA68"]
 			hide: true
+			hide_dependency_lines: false
 			id: "3F09317D12C78271"
-			tasks: [{
-				id: "1ACAA7497BB635C0"
-				type: "item"
-				item: "mysticalagriculture:unobtainium_seeds"
-			}]
 			rewards: [
 				{
 					id: "473ADE08455C92A6"
@@ -768,34 +760,26 @@
 					xp: 100
 				}
 				{
-					id: "0822C55E3ED4098A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0822C55E3ED4098A"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "1ACAA7497BB635C0"
+				item: "mysticalagriculture:unobtainium_seeds"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
 		}
 		{
-			x: -1.0d
-			y: 3.5d
-			shape: "diamond"
-			hide_dependency_lines: false
 			dependencies: ["71A43C89EB13E9A0"]
 			hide: true
+			hide_dependency_lines: false
 			id: "5D8A3491889F2C4E"
-			tasks: [{
-				id: "757DE5E7C84CDD47"
-				type: "item"
-				item: {
-					id: "productivebees:configurable_honeycomb"
-					Count: 1b
-					tag: {
-						EntityTag: {
-							type: "productivebees:allthemodium"
-						}
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "15475C2EF8192338"
@@ -803,34 +787,34 @@
 					xp: 100
 				}
 				{
-					id: "736E172147AD8566"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "736E172147AD8566"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
-		}
-		{
-			x: 0.5d
-			y: 4.0d
 			shape: "diamond"
-			hide_dependency_lines: false
-			dependencies: ["61FDABF2C7CC1F9D"]
-			hide: true
-			id: "517A9CAA342E8FA6"
 			tasks: [{
-				id: "1DF8E3A079E13541"
-				type: "item"
+				id: "757DE5E7C84CDD47"
 				item: {
-					id: "productivebees:configurable_honeycomb"
 					Count: 1b
+					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:vibranium"
+							type: "productivebees:allthemodium"
 						}
 					}
 				}
+				type: "item"
 			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["61FDABF2C7CC1F9D"]
+			hide: true
+			hide_dependency_lines: false
+			id: "517A9CAA342E8FA6"
 			rewards: [
 				{
 					id: "15EE8C5DD99F0F0B"
@@ -838,34 +822,34 @@
 					xp: 100
 				}
 				{
-					id: "08C9D0B4D3679B9F"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "08C9D0B4D3679B9F"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
-		}
-		{
-			x: 2.0d
-			y: 3.5d
 			shape: "diamond"
-			hide_dependency_lines: false
-			dependencies: ["44760B819EB3CA68"]
-			hide: true
-			id: "3D6FFE360BBED088"
 			tasks: [{
-				id: "60DD22BBD1056077"
-				type: "item"
+				id: "1DF8E3A079E13541"
 				item: {
-					id: "productivebees:configurable_honeycomb"
 					Count: 1b
+					id: "productivebees:configurable_honeycomb"
 					tag: {
 						EntityTag: {
-							type: "productivebees:unobtainium"
+							type: "productivebees:vibranium"
 						}
 					}
 				}
+				type: "item"
 			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44760B819EB3CA68"]
+			hide: true
+			hide_dependency_lines: false
+			id: "3D6FFE360BBED088"
 			rewards: [
 				{
 					id: "6DE21C164B4D377E"
@@ -873,180 +857,192 @@
 					xp: 100
 				}
 				{
-					id: "0F7489F110A30FF2"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "0F7489F110A30FF2"
 					table_id: 5564196992594175882L
+					type: "random"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "60DD22BBD1056077"
+				item: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:unobtainium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
 		}
 		{
-			x: 0.0d
-			y: 8.5d
-			shape: "hexagon"
 			dependencies: [
 				"44760B819EB3CA68"
 				"71A43C89EB13E9A0"
 			]
 			hide: true
 			id: "2DB81CE6F647D08A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E13E4065EE46FBC"
+				table_id: 5564196992594175882L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "7402ED40B70EE397"
-				type: "item"
 				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+				type: "item"
 			}]
-			rewards: [{
-				id: "4E13E4065EE46FBC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564196992594175882L
-			}]
+			x: 0.0d
+			y: 8.5d
 		}
 		{
-			x: 1.5d
-			y: 8.0d
-			shape: "hexagon"
 			dependencies: [
 				"44760B819EB3CA68"
 				"61FDABF2C7CC1F9D"
 			]
 			hide: true
 			id: "3E0A6D2FAEEF22A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B5B60F08F952B31"
+				table_id: 5564196992594175882L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "48EDC0316BE2986A"
-				type: "item"
 				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+				type: "item"
 			}]
-			rewards: [{
-				id: "0B5B60F08F952B31"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564196992594175882L
-			}]
+			x: 1.5d
+			y: 8.0d
 		}
 		{
-			x: -1.5d
-			y: 8.0d
-			shape: "hexagon"
 			dependencies: [
 				"71A43C89EB13E9A0"
 				"61FDABF2C7CC1F9D"
 			]
 			hide: true
 			id: "38135FFD9ED64395"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EFE94A1B3D54CCA"
+				table_id: 5564196992594175882L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "09214F39B42692F3"
-				type: "item"
 				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+				type: "item"
 			}]
-			rewards: [{
-				id: "3EFE94A1B3D54CCA"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 5564196992594175882L
-			}]
+			x: -1.5d
+			y: 8.0d
 		}
 		{
-			x: -0.7000000000000001d
-			y: 11.5d
-			shape: "pentagon"
-			hide_dependency_lines: false
 			dependencies: [
 				"2DB81CE6F647D08A"
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
 			hide: true
+			hide_dependency_lines: false
 			id: "7D3648FF86B0EB85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57239B6424179212"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "1BD4860E0CC120FC"
-				type: "item"
 				item: "allthemodium:alloy_sword"
+				type: "item"
 			}]
-			rewards: [{
-				id: "57239B6424179212"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 7025454341029952768L
-			}]
+			x: -0.7000000000000001d
+			y: 11.5d
 		}
 		{
-			x: 0.7000000000000001d
-			y: 11.5d
-			shape: "pentagon"
-			hide_dependency_lines: false
 			dependencies: [
 				"2DB81CE6F647D08A"
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
 			hide: true
+			hide_dependency_lines: false
 			id: "4881ABF8877BA572"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "699606E4614B1E28"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "7585EE207A816B28"
-				type: "item"
 				item: "allthemodium:alloy_axe"
+				type: "item"
 			}]
-			rewards: [{
-				id: "699606E4614B1E28"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 7025454341029952768L
-			}]
+			x: 0.7000000000000001d
+			y: 11.5d
 		}
 		{
-			x: -2.0d
-			y: 11.5d
-			shape: "pentagon"
-			hide_dependency_lines: false
 			dependencies: [
 				"2DB81CE6F647D08A"
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
 			hide: true
+			hide_dependency_lines: false
 			id: "4F84C91128C9DCED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D768F8F20884784"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "0068F0000541A6E9"
-				type: "item"
 				item: "allthemodium:alloy_pick"
+				type: "item"
 			}]
-			rewards: [{
-				id: "3D768F8F20884784"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 7025454341029952768L
-			}]
+			x: -2.0d
+			y: 11.5d
 		}
 		{
-			x: 2.0d
-			y: 11.5d
-			shape: "pentagon"
-			hide_dependency_lines: false
 			dependencies: [
 				"2DB81CE6F647D08A"
 				"38135FFD9ED64395"
 				"3E0A6D2FAEEF22A8"
 			]
 			hide: true
+			hide_dependency_lines: false
 			id: "2BD4E8494F2F43E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43087FBBFEB79B36"
+				table_id: 7025454341029952768L
+				type: "random"
+			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "4B44E545FE264B84"
-				type: "item"
 				item: "allthemodium:alloy_shovel"
+				type: "item"
 			}]
-			rewards: [{
-				id: "43087FBBFEB79B36"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 7025454341029952768L
-			}]
+			x: 2.0d
+			y: 11.5d
 		}
 		{
-			x: 0.0d
-			y: 10.000000000000002d
-			shape: "octagon"
-			hide_dependency_lines: false
 			dependencies: [
 				"4881ABF8877BA572"
 				"4F84C91128C9DCED"
@@ -1054,20 +1050,24 @@
 				"7D3648FF86B0EB85"
 			]
 			hide: true
-			size: 2.0d
+			hide_dependency_lines: false
 			id: "4AD2F0AC870672DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E68266B0C71E310"
+				table_id: 7175652334583451871L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "0E1B0C621A467BE0"
-				type: "item"
 				item: "allthemodium:alloy_paxel"
+				type: "item"
 			}]
-			rewards: [{
-				id: "7E68266B0C71E310"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 7175652334583451871L
-			}]
+			x: 0.0d
+			y: 10.000000000000002d
 		}
 	]
-	quest_links: [ ]
+	title: "&eAllthemodium"
 }
