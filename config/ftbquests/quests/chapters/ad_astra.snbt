@@ -16,18 +16,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 0.3d
-			hover: ["Needed for the ATM Star"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 4.1d
-			y: 4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.5d
 			hover: [ ]
 			image: "atm:textures/questpics/adastra/title.png"
