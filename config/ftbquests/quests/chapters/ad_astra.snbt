@@ -328,7 +328,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7AACBAD9546F2981"
-				table_id: 6573526605066559568L
 				type: "loot"
 			}]
 			tasks: [{
@@ -440,10 +439,8 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5511510CAEB44560"
-				table_id: 1160439751879588774L
 				type: "loot"
 			}]
-			size: 1.0d
 			tasks: [{
 				advancement: "ad_astra:interstellar"
 				criterion: ""
@@ -779,7 +776,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "0F8D50FF991778EE"
-					table_id: 6573526605066559568L
 					type: "loot"
 				}
 				{
@@ -1022,7 +1018,7 @@
 					item: {
 						Count: 1b
 						id: "ad_astra_giselle_addon:oxygen_can"
-						tag: { }
+						tag: {}
 					}
 					type: "item"
 				}
@@ -1034,11 +1030,12 @@
 						tag: {
 							StoredEnchantments: [{
 								id: "ad_astra_giselle_addon:space_breathing"
-								lvl: 1s
+								lvl: 1
 							}]
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "Don't Want To Use A Space Suit?"
