@@ -18,8 +18,11 @@
     "blue_skies",
     "botania",
     "ad_astra",
+    "hexcasting",
     "thermal_extra",
-    "undergarden"
+    "undergarden",
+    "productivebees",
+    "immersivepetroleum"
   ],
   "stoneStrata": [
     "stone",
@@ -43,7 +46,9 @@
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
     "forge:silicon",
-    "forge:rubber"
+    "forge:rubber",
+    "forge:bitumen",
+    "forge:wax"
   ],
   "materials": [
     "aeternium",
@@ -117,7 +122,12 @@
     "zinc"
   ],
   "priorityOverrides": {},
+  "customTags": {},
   "tagOwnerships": {},
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
   "ignoredTags": [],
   "ignoredItems": [],
   "ignoredRecipeTypes": [

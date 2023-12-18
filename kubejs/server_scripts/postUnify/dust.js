@@ -1,5 +1,6 @@
 // priority:950
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
+// Added to by Mitchell52
 
 ServerEvents.recipes(event => {
   if (global.devLogging) {
@@ -8,7 +9,8 @@ ServerEvents.recipes(event => {
 
   let dustCount = {
     occult: 0,
-    ftbic: 0
+    ftbic: 0,
+    immersive: 0
   }
 
   global.auTags.dusts.forEach(material => {
@@ -127,10 +129,65 @@ ServerEvents.recipes(event => {
         dustCount.ftbic++
       }
     }
+
+    // Immersive Crusher
+    if (global.loaded.IE_Loaded) {
+      let crush = {
+        ingot: false,
+        ore: false,
+        raw: false
+      }
+      event.forEachRecipe({ type: "immersiveengineering:crusher" }, recipe => {
+        let recipeJson = recipe.json
+        if (dust.equalsIgnoringCount(Item.of(recipeJson.get('result')))) {
+          let input = recipeJson.get('ingredient')
+          if (ingotTag.test(Ingredient.of(input))) {
+            crush.ingot = true
+          } else if (oreTag.test(Ingredient.of(input))) {
+            crush.ore = true
+          } else if (rawTag.test(Ingredient.of(input))) {
+            crush.raw = true
+          }
+        }
+      })
+      let recipe = {
+        type: "immersiveengineering:crusher",
+        energy: {},
+        input: {},
+        result: {},
+        secondaries: []
+      }
+      if (!ingotTag.getFirst().isEmpty() && !crush.ingot) {
+        let ingotRecipe = recipe
+        ingotRecipe.energy = 3000
+        ingotRecipe.input = ingotTag.toJson()
+        ingotRecipe.result = dust.withCount(1).toJson()
+        event.custom(ingotRecipe).id(`kubejs:immersiveengineering/crushing/${material}_dust_from_ingot`)
+        dustCount.immersive++
+      }
+      if (!oreTag.getFirst().isEmpty() && !crush.ore) {
+        let oreRecipe = recipe
+        oreRecipe.energy = 6000
+        oreRecipe.input = oreTag.toJson()
+        oreRecipe.result = dust.withCount(2).toJson()
+        event.custom(oreRecipe).id(`kubejs:immersiveengineering/crushing/${material}_dust`)
+        dustCount.immersive++
+      }
+      if (!rawTag.getFirst().isEmpty() && !crush.raw) {
+        let rawRecipe = recipe
+        rawRecipe.energy = 6000
+        rawRecipe.input = rawTag.toJson()
+        rawRecipe.result = dust.withCount(1).toJson()
+        rawRecipe.secondaries = [{chance: 0.33333334, output: dust.withCount(1).toJson()}]
+        event.custom(rawRecipe).id(`kubejs:immersiveengineering/crushing/${material}_dust_from_raw_material`)
+        dustCount.immersive++
+      }
+    }
+
   })
 
   if (global.devLogging) {
-    console.log(`Added Dust Recipes - FTBIC: ${dustCount.ftbic}, Occultism: ${dustCount.occult}`)
+    console.log(`Added Dust Recipes - FTBIC: ${dustCount.ftbic}, Occultism: ${dustCount.occult}, IE: ${dustCount.immersive},`)
     // Added Dust Recipes - FTBIC: 60, Occultism: 5
   }
 })

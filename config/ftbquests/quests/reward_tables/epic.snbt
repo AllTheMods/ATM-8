@@ -1,19 +1,15 @@
 {
-	id: "617F6D802ED0FD00"
-	order_index: 15
-	title: "&dEpic Reward"
 	icon: "lootr:lootr_chest"
+	id: "617F6D802ED0FD00"
 	loot_size: 1
-	use_title: true
+	order_index: 15
 	rewards: [
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3", weight: 3.0f }
-		{ item: "powah:thermo_generator_niotic" }
 		{ item: "powah:thermo_generator_spirited" }
 		{ item: "tempad:he_who_remains_tempad" }
 		{
 			item: {
-				id: "mekanism:elite_energy_cube"
 				Count: 1b
+				id: "mekanism:elite_energy_cube"
 				tag: {
 					mekData: {
 						EnergyContainers: [{
@@ -32,91 +28,96 @@
 		{ item: "ironfurnaces:netherite_furnace" }
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "potionsmaster:allthemodium_sight"
 				}
 			}
 		}
-		{ item: "ironfurnaces:emerald_furnace" }
 		{ item: "artifacts:eternal_steak" }
 		{ item: "artifacts:superstitious_hat" }
 		{ item: "artifacts:lucky_scarf" }
-		{ item: "apotheosis:sigil_of_socketing" }
+		{ item: "apotheosis:sigil_of_socketing", random_bonus: 1 }
 		{
 			item: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:fortune"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:efficiency"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:protection"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
 						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
 						id: "minecraft:sharpness"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
-				id: "quark:ancient_tome"
 				Count: 1b
+				id: "quark:ancient_tome"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 8s
 						id: "minecraft:fortune"
+						lvl: 8s
 					}]
 				}
 			}
 		}
 		{
 			item: {
-				id: "quark:ancient_tome"
 				Count: 1b
+				id: "quark:ancient_tome"
 				tag: {
 					StoredEnchantments: [{
-						lvl: 9s
 						id: "minecraft:efficiency"
+						lvl: 9s
 					}]
 				}
 			}
 		}
 		{ item: "mekanism:quantum_entangloporter" }
-		{ item: "apotheosis:epic_material", count: 2, random_bonus: 4, weight: 3.0f }
+		{ count: 4, item: "apotheosis:epic_material", random_bonus: 4, weight: 3.0f }
+		{
+			type: "xp_levels"
+			xp_levels: 50
+		}
 	]
+	title: "&dEpic Reward"
+	use_title: true
 }

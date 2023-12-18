@@ -1,0 +1,14 @@
+
+[controller]
+	#Whether the Controller uses energy
+	useEnergy = true
+	#The energy capacity of the Controller
+	#Range: > 0
+	capacity = 64000
+	#The base energy used by the Controller
+	#Range: > 0
+	baseUsage = 0
+	#The maximum energy that the Controller can receive
+	#Range: > 0
+	maxTransfer = 2147483647
+

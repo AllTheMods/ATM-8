@@ -1,3 +1,329 @@
+#
+## **1.1.0**
+Forge 43.2.14
+
+Changes, Additions, and fixes
+- Added 7 mods, see the added mods section for more information
+- Fix paxel tags to then fix beehive crafting, #762
+- Enable Hexerei Crows to harvest MA crops, #1389
+- Increase RS's default energy cap, #1389
+- Change the Apotheosis Boon drop table, #1602
+- Remove FunctionalStorage's Cheap drawers, #1663, #1747
+- Add more modded Fertilizers to the IE Garden Cloche, #813
+- Add a MA Kivi seed and recipe, #675
+- Remove 3rd eye from Tombstone's beneficial effects list, #1760
+- Add ATM Alloys to MythicBotany mana plate, #1609
+- Stop IF hammer from being able to be affixed, #1782
+- Fixed treated planks in Create filling, #1222
+- Resonating plate block to plates, #1611
+- Add MA and Quark scales to HNN dragon prediction, #1576
+- Add Pneumaticcraft and ImmersivePetroleum fuels to the Adv Generators mod and Thermal compression dynamo, #1681
+- Update AE2 screens for InventoryProfilesNext, #694
+- Unification Tweaks, and updates
+- Add missing Ore processing methods #843,#1779
+- Hidden almost all of the AE2 facades from JEI, they still exist though
+- Fixed Tetra not accepting ATO Brass
+
+Quests
+- Added Chapter 3 "The ATM Star"
+- Added Ad Astra questline
+- Added several new quest loot rewards
+- Reworked Random Rewards from loot drops
+- Reworked Rewards for Chapter 1 & 2
+- Reworked the start of the AE2 questline to make more sense
+- Added "Stars" to show some of the items needed for the Star in several chapters
+- Fixed some typos 
+
+Shaders Updated
+- ComplementaryReimagined_r5.0.1 --> r5.1.1
+- ComplementaryUnbound_r5.0.1 --> r5.1.1
+
+Mods Added
+- aecapfix-0.6
+- corail_woodcutter_extension_byg-1.19.2-1.0.3
+- ImmersivePetroleum-1.19.2-4.2.0-28
+- polyeng-forge-0.1.0-1.19.2
+- refinedpolymorph-0.1.0-1.19.2
+- stylecolonies-1.2.2
+- towntalk-1.19.2-1.0.1
+
+Mods Updated
+- Ad-Astra-Giselle-Addon-forge-1.19.2-1.19
+- AdditionalEnchantedMiner-1.19.2-1192.3.25
+- almostunified-forge-1.19.2-0.7.2
+- Apotheosis-1.19.2-6.4.1
+- Applied-Botanics-forge-1.4.6
+- ars_elemental-1.19.2-0.5.9.3.2
+- ars_nouveau-1.19.2-3.22.1
+- arsarmiger-1.19.2-1.6.0
+- BetterAdvancements-1.19.2-0.3.0.148
+- BetterF3-4.0.1-Forge-1.19.2
+- biggerreactors-1.19.2-0.6.0-beta.6.4
+- blockui-1.19.2-1.0.129-BETA
+- BotanyPots-Forge-1.19.2-9.0.41
+- BotanyTrees-Forge-1.19.2-5.0.14
+- cabletiers-1.19.2-0.6
+- clickadv-1.19.2-3.6
+- cofh_core-1.19.2-10.3.1.48
+- comforts-forge-6.0.6+1.19.2
+- connectedglass-1.1.9-forge-mc1.19
+- cookingforblockheads-forge-1.19.2-13.3.4
+- crafting-on-a-stick-1.19.2-1.1.2
+- craftingtweaks-forge-1.19.2-15.1.9
+- create-1.19.2-0.5.1.f
+- createaddition-1.19.2-1.2.1
+- ctov-3.2.6c
+- cupboard-1.19.2-2.1
+- curios-forge-1.19.2-5.1.4.3
+- CyclopsCore-1.19.2-1.18.11
+- deeperdarker-forge-1.19.2-1.2.2
+- Delightful-1.19.2-3.4.1
+- domum_ornamentum-1.19-1.0.146-BETA-universal
+- easy_villagers-1.19.2-1.0.17
+- eccentrictome-1.19.2-1.10.2
+- elevatorid-1.19.2-1.8.10
+- embeddium-0.2.13+mc1.19.2
+- EnchantmentDescriptions-Forge-1.19.2-13.0.16
+- enderchests-forge-1.19-1.10.8
+- endertanks-forge-1.19-1.12.9
+- EvilCraft-1.19.2-1.2.30
+- ExtraDisks-1.19.2-2.2.1
+- extremesoundmuffler-3.39-forge-1.19.2
+- farsight-1.19.2-3.6
+- ftb-essentials-forge-1902.3.4-build.109
+- ftb-quests-forge-1902.5.7-build.326
+- ftb-xmod-compat-forge-1.2.3
+- functionalstorage-1.19.2-1.1.9
+- fusion-1.1.0b-forge-mc1.19.2
+- harvestwithease-1.19.2-8.0.0.2-forge
+- IntegratedCrafting-1.19.2-1.1.5
+- IntegratedDynamics-1.19.2-1.20.2
+- IntegratedTerminals-1.19.2-1.4.11
+- InventoryProfilesNext-forge-1.19-1.10.9
+- JustEnoughResources-1.19.2-1.2.3.243
+- kubejs-forge-1902.6.2-build.45
+- libIPN-forge-1.19-4.0.1
+- mahoutsukai-1.19.2-v1.34.59
+- mcw-roofs-2.2.4b-mc1.19.2forge
+- mcw-trapdoors-1.1.2-mc1.19.2forge
+- minecolonies-1.19.2-1.1.352-BETA
+- modernfix-forge-5.10.1+mc1.19.2
+- moonlight-1.19.2-2.3.5-forge
+- multipiston-1.19.2-1.2.25-ALPHA
+- mutil-1.19.2-5.2.0
+- MysticalAgriculture-1.19.2-6.0.13
+- naturalist-forge-4.0.3-1.19.2
+- nomowanderer-1.19.2_1.3.12
+- occultism-1.19.2-1.88.1
+- Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.6
+- pipez-1.19.2-1.2.5
+- Placebo-1.19.2-7.3.4
+- platforms-forge-1.19-1.10.7
+- pneumaticcraft-repressurized-1.19.2-4.3.11-43
+- polymorph-forge-0.46.5+1.19.2
+- Quark-3.4-418
+- rechiseled-1.1.5c-forge-mc1.19.2
+- refinedstorage-1.11.7
+- repurposed_structures_forge-6.3.28+1.19.2
+- rftoolsutility-1.19-5.1.9
+- rhino-forge-1902.2.2-build.280
+- rsrequestify-1.19.2-2.3.1
+- saturn-mc1.19.2-0.0.10
+- shetiphiancore-forge-1.19-3.11.11
+- simplemagnets-1.1.10-forge-mc1.19
+- sophisticatedbackpacks-1.19.2-3.19.4.977
+- sophisticatedcore-1.19.2-0.5.109.516
+- sophisticatedstorage-1.19.2-0.8.54.670
+- SpitItOut-1.19.4-1.0.1
+- Steam_Rails-1.5.3+forge-mc1.19.2
+- structurize-1.19.2-1.0.665-BETA
+- Super Factory Manager-1.19.2-4.14.1
+- supermartijn642corelib-1.1.16-forge-mc1.19.2
+- supplementaries-1.19.2-2.4.13
+- TerraBlender-forge-1.19.2-2.0.1.166
+- tetra-1.19.2-5.6.0
+- tetrasdelight-1.19.2-2
+- ThermalExtra-3.0.5-1.19.2
+- waystones-forge-1.19.2-11.4.2
+- YungsApi-1.19.2-Forge-3.8.10
+- YungsBetterMineshafts-1.19.2-Forge-3.2.1
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
+#
+## **1.0.28**
+Forge 43.2.14
+
+Changes, Additions, and fixes
+- Swapped from Rubidium to Embeddium
+- Updated Complementary Shaders
+
+Shaders
+- Complementary v4.7.2 --> Complementary Unbound r5.0.1 (name changed, plus new features)
+- Complementary Reimagined_r2.2.1 --> r5.0.1
+
+Mods Added
+- Embeddium-0.1.15+mc1.19.2
+
+Mods Removed
+- Rubidium-mc1.19.2-0.6.2c.jar
+
+Mods Updated
+- AdditionalEnchantedMiner-1.19.2-1192.3.18
+- alchemistry-1.19.2-2.3.2
+- almostunified-forge-1.19.2-0.7.0
+- AngelRing2-1.19.2-2.1.8
+- Applied-Botanics-forge-1.4.5
+- ars_elemental-1.19.2-0.5.9.2.1
+- ars_nouveau-1.19.2-3.19.0
+- arseng-1.0.0
+- balm-forge-1.19.2-4.6.0
+- BotanyTrees-Forge-1.19.2-5.0.12
+- chemlib-1.19.2-2.0.18
+- clickadv-1.19.2-3.5
+- cofh_core-1.19.2-10.3.0.46
+- connectedglass-1.1.8-forge-mc1.19
+- connectivity-1.19.2-4.6
+- cookingforblockheads-forge-1.19.2-13.3.3
+- create-1.19.2-0.5.1.e
+- createaddition-1.19.2-1.1.1
+- ctov-3.2.6b
+- Cucumber-1.19.2-6.0.10
+- cupboard-1.19.2-2.0
+- enderchests-forge-1.19-1.10.7
+- endertanks-forge-1.19-1.12.8
+- ensorcellation-1.19.2-4.3.1.20
+- EvilCraft-1.19.2-1.2.28
+- farmingforblockheads-forge-1.19.2-11.3.5
+- farsight-1.19.2-3.5
+- FramedBlocks-6.8.6
+- ftb-quests-forge-1902.5.6-build.304
+- ftb-ranks-forge-1902.1.16-build.98
+- functionalstorage-1.19.2-1.1.7
+- fusion-1.0.6-forge-mc1.19.2
+- ImmersiveEngineering-1.19.2-9.2.3-167
+- IntegratedCrafting-1.19.2-1.1.4
+- IntegratedDynamics-1.19.2-1.19.1
+- IntegratedTunnels-1.19.2-1.8.23
+- inventoryessentials-forge-1.19.2-5.4.0
+- IronJetpacks-1.19.2-6.0.6
+- megacells-forge-2.0.4-1.19.2
+- minecolonies-1.19.2-1.1.194-BETA
+- modernfix-forge-5.7.4+mc1.19.2
+- moonlight-1.19.2-2.2.46-forge
+- MysticalAgriculture-1.19.2-6.0.12
+- occultism-1.19.2-1.88.0
+- oculus-mc1.19.2-1.6.9
+- Placebo-1.19.2-7.3.3
+- pneumaticcraft-repressurized-1.19.2-4.3.8-35
+- Quark-3.4-414
+- rechiseled-1.1.4a-forge-mc1.19.2
+- redstone_arsenal-1.19.2-7.3.0.20
+- shetiphiancore-forge-1.19-3.11.10
+- structure_gel-1.19.2-2.7.3
+- structurize-1.19.2-1.0.650-RELEASE
+- supermartijn642corelib-1.1.14-forge-mc1.19.2
+- systeams-1.19.2-1.5.0
+- tesseract-1.0.35a-forge-mc1.19
+- thermal_cultivation-1.19.2-10.3.0.19
+- thermal_dynamics-1.19.2-10.3.0.20
+- thermal_expansion-1.19.2-10.3.1.25
+- thermal_foundation-1.19.2-10.3.1.57
+- thermal_innovation-1.19.2-10.3.0.20
+- thermal_integration-1.19.2-10.3.0.19
+- thermal_locomotion-1.19.2-10.3.0.16
+- ThermalExtra-3.0.4-1.19.2
+- titanium-1.19.2-3.7.4-28
+- tombstone-8.2.12-1.19.2
+- trashslot-forge-1.19.2-12.1.0
+- YungsBetterOceanMonuments-1.19.2-Forge-2.1.1
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
+#
+## **1.0.27**
+
+Forge 43.2.14
+Hotfix to fix Iron Jetpacks and Mystical Customization seeds
+also updated three more mods, just because
+
+Mods Rolled Back
+- IronJetpacks-1.19.2-6.0.5---> 6.0.4
+- MysticalAgriculture-1.19.2-6.0.12---> 6.0.12
+
+Mods Updated
+- BotanyPots-Forge-1.19.2-9.0.38
+- functionalstorage-1.19.2-1.1.6
+- rechiseled-1.1.3-forge-mc1.19.2
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
+
+#
+## **1.0.26**
+
+Forge 43.2.14
+
+Changes, Additions, and fixes
+- Added missing thermal pulverising recipes for some ATM/ATO/Sgear ores
+- Fixed the Alloy paxel tagging for Apotheosis Affixes
+
+Quests
+- Added Occultism Questline
+- Fixed Mystical Ag questline for the new mod, fixes #1666
+
+Mods Updated 
+- Ad-Astra-Giselle-Addon-forge-1.19.2-1.18
+- AdditionalEnchantedMiner-1.19.2-1192.3.16
+- Apotheosis-1.19.2-6.4.0
+- Applied-Botanics-1.4.4
+- Applied-Mekanistics-1.3.5
+- appliedenergistics2-forge-12.9.8
+- ars_elemental-1.19.2-0.5.9.1.3
+- BotanyTrees-Forge-1.19.2-5.0.10
+- clickadv-1.19.2-3.4
+- create-1.19.2-0.5.1.c
+- Cucumber-1.19.2-6.0.8
+- cupboard-1.19.2-1.9
+- CyclopsCore-1.19.2-1.18.8
+- entangled-1.3.16-forge-mc1.19.2
+- EvilCraft-1.19.2-1.2.27
+- Exchangers-1.19.2-3.4.1
+- ftb-chunks-forge-1902.4.2-build.302
+- IntegratedDynamics-1.19.2-1.18.0
+- IntegratedTerminals-1.19.2-1.4.10
+- IntegratedTunnels-1.19.2-1.8.21
+- InventoryProfilesNext-forge-1.19-1.10.7
+- IronJetpacks-1.19.2-6.0.5
+- kubejs-forge-1902.6.2-build.3
+- libIPN-forge-1.19-4.0.0
+- megacells-forge-2.0.3-1.19.2
+- merequester-forge-1.19.2-1.1.4
+- minecolonies-1.19.2-1.1.151-BETA
+- mininggadgets-1.13.1
+- modernfix-forge-5.7.2+mc1.19.2
+- MysticalAgriculture-1.19.2-6.0.12
+- occultism-1.19.2-1.87.1
+- pipez-1.19.2-1.1.5
+- Powah-4.0.11
+- repurposed_structures_forge-6.3.26+1.19.2
+- rftoolsutility-1.19-5.1.8
+- rhino-forge-1902.2.2-build.272
+- SimpleBackups-1.19.1-2.1.10
+- sophisticatedbackpacks-1.19.2-3.18.58.907
+- sophisticatedcore-1.19.2-0.5.87.417
+- sophisticatedstorage-1.19.2-0.8.43.598
+- Steam_Rails-1.5.0+forge-mc1.19.2-build.13
+- structurize-1.19.2-1.0.630-RELEASE
+- supermartijn642configlib-1.1.8-forge-mc1.19
+- supplementaries-1.19.2-2.3.24
+- systeams-1.19.2-1.4.2
+- tetra-1.19.2-5.5.0
+
+Forge Version is 43.2.14
+>ALWAYS REMEMBER TO BACKUP BEFORE UPDATING
 
 #
 ## **1.0.25**

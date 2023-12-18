@@ -23,7 +23,9 @@ WorldgenEvents.remove(event => {
     "thermal:silver_ore",
     "thermal:sulfur_ore",
     "thermal:tin_ore",
-    "xycraft_world:ore_aluminum"
+    "xycraft_world:ore_aluminum",
+    "biggerreactors:uranium_ore",
+    "biggerreactors:deepslate_uranium_ore"
   ])
 })
 

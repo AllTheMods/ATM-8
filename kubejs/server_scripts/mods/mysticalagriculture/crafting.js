@@ -8,6 +8,8 @@ ServerEvents.recipes(event => {
   essenceCircle('allthemodium:unobtainium_nugget', 'unobtainium')
   essenceCircle('6x silentgear:azure_silver_ingot', 'azure_silver')
   essenceCircle('6x silentgear:crimson_iron_ingot', 'crimson_iron')
+  essenceCircle('6x xycraft_world:kivi', 'kivi')
+
 
   //magical soil crafting
   event.custom({

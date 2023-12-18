@@ -77,7 +77,30 @@
         "ignore": true
     },
     "de.mari_023.ae2wtlib.wct.WCTMenu": {
-        "ignore": true,
-        "playerSideOnly": true
+        "ignore": true
+    },
+    "appeng.client.gui.me.patternaccess.PatternAccessTermScreen": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.PatternAccessTermMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "ignore": true
+    },
+    "appeng.menu.me.items.PatternEncodingTermMenu": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wat.WATScreen": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wat.WATMenu": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wet.WETScreen": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wet.WETMenu": {
+        "ignore": true
     }
 }

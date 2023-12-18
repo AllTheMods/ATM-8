@@ -21,17 +21,21 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:unobtainium_seeds',
     'mysticalagriculture:vibranium_seeds',
   ])
+  event.add('forge:dusts', 'alltheores:netherite_dust')
+  event.add('forge:dusts/netherite', 'alltheores:netherite_dust')
+
+  event.remove('forge:shears', 'allthemodium:alloy_paxel')
   
   //Fix Mythicbotany tags
   event.add('forge:raw_materials/elementium', 'mythicbotany:raw_elementium')
   event.add('forge:storage_blocks/raw_elementium', 'mythicbotany:raw_elementium_block')
 
-  //temp byg fix until above 2.0.0.13
-  event.add('c:black_sand', '#forge:black_sand')
-  event.add('c:white_sand', '#forge:white_sand')
-  event.add('c:blue_sand', '#forge:blue_sand')
-  event.add('c:purple_sand', '#forge:purple_sand')
-  event.add('c:pink_sand', '#forge:pink_sand')
+  //Fix BYG recipe tags
+  event.add('c:sand/black', '#forge:black_sand')
+  event.add('c:sand/white', '#forge:white_sand')
+  event.add('c:sand/blue', '#forge:blue_sand')
+  event.add('c:sand/purple', '#forge:purple_sand')
+  event.add('c:sand/pink', '#forge:pink_sand')
 
   //xycraft RGB glass
   Color.DYE.keySet().forEach(color => {
@@ -66,6 +70,8 @@ ServerEvents.tags('block', event => {
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
+
+  event.add('hexerei:crow_harvestable',['#mysticalagriculture:crops'])
 })
 
 ServerEvents.tags('fluid', event => {
@@ -75,7 +81,8 @@ ServerEvents.tags('fluid', event => {
     'ad_astra:fuel','ad_astra:flowing_fuel',
     'hexerei:blood_flowing','hexerei:blood_fluid',
     'hexerei:tallow_flowing','hexerei:tallow_fluid',
-    'createaddition:flowing_seed_oil','createaddition:seed_oil'])
+    'createaddition:flowing_seed_oil','createaddition:seed_oil',
+    'createaddition:bioethanol','createaddition:flowing_bioethanol'])
 })
 
 ServerEvents.tags('entity_type', event => {

@@ -1,0 +1,7 @@
+{
+    "type": "advgenerators:liquid_fuel",
+    "fuel": {
+      "fluid": "immersivepetroleum:diesel"
+    },
+    "fePerMb": 1180
+  }
