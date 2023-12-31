@@ -282,6 +282,7 @@
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
