@@ -216,6 +216,15 @@ ServerEvents.recipes(event => {
   event.remove({id: 'functionalstorage:oak_drawer_alternate_x1'})
   event.remove({id: 'functionalstorage:oak_drawer_alternate_x2'})
   event.remove({id: 'functionalstorage:oak_drawer_alternate_x4'})
+
+  // Incorrect ore smelting/blasting output, fixed in 1.20 of DeeperDarker
+  event.remove({id: 'deeperdarker:raw_iron_from_blasting_gloomslate_iron_ore'})
+  event.remove({id: 'deeperdarker:raw_gold_from_blasting_gloomslate_gold_ore'})
+  event.remove({id: 'deeperdarker:raw_copper_from_blasting_gloomslate_copper_ore'})
+  event.remove({id: 'deeperdarker:raw_iron_from_smelting_gloomslate_iron_ore'})
+  event.remove({id: 'deeperdarker:raw_gold_from_smelting_gloomslate_gold_ore'})
+  event.remove({id: 'deeperdarker:raw_copper_from_smelting_gloomslate_copper_ore'})
+  
 })
 
 // convert abd blocks to quark on break
