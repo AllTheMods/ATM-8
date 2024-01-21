@@ -45,7 +45,7 @@ ServerEvents.tags('item', event => {
 
   //allow Minecolonies smelter to smelt all ores
   event.add('minecolonies:raw_ore', '#forge:raw_materials')
-  var ores = IngredientHelper.tag('forge:ores').itemIds
+  var ores = ArrayList(IngredientHelper.tag('forge:ores').itemIds)
   var exceptions = ['minecraft:ancient_debris', 'twilightforest:raw_ironwood', 'twilightforest:armor_shard_cluster', 'deepresonance:resonating_ore_deepslate', 'deepresonance:resonating_ore_end', 'deepresonance:resonating_ore_nether', 'deepresonance:resonating_ore_stone']
   ores.removeAll(exceptions)
   event.add("minecolonies:breakable_ore", ores)
