@@ -42,6 +42,14 @@ ServerEvents.tags('item', event => {
     event.remove(`forge:glass/${color}`, '@xycraft_world')
     event.remove(`forge:glass/brown`, '@xycraft_world')
   })
+
+  //allow Minecolonies smelter to smelt all ores
+  event.add('minecolonies:raw_ore', '#forge:raw_materials')
+  var ores = IngredientHelper.tag('forge:ores').itemIds
+  var exceptions = ['minecraft:ancient_debris', 'twilightforest:raw_ironwood', 'twilightforest:armor_shard_cluster', 'deepresonance:resonating_ore_deepslate', 'deepresonance:resonating_ore_end', 'deepresonance:resonating_ore_nether', 'deepresonance:resonating_ore_stone']
+  ores.removeAll(exceptions)
+  event.add("minecolonies:breakable_ore", ores)
+  event.add("minecolonies:raw_ore", exceptions)
 })
 
 ServerEvents.tags('block', event => {
